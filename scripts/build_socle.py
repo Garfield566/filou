@@ -3,7 +3,7 @@
 Run from the project root: .tools/venv/Scripts/python.exe -I scripts/build_socle.py
 
 Reads the game lexicon and the hand-kept lists in scripts/en-faux-amis.json and scripts/en-transparents.json.
-Writes src/strategie/content/en-socle.json: the socle, both lists, and the inflected forms found, so that
+Writes src/data/en-vocabulary.json: the socle, both lists, and the inflected forms found, so that
 the game resolves a form to its lemma with no network access.
 """
 import json
@@ -15,11 +15,11 @@ from simplemma import lemmatize
 from wordfreq import top_n_list, word_frequency
 
 ROOT = Path.cwd()
-LEXICON = ROOT / "src/strategie/content/en-lexicon.json"
+LEXICON = ROOT / "src/data/enLexicon.json"
 FALSE_FRIENDS = ROOT / "scripts/en-faux-amis.json"
 TRANSPARENTS = ROOT / "scripts/en-transparents.json"
 IRREGULAR_VERBS = ROOT / "src/data/irregularVerbs.ts"
-SOCLE = ROOT / "src/strategie/content/en-socle.json"
+SOCLE = ROOT / "src/data/en-vocabulary.json"
 
 SOCLE_SIZE = 1500
 VOCABULARY_SIZE = 50000

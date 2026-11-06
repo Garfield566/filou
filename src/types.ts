@@ -117,13 +117,13 @@ export interface VerbFamily {
 }
 
 export interface BankSentence {
-  /** Tatoeba id (`en-lex-<n>` for game sentences), used for credits and for hiding a bad sentence. */
+  /** Tatoeba id (`en-lex-<n>` for sentences written for the lexicon), used for credits and for hiding a bad sentence. */
   id: string;
   text: string;
   fr: string;
 }
 
-/** Vocabulary tables of the Strategy mode (GDD 10.1). Declared here so that course data needs nothing from `strategie/`. */
+/** Theme of a bank word, used to group the vocabulary tables. */
 export type LexicalField =
   | 'commerce'
   | 'guerre'

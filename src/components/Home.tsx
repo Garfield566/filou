@@ -20,7 +20,7 @@ interface Props {
   onReview: () => void;
   onBank: () => void;
   onOpenReference: () => void;
-  onOpenStrategie: () => void;
+  onOpenTables: () => void;
   onToggleTestMode: () => void;
   onReset: () => void;
   onSwitchCourse: (courseId: string) => void;
@@ -33,7 +33,7 @@ export function Home({
   onReview,
   onBank,
   onOpenReference,
-  onOpenStrategie,
+  onOpenTables,
   onToggleTestMode,
   onReset,
   onSwitchCourse,
@@ -125,12 +125,10 @@ export function Home({
         <small>Règles, tableaux, temps et verbes {course.id === 'de' ? 'forts' : 'irréguliers'}</small>
       </button>
 
-      {course.id === 'en' && (
-        <button className="reference-link" onClick={onOpenStrategie}>
-          <span>Mode Stratégie</span>
-          <small>Gouverne une colonie anglaise vers 1300, en anglais</small>
-        </button>
-      )}
+      <button className="reference-link" onClick={onOpenTables}>
+        <span>Mes tableaux</span>
+        <small>Vocabulaire et grammaire, avec l'état de chaque notion</small>
+      </button>
 
       {noHearts && (
         <p className="notice">

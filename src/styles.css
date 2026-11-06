@@ -949,3 +949,74 @@ textarea:focus-visible {
     transition: none !important;
   }
 }
+
+.tables h1 {
+  margin: 0;
+  font-size: 26px;
+}
+
+.tables h2 {
+  margin: 12px 0 0;
+  font-size: 20px;
+}
+
+.state-legend,
+.table-rows {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.state-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.state {
+  flex: none;
+  padding: 3px 9px;
+  border: 1px solid var(--muted);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.state-en_cours {
+  border-color: #e0a64b;
+  color: #e0a64b;
+}
+
+.state-maitrise {
+  border-color: #4fd1c5;
+  color: #4fd1c5;
+}
+
+.state-fissure {
+  border-color: #ef6f5e;
+  color: #ef6f5e;
+}
+
+.table-group summary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 12px;
+  padding: 12px 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.table-group small,
+.table-rows small {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.table-rows li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+}

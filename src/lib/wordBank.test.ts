@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { courseById } from '../data/courses';
-import enLexicon from '../strategie/content/en-lexicon.json';
+import enLexicon from '../data/enLexicon.json';
 import type { Exercise } from '../types';
 import { audioFile } from './audioFile';
 import { grade, tokenize } from './grade';

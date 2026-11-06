@@ -4,7 +4,6 @@ import { audioFile } from '../src/lib/audioFile';
 import { conjugate, spokenForm, tensesOf, verbNames } from '../src/lib/conjugation';
 import { grammarTarget } from '../src/lib/session';
 import { spokenVerb, verbFamilies } from '../src/lib/verbs';
-import { allGameTexts } from '../src/strategie/content';
 
 const entries = courses.flatMap((course) => {
   const texts = new Set<string>();
@@ -37,13 +36,6 @@ const entries = courses.flatMap((course) => {
   return [...texts].map((text) => ({ course: course.id, text, file: audioFile(text) }));
 });
 
-// The game lexicon is the bank of the English course, so it is already above.
-const courseTexts = new Set(entries.map((entry) => `${entry.course}:${entry.text}`));
-const gameEntries = [...new Set(allGameTexts().flatMap((text) => text.audio ?? []))]
-  .filter((text) => !courseTexts.has(`en:${text}`))
-  .map((text) => ({ course: 'en', text, file: audioFile(text) }));
-entries.push(...gameEntries);
-
 mkdirSync('.tools', { recursive: true });
 writeFileSync('.tools/audio-list.json', JSON.stringify(entries, null, 1));
-console.log(`${entries.length} textes exportés, dont ${gameEntries.length} du mode stratégie`);
+console.log(`${entries.length} textes exportés`);

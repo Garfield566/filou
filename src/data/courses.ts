@@ -1,4 +1,4 @@
-import enLexicon from '../strategie/content/en-lexicon.json';
+import enLexicon from './enLexicon.json';
 import type { BankWord, Course, GrammarLesson, Level, Unit } from '../types';
 import { englishUnits } from './english';
 import { englishAdvancedUnits } from './englishAdvanced';

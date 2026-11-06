@@ -1,8 +1,0 @@
-[
-  { "id": "ferme", "name": "Ferme", "cost": 5, "terrain": "champ", "produces": "ble", "amount": 2, "requires": null },
-  { "id": "bergerie", "name": "Bergerie", "cost": 5, "terrain": "paturage", "produces": "laine", "amount": 2, "requires": null },
-  { "id": "pecherie", "name": "Pêcherie", "cost": 5, "terrain": "cote", "produces": "poisson", "amount": 2, "requires": null },
-  { "id": "moulin", "name": "Moulin", "cost": 8, "terrain": null, "produces": "ble", "amount": 1, "requires": "village" },
-  { "id": "marche", "name": "Marché", "cost": 0, "terrain": null, "produces": null, "amount": 0, "requires": "recompense" },
-  { "id": "palissade", "name": "Palissade", "cost": 0, "terrain": null, "produces": null, "amount": 0, "requires": "recompense" }
-]
