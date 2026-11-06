@@ -1,11 +1,14 @@
+import { remember, type Memory } from './memory';
+
 export const MAX_HEARTS = 5;
 export const HEART_REGEN_MS = 30 * 60 * 1000;
 export const DAILY_GOAL_XP = 20;
 export const LESSON_XP = 10;
 export const PERFECT_BONUS_XP = 5;
 export const REPLAY_XP = 5;
+export const REVIEW_XP = 10;
 
-const STORAGE_KEY = 'filou.progress.v1';
+const STORAGE_KEY = 'filou.progress.v2';
 
 export interface Progress {
   xp: number;
@@ -17,6 +20,11 @@ export interface Progress {
   dailyXpDay: string | null;
   completedLessons: string[];
   activeCourse: string;
+  memory: Memory;
+  /** Opens every lesson and removes the hearts limit, to try the whole course. */
+  testMode: boolean;
+  /** Bank sentences the learner reported as bad, never shown again. */
+  hiddenSentences: string[];
 }
 
 export function initialProgress(now: number): Progress {
@@ -30,6 +38,9 @@ export function initialProgress(now: number): Progress {
     dailyXpDay: null,
     completedLessons: [],
     activeCourse: 'en',
+    memory: {},
+    testMode: true,
+    hiddenSentences: [],
   };
 }
 
@@ -61,24 +72,31 @@ export function refillHearts(progress: Progress, now: number): Progress {
   };
 }
 
-export function loseHeart(progress: Progress, now: number): Progress {
-  const current = refillHearts(progress, now);
-  return { ...current, hearts: Math.max(0, current.hearts - 1) };
-}
-
 export function msUntilNextHeart(progress: Progress, now: number): number {
   if (progress.hearts >= MAX_HEARTS) return 0;
   return Math.max(0, progress.heartsUpdatedAt + HEART_REGEN_MS - now);
 }
 
-export function completeLesson(
+export function recordAnswer(progress: Progress, itemIds: string[], correct: boolean, now: number): Progress {
+  const current = correct ? progress : refillHearts(progress, now);
+  const memory = { ...current.memory };
+  for (const id of itemIds) memory[id] = remember(memory[id], correct, now);
+  return {
+    ...current,
+    memory,
+    hearts: correct || current.testMode ? current.hearts : Math.max(0, current.hearts - 1),
+  };
+}
+
+export function completeSession(
   progress: Progress,
-  lessonId: string,
+  lessonId: string | null,
   perfect: boolean,
   now: number,
 ): { progress: Progress; xpGained: number } {
-  const alreadyDone = progress.completedLessons.includes(lessonId);
-  const xpGained = alreadyDone ? REPLAY_XP : LESSON_XP + (perfect ? PERFECT_BONUS_XP : 0);
+  const alreadyDone = lessonId !== null && progress.completedLessons.includes(lessonId);
+  let xpGained = REVIEW_XP;
+  if (lessonId !== null) xpGained = alreadyDone ? REPLAY_XP : LESSON_XP + (perfect ? PERFECT_BONUS_XP : 0);
   const today = dayKey(now);
 
   let streak = progress.streak;
@@ -95,9 +113,8 @@ export function completeLesson(
       lastActiveDay: today,
       dailyXp: visibleDailyXp(progress, now) + xpGained,
       dailyXpDay: today,
-      completedLessons: alreadyDone
-        ? progress.completedLessons
-        : [...progress.completedLessons, lessonId],
+      completedLessons:
+        lessonId === null || alreadyDone ? progress.completedLessons : [...progress.completedLessons, lessonId],
     },
   };
 }

@@ -1,26 +1,54 @@
 import { describe, expect, it } from 'vitest';
-import { isCorrect, normalize } from './grade';
-import type { Exercise } from '../types';
+import { grade, normalize, tokenize } from './grade';
 
-const exercise: Exercise = { kind: 'type', sentence: 'Je suis perdu.', answers: ['I am lost', "I'm lost"] };
-
-describe('grading', () => {
+describe('grade', () => {
   it('ignores case, punctuation, spacing and curly apostrophes', () => {
-    expect(isCorrect(exercise, '  i  AM lost!')).toBe(true);
-    expect(isCorrect(exercise, 'I’m lost.')).toBe(true);
+    expect(grade(['I am lost'], '  i  AM lost!')).toBe('correct');
+  });
+
+  it('treats contractions and full forms as the same answer', () => {
+    expect(grade(['I am lost'], 'I’m lost.')).toBe('correct');
+    expect(grade(["We don't know"], 'we do not know')).toBe('correct');
+    expect(grade(['She cannot swim'], "she can't swim")).toBe('correct');
+  });
+
+  it('keeps a possessive apostrophe-s intact', () => {
+    expect(normalize("Tom's bag")).toBe("tom's bag");
   });
 
   it('rejects wrong and empty answers', () => {
-    expect(isCorrect(exercise, 'I am last')).toBe(false);
-    expect(isCorrect(exercise, '   ')).toBe(false);
+    expect(grade(['I am lost'], 'I am last')).toBe('wrong');
+    expect(grade(['I am lost'], '   ')).toBe('wrong');
   });
 
-  it('removes accents', () => {
-    expect(normalize('Léa')).toBe('lea');
+  it('accepts German spelled without umlauts or ß', () => {
+    expect(grade(['Für zwei Nächte'], 'fur zwei nachte')).toBe('correct');
+    expect(grade(['Ich heiße Tom'], 'ich heisse tom')).toBe('correct');
   });
 
-  it('accepts German spelled without umlauts or ß, which French keyboards lack', () => {
-    expect(normalize('Für')).toBe('fur');
-    expect(normalize('Ich heiße Tom')).toBe(normalize('ich heisse tom'));
+  it('forgives a slip inside a long word only when asked', () => {
+    expect(grade(['I have a brother'], 'I have a brohter', { allowTypo: true })).toBe('typo');
+    expect(grade(['I have a brother'], 'I have a brohter')).toBe('wrong');
+  });
+
+  it('never treats short words or word endings as typos', () => {
+    const allowTypo = { allowTypo: true };
+    expect(grade(['She is my sister'], 'He is my sister', allowTypo)).toBe('wrong');
+    expect(grade(['Ich habe einen Bruder'], 'Ich habe einem Bruder', allowTypo)).toBe('wrong');
+    expect(grade(['Das ist meine Mutter'], 'Das ist meinen Mutter', allowTypo)).toBe('wrong');
+  });
+
+  it('requires umlauts when grammar depends on them', () => {
+    const exact = { exactAccents: true };
+    expect(grade(['hätte'], 'hatte', exact)).toBe('wrong');
+    expect(grade(['hätte'], 'hätte', exact)).toBe('correct');
+    expect(grade(['größer'], 'GRÖSSER', exact)).toBe('correct');
+  });
+});
+
+describe('tokenize', () => {
+  it('drops punctuation, including the spaced kind used in French', () => {
+    expect(tokenize('Hello, Tom!')).toEqual(['Hello', 'Tom']);
+    expect(tokenize("Comment t'appelles-tu ?")).toEqual(['Comment', "t'appelles-tu"]);
   });
 });
