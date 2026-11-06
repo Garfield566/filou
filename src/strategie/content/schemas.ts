@@ -48,19 +48,27 @@ export const gameTextSchema = z.object({
 export const clueSchema = z.object({
   id: z.string().min(1),
   level: z.enum(['A2', 'B1']),
-  /** Grammar lesson carrying the clue, such as `en-g-will`. */
+  /** Grammar lesson of the course (`lessonsOf`) carrying the clue, such as `en-g-conditional`. */
   ruleId: z.string().min(1),
   explanationFr: z.string().min(1),
 });
 
-export const letterSchema = z.object({
-  id: z.string().min(1),
-  from: z.string().min(1),
-  intention: z.enum(['honnete', 'hesitante', 'perfide']),
-  text: gameTextSchema,
-  clues: z.array(clueSchema),
-  replies: z.array(z.object({ id: z.string().min(1), text: gameTextSchema, effects: z.record(z.string(), z.number()) })).min(2),
-});
+export const letterSchema = z
+  .object({
+    id: z.string().min(1),
+    from: z.string().min(1),
+    intention: z.enum(['honnete', 'hesitante', 'perfide']),
+    text: gameTextSchema,
+    clues: z.array(clueSchema),
+    replies: z.array(z.object({ id: z.string().min(1), text: gameTextSchema, effects: z.record(z.string(), z.number()) })).min(2),
+  })
+  .superRefine((letter, context) => {
+    const clueIds = letter.clues.map((clue) => clue.id);
+    const carried = letter.text.segments.flatMap((segment) => segment.clueId ?? []);
+    const report = (message: string) => context.addIssue({ code: 'custom', message });
+    for (const id of carried) if (!clueIds.includes(id)) report(`Indice inconnu dans un segment : ${id}`);
+    for (const id of clueIds) if (!carried.includes(id)) report(`Indice porté par aucun segment : ${id}`);
+  });
 
 export const audienceSchema = z.object({
   id: z.string().min(1),
@@ -114,13 +122,16 @@ export const npcTemplateSchema = z.object({
   register: actSchema,
   traits: z.tuple([traitSchema, traitSchema]),
   ambition: z.string().min(1),
+  /** Colony level this NPC arrives at. Absent means from the start. */
+  arrivesAt: z.enum(['hameau', 'village']).optional(),
   description: gameTextSchema,
 });
 
 export const buildingSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
-  cost: z.number().int().positive(),
+  /** Zero for a building that only comes as a level reward. */
+  cost: z.number().int().nonnegative(),
   terrain: z.string().nullable(),
   produces: resourceSchema.nullable(),
   amount: z.number(),
@@ -143,14 +154,47 @@ export const technologySchema = z.object({
 export const balanceSchema = z.object({
   seasons: z.number().int().positive(),
   mapSize: z.number().int().positive(),
-  start: z.object({ deniers: z.number(), garrison: z.number(), loyalty: z.number() }),
+  map: z.object({ revealRadius: z.number().int().positive(), citySeparation: z.number().int().positive() }),
+  start: z.object({
+    deniers: z.number(),
+    garrison: z.number(),
+    loyalty: z.number(),
+    groupSizes: z.record(groupSchema, z.number().positive()),
+  }),
   income: z.object({ hameau: z.number(), village: z.number() }),
   villageNeeds: z.object({ ble: z.number(), poisson: z.number() }),
   rewards: z.object({ marcheDeniers: z.number(), palissadeDefense: z.number() }),
   technology: z.object({ tier1: z.number(), tier2: z.number(), masteredDiscount: z.number() }),
+  technologyEffects: z.object({
+    foireDeniers: z.number(),
+    ambassadeTrust: z.number(),
+    scriptoriumClergeLoyalty: z.number(),
+    interpretesCost: z.number(),
+    interpretesLoyalty: z.number(),
+    ecoleDictionary: z.number(),
+  }),
+  orders: z.object({ registerLoyaltyLoss: z.number(), greedSurcharge: z.number() }),
   stranger: z.object({ dictionary: z.number(), interpreterCost: z.number(), patience: z.number() }),
-  betrayal: z.object({ letterSeasons: z.array(z.number()), attackSeason: z.number(), attackStrength: z.number() }),
+  betrayal: z.object({
+    letterSeasons: z.array(z.number()),
+    attackSeason: z.number(),
+    attackStrength: z.number(),
+    /** Added to the defense once the treacherous passage was flagged in time. */
+    alertedDefense: z.number(),
+  }),
   bankruptcySeasons: z.number().int().positive(),
+});
+
+/** One text per `textId` the core reports. Its `{slots}` take the values the core puts in `Report.values`. */
+export const reportSchema = z.object({
+  textId: z.string().min(1),
+  text: gameTextSchema,
+});
+
+/** The core reports ids (`moulin`, `fonds`): these are the words that fill those `{slots}`, by id. */
+export const reportLabelsSchema = z.object({
+  batiment: z.record(z.string(), gameTextSchema),
+  raison: z.record(z.string(), gameTextSchema),
 });
 
 export const lexiconEntrySchema = z.object({
@@ -173,6 +217,8 @@ export type BuildingDef = z.infer<typeof buildingSchema>;
 export type TechnologyDef = z.infer<typeof technologySchema>;
 export type Balance = z.infer<typeof balanceSchema>;
 export type LexiconEntry = z.infer<typeof lexiconEntrySchema>;
+export type ReportTemplate = z.infer<typeof reportSchema>;
+export type ReportLabels = z.infer<typeof reportLabelsSchema>;
 export type Resource = z.infer<typeof resourceSchema>;
 export type PopulationGroup = z.infer<typeof groupSchema>;
 export type Act = z.infer<typeof actSchema>;

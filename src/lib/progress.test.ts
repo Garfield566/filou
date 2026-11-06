@@ -5,6 +5,7 @@ import {
   completeSession,
   initialProgress,
   recordAnswer,
+  recordReview,
   refillHearts,
   visibleDailyXp,
   visibleStreak,
@@ -80,5 +81,44 @@ describe('answers', () => {
     expect(later.hearts).toBe(2);
     expect(later.heartsUpdatedAt).toBe(noon + 2 * HEART_REGEN_MS);
     expect(refillHearts(empty, noon + 100 * HEART_REGEN_MS).hearts).toBe(MAX_HEARTS);
+  });
+});
+
+describe('game reviews', () => {
+  const seen = { a: { halfLifeDays: 4, lastSeen: noon } };
+  const later = noon + 8 * DAY;
+
+  it('applies each grade to the half-life', () => {
+    const progress = { ...initialProgress(noon), memory: seen };
+    expect(recordReview(progress, ['a'], 'good', later).memory.a).toEqual({ halfLifeDays: 8, lastSeen: later });
+    expect(recordReview(progress, ['a'], 'hard', later).memory.a).toEqual({ halfLifeDays: 4, lastSeen: later });
+    expect(recordReview(progress, ['a'], 'again', later).memory.a).toEqual({ halfLifeDays: 2, lastSeen: later });
+  });
+
+  it('creates the items it has never seen', () => {
+    const progress = initialProgress(noon);
+    expect(recordReview(progress, ['a'], 'good', noon).memory.a.halfLifeDays).toBe(0.5);
+    expect(recordReview(progress, ['a'], 'hard', noon).memory.a.halfLifeDays).toBe(0.5);
+    expect(recordReview(progress, ['a'], 'again', noon).memory.a.halfLifeDays).toBe(0.25);
+  });
+
+  it('counts an item listed twice as one review', () => {
+    const progress = { ...initialProgress(noon), memory: seen };
+    expect(recordReview(progress, ['a', 'a'], 'again', later).memory.a.halfLifeDays).toBe(2);
+  });
+
+  it('changes nothing but memory, even on a failure outside test mode', () => {
+    const progress = { ...initialProgress(noon), hearts: 2, testMode: false };
+    const { memory, ...rest } = recordReview(progress, ['a'], 'again', noon + 4 * HEART_REGEN_MS);
+    const { memory: before, ...expected } = progress;
+    expect(rest).toEqual(expected);
+    expect(Object.keys(memory)).toEqual(['a']);
+    expect(before).toEqual({});
+  });
+
+  it('leaves the original progress untouched', () => {
+    const progress = { ...initialProgress(noon), memory: seen };
+    recordReview(progress, ['a', 'b'], 'again', later);
+    expect(progress.memory).toEqual({ a: { halfLifeDays: 4, lastSeen: noon } });
   });
 });

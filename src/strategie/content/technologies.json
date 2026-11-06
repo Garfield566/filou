@@ -1,0 +1,11 @@
+[
+  { "id": "foire", "name": "Foire", "branch": "commerce", "tier": 1, "requires": null, "discountRuleId": "en-g-compare", "effect": "revenu", "available": true },
+  { "id": "corporations", "name": "Corporations", "branch": "commerce", "tier": 2, "requires": "foire", "discountRuleId": "en-g-causative", "effect": "atelier_drapier", "available": false },
+  { "id": "routes_maritimes", "name": "Routes maritimes", "branch": "commerce", "tier": 2, "requires": "foire", "discountRuleId": null, "effect": "saline_saloir", "available": false },
+  { "id": "ambassade", "name": "Ambassade", "branch": "diplomatie", "tier": 1, "requires": null, "discountRuleId": "en-g-conditional", "effect": "confiance_rivale", "available": true },
+  { "id": "espions", "name": "Espions", "branch": "diplomatie", "tier": 2, "requires": "ambassade", "discountRuleId": "en-g-reported", "effect": "interception_lettres", "available": false },
+  { "id": "alliances_matrimoniales", "name": "Alliances matrimoniales", "branch": "diplomatie", "tier": 2, "requires": "ambassade", "discountRuleId": null, "effect": "mariages", "available": false },
+  { "id": "scriptorium", "name": "Scriptorium", "branch": "savoir", "tier": 1, "requires": null, "discountRuleId": null, "effect": "loyaute_clerge", "available": true },
+  { "id": "interpretes", "name": "Interprètes", "branch": "savoir", "tier": 2, "requires": "scriptorium", "discountRuleId": null, "effect": "interprete", "available": true },
+  { "id": "ecole", "name": "École", "branch": "savoir", "tier": 2, "requires": "scriptorium", "discountRuleId": null, "effect": "dictionnaire", "available": true }
+]

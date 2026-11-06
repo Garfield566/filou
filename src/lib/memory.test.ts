@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { isDue, recall, remember } from './memory';
+import { isDue, recall, remember, rememberHard } from './memory';
 
 const DAY = 24 * 60 * 60 * 1000;
 
@@ -23,5 +23,19 @@ describe('memory', () => {
     const item = remember(undefined, true, 0);
     expect(isDue(item, DAY / 4)).toBe(false);
     expect(isDue(item, DAY)).toBe(true);
+  });
+
+  it('keeps the half-life on a hard answer and restarts the clock', () => {
+    expect(rememberHard({ halfLifeDays: 4, lastSeen: 0 }, 8 * DAY)).toEqual({ halfLifeDays: 4, lastSeen: 8 * DAY });
+  });
+
+  it('brings a due item back on a hard answer', () => {
+    const item = { halfLifeDays: 1, lastSeen: 0 };
+    expect(isDue(item, 3 * DAY)).toBe(true);
+    expect(isDue(rememberHard(item, 3 * DAY), 3 * DAY)).toBe(false);
+  });
+
+  it('starts a new item on a hard answer like a first success', () => {
+    expect(rememberHard(undefined, DAY)).toEqual(remember(undefined, true, DAY));
   });
 });

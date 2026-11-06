@@ -32,6 +32,11 @@ export function remember(previous: ItemMemory | undefined, correct: boolean, now
   return { halfLifeDays, lastSeen: now };
 }
 
+/** A hard success: memory neither grows nor weakens, but the clock restarts. */
+export function rememberHard(previous: ItemMemory | undefined, now: number): ItemMemory {
+  return { halfLifeDays: previous?.halfLifeDays ?? INITIAL_HALF_LIFE, lastSeen: now };
+}
+
 export function isDue(item: ItemMemory, now: number): boolean {
   return recall(item, now) < DUE_RECALL;
 }

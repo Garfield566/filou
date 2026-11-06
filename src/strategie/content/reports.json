@@ -1,0 +1,176 @@
+[
+ {
+  "textId": "rapport.recolte",
+  "text": {
+   "id": "rapport.recolte",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "This season we have {ble} "
+    },
+    {
+     "text": "wheat",
+     "wordId": "en:b:wheat"
+    },
+    {
+     "text": ", {poisson} fish and {laine} "
+    },
+    {
+     "text": "wool",
+     "wordId": "en:b:wool"
+    },
+    {
+     "text": ". The colony earned {deniers} "
+    },
+    {
+     "text": "pennies",
+     "wordId": "en:b:penny"
+    },
+    {
+     "text": "."
+    }
+   ],
+   "fr": "Cette saison, nous avons {ble} de blé, {poisson} de poisson et {laine} de laine. La colonie a gagné {deniers} deniers."
+  }
+ },
+ {
+  "textId": "rapport.village",
+  "text": {
+   "id": "rapport.village",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "Good news, my lord: our "
+    },
+    {
+     "text": "hamlet",
+     "wordId": "en:b:hamlet"
+    },
+    {
+     "text": " is now a village, and a "
+    },
+    {
+     "text": "merchant",
+     "wordId": "en:b:merchant"
+    },
+    {
+     "text": " has arrived!"
+    }
+   ],
+   "fr": "Bonne nouvelle, mon seigneur : notre hameau est maintenant un village, et un marchand est arrivé !",
+   "audio": "Good news, my lord: our hamlet is now a village, and a merchant has arrived!"
+  }
+ },
+ {
+  "textId": "rapport.chantier.fini",
+  "text": {
+   "id": "rapport.chantier.fini",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "The work is finished: the new {batiment} stands at {x}, {y}."
+    }
+   ],
+   "fr": "Le chantier est terminé : le nouveau bâtiment ({batiment}) se dresse en {x}, {y}."
+  }
+ },
+ {
+  "textId": "rapport.chantier.detourne",
+  "text": {
+   "id": "rapport.chantier.detourne",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "The {batiment} stands at {x}, {y}, but it cost {surcout} "
+    },
+    {
+     "text": "pennies",
+     "wordId": "en:b:penny"
+    },
+    {
+     "text": " more than the agreed price. Who has that money now?"
+    }
+   ],
+   "fr": "Le bâtiment ({batiment}) se dresse en {x}, {y}, mais il a coûté {surcout} deniers de plus que le prix convenu. Qui a cet argent maintenant ?"
+  }
+ },
+ {
+  "textId": "rapport.chantier.mal_execute",
+  "text": {
+   "id": "rapport.chantier.mal_execute",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "The men did not understand your order. The {batiment} is in the wrong place, and the money is gone."
+    }
+   ],
+   "fr": "Les hommes n'ont pas compris ton ordre. Le bâtiment ({batiment}) est au mauvais endroit, et l'argent est perdu."
+  }
+ },
+ {
+  "textId": "rapport.chantier.impossible",
+  "text": {
+   "id": "rapport.chantier.impossible",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "We cannot build the {batiment}: {raison}."
+    }
+   ],
+   "fr": "Nous ne pouvons pas construire ce bâtiment ({batiment}) : {raison}."
+  }
+ },
+ {
+  "textId": "rapport.ordre.precision",
+  "text": {
+   "id": "rapport.ordre.precision",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "{pnj} did not understand your order and asks you to say it more clearly. The work waits one more season."
+    }
+   ],
+   "fr": "{pnj} n'a pas compris ton ordre et te demande de le dire plus clairement. Le travail attend une saison de plus."
+  }
+ },
+ {
+  "textId": "rapport.siege.tenu",
+  "text": {
+   "id": "rapport.siege.tenu",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "The "
+    },
+    {
+     "text": "siege",
+     "wordId": "en:b:siege"
+    },
+    {
+     "text": " is over! The enemy came with a force of {attaque}, but our force of {defense} held the walls."
+    }
+   ],
+   "fr": "Le siège est terminé ! L'ennemi est venu avec une force de {attaque}, mais notre force de {defense} a tenu les murs."
+  }
+ },
+ {
+  "textId": "rapport.siege.perdu",
+  "text": {
+   "id": "rapport.siege.perdu",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "The "
+    },
+    {
+     "text": "siege",
+     "wordId": "en:b:siege"
+    },
+    {
+     "text": " is over. The enemy came with a force of {attaque}, and our force of {defense} was too small. The colony has fallen."
+    }
+   ],
+   "fr": "Le siège est terminé. L'ennemi est venu avec une force de {attaque}, et notre force de {defense} était trop petite. La colonie est tombée."
+  }
+ }
+]

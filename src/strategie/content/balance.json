@@ -1,0 +1,27 @@
+{
+  "seasons": 4,
+  "mapSize": 12,
+  "map": { "revealRadius": 2, "citySeparation": 6 },
+  "start": {
+    "deniers": 20,
+    "garrison": 4,
+    "loyalty": 50,
+    "groupSizes": { "paysans": 60, "marchands": 20, "clerge": 20 }
+  },
+  "income": { "hameau": 4, "village": 7 },
+  "villageNeeds": { "ble": 6, "poisson": 4 },
+  "rewards": { "marcheDeniers": 2, "palissadeDefense": 4 },
+  "technology": { "tier1": 6, "tier2": 9, "masteredDiscount": 0.25 },
+  "technologyEffects": {
+    "foireDeniers": 1,
+    "ambassadeTrust": 10,
+    "scriptoriumClergeLoyalty": 10,
+    "interpretesCost": 1,
+    "interpretesLoyalty": 10,
+    "ecoleDictionary": 1
+  },
+  "orders": { "registerLoyaltyLoss": 5, "greedSurcharge": 2 },
+  "stranger": { "dictionary": 3, "interpreterCost": 2, "patience": 5 },
+  "betrayal": { "letterSeasons": [2, 3], "attackSeason": 4, "attackStrength": 10, "alertedDefense": 8 },
+  "bankruptcySeasons": 2
+}

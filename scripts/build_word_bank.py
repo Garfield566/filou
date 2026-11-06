@@ -259,7 +259,7 @@ def main():
                     "fr": gloss,
                     "pos": info["pos"],
                     "plural": info.get("plural"),
-                    "sentences": [{"id": p["id"], "de": p["de"], "fr": p["fr"]} for p in chosen],
+                    "sentences": [{"id": p["id"], "text": p["de"], "fr": p["fr"]} for p in chosen],
                 }
             )
         if len(candidates) >= CANDIDATE_SIZE:

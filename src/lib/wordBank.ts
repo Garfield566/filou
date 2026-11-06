@@ -67,12 +67,12 @@ function produce(course: Course, item: Item, rng: Rng): Exercise {
 }
 
 function wordBank(course: Course, item: Item, sentence: BankSentence, rng: Rng): string[] {
-  const words = tokenize(sentence.de);
+  const words = tokenize(sentence.text);
   const taken = new Set(words.map((word) => normalize(word)));
   const extras: string[] = [];
   for (const other of shuffle(bankItems(course), rng)) {
     if (other.id === item.id) continue;
-    for (const word of tokenize(other.word!.sentences[0].de)) {
+    for (const word of tokenize(other.word!.sentences[0].text)) {
       if (extras.length < 3 && !taken.has(normalize(word))) {
         taken.add(normalize(word));
         extras.push(word);
@@ -90,10 +90,10 @@ function buildSentence(course: Course, item: Item, sentence: BankSentence, liste
     prompt: listen ? 'Écoute et reconstruis la phrase' : 'Traduis cette phrase',
     shown: listen ? undefined : sentence.fr,
     shownIsTarget: false,
-    audio: sentence.de,
+    audio: sentence.text,
     autoplay: listen,
     bank: wordBank(course, item, sentence, rng),
-    answers: [sentence.de],
+    answers: [sentence.text],
     why: listen ? `« ${sentence.fr} »` : undefined,
     sentenceId: sentence.id,
   };
@@ -117,9 +117,9 @@ function dictation(item: Item, sentence: BankSentence): Exercise {
     kind: 'type',
     itemIds: [item.id],
     prompt: 'Écris ce que tu entends',
-    audio: sentence.de,
+    audio: sentence.text,
     autoplay: true,
-    answers: [sentence.de],
+    answers: [sentence.text],
     why: `« ${sentence.fr} »`,
     sentenceId: sentence.id,
   };

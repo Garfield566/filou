@@ -1,0 +1,100 @@
+[
+ {
+  "id": "bailli",
+  "name": "Walter Ashby",
+  "role": "Bailli du village",
+  "color": "#7a5c2e",
+  "register": "ordre",
+  "traits": [
+   "loyal",
+   "prudent"
+  ],
+  "ambition": "Rester le seul maître du village après le mandat de l'émissaire.",
+  "description": {
+   "id": "pnj.bailli.description",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "Walter Ashby is the "
+    },
+    {
+     "text": "bailiff",
+     "wordId": "en:b:bailiff"
+    },
+    {
+     "text": " of the village. He knows every family and every field, and he is patient with foreign people."
+    }
+   ],
+   "fr": "Walter Ashby est le bailli du village. Il connaît chaque famille et chaque champ, et il est patient avec les étrangers.",
+   "audio": "Walter Ashby is the bailiff of the village. He knows every family and every field, and he is patient with foreign people."
+  }
+ },
+ {
+  "id": "interprete",
+  "name": "Aubin Marsh",
+  "role": "Interprète",
+  "color": "#3f6f8f",
+  "register": "ordre",
+  "traits": [
+   "ruse",
+   "cupide"
+  ],
+  "ambition": "S'enrichir en vendant ses services aux deux camps.",
+  "description": {
+   "id": "pnj.interprete.description",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "Aubin Marsh has a French father and an English mother. He is your "
+    },
+    {
+     "text": "interpreter",
+     "wordId": "en:b:interpreter"
+    },
+    {
+     "text": ", and he always knows the price of his help."
+    }
+   ],
+   "fr": "Aubin Marsh a un père français et une mère anglaise. Il est ton interprète, et il connaît toujours le prix de son aide.",
+   "audio": "Aubin Marsh has a French father and an English mother. He is your interpreter, and he always knows the price of his help."
+  }
+ },
+ {
+  "id": "marchand",
+  "name": "Godfrey Hale",
+  "role": "Marchand de laine",
+  "color": "#8f3f5a",
+  "register": "requete",
+  "traits": [
+   "cupide",
+   "ambitieux"
+  ],
+  "arrivesAt": "village",
+  "ambition": "Contrôler tout le commerce de la laine de la colonie.",
+  "description": {
+   "id": "pnj.marchand.description",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "Godfrey Hale is a "
+    },
+    {
+     "text": "wool",
+     "wordId": "en:b:wool"
+    },
+    {
+     "text": " "
+    },
+    {
+     "text": "merchant",
+     "wordId": "en:b:merchant"
+    },
+    {
+     "text": ". He is rich, he talks fast, and he never gives anything for free."
+    }
+   ],
+   "fr": "Godfrey Hale est un marchand de laine. Il est riche, il parle vite et il ne donne jamais rien gratuitement.",
+   "audio": "Godfrey Hale is a wool merchant. He is rich, he talks fast, and he never gives anything for free."
+  }
+ }
+]

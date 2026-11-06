@@ -1,0 +1,1052 @@
+[
+ {
+  "id": "lettre.honnete.commerce",
+  "from": "rival",
+  "intention": "honnete",
+  "text": {
+   "id": "lettre.honnete.commerce.texte",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "My friend, our town wants to trade with your colony. We will send two boats of wood to your port this spring, and we will pay a good price for your fish. Please answer before the end of the month. Your friends of the town council."
+    }
+   ],
+   "fr": "Mon ami, notre ville veut commercer avec votre colonie. Nous enverrons deux bateaux de bois à votre port ce printemps, et nous paierons un bon prix pour votre poisson. Répondez avant la fin du mois, s'il vous plaît. Vos amis du conseil de la ville.",
+   "audio": "My friend, our town wants to trade with your colony. We will send two boats of wood to your port this spring, and we will pay a good price for your fish. Please answer before the end of the month. Your friends of the town council."
+  },
+  "clues": [],
+  "replies": [
+   {
+    "id": "accepter",
+    "text": {
+     "id": "lettre.honnete.commerce.reponse.accepter",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Thank you. We accept your offer, and our fish will be ready for your boats."
+      }
+     ],
+     "fr": "Merci. Nous acceptons votre offre, et notre poisson sera prêt pour vos bateaux.",
+     "audio": "Thank you. We accept your offer, and our fish will be ready for your boats."
+    },
+    "effects": {
+     "trust": 5,
+     "deniers": 2,
+     "marchands": 3
+    }
+   },
+   {
+    "id": "refuser",
+    "text": {
+     "id": "lettre.honnete.commerce.reponse.refuser",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Thank you, but our fish must stay here this year. Our people need it."
+      }
+     ],
+     "fr": "Merci, mais notre poisson doit rester ici cette année. Nos gens en ont besoin.",
+     "audio": "Thank you, but our fish must stay here this year. Our people need it."
+    },
+    "effects": {
+     "trust": -3,
+     "paysans": 3
+    }
+   }
+  ]
+ },
+ {
+  "id": "lettre.honnete.frontiere",
+  "from": "rival",
+  "intention": "honnete",
+  "text": {
+   "id": "lettre.honnete.frontiere.texte",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "My friend, some of your people and some of our people fought near the border last week. We do not want trouble. We will "
+    },
+    {
+     "text": "punish",
+     "wordId": "en:b:punish"
+    },
+    {
+     "text": " our men, and we ask you to do the same. Peace is good for both towns."
+    }
+   ],
+   "fr": "Mon ami, certains de vos gens et certains des nôtres se sont battus près de la frontière la semaine dernière. Nous ne voulons pas d'ennuis. Nous punirons nos hommes, et nous vous demandons de faire de même. La paix est bonne pour nos deux villes.",
+   "audio": "My friend, some of your people and some of our people fought near the border last week. We do not want trouble. We will punish our men, and we ask you to do the same. Peace is good for both towns."
+  },
+  "clues": [],
+  "replies": [
+   {
+    "id": "punir",
+    "text": {
+     "id": "lettre.honnete.frontiere.reponse.punir",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "We agree. We will "
+      },
+      {
+       "text": "punish",
+       "wordId": "en:b:punish"
+      },
+      {
+       "text": " our men too, and there will be peace between us."
+      }
+     ],
+     "fr": "Nous sommes d'accord. Nous punirons aussi nos hommes, et il y aura la paix entre nous.",
+     "audio": "We agree. We will punish our men too, and there will be peace between us."
+    },
+    "effects": {
+     "trust": 5,
+     "paysans": -2
+    }
+   },
+   {
+    "id": "defendre",
+    "text": {
+     "id": "lettre.honnete.frontiere.reponse.defendre",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Our men did nothing wrong. Look after your own people."
+      }
+     ],
+     "fr": "Nos hommes n'ont rien fait de mal. Occupez-vous de vos propres gens.",
+     "audio": "Our men did nothing wrong. Look after your own people."
+    },
+    "effects": {
+     "trust": -5,
+     "fear": 3,
+     "paysans": 3
+    }
+   }
+  ]
+ },
+ {
+  "id": "lettre.honnete.pont",
+  "from": "rival",
+  "intention": "honnete",
+  "text": {
+   "id": "lettre.honnete.pont.texte",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "My friend, the spring rain broke the bridge on the road between our towns. We will send six workers and a load of stone next week. Can you send food for them? They will finish the work in ten days."
+    }
+   ],
+   "fr": "Mon ami, la pluie de printemps a cassé le pont sur la route entre nos villes. Nous enverrons six ouvriers et un chargement de pierre la semaine prochaine. Pouvez-vous envoyer de la nourriture pour eux ? Ils finiront le travail en dix jours.",
+   "audio": "My friend, the spring rain broke the bridge on the road between our towns. We will send six workers and a load of stone next week. Can you send food for them? They will finish the work in ten days."
+  },
+  "clues": [],
+  "replies": [
+   {
+    "id": "nourrir",
+    "text": {
+     "id": "lettre.honnete.pont.reponse.nourrir",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Yes, we will feed your workers, and thank you for the stone."
+      }
+     ],
+     "fr": "Oui, nous nourrirons vos ouvriers, et merci pour la pierre.",
+     "audio": "Yes, we will feed your workers, and thank you for the stone."
+    },
+    "effects": {
+     "deniers": -2,
+     "trust": 4,
+     "marchands": 2
+    }
+   },
+   {
+    "id": "decliner",
+    "text": {
+     "id": "lettre.honnete.pont.reponse.decliner",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "We cannot feed them this month. We have very little food."
+      }
+     ],
+     "fr": "Nous ne pouvons pas les nourrir ce mois-ci. Nous avons très peu de nourriture.",
+     "audio": "We cannot feed them this month. We have very little food."
+    },
+    "effects": {
+     "trust": -2,
+     "paysans": 2
+    }
+   }
+  ]
+ },
+ {
+  "id": "lettre.honnete.alerte",
+  "from": "rival",
+  "intention": "honnete",
+  "text": {
+   "id": "lettre.honnete.alerte.texte",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "My friend, our guards saw armed men on the hills north of your colony. We do not know who they are. We will keep our soldiers at the border, and we will tell you everything we learn. Keep your "
+    },
+    {
+     "text": "gates",
+     "wordId": "en:b:gate"
+    },
+    {
+     "text": " closed at night."
+    }
+   ],
+   "fr": "Mon ami, nos gardes ont vu des hommes armés sur les collines au nord de votre colonie. Nous ne savons pas qui ils sont. Nous garderons nos soldats à la frontière, et nous vous dirons tout ce que nous apprendrons. Gardez vos portes fermées la nuit.",
+   "audio": "My friend, our guards saw armed men on the hills north of your colony. We do not know who they are. We will keep our soldiers at the border, and we will tell you everything we learn. Keep your gates closed at night."
+  },
+  "clues": [],
+  "replies": [
+   {
+    "id": "remercier",
+    "text": {
+     "id": "lettre.honnete.alerte.reponse.remercier",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Thank you for this news. Our guards will watch the hills too."
+      }
+     ],
+     "fr": "Merci pour cette nouvelle. Nos gardes surveilleront aussi les collines.",
+     "audio": "Thank you for this news. Our guards will watch the hills too."
+    },
+    "effects": {
+     "trust": 4,
+     "deniers": -1
+    }
+   },
+   {
+    "id": "ecarter",
+    "text": {
+     "id": "lettre.honnete.alerte.reponse.ecarter",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "We can watch our own hills. Keep your soldiers on your side of the border."
+      }
+     ],
+     "fr": "Nous pouvons surveiller nos collines nous-mêmes. Gardez vos soldats de votre côté de la frontière.",
+     "audio": "We can watch our own hills. Keep your soldiers on your side of the border."
+    },
+    "effects": {
+     "trust": -3,
+     "fear": 3
+    }
+   }
+  ]
+ },
+ {
+  "id": "lettre.honnete.fete",
+  "from": "rival",
+  "intention": "honnete",
+  "text": {
+   "id": "lettre.honnete.fete.texte",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "My friend, next Sunday is a great day for our church, and all our people will come to the market. We invite you and your family. You will have a safe road and a warm welcome. We will "
+    },
+    {
+     "text": "pray",
+     "wordId": "en:b:pray"
+    },
+    {
+     "text": " for peace between our towns."
+    }
+   ],
+   "fr": "Mon ami, dimanche prochain est un grand jour pour notre église, et tous nos gens viendront au marché. Nous vous invitons avec votre famille. Vous aurez une route sûre et un accueil chaleureux. Nous prierons pour la paix entre nos villes.",
+   "audio": "My friend, next Sunday is a great day for our church, and all our people will come to the market. We invite you and your family. You will have a safe road and a warm welcome. We will pray for peace between our towns."
+  },
+  "clues": [],
+  "replies": [
+   {
+    "id": "venir",
+    "text": {
+     "id": "lettre.honnete.fete.reponse.venir",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Thank you. We will come with a gift for your church."
+      }
+     ],
+     "fr": "Merci. Nous viendrons avec un cadeau pour votre église.",
+     "audio": "Thank you. We will come with a gift for your church."
+    },
+    "effects": {
+     "deniers": -2,
+     "trust": 4,
+     "clerge": 4
+    }
+   },
+   {
+    "id": "excuser",
+    "text": {
+     "id": "lettre.honnete.fete.reponse.excuser",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Thank you, but we have too much work here this month."
+      }
+     ],
+     "fr": "Merci, mais nous avons trop de travail ici ce mois-ci.",
+     "audio": "Thank you, but we have too much work here this month."
+    },
+    "effects": {
+     "trust": -2,
+     "paysans": 2
+    }
+   }
+  ]
+ },
+ {
+  "id": "lettre.hesitante.conseil",
+  "from": "rival",
+  "intention": "hesitante",
+  "text": {
+   "id": "lettre.hesitante.conseil.texte",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "My friend, our council met on Monday, but it has not decided yet. Some members want more trade with you. Others fear your soldiers. We need more time. We will write again when the council meets next month."
+    }
+   ],
+   "fr": "Mon ami, notre conseil s'est réuni lundi, mais il n'a pas encore décidé. Certains membres veulent plus de commerce avec vous. D'autres craignent vos soldats. Il nous faut plus de temps. Nous écrirons de nouveau quand le conseil se réunira le mois prochain.",
+   "audio": "My friend, our council met on Monday, but it has not decided yet. Some members want more trade with you. Others fear your soldiers. We need more time. We will write again when the council meets next month."
+  },
+  "clues": [],
+  "replies": [
+   {
+    "id": "patienter",
+    "text": {
+     "id": "lettre.hesitante.conseil.reponse.patienter",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "We understand. Take your time, and tell us what your council decides."
+      }
+     ],
+     "fr": "Nous comprenons. Prenez votre temps, et dites-nous ce que votre conseil décide.",
+     "audio": "We understand. Take your time, and tell us what your council decides."
+    },
+    "effects": {
+     "trust": 3,
+     "marchands": -1
+    }
+   },
+   {
+    "id": "presser",
+    "text": {
+     "id": "lettre.hesitante.conseil.reponse.presser",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "We cannot wait for ever. Please give us an answer soon."
+      }
+     ],
+     "fr": "Nous ne pouvons pas attendre éternellement. Donnez-nous vite une réponse, je vous prie.",
+     "audio": "We cannot wait for ever. Please give us an answer soon."
+    },
+    "effects": {
+     "trust": -2,
+     "fear": 3
+    }
+   }
+  ]
+ },
+ {
+  "id": "lettre.hesitante.prix",
+  "from": "rival",
+  "intention": "hesitante",
+  "text": {
+   "id": "lettre.hesitante.prix.texte",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "My friend, you ask about the price of our wood. We do not know it yet. The winter was hard, prices change every week, and our workers are not sure how many trees they can cut. Ask us again after the spring rain."
+    }
+   ],
+   "fr": "Mon ami, vous demandez le prix de notre bois. Nous ne le savons pas encore. L'hiver a été dur, les prix changent chaque semaine, et nos ouvriers ne savent pas combien d'arbres ils peuvent couper. Redemandez-nous après la pluie de printemps.",
+   "audio": "My friend, you ask about the price of our wood. We do not know it yet. The winter was hard, prices change every week, and our workers are not sure how many trees they can cut. Ask us again after the spring rain."
+  },
+  "clues": [],
+  "replies": [
+   {
+    "id": "attendre",
+    "text": {
+     "id": "lettre.hesitante.prix.reponse.attendre",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "We will wait, and we will ask again in the spring."
+      }
+     ],
+     "fr": "Nous attendrons, et nous redemanderons au printemps.",
+     "audio": "We will wait, and we will ask again in the spring."
+    },
+    "effects": {
+     "trust": 2,
+     "marchands": -2
+    }
+   },
+   {
+    "id": "ailleurs",
+    "text": {
+     "id": "lettre.hesitante.prix.reponse.ailleurs",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Thank you, but we will look for wood in another town."
+      }
+     ],
+     "fr": "Merci, mais nous chercherons du bois dans une autre ville.",
+     "audio": "Thank you, but we will look for wood in another town."
+    },
+    "effects": {
+     "trust": -3,
+     "deniers": -1,
+     "marchands": 3
+    }
+   }
+  ]
+ },
+ {
+  "id": "lettre.hesitante.paix",
+  "from": "rival",
+  "intention": "hesitante",
+  "text": {
+   "id": "lettre.hesitante.paix.texte",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "My friend, we read your offer of peace. It is a good offer, but I am not sure that all the members of the council agree with me. Some of them remember the old war. Please do not ask for an answer this season."
+    }
+   ],
+   "fr": "Mon ami, nous avons lu votre offre de paix. C'est une bonne offre, mais je ne suis pas sûr que tous les membres du conseil soient d'accord avec moi. Certains se souviennent de la vieille guerre. S'il vous plaît, ne demandez pas de réponse cette saison.",
+   "audio": "My friend, we read your offer of peace. It is a good offer, but I am not sure that all the members of the council agree with me. Some of them remember the old war. Please do not ask for an answer this season."
+  },
+  "clues": [],
+  "replies": [
+   {
+    "id": "respecter",
+    "text": {
+     "id": "lettre.hesitante.paix.reponse.respecter",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "We understand. Our offer stays open for the next season."
+      }
+     ],
+     "fr": "Nous comprenons. Notre offre reste ouverte pour la saison prochaine.",
+     "audio": "We understand. Our offer stays open for the next season."
+    },
+    "effects": {
+     "trust": 4,
+     "fear": -2
+    }
+   },
+   {
+    "id": "retirer",
+    "text": {
+     "id": "lettre.hesitante.paix.reponse.retirer",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Then our offer ends today. Peace does not wait."
+      }
+     ],
+     "fr": "Alors notre offre prend fin aujourd'hui. La paix n'attend pas.",
+     "audio": "Then our offer ends today. Peace does not wait."
+    },
+    "effects": {
+     "trust": -4,
+     "fear": 4
+    }
+   }
+  ]
+ },
+ {
+  "id": "lettre.hesitante.maladie",
+  "from": "rival",
+  "intention": "hesitante",
+  "text": {
+   "id": "lettre.hesitante.maladie.texte",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "My friend, we have not forgotten your letter. Our "
+    },
+    {
+     "text": "mayor",
+     "wordId": "en:b:mayor"
+    },
+    {
+     "text": " is sick, and nobody wants to decide anything without him. We hope that he gets better soon. Until then, we cannot say yes, and we cannot say no."
+    }
+   ],
+   "fr": "Mon ami, nous n'avons pas oublié votre lettre. Notre maire est malade, et personne ne veut rien décider sans lui. Nous espérons qu'il ira vite mieux. D'ici là, nous ne pouvons dire ni oui ni non.",
+   "audio": "My friend, we have not forgotten your letter. Our mayor is sick, and nobody wants to decide anything without him. We hope that he gets better soon. Until then, we cannot say yes, and we cannot say no."
+  },
+  "clues": [],
+  "replies": [
+   {
+    "id": "souhaiter",
+    "text": {
+     "id": "lettre.hesitante.maladie.reponse.souhaiter",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "We are sorry for this news. We will "
+      },
+      {
+       "text": "pray",
+       "wordId": "en:b:pray"
+      },
+      {
+       "text": " for your "
+      },
+      {
+       "text": "mayor",
+       "wordId": "en:b:mayor"
+      },
+      {
+       "text": "."
+      }
+     ],
+     "fr": "Cette nouvelle nous attriste. Nous prierons pour votre maire.",
+     "audio": "We are sorry for this news. We will pray for your mayor."
+    },
+    "effects": {
+     "trust": 3,
+     "clerge": 2
+    }
+   },
+   {
+    "id": "douter",
+    "text": {
+     "id": "lettre.hesitante.maladie.reponse.douter",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Your town has a council. Please answer us without him."
+      }
+     ],
+     "fr": "Votre ville a un conseil. Répondez-nous sans lui, je vous prie.",
+     "audio": "Your town has a council. Please answer us without him."
+    },
+    "effects": {
+     "trust": -3,
+     "fear": 2
+    }
+   }
+  ]
+ },
+ {
+  "id": "lettre.hesitante.port",
+  "from": "rival",
+  "intention": "hesitante",
+  "text": {
+   "id": "lettre.hesitante.port.texte",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "My friend, your people ask to use our port. It is not an easy question. Our own boats need the space, and our "
+    },
+    {
+     "text": "fishermen",
+     "wordId": "en:b:fisherman"
+    },
+    {
+     "text": " are not happy. We will talk about it again, but we promise nothing today."
+    }
+   ],
+   "fr": "Mon ami, vos gens demandent à utiliser notre port. Ce n'est pas une question facile. Nos propres bateaux ont besoin de la place, et nos pêcheurs ne sont pas contents. Nous en reparlerons, mais nous ne promettons rien aujourd'hui.",
+   "audio": "My friend, your people ask to use our port. It is not an easy question. Our own boats need the space, and our fishermen are not happy. We will talk about it again, but we promise nothing today."
+  },
+  "clues": [],
+  "replies": [
+   {
+    "id": "payer",
+    "text": {
+     "id": "lettre.hesitante.port.reponse.payer",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "We can pay for the space. Tell us your price."
+      }
+     ],
+     "fr": "Nous pouvons payer pour la place. Dites-nous votre prix.",
+     "audio": "We can pay for the space. Tell us your price."
+    },
+    "effects": {
+     "deniers": -3,
+     "trust": 3,
+     "marchands": 3
+    }
+   },
+   {
+    "id": "renoncer",
+    "text": {
+     "id": "lettre.hesitante.port.reponse.renoncer",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "We understand. We will keep our boats at home this year."
+      }
+     ],
+     "fr": "Nous comprenons. Nous garderons nos bateaux chez nous cette année.",
+     "audio": "We understand. We will keep our boats at home this year."
+    },
+    "effects": {
+     "trust": 2,
+     "marchands": -3
+    }
+   }
+  ]
+ },
+ {
+  "id": "lettre.perfide.soldats",
+  "from": "rival",
+  "intention": "perfide",
+  "text": {
+   "id": "lettre.perfide.soldats.texte",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "My friend, the roads are not safe this year, so let us stand together. "
+    },
+    {
+     "text": "We would send you our best soldiers",
+     "clueId": "indice.soldats"
+    },
+    {
+     "text": " in any trouble. You do not need new walls, and you do not need more guards. Keep your money for your people."
+    }
+   ],
+   "fr": "Mon ami, les routes ne sont pas sûres cette année, alors restons unis. Nous vous enverrions nos meilleurs soldats en cas d'ennui. Vous n'avez pas besoin de nouveaux murs, ni de plus de gardes. Gardez votre argent pour vos gens.",
+   "audio": "My friend, the roads are not safe this year, so let us stand together. We would send you our best soldiers in any trouble. You do not need new walls, and you do not need more guards. Keep your money for your people."
+  },
+  "clues": [
+   {
+    "id": "indice.soldats",
+    "level": "A2",
+    "ruleId": "en-g-conditional",
+    "explanationFr": "« We would send » au lieu de « We will send » : le conditionnel décrit ce qu'ils feraient, il ne promet rien. Un allié sincère écrit « will »."
+   }
+  ],
+  "replies": [
+   {
+    "id": "croire",
+    "text": {
+     "id": "lettre.perfide.soldats.reponse.croire",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Thank you, friend. We trust your soldiers, and we will build no new walls."
+      }
+     ],
+     "fr": "Merci, ami. Nous faisons confiance à vos soldats, et nous ne construirons pas de nouveaux murs.",
+     "audio": "Thank you, friend. We trust your soldiers, and we will build no new walls."
+    },
+    "effects": {
+     "trust": 6,
+     "deniers": 2,
+     "paysans": -2
+    }
+   },
+   {
+    "id": "prudence",
+    "text": {
+     "id": "lettre.perfide.soldats.reponse.prudence",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Thank you. All the same, our guards will stay on the walls."
+      }
+     ],
+     "fr": "Merci. Nos gardes resteront tout de même sur les murs.",
+     "audio": "Thank you. All the same, our guards will stay on the walls."
+    },
+    "effects": {
+     "trust": -3,
+     "fear": 3,
+     "deniers": -1
+    }
+   }
+  ]
+ },
+ {
+  "id": "lettre.perfide.marche",
+  "from": "rival",
+  "intention": "perfide",
+  "text": {
+   "id": "lettre.perfide.marche.texte",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "My friend, our two towns have one heart. "
+    },
+    {
+     "text": "We would open our market to you",
+     "clueId": "indice.marche"
+    },
+    {
+     "text": ", and every door in our town is your door. Please send us a list of your guards, so that our captain knows your men."
+    }
+   ],
+   "fr": "Mon ami, nos deux villes n'ont qu'un seul cœur. Nous vous ouvririons notre marché, et chaque porte de notre ville est votre porte. Envoyez-nous la liste de vos gardes, s'il vous plaît, pour que notre capitaine connaisse vos hommes.",
+   "audio": "My friend, our two towns have one heart. We would open our market to you, and every door in our town is your door. Please send us a list of your guards, so that our captain knows your men."
+  },
+  "clues": [
+   {
+    "id": "indice.marche",
+    "level": "A2",
+    "ruleId": "en-g-conditional",
+    "explanationFr": "« We would open » au lieu de « We will open » : le conditionnel décrit ce qu'ils feraient, il ne promet rien. Un allié sincère écrit « will »."
+   }
+  ],
+  "replies": [
+   {
+    "id": "liste",
+    "text": {
+     "id": "lettre.perfide.marche.reponse.liste",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Here is the list of our guards. We are happy to be your friends."
+      }
+     ],
+     "fr": "Voici la liste de nos gardes. Nous sommes heureux d'être vos amis.",
+     "audio": "Here is the list of our guards. We are happy to be your friends."
+    },
+    "effects": {
+     "trust": 6,
+     "marchands": 2,
+     "paysans": -3
+    }
+   },
+   {
+    "id": "garder",
+    "text": {
+     "id": "lettre.perfide.marche.reponse.garder",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Open your market first. Our list of guards stays with us."
+      }
+     ],
+     "fr": "Ouvrez d'abord votre marché. Notre liste de gardes reste chez nous.",
+     "audio": "Open your market first. Our list of guards stays with us."
+    },
+    "effects": {
+     "trust": -3,
+     "fear": 3
+    }
+   }
+  ]
+ },
+ {
+  "id": "lettre.perfide.grain",
+  "from": "rival",
+  "intention": "perfide",
+  "text": {
+   "id": "lettre.perfide.grain.texte",
+   "level": "A2",
+   "segments": [
+    {
+     "text": "My friend, I hear that your "
+    },
+    {
+     "text": "harvest",
+     "wordId": "en:b:harvest"
+    },
+    {
+     "text": " was poor, and I am sad for your people. "
+    },
+    {
+     "text": "We would give you food",
+     "clueId": "indice.grain"
+    },
+    {
+     "text": " this winter, as friends do. Open your port to our boats, and do not fear them. Friends have no need of guards."
+    }
+   ],
+   "fr": "Mon ami, j'apprends que votre récolte a été mauvaise, et j'en suis triste pour vos gens. Nous vous donnerions de la nourriture cet hiver, comme le font les amis. Ouvrez votre port à nos bateaux et ne les craignez pas. Les amis n'ont pas besoin de gardes.",
+   "audio": "My friend, I hear that your harvest was poor, and I am sad for your people. We would give you food this winter, as friends do. Open your port to our boats, and do not fear them. Friends have no need of guards."
+  },
+  "clues": [
+   {
+    "id": "indice.grain",
+    "level": "A2",
+    "ruleId": "en-g-conditional",
+    "explanationFr": "« We would give » au lieu de « We will give » : le conditionnel décrit ce qu'ils feraient, il ne promet rien. Un allié sincère écrit « will »."
+   }
+  ],
+  "replies": [
+   {
+    "id": "ouvrir",
+    "text": {
+     "id": "lettre.perfide.grain.reponse.ouvrir",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Thank you. Our port is open to your boats, and our guards will go home."
+      }
+     ],
+     "fr": "Merci. Notre port est ouvert à vos bateaux, et nos gardes rentreront chez eux.",
+     "audio": "Thank you. Our port is open to your boats, and our guards will go home."
+    },
+    "effects": {
+     "trust": 6,
+     "paysans": 3,
+     "deniers": -1
+    }
+   },
+   {
+    "id": "fermer",
+    "text": {
+     "id": "lettre.perfide.grain.reponse.fermer",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Thank you, but we will see your food before we open our port."
+      }
+     ],
+     "fr": "Merci, mais nous verrons votre nourriture avant d'ouvrir notre port.",
+     "audio": "Thank you, but we will see your food before we open our port."
+    },
+    "effects": {
+     "trust": -3,
+     "fear": 2,
+     "paysans": -2
+    }
+   }
+  ]
+ },
+ {
+  "id": "lettre.perfide.circonstances",
+  "from": "rival",
+  "intention": "perfide",
+  "text": {
+   "id": "lettre.perfide.circonstances.texte",
+   "level": "B1",
+   "segments": [
+    {
+     "text": "My friend, your request for help has reached us, and our answer is warm. "
+    },
+    {
+     "text": "Subject to circumstances",
+     "clueId": "indice.circonstances"
+    },
+    {
+     "text": ", our soldiers stand with you, and the council sends you its respect. There is no need to prepare for war this season."
+    }
+   ],
+   "fr": "Mon ami, votre demande d'aide nous est parvenue, et notre réponse est chaleureuse. Sous réserve des circonstances, nos soldats sont à vos côtés, et le conseil vous adresse son respect. Il n'est pas nécessaire de préparer la guerre cette saison.",
+   "audio": "My friend, your request for help has reached us, and our answer is warm. Subject to circumstances, our soldiers stand with you, and the council sends you its respect. There is no need to prepare for war this season."
+  },
+  "clues": [
+   {
+    "id": "indice.circonstances",
+    "level": "B1",
+    "ruleId": "en-g-conditional",
+    "explanationFr": "« Subject to circumstances » (« sous réserve des circonstances ») : cette condition vague annule la promesse. Ils pourront toujours dire que les circonstances ont changé."
+   }
+  ],
+  "replies": [
+   {
+    "id": "detendre",
+    "text": {
+     "id": "lettre.perfide.circonstances.reponse.detendre",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Thank you. We trust you, and we will not prepare for war."
+      }
+     ],
+     "fr": "Merci. Nous vous faisons confiance, et nous ne préparerons pas la guerre.",
+     "audio": "Thank you. We trust you, and we will not prepare for war."
+    },
+    "effects": {
+     "trust": 6,
+     "deniers": 2,
+     "clerge": 1
+    }
+   },
+   {
+    "id": "preciser",
+    "text": {
+     "id": "lettre.perfide.circonstances.reponse.preciser",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Which circumstances? Please tell us how many soldiers you will send, and when."
+      }
+     ],
+     "fr": "Quelles circonstances ? Dites-nous combien de soldats vous enverrez, et quand.",
+     "audio": "Which circumstances? Please tell us how many soldiers you will send, and when."
+    },
+    "effects": {
+     "trust": -3,
+     "fear": 3
+    }
+   }
+  ]
+ },
+ {
+  "id": "lettre.perfide.examen",
+  "from": "rival",
+  "intention": "perfide",
+  "text": {
+   "id": "lettre.perfide.examen.texte",
+   "level": "B1",
+   "segments": [
+    {
+     "text": "My friend, our council has read your letter with great interest. "
+    },
+    {
+     "text": "We may consider",
+     "clueId": "indice.examen"
+    },
+    {
+     "text": " your offer of trade when the time is right. For now, please keep your "
+    },
+    {
+     "text": "gates",
+     "wordId": "en:b:gate"
+    },
+    {
+     "text": " open and send your soldiers home to their fields."
+    }
+   ],
+   "fr": "Mon ami, notre conseil a lu votre lettre avec grand intérêt. Nous pourrions examiner votre offre de commerce quand le moment sera venu. Pour l'instant, gardez vos portes ouvertes, je vous prie, et renvoyez vos soldats chez eux, à leurs champs.",
+   "audio": "My friend, our council has read your letter with great interest. We may consider your offer of trade when the time is right. For now, please keep your gates open and send your soldiers home to their fields."
+  },
+  "clues": [
+   {
+    "id": "indice.examen",
+    "level": "B1",
+    "ruleId": "en-g-should",
+    "explanationFr": "« We may consider » (« nous pourrions examiner ») : ce verbe de modalité n'engage à rien. Ils ne promettent même pas de répondre, mais te demandent d'agir tout de suite."
+   }
+  ],
+  "replies": [
+   {
+    "id": "renvoyer",
+    "text": {
+     "id": "lettre.perfide.examen.reponse.renvoyer",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "We will send our soldiers home, and we will wait for your answer."
+      }
+     ],
+     "fr": "Nous renverrons nos soldats chez eux, et nous attendrons votre réponse.",
+     "audio": "We will send our soldiers home, and we will wait for your answer."
+    },
+    "effects": {
+     "trust": 5,
+     "paysans": 4,
+     "deniers": 1
+    }
+   },
+   {
+    "id": "retenir",
+    "text": {
+     "id": "lettre.perfide.examen.reponse.retenir",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Our soldiers will stay until your council gives us a clear answer."
+      }
+     ],
+     "fr": "Nos soldats resteront jusqu'à ce que votre conseil nous donne une réponse claire.",
+     "audio": "Our soldiers will stay until your council gives us a clear answer."
+    },
+    "effects": {
+     "trust": -3,
+     "fear": 3,
+     "paysans": -2
+    }
+   }
+  ]
+ },
+ {
+  "id": "lettre.perfide.signature",
+  "from": "rival",
+  "intention": "perfide",
+  "text": {
+   "id": "lettre.perfide.signature.texte",
+   "level": "B1",
+   "segments": [
+    {
+     "text": "My friend, you ask us to sign an agreement of peace, and we are happy to talk. "
+    },
+    {
+     "text": "If circumstances allow, we may sign",
+     "clueId": "indice.signature"
+    },
+    {
+     "text": " it in the spring. Until then, please do not move your soldiers to the border, because that is bad for peace."
+    }
+   ],
+   "fr": "Mon ami, vous nous demandez de signer un accord de paix, et nous sommes heureux d'en parler. Si les circonstances le permettent, nous pourrions le signer au printemps. D'ici là, ne déplacez pas vos soldats vers la frontière, je vous prie, car c'est mauvais pour la paix.",
+   "audio": "My friend, you ask us to sign an agreement of peace, and we are happy to talk. If circumstances allow, we may sign it in the spring. Until then, please do not move your soldiers to the border, because that is bad for peace."
+  },
+  "clues": [
+   {
+    "id": "indice.signature",
+    "level": "B1",
+    "ruleId": "en-g-conditional",
+    "explanationFr": "« If circumstances allow, we may sign » (« si les circonstances le permettent, nous pourrions signer ») : la condition reste vague, « may » retire toute promesse, et on vous demande pourtant de reculer dès maintenant."
+   }
+  ],
+  "replies": [
+   {
+    "id": "reculer",
+    "text": {
+     "id": "lettre.perfide.signature.reponse.reculer",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "We will keep our soldiers away from the border until the spring."
+      }
+     ],
+     "fr": "Nous tiendrons nos soldats loin de la frontière jusqu'au printemps.",
+     "audio": "We will keep our soldiers away from the border until the spring."
+    },
+    "effects": {
+     "trust": 5,
+     "deniers": 2,
+     "paysans": 1
+    }
+   },
+   {
+    "id": "exiger",
+    "text": {
+     "id": "lettre.perfide.signature.reponse.exiger",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Sign now, and our soldiers will stay away from the border."
+      }
+     ],
+     "fr": "Signez maintenant, et nos soldats resteront loin de la frontière.",
+     "audio": "Sign now, and our soldiers will stay away from the border."
+    },
+    "effects": {
+     "trust": -2,
+     "fear": 4,
+     "marchands": -1
+    }
+   }
+  ]
+ }
+]

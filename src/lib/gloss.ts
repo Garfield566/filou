@@ -19,6 +19,8 @@ function dictionaryOf(course: Course): Map<string, string> {
     }
   }
   for (const word of course.bank) {
+    // A game word carries its meaning in the game: "fair" is a market there, not in a lesson.
+    if (word.domain) continue;
     const key = tokenize(word.target).filter((part) => !articles.has(normalize(part))).join(' ');
     if (!dictionary.has(normalize(key))) dictionary.set(normalize(key), word.fr);
   }

@@ -1,3 +1,4 @@
+import enLexicon from '../strategie/content/en-lexicon.json';
 import type { BankWord, Course, GrammarLesson, Level, Unit } from '../types';
 import { englishUnits } from './english';
 import { englishAdvancedUnits } from './englishAdvanced';
@@ -56,7 +57,7 @@ export const courses: Course[] = [
     specialKeys: [],
     articles: ['a', 'an', 'the', 'to'],
     foundation: [...englishUnits, ...englishLaterUnits.slice(0, 2)],
-    bank: [],
+    bank: enLexicon as BankWord[],
     units: [
       raisedTo(withIrregularVerbsFirst(unitById(englishLaterUnits, 'en-experience')), 'B1'),
       raisedTo(unitById(englishLaterUnits, 'en-explain'), 'B1'),

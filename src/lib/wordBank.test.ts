@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { courseById } from '../data/courses';
+import enLexicon from '../strategie/content/en-lexicon.json';
 import type { Exercise } from '../types';
 import { audioFile } from './audioFile';
 import { grade, tokenize } from './grade';
@@ -46,12 +47,21 @@ describe('word bank content', () => {
   });
 
   it('gives every text its own audio file', () => {
-    const texts = new Set(items.flatMap((item) => [item.target, ...item.word!.sentences.map((s) => s.de)]));
+    const texts = new Set(items.flatMap((item) => [item.target, ...item.word!.sentences.map((s) => s.text)]));
     expect(new Set([...texts].map(audioFile)).size).toBe(texts.size);
   });
 
-  it('is empty for English until a bank exists', () => {
-    expect(bankItems(courseById('en'))).toEqual([]);
+  it('holds the game lexicon for English, with a lexical field for every word', () => {
+    const english = bankItems(courseById('en'));
+    expect(english.map((item) => item.word)).toEqual(enLexicon);
+    expect(english[0].id).toBe('en:b:wheat');
+    expect(english.filter((item) => !item.word!.domain)).toEqual([]);
+  });
+
+  it('gives every English text its own audio file', () => {
+    const items = bankItems(courseById('en'));
+    const texts = new Set(items.flatMap((item) => [item.target, ...item.word!.sentences.map((s) => s.text)]));
+    expect(new Set([...texts].map(audioFile)).size).toBe(texts.size);
   });
 });
 
@@ -103,6 +113,16 @@ describe('word bank sessions', () => {
     for (const item of bankItems(german).slice(0, 80)) {
       for (const halfLifeDays of [0.5, 3, 30]) {
         expectSolvable(bankExercise(german, item, { [item.id]: { halfLifeDays, lastSeen: now } }, new Set()));
+      }
+    }
+  });
+
+  it('builds solvable sessions from the English lexicon', () => {
+    const english = courseById('en');
+    buildBankSession(english, {}, new Set(), now).forEach(expectSolvable);
+    for (const item of bankItems(english)) {
+      for (const halfLifeDays of [0.5, 3, 30]) {
+        expectSolvable(bankExercise(english, item, { [item.id]: { halfLifeDays, lastSeen: now } }, new Set()));
       }
     }
   });

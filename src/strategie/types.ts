@@ -49,6 +49,8 @@ export interface OrderError {
   type: string;
   segment: string;
   gravite: ErrorSeverity;
+  /** Ids of the notions at fault, taken from the order's `itemIds` and `ruleIds`. Absent: the whole order answers for it. */
+  notionIds?: string[];
 }
 
 /** The only form of order the core understands, whatever way it was written. */
@@ -148,7 +150,7 @@ export interface ReceivedLetter {
   letterId: string;
   season: number;
   replyId: string | null;
-  /** Indexes of the segments the player marked as suspicious. */
+  /** The segment the player marked as suspicious: one at most, and final. */
   flagged: number[];
 }
 
@@ -170,6 +172,8 @@ export interface OrderRecord {
   order: StructuredOrder;
   /** Fired during the season's resolution. */
   executed: boolean;
+  /** The NPC asked for a clarification: `season` moved one on, the imprecision no longer counts. */
+  delayed: boolean;
 }
 
 export type DefeatCause = 'revolte' | 'faillite' | 'ville_prise';
@@ -187,6 +191,8 @@ export interface GameState {
   rng: number;
   season: number;
   phase: SeasonPhase;
+  /** Set by `startSeason`, which must come before the reports can be left. */
+  seasonStarted: boolean;
   map: GameMap;
   colony: Colony;
   npcs: Npc[];
@@ -197,6 +203,10 @@ export interface GameState {
   orders: OrderRecord[];
   reports: Report[];
   dictionaryLeft: number;
+  /** Word ids looked up, shown in clear for the rest of the game. */
+  revealedWords: string[];
+  /** Text ids the interpreter has translated. */
+  translatedTexts: string[];
   profile: LanguageProfile;
   /** Waiting to be sent to Filou's review tables by the code around the core. */
   languageEvents: LanguageEvent[];
@@ -214,7 +224,9 @@ export type GameAction =
   | { type: 'useInterpreter'; textId: string }
   | { type: 'buyTechnology'; technologyId: string }
   | { type: 'chooseReward'; reward: VillageReward }
-  | { type: 'endSeason' };
+  | { type: 'endSeason' }
+  /** Drops the first `count` language events once sent. Still allowed after the outcome. */
+  | { type: 'ackLanguageEvents'; count: number };
 
 /** Filled from `content/` so the core stays free of JSON imports. */
 export interface GameRules {
@@ -224,10 +236,30 @@ export interface GameRules {
   npcs: import('./content/schemas').NpcTemplate[];
   letters: import('./content/schemas').LetterTemplate[];
   audiences: import('./content/schemas').AudienceTemplate[];
+  /** Plugged in by `ai/` and the assembly code. Without them: no treason, no letter, no audience. */
+  hooks?: GameHooks;
 }
 
 export interface RivalDecision {
   action: 'commercer' | 'attendre' | 'menacer' | 'trahir';
   intention: LetterIntention;
   scores: Record<string, number>;
+}
+
+/** What reaches the colony this season, by template id. */
+export interface SeasonContent {
+  letterIds: string[];
+  audienceIds: string[];
+}
+
+/**
+ * `decideRival` and `pickSeasonContent` are called by `startSeason`, the rival first so
+ * its letters can follow its intention. Each receives the generator state and hands back
+ * the advanced one. No hook may change the state it reads.
+ */
+export interface GameHooks {
+  decideRival?: (state: GameState, rng: number) => { decision: RivalDecision; rng: number };
+  pickSeasonContent?: (state: GameState, rng: number) => { content: SeasonContent; rng: number };
+  /** Shows a text as the learner reads it, so a blot cannot be flagged. Without it, nothing is blotted. */
+  maskText?: (text: GameText, state: GameState) => VisibleSegment[];
 }

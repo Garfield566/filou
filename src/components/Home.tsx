@@ -169,11 +169,18 @@ export function Home({
         </section>
       ))}
 
-      {course.bank.length > 0 && (
+      {course.id === 'de' && (
         <p className="credits">
           Phrases : <a href="https://tatoeba.org">Tatoeba</a> (CC BY 2.0 FR,{' '}
           <a href={`${import.meta.env.BASE_URL}credits/tatoeba-de.tsv`}>liste des auteurs</a>). Sens et genres :{' '}
           <a href="https://fr.wiktionary.org">Wiktionnaire</a> (CC BY-SA).
+        </p>
+      )}
+
+      {course.id === 'en' && (
+        <p className="credits">
+          Mots fréquents du mode Stratégie : <a href="https://github.com/rspeer/wordfreq">wordfreq</a> (données CC BY-SA
+          4.0).
         </p>
       )}
     </div>

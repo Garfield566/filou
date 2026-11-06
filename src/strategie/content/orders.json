@@ -1,0 +1,2685 @@
+[
+ {
+  "id": "ordre.ferme.relatif",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "ferme",
+  "ruleId": "en-g-relatives",
+  "frenchIntent": "Ordonne au bailli de construire une ferme sur le champ qui est près de la rivière.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.ferme.relatif.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a farm on the field which is near the river."
+      }
+     ],
+     "fr": "Construis une ferme sur le champ qui est près de la rivière.",
+     "audio": "Build a farm on the field which is near the river."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.ferme.relatif.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a farm on the field who is near the river."
+      }
+     ],
+     "fr": "Construis une ferme sur le champ qui est près de la rivière."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "relatif",
+    "explanationFr": "« Who » renvoie à des personnes. Pour une chose, on emploie « which » ou « that »."
+   },
+   {
+    "text": {
+     "id": "ordre.ferme.relatif.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a firm on the field which is near the river."
+      }
+     ],
+     "fr": "Construis une entreprise sur le champ qui est près de la rivière."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "confusion_de_mots",
+    "explanationFr": "« Firm » veut dire « entreprise ». La ferme, c'est « farm »."
+   },
+   {
+    "text": {
+     "id": "ordre.ferme.relatif.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Would you build a farm on the field which is near the river?"
+      }
+     ],
+     "fr": "Pourriez-vous construire une ferme sur le champ qui est près de la rivière ?"
+    },
+    "correct": false,
+    "gravite": "mauvais_registre",
+    "errorType": "registre",
+    "explanationFr": "Le bailli est ton subordonné : l'ordre se donne à l'impératif. Une demande polie ou une supplique te fait perdre de l'autorité."
+   }
+  ],
+  "blocks": [
+   "Build a farm",
+   "on the field",
+   "which is",
+   "near the river."
+  ],
+  "distractorBlocks": [
+   "who is",
+   "Build a firm",
+   "near of the river"
+  ]
+ },
+ {
+  "id": "ordre.ferme.comparatif",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "ferme",
+  "ruleId": "en-g-compare",
+  "frenchIntent": "Demande au bailli une ferme plus solide que la dernière.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.ferme.comparatif.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a farm stronger than the last one."
+      }
+     ],
+     "fr": "Construis une ferme plus solide que la dernière.",
+     "audio": "Build a farm stronger than the last one."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.ferme.comparatif.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a farm more strong than the last one."
+      }
+     ],
+     "fr": "Construis une ferme plus solide que la dernière."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "comparatif",
+    "explanationFr": "Un adjectif court prend -er : « stronger », et non « more strong »."
+   },
+   {
+    "text": {
+     "id": "ordre.ferme.comparatif.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a farm stronger that the last one."
+      }
+     ],
+     "fr": "Construis une ferme plus solide que la dernière."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "comparatif",
+    "explanationFr": "Après un comparatif, « que » se dit « than », et non « that »."
+   },
+   {
+    "text": {
+     "id": "ordre.ferme.comparatif.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a farm smaller than the last one."
+      }
+     ],
+     "fr": "Construis une ferme plus petite que la dernière."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "adjectif",
+    "explanationFr": "« Smaller » veut dire « plus petite » : le bailli construira trop petit."
+   }
+  ],
+  "blocks": [
+   "Build",
+   "a farm",
+   "stronger than",
+   "the last one."
+  ],
+  "distractorBlocks": [
+   "more strong",
+   "stronger that",
+   "smaller than"
+  ]
+ },
+ {
+  "id": "ordre.ferme.cause",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "ferme",
+  "ruleId": "en-g-connectors",
+  "frenchIntent": "Ordonne une ferme et explique que les gens ont besoin de nourriture.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.ferme.cause.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a farm, because the people need more food."
+      }
+     ],
+     "fr": "Construis une ferme, car les gens ont besoin de plus de nourriture.",
+     "audio": "Build a farm, because the people need more food."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.ferme.cause.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a farm, although the people need more food."
+      }
+     ],
+     "fr": "Construis une ferme, bien que les gens aient besoin de plus de nourriture."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "connecteur",
+    "explanationFr": "« Although » veut dire « bien que » : il annonce une opposition, pas une cause."
+   },
+   {
+    "text": {
+     "id": "ordre.ferme.cause.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a farm for that the people have more food."
+      }
+     ],
+     "fr": "Construis une ferme pour que les gens aient plus de nourriture."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "connecteur",
+    "explanationFr": "« Pour que » se dit « so that » ; « for that » est un calque du français."
+   },
+   {
+    "text": {
+     "id": "ordre.ferme.cause.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Can you build a farm, please, because the people need more food?"
+      }
+     ],
+     "fr": "Peux-tu construire une ferme, s'il te plaît, car les gens ont besoin de plus de nourriture ?"
+    },
+    "correct": false,
+    "gravite": "mauvais_registre",
+    "errorType": "registre",
+    "explanationFr": "Le bailli est ton subordonné : l'ordre se donne à l'impératif. Une demande polie ou une supplique te fait perdre de l'autorité."
+   }
+  ],
+  "blocks": [
+   "Build a farm,",
+   "because",
+   "the people",
+   "need more food."
+  ],
+  "distractorBlocks": [
+   "although",
+   "for that",
+   "needs more food"
+  ]
+ },
+ {
+  "id": "ordre.ferme.condition",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "ferme",
+  "ruleId": "en-g-conditional",
+  "frenchIntent": "Ordonne de construire la ferme demain si la pluie s'arrête.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.ferme.condition.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "If the rain stops, build a farm tomorrow."
+      }
+     ],
+     "fr": "Si la pluie s'arrête, construis une ferme demain.",
+     "audio": "If the rain stops, build a farm tomorrow."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.ferme.condition.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "If the rain will stop, build a farm tomorrow."
+      }
+     ],
+     "fr": "Si la pluie s'arrête, construis une ferme demain."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "temps",
+    "explanationFr": "Pas de « will » juste après « if » : le présent suffit, comme en français après « si »."
+   },
+   {
+    "text": {
+     "id": "ordre.ferme.condition.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "If the rain stops, I will build a farm tomorrow."
+      }
+     ],
+     "fr": "Si la pluie s'arrête, je construirai une ferme demain."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "sujet",
+    "explanationFr": "« I will build » : c'est toi qui construirais, et le bailli ne reçoit aucun ordre."
+   },
+   {
+    "text": {
+     "id": "ordre.ferme.condition.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "If the rain stops, build something tomorrow."
+      }
+     ],
+     "fr": "Si la pluie s'arrête, construis quelque chose demain."
+    },
+    "correct": false,
+    "gravite": "imprecision",
+    "errorType": "champ_manquant",
+    "explanationFr": "« Something » ne dit pas quoi construire : le bailli devra deviner."
+   }
+  ],
+  "blocks": [
+   "If the rain stops,",
+   "build a farm",
+   "tomorrow."
+  ],
+  "distractorBlocks": [
+   "If the rain will stop,",
+   "I will build",
+   "something"
+  ]
+ },
+ {
+  "id": "ordre.ferme.duree",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "ferme",
+  "ruleId": "en-g-since-for",
+  "frenchIntent": "Signale que cette terre est libre depuis deux ans et ordonne d'y bâtir une ferme.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.ferme.duree.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "This land has been free for two years. Build a farm there."
+      }
+     ],
+     "fr": "Cette terre est libre depuis deux ans. Construis une ferme là-bas.",
+     "audio": "This land has been free for two years. Build a farm there."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.ferme.duree.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "This land has been free since two years. Build a farm there."
+      }
+     ],
+     "fr": "Cette terre est libre depuis deux ans. Construis une ferme là-bas."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "since_for",
+    "explanationFr": "Devant une durée, « depuis » se dit « for ». « Since » se place devant un point de départ."
+   },
+   {
+    "text": {
+     "id": "ordre.ferme.duree.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "This land is free for two years. Build a farm there."
+      }
+     ],
+     "fr": "Cette terre est libre pour deux ans. Construis une ferme là-bas."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "temps",
+    "explanationFr": "Calque de « est libre depuis » : ce qui dure encore se dit au present perfect, « has been »."
+   },
+   {
+    "text": {
+     "id": "ordre.ferme.duree.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "This land has been free for two years."
+      }
+     ],
+     "fr": "Cette terre est libre depuis deux ans."
+    },
+    "correct": false,
+    "gravite": "imprecision",
+    "errorType": "pas_un_ordre",
+    "explanationFr": "Cette phrase décrit une situation : elle ne demande rien, et le bailli ne sait pas ce que tu attends de lui."
+   }
+  ],
+  "blocks": [
+   "This land",
+   "has been free",
+   "for two years.",
+   "Build a farm there."
+  ],
+  "distractorBlocks": [
+   "since two years",
+   "is free",
+   "Buy a farm there."
+  ]
+ },
+ {
+  "id": "ordre.ferme.conseil",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "ferme",
+  "ruleId": "en-g-should",
+  "frenchIntent": "Ordonne fermement de bâtir une ferme sur le champ de l'est ce mois-ci.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.ferme.conseil.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a farm on the east field this month."
+      }
+     ],
+     "fr": "Construis une ferme sur le champ de l'est ce mois-ci.",
+     "audio": "Build a farm on the east field this month."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.ferme.conseil.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "You should build a farm on the east field this month."
+      }
+     ],
+     "fr": "Tu devrais construire une ferme sur le champ de l'est ce mois-ci."
+    },
+    "correct": false,
+    "gravite": "imprecision",
+    "errorType": "modal",
+    "explanationFr": "« Should » donne un conseil, pas un ordre : le bailli peut y voir une simple idée et faire à sa façon."
+   },
+   {
+    "text": {
+     "id": "ordre.ferme.conseil.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "You don't have to build a farm on the east field this month."
+      }
+     ],
+     "fr": "Tu n'es pas obligé de construire une ferme sur le champ de l'est ce mois-ci."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "modal",
+    "explanationFr": "« Don't have to » veut dire « ne pas être obligé de » : le bailli comprend que rien ne presse."
+   },
+   {
+    "text": {
+     "id": "ordre.ferme.conseil.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a farm on the east field for this month."
+      }
+     ],
+     "fr": "Construis une ferme sur le champ de l'est pour ce mois-ci."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "preposition",
+    "explanationFr": "Pour dire quand, on écrit directement « this month », sans « for »."
+   }
+  ],
+  "blocks": [
+   "Build a farm",
+   "on the east field",
+   "this month."
+  ],
+  "distractorBlocks": [
+   "You should",
+   "for this month",
+   "on the west field"
+  ]
+ },
+ {
+  "id": "ordre.bergerie.relatif",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "bergerie",
+  "ruleId": "en-g-relatives",
+  "frenchIntent": "Ordonne au bailli de construire une bergerie sur la colline où se trouve l'église.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.bergerie.relatif.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a "
+      },
+      {
+       "text": "sheep",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm on the hill where the church stands."
+      }
+     ],
+     "fr": "Construis une bergerie sur la colline où se trouve l'église.",
+     "audio": "Build a sheep farm on the hill where the church stands."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.bergerie.relatif.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a "
+      },
+      {
+       "text": "sheep",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm on the hill which the church stands."
+      }
+     ],
+     "fr": "Construis une bergerie sur la colline où se trouve l'église."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "relatif",
+    "explanationFr": "Pour un lieu, le relatif est « where » : « the hill where the church stands »."
+   },
+   {
+    "text": {
+     "id": "ordre.bergerie.relatif.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a "
+      },
+      {
+       "text": "sheeps",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm on the hill where the church stands."
+      }
+     ],
+     "fr": "Construis une bergerie sur la colline où se trouve l'église."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "pluriel",
+    "explanationFr": "« Sheep » est invariable : un mouton, deux moutons, toujours « sheep »."
+   },
+   {
+    "text": {
+     "id": "ordre.bergerie.relatif.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a ship farm on the hill where the church stands."
+      }
+     ],
+     "fr": "Construis une ferme à bateaux sur la colline où se trouve l'église."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "confusion_de_mots",
+    "explanationFr": "« Ship » veut dire « navire ». Le mouton, c'est « sheep », avec un i long."
+   }
+  ],
+  "blocks": [
+   "Build",
+   "a sheep farm",
+   "on the hill",
+   "where the church stands."
+  ],
+  "distractorBlocks": [
+   "a ship farm",
+   "a sheeps farm",
+   "which the church stands."
+  ]
+ },
+ {
+  "id": "ordre.bergerie.preterit",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "bergerie",
+  "ruleId": "en-g-past-irregular",
+  "frenchIntent": "Rappelle que les hommes ont apporté du bois hier et ordonne de bâtir une bergerie.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.bergerie.preterit.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "The men brought some wood yesterday. Build a "
+      },
+      {
+       "text": "sheep",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm."
+      }
+     ],
+     "fr": "Les hommes ont apporté du bois hier. Construis une bergerie.",
+     "audio": "The men brought some wood yesterday. Build a sheep farm."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.bergerie.preterit.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "The men bring some wood yesterday. Build a "
+      },
+      {
+       "text": "sheep",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm."
+      }
+     ],
+     "fr": "Les hommes apportent du bois hier. Construis une bergerie."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "temps",
+    "explanationFr": "Avec « yesterday », il faut le prétérit. « Bring » est irrégulier : « brought »."
+   },
+   {
+    "text": {
+     "id": "ordre.bergerie.preterit.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "The men sold some wood yesterday. Build a "
+      },
+      {
+       "text": "sheep",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm."
+      }
+     ],
+     "fr": "Les hommes ont vendu du bois hier. Construis une bergerie."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "verbe",
+    "explanationFr": "« Sold » est le prétérit de « sell », vendre : le bailli croit le bois perdu."
+   },
+   {
+    "text": {
+     "id": "ordre.bergerie.preterit.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "The men brought some wood yesterday."
+      }
+     ],
+     "fr": "Les hommes ont apporté du bois hier."
+    },
+    "correct": false,
+    "gravite": "imprecision",
+    "errorType": "pas_un_ordre",
+    "explanationFr": "Cette phrase décrit une situation : elle ne demande rien, et le bailli ne sait pas ce que tu attends de lui."
+   }
+  ],
+  "blocks": [
+   "The men",
+   "brought some wood",
+   "yesterday.",
+   "Build a sheep farm."
+  ],
+  "distractorBlocks": [
+   "bring some wood",
+   "sold some wood",
+   "of the wood"
+  ]
+ },
+ {
+  "id": "ordre.bergerie.superlatif",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "bergerie",
+  "ruleId": "en-g-compare",
+  "frenchIntent": "Demande au bailli la plus grande bergerie de la région.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.bergerie.superlatif.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build the biggest "
+      },
+      {
+       "text": "sheep",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm in the region."
+      }
+     ],
+     "fr": "Construis la plus grande bergerie de la région.",
+     "audio": "Build the biggest sheep farm in the region."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.bergerie.superlatif.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build the most big "
+      },
+      {
+       "text": "sheep",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm in the region."
+      }
+     ],
+     "fr": "Construis la plus grande bergerie de la région."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "superlatif",
+    "explanationFr": "Un adjectif court prend -est : « the biggest », et non « the most big »."
+   },
+   {
+    "text": {
+     "id": "ordre.bergerie.superlatif.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build the biggest "
+      },
+      {
+       "text": "sheep",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm of the region."
+      }
+     ],
+     "fr": "Construis la plus grande bergerie de la région."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "preposition",
+    "explanationFr": "Après un superlatif, un lieu prend « in » : « in the region », et non « of »."
+   },
+   {
+    "text": {
+     "id": "ordre.bergerie.superlatif.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build the smallest "
+      },
+      {
+       "text": "sheep",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm in the region."
+      }
+     ],
+     "fr": "Construis la plus petite bergerie de la région."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "adjectif",
+    "explanationFr": "« Smallest » veut dire « la plus petite »."
+   }
+  ],
+  "blocks": [
+   "Build",
+   "the biggest",
+   "sheep farm",
+   "in the region."
+  ],
+  "distractorBlocks": [
+   "the most big",
+   "of the region",
+   "the smallest"
+  ]
+ },
+ {
+  "id": "ordre.bergerie.but",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "bergerie",
+  "ruleId": "en-g-connectors",
+  "frenchIntent": "Ordonne une bergerie pour pouvoir vendre plus de laine.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.bergerie.but.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a "
+      },
+      {
+       "text": "sheep",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm so that we can sell more "
+      },
+      {
+       "text": "wool",
+       "wordId": "en:b:wool"
+      },
+      {
+       "text": "."
+      }
+     ],
+     "fr": "Construis une bergerie pour que nous puissions vendre plus de laine.",
+     "audio": "Build a sheep farm so that we can sell more wool."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.bergerie.but.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a "
+      },
+      {
+       "text": "sheep",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm for that we can sell more "
+      },
+      {
+       "text": "wool",
+       "wordId": "en:b:wool"
+      },
+      {
+       "text": "."
+      }
+     ],
+     "fr": "Construis une bergerie pour que nous puissions vendre plus de laine."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "connecteur",
+    "explanationFr": "« Pour que » se dit « so that » ; « for that » est un calque du français."
+   },
+   {
+    "text": {
+     "id": "ordre.bergerie.but.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a "
+      },
+      {
+       "text": "sheep",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm so that we can sell less "
+      },
+      {
+       "text": "wool",
+       "wordId": "en:b:wool"
+      },
+      {
+       "text": "."
+      }
+     ],
+     "fr": "Construis une bergerie pour que nous puissions vendre moins de laine."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "quantite",
+    "explanationFr": "« Less » veut dire « moins » : le but de l'ordre est inversé."
+   },
+   {
+    "text": {
+     "id": "ordre.bergerie.but.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Maybe you can build a "
+      },
+      {
+       "text": "sheep",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm."
+      }
+     ],
+     "fr": "Tu peux peut-être construire une bergerie."
+    },
+    "correct": false,
+    "gravite": "imprecision",
+    "errorType": "pas_un_ordre",
+    "explanationFr": "« Maybe you can » laisse le choix : le bailli ne sait pas si c'est un ordre."
+   }
+  ],
+  "blocks": [
+   "Build a sheep farm",
+   "so that",
+   "we can sell",
+   "more wool."
+  ],
+  "distractorBlocks": [
+   "for that",
+   "less wool",
+   "we can to sell"
+  ]
+ },
+ {
+  "id": "ordre.bergerie.passif",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "bergerie",
+  "ruleId": "en-g-passive",
+  "frenchIntent": "Annonce que le bois a été coupé la semaine dernière et ordonne de bâtir une bergerie.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.bergerie.passif.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "The wood was cut last week. Build a "
+      },
+      {
+       "text": "sheep",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm."
+      }
+     ],
+     "fr": "Le bois a été coupé la semaine dernière. Construis une bergerie.",
+     "audio": "The wood was cut last week. Build a sheep farm."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.bergerie.passif.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "The wood is cut last week. Build a "
+      },
+      {
+       "text": "sheep",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm."
+      }
+     ],
+     "fr": "Le bois est coupé la semaine dernière. Construis une bergerie."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "passif",
+    "explanationFr": "Pour un fait passé, le passif se forme avec « was » : « was cut »."
+   },
+   {
+    "text": {
+     "id": "ordre.bergerie.passif.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "The wood was not cut last week. Build a "
+      },
+      {
+       "text": "sheep",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm."
+      }
+     ],
+     "fr": "Le bois n'a pas été coupé la semaine dernière. Construis une bergerie."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "negation",
+    "explanationFr": "« Was not cut » : le bailli comprend qu'il n'a pas de bois pour construire."
+   },
+   {
+    "text": {
+     "id": "ordre.bergerie.passif.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "The wood was cut last week."
+      }
+     ],
+     "fr": "Le bois a été coupé la semaine dernière."
+    },
+    "correct": false,
+    "gravite": "imprecision",
+    "errorType": "pas_un_ordre",
+    "explanationFr": "Cette phrase décrit une situation : elle ne demande rien, et le bailli ne sait pas ce que tu attends de lui."
+   }
+  ],
+  "blocks": [
+   "The wood",
+   "was cut",
+   "last week.",
+   "Build a sheep farm."
+  ],
+  "distractorBlocks": [
+   "is cut",
+   "was not cut",
+   "has cut"
+  ]
+ },
+ {
+  "id": "ordre.bergerie.condition",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "bergerie",
+  "ruleId": "en-g-conditional",
+  "frenchIntent": "Ordonne une bergerie avant le printemps et promets l'aide des hommes en cas de besoin.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.bergerie.condition.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a "
+      },
+      {
+       "text": "sheep",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm before the spring. If you need help, the men will come."
+      }
+     ],
+     "fr": "Construis une bergerie avant le printemps. Si tu as besoin d'aide, les hommes viendront.",
+     "audio": "Build a sheep farm before the spring. If you need help, the men will come."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.bergerie.condition.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a "
+      },
+      {
+       "text": "sheep",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm before the spring. If you need help, the men would come."
+      }
+     ],
+     "fr": "Construis une bergerie avant le printemps. Si tu as besoin d'aide, les hommes viendraient."
+    },
+    "correct": false,
+    "gravite": "imprecision",
+    "errorType": "conditionnel",
+    "explanationFr": "« Would » n'est pas une promesse : le bailli ne sait pas si les hommes viendront vraiment."
+   },
+   {
+    "text": {
+     "id": "ordre.bergerie.condition.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a "
+      },
+      {
+       "text": "sheep",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm before the spring. If you will need help, the men will come."
+      }
+     ],
+     "fr": "Construis une bergerie avant le printemps. Si tu as besoin d'aide, les hommes viendront."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "temps",
+    "explanationFr": "Pas de « will » juste après « if » : le présent suffit, comme en français après « si »."
+   },
+   {
+    "text": {
+     "id": "ordre.bergerie.condition.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a "
+      },
+      {
+       "text": "sheep",
+       "wordId": "en:b:sheep"
+      },
+      {
+       "text": " farm before the spring. If you need help, the men will not come."
+      }
+     ],
+     "fr": "Construis une bergerie avant le printemps. Si tu as besoin d'aide, les hommes ne viendront pas."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "negation",
+    "explanationFr": "« Will not » annonce le contraire : aucun homme ne viendra."
+   }
+  ],
+  "blocks": [
+   "Build a sheep farm",
+   "before the spring.",
+   "If you need help,",
+   "the men will come."
+  ],
+  "distractorBlocks": [
+   "the men would come.",
+   "If you will need help,",
+   "after the spring."
+  ]
+ },
+ {
+  "id": "ordre.pecherie.relatif",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "pecherie",
+  "ruleId": "en-g-relatives",
+  "frenchIntent": "Ordonne au bailli de construire une pêcherie pour les hommes qui travaillent sur les bateaux.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.pecherie.relatif.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a fish house for the men who work on the boats."
+      }
+     ],
+     "fr": "Construis une pêcherie pour les hommes qui travaillent sur les bateaux.",
+     "audio": "Build a fish house for the men who work on the boats."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.pecherie.relatif.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a fish house for the men which work on the boats."
+      }
+     ],
+     "fr": "Construis une pêcherie pour les hommes qui travaillent sur les bateaux."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "relatif",
+    "explanationFr": "« Which » renvoie à des choses. Pour des personnes, on emploie « who »."
+   },
+   {
+    "text": {
+     "id": "ordre.pecherie.relatif.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a house for the men who work on the boats."
+      }
+     ],
+     "fr": "Construis une maison pour les hommes qui travaillent sur les bateaux."
+    },
+    "correct": false,
+    "gravite": "imprecision",
+    "errorType": "champ_manquant",
+    "explanationFr": "« A house » ne dit pas quel bâtiment : il manque « fish »."
+   },
+   {
+    "text": {
+     "id": "ordre.pecherie.relatif.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Please, could you build a fish house for the men who work on the boats?"
+      }
+     ],
+     "fr": "S'il vous plaît, pourriez-vous construire une pêcherie pour les hommes qui travaillent sur les bateaux ?"
+    },
+    "correct": false,
+    "gravite": "mauvais_registre",
+    "errorType": "registre",
+    "explanationFr": "Le bailli est ton subordonné : l'ordre se donne à l'impératif. Une demande polie ou une supplique te fait perdre de l'autorité."
+   }
+  ],
+  "blocks": [
+   "Build a fish house",
+   "for the men",
+   "who work",
+   "on the boats."
+  ],
+  "distractorBlocks": [
+   "which work",
+   "a house",
+   "on boats"
+  ]
+ },
+ {
+  "id": "ordre.pecherie.duree",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "pecherie",
+  "ruleId": "en-g-since-for",
+  "frenchIntent": "Signale que les bateaux sont là depuis une semaine et ordonne de bâtir une pêcherie près d'eux.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.pecherie.duree.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "The boats have been here for a week. Build a fish house near them."
+      }
+     ],
+     "fr": "Les bateaux sont ici depuis une semaine. Construis une pêcherie près d'eux.",
+     "audio": "The boats have been here for a week. Build a fish house near them."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.pecherie.duree.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "The boats have been here since a week. Build a fish house near them."
+      }
+     ],
+     "fr": "Les bateaux sont ici depuis une semaine. Construis une pêcherie près d'eux."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "since_for",
+    "explanationFr": "Devant une durée, « depuis » se dit « for ». « Since » se place devant un point de départ."
+   },
+   {
+    "text": {
+     "id": "ordre.pecherie.duree.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "The boats are here for a week. Build a fish house near them."
+      }
+     ],
+     "fr": "Les bateaux sont ici pour une semaine. Construis une pêcherie près d'eux."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "temps",
+    "explanationFr": "Calque de « sont ici depuis » : ce qui dure encore se dit au present perfect, « have been »."
+   },
+   {
+    "text": {
+     "id": "ordre.pecherie.duree.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "The boats have been here for a week. Buy a fish house near them."
+      }
+     ],
+     "fr": "Les bateaux sont ici depuis une semaine. Achète une pêcherie près d'eux."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "verbe",
+    "explanationFr": "« Buy » veut dire « acheter », pas « construire »."
+   }
+  ],
+  "blocks": [
+   "The boats",
+   "have been here",
+   "for a week.",
+   "Build a fish house near them."
+  ],
+  "distractorBlocks": [
+   "since a week",
+   "are here",
+   "Buy a fish house"
+  ]
+ },
+ {
+  "id": "ordre.pecherie.verbe_ing",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "pecherie",
+  "ruleId": "en-g-gerund-infinitive",
+  "frenchIntent": "Ordonne d'arrêter de vendre du bois et de construire une pêcherie.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.pecherie.verbe_ing.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Stop selling wood and build a fish house."
+      }
+     ],
+     "fr": "Arrête de vendre du bois et construis une pêcherie.",
+     "audio": "Stop selling wood and build a fish house."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.pecherie.verbe_ing.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Stop to sell wood and build a fish house."
+      }
+     ],
+     "fr": "Arrête-toi pour vendre du bois et construis une pêcherie."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "verbe_ing",
+    "explanationFr": "« Stop to sell » veut dire « s'arrêter pour vendre ». « Arrêter de » se dit « stop » + -ing."
+   },
+   {
+    "text": {
+     "id": "ordre.pecherie.verbe_ing.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Stop sell wood and build a fish house."
+      }
+     ],
+     "fr": "Arrête de vendre du bois et construis une pêcherie."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "verbe_ing",
+    "explanationFr": "Après « stop », le verbe prend -ing : « stop selling »."
+   },
+   {
+    "text": {
+     "id": "ordre.pecherie.verbe_ing.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Stop selling wood."
+      }
+     ],
+     "fr": "Arrête de vendre du bois."
+    },
+    "correct": false,
+    "gravite": "imprecision",
+    "errorType": "champ_manquant",
+    "explanationFr": "La pêcherie a disparu de la phrase : le bailli arrête de vendre et attend la suite."
+   }
+  ],
+  "blocks": [
+   "Stop",
+   "selling wood",
+   "and build",
+   "a fish house."
+  ],
+  "distractorBlocks": [
+   "to sell",
+   "sell wood",
+   "with something"
+  ]
+ },
+ {
+  "id": "ordre.pecherie.condition",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "pecherie",
+  "ruleId": "en-g-conditional",
+  "frenchIntent": "Ordonne de bâtir une pêcherie si les bateaux reviennent.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.pecherie.condition.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "If the boats come back, build a fish house."
+      }
+     ],
+     "fr": "Si les bateaux reviennent, construis une pêcherie.",
+     "audio": "If the boats come back, build a fish house."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.pecherie.condition.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "If the boats will come back, build a fish house."
+      }
+     ],
+     "fr": "Si les bateaux reviennent, construis une pêcherie."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "temps",
+    "explanationFr": "Pas de « will » juste après « if » : le présent suffit, comme en français après « si »."
+   },
+   {
+    "text": {
+     "id": "ordre.pecherie.condition.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "When the boats will come back, build a fish house."
+      }
+     ],
+     "fr": "Quand les bateaux reviendront, construis une pêcherie."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "temps",
+    "explanationFr": "Calque du français « quand + futur » : après « when », l'anglais emploie le présent."
+   },
+   {
+    "text": {
+     "id": "ordre.pecherie.condition.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "If the boats do not come back, build a fish house."
+      }
+     ],
+     "fr": "Si les bateaux ne reviennent pas, construis une pêcherie."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "negation",
+    "explanationFr": "La négation inverse la condition : le chantier ne commencera que si les bateaux sont perdus."
+   }
+  ],
+  "blocks": [
+   "If the boats",
+   "come back,",
+   "build",
+   "a fish house."
+  ],
+  "distractorBlocks": [
+   "will come back",
+   "do not come back",
+   "When"
+  ]
+ },
+ {
+  "id": "ordre.pecherie.suite",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "pecherie",
+  "ruleId": "en-g-connectors",
+  "frenchIntent": "Ordonne de bâtir la pêcherie, puis de renvoyer les hommes aux champs.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.pecherie.suite.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build the fish house, then send the men back to the fields."
+      }
+     ],
+     "fr": "Construis la pêcherie, puis renvoie les hommes aux champs.",
+     "audio": "Build the fish house, then send the men back to the fields."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.pecherie.suite.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "First send the men back to the fields, then build the fish house."
+      }
+     ],
+     "fr": "Renvoie d'abord les hommes aux champs, puis construis la pêcherie."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "ordre_des_actions",
+    "explanationFr": "L'ordre des actions est inversé : il ne restera plus personne pour construire."
+   },
+   {
+    "text": {
+     "id": "ordre.pecherie.suite.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build the fish house, then send the men back at the fields."
+      }
+     ],
+     "fr": "Construis la pêcherie, puis renvoie les hommes aux champs."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "preposition",
+    "explanationFr": "Avec un mouvement, on emploie « to » : « to the fields », et non « at »."
+   },
+   {
+    "text": {
+     "id": "ordre.pecherie.suite.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Could you build the fish house, then send the men back to the fields?"
+      }
+     ],
+     "fr": "Pourriez-vous construire la pêcherie, puis renvoyer les hommes aux champs ?"
+    },
+    "correct": false,
+    "gravite": "mauvais_registre",
+    "errorType": "registre",
+    "explanationFr": "Le bailli est ton subordonné : l'ordre se donne à l'impératif. Une demande polie ou une supplique te fait perdre de l'autorité."
+   }
+  ],
+  "blocks": [
+   "Build the fish house,",
+   "then",
+   "send the men back",
+   "to the fields."
+  ],
+  "distractorBlocks": [
+   "at the fields",
+   "First",
+   "Could you"
+  ]
+ },
+ {
+  "id": "ordre.pecherie.obligation",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "pecherie",
+  "ruleId": "en-g-should",
+  "frenchIntent": "Ordonne de construire une pêcherie cet été.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.pecherie.obligation.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a fish house this summer."
+      }
+     ],
+     "fr": "Construis une pêcherie cet été.",
+     "audio": "Build a fish house this summer."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.pecherie.obligation.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "You should build a fish house this summer."
+      }
+     ],
+     "fr": "Tu devrais construire une pêcherie cet été."
+    },
+    "correct": false,
+    "gravite": "imprecision",
+    "errorType": "modal",
+    "explanationFr": "« Should » donne un conseil, pas un ordre : le bailli peut y voir une simple idée et faire à sa façon."
+   },
+   {
+    "text": {
+     "id": "ordre.pecherie.obligation.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "You don't have to build a fish house this summer."
+      }
+     ],
+     "fr": "Tu n'es pas obligé de construire une pêcherie cet été."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "modal",
+    "explanationFr": "« Don't have to » veut dire « ne pas être obligé de » : le bailli comprend que ce n'est pas nécessaire."
+   },
+   {
+    "text": {
+     "id": "ordre.pecherie.obligation.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build a fish house the summer."
+      }
+     ],
+     "fr": "Construis une pêcherie l'été."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "determinant",
+    "explanationFr": "Pour parler de cet été-ci, on dit « this summer »."
+   }
+  ],
+  "blocks": [
+   "Build",
+   "a fish house",
+   "this summer."
+  ],
+  "distractorBlocks": [
+   "You should",
+   "the summer",
+   "don't have to"
+  ]
+ },
+ {
+  "id": "ordre.moulin.parfait",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "moulin",
+  "ruleId": "en-g-perfect",
+  "frenchIntent": "Annonce que les hommes ont fini la route et ordonne de bâtir un moulin au bord de la rivière.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.moulin.parfait.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "The men have finished the road. Now build a "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " by the river."
+      }
+     ],
+     "fr": "Les hommes ont fini la route. Maintenant, construis un moulin au bord de la rivière.",
+     "audio": "The men have finished the road. Now build a mill by the river."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.moulin.parfait.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "The men have finish the road. Now build a "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " by the river."
+      }
+     ],
+     "fr": "Les hommes ont fini la route. Maintenant, construis un moulin au bord de la rivière."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "parfait",
+    "explanationFr": "Après « have », il faut le participe passé : « finished »."
+   },
+   {
+    "text": {
+     "id": "ordre.moulin.parfait.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "The men have finished the road. Now build a mile by the river."
+      }
+     ],
+     "fr": "Les hommes ont fini la route. Maintenant, construis un mille au bord de la rivière."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "confusion_de_mots",
+    "explanationFr": "« Mile » est une mesure de distance. Le moulin, c'est « mill »."
+   },
+   {
+    "text": {
+     "id": "ordre.moulin.parfait.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "The men have finished the road. Would you build a "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " by the river?"
+      }
+     ],
+     "fr": "Les hommes ont fini la route. Pourriez-vous construire un moulin au bord de la rivière ?"
+    },
+    "correct": false,
+    "gravite": "mauvais_registre",
+    "errorType": "registre",
+    "explanationFr": "Le bailli est ton subordonné : l'ordre se donne à l'impératif. Une demande polie ou une supplique te fait perdre de l'autorité."
+   }
+  ],
+  "blocks": [
+   "The men",
+   "have finished",
+   "the road.",
+   "Now build a mill",
+   "by the river."
+  ],
+  "distractorBlocks": [
+   "have finish",
+   "a mile",
+   "by river"
+  ]
+ },
+ {
+  "id": "ordre.moulin.comparatif",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "moulin",
+  "ruleId": "en-g-compare",
+  "frenchIntent": "Demande que le moulin soit plus près du village.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.moulin.comparatif.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build the "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " nearer to the village."
+      }
+     ],
+     "fr": "Construis le moulin plus près du village.",
+     "audio": "Build the mill nearer to the village."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.moulin.comparatif.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build the "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " more near to the village."
+      }
+     ],
+     "fr": "Construis le moulin plus près du village."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "comparatif",
+    "explanationFr": "Un adjectif court prend -er : « nearer », et non « more near »."
+   },
+   {
+    "text": {
+     "id": "ordre.moulin.comparatif.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build the "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " nearer of the village."
+      }
+     ],
+     "fr": "Construis le moulin plus près du village."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "preposition",
+    "explanationFr": "Calque de « près de » : on dit « near to », et non « near of »."
+   },
+   {
+    "text": {
+     "id": "ordre.moulin.comparatif.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build the "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " further from the village."
+      }
+     ],
+     "fr": "Construis le moulin plus loin du village."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "adjectif",
+    "explanationFr": "« Further from » veut dire « plus loin de » : c'est l'inverse de la demande."
+   }
+  ],
+  "blocks": [
+   "Build the mill",
+   "nearer",
+   "to the village."
+  ],
+  "distractorBlocks": [
+   "more near",
+   "nearer of",
+   "further from"
+  ]
+ },
+ {
+  "id": "ordre.moulin.discours",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "moulin",
+  "ruleId": "en-g-reported",
+  "frenchIntent": "Fais dire aux hommes qu'ils doivent finir le moulin avant la récolte.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.moulin.discours.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Tell the men that they must finish the "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " before the "
+      },
+      {
+       "text": "harvest",
+       "wordId": "en:b:harvest"
+      },
+      {
+       "text": "."
+      }
+     ],
+     "fr": "Dis aux hommes qu'ils doivent finir le moulin avant la récolte.",
+     "audio": "Tell the men that they must finish the mill before the harvest."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.moulin.discours.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Say the men that they must finish the "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " before the "
+      },
+      {
+       "text": "harvest",
+       "wordId": "en:b:harvest"
+      },
+      {
+       "text": "."
+      }
+     ],
+     "fr": "Dis aux hommes qu'ils doivent finir le moulin avant la récolte."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "discours_rapporte",
+    "explanationFr": "Avec une personne, on emploie « tell someone ». « Say » ne prend pas de complément de personne direct."
+   },
+   {
+    "text": {
+     "id": "ordre.moulin.discours.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Tell the men that they must not finish the "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " before the "
+      },
+      {
+       "text": "harvest",
+       "wordId": "en:b:harvest"
+      },
+      {
+       "text": "."
+      }
+     ],
+     "fr": "Dis aux hommes qu'ils ne doivent pas finir le moulin avant la récolte."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "negation",
+    "explanationFr": "« Must not » est une interdiction : les hommes arrêteront le chantier."
+   },
+   {
+    "text": {
+     "id": "ordre.moulin.discours.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Tell the men that they can finish the "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " before the "
+      },
+      {
+       "text": "harvest",
+       "wordId": "en:b:harvest"
+      },
+      {
+       "text": "."
+      }
+     ],
+     "fr": "Dis aux hommes qu'ils peuvent finir le moulin avant la récolte."
+    },
+    "correct": false,
+    "gravite": "imprecision",
+    "errorType": "modal",
+    "explanationFr": "« Can » donne une possibilité, pas une obligation : rien ne les oblige à finir à temps."
+   }
+  ],
+  "blocks": [
+   "Tell the men",
+   "that they must finish",
+   "the mill",
+   "before the harvest."
+  ],
+  "distractorBlocks": [
+   "Say the men",
+   "must not",
+   "can finish"
+  ]
+ },
+ {
+  "id": "ordre.moulin.condition",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "moulin",
+  "ruleId": "en-g-conditional",
+  "frenchIntent": "Ordonne de commencer le moulin demain si le bois arrive aujourd'hui.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.moulin.condition.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "If the wood arrives today, start the "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " tomorrow."
+      }
+     ],
+     "fr": "Si le bois arrive aujourd'hui, commence le moulin demain.",
+     "audio": "If the wood arrives today, start the mill tomorrow."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.moulin.condition.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "If the wood will arrive today, start the "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " tomorrow."
+      }
+     ],
+     "fr": "Si le bois arrive aujourd'hui, commence le moulin demain."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "temps",
+    "explanationFr": "Pas de « will » juste après « if » : le présent suffit, comme en français après « si »."
+   },
+   {
+    "text": {
+     "id": "ordre.moulin.condition.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "If the wood arrives today, stop the "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " tomorrow."
+      }
+     ],
+     "fr": "Si le bois arrive aujourd'hui, arrête le moulin demain."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "verbe",
+    "explanationFr": "« Stop » veut dire « arrêter » : le chantier s'interrompt au lieu de commencer."
+   },
+   {
+    "text": {
+     "id": "ordre.moulin.condition.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "If the wood arrive today, start the "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " tomorrow."
+      }
+     ],
+     "fr": "Si le bois arrive aujourd'hui, commence le moulin demain."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "accord",
+    "explanationFr": "Au présent simple, « the wood » est un « it » : le verbe prend -s, « arrives »."
+   }
+  ],
+  "blocks": [
+   "If the wood",
+   "arrives today,",
+   "start the mill",
+   "tomorrow."
+  ],
+  "distractorBlocks": [
+   "will arrive",
+   "stop the mill",
+   "arrive today,"
+  ]
+ },
+ {
+  "id": "ordre.moulin.habitude",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "moulin",
+  "ruleId": "en-g-used-to",
+  "frenchIntent": "Rappelle que l'ancien moulin se dressait près du pont et ordonne d'y bâtir le nouveau.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.moulin.habitude.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "The old "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " used to stand near the bridge. Build the new "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " there."
+      }
+     ],
+     "fr": "L'ancien moulin se dressait autrefois près du pont. Construis le nouveau moulin là-bas.",
+     "audio": "The old mill used to stand near the bridge. Build the new mill there."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.moulin.habitude.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "The old "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " use to stand near the bridge. Build the new "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " there."
+      }
+     ],
+     "fr": "L'ancien moulin se dressait autrefois près du pont. Construis le nouveau moulin là-bas."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "used_to",
+    "explanationFr": "Au passé, la forme est « used to », avec un -d."
+   },
+   {
+    "text": {
+     "id": "ordre.moulin.habitude.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "The old "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " is used to stand near the bridge. Build the new "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " there."
+      }
+     ],
+     "fr": "L'ancien moulin a l'habitude de se dresser près du pont. Construis le nouveau moulin là-bas."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "used_to",
+    "explanationFr": "« Be used to » veut dire « être habitué à ». Pour une habitude passée, on dit « used to »."
+   },
+   {
+    "text": {
+     "id": "ordre.moulin.habitude.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build the "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " where you like."
+      }
+     ],
+     "fr": "Construis le moulin où tu veux."
+    },
+    "correct": false,
+    "gravite": "imprecision",
+    "errorType": "champ_manquant",
+    "explanationFr": "« Where you like » ne dit pas où : le bailli choisira l'endroit à ta place."
+   }
+  ],
+  "blocks": [
+   "The old mill",
+   "used to stand",
+   "near the bridge.",
+   "Build the new mill there."
+  ],
+  "distractorBlocks": [
+   "use to stand",
+   "is used to stand",
+   "where you like"
+  ]
+ },
+ {
+  "id": "ordre.moulin.suite",
+  "npcId": "bailli",
+  "acte": "ordre",
+  "verbe": "construire",
+  "objet": "moulin",
+  "ruleId": "en-g-connectors",
+  "frenchIntent": "Ordonne de bâtir d'abord le moulin, puis de réparer le pont.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.moulin.suite.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build the "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " first, and then "
+      },
+      {
+       "text": "repair",
+       "wordId": "en:b:repair"
+      },
+      {
+       "text": " the bridge."
+      }
+     ],
+     "fr": "Construis d'abord le moulin, puis répare le pont.",
+     "audio": "Build the mill first, and then repair the bridge."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.moulin.suite.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Repair",
+       "wordId": "en:b:repair"
+      },
+      {
+       "text": " the bridge first, and then build the "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": "."
+      }
+     ],
+     "fr": "Répare d'abord le pont, puis construis le moulin."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "ordre_des_actions",
+    "explanationFr": "L'ordre des actions est inversé : le moulin passe après le pont."
+   },
+   {
+    "text": {
+     "id": "ordre.moulin.suite.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Build the "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " first, and after "
+      },
+      {
+       "text": "repair",
+       "wordId": "en:b:repair"
+      },
+      {
+       "text": " the bridge."
+      }
+     ],
+     "fr": "Construis d'abord le moulin, et après répare le pont."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "connecteur",
+    "explanationFr": "« Ensuite » se dit « then » ; « after » a besoin d'un complément."
+   },
+   {
+    "text": {
+     "id": "ordre.moulin.suite.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Please, may I ask you to build the "
+      },
+      {
+       "text": "mill",
+       "wordId": "en:b:mill"
+      },
+      {
+       "text": " first, and then "
+      },
+      {
+       "text": "repair",
+       "wordId": "en:b:repair"
+      },
+      {
+       "text": " the bridge?"
+      }
+     ],
+     "fr": "S'il vous plaît, puis-je vous demander de construire d'abord le moulin, puis de réparer le pont ?"
+    },
+    "correct": false,
+    "gravite": "mauvais_registre",
+    "errorType": "registre",
+    "explanationFr": "Le bailli est ton subordonné : l'ordre se donne à l'impératif. Une demande polie ou une supplique te fait perdre de l'autorité."
+   }
+  ],
+  "blocks": [
+   "Build the mill first,",
+   "and then",
+   "repair the bridge."
+  ],
+  "distractorBlocks": [
+   "and after",
+   "Repair the bridge first,",
+   "Please, may I ask you"
+  ]
+ },
+ {
+  "id": "ordre.marchand.laine",
+  "npcId": "marchand",
+  "acte": "requete",
+  "verbe": "commercer",
+  "objet": "laine",
+  "ruleId": "en-g-conditional",
+  "frenchIntent": "Demande poliment au marchand de vendre sa laine à la colonie à un prix plus bas.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.marchand.laine.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Would you sell your "
+      },
+      {
+       "text": "wool",
+       "wordId": "en:b:wool"
+      },
+      {
+       "text": " to our colony at a lower price?"
+      }
+     ],
+     "fr": "Voudriez-vous vendre votre laine à notre colonie à un prix plus bas ?",
+     "audio": "Would you sell your wool to our colony at a lower price?"
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.marchand.laine.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Sell your "
+      },
+      {
+       "text": "wool",
+       "wordId": "en:b:wool"
+      },
+      {
+       "text": " to our colony at a lower price."
+      }
+     ],
+     "fr": "Vends ta laine à notre colonie à un prix plus bas."
+    },
+    "correct": false,
+    "gravite": "mauvais_registre",
+    "errorType": "registre",
+    "explanationFr": "Le marchand est un égal : un ordre l'offense. On lui adresse une requête avec « Would you… » ou « I would be grateful if… »."
+   },
+   {
+    "text": {
+     "id": "ordre.marchand.laine.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Would you buy your "
+      },
+      {
+       "text": "wool",
+       "wordId": "en:b:wool"
+      },
+      {
+       "text": " from our colony at a lower price?"
+      }
+     ],
+     "fr": "Voudriez-vous acheter votre laine à notre colonie à un prix plus bas ?"
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "verbe",
+    "explanationFr": "« Buy » veut dire « acheter » : les rôles de l'acheteur et du vendeur sont inversés."
+   },
+   {
+    "text": {
+     "id": "ordre.marchand.laine.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Would you sell your "
+      },
+      {
+       "text": "wool",
+       "wordId": "en:b:wool"
+      },
+      {
+       "text": " to our colony at a more low price?"
+      }
+     ],
+     "fr": "Voudriez-vous vendre votre laine à notre colonie à un prix plus bas ?"
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "comparatif",
+    "explanationFr": "Un adjectif court prend -er : « lower », et non « more low »."
+   },
+   {
+    "text": {
+     "id": "ordre.marchand.laine.faute4",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Would you sell your "
+      },
+      {
+       "text": "wool",
+       "wordId": "en:b:wool"
+      },
+      {
+       "text": "?"
+      }
+     ],
+     "fr": "Voudriez-vous vendre votre laine ?"
+    },
+    "correct": false,
+    "gravite": "imprecision",
+    "errorType": "champ_manquant",
+    "explanationFr": "Ni l'acheteur ni le prix ne sont dits : le marchand en profitera."
+   }
+  ],
+  "blocks": [
+   "Would you",
+   "sell your wool",
+   "to our colony",
+   "at a lower price?"
+  ],
+  "distractorBlocks": [
+   "more low",
+   "You must",
+   "buy your wool"
+  ]
+ },
+ {
+  "id": "ordre.marchand.sel",
+  "npcId": "marchand",
+  "acte": "requete",
+  "verbe": "commercer",
+  "objet": "sel",
+  "ruleId": "en-g-conditional",
+  "frenchIntent": "Dis au marchand que tu lui serais reconnaissant d'apporter plus de sel au village.",
+  "options": [
+   {
+    "text": {
+     "id": "ordre.marchand.sel.bon",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "I would be "
+      },
+      {
+       "text": "grateful",
+       "wordId": "en:grateful"
+      },
+      {
+       "text": " if you brought more "
+      },
+      {
+       "text": "salt",
+       "wordId": "en:b:salt"
+      },
+      {
+       "text": " to the village."
+      }
+     ],
+     "fr": "Je vous serais reconnaissant d'apporter plus de sel au village.",
+     "audio": "I would be grateful if you brought more salt to the village."
+    },
+    "correct": true
+   },
+   {
+    "text": {
+     "id": "ordre.marchand.sel.faute1",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "Bring more "
+      },
+      {
+       "text": "salt",
+       "wordId": "en:b:salt"
+      },
+      {
+       "text": " to the village."
+      }
+     ],
+     "fr": "Apporte plus de sel au village."
+    },
+    "correct": false,
+    "gravite": "mauvais_registre",
+    "errorType": "registre",
+    "explanationFr": "Le marchand est un égal : un ordre l'offense. On lui adresse une requête avec « Would you… » ou « I would be grateful if… »."
+   },
+   {
+    "text": {
+     "id": "ordre.marchand.sel.faute2",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "I would be "
+      },
+      {
+       "text": "grateful",
+       "wordId": "en:grateful"
+      },
+      {
+       "text": " if you will bring more "
+      },
+      {
+       "text": "salt",
+       "wordId": "en:b:salt"
+      },
+      {
+       "text": " to the village."
+      }
+     ],
+     "fr": "Je vous serais reconnaissant d'apporter plus de sel au village."
+    },
+    "correct": false,
+    "gravite": "sans_gene",
+    "errorType": "temps",
+    "explanationFr": "Dans cette formule, on emploie le prétérit après « if » : « if you brought »."
+   },
+   {
+    "text": {
+     "id": "ordre.marchand.sel.faute3",
+     "level": "A2",
+     "segments": [
+      {
+       "text": "I would be "
+      },
+      {
+       "text": "grateful",
+       "wordId": "en:grateful"
+      },
+      {
+       "text": " if you took more "
+      },
+      {
+       "text": "salt",
+       "wordId": "en:b:salt"
+      },
+      {
+       "text": " from the village."
+      }
+     ],
+     "fr": "Je vous serais reconnaissant de prendre plus de sel au village."
+    },
+    "correct": false,
+    "gravite": "sens_change",
+    "errorType": "verbe",
+    "explanationFr": "« Took » est le prétérit de « take », prendre : le sel quitte le village au lieu d'y arriver."
+   }
+  ],
+  "blocks": [
+   "I would be grateful",
+   "if you brought",
+   "more salt",
+   "to the village."
+  ],
+  "distractorBlocks": [
+   "if you will bring",
+   "if you took",
+   "Bring"
+  ]
+ }
+]

@@ -117,9 +117,9 @@ function Intro({ course, step }: { course: Course; step: Extract<Exercise, { kin
       </div>
       {step.item.word && (
         <div className="tip-example">
-          <Speaker course={course} text={step.item.word.sentences[0].de} />
+          <Speaker course={course} text={step.item.word.sentences[0].text} />
           <div>
-            <strong lang={course.languageTag}>{step.item.word.sentences[0].de}</strong>
+            <strong lang={course.languageTag}>{step.item.word.sentences[0].text}</strong>
             <span>{step.item.word.sentences[0].fr}</span>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import { remember, type Memory } from './memory';
+import { remember, rememberHard, type Memory } from './memory';
 
 export const MAX_HEARTS = 5;
 export const HEART_REGEN_MS = 30 * 60 * 1000;
@@ -86,6 +86,17 @@ export function recordAnswer(progress: Progress, itemIds: string[], correct: boo
     memory,
     hearts: correct || current.testMode ? current.hearts : Math.max(0, current.hearts - 1),
   };
+}
+
+export type ReviewGrade = 'good' | 'hard' | 'again';
+
+/** A review from outside the lessons, such as the strategy game: it only ever touches memory, never hearts. */
+export function recordReview(progress: Progress, itemIds: string[], grade: ReviewGrade, now: number): Progress {
+  const memory = { ...progress.memory };
+  for (const id of new Set(itemIds)) {
+    memory[id] = grade === 'hard' ? rememberHard(memory[id], now) : remember(memory[id], grade === 'good', now);
+  }
+  return { ...progress, memory };
 }
 
 export function completeSession(
