@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { lazy, Suspense, useEffect, useState } from 'react';
 import { Home } from './components/Home';
 import { Reference, type ReferenceTab } from './components/Reference';
 import { SessionScreen } from './components/SessionScreen';
@@ -19,6 +19,24 @@ import { buildVerbReview, buildVerbSession } from './lib/verbs';
 import { buildBankSession } from './lib/wordBank';
 import type { Exercise } from './types';
 
+function StrategieUnavailable({ onExit }: { onExit: () => void }) {
+  return (
+    <div className="home">
+      <p className="notice">Le mode Stratégie n'a pas pu se charger. Vérifie ta connexion.</p>
+      <button className="primary" onClick={onExit}>
+        Retour
+      </button>
+    </div>
+  );
+}
+
+// Its own chunk: PixiJS and the game must not weigh on the lessons.
+const StrategieScreen = lazy(() =>
+  import('./strategie/ui/StrategieScreen')
+    .then((module) => ({ default: module.StrategieScreen }))
+    .catch(() => ({ default: StrategieUnavailable })),
+);
+
 interface ActiveSession {
   id: number;
   lessonId: string | null;
@@ -30,6 +48,7 @@ export function App() {
   const [session, setSession] = useState<ActiveSession | null>(null);
   const [showReference, setShowReference] = useState(false);
   const [referenceTab, setReferenceTab] = useState<ReferenceTab>('rules');
+  const [showStrategie, setShowStrategie] = useState(false);
 
   useEffect(() => saveProgress(progress), [progress]);
 
@@ -69,6 +88,14 @@ export function App() {
   const startVerbReview = () => {
     setSession({ id: Date.now(), lessonId: null, steps: buildVerbReview(course, progress.memory, Date.now()) });
   };
+
+  if (showStrategie) {
+    return (
+      <Suspense fallback={<p className="notice">Chargement du mode Stratégie…</p>}>
+        <StrategieScreen course={course} progress={progress} setProgress={setProgress} onExit={() => setShowStrategie(false)} />
+      </Suspense>
+    );
+  }
 
   if (session) {
     return (
@@ -116,6 +143,7 @@ export function App() {
       onReview={startReview}
       onBank={startBank}
       onOpenReference={() => setShowReference(true)}
+      onOpenStrategie={() => setShowStrategie(true)}
       onToggleTestMode={() => setProgress((p) => ({ ...p, testMode: !p.testMode }))}
       onReset={() => setProgress((p) => ({ ...initialProgress(Date.now()), activeCourse: p.activeCourse, testMode: p.testMode }))}
       onSwitchCourse={(id) => setProgress((p) => ({ ...p, activeCourse: id }))}

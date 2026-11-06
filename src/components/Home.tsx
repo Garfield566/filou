@@ -20,6 +20,7 @@ interface Props {
   onReview: () => void;
   onBank: () => void;
   onOpenReference: () => void;
+  onOpenStrategie: () => void;
   onToggleTestMode: () => void;
   onReset: () => void;
   onSwitchCourse: (courseId: string) => void;
@@ -32,6 +33,7 @@ export function Home({
   onReview,
   onBank,
   onOpenReference,
+  onOpenStrategie,
   onToggleTestMode,
   onReset,
   onSwitchCourse,
@@ -123,6 +125,13 @@ export function Home({
         <small>Règles, tableaux, temps et verbes {course.id === 'de' ? 'forts' : 'irréguliers'}</small>
       </button>
 
+      {course.id === 'en' && (
+        <button className="reference-link" onClick={onOpenStrategie}>
+          <span>Mode Stratégie</span>
+          <small>Gouverne une colonie anglaise vers 1300, en anglais</small>
+        </button>
+      )}
+
       {noHearts && (
         <p className="notice">
           Plus de vies ! La prochaine revient dans {Math.ceil(msUntilNextHeart(progress, now) / 60000)} min.
@@ -174,13 +183,6 @@ export function Home({
           Phrases : <a href="https://tatoeba.org">Tatoeba</a> (CC BY 2.0 FR,{' '}
           <a href={`${import.meta.env.BASE_URL}credits/tatoeba-de.tsv`}>liste des auteurs</a>). Sens et genres :{' '}
           <a href="https://fr.wiktionary.org">Wiktionnaire</a> (CC BY-SA).
-        </p>
-      )}
-
-      {course.id === 'en' && (
-        <p className="credits">
-          Mots fréquents du mode Stratégie : <a href="https://github.com/rspeer/wordfreq">wordfreq</a> (données CC BY-SA
-          4.0).
         </p>
       )}
     </div>

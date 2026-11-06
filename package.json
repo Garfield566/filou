@@ -8,7 +8,7 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "audio": "vite-node scripts/export-audio-list.ts && .tools/venv/Scripts/python.exe scripts/generate_audio.py"
+    "audio": "vite-node scripts/export-audio-list.ts && .tools\\venv\\Scripts\\python.exe scripts/generate_audio.py"
   },
   "dependencies": {
     "pixi.js": "8.22.0",

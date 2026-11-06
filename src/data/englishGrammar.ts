@@ -1023,6 +1023,7 @@ export const englishLaterUnits: Unit[] = [
           'Have to se conjugue : I have to, she has to, I had to.',
           'Do not have to veut dire « ne pas être obligé de », pas « ne pas devoir ».',
           'Must not exprime une interdiction.',
+          'May laisse la chose ouverte : we may come, nous viendrons peut-être. Cela n\'engage à rien.',
         ],
         tables: [
           {
@@ -1084,6 +1085,8 @@ export const englishLaterUnits: Unit[] = [
           'If it rains, we will stay. Comme en français : s\'il pleut, nous resterons.',
           'Pour une hypothèse irréelle : if + prétérit, puis would. If I had money, I would travel.',
           'Would se contracte en \'d.',
+          'Subject to… veut dire « sous réserve de » : une condition vague, qui n\'engage à rien.',
+          'Would you… ? demande poliment : would you open the door?',
         ],
         tables: [
           {
@@ -1114,6 +1117,7 @@ export const englishLaterUnits: Unit[] = [
           'But oppose deux idées, although les relie : bien que.',
           'When et before, after situent dans le temps.',
           'That peut relier deux phrases : I think that he is right. On l\'omet souvent.',
+          'So that donne le but : pour que. Then marque la suite : puis, ensuite.',
         ],
         tables: [
           {

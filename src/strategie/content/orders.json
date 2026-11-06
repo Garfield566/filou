@@ -11,7 +11,7 @@
    {
     "text": {
      "id": "ordre.ferme.relatif.bon",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build a farm on the field which is near the river."
@@ -25,7 +25,7 @@
    {
     "text": {
      "id": "ordre.ferme.relatif.faute1",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build a farm on the field who is near the river."
@@ -41,7 +41,7 @@
    {
     "text": {
      "id": "ordre.ferme.relatif.faute2",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build a firm on the field which is near the river."
@@ -57,13 +57,13 @@
    {
     "text": {
      "id": "ordre.ferme.relatif.faute3",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Would you build a farm on the field which is near the river?"
       }
      ],
-     "fr": "Pourriez-vous construire une ferme sur le champ qui est près de la rivière ?"
+     "fr": "Voudriez-vous construire une ferme sur le champ qui est près de la rivière ?"
     },
     "correct": false,
     "gravite": "mauvais_registre",
@@ -90,7 +90,7 @@
   "verbe": "construire",
   "objet": "ferme",
   "ruleId": "en-g-compare",
-  "frenchIntent": "Demande au bailli une ferme plus solide que la dernière.",
+  "frenchIntent": "Ordonne au bailli de construire une ferme plus solide que la dernière.",
   "options": [
    {
     "text": {
@@ -98,11 +98,11 @@
      "level": "A2",
      "segments": [
       {
-       "text": "Build a farm stronger than the last one."
+       "text": "Build a stronger farm than the last one."
       }
      ],
      "fr": "Construis une ferme plus solide que la dernière.",
-     "audio": "Build a farm stronger than the last one."
+     "audio": "Build a stronger farm than the last one."
     },
     "correct": true
    },
@@ -112,7 +112,7 @@
      "level": "A2",
      "segments": [
       {
-       "text": "Build a farm more strong than the last one."
+       "text": "Build a more strong farm than the last one."
       }
      ],
      "fr": "Construis une ferme plus solide que la dernière."
@@ -128,7 +128,7 @@
      "level": "A2",
      "segments": [
       {
-       "text": "Build a farm stronger that the last one."
+       "text": "Build a stronger farm that the last one."
       }
      ],
      "fr": "Construis une ferme plus solide que la dernière."
@@ -144,7 +144,7 @@
      "level": "A2",
      "segments": [
       {
-       "text": "Build a farm smaller than the last one."
+       "text": "Build a smaller farm than the last one."
       }
      ],
      "fr": "Construis une ferme plus petite que la dernière."
@@ -157,14 +157,14 @@
   ],
   "blocks": [
    "Build",
-   "a farm",
-   "stronger than",
+   "a stronger farm",
+   "than",
    "the last one."
   ],
   "distractorBlocks": [
-   "more strong",
-   "stronger that",
-   "smaller than"
+   "a more strong farm",
+   "that",
+   "a smaller farm"
   ]
  },
  {
@@ -179,7 +179,7 @@
    {
     "text": {
      "id": "ordre.ferme.cause.bon",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build a farm, because the people need more food."
@@ -193,7 +193,7 @@
    {
     "text": {
      "id": "ordre.ferme.cause.faute1",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build a farm, although the people need more food."
@@ -209,7 +209,7 @@
    {
     "text": {
      "id": "ordre.ferme.cause.faute2",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build a farm for that the people have more food."
@@ -225,7 +225,7 @@
    {
     "text": {
      "id": "ordre.ferme.cause.faute3",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Can you build a farm, please, because the people need more food?"
@@ -263,7 +263,7 @@
    {
     "text": {
      "id": "ordre.ferme.condition.bon",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "If the rain stops, build a farm tomorrow."
@@ -277,7 +277,7 @@
    {
     "text": {
      "id": "ordre.ferme.condition.faute1",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "If the rain will stop, build a farm tomorrow."
@@ -293,7 +293,7 @@
    {
     "text": {
      "id": "ordre.ferme.condition.faute2",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "If the rain stops, I will build a farm tomorrow."
@@ -309,7 +309,7 @@
    {
     "text": {
      "id": "ordre.ferme.condition.faute3",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "If the rain stops, build something tomorrow."
@@ -341,7 +341,7 @@
   "verbe": "construire",
   "objet": "ferme",
   "ruleId": "en-g-since-for",
-  "frenchIntent": "Signale que cette terre est libre depuis deux ans et ordonne d'y bâtir une ferme.",
+  "frenchIntent": "Signale que cette terre est sans propriétaire depuis deux ans et ordonne d'y bâtir une ferme.",
   "options": [
    {
     "text": {
@@ -349,11 +349,11 @@
      "level": "A2",
      "segments": [
       {
-       "text": "This land has been free for two years. Build a farm there."
+       "text": "This land has had no owner for two years. Build a farm there."
       }
      ],
-     "fr": "Cette terre est libre depuis deux ans. Construis une ferme là-bas.",
-     "audio": "This land has been free for two years. Build a farm there."
+     "fr": "Cette terre est sans propriétaire depuis deux ans. Construis-y une ferme.",
+     "audio": "This land has had no owner for two years. Build a farm there."
     },
     "correct": true
    },
@@ -363,10 +363,10 @@
      "level": "A2",
      "segments": [
       {
-       "text": "This land has been free since two years. Build a farm there."
+       "text": "This land has had no owner since two years. Build a farm there."
       }
      ],
-     "fr": "Cette terre est libre depuis deux ans. Construis une ferme là-bas."
+     "fr": "Cette terre est sans propriétaire depuis deux ans. Construis-y une ferme."
     },
     "correct": false,
     "gravite": "sans_gene",
@@ -379,15 +379,15 @@
      "level": "A2",
      "segments": [
       {
-       "text": "This land is free for two years. Build a farm there."
+       "text": "This land has no owner for two years. Build a farm there."
       }
      ],
-     "fr": "Cette terre est libre pour deux ans. Construis une ferme là-bas."
+     "fr": "Cette terre n'a pas de propriétaire pour deux ans. Construis-y une ferme."
     },
     "correct": false,
     "gravite": "sans_gene",
     "errorType": "temps",
-    "explanationFr": "Calque de « est libre depuis » : ce qui dure encore se dit au present perfect, « has been »."
+    "explanationFr": "Calque de « est sans propriétaire depuis » : ce qui dure encore se dit au present perfect, « has had »."
    },
    {
     "text": {
@@ -395,10 +395,10 @@
      "level": "A2",
      "segments": [
       {
-       "text": "This land has been free for two years."
+       "text": "This land has had no owner for two years."
       }
      ],
-     "fr": "Cette terre est libre depuis deux ans."
+     "fr": "Cette terre est sans propriétaire depuis deux ans."
     },
     "correct": false,
     "gravite": "imprecision",
@@ -408,13 +408,13 @@
   ],
   "blocks": [
    "This land",
-   "has been free",
+   "has had no owner",
    "for two years.",
    "Build a farm there."
   ],
   "distractorBlocks": [
    "since two years",
-   "is free",
+   "has no owner",
    "Buy a farm there."
   ]
  },
@@ -430,7 +430,7 @@
    {
     "text": {
      "id": "ordre.ferme.conseil.bon",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build a farm on the east field this month."
@@ -444,7 +444,7 @@
    {
     "text": {
      "id": "ordre.ferme.conseil.faute1",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "You should build a farm on the east field this month."
@@ -460,7 +460,7 @@
    {
     "text": {
      "id": "ordre.ferme.conseil.faute2",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "You don't have to build a farm on the east field this month."
@@ -476,7 +476,7 @@
    {
     "text": {
      "id": "ordre.ferme.conseil.faute3",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build a farm on the east field for this month."
@@ -513,7 +513,7 @@
    {
     "text": {
      "id": "ordre.bergerie.relatif.bon",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build a "
@@ -534,7 +534,7 @@
    {
     "text": {
      "id": "ordre.bergerie.relatif.faute1",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build a "
@@ -557,7 +557,7 @@
    {
     "text": {
      "id": "ordre.bergerie.relatif.faute2",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build a "
@@ -580,7 +580,7 @@
    {
     "text": {
      "id": "ordre.bergerie.relatif.faute3",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build a ship farm on the hill where the church stands."
@@ -718,7 +718,7 @@
   "verbe": "construire",
   "objet": "bergerie",
   "ruleId": "en-g-compare",
-  "frenchIntent": "Demande au bailli la plus grande bergerie de la région.",
+  "frenchIntent": "Ordonne au bailli de construire la plus grande bergerie de la région.",
   "options": [
    {
     "text": {
@@ -835,7 +835,7 @@
    {
     "text": {
      "id": "ordre.bergerie.but.bon",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build a "
@@ -863,7 +863,7 @@
    {
     "text": {
      "id": "ordre.bergerie.but.faute1",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build a "
@@ -893,7 +893,7 @@
    {
     "text": {
      "id": "ordre.bergerie.but.faute2",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build a "
@@ -923,7 +923,7 @@
    {
     "text": {
      "id": "ordre.bergerie.but.faute3",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Maybe you can build a "
@@ -968,7 +968,7 @@
    {
     "text": {
      "id": "ordre.bergerie.passif.bon",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "The wood was cut last week. Build a "
@@ -989,7 +989,7 @@
    {
     "text": {
      "id": "ordre.bergerie.passif.faute1",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "The wood is cut last week. Build a "
@@ -1012,7 +1012,7 @@
    {
     "text": {
      "id": "ordre.bergerie.passif.faute2",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "The wood was not cut last week. Build a "
@@ -1035,7 +1035,7 @@
    {
     "text": {
      "id": "ordre.bergerie.passif.faute3",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "The wood was cut last week."
@@ -1073,7 +1073,7 @@
    {
     "text": {
      "id": "ordre.bergerie.condition.bon",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build a "
@@ -1094,7 +1094,7 @@
    {
     "text": {
      "id": "ordre.bergerie.condition.faute1",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build a "
@@ -1117,7 +1117,7 @@
    {
     "text": {
      "id": "ordre.bergerie.condition.faute2",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build a "
@@ -1140,7 +1140,7 @@
    {
     "text": {
      "id": "ordre.bergerie.condition.faute3",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build a "
@@ -1185,24 +1185,38 @@
    {
     "text": {
      "id": "ordre.pecherie.relatif.bon",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "Build a fish house for the men who work on the boats."
+       "text": "Build a "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": " for the men who work on the boats."
       }
      ],
      "fr": "Construis une pêcherie pour les hommes qui travaillent sur les bateaux.",
-     "audio": "Build a fish house for the men who work on the boats."
+     "audio": "Build a fishery for the men who work on the boats."
     },
     "correct": true
    },
    {
     "text": {
      "id": "ordre.pecherie.relatif.faute1",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "Build a fish house for the men which work on the boats."
+       "text": "Build a "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": " for the men which work on the boats."
       }
      ],
      "fr": "Construis une pêcherie pour les hommes qui travaillent sur les bateaux."
@@ -1215,7 +1229,7 @@
    {
     "text": {
      "id": "ordre.pecherie.relatif.faute2",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build a house for the men who work on the boats."
@@ -1226,15 +1240,22 @@
     "correct": false,
     "gravite": "imprecision",
     "errorType": "champ_manquant",
-    "explanationFr": "« A house » ne dit pas quel bâtiment : il manque « fish »."
+    "explanationFr": "« A house » ne dit pas quel bâtiment : il fallait « a fishery »."
    },
    {
     "text": {
      "id": "ordre.pecherie.relatif.faute3",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "Please, could you build a fish house for the men who work on the boats?"
+       "text": "Please, could you build a "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": " for the men who work on the boats?"
       }
      ],
      "fr": "S'il vous plaît, pourriez-vous construire une pêcherie pour les hommes qui travaillent sur les bateaux ?"
@@ -1246,7 +1267,7 @@
    }
   ],
   "blocks": [
-   "Build a fish house",
+   "Build a fishery",
    "for the men",
    "who work",
    "on the boats."
@@ -1254,7 +1275,7 @@
   "distractorBlocks": [
    "which work",
    "a house",
-   "on boats"
+   "on boat"
   ]
  },
  {
@@ -1272,11 +1293,18 @@
      "level": "A2",
      "segments": [
       {
-       "text": "The boats have been here for a week. Build a fish house near them."
+       "text": "The boats have been here for a week. Build a "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": " near them."
       }
      ],
      "fr": "Les bateaux sont ici depuis une semaine. Construis une pêcherie près d'eux.",
-     "audio": "The boats have been here for a week. Build a fish house near them."
+     "audio": "The boats have been here for a week. Build a fishery near them."
     },
     "correct": true
    },
@@ -1286,7 +1314,14 @@
      "level": "A2",
      "segments": [
       {
-       "text": "The boats have been here since a week. Build a fish house near them."
+       "text": "The boats have been here since a week. Build a "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": " near them."
       }
      ],
      "fr": "Les bateaux sont ici depuis une semaine. Construis une pêcherie près d'eux."
@@ -1302,7 +1337,14 @@
      "level": "A2",
      "segments": [
       {
-       "text": "The boats are here for a week. Build a fish house near them."
+       "text": "The boats are here for a week. Build a "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": " near them."
       }
      ],
      "fr": "Les bateaux sont ici pour une semaine. Construis une pêcherie près d'eux."
@@ -1318,7 +1360,14 @@
      "level": "A2",
      "segments": [
       {
-       "text": "The boats have been here for a week. Buy a fish house near them."
+       "text": "The boats have been here for a week. Buy a "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": " near them."
       }
      ],
      "fr": "Les bateaux sont ici depuis une semaine. Achète une pêcherie près d'eux."
@@ -1333,12 +1382,12 @@
    "The boats",
    "have been here",
    "for a week.",
-   "Build a fish house near them."
+   "Build a fishery near them."
   ],
   "distractorBlocks": [
    "since a week",
    "are here",
-   "Buy a fish house"
+   "Buy a fishery"
   ]
  },
  {
@@ -1353,24 +1402,38 @@
    {
     "text": {
      "id": "ordre.pecherie.verbe_ing.bon",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "Stop selling wood and build a fish house."
+       "text": "Stop selling wood and build a "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": "."
       }
      ],
      "fr": "Arrête de vendre du bois et construis une pêcherie.",
-     "audio": "Stop selling wood and build a fish house."
+     "audio": "Stop selling wood and build a fishery."
     },
     "correct": true
    },
    {
     "text": {
      "id": "ordre.pecherie.verbe_ing.faute1",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "Stop to sell wood and build a fish house."
+       "text": "Stop to sell wood and build a "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": "."
       }
      ],
      "fr": "Arrête-toi pour vendre du bois et construis une pêcherie."
@@ -1383,10 +1446,17 @@
    {
     "text": {
      "id": "ordre.pecherie.verbe_ing.faute2",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "Stop sell wood and build a fish house."
+       "text": "Stop sell wood and build a "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": "."
       }
      ],
      "fr": "Arrête de vendre du bois et construis une pêcherie."
@@ -1399,7 +1469,7 @@
    {
     "text": {
      "id": "ordre.pecherie.verbe_ing.faute3",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Stop selling wood."
@@ -1417,7 +1487,7 @@
    "Stop",
    "selling wood",
    "and build",
-   "a fish house."
+   "a fishery."
   ],
   "distractorBlocks": [
    "to sell",
@@ -1437,24 +1507,38 @@
    {
     "text": {
      "id": "ordre.pecherie.condition.bon",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "If the boats come back, build a fish house."
+       "text": "If the boats come back, build a "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": "."
       }
      ],
      "fr": "Si les bateaux reviennent, construis une pêcherie.",
-     "audio": "If the boats come back, build a fish house."
+     "audio": "If the boats come back, build a fishery."
     },
     "correct": true
    },
    {
     "text": {
      "id": "ordre.pecherie.condition.faute1",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "If the boats will come back, build a fish house."
+       "text": "If the boats will come back, build a "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": "."
       }
      ],
      "fr": "Si les bateaux reviennent, construis une pêcherie."
@@ -1467,10 +1551,17 @@
    {
     "text": {
      "id": "ordre.pecherie.condition.faute2",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "When the boats will come back, build a fish house."
+       "text": "When the boats will come back, build a "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": "."
       }
      ],
      "fr": "Quand les bateaux reviendront, construis une pêcherie."
@@ -1483,10 +1574,17 @@
    {
     "text": {
      "id": "ordre.pecherie.condition.faute3",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "If the boats do not come back, build a fish house."
+       "text": "If the boats do not come back, build a "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": "."
       }
      ],
      "fr": "Si les bateaux ne reviennent pas, construis une pêcherie."
@@ -1501,7 +1599,7 @@
    "If the boats",
    "come back,",
    "build",
-   "a fish house."
+   "a fishery."
   ],
   "distractorBlocks": [
    "will come back",
@@ -1521,24 +1619,38 @@
    {
     "text": {
      "id": "ordre.pecherie.suite.bon",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "Build the fish house, then send the men back to the fields."
+       "text": "Build the "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": ", then send the men back to the fields."
       }
      ],
      "fr": "Construis la pêcherie, puis renvoie les hommes aux champs.",
-     "audio": "Build the fish house, then send the men back to the fields."
+     "audio": "Build the fishery, then send the men back to the fields."
     },
     "correct": true
    },
    {
     "text": {
      "id": "ordre.pecherie.suite.faute1",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "First send the men back to the fields, then build the fish house."
+       "text": "First send the men back to the fields, then build the "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": "."
       }
      ],
      "fr": "Renvoie d'abord les hommes aux champs, puis construis la pêcherie."
@@ -1551,10 +1663,17 @@
    {
     "text": {
      "id": "ordre.pecherie.suite.faute2",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "Build the fish house, then send the men back at the fields."
+       "text": "Build the "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": ", then send the men back at the fields."
       }
      ],
      "fr": "Construis la pêcherie, puis renvoie les hommes aux champs."
@@ -1567,10 +1686,17 @@
    {
     "text": {
      "id": "ordre.pecherie.suite.faute3",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "Could you build the fish house, then send the men back to the fields?"
+       "text": "Could you build the "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": ", then send the men back to the fields?"
       }
      ],
      "fr": "Pourriez-vous construire la pêcherie, puis renvoyer les hommes aux champs ?"
@@ -1582,7 +1708,7 @@
    }
   ],
   "blocks": [
-   "Build the fish house,",
+   "Build the fishery,",
    "then",
    "send the men back",
    "to the fields."
@@ -1605,24 +1731,38 @@
    {
     "text": {
      "id": "ordre.pecherie.obligation.bon",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "Build a fish house this summer."
+       "text": "Build a "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": " this summer."
       }
      ],
      "fr": "Construis une pêcherie cet été.",
-     "audio": "Build a fish house this summer."
+     "audio": "Build a fishery this summer."
     },
     "correct": true
    },
    {
     "text": {
      "id": "ordre.pecherie.obligation.faute1",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "You should build a fish house this summer."
+       "text": "You should build a "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": " this summer."
       }
      ],
      "fr": "Tu devrais construire une pêcherie cet été."
@@ -1635,10 +1775,17 @@
    {
     "text": {
      "id": "ordre.pecherie.obligation.faute2",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "You don't have to build a fish house this summer."
+       "text": "You don't have to build a "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": " this summer."
       }
      ],
      "fr": "Tu n'es pas obligé de construire une pêcherie cet été."
@@ -1651,10 +1798,17 @@
    {
     "text": {
      "id": "ordre.pecherie.obligation.faute3",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "Build a fish house the summer."
+       "text": "Build a "
+      },
+      {
+       "text": "fishery",
+       "wordId": "en:b:fishery"
+      },
+      {
+       "text": " the summer."
       }
      ],
      "fr": "Construis une pêcherie l'été."
@@ -1667,7 +1821,7 @@
   ],
   "blocks": [
    "Build",
-   "a fish house",
+   "a fishery",
    "this summer."
   ],
   "distractorBlocks": [
@@ -1761,7 +1915,7 @@
        "text": " by the river?"
       }
      ],
-     "fr": "Les hommes ont fini la route. Pourriez-vous construire un moulin au bord de la rivière ?"
+     "fr": "Les hommes ont fini la route. Voudriez-vous construire un moulin au bord de la rivière ?"
     },
     "correct": false,
     "gravite": "mauvais_registre",
@@ -1789,7 +1943,7 @@
   "verbe": "construire",
   "objet": "moulin",
   "ruleId": "en-g-compare",
-  "frenchIntent": "Demande que le moulin soit plus près du village.",
+  "frenchIntent": "Ordonne de construire le moulin plus près du village.",
   "options": [
    {
     "text": {
@@ -1905,7 +2059,7 @@
    {
     "text": {
      "id": "ordre.moulin.discours.bon",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Tell the men that they must finish the "
@@ -1933,7 +2087,7 @@
    {
     "text": {
      "id": "ordre.moulin.discours.faute1",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Say the men that they must finish the "
@@ -1963,7 +2117,7 @@
    {
     "text": {
      "id": "ordre.moulin.discours.faute2",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Tell the men that they must not finish the "
@@ -1993,7 +2147,7 @@
    {
     "text": {
      "id": "ordre.moulin.discours.faute3",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Tell the men that they can finish the "
@@ -2040,15 +2194,15 @@
   "verbe": "construire",
   "objet": "moulin",
   "ruleId": "en-g-conditional",
-  "frenchIntent": "Ordonne de commencer le moulin demain si le bois arrive aujourd'hui.",
+  "frenchIntent": "Ordonne de commencer le chantier du moulin demain si le bois arrive aujourd'hui.",
   "options": [
    {
     "text": {
      "id": "ordre.moulin.condition.bon",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "If the wood arrives today, start the "
+       "text": "If the wood arrives today, start work on the "
       },
       {
        "text": "mill",
@@ -2058,18 +2212,18 @@
        "text": " tomorrow."
       }
      ],
-     "fr": "Si le bois arrive aujourd'hui, commence le moulin demain.",
-     "audio": "If the wood arrives today, start the mill tomorrow."
+     "fr": "Si le bois arrive aujourd'hui, commence le chantier du moulin demain.",
+     "audio": "If the wood arrives today, start work on the mill tomorrow."
     },
     "correct": true
    },
    {
     "text": {
      "id": "ordre.moulin.condition.faute1",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "If the wood will arrive today, start the "
+       "text": "If the wood will arrive today, start work on the "
       },
       {
        "text": "mill",
@@ -2079,7 +2233,7 @@
        "text": " tomorrow."
       }
      ],
-     "fr": "Si le bois arrive aujourd'hui, commence le moulin demain."
+     "fr": "Si le bois arrive aujourd'hui, commence le chantier du moulin demain."
     },
     "correct": false,
     "gravite": "sans_gene",
@@ -2089,10 +2243,10 @@
    {
     "text": {
      "id": "ordre.moulin.condition.faute2",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "If the wood arrives today, stop the "
+       "text": "If the wood arrives today, stop work on the "
       },
       {
        "text": "mill",
@@ -2102,7 +2256,7 @@
        "text": " tomorrow."
       }
      ],
-     "fr": "Si le bois arrive aujourd'hui, arrête le moulin demain."
+     "fr": "Si le bois arrive aujourd'hui, arrête le chantier du moulin demain."
     },
     "correct": false,
     "gravite": "sens_change",
@@ -2112,10 +2266,10 @@
    {
     "text": {
      "id": "ordre.moulin.condition.faute3",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
-       "text": "If the wood arrive today, start the "
+       "text": "If the wood arrive today, start work on the "
       },
       {
        "text": "mill",
@@ -2125,7 +2279,7 @@
        "text": " tomorrow."
       }
      ],
-     "fr": "Si le bois arrive aujourd'hui, commence le moulin demain."
+     "fr": "Si le bois arrive aujourd'hui, commence le chantier du moulin demain."
     },
     "correct": false,
     "gravite": "sans_gene",
@@ -2136,12 +2290,12 @@
   "blocks": [
    "If the wood",
    "arrives today,",
-   "start the mill",
+   "start work on the mill",
    "tomorrow."
   ],
   "distractorBlocks": [
    "will arrive",
-   "stop the mill",
+   "stop work on the mill",
    "arrive today,"
   ]
  },
@@ -2157,7 +2311,7 @@
    {
     "text": {
      "id": "ordre.moulin.habitude.bon",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "The old "
@@ -2177,7 +2331,7 @@
        "text": " there."
       }
      ],
-     "fr": "L'ancien moulin se dressait autrefois près du pont. Construis le nouveau moulin là-bas.",
+     "fr": "L'ancien moulin se dressait autrefois près du pont. Construis-y le nouveau moulin.",
      "audio": "The old mill used to stand near the bridge. Build the new mill there."
     },
     "correct": true
@@ -2185,7 +2339,7 @@
    {
     "text": {
      "id": "ordre.moulin.habitude.faute1",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "The old "
@@ -2205,7 +2359,7 @@
        "text": " there."
       }
      ],
-     "fr": "L'ancien moulin se dressait autrefois près du pont. Construis le nouveau moulin là-bas."
+     "fr": "L'ancien moulin se dressait autrefois près du pont. Construis-y le nouveau moulin."
     },
     "correct": false,
     "gravite": "sans_gene",
@@ -2215,7 +2369,7 @@
    {
     "text": {
      "id": "ordre.moulin.habitude.faute2",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "The old "
@@ -2235,7 +2389,7 @@
        "text": " there."
       }
      ],
-     "fr": "L'ancien moulin a l'habitude de se dresser près du pont. Construis le nouveau moulin là-bas."
+     "fr": "L'ancien moulin a l'habitude de se dresser près du pont. Construis-y le nouveau moulin."
     },
     "correct": false,
     "gravite": "sans_gene",
@@ -2245,7 +2399,7 @@
    {
     "text": {
      "id": "ordre.moulin.habitude.faute3",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build the "
@@ -2290,7 +2444,7 @@
    {
     "text": {
      "id": "ordre.moulin.suite.bon",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build the "
@@ -2318,7 +2472,7 @@
    {
     "text": {
      "id": "ordre.moulin.suite.faute1",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Repair",
@@ -2345,7 +2499,7 @@
    {
     "text": {
      "id": "ordre.moulin.suite.faute2",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Build the "
@@ -2375,7 +2529,7 @@
    {
     "text": {
      "id": "ordre.moulin.suite.faute3",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Please, may I ask you to build the "
@@ -2426,7 +2580,7 @@
    {
     "text": {
      "id": "ordre.marchand.laine.bon",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Would you sell your "
@@ -2447,7 +2601,7 @@
    {
     "text": {
      "id": "ordre.marchand.laine.faute1",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Sell your "
@@ -2470,7 +2624,7 @@
    {
     "text": {
      "id": "ordre.marchand.laine.faute2",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Would you buy your "
@@ -2493,7 +2647,7 @@
    {
     "text": {
      "id": "ordre.marchand.laine.faute3",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Would you sell your "
@@ -2516,7 +2670,7 @@
    {
     "text": {
      "id": "ordre.marchand.laine.faute4",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Would you sell your "
@@ -2561,7 +2715,7 @@
    {
     "text": {
      "id": "ordre.marchand.sel.bon",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "I would be "
@@ -2589,7 +2743,7 @@
    {
     "text": {
      "id": "ordre.marchand.sel.faute1",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "Bring more "
@@ -2612,7 +2766,7 @@
    {
     "text": {
      "id": "ordre.marchand.sel.faute2",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "I would be "
@@ -2642,7 +2796,7 @@
    {
     "text": {
      "id": "ordre.marchand.sel.faute3",
-     "level": "A2",
+     "level": "B1",
      "segments": [
       {
        "text": "I would be "

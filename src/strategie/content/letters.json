@@ -8,11 +8,11 @@
    "level": "A2",
    "segments": [
     {
-     "text": "My friend, our town wants to trade with your colony. We will send two boats of wood to your port this spring, and we will pay a good price for your fish. Please answer before the end of the month. Your friends of the town council."
+     "text": "My friend, our town wants to trade with your colony. We will send two boats of wood to your port this spring, and we will pay a good price for your fish. Please answer before the end of the month. Your friends on the town council."
     }
    ],
    "fr": "Mon ami, notre ville veut commercer avec votre colonie. Nous enverrons deux bateaux de bois à votre port ce printemps, et nous paierons un bon prix pour votre poisson. Répondez avant la fin du mois, s'il vous plaît. Vos amis du conseil de la ville.",
-   "audio": "My friend, our town wants to trade with your colony. We will send two boats of wood to your port this spring, and we will pay a good price for your fish. Please answer before the end of the month. Your friends of the town council."
+   "audio": "My friend, our town wants to trade with your colony. We will send two boats of wood to your port this spring, and we will pay a good price for your fish. Please answer before the end of the month. Your friends on the town council."
   },
   "clues": [],
   "replies": [
@@ -134,11 +134,11 @@
    "level": "A2",
    "segments": [
     {
-     "text": "My friend, the spring rain broke the bridge on the road between our towns. We will send six workers and a load of stone next week. Can you send food for them? They will finish the work in ten days."
+     "text": "My friend, the spring rain damaged the bridge on the road between our towns. We will send six workers and a load of stone next week. Can you send food for them? They will finish the work in ten days."
     }
    ],
-   "fr": "Mon ami, la pluie de printemps a cassé le pont sur la route entre nos villes. Nous enverrons six ouvriers et un chargement de pierre la semaine prochaine. Pouvez-vous envoyer de la nourriture pour eux ? Ils finiront le travail en dix jours.",
-   "audio": "My friend, the spring rain broke the bridge on the road between our towns. We will send six workers and a load of stone next week. Can you send food for them? They will finish the work in ten days."
+   "fr": "Mon ami, la pluie de printemps a endommagé le pont sur la route entre nos villes. Nous enverrons six ouvriers et un chargement de pierre la semaine prochaine. Pouvez-vous envoyer de la nourriture pour eux ? Ils finiront le travail en dix jours.",
+   "audio": "My friend, the spring rain damaged the bridge on the road between our towns. We will send six workers and a load of stone next week. Can you send food for them? They will finish the work in ten days."
   },
   "clues": [],
   "replies": [
@@ -426,11 +426,11 @@
    "level": "A2",
    "segments": [
     {
-     "text": "My friend, we read your offer of peace. It is a good offer, but I am not sure that all the members of the council agree with me. Some of them remember the old war. Please do not ask for an answer this season."
+     "text": "My friend, we have read your offer of peace. It is a good offer, but I am not sure that all the members of the council agree with me. Some of them remember the old war. Please do not ask for an answer this season."
     }
    ],
    "fr": "Mon ami, nous avons lu votre offre de paix. C'est une bonne offre, mais je ne suis pas sûr que tous les membres du conseil soient d'accord avec moi. Certains se souviennent de la vieille guerre. S'il vous plaît, ne demandez pas de réponse cette saison.",
-   "audio": "My friend, we read your offer of peace. It is a good offer, but I am not sure that all the members of the council agree with me. Some of them remember the old war. Please do not ask for an answer this season."
+   "audio": "My friend, we have read your offer of peace. It is a good offer, but I am not sure that all the members of the council agree with me. Some of them remember the old war. Please do not ask for an answer this season."
   },
   "clues": [],
   "replies": [
@@ -503,7 +503,7 @@
      "level": "A2",
      "segments": [
       {
-       "text": "We are sorry for this news. We will "
+       "text": "We are sorry to hear this news. We will "
       },
       {
        "text": "pray",
@@ -521,7 +521,7 @@
       }
      ],
      "fr": "Cette nouvelle nous attriste. Nous prierons pour votre maire.",
-     "audio": "We are sorry for this news. We will pray for your mayor."
+     "audio": "We are sorry to hear this news. We will pray for your mayor."
     },
     "effects": {
      "trust": 3,
@@ -627,11 +627,11 @@
      "clueId": "indice.soldats"
     },
     {
-     "text": " in any trouble. You do not need new walls, and you do not need more guards. Keep your money for your people."
+     "text": " in case of trouble. You do not need new walls, and you do not need more guards. Keep your money for your people."
     }
    ],
    "fr": "Mon ami, les routes ne sont pas sûres cette année, alors restons unis. Nous vous enverrions nos meilleurs soldats en cas d'ennui. Vous n'avez pas besoin de nouveaux murs, ni de plus de gardes. Gardez votre argent pour vos gens.",
-   "audio": "My friend, the roads are not safe this year, so let us stand together. We would send you our best soldiers in any trouble. You do not need new walls, and you do not need more guards. Keep your money for your people."
+   "audio": "My friend, the roads are not safe this year, so let us stand together. We would send you our best soldiers in case of trouble. You do not need new walls, and you do not need more guards. Keep your money for your people."
   },
   "clues": [
    {
@@ -816,11 +816,11 @@
      "level": "A2",
      "segments": [
       {
-       "text": "Thank you, but we will see your food before we open our port."
+       "text": "Thank you, but we want to see your food before we open our port."
       }
      ],
-     "fr": "Merci, mais nous verrons votre nourriture avant d'ouvrir notre port.",
-     "audio": "Thank you, but we will see your food before we open our port."
+     "fr": "Merci, mais nous voulons voir votre nourriture avant d'ouvrir notre port.",
+     "audio": "Thank you, but we want to see your food before we open our port."
     },
     "effects": {
      "trust": -3,
@@ -846,11 +846,11 @@
      "clueId": "indice.circonstances"
     },
     {
-     "text": ", our soldiers stand with you, and the council sends you its respect. There is no need to prepare for war this season."
+     "text": ", our soldiers stand with you, and the council sends you its respects. There is no need to prepare for war this season."
     }
    ],
-   "fr": "Mon ami, votre demande d'aide nous est parvenue, et notre réponse est chaleureuse. Sous réserve des circonstances, nos soldats sont à vos côtés, et le conseil vous adresse son respect. Il n'est pas nécessaire de préparer la guerre cette saison.",
-   "audio": "My friend, your request for help has reached us, and our answer is warm. Subject to circumstances, our soldiers stand with you, and the council sends you its respect. There is no need to prepare for war this season."
+   "fr": "Mon ami, votre demande d'aide nous est parvenue, et notre réponse est chaleureuse. Sous réserve des circonstances, nos soldats sont à vos côtés, et le conseil vous présente ses respects. Il n'est pas nécessaire de préparer la guerre cette saison.",
+   "audio": "My friend, your request for help has reached us, and our answer is warm. Subject to circumstances, our soldiers stand with you, and the council sends you its respects. There is no need to prepare for war this season."
   },
   "clues": [
    {
@@ -926,7 +926,7 @@
      "text": " open and send your soldiers home to their fields."
     }
    ],
-   "fr": "Mon ami, notre conseil a lu votre lettre avec grand intérêt. Nous pourrions examiner votre offre de commerce quand le moment sera venu. Pour l'instant, gardez vos portes ouvertes, je vous prie, et renvoyez vos soldats chez eux, à leurs champs.",
+   "fr": "Mon ami, notre conseil a lu votre lettre avec grand intérêt. Nous examinerons peut-être votre offre de commerce quand le moment sera venu. Pour l'instant, gardez vos portes ouvertes, je vous prie, et renvoyez vos soldats chez eux, à leurs champs.",
    "audio": "My friend, our council has read your letter with great interest. We may consider your offer of trade when the time is right. For now, please keep your gates open and send your soldiers home to their fields."
   },
   "clues": [
@@ -934,7 +934,7 @@
     "id": "indice.examen",
     "level": "B1",
     "ruleId": "en-g-should",
-    "explanationFr": "« We may consider » (« nous pourrions examiner ») : ce verbe de modalité n'engage à rien. Ils ne promettent même pas de répondre, mais te demandent d'agir tout de suite."
+    "explanationFr": "« We may consider » (« nous examinerons peut-être ») : ce verbe de modalité n'engage à rien. Ils ne promettent même pas de répondre, mais te demandent d'agir tout de suite."
    }
   ],
   "replies": [
@@ -997,15 +997,15 @@
      "text": " it in the spring. Until then, please do not move your soldiers to the border, because that is bad for peace."
     }
    ],
-   "fr": "Mon ami, vous nous demandez de signer un accord de paix, et nous sommes heureux d'en parler. Si les circonstances le permettent, nous pourrions le signer au printemps. D'ici là, ne déplacez pas vos soldats vers la frontière, je vous prie, car c'est mauvais pour la paix.",
+   "fr": "Mon ami, vous nous demandez de signer un accord de paix, et nous sommes heureux d'en parler. Si les circonstances le permettent, nous le signerons peut-être au printemps. D'ici là, ne déplacez pas vos soldats vers la frontière, je vous prie, car c'est mauvais pour la paix.",
    "audio": "My friend, you ask us to sign an agreement of peace, and we are happy to talk. If circumstances allow, we may sign it in the spring. Until then, please do not move your soldiers to the border, because that is bad for peace."
   },
   "clues": [
    {
     "id": "indice.signature",
     "level": "B1",
-    "ruleId": "en-g-conditional",
-    "explanationFr": "« If circumstances allow, we may sign » (« si les circonstances le permettent, nous pourrions signer ») : la condition reste vague, « may » retire toute promesse, et on vous demande pourtant de reculer dès maintenant."
+    "ruleId": "en-g-should",
+    "explanationFr": "« If circumstances allow, we may sign » (« si les circonstances le permettent, nous signerons peut-être ») : la condition reste vague, « may » retire toute promesse, et on te demande pourtant de reculer dès maintenant."
    }
   ],
   "replies": [

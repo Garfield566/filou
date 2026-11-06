@@ -9,6 +9,13 @@
      "text": "This season we have {ble} "
     },
     {
+     "text": "sacks",
+     "wordId": "en:b:sack"
+    },
+    {
+     "text": " of "
+    },
+    {
      "text": "wheat",
      "wordId": "en:b:wheat"
     },
@@ -16,21 +23,21 @@
      "text": ", {poisson} fish and {laine} "
     },
     {
+     "text": "sacks",
+     "wordId": "en:b:sack"
+    },
+    {
+     "text": " of "
+    },
+    {
      "text": "wool",
      "wordId": "en:b:wool"
     },
     {
-     "text": ". The colony earned {deniers} "
-    },
-    {
-     "text": "pennies",
-     "wordId": "en:b:penny"
-    },
-    {
-     "text": "."
+     "text": ". The colony earned {deniers} in silver."
     }
    ],
-   "fr": "Cette saison, nous avons {ble} de blé, {poisson} de poisson et {laine} de laine. La colonie a gagné {deniers} deniers."
+   "fr": "Cette saison, nous avons {ble} sacs de blé, {poisson} poissons et {laine} sacs de laine. La colonie a gagné {deniers} deniers d'argent."
   }
  },
  {
@@ -57,7 +64,7 @@
      "text": " has arrived!"
     }
    ],
-   "fr": "Bonne nouvelle, mon seigneur : notre hameau est maintenant un village, et un marchand est arrivé !",
+   "fr": "Bonne nouvelle, Monseigneur : notre hameau est maintenant un village, et un marchand est arrivé !",
    "audio": "Good news, my lord: our hamlet is now a village, and a merchant has arrived!"
   }
  },
@@ -104,7 +111,7 @@
      "text": "The men did not understand your order. The {batiment} is in the wrong place, and the money is gone."
     }
    ],
-   "fr": "Les hommes n'ont pas compris ton ordre. Le bâtiment ({batiment}) est au mauvais endroit, et l'argent est perdu."
+   "fr": "Les hommes n'ont pas compris votre ordre. Le bâtiment ({batiment}) est au mauvais endroit, et l'argent est perdu."
   }
  },
  {
@@ -130,7 +137,7 @@
      "text": "{pnj} did not understand your order and asks you to say it more clearly. The work waits one more season."
     }
    ],
-   "fr": "{pnj} n'a pas compris ton ordre et te demande de le dire plus clairement. Le travail attend une saison de plus."
+   "fr": "{pnj} n'a pas compris votre ordre et vous demande de le dire plus clairement. Le travail attend une saison de plus."
   }
  },
  {

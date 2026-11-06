@@ -29,7 +29,8 @@
    "level": "A2",
    "segments": [
     {
-     "text": "fish house"
+     "text": "fishery",
+     "wordId": "en:b:fishery"
     }
    ],
    "fr": "pêcherie"
@@ -105,7 +106,7 @@
      "text": "we already have one"
     }
    ],
-   "fr": "nous en avons déjà un"
+   "fr": "nous en avons déjà"
   },
   "emplacement": {
    "id": "etiquette.raison.emplacement",

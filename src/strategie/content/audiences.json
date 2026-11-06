@@ -18,7 +18,7 @@
      "text": " eat my garden. Every day, same thing. Make him stop, please!"
     }
    ],
-   "fr": "Mon seigneur, le type d'à côté laisse ses chèvres manger mon jardin. Tous les jours, la même chose. Faites-le arrêter, s'il vous plaît !",
+   "fr": "Monseigneur, le type d'à côté laisse ses chèvres manger mon jardin. Tous les jours, la même chose. Obligez-le à arrêter, s'il vous plaît !",
    "audio": "My lord, the guy next door lets his goats eat my garden. Every day, same thing. Make him stop, please!"
   },
   "summaries": [
@@ -69,7 +69,7 @@
      "level": "A2",
      "segments": [
       {
-       "text": "The town will pay for a "
+       "text": "The colony will pay for a "
       },
       {
        "text": "fence",
@@ -79,8 +79,8 @@
        "text": " between the two gardens."
       }
      ],
-     "fr": "La ville paiera une clôture entre les deux jardins.",
-     "audio": "The town will pay for a fence between the two gardens."
+     "fr": "La colonie paiera une clôture entre les deux jardins.",
+     "audio": "The colony will pay for a fence between the two gardens."
     },
     "loyalty": {
      "paysans": 4
@@ -138,7 +138,7 @@
      "text": " a new one?"
     }
    ],
-   "fr": "Hé, mon seigneur, l'eau de notre puits est mauvaise. Mes gosses sont malades. Pouvez-vous envoyer des hommes pour en creuser un nouveau ?",
+   "fr": "Hé, Monseigneur, l'eau de notre puits est mauvaise. Mes gosses sont malades. Pouvez-vous envoyer des hommes pour en creuser un nouveau ?",
    "audio": "Hey, my lord, the water in our well is bad. My kids are sick. Can you send some men to dig a new one?"
   },
   "summaries": [
@@ -239,7 +239,7 @@
      "text": " of the church. We need money for the work."
     }
    ],
-   "fr": "Mon seigneur, la pluie passe par le toit de l'église. Nous avons besoin d'argent pour les travaux.",
+   "fr": "Monseigneur, la pluie passe par le toit de l'église. Nous avons besoin d'argent pour les travaux.",
    "audio": "My lord, the rain comes through the roof of the church. We need money for the work."
   },
   "summaries": [
@@ -370,7 +370,7 @@
      "text": ". Can everybody stop work and come to the church? The whole village wants it."
     }
    ],
-   "fr": "Mon seigneur, vendredi est le jour de notre saint. Tout le monde peut-il arrêter le travail et venir à l'église ? Tout le village le veut.",
+   "fr": "Monseigneur, vendredi, c'est la fête de notre saint. Tout le monde peut-il arrêter le travail et venir à l'église ? Tout le village le veut.",
    "audio": "My lord, Friday is the day of our saint. Can everybody stop work and come to the church? The whole village wants it."
   },
   "summaries": [
@@ -395,11 +395,11 @@
      "level": "A2",
      "segments": [
       {
-       "text": "Friday is a free day for everybody."
+       "text": "Friday is a day off for everybody."
       }
      ],
-     "fr": "Vendredi sera un jour libre pour tout le monde.",
-     "audio": "Friday is a free day for everybody."
+     "fr": "Vendredi sera un jour de repos pour tout le monde.",
+     "audio": "Friday is a day off for everybody."
     },
     "loyalty": {
      "paysans": 3,
@@ -434,11 +434,11 @@
      "level": "A2",
      "segments": [
       {
-       "text": "The work comes first. Nobody stops on Friday."
+       "text": "Work comes first. Nobody stops on Friday."
       }
      ],
-     "fr": "Le travail passe d'abord. Personne ne s'arrête vendredi.",
-     "audio": "The work comes first. Nobody stops on Friday."
+     "fr": "Le travail passe avant tout. Personne ne s'arrête vendredi.",
+     "audio": "Work comes first. Nobody stops on Friday."
     },
     "loyalty": {
      "clerge": -4,
@@ -468,7 +468,7 @@
      "text": " sit at the church door all day. Some of them come from far away. I don't like walking past them at night."
     }
    ],
-   "fr": "Mon seigneur, des mendiants restent assis à la porte de l'église toute la journée. Certains viennent de loin. Je n'aime pas passer devant eux la nuit.",
+   "fr": "Monseigneur, des mendiants restent assis à la porte de l'église toute la journée. Certains viennent de loin. Je n'aime pas passer devant eux la nuit.",
    "audio": "My lord, beggars sit at the church door all day. Some of them come from far away. I don't like walking past them at night."
   },
   "summaries": [
@@ -522,7 +522,7 @@
        "text": "My guards will send them away from the village."
       }
      ],
-     "fr": "Mes gardes les renverront du village.",
+     "fr": "Mes gardes les chasseront du village.",
      "audio": "My guards will send them away from the village."
     },
     "loyalty": {
@@ -542,7 +542,7 @@
        "text": "Those who can work will help on the walls for food."
       }
      ],
-     "fr": "Ceux qui peuvent travailler aideront aux murs contre de la nourriture.",
+     "fr": "Ceux qui peuvent travailler aideront à bâtir les murs en échange de nourriture.",
      "audio": "Those who can work will help on the walls for food."
     },
     "loyalty": {
@@ -579,16 +579,16 @@
      "text": " on the road. That's the second time. Where are your guards?"
     }
    ],
-   "fr": "Mon seigneur, des voleurs m'ont pris ma charrette sur la route. C'est la deuxième fois. Où sont vos gardes ?",
+   "fr": "Monseigneur, des voleurs m'ont pris ma charrette sur la route. C'est la deuxième fois. Où sont vos gardes ?",
    "audio": "My lord, thieves took my cart on the road. That's the second time. Where are your guards?"
   },
   "summaries": [
    {
-    "fr": "Des voleurs ont attaqué sa charrette sur la route.",
+    "fr": "Des voleurs lui ont pris sa charrette sur la route.",
     "correct": true
    },
    {
-    "fr": "Ses gardes ont vendu sa charrette.",
+    "fr": "Tes gardes ont vendu sa charrette.",
     "correct": false
    },
    {
@@ -681,7 +681,7 @@
      "text": " me something until summer?"
     }
    ],
-   "fr": "Mon seigneur, le vent a cassé mon bateau. Pas de bateau, pas de poisson, et pas de poisson, pas d'argent. Pouvez-vous me prêter quelque chose jusqu'à l'été ?",
+   "fr": "Monseigneur, le vent a cassé mon bateau. Pas de bateau, pas de poisson, et pas de poisson, pas d'argent. Pouvez-vous me prêter quelque chose jusqu'à l'été ?",
    "audio": "My lord, the wind broke my boat. No boat, no fish, and no fish, no money. Can you lend me something until summer?"
   },
   "summaries": [
@@ -798,7 +798,7 @@
      "text": " all night. Nobody can sleep. Close that place, will you?"
     }
    ],
-   "fr": "Mon seigneur, les hommes boivent de la bière à l'auberge toute la nuit. Personne ne peut dormir. Fermez cet endroit, voulez-vous ?",
+   "fr": "Monseigneur, les hommes boivent de la bière à l'auberge toute la nuit. Personne ne peut dormir. Fermez cet endroit, voulez-vous ?",
    "audio": "My lord, the men drink ale at the inn all night. Nobody can sleep. Close that place, will you?"
   },
   "summaries": [
@@ -909,7 +909,7 @@
      "text": "My lord, my daughter wants to marry a soldier. He's got no land and no money. I say no, she says yes. Tell her she's wrong!"
     }
    ],
-   "fr": "Mon seigneur, ma fille veut épouser un soldat. Il n'a ni terre ni argent. Je dis non, elle dit oui. Dites-lui qu'elle a tort !",
+   "fr": "Monseigneur, ma fille veut épouser un soldat. Il n'a ni terre ni argent. Je dis non, elle dit oui. Dites-lui qu'elle a tort !",
    "audio": "My lord, my daughter wants to marry a soldier. He's got no land and no money. I say no, she says yes. Tell her she's wrong!"
   },
   "summaries": [
@@ -1006,7 +1006,7 @@
      "text": "My lord, my husband is dead, and now his brother wants my house. I've lived there all my life. Is that right?"
     }
    ],
-   "fr": "Mon seigneur, mon mari est mort, et maintenant son frère veut ma maison. J'y vis depuis toujours. Est-ce juste ?",
+   "fr": "Monseigneur, mon mari est mort, et maintenant son frère veut ma maison. J'y vis depuis toujours. Est-ce juste ?",
    "audio": "My lord, my husband is dead, and now his brother wants my house. I've lived there all my life. Is that right?"
   },
   "summaries": [
@@ -1110,12 +1110,12 @@
      "text": " now. I've got almost nothing left. Can you talk to him?"
     }
    ],
-   "fr": "Mon seigneur, le prêtre veut sa dîme maintenant. Il ne me reste presque rien. Pouvez-vous lui parler ?",
+   "fr": "Monseigneur, le prêtre veut sa dîme maintenant. Il ne me reste presque rien. Pouvez-vous lui parler ?",
    "audio": "My lord, the priest wants his tithe now. I've got almost nothing left. Can you talk to him?"
   },
   "summaries": [
    {
-    "fr": "Le prêtre réclame la dîme, et il n'a presque plus rien.",
+    "fr": "Le prêtre réclame la dîme, mais Roger n'a presque plus rien.",
     "correct": true
    },
    {
@@ -1204,7 +1204,7 @@
        "text": ". The church comes first."
       }
      ],
-     "fr": "Paie le prêtre. L'église passe d'abord.",
+     "fr": "Paie le prêtre. L'église passe avant tout.",
      "audio": "Pay the priest. The church comes first."
     },
     "loyalty": {
@@ -1224,11 +1224,11 @@
    "level": "A2",
    "segments": [
     {
-     "text": "My lord, a soldier's horse ran through my field and broke everything. He just laughed. Who's going to pay for that?"
+     "text": "My lord, a soldier's horse ran through my field and damaged everything. The soldier just laughed. Who's going to pay for that?"
     }
    ],
-   "fr": "Mon seigneur, le cheval d'un soldat a traversé mon champ et a tout cassé. Il a juste ri. Qui va payer pour ça ?",
-   "audio": "My lord, a soldier's horse ran through my field and broke everything. He just laughed. Who's going to pay for that?"
+   "fr": "Monseigneur, le cheval d'un soldat a traversé mon champ et a tout abîmé. Le soldat a juste ri. Qui va payer pour ça ?",
+   "audio": "My lord, a soldier's horse ran through my field and damaged everything. The soldier just laughed. Who's going to pay for that?"
   },
   "summaries": [
    {
@@ -1252,18 +1252,18 @@
      "level": "A2",
      "segments": [
       {
-       "text": "The soldier will pay for the field from his "
+       "text": "The soldier will pay for the damage out of his "
       },
       {
-       "text": "wage",
+       "text": "wages",
        "wordId": "en:b:wage"
       },
       {
        "text": "."
       }
      ],
-     "fr": "Le soldat paiera le champ sur son salaire.",
-     "audio": "The soldier will pay for the field from his wage."
+     "fr": "Le soldat paiera les dégâts sur son salaire.",
+     "audio": "The soldier will pay for the damage out of his wages."
     },
     "loyalty": {
      "paysans": 4,
@@ -1278,11 +1278,11 @@
      "level": "A2",
      "segments": [
       {
-       "text": "The colony will pay for your field."
+       "text": "The colony will pay for the damage."
       }
      ],
-     "fr": "La colonie paiera ton champ.",
-     "audio": "The colony will pay for your field."
+     "fr": "La colonie paiera les dégâts.",
+     "audio": "The colony will pay for the damage."
     },
     "loyalty": {
      "paysans": 4
@@ -1336,12 +1336,12 @@
      "text": " for a week. Who's going to feed them? Not me!"
     }
    ],
-   "fr": "Mon seigneur, des pèlerins veulent dormir dans notre grange pendant une semaine. Qui va les nourrir ? Pas moi !",
+   "fr": "Monseigneur, des pèlerins veulent dormir dans notre grange pendant une semaine. Qui va les nourrir ? Pas moi !",
    "audio": "My lord, pilgrims want to sleep in our barn for a week. Who's going to feed them? Not me!"
   },
   "summaries": [
    {
-    "fr": "Elle ne veut pas nourrir les pèlerins logés dans sa grange.",
+    "fr": "Elle ne veut pas nourrir les pèlerins qui veulent dormir dans sa grange.",
     "correct": true
    },
    {
@@ -1436,19 +1436,26 @@
      "wordId": "en:b:wheat"
     },
     {
-     "text": " left, and my kids cry all night. Open the town store, please. We can't wait any more!"
+     "text": " left, and my kids cry all night. Open the "
+    },
+    {
+     "text": "granary",
+     "wordId": "en:b:granary"
+    },
+    {
+     "text": ", please."
     }
    ],
-   "fr": "Mon seigneur, il ne nous reste plus de blé, et mes gosses pleurent toute la nuit. Ouvrez la réserve de la ville, s'il vous plaît. Nous ne pouvons plus attendre !",
-   "audio": "My lord, we've got no wheat left, and my kids cry all night. Open the town store, please. We can't wait any more!"
+   "fr": "Monseigneur, il ne nous reste plus de blé, et mes gosses pleurent toute la nuit. Ouvrez le grenier à grain, s'il vous plaît.",
+   "audio": "My lord, we've got no wheat left, and my kids cry all night. Open the granary, please."
   },
   "summaries": [
    {
-    "fr": "Il n'y a plus de blé ; elle demande d'ouvrir la réserve.",
+    "fr": "Il n'y a plus de blé ; elle demande d'ouvrir le grenier.",
     "correct": true
    },
    {
-    "fr": "Elle veut vendre son blé à la réserve.",
+    "fr": "Elle veut vendre son blé au grenier.",
     "correct": false
    },
    {
@@ -1464,7 +1471,14 @@
      "level": "A2",
      "segments": [
       {
-       "text": "The town store is open. Every family gets one "
+       "text": "The "
+      },
+      {
+       "text": "granary",
+       "wordId": "en:b:granary"
+      },
+      {
+       "text": " is open. Every family gets one "
       },
       {
        "text": "sack",
@@ -1474,8 +1488,8 @@
        "text": "."
       }
      ],
-     "fr": "La réserve de la ville est ouverte. Chaque famille reçoit un sac.",
-     "audio": "The town store is open. Every family gets one sack."
+     "fr": "Le grenier à grain est ouvert. Chaque famille reçoit un sac.",
+     "audio": "The granary is open. Every family gets one sack."
     },
     "loyalty": {
      "paysans": 6,
@@ -1510,11 +1524,25 @@
      "level": "A2",
      "segments": [
       {
-       "text": "The store stays closed for the soldiers."
+       "text": "The "
+      },
+      {
+       "text": "granary",
+       "wordId": "en:b:granary"
+      },
+      {
+       "text": " stays closed: the "
+      },
+      {
+       "text": "wheat",
+       "wordId": "en:b:wheat"
+      },
+      {
+       "text": " is for the soldiers."
       }
      ],
-     "fr": "La réserve reste fermée pour les soldats.",
-     "audio": "The store stays closed for the soldiers."
+     "fr": "Le grenier reste fermé : le blé est pour les soldats.",
+     "audio": "The granary stays closed: the wheat is for the soldiers."
     },
     "loyalty": {
      "paysans": -5,
@@ -1543,7 +1571,7 @@
      "text": " from the church."
     }
    ],
-   "fr": "Mauvaise nouvelle, mon seigneur. Les gens vendent leurs outils pour manger. Certains types veulent prendre le blé de l'église.",
+   "fr": "Mauvaise nouvelle, Monseigneur. Les gens vendent leurs outils pour manger. Certains types veulent prendre le blé de l'église.",
    "audio": "Bad news, my lord. People are selling their tools for food. Some guys want to take the wheat from the church."
   },
   "summaries": [
@@ -1653,7 +1681,7 @@
      "text": " every day. I've got some left, but I paid a lot for it, and I won't sell it cheap."
     }
    ],
-   "fr": "Mon seigneur, les gens me demandent de la farine tous les jours. Il m'en reste, mais je l'ai payée cher, et je ne la vendrai pas à bas prix.",
+   "fr": "Monseigneur, les gens me demandent de la farine tous les jours. Il m'en reste, mais je l'ai payée cher, et je ne la vendrai pas à bas prix.",
    "audio": "My lord, people ask me for flour every day. I've got some left, but I paid a lot for it, and I won't sell it cheap."
   },
   "summaries": [
@@ -1740,7 +1768,7 @@
        "text": ", your price. I will not stop you."
       }
      ],
-     "fr": "Ta farine, ton prix. Je ne te retiendrai pas.",
+     "fr": "Ta farine, ton prix. Je ne t'en empêcherai pas.",
      "audio": "Your flour, your price. I will not stop you."
     },
     "loyalty": {
@@ -1770,7 +1798,7 @@
      "text": " is too much. I paid in spring, I paid in summer, and now your men want more. I've got nothing!"
     }
    ],
-   "fr": "Mon seigneur, cet impôt est trop lourd. J'ai payé au printemps, j'ai payé en été, et maintenant vos hommes en veulent plus. Je n'ai plus rien !",
+   "fr": "Monseigneur, cet impôt est trop lourd. J'ai payé au printemps, j'ai payé en été, et maintenant vos hommes en veulent plus. Je n'ai plus rien !",
    "audio": "My lord, this tax is too much. I paid in spring, I paid in summer, and now your men want more. I've got nothing!"
   },
   "summaries": [
@@ -1783,7 +1811,7 @@
     "correct": false
    },
    {
-    "fr": "Vos hommes lui ont donné de l'argent.",
+    "fr": "Tes hommes lui ont donné de l'argent.",
     "correct": false
    }
   ],
@@ -1893,7 +1921,7 @@
      "text": " now? Nobody listens to us."
     }
    ],
-   "fr": "Mon seigneur, votre impôt a pris ma dernière pièce. Comment acheter du sel maintenant ? Personne ne nous écoute.",
+   "fr": "Monseigneur, votre impôt a pris ma dernière pièce. Comment acheter du sel maintenant ? Personne ne nous écoute.",
    "audio": "My lord, your tax took my last coin. How do I buy salt now? Nobody listens to us."
   },
   "summaries": [
@@ -1996,7 +2024,7 @@
      "text": " stone in the night! I saw it myself."
     }
    ],
-   "fr": "Mon seigneur, ces gens du marché disent que mon champ leur appartient. Ils ont déplacé la borne pendant la nuit ! Je l'ai vu moi-même.",
+   "fr": "Monseigneur, ces gens du marché disent que mon champ leur appartient. Ils ont déplacé la borne pendant la nuit ! Je l'ai vu moi-même.",
    "audio": "My lord, those market people say they own my field. They moved the boundary stone in the night! I saw it myself."
   },
   "summaries": [
@@ -2114,7 +2142,7 @@
      "text": ". The market people just laugh at him."
     }
    ],
-   "fr": "Mon seigneur, le prêtre dit que le marché du dimanche est un péché. Les gens du marché se moquent de lui.",
+   "fr": "Monseigneur, le prêtre dit que le marché du dimanche est un péché. Les gens du marché se moquent de lui.",
    "audio": "My lord, the priest says the Sunday market is a sin. The market people just laugh at him."
   },
   "summaries": [
@@ -2177,11 +2205,11 @@
      "level": "A2",
      "segments": [
       {
-       "text": "The market will open after the church, at the end of the morning."
+       "text": "The market will open after church, at the end of the morning."
       }
      ],
-     "fr": "Le marché ouvrira après l'église, à la fin de la matinée.",
-     "audio": "The market will open after the church, at the end of the morning."
+     "fr": "Le marché ouvrira après la messe, à la fin de la matinée.",
+     "audio": "The market will open after church, at the end of the morning."
     },
     "loyalty": {
      "marchands": 1,
@@ -2218,12 +2246,12 @@
      "text": " from every house. He says it's for you. Is that true?"
     }
    ],
-   "fr": "Mon seigneur, votre bailli prend une poule dans chaque maison. Il dit que c'est pour vous. Est-ce vrai ?",
+   "fr": "Monseigneur, votre bailli prend une poule dans chaque maison. Il dit que c'est pour vous. Est-ce vrai ?",
    "audio": "My lord, your bailiff takes a hen from every house. He says it's for you. Is that true?"
   },
   "summaries": [
    {
-    "fr": "Le bailli prend une poule à chaque maison en prétendant que c'est pour vous.",
+    "fr": "Le bailli prend une poule à chaque maison en prétendant que c'est pour toi.",
     "correct": true
    },
    {
@@ -2349,12 +2377,12 @@
      "text": " took money from me to speak to you. He says you don't hear poor people without it. Is that true?"
     }
    ],
-   "fr": "Mon seigneur, votre interprète m'a pris de l'argent pour vous parler. Il dit que vous n'écoutez pas les pauvres sans cela. Est-ce vrai ?",
+   "fr": "Monseigneur, votre interprète m'a pris de l'argent pour vous parler. Il dit que vous n'écoutez pas les pauvres sans cela. Est-ce vrai ?",
    "audio": "My lord, your interpreter took money from me to speak to you. He says you don't hear poor people without it. Is that true?"
   },
   "summaries": [
    {
-    "fr": "L'interprète s'est fait payer pour la laisser vous parler.",
+    "fr": "L'interprète s'est fait payer pour la laisser te parler.",
     "correct": true
    },
    {

@@ -1,0 +1,537 @@
+/* Every class is prefixed: this sheet only arrives with the mode, on top of Filou's. */
+
+.st-screen {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding-bottom: 32px;
+  overflow-wrap: anywhere;
+}
+
+.st-landing {
+  display: grid;
+  gap: 16px;
+  padding: 24px 16px;
+}
+
+.st-main {
+  display: grid;
+  gap: 14px;
+  padding: 12px 16px;
+  outline: none;
+}
+
+.st-main section {
+  display: grid;
+  gap: 14px;
+  min-width: 0;
+}
+
+.st-screen h1 {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.st-screen h2 {
+  font-size: 1.15rem;
+  line-height: 1.25;
+}
+
+.st-screen h3 {
+  margin: 4px 0 0;
+  font-size: 1rem;
+}
+
+/* ---------- Status bar and navigation ---------- */
+
+.st-bar {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  display: grid;
+  gap: 2px;
+  padding: 8px 16px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+  font-size: 0.8rem;
+}
+
+.st-bar-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 10px;
+  margin: 0;
+  color: var(--muted);
+}
+
+.st-bar-row div {
+  display: flex;
+  gap: 4px;
+}
+
+.st-bar-row dt {
+  font-weight: 400;
+}
+
+.st-bar-row dd {
+  margin: 0;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.st-bar-main {
+  font-size: 0.85rem;
+}
+
+.st-bar-main dt:only-child {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.st-danger dd {
+  color: var(--red);
+}
+
+.st-tabs {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+}
+
+.st-tabs button {
+  min-height: 44px;
+  padding: 0 2px;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  background: none;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.st-tabs button[aria-current='page'] {
+  border-bottom-color: var(--accent);
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.st-steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.st-steps li + li::before {
+  content: '› ';
+}
+
+.st-steps li[aria-current='step'] {
+  color: var(--accent-deep);
+  font-weight: 700;
+}
+
+/* ---------- Cards and buttons ---------- */
+
+.st-card {
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+  padding: 14px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+.st-choice {
+  display: grid;
+  gap: 8px;
+  padding: 10px 0;
+  border-top: 1px solid var(--line);
+}
+
+.st-choices,
+.st-stack {
+  display: grid;
+  gap: 8px;
+}
+
+.st-button {
+  min-height: 44px;
+  padding: 8px 14px;
+  border: 2px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.st-button:hover:not(:disabled) {
+  border-color: var(--teal);
+}
+
+.st-button:disabled {
+  color: var(--muted);
+  opacity: 0.7;
+}
+
+.st-button-small {
+  justify-self: start;
+  font-size: 0.9rem;
+}
+
+.st-option {
+  width: 100%;
+  font-weight: 400;
+  text-align: left;
+}
+
+.st-selected {
+  border-color: var(--teal);
+  background: var(--teal-soft);
+}
+
+.st-next {
+  width: 100%;
+  margin-top: 6px;
+}
+
+.st-reward {
+  border-color: var(--accent);
+}
+
+.st-screen button:focus-visible,
+.st-screen summary:focus-visible {
+  outline: 3px solid var(--teal);
+  outline-offset: 2px;
+}
+
+/* ---------- Reading ---------- */
+
+.st-text {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+
+.st-english {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+.st-said {
+  font-size: 1.05rem;
+}
+
+.st-blot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.st-blot-button {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.st-ink {
+  display: inline-block;
+  max-width: 100%;
+  height: 1em;
+  border-radius: 6px 4px 7px 3px;
+  background: var(--ink);
+}
+
+.st-blot-button:hover .st-ink {
+  background: var(--accent-deep);
+}
+
+.st-revealed {
+  min-height: 44px;
+  padding: 0;
+  border: 0;
+  border-bottom: 2px dotted var(--teal);
+  background: none;
+  line-height: inherit;
+}
+
+.st-transparent {
+  text-decoration: underline dotted var(--muted);
+  text-underline-offset: 3px;
+}
+
+.st-screen mark {
+  padding: 1px 3px;
+  border-radius: 4px;
+  background: var(--accent-soft);
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.st-gloss {
+  padding: 6px 10px;
+  border-left: 3px solid var(--teal);
+  background: var(--teal-soft);
+}
+
+.st-interpreted {
+  padding: 6px 10px;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+}
+
+.st-label {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.st-hint {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.st-good {
+  color: var(--teal);
+  font-weight: 600;
+}
+
+.st-bad {
+  color: var(--red);
+  font-weight: 600;
+}
+
+.st-notice {
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: var(--red-soft);
+}
+
+.st-cause {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+/* ---------- Council ---------- */
+
+.st-npc {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.st-pawn {
+  flex: none;
+  width: 40px;
+  height: 48px;
+}
+
+.st-group summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2px 10px;
+  min-height: 44px;
+  padding: 8px 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.st-group[open] > .st-option + .st-option {
+  margin-top: 8px;
+}
+
+.st-counts {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.st-assembly,
+.st-bank {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  min-height: 60px;
+  padding: 8px;
+  border-radius: 12px;
+}
+
+.st-assembly {
+  border: 2px dashed var(--line);
+}
+
+.st-block {
+  min-height: 44px;
+  max-width: 100%;
+  padding: 6px 12px;
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.st-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+/* ---------- Map ---------- */
+
+.st-map {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 14px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+
+.st-map-canvas,
+.st-map-canvas canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.st-map-loading {
+  padding: 16px;
+  color: var(--muted);
+}
+
+.st-place-spot {
+  position: absolute;
+  transform: translate(-50%, -130%);
+}
+
+.st-place {
+  min-height: 44px;
+  padding: 2px 10px;
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.st-map-plain {
+  display: grid;
+  gap: 1px;
+  width: min(100%, 360px);
+}
+
+.st-map-plain span {
+  aspect-ratio: 1;
+}
+
+.st-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.9rem;
+}
+
+.st-legend li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.st-swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+}
+
+/* ---------- Tables ---------- */
+
+.st-words {
+  display: grid;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.st-words li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px 8px;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.st-word-fr {
+  flex: 1;
+  color: var(--muted);
+}
+
+.st-move {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+}
+
+.st-state {
+  padding: 1px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.st-state-grise {
+  border-style: dashed;
+  color: var(--muted);
+}
+
+.st-state-en_cours {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--ink);
+}
+
+.st-state-maitrise {
+  border-color: var(--teal);
+  background: var(--teal-soft);
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.st-state-fissure {
+  border-color: var(--red);
+  background: var(--red-soft);
+  color: var(--ink);
+}
+
+/* ---------- Technologies ---------- */
+
+.st-tech-later {
+  opacity: 0.75;
+  border-style: dashed;
+}
+
+.st-tech h3 {
+  margin: 0;
+}
