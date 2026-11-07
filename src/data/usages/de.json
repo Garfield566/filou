@@ -1,0 +1,3714 @@
+{
+  "language": "de",
+  "words": [
+    {
+      "word": "als",
+      "rank": 24,
+      "required": true,
+      "categories": [
+        "conjonction"
+      ],
+      "usages": [
+        {
+          "id": "time_past",
+          "label": "quand (fait unique du passé)",
+          "pos": "conj",
+          "explanation": "Introduit une subordonnée de temps pour un événement unique ou une période du passé. Verbe conjugué à la fin.",
+          "pattern": "als + sujet + … + verbe conjugué",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Als ich klein war, wohnten wir in Köln.",
+              "fr": "Quand j'étais petit, nous habitions à Cologne."
+            },
+            {
+              "text": "Als sie anrief, war ich gerade unter der Dusche.",
+              "fr": "Quand elle a appelé, j'étais justement sous la douche."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "comparison_unequal",
+          "label": "que (après un comparatif)",
+          "pos": "conj",
+          "explanation": "Après un comparatif (plus/moins … que), « que » se dit als, jamais wie.",
+          "pattern": "comparatif + als + élément comparé",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Mein Bruder ist zwei Jahre älter als ich.",
+              "fr": "Mon frère a deux ans de plus que moi."
+            },
+            {
+              "text": "Heute ist es viel kälter als gestern.",
+              "fr": "Aujourd'hui, il fait beaucoup plus froid qu'hier."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "role",
+          "label": "en tant que, comme (fonction, rôle)",
+          "pos": "conj",
+          "explanation": "Indique un rôle, une profession ou une qualité ; le nom qui suit est généralement sans article.",
+          "pattern": "als + nom (sans article)",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Sie arbeitet als Ärztin in einem großen Krankenhaus.",
+              "fr": "Elle travaille comme médecin dans un grand hôpital."
+            },
+            {
+              "text": "Als Kind habe ich viel Fußball gespielt.",
+              "fr": "Enfant, j'ai beaucoup joué au football."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "as_if",
+          "label": "comme si (als ob / als + verbe)",
+          "pos": "conj",
+          "explanation": "Compare à une situation irréelle, avec le subjonctif II. Avec als ob le verbe va à la fin ; avec als seul, le verbe suit directement als.",
+          "pattern": "als ob + sujet + … + verbe au subj. II / als + verbe au subj. II + sujet …",
+          "level": "B2",
+          "examples": [
+            {
+              "text": "Er tut so, als ob er nichts wüsste.",
+              "fr": "Il fait comme s'il ne savait rien."
+            },
+            {
+              "text": "Du siehst aus, als hättest du nicht geschlafen.",
+              "fr": "Tu as l'air de ne pas avoir dormi."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "wenn",
+      "rank": 41,
+      "required": true,
+      "categories": [
+        "conjonction"
+      ],
+      "usages": [
+        {
+          "id": "time_repeated",
+          "label": "quand, chaque fois que (répétition, présent, futur)",
+          "pos": "conj",
+          "explanation": "Pour une action répétée (même au passé) ou un moment présent ou futur. Verbe conjugué à la fin.",
+          "pattern": "wenn + sujet + … + verbe conjugué",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Wenn ich nach Hause komme, koche ich sofort.",
+              "fr": "Quand je rentre à la maison, je cuisine tout de suite."
+            },
+            {
+              "text": "Immer wenn es regnete, blieben wir drinnen.",
+              "fr": "Chaque fois qu'il pleuvait, nous restions à l'intérieur."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "condition",
+          "label": "si (condition)",
+          "pos": "conj",
+          "explanation": "Pose une condition, réelle ou irréelle (avec le subjonctif II). Verbe à la fin. À ne pas confondre avec ob, le « si » de la question indirecte.",
+          "pattern": "wenn + sujet + … + verbe conjugué, verbe conjugué + sujet …",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Wenn du Zeit hast, können wir ins Kino gehen.",
+              "fr": "Si tu as le temps, nous pouvons aller au cinéma."
+            },
+            {
+              "text": "Wenn ich reich wäre, würde ich viel reisen.",
+              "fr": "Si j'étais riche, je voyagerais beaucoup."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "wish",
+          "label": "si seulement (souhait irréel)",
+          "pos": "conj",
+          "explanation": "Avec nur ou doch et le subjonctif II, exprime un regret ou un souhait irréalisable. Verbe à la fin.",
+          "pattern": "wenn + sujet + nur/doch + … + verbe au subj. II !",
+          "level": "B2",
+          "examples": [
+            {
+              "text": "Wenn ich nur mehr Zeit für meine Familie hätte!",
+              "fr": "Si seulement j'avais plus de temps pour ma famille !"
+            },
+            {
+              "text": "Wenn er doch endlich anrufen würde!",
+              "fr": "Si seulement il appelait enfin !"
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "wie",
+      "rank": 30,
+      "required": true,
+      "categories": [
+        "adverbe interrogatif",
+        "conjonction"
+      ],
+      "usages": [
+        {
+          "id": "question_how",
+          "label": "comment, combien (question directe)",
+          "pos": "adv",
+          "explanation": "Mot interrogatif : « comment », ou « combien / quel » devant un adjectif (wie alt, wie lange, wie viel).",
+          "pattern": "wie (+ adjectif) + verbe conjugué + sujet … ?",
+          "level": "A1",
+          "examples": [
+            {
+              "text": "Wie kommst du morgen zur Arbeit?",
+              "fr": "Comment vas-tu au travail demain ?"
+            },
+            {
+              "text": "Wie lange wohnst du schon in Berlin?",
+              "fr": "Depuis combien de temps habites-tu à Berlin ?"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "indirect_how",
+          "label": "comment (question indirecte)",
+          "pos": "conj",
+          "explanation": "Introduit une interrogative indirecte ; comme toute subordonnée, le verbe conjugué va à la fin.",
+          "pattern": "…, wie + sujet + … + verbe conjugué",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ich weiß nicht, wie diese Maschine funktioniert.",
+              "fr": "Je ne sais pas comment fonctionne cette machine."
+            },
+            {
+              "text": "Kannst du mir sagen, wie spät es ist?",
+              "fr": "Peux-tu me dire quelle heure il est ?"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "comparison_equal",
+          "label": "aussi … que, comme (égalité, ressemblance)",
+          "pos": "conj",
+          "explanation": "Comparaison d'égalité (so … wie) ou ressemblance. Après un comparatif, on emploie als et non wie.",
+          "pattern": "so + adjectif + wie + élément comparé",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Sie ist schon so groß wie ihre Mutter.",
+              "fr": "Elle est déjà aussi grande que sa mère."
+            },
+            {
+              "text": "Er spricht Deutsch fast wie ein Muttersprachler.",
+              "fr": "Il parle allemand presque comme un natif."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "doch",
+      "rank": 71,
+      "required": true,
+      "categories": [
+        "adverbe",
+        "conjonction",
+        "particule modale"
+      ],
+      "usages": [
+        {
+          "id": "answer_negative",
+          "label": "si (réponse à une question négative)",
+          "pos": "particle",
+          "explanation": "Contredit une question ou une affirmation négative ; c'est le « si » français. Ja serait ici une erreur.",
+          "pattern": "question négative ? – Doch, …",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Hast du keinen Hunger? – Doch, ich habe großen Hunger.",
+              "fr": "Tu n'as pas faim ? – Si, j'ai très faim."
+            },
+            {
+              "text": "Du kommst nicht mit, oder? – Doch, natürlich!",
+              "fr": "Tu ne viens pas, n'est-ce pas ? – Si, bien sûr !"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "contrast",
+          "label": "pourtant, quand même, mais",
+          "pos": "conj",
+          "explanation": "Marque une opposition à ce qu'on attendait. Comme conjonction (= aber) il ne change pas l'ordre des mots ; comme adverbe dans la phrase, il signifie « quand même ».",
+          "pattern": "…, doch + sujet + verbe … / sujet + verbe + doch + …",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Es war sehr kalt, doch wir gingen schwimmen.",
+              "fr": "Il faisait très froid, pourtant nous sommes allés nager."
+            },
+            {
+              "text": "Ich wollte nicht kommen, aber dann bin ich doch gegangen.",
+              "fr": "Je ne voulais pas venir, mais finalement j'y suis quand même allé."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "modal_particle",
+          "label": "particule modale (insistance, invitation, reproche)",
+          "pos": "particle",
+          "explanation": "Non accentué : adoucit un impératif (« donc ») ou rappelle une évidence que l'autre devrait connaître (« pourtant »).",
+          "pattern": "impératif + doch + … ! / sujet + verbe + doch + …",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Komm doch heute Abend zu uns!",
+              "fr": "Viens donc chez nous ce soir !"
+            },
+            {
+              "text": "Das habe ich dir doch gestern schon gesagt.",
+              "fr": "Je te l'ai pourtant déjà dit hier."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "schon",
+      "rank": 58,
+      "required": true,
+      "categories": [
+        "adverbe",
+        "particule modale"
+      ],
+      "usages": [
+        {
+          "id": "already",
+          "label": "déjà",
+          "pos": "adv",
+          "explanation": "Indique qu'une action a eu lieu, ou qu'un état est atteint, plus tôt que prévu. Contraire : noch nicht.",
+          "pattern": "sujet + verbe + schon + …",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Danke, ich habe schon zu Mittag gegessen.",
+              "fr": "Merci, j'ai déjà déjeuné."
+            },
+            {
+              "text": "Bist du schon einmal in Wien gewesen?",
+              "fr": "Es-tu déjà allé à Vienne ?"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "duration",
+          "label": "depuis (déjà) … (durée avec le présent)",
+          "pos": "adv",
+          "explanation": "Avec une durée et un verbe au présent, souligne que l'action dure depuis longtemps ; le français dit « ça fait … que » ou « depuis ».",
+          "pattern": "sujet + verbe au présent + schon (+ seit) + durée",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ich lerne schon seit drei Jahren Deutsch.",
+              "fr": "J'apprends l'allemand depuis déjà trois ans."
+            },
+            {
+              "text": "Wir warten schon eine halbe Stunde auf dich.",
+              "fr": "Ça fait une demi-heure que nous t'attendons."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "modal_particle",
+          "label": "particule modale (rassurer, concéder)",
+          "pos": "particle",
+          "explanation": "Non accentué : rassure (« ça va aller ») ou concède un point avant un aber (« certes »).",
+          "pattern": "sujet + verbe + schon + … (, aber …)",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Keine Sorge, das schaffst du schon.",
+              "fr": "Ne t'inquiète pas, tu vas y arriver."
+            },
+            {
+              "text": "Das ist schon richtig, aber es ist zu teuer.",
+              "fr": "C'est vrai, certes, mais c'est trop cher."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "noch",
+      "rank": 36,
+      "required": true,
+      "categories": [
+        "adverbe",
+        "conjonction"
+      ],
+      "usages": [
+        {
+          "id": "still",
+          "label": "encore, toujours (continuation)",
+          "pos": "adv",
+          "explanation": "Une action ou un état continue au moment dont on parle.",
+          "pattern": "sujet + verbe + noch + …",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Wohnst du noch bei deinen Eltern in Hamburg?",
+              "fr": "Tu habites encore chez tes parents à Hambourg ?"
+            },
+            {
+              "text": "Es ist zehn Uhr und er schläft noch.",
+              "fr": "Il est dix heures et il dort encore."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "additional",
+          "label": "encore (en plus)",
+          "pos": "adv",
+          "explanation": "Ajoute une quantité ou une action supplémentaire : noch ein, noch mehr, noch etwas.",
+          "pattern": "noch + ein/mehr/etwas + nom / sujet + verbe + noch + …",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Möchtest du noch ein Stück Kuchen?",
+              "fr": "Tu veux encore un morceau de gâteau ?"
+            },
+            {
+              "text": "Ich muss noch schnell einkaufen gehen.",
+              "fr": "Je dois encore vite aller faire les courses."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "not_yet",
+          "label": "pas encore, jamais encore (noch nicht, noch nie)",
+          "pos": "adv",
+          "explanation": "Avec une négation : ce qui n'a pas (encore) eu lieu. Contraire : schon.",
+          "pattern": "noch + nicht / kein / nie",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Der Zug ist noch nicht angekommen.",
+              "fr": "Le train n'est pas encore arrivé."
+            },
+            {
+              "text": "Ich war noch nie in Spanien.",
+              "fr": "Je ne suis encore jamais allé en Espagne."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "erst",
+      "rank": 159,
+      "required": true,
+      "categories": [
+        "adverbe"
+      ],
+      "usages": [
+        {
+          "id": "only_then",
+          "label": "seulement, pas avant (plus tard que prévu)",
+          "pos": "adv",
+          "explanation": "Indique qu'un événement arrive plus tard qu'on ne l'attendait : « ne … que », « seulement ». Ne pas le remplacer par nur.",
+          "pattern": "erst + indication de temps",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Der Film beginnt erst um neun Uhr.",
+              "fr": "Le film ne commence qu'à neuf heures."
+            },
+            {
+              "text": "Er ist erst gestern Abend aus Rom zurückgekommen.",
+              "fr": "Il n'est rentré de Rome qu'hier soir."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "only_amount",
+          "label": "seulement (quantité encore faible, appelée à augmenter)",
+          "pos": "adv",
+          "explanation": "Avec un nombre : « ne … que pour l'instant », sous-entendu que cela va augmenter (âge, progression).",
+          "pattern": "erst + nombre / quantité",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Meine Tochter ist erst drei Jahre alt.",
+              "fr": "Ma fille n'a que trois ans."
+            },
+            {
+              "text": "Ich habe das Buch erst zur Hälfte gelesen.",
+              "fr": "Je n'ai lu que la moitié du livre pour l'instant."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "first",
+          "label": "d'abord (première étape)",
+          "pos": "adv",
+          "explanation": "Première étape d'une suite, souvent suivie de dann (= zuerst). En tête, il entraîne l'inversion.",
+          "pattern": "erst + verbe + sujet …, dann + verbe + sujet …",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Erst essen wir, dann gehen wir spazieren.",
+              "fr": "D'abord nous mangeons, ensuite nous allons nous promener."
+            },
+            {
+              "text": "Mach erst deine Hausaufgaben, dann darfst du spielen.",
+              "fr": "Fais d'abord tes devoirs, ensuite tu pourras jouer."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "da",
+      "rank": 55,
+      "required": true,
+      "categories": [
+        "adverbe",
+        "conjonction"
+      ],
+      "usages": [
+        {
+          "id": "place",
+          "label": "là, ici, présent",
+          "pos": "adv",
+          "explanation": "Adverbe de lieu : là où l'on montre, ou « être là » (présent).",
+          "pattern": "da + sein / da + verbe + sujet …",
+          "level": "A1",
+          "examples": [
+            {
+              "text": "Da kommt mein Bus, ich muss los.",
+              "fr": "Voilà mon bus, je dois y aller."
+            },
+            {
+              "text": "Ist Herr Müller heute nicht da?",
+              "fr": "M. Müller n'est pas là aujourd'hui ?"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "time_then",
+          "label": "alors, à ce moment-là (récit)",
+          "pos": "adv",
+          "explanation": "Dans un récit, introduit l'événement qui survient ; en tête, il entraîne l'inversion (verbe en 2e position).",
+          "pattern": "…, da + verbe + sujet …",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Wir saßen beim Essen, da klingelte das Telefon.",
+              "fr": "Nous étions à table quand le téléphone a sonné."
+            },
+            {
+              "text": "Da wusste ich, dass etwas nicht stimmte.",
+              "fr": "À ce moment-là, j'ai su que quelque chose n'allait pas."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "cause_known",
+          "label": "comme, puisque (cause connue)",
+          "pos": "conj",
+          "explanation": "Subordonnant de cause, souvent en tête de phrase, pour une raison déjà connue ou évidente. Verbe conjugué à la fin.",
+          "pattern": "da + sujet + … + verbe conjugué, verbe conjugué + sujet …",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Da es regnet, bleiben wir heute zu Hause.",
+              "fr": "Comme il pleut, nous restons à la maison aujourd'hui."
+            },
+            {
+              "text": "Da du schon hier bist, kannst du mir helfen.",
+              "fr": "Puisque tu es déjà là, tu peux m'aider."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "denn",
+      "rank": 105,
+      "required": true,
+      "categories": [
+        "conjonction",
+        "particule modale"
+      ],
+      "usages": [
+        {
+          "id": "cause_coord",
+          "label": "car",
+          "pos": "conj",
+          "explanation": "Conjonction de coordination : elle ne compte pas comme une place, l'ordre reste sujet + verbe (verbe en 2e position). Toujours après la principale.",
+          "pattern": "…, denn + sujet + verbe + …",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ich bleibe zu Hause, denn ich bin krank.",
+              "fr": "Je reste à la maison car je suis malade."
+            },
+            {
+              "text": "Wir nehmen ein Taxi, denn es ist schon spät.",
+              "fr": "Nous prenons un taxi car il est déjà tard."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "modal_particle",
+          "label": "particule des questions (« donc », curiosité)",
+          "pos": "particle",
+          "explanation": "Dans une question, rend le ton plus naturel ou marque l'étonnement ; souvent intraduisible ou rendu par « donc ».",
+          "pattern": "(mot interrogatif) + verbe + sujet + denn + … ?",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Was machst du denn so spät hier?",
+              "fr": "Qu'est-ce que tu fais donc ici si tard ?"
+            },
+            {
+              "text": "Wo warst du denn die ganze Zeit?",
+              "fr": "Mais où étais-tu donc tout ce temps ?"
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "weil",
+      "rank": 112,
+      "required": true,
+      "categories": [
+        "conjonction"
+      ],
+      "usages": [
+        {
+          "id": "cause_sub",
+          "label": "parce que",
+          "pos": "conj",
+          "explanation": "Subordonnant de cause qui répond à warum ; verbe conjugué à la fin. Sert de point de comparaison avec denn et da.",
+          "pattern": "…, weil + sujet + … + verbe conjugué",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ich bleibe zu Hause, weil ich krank bin.",
+              "fr": "Je reste à la maison parce que je suis malade."
+            },
+            {
+              "text": "Sie lernt Deutsch, weil sie in Wien arbeiten möchte.",
+              "fr": "Elle apprend l'allemand parce qu'elle voudrait travailler à Vienne."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "zu",
+      "rank": 9,
+      "required": true,
+      "categories": [
+        "préposition",
+        "particule",
+        "adverbe"
+      ],
+      "usages": [
+        {
+          "id": "direction",
+          "label": "chez, à, vers (direction)",
+          "pos": "prep",
+          "explanation": "Préposition + datif : direction vers une personne, un bâtiment ou un événement (zum Arzt, zur Schule, zu mir).",
+          "pattern": "zu + datif",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Morgen muss ich zum Arzt gehen.",
+              "fr": "Demain, je dois aller chez le médecin."
+            },
+            {
+              "text": "Kommst du heute Abend zu mir?",
+              "fr": "Tu viens chez moi ce soir ?"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "infinitive",
+          "label": "de, à (+ infinitif)",
+          "pos": "particle",
+          "explanation": "Devant l'infinitif après de nombreux verbes et expressions (versuchen, vergessen, Lust haben). L'infinitif avec zu se place à la fin ; avec un verbe à particule, zu s'insère au milieu (zuzumachen).",
+          "pattern": "…, (…) + zu + infinitif",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ich habe keine Lust, heute zu kochen.",
+              "fr": "Je n'ai pas envie de cuisiner aujourd'hui."
+            },
+            {
+              "text": "Vergiss nicht, vor dem Urlaub die Fenster zuzumachen.",
+              "fr": "N'oublie pas de fermer les fenêtres avant les vacances."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "too",
+          "label": "trop (+ adjectif)",
+          "pos": "adv",
+          "explanation": "Devant un adjectif ou un adverbe : excès. Ne pas confondre avec sehr (très).",
+          "pattern": "zu + adjectif / adverbe",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Der Kaffee ist noch zu heiß zum Trinken.",
+              "fr": "Le café est encore trop chaud pour être bu."
+            },
+            {
+              "text": "Du fährst viel zu schnell, pass auf!",
+              "fr": "Tu roules beaucoup trop vite, fais attention !"
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "lassen",
+      "rank": 162,
+      "required": true,
+      "categories": [
+        "verbe"
+      ],
+      "usages": [
+        {
+          "id": "let",
+          "label": "laisser (permettre)",
+          "pos": "verb",
+          "explanation": "Laisser quelqu'un faire quelque chose ; l'infinitif se place à la fin, sans zu.",
+          "pattern": "sujet + lassen + COD + … + infinitif",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Meine Eltern lassen mich nicht allein reisen.",
+              "fr": "Mes parents ne me laissent pas voyager seul."
+            },
+            {
+              "text": "Lass mich bitte zuerst meinen Satz beenden!",
+              "fr": "Laisse-moi d'abord finir ma phrase, s'il te plaît !"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "causative",
+          "label": "faire faire (par quelqu'un d'autre)",
+          "pos": "verb",
+          "explanation": "Faire réaliser une action par un tiers, souvent un professionnel ; avec sich : « se faire … ». Infinitif à la fin.",
+          "pattern": "sujet + lassen + (sich) + COD + … + infinitif",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Ich lasse mein Auto in der Werkstatt reparieren.",
+              "fr": "Je fais réparer ma voiture au garage."
+            },
+            {
+              "text": "Sie lässt sich morgen die Haare schneiden.",
+              "fr": "Elle se fait couper les cheveux demain."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "leave_stop",
+          "label": "laisser (quelque part), arrêter",
+          "pos": "verb",
+          "explanation": "Sans infinitif : laisser un objet quelque part, ou cesser une action (Lass das! = arrête).",
+          "pattern": "sujet + lassen + COD (+ lieu)",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ich habe meinen Schirm im Zug gelassen.",
+              "fr": "J'ai laissé mon parapluie dans le train."
+            },
+            {
+              "text": "Lass das, du machst es nur noch schlimmer!",
+              "fr": "Arrête ça, tu ne fais qu'aggraver les choses !"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "lets_proposal",
+          "label": "allons… (proposition : lass uns)",
+          "pos": "verb",
+          "explanation": "Lass uns / lasst uns + infinitif : proposition faite à un ou plusieurs interlocuteurs, comme l'impératif « -ons ».",
+          "pattern": "lass/lasst uns + … + infinitif",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Lass uns heute Abend eine Pizza bestellen!",
+              "fr": "Commandons une pizza ce soir !"
+            },
+            {
+              "text": "Lasst uns endlich anfangen, es ist schon spät.",
+              "fr": "Commençons enfin, il est déjà tard."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "werden",
+      "rank": 45,
+      "required": true,
+      "categories": [
+        "verbe",
+        "auxiliaire"
+      ],
+      "usages": [
+        {
+          "id": "become",
+          "label": "devenir",
+          "pos": "verb",
+          "explanation": "Verbe plein : devenir, suivi d'un adjectif ou d'un nom au nominatif.",
+          "pattern": "sujet + werden + adjectif / nom",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Im Herbst werden die Tage kürzer.",
+              "fr": "En automne, les jours deviennent plus courts."
+            },
+            {
+              "text": "Meine kleine Schwester möchte später Ärztin werden.",
+              "fr": "Ma petite sœur veut devenir médecin plus tard."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "future",
+          "label": "futur (werden + infinitif)",
+          "pos": "aux",
+          "explanation": "Auxiliaire du futur ; l'infinitif va à la fin. Exprime aussi souvent une supposition.",
+          "pattern": "sujet + werden + … + infinitif",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ich werde dich morgen früh anrufen.",
+              "fr": "Je t'appellerai demain matin."
+            },
+            {
+              "text": "Es wird heute Nachmittag bestimmt regnen.",
+              "fr": "Il va sûrement pleuvoir cet après-midi."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "passive",
+          "label": "passif (werden + participe passé)",
+          "pos": "aux",
+          "explanation": "Auxiliaire du passif ; le participe passé va à la fin. L'agent est introduit par von.",
+          "pattern": "sujet + werden + … + participe passé",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Das Haus wurde im Jahr 1950 gebaut.",
+              "fr": "La maison a été construite en 1950."
+            },
+            {
+              "text": "In diesem Laden wird kein Bargeld akzeptiert.",
+              "fr": "Dans ce magasin, l'argent liquide n'est pas accepté."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "conditional",
+          "label": "conditionnel (würde + infinitif)",
+          "pos": "aux",
+          "explanation": "Au subjonctif II (würde), forme le conditionnel : souhait, hypothèse, demande polie. Infinitif à la fin.",
+          "pattern": "sujet + würde + … + infinitif",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Ich würde gern ein Jahr im Ausland leben.",
+              "fr": "J'aimerais vivre un an à l'étranger."
+            },
+            {
+              "text": "Würden Sie bitte das Fenster schließen?",
+              "fr": "Pourriez-vous fermer la fenêtre, s'il vous plaît ?"
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "ob",
+      "rank": 139,
+      "required": true,
+      "categories": [
+        "conjonction"
+      ],
+      "usages": [
+        {
+          "id": "indirect_yesno",
+          "label": "si (question indirecte oui/non)",
+          "pos": "conj",
+          "explanation": "Introduit une question indirecte sans mot interrogatif (réponse oui ou non) ; verbe à la fin. Ici on ne peut pas employer wenn.",
+          "pattern": "…, ob + sujet + … + verbe conjugué",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ich weiß nicht, ob er heute kommt.",
+              "fr": "Je ne sais pas s'il vient aujourd'hui."
+            },
+            {
+              "text": "Kannst du fragen, ob der Laden noch offen ist?",
+              "fr": "Peux-tu demander si le magasin est encore ouvert ?"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "whether_or",
+          "label": "que … ou (peu importe)",
+          "pos": "conj",
+          "explanation": "Ob … oder … : présente deux possibilités sans que cela change la suite. La principale qui suit garde verbe + sujet.",
+          "pattern": "ob … oder …, verbe conjugué + sujet …",
+          "level": "B2",
+          "examples": [
+            {
+              "text": "Ob du willst oder nicht, wir fahren morgen.",
+              "fr": "Que tu le veuilles ou non, nous partons demain."
+            },
+            {
+              "text": "Ob arm oder reich, alle sind hier willkommen.",
+              "fr": "Riches ou pauvres, tous sont les bienvenus ici."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "ja",
+      "rank": 60,
+      "required": true,
+      "categories": [
+        "interjection",
+        "particule modale"
+      ],
+      "usages": [
+        {
+          "id": "yes",
+          "label": "oui",
+          "pos": "intj",
+          "explanation": "Réponse affirmative à une question positive. À une question négative, on répond doch.",
+          "pattern": "Ja, + phrase",
+          "level": "A1",
+          "examples": [
+            {
+              "text": "Ja, ich komme gern mit ins Kino.",
+              "fr": "Oui, je viens volontiers au cinéma."
+            },
+            {
+              "text": "Ist das Restaurant heute offen? – Ja, bis zehn.",
+              "fr": "Le restaurant est ouvert aujourd'hui ? – Oui, jusqu'à dix heures."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "modal_particle_known",
+          "label": "particule modale (évidence partagée)",
+          "pos": "particle",
+          "explanation": "Non accentué : rappelle quelque chose que l'interlocuteur sait déjà (« tu sais bien », « mais »).",
+          "pattern": "sujet + verbe + ja + …",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Du weißt ja, dass ich keinen Fisch esse.",
+              "fr": "Tu sais bien que je ne mange pas de poisson."
+            },
+            {
+              "text": "Das ist ja gar kein Problem für mich.",
+              "fr": "Mais ce n'est pas du tout un problème pour moi."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "modal_particle_surprise",
+          "label": "particule modale (surprise)",
+          "pos": "particle",
+          "explanation": "Dans une exclamation, exprime l'étonnement devant ce qu'on constate (« mais … ! »).",
+          "pattern": "sujet + verbe + ja + … !",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Du bist ja schon wieder zu Hause!",
+              "fr": "Mais tu es déjà rentré !"
+            },
+            {
+              "text": "Das ist ja eine tolle Überraschung!",
+              "fr": "Mais quelle belle surprise !"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "warning",
+          "label": "surtout (mise en garde, accentué)",
+          "pos": "particle",
+          "explanation": "Accentué dans un impératif : renforce un avertissement (« surtout ne … pas »).",
+          "pattern": "impératif + ja + nicht/kein … !",
+          "level": "B2",
+          "examples": [
+            {
+              "text": "Komm ja nicht zu spät nach Hause!",
+              "fr": "Surtout, ne rentre pas trop tard !"
+            },
+            {
+              "text": "Sag ja niemandem etwas von unserem Plan!",
+              "fr": "Surtout, ne dis rien à personne de notre plan !"
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "mal",
+      "rank": 65,
+      "required": true,
+      "categories": [
+        "adverbe",
+        "particule modale"
+      ],
+      "usages": [
+        {
+          "id": "times",
+          "label": "fois (nombre de fois)",
+          "pos": "adv",
+          "explanation": "Après un nombre : « fois » (einmal, zweimal) ; aussi « fois » en calcul.",
+          "pattern": "nombre + mal",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ich war schon dreimal in Berlin.",
+              "fr": "Je suis déjà allé trois fois à Berlin."
+            },
+            {
+              "text": "Ich habe dich zweimal angerufen, aber niemand ging ran.",
+              "fr": "Je t'ai appelé deux fois, mais personne n'a répondu."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "modal_particle",
+          "label": "particule modale (adoucit une demande)",
+          "pos": "particle",
+          "explanation": "Forme courte de einmal : rend un impératif ou une demande plus léger (« un peu », « voir », « un instant »).",
+          "pattern": "impératif / question + mal + …",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Kannst du mal kurz das Fenster aufmachen?",
+              "fr": "Tu peux ouvrir la fenêtre un instant ?"
+            },
+            {
+              "text": "Schau mal, da drüben ist ein Reh!",
+              "fr": "Regarde, là-bas il y a un chevreuil !"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "sometime",
+          "label": "un jour, autrefois (moment indéfini)",
+          "pos": "adv",
+          "explanation": "Forme courte de einmal : un moment indéterminé du passé (« autrefois ») ou de l'avenir (« un de ces jours »).",
+          "pattern": "sujet + verbe + mal + …",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Wir sollten mal wieder ins Theater gehen.",
+              "fr": "Nous devrions retourner au théâtre un de ces jours."
+            },
+            {
+              "text": "Ich war mal Lehrer in einer kleinen Stadt.",
+              "fr": "J'ai été professeur autrefois dans une petite ville."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "eben",
+      "rank": null,
+      "required": true,
+      "categories": [
+        "adverbe",
+        "adjectif",
+        "particule modale"
+      ],
+      "usages": [
+        {
+          "id": "just_now",
+          "label": "à l'instant, venir de",
+          "pos": "adv",
+          "explanation": "Indique qu'une action vient tout juste de se passer (= gerade).",
+          "pattern": "sujet + auxiliaire + eben + … + participe",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Sie ist eben nach Hause gegangen.",
+              "fr": "Elle vient de rentrer chez elle."
+            },
+            {
+              "text": "Ich habe eben mit deiner Mutter telefoniert.",
+              "fr": "Je viens de téléphoner avec ta mère."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "flat",
+          "label": "plat, plan (adjectif)",
+          "pos": "adj",
+          "explanation": "Adjectif : sans relief, plat (un terrain, une surface).",
+          "pattern": "eben / ein ebener … + nom",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Die Landschaft hier im Norden ist ganz eben.",
+              "fr": "Le paysage ici dans le Nord est tout plat."
+            },
+            {
+              "text": "Wir suchen einen ebenen Platz für das Zelt.",
+              "fr": "Nous cherchons un endroit plat pour la tente."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "modal_particle",
+          "label": "particule modale (c'est comme ça, tant pis)",
+          "pos": "particle",
+          "explanation": "Non accentué : présente un fait comme évident et inévitable, ou une solution résignée (« voilà tout », « tant pis »).",
+          "pattern": "sujet + verbe + eben + …",
+          "level": "B2",
+          "examples": [
+            {
+              "text": "Das ist eben so, da kann man nichts machen.",
+              "fr": "C'est comme ça, on n'y peut rien."
+            },
+            {
+              "text": "Dann nehmen wir eben den nächsten Zug.",
+              "fr": "Tant pis, nous prendrons le train suivant."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "agreement",
+          "label": "justement ! (approbation)",
+          "pos": "particle",
+          "explanation": "Seul en réponse : approuve vivement ce que l'autre vient de dire (« justement », « exactement »).",
+          "pattern": "Eben! / Eben, …",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Eben! Das sage ich doch die ganze Zeit.",
+              "fr": "Justement ! C'est ce que je dis depuis le début."
+            },
+            {
+              "text": "Aber das ist teuer. – Eben, deshalb kaufe ich es nicht.",
+              "fr": "Mais c'est cher. – Justement, c'est pour ça que je ne l'achète pas."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "in",
+      "rank": 4,
+      "required": false,
+      "categories": [
+        "préposition"
+      ],
+      "usages": [
+        {
+          "id": "location_dative",
+          "label": "dans, à (lieu sans mouvement, + datif)",
+          "pos": "prep",
+          "explanation": "Préposition mixte : avec le datif pour la position (question wo?).",
+          "pattern": "in + datif (im = in dem)",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Das Buch liegt in der Tasche.",
+              "fr": "Le livre est dans le sac."
+            },
+            {
+              "text": "Wir wohnen seit Jahren in einem kleinen Dorf.",
+              "fr": "Nous habitons depuis des années dans un petit village."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "direction_accusative",
+          "label": "dans, à, au (direction, + accusatif)",
+          "pos": "prep",
+          "explanation": "Avec l'accusatif pour un déplacement vers l'intérieur (question wohin?).",
+          "pattern": "in + accusatif (ins = in das)",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ich lege das Buch in die Tasche.",
+              "fr": "Je mets le livre dans le sac."
+            },
+            {
+              "text": "Gehen wir heute Abend zusammen ins Kino?",
+              "fr": "On va au cinéma ensemble ce soir ?"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "time",
+          "label": "dans (délai), en (mois, saison)",
+          "pos": "prep",
+          "explanation": "Avec le datif pour le temps : délai à venir (« dans dix minutes ») ou période (im Sommer, im Mai).",
+          "pattern": "in + datif (temps)",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Der Zug fährt in zehn Minuten ab.",
+              "fr": "Le train part dans dix minutes."
+            },
+            {
+              "text": "Im Sommer fahren wir immer an die See.",
+              "fr": "En été, nous allons toujours à la mer."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "von",
+      "rank": 11,
+      "required": false,
+      "categories": [
+        "préposition"
+      ],
+      "usages": [
+        {
+          "id": "origin",
+          "label": "de (provenance, point de départ)",
+          "pos": "prep",
+          "explanation": "Préposition + datif : point de départ d'un mouvement ou d'une période (von … nach, von … bis).",
+          "pattern": "von + datif",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ich komme gerade von der Arbeit.",
+              "fr": "Je rentre juste du travail."
+            },
+            {
+              "text": "Der Zug fährt von Berlin nach München.",
+              "fr": "Le train va de Berlin à Munich."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "possession",
+          "label": "de (appartenance, à la place du génitif)",
+          "pos": "prep",
+          "explanation": "À l'oral, von + datif remplace souvent le génitif pour exprimer l'appartenance.",
+          "pattern": "nom + von + datif",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Das ist das Auto von meinem Bruder.",
+              "fr": "C'est la voiture de mon frère."
+            },
+            {
+              "text": "Ein Freund von mir wohnt jetzt in Zürich.",
+              "fr": "Un ami à moi habite maintenant à Zurich."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "passive_agent",
+          "label": "par (complément d'agent du passif)",
+          "pos": "prep",
+          "explanation": "Dans une phrase au passif, introduit celui qui fait l'action.",
+          "pattern": "werden + … + von + datif + … + participe passé",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Das Bild wurde von einem Kind gemalt.",
+              "fr": "Le tableau a été peint par un enfant."
+            },
+            {
+              "text": "Er wurde gestern von seinem Chef gelobt.",
+              "fr": "Il a été félicité hier par son chef."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "es",
+      "rank": 13,
+      "required": false,
+      "categories": [
+        "pronom"
+      ],
+      "usages": [
+        {
+          "id": "personal",
+          "label": "il, elle, le, la (nom neutre)",
+          "pos": "pron",
+          "explanation": "Pronom personnel qui reprend un nom neutre (das Kind, das Buch) ; le genre français peut être différent.",
+          "pattern": "es = nom neutre déjà cité",
+          "level": "A1",
+          "examples": [
+            {
+              "text": "Wo ist das Buch? Ich finde es nicht.",
+              "fr": "Où est le livre ? Je ne le trouve pas."
+            },
+            {
+              "text": "Das Kind ist müde, es will schlafen.",
+              "fr": "L'enfant est fatigué, il veut dormir."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "impersonal",
+          "label": "il impersonnel (météo, es gibt…)",
+          "pos": "pron",
+          "explanation": "Sujet grammatical sans référence réelle : météo, es gibt (il y a), es geht (ça va).",
+          "pattern": "es + verbe impersonnel",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Heute Morgen hat es stark geregnet.",
+              "fr": "Ce matin, il a beaucoup plu."
+            },
+            {
+              "text": "In dieser Stadt gibt es viele Museen.",
+              "fr": "Dans cette ville, il y a beaucoup de musées."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "placeholder",
+          "label": "il, ça (annonce une subordonnée)",
+          "pos": "pron",
+          "explanation": "Occupe la première place pour annoncer une subordonnée ou un infinitif placé plus loin ; il disparaît si celle-ci passe en tête.",
+          "pattern": "es + verbe + …, dass … / zu + infinitif",
+          "level": "B2",
+          "examples": [
+            {
+              "text": "Es freut mich, dass du gekommen bist.",
+              "fr": "Ça me fait plaisir que tu sois venu."
+            },
+            {
+              "text": "Es ist wichtig, genug Wasser zu trinken.",
+              "fr": "Il est important de boire assez d'eau."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "auf",
+      "rank": 15,
+      "required": false,
+      "categories": [
+        "préposition",
+        "adverbe"
+      ],
+      "usages": [
+        {
+          "id": "on_dative",
+          "label": "sur, à (position, + datif)",
+          "pos": "prep",
+          "explanation": "Préposition mixte : avec le datif pour une position sur une surface ou dans certains lieux (auf dem Markt, auf einer Party).",
+          "pattern": "auf + datif",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Das Handy liegt auf dem Tisch.",
+              "fr": "Le portable est sur la table."
+            },
+            {
+              "text": "Wir haben uns auf einer Party kennengelernt.",
+              "fr": "Nous nous sommes rencontrés à une fête."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "on_accusative",
+          "label": "sur, à (direction, + accusatif)",
+          "pos": "prep",
+          "explanation": "Avec l'accusatif pour un déplacement vers une surface ou un lieu (question wohin?).",
+          "pattern": "auf + accusatif",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Stell die Vase bitte auf den Tisch.",
+              "fr": "Pose le vase sur la table, s'il te plaît."
+            },
+            {
+              "text": "Am Wochenende gehen wir auf den Markt.",
+              "fr": "Le week-end, nous allons au marché."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "verb_complement",
+          "label": "(complément de certains verbes : warten auf…)",
+          "pos": "prep",
+          "explanation": "Après des verbes ou adjectifs fixes (warten auf, sich freuen auf, stolz auf), suivi de l'accusatif ; la traduction française varie.",
+          "pattern": "verbe + auf + accusatif",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Ich warte schon lange auf den Bus.",
+              "fr": "J'attends le bus depuis longtemps."
+            },
+            {
+              "text": "Wir freuen uns sehr auf die Ferien.",
+              "fr": "Nous attendons les vacances avec impatience."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "language",
+          "label": "en (langue : auf Deutsch)",
+          "pos": "prep",
+          "explanation": "Auf + nom de langue : « en allemand, en anglais… ».",
+          "pattern": "auf + Deutsch / Englisch …",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Wie sagt man das auf Deutsch?",
+              "fr": "Comment dit-on ça en allemand ?"
+            },
+            {
+              "text": "Der Film läuft auf Englisch mit Untertiteln.",
+              "fr": "Le film passe en anglais avec des sous-titres."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "sie",
+      "rank": 18,
+      "required": false,
+      "categories": [
+        "pronom"
+      ],
+      "usages": [
+        {
+          "id": "she",
+          "label": "elle, la (3e personne du singulier)",
+          "pos": "pron",
+          "explanation": "Pronom féminin singulier, verbe à la 3e personne du singulier ; reprend aussi un nom féminin qui peut être masculin en français.",
+          "pattern": "sie + verbe (3e sg : -t)",
+          "level": "A1",
+          "examples": [
+            {
+              "text": "Meine Schwester? Sie arbeitet in einer Bank.",
+              "fr": "Ma sœur ? Elle travaille dans une banque."
+            },
+            {
+              "text": "Die Tasche ist neu, ich habe sie gestern gekauft.",
+              "fr": "Le sac est neuf, je l'ai acheté hier."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "they",
+          "label": "ils, elles (3e personne du pluriel)",
+          "pos": "pron",
+          "explanation": "Pronom pluriel des trois genres ; verbe au pluriel (-en).",
+          "pattern": "sie + verbe (pluriel : -en)",
+          "level": "A1",
+          "examples": [
+            {
+              "text": "Meine Eltern? Sie wohnen jetzt in Spanien.",
+              "fr": "Mes parents ? Ils habitent maintenant en Espagne."
+            },
+            {
+              "text": "Die Kinder spielen draußen, sie sind sehr laut.",
+              "fr": "Les enfants jouent dehors, ils sont très bruyants."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "formal_you",
+          "label": "vous (politesse : Sie)",
+          "pos": "pron",
+          "explanation": "Avec majuscule et verbe au pluriel : forme de politesse, pour une ou plusieurs personnes.",
+          "pattern": "Sie + verbe (pluriel : -en)",
+          "level": "A1",
+          "examples": [
+            {
+              "text": "Können Sie mir bitte kurz helfen, Frau Weber?",
+              "fr": "Pouvez-vous m'aider un instant, Madame Weber ?"
+            },
+            {
+              "text": "Wie lange wohnen Sie schon hier?",
+              "fr": "Depuis combien de temps habitez-vous ici ?"
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "so",
+      "rank": 28,
+      "required": false,
+      "categories": [
+        "adverbe",
+        "conjonction"
+      ],
+      "usages": [
+        {
+          "id": "manner",
+          "label": "ainsi, comme ça",
+          "pos": "adv",
+          "explanation": "Adverbe de manière : de cette façon.",
+          "pattern": "sujet + verbe + so + …",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ist das so richtig, oder muss ich es anders machen?",
+              "fr": "C'est bien comme ça, ou je dois faire autrement ?"
+            },
+            {
+              "text": "So habe ich das noch nie gesehen.",
+              "fr": "Je n'avais jamais vu les choses ainsi."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "intensifier",
+          "label": "si, tellement",
+          "pos": "adv",
+          "explanation": "Devant un adjectif ou un adverbe : intensité.",
+          "pattern": "so + adjectif",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Das Essen gestern Abend war so lecker!",
+              "fr": "Le repas d'hier soir était tellement bon !"
+            },
+            {
+              "text": "Warum bist du heute so müde?",
+              "fr": "Pourquoi es-tu si fatigué aujourd'hui ?"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "comparison_equal",
+          "label": "aussi … que (so … wie)",
+          "pos": "adv",
+          "explanation": "Comparaison d'égalité, toujours avec wie (jamais als).",
+          "pattern": "so + adjectif + wie + élément comparé",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ich bin leider nicht so sportlich wie du.",
+              "fr": "Je ne suis malheureusement pas aussi sportif que toi."
+            },
+            {
+              "text": "Komm bitte so schnell wie möglich nach Hause!",
+              "fr": "Rentre aussi vite que possible, s'il te plaît !"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "consequence",
+          "label": "si bien que (sodass)",
+          "pos": "conj",
+          "explanation": "Sodass (ou so dass) introduit une conséquence ; verbe conjugué à la fin.",
+          "pattern": "…, sodass + sujet + … + verbe conjugué",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Es regnete stark, sodass wir zu Hause blieben.",
+              "fr": "Il pleuvait fort, si bien que nous sommes restés à la maison."
+            },
+            {
+              "text": "Der Bus kam spät, sodass ich den Zug verpasste.",
+              "fr": "Le bus est arrivé en retard, si bien que j'ai raté le train."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "aber",
+      "rank": 31,
+      "required": false,
+      "categories": [
+        "conjonction",
+        "particule modale"
+      ],
+      "usages": [
+        {
+          "id": "contrast",
+          "label": "mais",
+          "pos": "conj",
+          "explanation": "Conjonction de coordination : elle ne change pas l'ordre des mots (verbe en 2e position).",
+          "pattern": "…, aber + sujet + verbe + …",
+          "level": "A1",
+          "examples": [
+            {
+              "text": "Ich bin müde, aber ich muss noch arbeiten.",
+              "fr": "Je suis fatigué, mais je dois encore travailler."
+            },
+            {
+              "text": "Das Hotel ist klein, aber sehr gemütlich.",
+              "fr": "L'hôtel est petit, mais très confortable."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "modal_particle",
+          "label": "particule modale (étonnement, admiration)",
+          "pos": "particle",
+          "explanation": "Non accentué dans une exclamation : souligne la surprise ou l'admiration (« qu'est-ce que… ! »).",
+          "pattern": "sujet + verbe + aber + adjectif … !",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Du bist aber groß geworden seit letztem Jahr!",
+              "fr": "Qu'est-ce que tu as grandi depuis l'an dernier !"
+            },
+            {
+              "text": "Das ist aber ein schönes Geschenk!",
+              "fr": "Quel beau cadeau !"
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "nach",
+      "rank": 35,
+      "required": false,
+      "categories": [
+        "préposition"
+      ],
+      "usages": [
+        {
+          "id": "direction_place",
+          "label": "à, en, vers (villes, pays, nach Hause)",
+          "pos": "prep",
+          "explanation": "Préposition + datif : direction vers une ville, un pays sans article, un point cardinal, ou nach Hause.",
+          "pattern": "nach + nom de lieu sans article",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ich fliege nächste Woche nach Spanien.",
+              "fr": "Je pars en Espagne en avion la semaine prochaine."
+            },
+            {
+              "text": "Wann gehst du heute nach Hause?",
+              "fr": "Quand rentres-tu à la maison aujourd'hui ?"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "time_after",
+          "label": "après (temps)",
+          "pos": "prep",
+          "explanation": "Postériorité dans le temps ; aussi pour l'heure (zehn nach acht).",
+          "pattern": "nach + datif",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Nach dem Essen trinken wir einen Kaffee.",
+              "fr": "Après le repas, nous buvons un café."
+            },
+            {
+              "text": "Es ist schon zehn nach acht, wir sind spät.",
+              "fr": "Il est déjà huit heures dix, nous sommes en retard."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "according",
+          "label": "selon, d'après",
+          "pos": "prep",
+          "explanation": "Indique la source d'une opinion ou d'une information ; souvent placé après le nom (meiner Meinung nach).",
+          "pattern": "(nom au datif) + nach / nach + datif",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Meiner Meinung nach ist das viel zu teuer.",
+              "fr": "À mon avis, c'est beaucoup trop cher."
+            },
+            {
+              "text": "Nach dem Wetterbericht soll es morgen schneien.",
+              "fr": "D'après la météo, il devrait neiger demain."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "nur",
+      "rank": 40,
+      "required": false,
+      "categories": [
+        "adverbe",
+        "particule modale"
+      ],
+      "usages": [
+        {
+          "id": "only",
+          "label": "seulement, ne … que (restriction)",
+          "pos": "adv",
+          "explanation": "Restriction pure : rien de plus. Différent de erst, qui indique « pas avant » ou « pour l'instant ».",
+          "pattern": "nur + élément restreint",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ich habe nur zehn Euro dabei.",
+              "fr": "Je n'ai que dix euros sur moi."
+            },
+            {
+              "text": "Das Museum ist nur am Wochenende geöffnet.",
+              "fr": "Le musée n'est ouvert que le week-end."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "modal_particle",
+          "label": "particule modale (souhait, encouragement)",
+          "pos": "particle",
+          "explanation": "Dans un souhait irréel (wenn … nur) ou un impératif encourageant (« donc », « vas-y »).",
+          "pattern": "wenn + sujet + nur + … ! / impératif + nur + …",
+          "level": "B2",
+          "examples": [
+            {
+              "text": "Wenn ich nur früher aufgestanden wäre!",
+              "fr": "Si seulement je m'étais levé plus tôt !"
+            },
+            {
+              "text": "Komm nur herein, die Tür ist offen!",
+              "fr": "Entre donc, la porte est ouverte !"
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "was",
+      "rank": 44,
+      "required": false,
+      "categories": [
+        "pronom interrogatif",
+        "pronom relatif",
+        "pronom indéfini"
+      ],
+      "usages": [
+        {
+          "id": "question_what",
+          "label": "que, quoi, qu'est-ce que (question)",
+          "pos": "pron",
+          "explanation": "Pronom interrogatif pour une chose.",
+          "pattern": "was + verbe + sujet … ?",
+          "level": "A1",
+          "examples": [
+            {
+              "text": "Was machst du am Wochenende mit deinen Freunden?",
+              "fr": "Que fais-tu ce week-end avec tes amis ?"
+            },
+            {
+              "text": "Was hast du gestern Abend gegessen?",
+              "fr": "Qu'as-tu mangé hier soir ?"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "relative",
+          "label": "ce que, ce qui (relatif)",
+          "pos": "pron",
+          "explanation": "Pronom relatif après alles, nichts, etwas, das, un superlatif neutre, ou pour reprendre toute une phrase. Verbe à la fin.",
+          "pattern": "alles / nichts / phrase, was + … + verbe conjugué",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Das ist alles, was ich weiß.",
+              "fr": "C'est tout ce que je sais."
+            },
+            {
+              "text": "Er hat den Job bekommen, was mich sehr freut.",
+              "fr": "Il a obtenu le poste, ce qui me réjouit beaucoup."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "something",
+          "label": "quelque chose (familier = etwas)",
+          "pos": "pron",
+          "explanation": "À l'oral, was remplace souvent etwas.",
+          "pattern": "sujet + verbe + was + …",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Möchtest du noch was zu trinken?",
+              "fr": "Tu veux encore quelque chose à boire ?"
+            },
+            {
+              "text": "Ich muss dir was Wichtiges erzählen.",
+              "fr": "Je dois te raconter quelque chose d'important."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "um",
+      "rank": 49,
+      "required": false,
+      "categories": [
+        "préposition",
+        "conjonction"
+      ],
+      "usages": [
+        {
+          "id": "clock_time",
+          "label": "à (heure précise)",
+          "pos": "prep",
+          "explanation": "Devant une heure précise. Pour un jour on dit am, pour un mois im.",
+          "pattern": "um + heure",
+          "level": "A1",
+          "examples": [
+            {
+              "text": "Der Kurs beginnt um halb neun.",
+              "fr": "Le cours commence à huit heures et demie."
+            },
+            {
+              "text": "Treffen wir uns um sieben am Bahnhof?",
+              "fr": "On se retrouve à sept heures à la gare ?"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "around",
+          "label": "autour de (+ accusatif)",
+          "pos": "prep",
+          "explanation": "Préposition + accusatif : autour de, ou contourner (um die Ecke).",
+          "pattern": "um + accusatif",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Wir sitzen alle um den großen Tisch.",
+              "fr": "Nous sommes tous assis autour de la grande table."
+            },
+            {
+              "text": "Gehen Sie um die Ecke und dann links.",
+              "fr": "Tournez au coin, puis à gauche."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "purpose",
+          "label": "pour (um … zu + infinitif)",
+          "pos": "conj",
+          "explanation": "But, quand le sujet est le même dans les deux parties ; zu + infinitif à la fin. Sinon on emploie damit.",
+          "pattern": "…, um + … + zu + infinitif",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Ich lerne Deutsch, um in Berlin zu studieren.",
+              "fr": "J'apprends l'allemand pour étudier à Berlin."
+            },
+            {
+              "text": "Sie spart Geld, um ein Auto zu kaufen.",
+              "fr": "Elle économise pour acheter une voiture."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "verb_complement",
+          "label": "(complément : es geht um, sich kümmern um)",
+          "pos": "prep",
+          "explanation": "Après certaines expressions fixes (es geht um = il s'agit de ; sich kümmern um = s'occuper de).",
+          "pattern": "expression + um + accusatif",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Worum geht es eigentlich in dem Film?",
+              "fr": "De quoi parle le film, au fait ?"
+            },
+            {
+              "text": "Kannst du dich am Wochenende um die Katze kümmern?",
+              "fr": "Peux-tu t'occuper du chat ce week-end ?"
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "über",
+      "rank": 54,
+      "required": false,
+      "categories": [
+        "préposition"
+      ],
+      "usages": [
+        {
+          "id": "above",
+          "label": "au-dessus de, par-dessus (datif / accusatif)",
+          "pos": "prep",
+          "explanation": "Préposition mixte : datif pour la position au-dessus, accusatif pour le passage par-dessus ou à travers.",
+          "pattern": "über + datif (position) / accusatif (mouvement)",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Die Lampe hängt direkt über dem Tisch.",
+              "fr": "La lampe est suspendue juste au-dessus de la table."
+            },
+            {
+              "text": "Wir sind mit dem Fahrrad über die Brücke gefahren.",
+              "fr": "Nous avons traversé le pont à vélo."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "about_topic",
+          "label": "sur, au sujet de",
+          "pos": "prep",
+          "explanation": "Avec l'accusatif, indique le thème dont on parle, lit, écrit (sprechen über, ein Buch über).",
+          "pattern": "verbe / nom + über + accusatif",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Wir haben lange über das Problem gesprochen.",
+              "fr": "Nous avons longuement parlé du problème."
+            },
+            {
+              "text": "Ich lese gerade ein Buch über die Geschichte Berlins.",
+              "fr": "Je lis en ce moment un livre sur l'histoire de Berlin."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "more_than",
+          "label": "plus de (quantité)",
+          "pos": "adv",
+          "explanation": "Devant un nombre : au-delà de.",
+          "pattern": "über + nombre",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Das Konzert hat über zwei Stunden gedauert.",
+              "fr": "Le concert a duré plus de deux heures."
+            },
+            {
+              "text": "Über hundert Leute waren auf der Feier.",
+              "fr": "Plus de cent personnes étaient à la fête."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "via",
+          "label": "par, via",
+          "pos": "prep",
+          "explanation": "Indique le lieu de passage ou l'intermédiaire.",
+          "pattern": "über + lieu / personne (accusatif)",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Wir fahren über Frankfurt nach Köln.",
+              "fr": "Nous allons à Cologne en passant par Francfort."
+            },
+            {
+              "text": "Ich habe die Wohnung über einen Freund gefunden.",
+              "fr": "J'ai trouvé l'appartement par un ami."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "vor",
+      "rank": 64,
+      "required": false,
+      "categories": [
+        "préposition"
+      ],
+      "usages": [
+        {
+          "id": "in_front",
+          "label": "devant (datif / accusatif)",
+          "pos": "prep",
+          "explanation": "Préposition mixte : datif pour la position, accusatif pour le mouvement.",
+          "pattern": "vor + datif (position) / accusatif (mouvement)",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Das Taxi wartet schon vor dem Hotel.",
+              "fr": "Le taxi attend déjà devant l'hôtel."
+            },
+            {
+              "text": "Stell die Schuhe bitte vor die Tür.",
+              "fr": "Mets les chaussures devant la porte, s'il te plaît."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "before",
+          "label": "avant (temps)",
+          "pos": "prep",
+          "explanation": "Antériorité dans le temps ; aussi pour l'heure (zehn vor neun).",
+          "pattern": "vor + datif (temps)",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Vor dem Frühstück gehe ich immer joggen.",
+              "fr": "Avant le petit-déjeuner, je vais toujours courir."
+            },
+            {
+              "text": "Es ist zehn vor neun, der Kurs beginnt gleich.",
+              "fr": "Il est neuf heures moins dix, le cours commence bientôt."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "ago",
+          "label": "il y a (durée écoulée)",
+          "pos": "prep",
+          "explanation": "Vor + durée au datif : moment passé. Ne pas traduire mot à mot « il y a » par es gibt.",
+          "pattern": "vor + durée (datif) + verbe au passé",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ich habe ihn vor drei Jahren kennengelernt.",
+              "fr": "Je l'ai rencontré il y a trois ans."
+            },
+            {
+              "text": "Vor einer Woche war ich noch in Paris.",
+              "fr": "Il y a une semaine, j'étais encore à Paris."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "cause_emotion",
+          "label": "de (cause : Angst vor, vor Kälte)",
+          "pos": "prep",
+          "explanation": "Cause d'une émotion ou d'une réaction physique (Angst vor, zittern vor Kälte).",
+          "pattern": "nom / verbe + vor + datif",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Mein Sohn hat Angst vor großen Hunden.",
+              "fr": "Mon fils a peur des gros chiens."
+            },
+            {
+              "text": "Nach dem Bad im See zitterte sie vor Kälte.",
+              "fr": "Après la baignade dans le lac, elle tremblait de froid."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "bis",
+      "rank": 70,
+      "required": false,
+      "categories": [
+        "préposition",
+        "conjonction"
+      ],
+      "usages": [
+        {
+          "id": "until_prep",
+          "label": "jusqu'à (temps, lieu)",
+          "pos": "prep",
+          "explanation": "Limite dans le temps ou l'espace ; avec un article, on ajoute souvent zu (bis zum, bis zur).",
+          "pattern": "bis + heure / lieu / bis zu + datif",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Das Geschäft ist bis 20 Uhr geöffnet.",
+              "fr": "Le magasin est ouvert jusqu'à 20 heures."
+            },
+            {
+              "text": "Fahren Sie bis zur nächsten Ampel.",
+              "fr": "Roulez jusqu'au prochain feu."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "until_conj",
+          "label": "jusqu'à ce que",
+          "pos": "conj",
+          "explanation": "Subordonnant de temps ; verbe conjugué à la fin (indicatif, contrairement au français).",
+          "pattern": "…, bis + sujet + … + verbe conjugué",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Wir warten hier, bis der Regen aufhört.",
+              "fr": "Nous attendons ici jusqu'à ce que la pluie s'arrête."
+            },
+            {
+              "text": "Bleib im Bett, bis du wieder gesund bist.",
+              "fr": "Reste au lit jusqu'à ce que tu sois guéri."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "farewell",
+          "label": "à (bis bald, bis morgen)",
+          "pos": "prep",
+          "explanation": "Formule de salutation pour prendre congé jusqu'à la prochaine rencontre.",
+          "pattern": "bis + moment !",
+          "level": "A1",
+          "examples": [
+            {
+              "text": "Tschüss, bis morgen in der Schule!",
+              "fr": "Salut, à demain à l'école !"
+            },
+            {
+              "text": "Bis später, ich rufe dich heute Abend an!",
+              "fr": "À plus tard, je t'appelle ce soir !"
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "immer",
+      "rank": 73,
+      "required": false,
+      "categories": [
+        "adverbe"
+      ],
+      "usages": [
+        {
+          "id": "always",
+          "label": "toujours (habitude)",
+          "pos": "adv",
+          "explanation": "Action habituelle, à chaque fois.",
+          "pattern": "sujet + verbe + immer + …",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Am Sonntag frühstücken wir immer zusammen im Garten.",
+              "fr": "Le dimanche, nous prenons toujours le petit-déjeuner ensemble au jardin."
+            },
+            {
+              "text": "Er kommt immer zu spät zur Arbeit.",
+              "fr": "Il arrive toujours en retard au travail."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "still",
+          "label": "toujours, encore (immer noch)",
+          "pos": "adv",
+          "explanation": "Immer noch : la situation continue, souvent avec impatience. Le français « toujours » couvre les deux sens.",
+          "pattern": "immer noch / noch immer",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Es regnet immer noch, wir bleiben drinnen.",
+              "fr": "Il pleut toujours, nous restons à l'intérieur."
+            },
+            {
+              "text": "Wartest du immer noch auf eine Antwort von ihm?",
+              "fr": "Tu attends toujours une réponse de sa part ?"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "increasing",
+          "label": "de plus en plus (immer + comparatif)",
+          "pos": "adv",
+          "explanation": "Devant un comparatif : progression.",
+          "pattern": "immer + comparatif",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Im November werden die Tage immer kürzer.",
+              "fr": "En novembre, les jours sont de plus en plus courts."
+            },
+            {
+              "text": "Dein Deutsch wird wirklich immer besser!",
+              "fr": "Ton allemand est vraiment de mieux en mieux !"
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "also",
+      "rank": 98,
+      "required": false,
+      "categories": [
+        "adverbe",
+        "particule"
+      ],
+      "usages": [
+        {
+          "id": "consequence",
+          "label": "donc (faux ami)",
+          "pos": "adv",
+          "explanation": "Exprime une conséquence ; en tête de proposition il entraîne l'inversion. Faux ami : « aussi » se dit auch.",
+          "pattern": "…, also + verbe + sujet + …",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Es ist spät, also gehe ich jetzt nach Hause.",
+              "fr": "Il est tard, donc je rentre maintenant."
+            },
+            {
+              "text": "Du hast Fieber, also bleibst du heute im Bett.",
+              "fr": "Tu as de la fièvre, donc tu restes au lit aujourd'hui."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "discourse",
+          "label": "bon, alors (marqueur de discours)",
+          "pos": "particle",
+          "explanation": "En début de phrase, sert à reprendre, conclure ou résumer (« bon », « alors »).",
+          "pattern": "Also, … / Also gut, …",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Also, wo waren wir stehen geblieben?",
+              "fr": "Bon, où en étions-nous ?"
+            },
+            {
+              "text": "Also gut, dann treffen wir uns um acht.",
+              "fr": "Bon d'accord, alors on se retrouve à huit heures."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "ganz",
+      "rank": 103,
+      "required": false,
+      "categories": [
+        "adjectif",
+        "adverbe"
+      ],
+      "usages": [
+        {
+          "id": "whole",
+          "label": "entier, tout le (adjectif)",
+          "pos": "adj",
+          "explanation": "Adjectif décliné : la totalité de quelque chose.",
+          "pattern": "der/die/das ganze + nom",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ich habe den ganzen Tag gearbeitet.",
+              "fr": "J'ai travaillé toute la journée."
+            },
+            {
+              "text": "Die ganze Familie kommt zu Weihnachten.",
+              "fr": "Toute la famille vient à Noël."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "completely",
+          "label": "complètement, tout à fait",
+          "pos": "adv",
+          "explanation": "Adverbe d'intensité maximale, souvent accentué.",
+          "pattern": "ganz + verbe / adjectif",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Oh, das habe ich ganz vergessen, Entschuldigung!",
+              "fr": "Oh, j'ai complètement oublié, pardon !"
+            },
+            {
+              "text": "Bist du dir ganz sicher, dass er kommt?",
+              "fr": "Es-tu tout à fait sûr qu'il vient ?"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "fairly",
+          "label": "assez, plutôt (atténuation)",
+          "pos": "adv",
+          "explanation": "Non accentué devant un adjectif positif (gut, nett), il atténue : « plutôt », « pas mal ». Piège : ganz gut n'est pas « très bien ».",
+          "pattern": "ganz + adjectif (non accentué)",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Der Film war ganz gut, aber nicht super.",
+              "fr": "Le film était plutôt bien, mais pas génial."
+            },
+            {
+              "text": "Das Hotel war ganz nett, nur etwas laut.",
+              "fr": "L'hôtel était assez sympa, juste un peu bruyant."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "damit",
+      "rank": 107,
+      "required": false,
+      "categories": [
+        "conjonction",
+        "adverbe pronominal"
+      ],
+      "usages": [
+        {
+          "id": "purpose",
+          "label": "pour que, afin que",
+          "pos": "conj",
+          "explanation": "Subordonnée de but ; verbe conjugué à la fin. Si le sujet est le même, on préfère souvent um … zu.",
+          "pattern": "…, damit + sujet + … + verbe conjugué",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Ich spreche langsam, damit mich alle verstehen.",
+              "fr": "Je parle lentement pour que tout le monde me comprenne."
+            },
+            {
+              "text": "Nimm eine Jacke mit, damit du nicht frierst.",
+              "fr": "Prends une veste pour ne pas avoir froid."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "with_that",
+          "label": "avec cela, en (adverbe pronominal)",
+          "pos": "adv",
+          "explanation": "Remplace mit + une chose déjà mentionnée (jamais une personne).",
+          "pattern": "verbe + damit (= mit + chose)",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Das ist ein altes Handy. Was machst du damit?",
+              "fr": "C'est un vieux portable. Qu'est-ce que tu en fais ?"
+            },
+            {
+              "text": "Bist du damit einverstanden, dass wir später essen?",
+              "fr": "Es-tu d'accord pour qu'on mange plus tard ?"
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "einfach",
+      "rank": 110,
+      "required": false,
+      "categories": [
+        "adjectif",
+        "particule modale"
+      ],
+      "usages": [
+        {
+          "id": "simple",
+          "label": "simple, facile ; aller simple",
+          "pos": "adj",
+          "explanation": "Adjectif : sans difficulté, ou « simple » (eine einfache Fahrt = un aller simple).",
+          "pattern": "einfach / ein einfacher … + nom",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Die Prüfung war einfacher als gedacht.",
+              "fr": "L'examen était plus facile que prévu."
+            },
+            {
+              "text": "Ich hätte gern eine einfache Fahrt nach Bonn.",
+              "fr": "Je voudrais un aller simple pour Bonn."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "modal_particle",
+          "label": "tout simplement (particule)",
+          "pos": "particle",
+          "explanation": "Souligne qu'il n'y a pas d'autre explication, ou encourage à agir sans hésiter.",
+          "pattern": "sujet + verbe + einfach + …",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Ich habe einfach keine Lust mehr.",
+              "fr": "Je n'ai tout simplement plus envie."
+            },
+            {
+              "text": "Ruf ihn doch einfach morgen früh an!",
+              "fr": "Appelle-le simplement demain matin !"
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "etwas",
+      "rank": 114,
+      "required": false,
+      "categories": [
+        "pronom indéfini",
+        "adverbe"
+      ],
+      "usages": [
+        {
+          "id": "something",
+          "label": "quelque chose",
+          "pos": "pron",
+          "explanation": "Pronom indéfini ; suivi d'un adjectif substantivé avec majuscule (etwas Neues).",
+          "pattern": "etwas (+ Adjectif-es)",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ich muss dir heute etwas Wichtiges sagen.",
+              "fr": "Je dois te dire quelque chose d'important aujourd'hui."
+            },
+            {
+              "text": "Hast du in letzter Zeit etwas von Anna gehört?",
+              "fr": "As-tu eu des nouvelles d'Anna récemment ?"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "a_little",
+          "label": "un peu",
+          "pos": "adv",
+          "explanation": "Devant un adjectif ou un nom non comptable : petite quantité ou degré faible.",
+          "pattern": "etwas + adjectif / nom sans article",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ich bin heute Abend etwas müde.",
+              "fr": "Je suis un peu fatigué ce soir."
+            },
+            {
+              "text": "Kann ich bitte noch etwas Milch haben?",
+              "fr": "Est-ce que je peux avoir encore un peu de lait ?"
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "seit",
+      "rank": 120,
+      "required": false,
+      "categories": [
+        "préposition",
+        "conjonction"
+      ],
+      "usages": [
+        {
+          "id": "since_prep",
+          "label": "depuis (+ datif, verbe au présent)",
+          "pos": "prep",
+          "explanation": "Action commencée dans le passé et qui dure encore : seit + datif, avec le verbe au présent (comme en français).",
+          "pattern": "sujet + verbe au présent + seit + datif",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ich wohne seit 2020 in Leipzig.",
+              "fr": "J'habite à Leipzig depuis 2020."
+            },
+            {
+              "text": "Seit einer Woche ist sie krank.",
+              "fr": "Elle est malade depuis une semaine."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "since_conj",
+          "label": "depuis que",
+          "pos": "conj",
+          "explanation": "Subordonnant de temps ; verbe conjugué à la fin.",
+          "pattern": "seit + sujet + … + verbe conjugué, verbe conjugué + sujet …",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Seit er in Berlin wohnt, fährt er Fahrrad.",
+              "fr": "Depuis qu'il habite à Berlin, il fait du vélo."
+            },
+            {
+              "text": "Ich bin glücklicher, seit ich weniger arbeite.",
+              "fr": "Je suis plus heureux depuis que je travaille moins."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "selbst",
+      "rank": 122,
+      "required": false,
+      "categories": [
+        "pronom",
+        "adverbe"
+      ],
+      "usages": [
+        {
+          "id": "oneself",
+          "label": "moi-même, soi-même (en personne)",
+          "pos": "pron",
+          "explanation": "Placé après le mot qu'il renforce ou en fin de proposition : la personne elle-même, sans aide.",
+          "pattern": "sujet + verbe + … + selbst",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Hast du den Kuchen selbst gebacken?",
+              "fr": "As-tu fait le gâteau toi-même ?"
+            },
+            {
+              "text": "Das muss er am Ende selbst entscheiden.",
+              "fr": "Au bout du compte, c'est à lui de décider."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "even",
+          "label": "même (= sogar)",
+          "pos": "adv",
+          "explanation": "Placé avant le mot qu'il porte : « même », inclusion surprenante.",
+          "pattern": "selbst + nom / groupe",
+          "level": "B2",
+          "examples": [
+            {
+              "text": "Selbst mein Vater fand den Film lustig.",
+              "fr": "Même mon père a trouvé le film drôle."
+            },
+            {
+              "text": "Selbst im Sommer ist es hier oben kühl.",
+              "fr": "Même en été, il fait frais ici en altitude."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "wo",
+      "rank": 123,
+      "required": false,
+      "categories": [
+        "adverbe interrogatif",
+        "adverbe relatif"
+      ],
+      "usages": [
+        {
+          "id": "question_where",
+          "label": "où (lieu sans mouvement)",
+          "pos": "adv",
+          "explanation": "Question sur le lieu où l'on est ; pour la direction on dit wohin, pour l'origine woher.",
+          "pattern": "wo + verbe + sujet … ?",
+          "level": "A1",
+          "examples": [
+            {
+              "text": "Wo ist hier die nächste Apotheke?",
+              "fr": "Où est la pharmacie la plus proche ?"
+            },
+            {
+              "text": "Wo hast du deinen Schlüssel gelassen?",
+              "fr": "Où as-tu laissé ta clé ?"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "relative",
+          "label": "où (relatif de lieu ou de temps)",
+          "pos": "adv",
+          "explanation": "Introduit une relative de lieu ou, à l'oral, de temps ; verbe à la fin.",
+          "pattern": "nom, wo + sujet + … + verbe conjugué",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Das ist das Café, wo wir uns kennengelernt haben.",
+              "fr": "C'est le café où nous nous sommes rencontrés."
+            },
+            {
+              "text": "An dem Tag, wo du kamst, hat es geschneit.",
+              "fr": "Le jour où tu es venu, il a neigé."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "dabei",
+      "rank": 151,
+      "required": false,
+      "categories": [
+        "adverbe pronominal"
+      ],
+      "usages": [
+        {
+          "id": "with_present",
+          "label": "sur soi, de la partie (dabeihaben, dabei sein)",
+          "pos": "adv",
+          "explanation": "Avoir quelque chose sur soi, ou participer à quelque chose.",
+          "pattern": "dabeihaben / dabei sein",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Hast du deinen Ausweis und dein Ticket dabei?",
+              "fr": "As-tu ta carte d'identité et ton billet sur toi ?"
+            },
+            {
+              "text": "Morgen spielen wir Fußball, bist du dabei?",
+              "fr": "Demain on joue au foot, tu es partant ?"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "while_doing",
+          "label": "en même temps, en le faisant",
+          "pos": "adv",
+          "explanation": "Action simultanée, ou reprise de ce dont on parle (bei + cela).",
+          "pattern": "sujet + verbe + dabei + …",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Er kocht und hört dabei laut Musik.",
+              "fr": "Il cuisine en écoutant de la musique à fond."
+            },
+            {
+              "text": "Ich helfe dir gern dabei, die Wohnung zu streichen.",
+              "fr": "Je t'aide volontiers à peindre l'appartement."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "contrast",
+          "label": "alors que, pourtant",
+          "pos": "adv",
+          "explanation": "En tête de proposition (avec inversion), oppose un fait à ce qui précède.",
+          "pattern": "…, dabei + verbe + sujet + …",
+          "level": "B2",
+          "examples": [
+            {
+              "text": "Er ist immer müde, dabei schläft er viel.",
+              "fr": "Il est toujours fatigué, alors qu'il dort beaucoup."
+            },
+            {
+              "text": "Sie hat nicht angerufen, dabei hatte sie es versprochen.",
+              "fr": "Elle n'a pas appelé, alors qu'elle l'avait promis."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "gerade",
+      "rank": 155,
+      "required": false,
+      "categories": [
+        "adverbe",
+        "adjectif"
+      ],
+      "usages": [
+        {
+          "id": "right_now",
+          "label": "en ce moment, être en train de",
+          "pos": "adv",
+          "explanation": "Action en cours au moment où l'on parle (l'allemand n'a pas de forme progressive).",
+          "pattern": "sujet + verbe au présent + gerade + …",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Ich kann nicht, ich koche gerade.",
+              "fr": "Je ne peux pas, je suis en train de cuisiner."
+            },
+            {
+              "text": "Er telefoniert gerade mit seinem Chef.",
+              "fr": "Il est en train de téléphoner avec son chef."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "just_now",
+          "label": "venir de (à l'instant)",
+          "pos": "adv",
+          "explanation": "Avec un temps du passé : l'action vient de se produire.",
+          "pattern": "sujet + auxiliaire + gerade + … + participe",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Sie ist gerade nach Hause gekommen.",
+              "fr": "Elle vient de rentrer à la maison."
+            },
+            {
+              "text": "Ich habe gerade eine Nachricht von dir bekommen.",
+              "fr": "Je viens de recevoir un message de toi."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "straight_even",
+          "label": "droit ; pair (adjectif)",
+          "pos": "adj",
+          "explanation": "Adjectif : sans courbe (droit), ou nombre pair.",
+          "pattern": "gerade / eine gerade … + nom",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Setz dich bitte gerade hin beim Essen!",
+              "fr": "Tiens-toi droit à table, s'il te plaît !"
+            },
+            {
+              "text": "Zwei, vier und sechs sind gerade Zahlen.",
+              "fr": "Deux, quatre et six sont des nombres pairs."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "precisely",
+          "label": "justement, précisément",
+          "pos": "particle",
+          "explanation": "Met en relief un élément, souvent de façon paradoxale.",
+          "pattern": "gerade + élément mis en relief",
+          "level": "B2",
+          "examples": [
+            {
+              "text": "Gerade heute habe ich keine Zeit.",
+              "fr": "C'est justement aujourd'hui que je n'ai pas le temps."
+            },
+            {
+              "text": "Das ist ja gerade das Problem bei diesem Plan.",
+              "fr": "C'est justement le problème de ce plan."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "wohl",
+      "rank": 174,
+      "required": false,
+      "categories": [
+        "particule modale",
+        "adverbe"
+      ],
+      "usages": [
+        {
+          "id": "probably",
+          "label": "sans doute, probablement (supposition)",
+          "pos": "particle",
+          "explanation": "Exprime une supposition du locuteur, souvent avec le futur.",
+          "pattern": "sujet + verbe + wohl + …",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Er ist wohl krank, er antwortet nicht.",
+              "fr": "Il est sans doute malade, il ne répond pas."
+            },
+            {
+              "text": "Das wird wohl noch eine Weile dauern.",
+              "fr": "Ça va sûrement encore prendre un moment."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "well_being",
+          "label": "bien (se sentir bien)",
+          "pos": "adv",
+          "explanation": "Bien-être : sich wohl fühlen, mir ist (nicht) wohl.",
+          "pattern": "sich wohl fühlen / mir ist wohl",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "In meiner neuen Wohnung fühle ich mich sehr wohl.",
+              "fr": "Je me sens très bien dans mon nouvel appartement."
+            },
+            {
+              "text": "Mir ist heute nicht wohl, ich bleibe zu Hause.",
+              "fr": "Je ne me sens pas bien aujourd'hui, je reste à la maison."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "concession",
+          "label": "certes (wohl …, aber)",
+          "pos": "particle",
+          "explanation": "Concède un point avant une objection introduite par aber.",
+          "pattern": "sujet + verbe + wohl + …, aber …",
+          "level": "B2",
+          "examples": [
+            {
+              "text": "Das ist wohl wahr, aber es hilft uns nicht.",
+              "fr": "C'est sans doute vrai, mais ça ne nous aide pas."
+            },
+            {
+              "text": "Er hat wohl Talent, aber er übt zu wenig.",
+              "fr": "Il a certes du talent, mais il ne s'entraîne pas assez."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "vielleicht",
+      "rank": 177,
+      "required": false,
+      "categories": [
+        "adverbe",
+        "particule modale"
+      ],
+      "usages": [
+        {
+          "id": "perhaps",
+          "label": "peut-être",
+          "pos": "adv",
+          "explanation": "Possibilité ; en tête, il entraîne l'inversion (pas de « que » comme en français).",
+          "pattern": "vielleicht + verbe + sujet + …",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Vielleicht regnet es morgen, nimm einen Schirm mit.",
+              "fr": "Il va peut-être pleuvoir demain, prends un parapluie."
+            },
+            {
+              "text": "Kommst du mit? – Vielleicht, ich weiß noch nicht.",
+              "fr": "Tu viens ? – Peut-être, je ne sais pas encore."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "polite_request",
+          "label": "par hasard (question polie)",
+          "pos": "particle",
+          "explanation": "Dans une question, rend la demande plus prudente et polie.",
+          "pattern": "verbe + sujet + vielleicht + … ?",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Können Sie mir vielleicht kurz helfen?",
+              "fr": "Pourriez-vous m'aider un instant, par hasard ?"
+            },
+            {
+              "text": "Hast du vielleicht einen Stift für mich?",
+              "fr": "Tu n'aurais pas un stylo pour moi ?"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "exclamation",
+          "label": "particule d'exclamation (vraiment, quel…)",
+          "pos": "particle",
+          "explanation": "Non accentué dans une exclamation : renforce l'intensité (« quel… ! », « qu'est-ce que… ! »).",
+          "pattern": "sujet + verbe + vielleicht + … !",
+          "level": "B2",
+          "examples": [
+            {
+              "text": "Das war vielleicht ein langer Tag!",
+              "fr": "Quelle longue journée !"
+            },
+            {
+              "text": "Mensch, du bist heute vielleicht gut gelaunt!",
+              "fr": "Dis donc, qu'est-ce que tu es de bonne humeur aujourd'hui !"
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "bitte",
+      "rank": 183,
+      "required": false,
+      "categories": [
+        "interjection",
+        "adverbe"
+      ],
+      "usages": [
+        {
+          "id": "please",
+          "label": "s'il te plaît, s'il vous plaît",
+          "pos": "intj",
+          "explanation": "Formule de politesse dans une demande.",
+          "pattern": "impératif + bitte + … / …, bitte",
+          "level": "A1",
+          "examples": [
+            {
+              "text": "Einen Kaffee, bitte, mit etwas Milch.",
+              "fr": "Un café, s'il vous plaît, avec un peu de lait."
+            },
+            {
+              "text": "Mach bitte die Tür zu, es zieht.",
+              "fr": "Ferme la porte, s'il te plaît, il y a un courant d'air."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "you_are_welcome",
+          "label": "de rien, je vous en prie (après danke)",
+          "pos": "intj",
+          "explanation": "Réponse à un remerciement.",
+          "pattern": "Danke! – Bitte (schön / gern geschehen).",
+          "level": "A1",
+          "examples": [
+            {
+              "text": "Danke für die Hilfe! – Bitte, gern geschehen.",
+              "fr": "Merci pour l'aide ! – De rien, avec plaisir."
+            },
+            {
+              "text": "Vielen Dank! – Bitte schön, kein Problem.",
+              "fr": "Merci beaucoup ! – Je vous en prie, pas de problème."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "pardon",
+          "label": "pardon ? (faire répéter)",
+          "pos": "intj",
+          "explanation": "Wie bitte? ou Bitte? pour demander de répéter.",
+          "pattern": "(Wie) bitte?",
+          "level": "A1",
+          "examples": [
+            {
+              "text": "Wie bitte? Können Sie das noch mal wiederholen?",
+              "fr": "Pardon ? Pouvez-vous répéter encore une fois ?"
+            },
+            {
+              "text": "Bitte? Ich habe dich leider nicht verstanden.",
+              "fr": "Pardon ? Je ne t'ai malheureusement pas compris."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "here_you_are",
+          "label": "tenez, voilà ; je vous en prie (offrir)",
+          "pos": "intj",
+          "explanation": "En tendant un objet ou en invitant quelqu'un à faire quelque chose.",
+          "pattern": "Bitte (sehr / schön), …",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Hier ist Ihr Wechselgeld, bitte sehr.",
+              "fr": "Voici votre monnaie, tenez."
+            },
+            {
+              "text": "Bitte, nehmen Sie doch hier am Fenster Platz!",
+              "fr": "Je vous en prie, asseyez-vous ici près de la fenêtre !"
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "während",
+      "rank": 195,
+      "required": false,
+      "categories": [
+        "préposition",
+        "conjonction"
+      ],
+      "usages": [
+        {
+          "id": "during",
+          "label": "pendant (+ génitif)",
+          "pos": "prep",
+          "explanation": "Préposition suivie du génitif (souvent du datif à l'oral).",
+          "pattern": "während + génitif",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Während des Films ist er eingeschlafen.",
+              "fr": "Il s'est endormi pendant le film."
+            },
+            {
+              "text": "Während der Ferien arbeite ich in einem Café.",
+              "fr": "Pendant les vacances, je travaille dans un café."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "while",
+          "label": "pendant que (simultanéité)",
+          "pos": "conj",
+          "explanation": "Subordonnant : deux actions en même temps ; verbe conjugué à la fin.",
+          "pattern": "während + sujet + … + verbe conjugué",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Während ich koche, deckst du den Tisch.",
+              "fr": "Pendant que je cuisine, tu mets la table."
+            },
+            {
+              "text": "Er hat angerufen, während du geschlafen hast.",
+              "fr": "Il a appelé pendant que tu dormais."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "whereas",
+          "label": "tandis que, alors que (opposition)",
+          "pos": "conj",
+          "explanation": "Subordonnant d'opposition entre deux faits ; verbe à la fin.",
+          "pattern": "…, während + sujet + … + verbe conjugué",
+          "level": "B2",
+          "examples": [
+            {
+              "text": "Ich mag Kaffee, während meine Frau nur Tee trinkt.",
+              "fr": "J'aime le café, tandis que ma femme ne boit que du thé."
+            },
+            {
+              "text": "Während er sehr ruhig ist, redet sie gern.",
+              "fr": "Alors qu'il est très calme, elle aime parler."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "etwa",
+      "rank": 220,
+      "required": false,
+      "categories": [
+        "adverbe",
+        "particule modale"
+      ],
+      "usages": [
+        {
+          "id": "approximately",
+          "label": "environ, à peu près",
+          "pos": "adv",
+          "explanation": "Devant un nombre ou une quantité : approximation.",
+          "pattern": "etwa + nombre",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Die Fahrt dauert etwa zwei Stunden.",
+              "fr": "Le trajet dure environ deux heures."
+            },
+            {
+              "text": "In der Klasse sind etwa zwanzig Schüler.",
+              "fr": "Il y a environ vingt élèves dans la classe."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "surprise_question",
+          "label": "par hasard (question étonnée ou inquiète)",
+          "pos": "particle",
+          "explanation": "Dans une question fermée, exprime la surprise ou la crainte que la réponse soit oui.",
+          "pattern": "verbe + sujet + etwa + … ?",
+          "level": "B2",
+          "examples": [
+            {
+              "text": "Bist du etwa schon müde, nach zehn Minuten?",
+              "fr": "Tu ne serais pas déjà fatigué, après dix minutes ?"
+            },
+            {
+              "text": "Hast du etwa mein Fahrrad genommen?",
+              "fr": "Est-ce que par hasard tu aurais pris mon vélo ?"
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "gleich",
+      "rank": 234,
+      "required": false,
+      "categories": [
+        "adjectif",
+        "adverbe",
+        "particule modale"
+      ],
+      "usages": [
+        {
+          "id": "same",
+          "label": "même, identique, pareil",
+          "pos": "adj",
+          "explanation": "Adjectif : identique (das gleiche) ou de même valeur (gleich groß).",
+          "pattern": "der/die/das gleiche + nom / gleich + adjectif",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Wir haben zufällig das gleiche Hemd gekauft.",
+              "fr": "Nous avons acheté la même chemise par hasard."
+            },
+            {
+              "text": "Alle Zimmer in diesem Hotel sind gleich groß.",
+              "fr": "Toutes les chambres de cet hôtel ont la même taille."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "right_away",
+          "label": "tout de suite, dans un instant",
+          "pos": "adv",
+          "explanation": "Moment très proche dans l'avenir.",
+          "pattern": "sujet + verbe + gleich + …",
+          "level": "A2",
+          "examples": [
+            {
+              "text": "Warte kurz, ich bin gleich wieder da!",
+              "fr": "Attends, je reviens tout de suite !"
+            },
+            {
+              "text": "Der Film fängt gleich an, beeil dich!",
+              "fr": "Le film commence dans un instant, dépêche-toi !"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "right_next",
+          "label": "juste (à côté, au coin)",
+          "pos": "adv",
+          "explanation": "Devant une indication de lieu : immédiatement, tout près.",
+          "pattern": "gleich + préposition de lieu",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Die Bäckerei ist gleich um die Ecke.",
+              "fr": "La boulangerie est juste au coin de la rue."
+            },
+            {
+              "text": "Gleich neben dem Bahnhof gibt es ein Hotel.",
+              "fr": "Juste à côté de la gare, il y a un hôtel."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "modal_particle",
+          "label": "déjà ? (chercher une information oubliée)",
+          "pos": "particle",
+          "explanation": "Dans une question, signale qu'on a oublié une information qu'on connaissait (« déjà »).",
+          "pattern": "mot interrogatif + verbe + sujet + (noch) gleich … ?",
+          "level": "B2",
+          "examples": [
+            {
+              "text": "Entschuldigung, wie war noch gleich Ihr Name?",
+              "fr": "Pardon, quel était votre nom déjà ?"
+            },
+            {
+              "text": "Wann fährt gleich der letzte Bus?",
+              "fr": "Il part à quelle heure déjà, le dernier bus ?"
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "eigentlich",
+      "rank": 242,
+      "required": false,
+      "categories": [
+        "adverbe",
+        "particule modale",
+        "adjectif"
+      ],
+      "usages": [
+        {
+          "id": "actually",
+          "label": "en fait, à vrai dire",
+          "pos": "adv",
+          "explanation": "Oppose la réalité ou l'intention initiale à ce qui se passe vraiment.",
+          "pattern": "eigentlich + verbe + sujet … / sujet + verbe + eigentlich",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Eigentlich wollte ich heute ins Kino gehen.",
+              "fr": "En fait, je voulais aller au cinéma aujourd'hui."
+            },
+            {
+              "text": "Das Hotel ist eigentlich gar nicht so schlecht.",
+              "fr": "L'hôtel n'est en fait pas si mal."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "modal_particle",
+          "label": "au fait (question)",
+          "pos": "particle",
+          "explanation": "Dans une question, introduit un sujet nouveau ou marque la curiosité (« au fait »).",
+          "pattern": "mot interrogatif + verbe + sujet + eigentlich … ?",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Wie spät ist es eigentlich jetzt in Tokio?",
+              "fr": "Au fait, quelle heure est-il à Tokyo ?"
+            },
+            {
+              "text": "Wo wohnst du eigentlich jetzt, noch in Bonn?",
+              "fr": "Au fait, où habites-tu maintenant, toujours à Bonn ?"
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "real",
+          "label": "véritable, proprement dit (adjectif)",
+          "pos": "adj",
+          "explanation": "Adjectif épithète : le vrai, l'essentiel, par opposition à l'apparent.",
+          "pattern": "der/die/das eigentliche + nom",
+          "level": "B2",
+          "examples": [
+            {
+              "text": "Das eigentliche Problem ist das fehlende Geld.",
+              "fr": "Le vrai problème, c'est le manque d'argent."
+            },
+            {
+              "text": "Der eigentliche Grund war ein ganz anderer.",
+              "fr": "La véritable raison était tout autre."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "zwar",
+      "rank": 286,
+      "required": false,
+      "categories": [
+        "adverbe"
+      ],
+      "usages": [
+        {
+          "id": "concession",
+          "label": "certes … mais (zwar … aber)",
+          "pos": "adv",
+          "explanation": "Concède un point, toujours suivi d'une restriction avec aber.",
+          "pattern": "sujet + verbe + zwar + …, aber …",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Das Auto ist zwar alt, aber es fährt gut.",
+              "fr": "La voiture est certes vieille, mais elle roule bien."
+            },
+            {
+              "text": "Ich bin zwar müde, aber ich komme trotzdem mit.",
+              "fr": "Je suis fatigué, certes, mais je viens quand même."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "specification",
+          "label": "à savoir, plus précisément (und zwar)",
+          "pos": "adv",
+          "explanation": "Und zwar précise ce qui vient d'être dit.",
+          "pattern": "…, und zwar + précision",
+          "level": "B2",
+          "examples": [
+            {
+              "text": "Ich brauche deine Hilfe, und zwar sofort.",
+              "fr": "J'ai besoin de ton aide, et tout de suite."
+            },
+            {
+              "text": "Wir treffen uns bald, und zwar am Montag um zehn.",
+              "fr": "Nous nous voyons bientôt, plus précisément lundi à dix heures."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    },
+    {
+      "word": "allerdings",
+      "rank": 288,
+      "required": false,
+      "categories": [
+        "adverbe"
+      ],
+      "usages": [
+        {
+          "id": "however",
+          "label": "toutefois, cependant (restriction)",
+          "pos": "adv",
+          "explanation": "Apporte une restriction à ce qui précède ; peut se placer en tête (inversion) ou dans la phrase.",
+          "pattern": "…, allerdings + verbe + sujet … / sujet + verbe + allerdings …",
+          "level": "B1",
+          "examples": [
+            {
+              "text": "Das Essen war gut, allerdings etwas teuer.",
+              "fr": "Le repas était bon, mais un peu cher toutefois."
+            },
+            {
+              "text": "Ich komme gern, allerdings erst nach acht Uhr.",
+              "fr": "Je viens volontiers, mais seulement après huit heures."
+            }
+          ],
+          "grammarRef": ""
+        },
+        {
+          "id": "certainly",
+          "label": "et comment, absolument (réponse)",
+          "pos": "adv",
+          "explanation": "En réponse, confirme avec force (« absolument », « et comment »).",
+          "pattern": "– Allerdings!",
+          "level": "B2",
+          "examples": [
+            {
+              "text": "Hast du das wirklich gewusst? – Allerdings!",
+              "fr": "Tu le savais vraiment ? – Absolument !"
+            },
+            {
+              "text": "War es kalt? – Allerdings, wir haben gefroren.",
+              "fr": "Il faisait froid ? – Et comment, nous avons gelé."
+            }
+          ],
+          "grammarRef": ""
+        }
+      ]
+    }
+  ],
+  "contrasts": [
+    {
+      "words": [
+        "als",
+        "wenn",
+        "wie"
+      ],
+      "usages": [
+        "als:time_past",
+        "wenn:time_repeated",
+        "wie:question_how"
+      ],
+      "note": "« Quand » : als pour un fait unique du passé, wenn pour une répétition ou le présent/futur ; wie n'est jamais temporel (« comment »)."
+    },
+    {
+      "words": [
+        "als",
+        "wenn",
+        "wie"
+      ],
+      "usages": [
+        "als:comparison_unequal",
+        "wie:comparison_equal",
+        "wenn:condition"
+      ],
+      "note": "Comparaison : als après un comparatif (plus … que), wie pour l'égalité (aussi … que) ; wenn ne compare jamais, il pose une condition (« si »)."
+    },
+    {
+      "words": [
+        "denn",
+        "weil",
+        "da"
+      ],
+      "usages": [
+        "denn:cause_coord",
+        "weil:cause_sub",
+        "da:cause_known"
+      ],
+      "note": "Trois façons de donner une cause : denn (car) garde le verbe en 2e position ; weil (parce que) et da (comme, puisque) rejettent le verbe à la fin ; da se met souvent en tête pour une cause déjà connue."
+    },
+    {
+      "words": [
+        "schon",
+        "noch",
+        "erst"
+      ],
+      "usages": [
+        "schon:already",
+        "noch:still",
+        "noch:not_yet",
+        "erst:only_then",
+        "erst:only_amount"
+      ],
+      "note": "schon = déjà (plus tôt que prévu) ; noch = encore (ça continue) ou noch nicht (pas encore) ; erst = seulement, pas avant (plus tard que prévu ou quantité encore faible)."
+    },
+    {
+      "words": [
+        "ob",
+        "wenn"
+      ],
+      "usages": [
+        "ob:indirect_yesno",
+        "wenn:condition"
+      ],
+      "note": "Les deux se traduisent « si » : ob introduit une question indirecte (ich weiß nicht, ob…) ; wenn pose une condition (wenn du willst, …). Test : si on peut dire « est-ce que », c'est ob."
+    }
+  ],
+  "excluded": [
+    {
+      "word": "die",
+      "reason": "Article défini ; ses emplois de relatif et démonstratif relèvent du cours sur les déterminants et relatives."
+    },
+    {
+      "word": "der",
+      "reason": "Article défini ; même remarque que die."
+    },
+    {
+      "word": "und",
+      "reason": "Conjonction « et », un seul usage sans piège."
+    },
+    {
+      "word": "ich",
+      "reason": "Pronom personnel simple."
+    },
+    {
+      "word": "mit",
+      "reason": "« Avec » dans presque tous les cas."
+    },
+    {
+      "word": "ein",
+      "reason": "Article indéfini / numéral, traité en grammaire des déterminants."
+    },
+    {
+      "word": "für",
+      "reason": "« Pour » dans presque tous les cas."
+    },
+    {
+      "word": "im",
+      "reason": "Contraction de in dem (voir in)."
+    },
+    {
+      "word": "sich",
+      "reason": "Pronom réfléchi : relève du cours sur les verbes pronominaux."
+    },
+    {
+      "word": "an",
+      "reason": "Préposition mixte proche de in et auf, déjà couverts ; à ajouter plus tard si besoin."
+    },
+    {
+      "word": "dass",
+      "reason": "Un seul usage (« que ») ; la confusion das/dass est orthographique."
+    },
+    {
+      "word": "bei",
+      "reason": "Usages (chez, près de, lors de) peu ambigus pour un francophone."
+    },
+    {
+      "word": "aus",
+      "reason": "Origine/matière, sens assez transparents."
+    },
+    {
+      "word": "wir",
+      "reason": "Pronom personnel simple."
+    },
+    {
+      "word": "oder",
+      "reason": "« Ou » ; l'emploi « …, oder ? » est trivial."
+    },
+    {
+      "word": "am",
+      "reason": "Contraction de an dem."
+    },
+    {
+      "word": "man",
+      "reason": "Pronom « on », un seul usage."
+    },
+    {
+      "word": "zum",
+      "reason": "Contraction de zu dem (voir zu)."
+    },
+    {
+      "word": "dann",
+      "reason": "« Alors, ensuite » ; un sens principal."
+    },
+    {
+      "word": "durch",
+      "reason": "Sens (à travers, grâce à) assez transparents."
+    },
+    {
+      "word": "hier",
+      "reason": "Adverbe de lieu simple."
+    },
+    {
+      "word": "jetzt",
+      "reason": "« Maintenant », un seul usage."
+    },
+    {
+      "word": "wieder",
+      "reason": "« De nouveau », un seul usage."
+    },
+    {
+      "word": "sehr",
+      "reason": "« Très », adverbe d'intensité simple."
+    },
+    {
+      "word": "unter",
+      "reason": "Sens spatiaux et « parmi » assez transparents."
+    },
+    {
+      "word": "vom",
+      "reason": "Contraction de von dem (voir von)."
+    },
+    {
+      "word": "gut",
+      "reason": "Adjectif/adverbe « bon, bien » sans piège grammatical."
+    },
+    {
+      "word": "gegen",
+      "reason": "« Contre » / « vers » (heure) : peu de confusion."
+    },
+    {
+      "word": "viel",
+      "reason": "Quantifieur simple (beaucoup)."
+    },
+    {
+      "word": "ab",
+      "reason": "Surtout préfixe verbal ; « à partir de » transparent."
+    },
+    {
+      "word": "heute",
+      "reason": "« Aujourd'hui », un seul usage."
+    },
+    {
+      "word": "nun",
+      "reason": "Proche de jetzt ; l'emploi discursif est marginal à ce niveau."
+    },
+    {
+      "word": "wer",
+      "reason": "Pronom interrogatif « qui » ; les difficultés relèvent des cas (wen, wem)."
+    },
+    {
+      "word": "seiner",
+      "reason": "Forme déclinée du possessif / pronom."
+    },
+    {
+      "word": "zwischen",
+      "reason": "« Entre », un seul sens."
+    },
+    {
+      "word": "ihrer",
+      "reason": "Forme déclinée du possessif / pronom."
+    },
+    {
+      "word": "warum",
+      "reason": "« Pourquoi », un seul usage."
+    },
+    {
+      "word": "weiter",
+      "reason": "« Plus loin / continuer », sens transparent."
+    },
+    {
+      "word": "wirklich",
+      "reason": "« Vraiment », adverbe simple."
+    },
+    {
+      "word": "dazu",
+      "reason": "Adverbe pronominal (zu + cela) ; le principe est couvert par damit et dabei."
+    },
+    {
+      "word": "dafür",
+      "reason": "Adverbe pronominal ; principe couvert par damit et dabei."
+    },
+    {
+      "word": "bereits",
+      "reason": "Synonyme soutenu de schon (déjà), un seul usage."
+    },
+    {
+      "word": "nie",
+      "reason": "« Jamais », un seul usage."
+    },
+    {
+      "word": "weg",
+      "reason": "« Parti, loin », surtout préfixe verbal."
+    },
+    {
+      "word": "wegen",
+      "reason": "« À cause de », un seul usage."
+    },
+    {
+      "word": "besser",
+      "reason": "Comparatif de gut, adjectif."
+    },
+    {
+      "word": "genau",
+      "reason": "« Exactement », sens simple."
+    },
+    {
+      "word": "gar",
+      "reason": "Surtout dans gar nicht / gar kein (intensif) ; le sens « cuit » est rare."
+    },
+    {
+      "word": "natürlich",
+      "reason": "« Naturel / bien sûr », sens transparents."
+    },
+    {
+      "word": "recht",
+      "reason": "Expressions figées (recht haben) plutôt qu'usages grammaticaux."
+    },
+    {
+      "word": "lange",
+      "reason": "« Longtemps », adverbe simple."
+    },
+    {
+      "word": "davon",
+      "reason": "Adverbe pronominal ; principe couvert par damit et dabei."
+    },
+    {
+      "word": "fast",
+      "reason": "« Presque », un seul usage."
+    },
+    {
+      "word": "richtig",
+      "reason": "Adjectif « juste, correct »."
+    },
+    {
+      "word": "zurück",
+      "reason": "« En retour », surtout préfixe verbal."
+    },
+    {
+      "word": "zusammen",
+      "reason": "« Ensemble », un seul usage."
+    },
+    {
+      "word": "darauf",
+      "reason": "Adverbe pronominal ; principe couvert par damit et dabei."
+    },
+    {
+      "word": "schön",
+      "reason": "Adjectif « beau » ; emploi intensif marginal."
+    },
+    {
+      "word": "sogar",
+      "reason": "« Même », un seul usage (comparé dans selbst)."
+    },
+    {
+      "word": "später",
+      "reason": "« Plus tard », un seul usage."
+    }
+  ]
+}
