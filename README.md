@@ -30,6 +30,7 @@ L'anglais va de B1 à C2, l'allemand de A2 à B2.
 - Bases hors parcours, gardées pour traduire les mots au toucher : `src/data/english.ts` et `src/data/german.ts`.
 - Verbes conjugués : `src/data/verbs.ts`.
 - Textes à lire : voir « Bibliothèque de lecture » ci-dessous.
+- Mots outils (as, like, doch, schon…) : voir « Mots outils » ci-dessous.
 
 ## Bibliothèque de lecture
 
@@ -77,6 +78,9 @@ La liste complète peut aussi être filtrée par langue, niveau, thème, longueu
   On ne peut pas cliquer sur les mots : le but est de lire sans s'arrêter.
 - **Après :** trois questions automatiques, dans la langue du texte :
   trouver le mot manquant d'une phrase, reconnaître une phrase du texte, retrouver la phrase qui vient en premier.
+  Puis, si le texte en contient, 2 ou 3 questions notées sur les mots outils du texte (voir « Mots outils »).
+- **Versions simplifiées :** certains extraits existent aussi en A2, B1 et B2 (voir plus bas). Leur titre le dit,
+  et un bouton « Lire l'original » ouvre le texte de l'auteur.
 
 **Les mots nouveaux entrent dans les révisions.** Les mots montrés avant la lecture sont ajoutés aux révisions habituelles.
 Ils reviennent vite, comme tout mot fragile. Ces mots n'ont pas d'audio propre : leurs exercices évitent l'écoute.
@@ -86,10 +90,10 @@ Ils reviennent vite, comme tout mot fragile. Ces mots n'ont pas d'audio propre :
 Ces commandes se lancent depuis le dossier du projet, dans cet ordre :
 
 ```bash
-.toolsenv\Scripts\python.exe -I scripts/library/make_works.py
-.toolsenv\Scripts\python.exe -I scripts/library/fetch_works.py
-.toolsenv\Scripts\python.exe -I scripts/library/build.py
-.toolsenv\Scripts\python.exe -I scripts/library/audio.py
+.tools\venv\Scripts\python.exe -I scripts/library/make_works.py
+.tools\venv\Scripts\python.exe -I scripts/library/fetch_works.py
+.tools\venv\Scripts\python.exe -I scripts/library/build.py
+.tools\venv\Scripts\python.exe -I scripts/library/audio.py
 ```
 
 1. `make_works.py` lit les deux listes validées et écrit `scripts/library/works.json`.
@@ -110,9 +114,25 @@ FILOU_CONTACT=ton-adresse-de-contact
 
 Ce fichier n'est jamais commité. Sans lui, les scripts fonctionnent quand même, mais ils ne respectent plus tout à fait la politique de Wikimedia.
 
+### Versions simplifiées
+
+100 versions A2, B1 et B2 de 34 extraits : Smith, Veblen, Mill, Malthus, Keynes, Thoreau en anglais ;
+Grimm, Hauff, Bechstein, *Heidi*, Lessing, Kafka, Weber et Kant en allemand. Elles comblent surtout l'allemand A2,
+que les textes originaux ne couvraient pas.
+
+- **Rédaction :** par des agents IA d'une session Claude Code, hors de l'appli. Le sens, l'ordre et les noms de
+  l'original sont gardés, sans rien ajouter. Scripts : `scripts/simplify/` (`sources.py` choisit les extraits).
+- **Contrôle :** `scripts/simplify/collect.py` mesure chaque version avec les outils de la bibliothèque (longueur des
+  phrases, mots au-delà du niveau hors des 8 mots clés montrés avant la lecture) et refuse celles qui dépassent leur niveau.
+- **Licence :** l'original est du domaine public ; la version est rédigée pour Filou et le dit.
+- **Relecture :** bilan et échantillon dans `docs/revue/simplifications.md`.
+
+Les extraits écartés à la main (texte abîmé, par exemple) sont listés avec leur raison dans
+`scripts/library/excluded-passages.json`.
+
 ### Limites
 
-- Les niveaux (A2 à C1) sont estimés par des règles : longueur des phrases, mots rares, passif, subordonnées.
+- Les niveaux (A2 à C2) sont estimés par des règles : longueur des phrases, mots rares, passif, subordonnées.
   C'est une approximation, pas un classement validé par un enseignant.
 - Les questions sont fabriquées mécaniquement à partir du texte, sans intelligence artificielle.
 - Ni les textes ni les questions n'ont été relus par un locuteur natif.
@@ -124,6 +144,31 @@ Ce fichier n'est jamais commité. Sans lui, les scripts fonctionnent quand même
 - Sens et genres en français : [Wiktionnaire](https://fr.wiktionary.org), via les extraits de [kaikki.org](https://kaikki.org) (CC BY-SA).
 - Analyse des phrases : [spaCy](https://spacy.io).
 - Voix : [Piper](https://github.com/OHF-Voice/piper1-gpl), avec les mêmes voix que les leçons (voir « Audio »).
+
+## Mots outils
+
+Des mots fréquents qui changent de sens selon la phrase : 50 en anglais (*as, like, since, still, yet, would, get…*)
+et 51 en allemand (*als, wenn, wie, doch, schon, noch, erst, denn, lassen, werden…*). Chacun a ses usages :
+*as* « au moment où », « comme, puisque », « en tant que », « aussi… que »…
+
+- **Inventaire :** `src/data/usages/<langue>.json`, validé ligne à ligne (`docs/revue/mots-outils.md`).
+  Le champ `grammarRef` de chaque usage est laissé vide pour ta propre référence de grammaire.
+- **Exemples :** phrases de [Tatoeba](https://tatoeba.org) (CC BY 2.0 FR, auteurs cités à chaque phrase), classées
+  par usage par des agents IA, avec une confiance d'au moins 0,9 ; au moins 5 par usage quand Tatoeba en a, sinon
+  les exemples rédigés de l'inventaire complètent. Échantillon : `docs/revue/exemples-<langue>.md`.
+- **Révisions :** chaque couple (mot, usage) est un élément de révision comme un autre (`src/lib/usages.ts`).
+  Trois exercices selon la mémoire : reconnaître le sens dans une phrase ; traduire la phrase avec des tuiles dont
+  les leurres sont les traductions des autres usages ; départager des mots proches (*as / like*, *since / for*,
+  *still / yet*, *als / wenn / wie*, *denn / weil / da*, *schon / noch / erst*, *ob / wenn*). Aucune consigne ne
+  montre la réponse (vérifié par un test).
+- **Lecture :** après un texte, des questions notées sur ses mots outils comptent comme des révisions ; la lecture
+  du jour favorise les textes qui font réviser un usage qui s'efface.
+- **Tableaux :** une section « Mots outils » dans « Mes tableaux », avec les quatre états.
+
+Scripts, dans l'ordre : `scripts/usages/candidates.py` (mots fréquents à plusieurs usages), `sentences.py`
+(phrases Tatoeba candidates, fichiers dans `.tools/data/tatoeba/`), classement des phrases (agents, ou
+`classify.py` avec une clé `ANTHROPIC_API_KEY` dans `.env.local`), `second_pass.py` (usages rares),
+`examples.py` (exemples sûrs), puis `passages.py` et `attach.py` pour les questions des textes.
 
 ## Audio
 
