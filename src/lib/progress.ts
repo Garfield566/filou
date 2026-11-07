@@ -1,3 +1,4 @@
+import type { BankWord } from '../types';
 import { remember, rememberHard, type Memory } from './memory';
 
 export const MAX_HEARTS = 5;
@@ -25,6 +26,25 @@ export interface Progress {
   testMode: boolean;
   /** Bank sentences the learner reported as bad, never shown again. */
   hiddenSentences: string[];
+  /** Estimated vocabulary size per course, from the level test: more frequent words count as known. */
+  vocabularyRank: Record<string, number>;
+  /** Words met in a text, per course. They join the bank, so the usual reviews apply to them. */
+  readingWords: Record<string, BankWord[]>;
+  readings: Reading[];
+}
+
+/** One finished text. */
+export interface Reading {
+  passageId: string;
+  courseId: string;
+  level: string;
+  theme: string;
+  words: number;
+  /** Time spent on the text itself, without the words before or the questions after. */
+  readingMs: number;
+  correct: number;
+  questions: number;
+  finishedAt: number;
 }
 
 export function initialProgress(now: number): Progress {
@@ -41,6 +61,9 @@ export function initialProgress(now: number): Progress {
     memory: {},
     testMode: true,
     hiddenSentences: [],
+    vocabularyRank: {},
+    readingWords: {},
+    readings: [],
   };
 }
 

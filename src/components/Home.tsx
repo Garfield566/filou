@@ -21,6 +21,7 @@ interface Props {
   onBank: () => void;
   onOpenReference: () => void;
   onOpenTables: () => void;
+  onOpenLibrary: () => void;
   onToggleTestMode: () => void;
   onReset: () => void;
   onSwitchCourse: (courseId: string) => void;
@@ -34,6 +35,7 @@ export function Home({
   onBank,
   onOpenReference,
   onOpenTables,
+  onOpenLibrary,
   onToggleTestMode,
   onReset,
   onSwitchCourse,
@@ -119,6 +121,11 @@ export function Home({
           </small>
         </button>
       )}
+
+      <button className="reference-link" onClick={onOpenLibrary}>
+        <span>Bibliothèque</span>
+        <small>Lecture du jour et textes libres, classés par niveau</small>
+      </button>
 
       <button className="reference-link" onClick={onOpenReference}>
         <span>Carnet de grammaire et conjugaison</span>

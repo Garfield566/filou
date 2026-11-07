@@ -8,17 +8,17 @@ const REVIEWS_IN_SESSION = 3;
 const WEAK_HALF_LIFE = 1;
 const STRONG_HALF_LIFE = 7;
 
-const itemsByCourse = new Map<string, Item[]>();
+const itemsByCourse = new WeakMap<Course, Item[]>();
 
 function itemOf(course: Course, word: BankWord): Item {
   return { id: `${course.id}:b:${word.target}`, type: 'bank', target: word.target, fr: word.fr, alt: [], word };
 }
 
 export function bankItems(course: Course): Item[] {
-  let items = itemsByCourse.get(course.id);
+  let items = itemsByCourse.get(course);
   if (!items) {
     items = course.bank.map((word) => itemOf(course, word));
-    itemsByCourse.set(course.id, items);
+    itemsByCourse.set(course, items);
   }
   return items;
 }
@@ -42,16 +42,25 @@ function otherValues(course: Course, item: Item, side: 'target' | 'fr', rng: Rng
 }
 
 function recognize(course: Course, item: Item, rng: Rng): Exercise {
+  const context = item.word!.context;
   return {
     kind: 'choice',
     itemIds: [item.id],
     prompt: 'Que veut dire ce mot ?',
-    shown: item.target,
-    shownIsTarget: true,
-    audio: item.target,
+    shown: context ? `${item.target} : « ${context} »` : item.target,
+    shownIsTarget: !context,
+    audio: context ? undefined : item.target,
     options: shuffle([item.fr, ...otherValues(course, item, 'fr', rng)], rng),
     answer: item.fr,
   };
+}
+
+/** A word met in a text has no voice and no translated sentence: its context stands for them. */
+function contextExercise(course: Course, item: Item, memory: Memory, rng: Rng): Exercise {
+  const halfLife = memory[item.id]?.halfLifeDays ?? 0;
+  if (halfLife < WEAK_HALF_LIFE) return recognize(course, item, rng);
+  const exercise = produce(course, item, rng);
+  return exercise.kind === 'choice' ? { ...exercise, audio: undefined, why: `« ${item.word!.context} »` } : exercise;
 }
 
 function produce(course: Course, item: Item, rng: Rng): Exercise {
@@ -71,7 +80,7 @@ function wordBank(course: Course, item: Item, sentence: BankSentence, rng: Rng):
   const taken = new Set(words.map((word) => normalize(word)));
   const extras: string[] = [];
   for (const other of shuffle(bankItems(course), rng)) {
-    if (other.id === item.id) continue;
+    if (other.id === item.id || other.word!.sentences.length === 0) continue;
     for (const word of tokenize(other.word!.sentences[0].text)) {
       if (extras.length < 3 && !taken.has(normalize(word))) {
         taken.add(normalize(word));
@@ -127,6 +136,7 @@ function dictation(item: Item, sentence: BankSentence): Exercise {
 
 /** Difficulty rises with memory: recognise the word, rebuild a sentence, then write it unaided. */
 export function bankExercise(course: Course, item: Item, memory: Memory, hidden: Set<string>, rng: Rng = Math.random): Exercise {
+  if (item.word!.context) return contextExercise(course, item, memory, rng);
   const halfLife = memory[item.id]?.halfLifeDays ?? 0;
   const sentences = visibleSentences(item, hidden);
   const sentence = sentences[Math.floor(rng() * sentences.length)];
@@ -151,7 +161,7 @@ export function buildBankSession(
   rng: Rng = Math.random,
 ): Exercise[] {
   const items = bankItems(course);
-  const fresh = items.filter((item) => !memory[item.id]).slice(0, NEW_WORDS);
+  const fresh = items.filter((item) => !memory[item.id] && !item.word!.context).slice(0, NEW_WORDS);
   const fading = items
     .filter((item) => memory[item.id] && isDue(memory[item.id], now))
     .sort((a, b) => recall(memory[a.id], now) - recall(memory[b.id], now))

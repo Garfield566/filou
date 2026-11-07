@@ -36,6 +36,15 @@ export async function playSequence(
   }
 }
 
+/** A whole text, read from its own file. */
+export function playFile(path: string): void {
+  sequenceToken++;
+  current?.pause();
+  const audio = new Audio(`${import.meta.env.BASE_URL}${path}`);
+  current = audio;
+  audio.play().catch(() => undefined);
+}
+
 export function stopAudio(): void {
   sequenceToken++;
   current?.pause();

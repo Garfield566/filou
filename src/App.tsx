@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Home } from './components/Home';
+import { Library } from './components/Library';
 import { ProgressTables } from './components/ProgressTables';
 import { Reference, type ReferenceTab } from './components/Reference';
 import { SessionScreen } from './components/SessionScreen';
@@ -15,6 +16,7 @@ import {
   saveProgress,
 } from './lib/progress';
 import { buildConjugationDrill } from './lib/conjugation';
+import { withReadingWords } from './lib/library';
 import { buildLesson, buildReview } from './lib/session';
 import { buildVerbReview, buildVerbSession } from './lib/verbs';
 import { buildBankSession } from './lib/wordBank';
@@ -32,6 +34,7 @@ export function App() {
   const [showReference, setShowReference] = useState(false);
   const [referenceTab, setReferenceTab] = useState<ReferenceTab>('rules');
   const [showTables, setShowTables] = useState(false);
+  const [showLibrary, setShowLibrary] = useState(false);
 
   useEffect(() => saveProgress(progress), [progress]);
 
@@ -40,7 +43,8 @@ export function App() {
     return () => clearInterval(timer);
   }, []);
 
-  const course = courseById(progress.activeCourse);
+  const readingWords = progress.readingWords[progress.activeCourse];
+  const course = useMemo(() => withReadingWords(courseById(progress.activeCourse), readingWords), [progress.activeCourse, readingWords]);
   const hiddenSentences = new Set(progress.hiddenSentences);
 
   const startLesson = (lessonId: string) => {
@@ -71,6 +75,10 @@ export function App() {
   const startVerbReview = () => {
     setSession({ id: Date.now(), lessonId: null, steps: buildVerbReview(course, progress.memory, Date.now()) });
   };
+
+  if (showLibrary) {
+    return <Library course={course} progress={progress} setProgress={setProgress} onBack={() => setShowLibrary(false)} />;
+  }
 
   if (showTables) {
     return <ProgressTables course={course} progress={progress} onBack={() => setShowTables(false)} />;
@@ -123,6 +131,7 @@ export function App() {
       onBank={startBank}
       onOpenReference={() => setShowReference(true)}
       onOpenTables={() => setShowTables(true)}
+      onOpenLibrary={() => setShowLibrary(true)}
       onToggleTestMode={() => setProgress((p) => ({ ...p, testMode: !p.testMode }))}
       onReset={() => setProgress((p) => ({ ...initialProgress(Date.now()), activeCourse: p.activeCourse, testMode: p.testMode }))}
       onSwitchCourse={(id) => setProgress((p) => ({ ...p, activeCourse: id }))}

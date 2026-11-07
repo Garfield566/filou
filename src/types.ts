@@ -140,6 +140,8 @@ export interface BankWord {
   plural: string | null;
   domain?: LexicalField;
   sentences: BankSentence[];
+  /** The sentence of a text where the learner met this word. Such a word has no voice and no translated sentence. */
+  context?: string;
 }
 
 /** A word, sentence, grammar point or verb the learner memorises and reviews. */
