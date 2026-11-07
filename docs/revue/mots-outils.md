@@ -21,6 +21,8 @@ les exercices seront écrits seulement après ta validation de cette liste.
 - Retirer ou ajouter un mot, fusionner ou séparer deux usages.
 - Remplir la colonne « référence grammaire » (`grammarRef` dans `src/data/usages/<langue>.json`) : elle est vide exprès.
 
+**Ajout après validation (7 novembre 2026).** *when* : usage « quand, lorsque (moment passé ou habituel) » (`time`), le plus courant, absent de la première liste. Il a été repéré pendant le classement des phrases Tatoeba.
+
 **Limites.** Relecture faite par des agents IA, pas par un natif ni un enseignant. Les niveaux sont approximatifs.
 
 Fichiers : `src/data/usages/en.json` et `src/data/usages/de.json`.
