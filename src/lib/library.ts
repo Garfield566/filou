@@ -21,6 +21,8 @@ export interface PassageMeta {
   lemmas: number[];
   /** Function-word usages asked about after the reading, as word:usage. */
   usages?: string[];
+  /** For a simplified version (source "simplified"): the id of the original passage. */
+  original?: string;
 }
 
 export interface LibraryIndex {

@@ -146,18 +146,32 @@ def build_language(language: str) -> tuple[list[dict], dict]:
         for index, passage in enumerate(parts):
             title = record["title"] if len(parts) == 1 else f"{record['title']}, extrait {index + 1} sur {len(parts)}"
             drafts.append({**record, "title": title, "paragraphs": passage, "part": index + 1})
+    # Simplified versions come last and are numbered apart, so that the ids of the other passages never move.
+    simplified = ROOT / ".tools/library/simplified" / f"{language}.json"
+    for record in json.loads(simplified.read_text(encoding="utf-8")) if simplified.exists() else []:
+        drafts.append({**record, "paragraphs": [p for p in record["text"].split("\n\n") if p.strip()], "part": 1})
 
     docs = nlp.pipe(("\n\n".join(draft["paragraphs"]) for draft in drafts), batch_size=16)
     passages = []
-    for number, (draft, doc) in enumerate(zip(drafts, docs), start=1):
+    regular = simple = 0
+    for draft, doc in zip(drafts, docs):
         analysis = analyse_doc(doc, language, ranks)
+        if draft["source"] == "simplified":
+            simple += 1
+            number_id = f"{language}-s{simple:03d}"
+        else:
+            regular += 1
+            number_id = f"{language}-{regular:04d}"
+
         words = sum(len(p.split()) for p in draft["paragraphs"])
         record = {k: draft[k] for k in ("source", "title", "author", "work", "url", "license", "retrieved", "theme")}
         passages.append({
             **record,
-            "id": f"{language}-{number:04d}",
+            "id": number_id,
             "language": language,
-            "level": estimate_level(analysis["measures"], language, draft.get("levelGuess", "")),
+            # A simplified version was checked against its target level by scripts/simplify/collect.py.
+            "level": draft["level"] if draft["source"] == "simplified" else estimate_level(analysis["measures"], language, draft.get("levelGuess", "")),
+            **({"original": draft["original"]} if draft.get("original") else {}),
             "words": words,
             "measures": analysis["measures"],
             "paragraphs": draft["paragraphs"],
@@ -174,15 +188,19 @@ def build_language(language: str) -> tuple[list[dict], dict]:
     shutil.rmtree(folder / "passages", ignore_errors=True)
     (folder / "passages").mkdir(parents=True)
 
+    excluded = json.loads((ROOT / "scripts/library/excluded-passages.json").read_text(encoding="utf-8"))
     index_rows = []
     for passage in passages:
         passage["questions"] = build_questions(passage, passages, language, rng)
         # Every reading ends with three questions: a passage that cannot have them stays out.
         if len(passage["questions"]) < QUESTIONS:
             continue
+        # Passages set aside by hand (scripts/library/excluded-passages.json), and the versions made from them.
+        if passage["id"] in excluded or passage.get("original") in excluded:
+            continue
         flat = [value for lemma, count in passage["lemmas"].items() for value in (ids[lemma], count)]
         keep = ("id", "title", "author", "work", "url", "license", "retrieved", "theme", "level", "words", "source", "measures")
-        index_rows.append({**{key: passage[key] for key in keep}, "lemmas": flat})
+        index_rows.append({**{key: passage[key] for key in keep}, **({"original": passage["original"]} if "original" in passage else {}), "lemmas": flat})
         body = {key: passage[key] for key in ("id", "paragraphs", "glossary", "questions")}
         (folder / "passages" / f"{passage['id']}.json").write_text(json.dumps(body, ensure_ascii=False), encoding="utf-8")
 

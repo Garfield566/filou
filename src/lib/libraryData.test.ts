@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { z } from 'zod';
 
-const LICENSES = ['Domaine public', 'Domaine public (transcription Wikisource, CC BY-SA 4.0)'];
+const LICENSES = ['Domaine public', 'Domaine public (transcription Wikisource, CC BY-SA 4.0)', 'Domaine public (original) ; version simplifiée rédigée pour Filou'];
 // Recognised works only: a book on Project Gutenberg or a page on Wikisource, never an encyclopedia article.
 const HOSTS = /^https:\/\/(?:www\.gutenberg\.org\/ebooks\/\d+|(?:en|de)\.wikisource\.org\/wiki\/.+)$/;
 
@@ -37,6 +37,15 @@ describe.each(['en', 'de'])('library %s', (language) => {
 
   it('has been built', () => {
     expect(index).toBeDefined();
+  });
+
+  it('links every simplified version to an original of the library, and says so in its title', () => {
+    const passages = (index?.passages ?? []) as { id: string; source: string; title: string; original?: string }[];
+    const ids = new Set(passages.map((passage) => passage.id));
+    for (const passage of passages.filter((item) => item.source === 'simplified')) {
+      expect(passage.original && ids.has(passage.original), passage.id).toBe(true);
+      expect(passage.title, passage.id).toContain('version simplifiée');
+    }
   });
 
   it('gives every passage its source, licence and date', () => {

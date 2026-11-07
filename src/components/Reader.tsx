@@ -25,6 +25,8 @@ interface Props {
   evidence: WordEvidence;
   setProgress: Dispatch<SetStateAction<Progress>>;
   onExit: () => void;
+  /** Opens the original of a simplified version. */
+  onOpenOriginal?: (id: string) => void;
 }
 
 type Step = 'before' | 'text' | 'questions' | 'done';
@@ -40,9 +42,20 @@ interface AskedQuestion {
   why?: string;
 }
 
-function Credit({ meta }: { meta: PassageMeta }) {
+function Credit({ meta, onOpenOriginal }: { meta: PassageMeta; onOpenOriginal?: (id: string) => void }) {
   return (
     <p className="credits">
+      {meta.original && (
+        <>
+          <strong>Version simplifiée ({meta.level})</strong>, rédigée pour Filou d'après l'œuvre originale.{' '}
+          {onOpenOriginal && (
+            <button className="link" onClick={() => onOpenOriginal(meta.original!)}>
+              Lire l'original
+            </button>
+          )}
+          <br />
+        </>
+      )}
       {meta.author},{' '}
       <a href={meta.url} target="_blank" rel="noopener noreferrer">{meta.work === meta.title ? meta.work : `${meta.title} (${meta.work})`}</a>. Licence : {meta.license}. Récupéré le{' '}
       {meta.retrieved}.
@@ -50,7 +63,7 @@ function Credit({ meta }: { meta: PassageMeta }) {
   );
 }
 
-export function Reader({ course, meta, index, rankLimit, evidence, setProgress, onExit }: Props) {
+export function Reader({ course, meta, index, rankLimit, evidence, setProgress, onExit, onOpenOriginal }: Props) {
   const [body, setBody] = useState<PassageBody | null>(null);
   // Chosen once, when the text arrives: the reviews it starts must not change the list on screen.
   const [before, setBefore] = useState<GlossaryWord[]>([]);
@@ -201,7 +214,7 @@ export function Reader({ course, meta, index, rankLimit, evidence, setProgress, 
               <p key={position}>{paragraph}</p>
             ))}
           </article>
-          <Credit meta={meta} />
+          <Credit meta={meta} onOpenOriginal={onOpenOriginal} />
           <button
             className="primary"
             onClick={() => {
@@ -265,7 +278,7 @@ export function Reader({ course, meta, index, rankLimit, evidence, setProgress, 
             {questions.length > 0 ? `${correct} / ${questions.length} bonnes réponses. ` : ''}
             {joined > 0 ? `${joined} mots rejoignent tes révisions.` : ''}
           </p>
-          <Credit meta={meta} />
+          <Credit meta={meta} onOpenOriginal={onOpenOriginal} />
           <button className="primary" onClick={onExit}>
             Retour à la bibliothèque
           </button>

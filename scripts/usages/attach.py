@@ -7,12 +7,25 @@ favour texts with usages to review. build.py calls this after every build.
 """
 import json
 import sys
+import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 LOTS = ROOT / ".tools/usages/lots"
 MIN_CONFIDENCE = 0.9
 PER_PASSAGE = 3
+
+
+def write(path: Path, text: str, attempts: int = 3) -> None:
+    """Windows may hold a file a moment (a dev server watching it, an antivirus): wait and try again."""
+    for attempt in range(attempts):
+        try:
+            path.write_text(text, encoding="utf-8")
+            return
+        except OSError:
+            if attempt == attempts - 1:
+                raise
+            time.sleep(1)
 
 
 def sure_sentences(language: str) -> dict[str, list[dict]]:
@@ -51,7 +64,7 @@ def attach(language: str) -> int:
         path = folder / "passages" / f"{row['id']}.json"
         body = json.loads(path.read_text(encoding="utf-8"))
         body["usageQuestions"] = chosen
-        path.write_text(json.dumps(body, ensure_ascii=False), encoding="utf-8")
+        write(path, json.dumps(body, ensure_ascii=False))
         attached += bool(chosen)
     (folder / "index.json").write_text(json.dumps(index, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     return attached

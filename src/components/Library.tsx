@@ -139,6 +139,7 @@ export function Library({ course, progress, setProgress, onBack }: Props) {
         evidence={evidence}
         setProgress={setProgress}
         onExit={() => setOpen(null)}
+        onOpenOriginal={(id) => setOpen(index.passages.find((passage) => passage.id === id) ?? null)}
       />
     );
   }
