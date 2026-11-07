@@ -16,7 +16,8 @@ interface Props {
   onExit: () => void;
 }
 
-const isCard = (step: Exercise) => step.kind === 'intro' || step.kind === 'tip' || step.kind === 'rule' || step.kind === 'verbs' || step.kind === 'dialogue';
+const isCard = (step: Exercise) =>
+  step.kind === 'intro' || step.kind === 'tip' || step.kind === 'rule' || step.kind === 'verbs' || step.kind === 'dialogue' || step.kind === 'usage';
 
 function expectedAnswers(step: Exercise): string[] {
   if (step.kind === 'choice') return [step.answer];

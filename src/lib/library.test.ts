@@ -95,6 +95,13 @@ describe('dailyReading', () => {
     expect(dailyReading([hard, closer], [], () => 0)).toMatchObject({ passage: closer.passage, inWindow: false });
   });
 
+  it('prefers, within the window, a text that asks about a usage to review', () => {
+    const asking = { passage: { ...passage('asks', 'romans'), usages: ['as:time'] }, share: 0.96 };
+    const choice = dailyReading([inWindow, other, asking], [], () => 0, new Set(['as:time']));
+    expect(choice?.passage.id).toBe('asks');
+    expect(dailyReading([inWindow, asking], [], () => 0, new Set())?.passage.id).toBe('fit');
+  });
+
   it('has nothing to offer once all is read', () => {
     expect(dailyReading([inWindow], [reading('fit', 'x')])).toBeNull();
   });

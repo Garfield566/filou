@@ -8,6 +8,7 @@ import {
   type Progress,
 } from '../lib/progress';
 import { dueItems, itemsOfCourse } from '../lib/session';
+import { learnedUsages, usageItems } from '../lib/usages';
 import { learnedBankWords } from '../lib/wordBank';
 import type { Course } from '../types';
 import { Mascot } from './Mascot';
@@ -19,6 +20,7 @@ interface Props {
   onStart: (lessonId: string) => void;
   onReview: () => void;
   onBank: () => void;
+  onUsages: () => void;
   onOpenReference: () => void;
   onOpenTables: () => void;
   onOpenLibrary: () => void;
@@ -33,6 +35,7 @@ export function Home({
   onStart,
   onReview,
   onBank,
+  onUsages,
   onOpenReference,
   onOpenTables,
   onOpenLibrary,
@@ -118,6 +121,15 @@ export function Home({
           <span>Banque de mots : 5 nouveaux mots</span>
           <small>
             {learnedBankWords(course, progress.memory)} / {course.bank.length} mots vus
+          </small>
+        </button>
+      )}
+
+      {usageItems(course).length > 0 && (
+        <button className="review" disabled={noHearts} onClick={onUsages}>
+          <span>Mots outils : les usages du mot suivant</span>
+          <small>
+            {learnedUsages(course, progress.memory)} / {usageItems(course).length} usages vus
           </small>
         </button>
       )}

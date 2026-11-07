@@ -3,6 +3,7 @@ import { play, playSequence } from '../lib/audio';
 import { glossOf } from '../lib/gloss';
 import { tokenize } from '../lib/grade';
 import { shuffle } from '../lib/random';
+import { creditOf } from '../lib/usages';
 import { formLabels, spokenVerb } from '../lib/verbs';
 import type { Course, DialogueLesson, Exercise, GrammarLesson, Tip, VerbFamily } from '../types';
 
@@ -46,6 +47,32 @@ export function ExerciseView({ course, step, draft, locked, onDraft, onSubmit, o
       );
     case 'dialogue':
       return <Dialogue course={course} lesson={step.lesson} />;
+    case 'usage':
+      return (
+        <>
+          <p className="eyebrow">Mot outil · {step.usage.level}</p>
+          <h1>
+            <span lang={course.languageTag}>{step.word}</span> : {step.usage.label}
+          </h1>
+          <div className="tip">
+            <ul>
+              <li>{step.usage.explanation}</li>
+              <li>
+                Schéma : <span lang={course.languageTag}>{step.usage.pattern}</span>
+              </li>
+            </ul>
+            {step.examples.map((example) => (
+              <div className="tip-example" key={example.id}>
+                <div>
+                  <strong lang={course.languageTag}>{example.text}</strong>
+                  <span>{example.fr}</span>
+                  <small className="credits">{creditOf(example)}</small>
+                </div>
+              </div>
+            ))}
+          </div>
+        </>
+      );
     case 'choice':
       return <Choice course={course} step={step} draft={draft} locked={locked} onDraft={onDraft} />;
     case 'pairs':

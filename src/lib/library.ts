@@ -19,6 +19,8 @@ export interface PassageMeta {
   source: string;
   /** Pairs of lemma index and count. Proper nouns are already left out. */
   lemmas: number[];
+  /** Function-word usages asked about after the reading, as word:usage. */
+  usages?: string[];
 }
 
 export interface LibraryIndex {
@@ -52,6 +54,8 @@ export interface PassageBody {
   paragraphs: string[];
   glossary: GlossaryWord[];
   questions: ReadingQuestion[];
+  /** Sentences of the text whose function word has a sure usage: graded questions after the reading. */
+  usageQuestions?: { word: string; usage: string; sentence: string }[];
 }
 
 export interface RankTestItem {
@@ -136,11 +140,15 @@ export interface DailyChoice {
   inWindow: boolean;
 }
 
-/** A text in the window, unread, whose theme differs from the last reading. */
+/**
+ * A text in the window, unread, whose theme differs from the last reading. Among those, a text that asks about a
+ * function-word usage the learner has to review comes first.
+ */
 export function dailyReading(
   shares: { passage: PassageMeta; share: number }[],
   readings: Reading[],
   rng: () => number = Math.random,
+  dueUsages: ReadonlySet<string> = new Set(),
 ): DailyChoice | null {
   const read = new Set(readings.map((reading) => reading.passageId));
   const lastTheme = readings.at(-1)?.theme;
@@ -148,7 +156,9 @@ export function dailyReading(
   const freshTheme = unread.filter(({ passage }) => passage.theme !== lastTheme);
   const pool = freshTheme.length > 0 ? freshTheme : unread;
   if (pool.length === 0) return null;
-  const inWindow = pool.filter(({ share }) => share >= DAILY_MIN && share <= DAILY_MAX);
+  const fitting = pool.filter(({ share }) => share >= DAILY_MIN && share <= DAILY_MAX);
+  const reviewing = fitting.filter(({ passage }) => passage.usages?.some((usage) => dueUsages.has(usage)));
+  const inWindow = reviewing.length > 0 ? reviewing : fitting;
   if (inWindow.length > 0) {
     const pick = inWindow[Math.floor(rng() * inWindow.length)];
     return { ...pick, inWindow: true };

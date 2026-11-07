@@ -14,6 +14,7 @@ import { normalize, tokenize } from './grade';
 import { isDue, recall, type Memory } from './memory';
 import { shuffle, type Rng } from './random';
 import { verbExercise, verbItems } from './verbs';
+import { usageExercise, usageItems } from './usages';
 import { bankExercise, bankItems } from './wordBank';
 
 const REVIEW_SIZE = 12;
@@ -166,6 +167,7 @@ export function itemsOfCourse(course: Course): Item[] {
     ...lessonsOf(course).flatMap((lesson) => itemsOfLesson(course, lesson)),
     ...verbItems(course),
     ...bankItems(course),
+    ...usageItems(course),
   ];
 }
 
@@ -301,6 +303,7 @@ function reviewExercise(
   if (item.type === 'grammar') return grammarExercise(item, halfLife >= STRONG_HALF_LIFE, rng);
   if (item.type === 'verb') return verbExercise(course, item, memory, rng);
   if (item.type === 'bank') return bankExercise(course, item, memory, hidden, rng);
+  if (item.type === 'usage') return usageExercise(course, item, memory, rng);
   if (item.type === 'word') {
     if (halfLife < WEAK_HALF_LIFE) return recognize(item, pool, rng);
     if (halfLife < STRONG_HALF_LIFE) return produceChoice(item, pool, rng);

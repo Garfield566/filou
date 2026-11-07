@@ -11,6 +11,7 @@ import {
   type WordEvidence,
 } from '../lib/library';
 import { shuffle } from '../lib/random';
+import { readingUsageQuestion } from '../lib/usages';
 import { recordReview, type Progress } from '../lib/progress';
 import type { Course } from '../types';
 
@@ -27,6 +28,17 @@ interface Props {
 }
 
 type Step = 'before' | 'text' | 'questions' | 'done';
+
+/** A question on the text, or on a function word met in it, which then counts as a review of that usage. */
+interface AskedQuestion {
+  kind: string;
+  prompt: string;
+  shown?: string;
+  answer: string;
+  wrong: string[];
+  itemId?: string;
+  why?: string;
+}
 
 function Credit({ meta }: { meta: PassageMeta }) {
   return (
@@ -52,6 +64,8 @@ export function Reader({ course, meta, index, rankLimit, evidence, setProgress, 
   const [hasAudio, setHasAudio] = useState(false);
   const started = useRef(0);
   const readingMs = useRef(0);
+  // Answers to the function-word questions: only an answered question counts as a review, met or not in the text.
+  const usageAnswers = useRef(new Map<string, boolean>());
 
   useEffect(() => {
     let live = true;
@@ -82,10 +96,12 @@ export function Reader({ course, meta, index, rankLimit, evidence, setProgress, 
     };
   }, [course.id, meta.id]);
 
-  const options = useMemo(
-    () => (body ? body.questions.map((question) => shuffle([question.answer, ...question.wrong])) : []),
-    [body],
-  );
+  const questions = useMemo<AskedQuestion[]>(() => {
+    if (!body) return [];
+    const onUsages = (body.usageQuestions ?? []).flatMap((question) => readingUsageQuestion(course, question) ?? []);
+    return [...body.questions, ...onUsages.map((question) => ({ ...question, kind: 'usage' }))];
+  }, [body, course]);
+  const options = useMemo(() => questions.map((question) => shuffle([question.answer, ...question.wrong])), [questions]);
 
   if (failed) {
     return (
@@ -99,14 +115,17 @@ export function Reader({ course, meta, index, rankLimit, evidence, setProgress, 
   }
   if (!body) return <p className="notice">Chargement…</p>;
 
-  const question = body.questions[questionIndex];
+  const question = questions[questionIndex];
 
   const finish = (right: number) => {
     setProgress((progress) => {
       const { added, itemIds } = wordsToReview(before, meta.id, course, progress.memory);
       setJoined(itemIds.length);
       // A word seen in a text starts weak, so that the first review tests it soon.
-      const reviewed = recordReview(progress, itemIds, 'again', Date.now());
+      const words = recordReview(progress, itemIds, 'again', Date.now());
+      const answers = [...usageAnswers.current];
+      const held = recordReview(words, answers.filter(([, right]) => right).map(([id]) => id), 'good', Date.now());
+      const reviewed = recordReview(held, answers.filter(([, right]) => !right).map(([id]) => id), 'again', Date.now());
       return {
         ...reviewed,
         readingWords: { ...reviewed.readingWords, [course.id]: [...(reviewed.readingWords[course.id] ?? []), ...added] },
@@ -120,7 +139,7 @@ export function Reader({ course, meta, index, rankLimit, evidence, setProgress, 
             words: meta.words,
             readingMs: readingMs.current,
             correct: right,
-            questions: body.questions.length,
+            questions: questions.length,
             finishedAt: Date.now(),
           },
         ],
@@ -188,7 +207,7 @@ export function Reader({ course, meta, index, rankLimit, evidence, setProgress, 
             onClick={() => {
               stopAudio();
               readingMs.current = Date.now() - started.current;
-              if (body.questions.length > 0) setStep('questions');
+              if (questions.length > 0) setStep('questions');
               else finish(0);
             }}
           >
@@ -198,9 +217,14 @@ export function Reader({ course, meta, index, rankLimit, evidence, setProgress, 
       )}
 
       {step === 'questions' && question && (
-        <section className="reading-question" lang={course.languageTag}>
+        <section className="reading-question" lang={question.kind === 'usage' ? 'fr' : course.languageTag}>
+          {question.kind === 'usage' && <p className="eyebrow">Mot outil</p>}
           <h2>{question.prompt}</h2>
-          {question.shown && <p className="sentence">{question.shown}</p>}
+          {question.shown && (
+            <p className="sentence" lang={course.languageTag}>
+              {question.shown}
+            </p>
+          )}
           <div className="options">
             {options[questionIndex].map((option) => (
               <button
@@ -213,13 +237,15 @@ export function Reader({ course, meta, index, rankLimit, evidence, setProgress, 
               </button>
             ))}
           </div>
+          {picked !== null && question.why && <p className="why">{question.why}</p>}
           {picked !== null && (
             <button
               className="primary"
               onClick={() => {
                 const right = correct + (picked === question.answer ? 1 : 0);
+                if (question.itemId) usageAnswers.current.set(question.itemId, picked === question.answer);
                 setPicked(null);
-                if (questionIndex + 1 === body.questions.length) finish(right);
+                if (questionIndex + 1 === questions.length) finish(right);
                 else {
                   setCorrect(right);
                   setQuestionIndex(questionIndex + 1);
@@ -236,7 +262,7 @@ export function Reader({ course, meta, index, rankLimit, evidence, setProgress, 
         <>
           <h2>Lecture terminée</h2>
           <p>
-            {body.questions.length > 0 ? `${correct} / ${body.questions.length} bonnes réponses. ` : ''}
+            {questions.length > 0 ? `${correct} / ${questions.length} bonnes réponses. ` : ''}
             {joined > 0 ? `${joined} mots rejoignent tes révisions.` : ''}
           </p>
           <Credit meta={meta} />

@@ -1,3 +1,4 @@
+import type { UsageDef, UsageExample, UsageRef } from './lib/usages';
 export interface Word {
   target: string;
   fr: string;
@@ -147,13 +148,15 @@ export interface BankWord {
 /** A word, sentence, grammar point or verb the learner memorises and reviews. */
 export interface Item {
   id: string;
-  type: 'word' | 'sentence' | 'grammar' | 'verb' | 'bank';
+  type: 'word' | 'sentence' | 'grammar' | 'verb' | 'bank' | 'usage';
   target: string;
   fr: string;
   alt: string[];
   question?: GrammarQuestion;
   verb?: IrregularVerb;
   word?: BankWord;
+  /** A function word in one of its usages (as: « au moment où »). */
+  usage?: UsageRef;
 }
 
 export type Exercise =
@@ -162,6 +165,7 @@ export type Exercise =
   | { kind: 'rule'; lesson: GrammarLesson }
   | { kind: 'verbs'; family: VerbFamily }
   | { kind: 'dialogue'; lesson: DialogueLesson }
+  | { kind: 'usage'; word: string; usage: UsageDef; examples: UsageExample[] }
   | {
       kind: 'choice';
       itemIds: string[];
@@ -203,4 +207,4 @@ export type Exercise =
       sentenceId?: string;
     };
 
-export type Card = Extract<Exercise, { kind: 'intro' | 'tip' | 'rule' | 'verbs' | 'dialogue' }>;
+export type Card = Extract<Exercise, { kind: 'intro' | 'tip' | 'rule' | 'verbs' | 'dialogue' | 'usage' }>;

@@ -15,6 +15,7 @@ import {
   type RankTestItem,
 } from '../lib/library';
 import { dayKey, type Progress } from '../lib/progress';
+import { dueUsageKeys } from '../lib/usages';
 import type { Course } from '../types';
 import { Reader } from './Reader';
 
@@ -119,9 +120,10 @@ export function Library({ course, progress, setProgress, onBack }: Props) {
   const today = dayKey(Date.now());
   const doneToday = own.find((reading) => dayKey(reading.finishedAt) === today);
   // The draw ignores today's reading, so the choice stays the same before and after it.
+  const dueUsages = useMemo(() => dueUsageKeys(course, progress.memory, Date.now()), [course, progress.memory]);
   const daily = useMemo(
-    () => dailyReading(shares, doneToday ? own.filter((reading) => reading !== doneToday) : own, dailyRng(course.id, today)),
-    [shares, own, doneToday, course.id, today],
+    () => dailyReading(shares, doneToday ? own.filter((reading) => reading !== doneToday) : own, dailyRng(course.id, today), dueUsages),
+    [shares, own, doneToday, course.id, today, dueUsages],
   );
   const read = new Set(own.map((reading) => reading.passageId));
   const stats = readingStats(progress.readings, course.id);

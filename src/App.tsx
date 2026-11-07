@@ -19,6 +19,7 @@ import { buildConjugationDrill } from './lib/conjugation';
 import { withReadingWords } from './lib/library';
 import { buildLesson, buildReview } from './lib/session';
 import { buildVerbReview, buildVerbSession } from './lib/verbs';
+import { buildUsageSession } from './lib/usages';
 import { buildBankSession } from './lib/wordBank';
 import type { Exercise } from './types';
 
@@ -62,6 +63,10 @@ export function App() {
 
   const startBank = () => {
     setSession({ id: Date.now(), lessonId: null, steps: buildBankSession(course, progress.memory, hiddenSentences, Date.now()) });
+  };
+
+  const startUsages = () => {
+    setSession({ id: Date.now(), lessonId: null, steps: buildUsageSession(course, progress.memory, Date.now()) });
   };
 
   const startDrill = (tenseId: string) => {
@@ -129,6 +134,7 @@ export function App() {
       onStart={startLesson}
       onReview={startReview}
       onBank={startBank}
+      onUsages={startUsages}
       onOpenReference={() => setShowReference(true)}
       onOpenTables={() => setShowTables(true)}
       onOpenLibrary={() => setShowLibrary(true)}

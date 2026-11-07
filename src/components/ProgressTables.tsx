@@ -3,6 +3,7 @@ import { lessonsOf } from '../data/courses';
 import type { NodeState } from '../lib/notions';
 import type { Progress } from '../lib/progress';
 import { buildProfile } from '../lib/reviewBridge';
+import { usageRows } from '../lib/usages';
 import type { Course, LexicalField } from '../types';
 
 const STATE_NAMES: Record<NodeState, string> = {
@@ -36,6 +37,7 @@ interface Props {
 
 export function ProgressTables({ course, progress, onBack }: Props) {
   const profile = useMemo(() => buildProfile(course, progress.memory, Date.now()), [course, progress.memory]);
+  const usages = useMemo(() => usageRows(course, progress.memory, Date.now()), [course, progress.memory]);
   const grammar = lessonsOf(course).flatMap((lesson) => (lesson.kind === 'grammar' ? [lesson] : []));
   const themed = FIELDS.map((field) => ({
     ...field,
@@ -73,6 +75,28 @@ export function ProgressTables({ course, progress, onBack }: Props) {
                 <span lang={course.languageTag}>
                   {word.target}
                   {state !== 'grise' && <small> : {word.fr}</small>}
+                </span>
+                <StateBadge state={state} />
+              </li>
+            ))}
+          </ul>
+        </details>
+      ))}
+
+      {usages.length > 0 && <h2>Mots outils</h2>}
+      {usages.map(({ word, usages: rows }) => (
+        <details className="table-group" key={word.word}>
+          <summary>
+            <span lang={course.languageTag}>{word.word}</span>
+            <small>
+              {STATES.map((state) => `${rows.filter((row) => row.state === state).length} ${STATE_NAMES[state].toLowerCase()}`).join(' · ')}
+            </small>
+          </summary>
+          <ul className="table-rows">
+            {rows.map(({ usage, state }) => (
+              <li key={usage.id}>
+                <span>
+                  {usage.label} <small>({usage.level})</small>
                 </span>
                 <StateBadge state={state} />
               </li>

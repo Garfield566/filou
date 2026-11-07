@@ -210,6 +210,10 @@ def main() -> None:
     lines = ["# Rapport de la bibliothèque", ""]
     for language in sys.argv[1:] or ["en", "de"]:
         passages, index = build_language(language)
+        # The function-word questions live in the passage files, which a build rewrites: they are added again.
+        sys.path.insert(0, str(ROOT / "scripts/usages"))
+        from attach import attach
+        lines.append(f"- questions sur les mots outils : {attach(language)} passages")
         lines += [report(language, passages), f"- index : {len(json.dumps(index)) // 1024} Ko", ""]
     (ROOT / ".tools/library/report.md").write_text("\n".join(lines), encoding="utf-8")
     print("\n".join(lines))
