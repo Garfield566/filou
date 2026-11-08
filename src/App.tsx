@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { Backup } from './components/Backup';
 import { Home } from './components/Home';
 import { Library } from './components/Library';
 import { ProgressTables } from './components/ProgressTables';
@@ -36,6 +37,7 @@ export function App() {
   const [referenceTab, setReferenceTab] = useState<ReferenceTab>('rules');
   const [showTables, setShowTables] = useState(false);
   const [showLibrary, setShowLibrary] = useState(false);
+  const [showBackup, setShowBackup] = useState(false);
 
   useEffect(() => saveProgress(progress), [progress]);
 
@@ -80,6 +82,10 @@ export function App() {
   const startVerbReview = () => {
     setSession({ id: Date.now(), lessonId: null, steps: buildVerbReview(course, progress.memory, Date.now()) });
   };
+
+  if (showBackup) {
+    return <Backup progress={progress} setProgress={setProgress} onBack={() => setShowBackup(false)} />;
+  }
 
   if (showLibrary) {
     return <Library course={course} progress={progress} setProgress={setProgress} onBack={() => setShowLibrary(false)} />;
@@ -138,6 +144,7 @@ export function App() {
       onOpenReference={() => setShowReference(true)}
       onOpenTables={() => setShowTables(true)}
       onOpenLibrary={() => setShowLibrary(true)}
+      onOpenBackup={() => setShowBackup(true)}
       onToggleTestMode={() => setProgress((p) => ({ ...p, testMode: !p.testMode }))}
       onReset={() => setProgress((p) => ({ ...initialProgress(Date.now()), activeCourse: p.activeCourse, testMode: p.testMode }))}
       onSwitchCourse={(id) => setProgress((p) => ({ ...p, activeCourse: id }))}

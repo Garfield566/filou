@@ -24,6 +24,7 @@ interface Props {
   onOpenReference: () => void;
   onOpenTables: () => void;
   onOpenLibrary: () => void;
+  onOpenBackup: () => void;
   onToggleTestMode: () => void;
   onReset: () => void;
   onSwitchCourse: (courseId: string) => void;
@@ -39,6 +40,7 @@ export function Home({
   onOpenReference,
   onOpenTables,
   onOpenLibrary,
+  onOpenBackup,
   onToggleTestMode,
   onReset,
   onSwitchCourse,
@@ -142,6 +144,11 @@ export function Home({
       <button className="reference-link" onClick={onOpenReference}>
         <span>Carnet de grammaire et conjugaison</span>
         <small>Règles, tableaux, temps et verbes {course.id === 'de' ? 'forts' : 'irréguliers'}</small>
+      </button>
+
+      <button className="reference-link" onClick={onOpenBackup}>
+        <span>Sauvegarde</span>
+        <small>Un code pour retrouver ta progression sur un autre appareil</small>
       </button>
 
       <button className="reference-link" onClick={onOpenTables}>
