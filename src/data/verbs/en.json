@@ -1,0 +1,2170 @@
+{
+ "families": [
+  {
+   "id": "en-v-essential",
+   "title": "Les indispensables",
+   "hint": "Les verbes les plus fréquents, chacun avec sa forme propre.",
+   "verbs": [
+    {
+     "name": "be",
+     "fr": "être",
+     "forms": [
+      "was",
+      "been"
+     ],
+     "rare": false
+    },
+    {
+     "name": "have",
+     "fr": "avoir",
+     "forms": [
+      "had",
+      "had"
+     ],
+     "rare": false
+    },
+    {
+     "name": "do",
+     "fr": "faire",
+     "forms": [
+      "did",
+      "done"
+     ],
+     "rare": false
+    },
+    {
+     "name": "go",
+     "fr": "aller",
+     "forms": [
+      "went",
+      "gone"
+     ],
+     "rare": false
+    },
+    {
+     "name": "come",
+     "fr": "venir",
+     "forms": [
+      "came",
+      "come"
+     ],
+     "rare": false
+    },
+    {
+     "name": "become",
+     "fr": "devenir",
+     "forms": [
+      "became",
+      "become"
+     ],
+     "rare": false
+    },
+    {
+     "name": "run",
+     "fr": "courir",
+     "forms": [
+      "ran",
+      "run"
+     ],
+     "rare": false
+    },
+    {
+     "name": "lie",
+     "fr": "être allongé",
+     "forms": [
+      "lay",
+      "lain"
+     ],
+     "rare": false
+    },
+    {
+     "name": "see",
+     "fr": "voir",
+     "forms": [
+      "saw",
+      "seen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "eat",
+     "fr": "manger",
+     "forms": [
+      "ate",
+      "eaten"
+     ],
+     "rare": false
+    },
+    {
+     "name": "fall",
+     "fr": "tomber",
+     "forms": [
+      "fell",
+      "fallen"
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "en-v-same",
+   "title": "Trois formes identiques",
+   "hint": "Le verbe ne change jamais, seul le contexte indique le temps.",
+   "verbs": [
+    {
+     "name": "cut",
+     "fr": "couper",
+     "forms": [
+      "cut",
+      "cut"
+     ],
+     "rare": false
+    },
+    {
+     "name": "put",
+     "fr": "mettre",
+     "forms": [
+      "put",
+      "put"
+     ],
+     "rare": false
+    },
+    {
+     "name": "let",
+     "fr": "laisser",
+     "forms": [
+      "let",
+      "let"
+     ],
+     "rare": false
+    },
+    {
+     "name": "set",
+     "fr": "fixer",
+     "forms": [
+      "set",
+      "set"
+     ],
+     "rare": false
+    },
+    {
+     "name": "hit",
+     "fr": "frapper",
+     "forms": [
+      "hit",
+      "hit"
+     ],
+     "rare": false
+    },
+    {
+     "name": "hurt",
+     "fr": "blesser",
+     "forms": [
+      "hurt",
+      "hurt"
+     ],
+     "rare": false
+    },
+    {
+     "name": "shut",
+     "fr": "fermer",
+     "forms": [
+      "shut",
+      "shut"
+     ],
+     "rare": false
+    },
+    {
+     "name": "cost",
+     "fr": "coûter",
+     "forms": [
+      "cost",
+      "cost"
+     ],
+     "rare": false
+    },
+    {
+     "name": "read",
+     "fr": "lire",
+     "forms": [
+      "read",
+      "read"
+     ],
+     "rare": false
+    },
+    {
+     "name": "spread",
+     "fr": "répandre",
+     "forms": [
+      "spread",
+      "spread"
+     ],
+     "rare": false
+    },
+    {
+     "name": "quit",
+     "fr": "quitter",
+     "forms": [
+      "quit",
+      "quit"
+     ],
+     "variants": [
+      [
+       "quitted"
+      ],
+      [
+       "quitted"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "bet",
+     "fr": "parier",
+     "forms": [
+      "bet",
+      "bet"
+     ],
+     "rare": false
+    },
+    {
+     "name": "burst",
+     "fr": "éclater",
+     "forms": [
+      "burst",
+      "burst"
+     ],
+     "rare": false
+    },
+    {
+     "name": "cast",
+     "fr": "jeter, lancer",
+     "forms": [
+      "cast",
+      "cast"
+     ],
+     "rare": false
+    },
+    {
+     "name": "broadcast",
+     "fr": "diffuser",
+     "forms": [
+      "broadcast",
+      "broadcast"
+     ],
+     "variants": [
+      [
+       "broadcasted"
+      ],
+      [
+       "broadcasted"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "bid",
+     "fr": "faire une offre",
+     "forms": [
+      "bid",
+      "bid"
+     ],
+     "rare": false
+    },
+    {
+     "name": "rid",
+     "fr": "débarrasser",
+     "forms": [
+      "rid",
+      "rid"
+     ],
+     "rare": false
+    },
+    {
+     "name": "shed",
+     "fr": "perdre, verser",
+     "forms": [
+      "shed",
+      "shed"
+     ],
+     "rare": false
+    },
+    {
+     "name": "slit",
+     "fr": "fendre",
+     "forms": [
+      "slit",
+      "slit"
+     ],
+     "rare": false
+    },
+    {
+     "name": "split",
+     "fr": "diviser, fendre",
+     "forms": [
+      "split",
+      "split"
+     ],
+     "rare": false
+    },
+    {
+     "name": "thrust",
+     "fr": "pousser violemment",
+     "forms": [
+      "thrust",
+      "thrust"
+     ],
+     "rare": false
+    },
+    {
+     "name": "wed",
+     "fr": "épouser",
+     "forms": [
+      "wed",
+      "wed"
+     ],
+     "variants": [
+      [
+       "wedded"
+      ],
+      [
+       "wedded"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "wet",
+     "fr": "mouiller",
+     "forms": [
+      "wet",
+      "wet"
+     ],
+     "variants": [
+      [
+       "wetted"
+      ],
+      [
+       "wetted"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "knit",
+     "fr": "tricoter",
+     "forms": [
+      "knit",
+      "knit"
+     ],
+     "variants": [
+      [
+       "knitted"
+      ],
+      [
+       "knitted"
+      ]
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "en-v-t",
+   "title": "Finale en -t ou -d",
+   "hint": "Le prétérit et le participe sont identiques, et la voyelle raccourcit souvent.",
+   "verbs": [
+    {
+     "name": "keep",
+     "fr": "garder",
+     "forms": [
+      "kept",
+      "kept"
+     ],
+     "rare": false
+    },
+    {
+     "name": "sleep",
+     "fr": "dormir",
+     "forms": [
+      "slept",
+      "slept"
+     ],
+     "rare": false
+    },
+    {
+     "name": "feel",
+     "fr": "ressentir",
+     "forms": [
+      "felt",
+      "felt"
+     ],
+     "rare": false
+    },
+    {
+     "name": "leave",
+     "fr": "partir",
+     "forms": [
+      "left",
+      "left"
+     ],
+     "rare": false
+    },
+    {
+     "name": "meet",
+     "fr": "rencontrer",
+     "forms": [
+      "met",
+      "met"
+     ],
+     "rare": false
+    },
+    {
+     "name": "lose",
+     "fr": "perdre",
+     "forms": [
+      "lost",
+      "lost"
+     ],
+     "rare": false
+    },
+    {
+     "name": "mean",
+     "fr": "signifier",
+     "forms": [
+      "meant",
+      "meant"
+     ],
+     "rare": false
+    },
+    {
+     "name": "send",
+     "fr": "envoyer",
+     "forms": [
+      "sent",
+      "sent"
+     ],
+     "rare": false
+    },
+    {
+     "name": "spend",
+     "fr": "dépenser",
+     "forms": [
+      "spent",
+      "spent"
+     ],
+     "rare": false
+    },
+    {
+     "name": "build",
+     "fr": "construire",
+     "forms": [
+      "built",
+      "built"
+     ],
+     "rare": false
+    },
+    {
+     "name": "lend",
+     "fr": "prêter",
+     "forms": [
+      "lent",
+      "lent"
+     ],
+     "rare": false
+    },
+    {
+     "name": "bend",
+     "fr": "plier",
+     "forms": [
+      "bent",
+      "bent"
+     ],
+     "rare": false
+    },
+    {
+     "name": "deal",
+     "fr": "traiter",
+     "forms": [
+      "dealt",
+      "dealt"
+     ],
+     "rare": false
+    },
+    {
+     "name": "lead",
+     "fr": "mener",
+     "forms": [
+      "led",
+      "led"
+     ],
+     "rare": false
+    },
+    {
+     "name": "hold",
+     "fr": "tenir",
+     "forms": [
+      "held",
+      "held"
+     ],
+     "rare": false
+    },
+    {
+     "name": "feed",
+     "fr": "nourrir",
+     "forms": [
+      "fed",
+      "fed"
+     ],
+     "rare": false
+    },
+    {
+     "name": "flee",
+     "fr": "fuir",
+     "forms": [
+      "fled",
+      "fled"
+     ],
+     "rare": false
+    },
+    {
+     "name": "breed",
+     "fr": "élever (animaux)",
+     "forms": [
+      "bred",
+      "bred"
+     ],
+     "rare": false
+    },
+    {
+     "name": "bleed",
+     "fr": "saigner",
+     "forms": [
+      "bled",
+      "bled"
+     ],
+     "rare": false
+    },
+    {
+     "name": "speed",
+     "fr": "aller vite",
+     "forms": [
+      "sped",
+      "sped"
+     ],
+     "variants": [
+      [
+       "speeded"
+      ],
+      [
+       "speeded"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "creep",
+     "fr": "ramper",
+     "forms": [
+      "crept",
+      "crept"
+     ],
+     "rare": false
+    },
+    {
+     "name": "sweep",
+     "fr": "balayer",
+     "forms": [
+      "swept",
+      "swept"
+     ],
+     "rare": false
+    },
+    {
+     "name": "weep",
+     "fr": "pleurer",
+     "forms": [
+      "wept",
+      "wept"
+     ],
+     "rare": false
+    },
+    {
+     "name": "kneel",
+     "fr": "s'agenouiller",
+     "forms": [
+      "knelt",
+      "knelt"
+     ],
+     "variants": [
+      [
+       "kneeled"
+      ],
+      [
+       "kneeled"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "dwell",
+     "fr": "demeurer",
+     "forms": [
+      "dwelt",
+      "dwelt"
+     ],
+     "variants": [
+      [
+       "dwelled"
+      ],
+      [
+       "dwelled"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "burn",
+     "fr": "brûler",
+     "forms": [
+      "burnt",
+      "burnt"
+     ],
+     "variants": [
+      [
+       "burned"
+      ],
+      [
+       "burned"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "dream",
+     "fr": "rêver",
+     "forms": [
+      "dreamt",
+      "dreamt"
+     ],
+     "variants": [
+      [
+       "dreamed"
+      ],
+      [
+       "dreamed"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "lean",
+     "fr": "se pencher",
+     "forms": [
+      "leant",
+      "leant"
+     ],
+     "variants": [
+      [
+       "leaned"
+      ],
+      [
+       "leaned"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "leap",
+     "fr": "sauter, bondir",
+     "forms": [
+      "leapt",
+      "leapt"
+     ],
+     "variants": [
+      [
+       "leaped"
+      ],
+      [
+       "leaped"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "learn",
+     "fr": "apprendre",
+     "forms": [
+      "learnt",
+      "learnt"
+     ],
+     "variants": [
+      [
+       "learned"
+      ],
+      [
+       "learned"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "smell",
+     "fr": "sentir (odeur)",
+     "forms": [
+      "smelt",
+      "smelt"
+     ],
+     "variants": [
+      [
+       "smelled"
+      ],
+      [
+       "smelled"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "spell",
+     "fr": "épeler",
+     "forms": [
+      "spelt",
+      "spelt"
+     ],
+     "variants": [
+      [
+       "spelled"
+      ],
+      [
+       "spelled"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "spill",
+     "fr": "renverser (liquide)",
+     "forms": [
+      "spilt",
+      "spilt"
+     ],
+     "variants": [
+      [
+       "spilled"
+      ],
+      [
+       "spilled"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "spoil",
+     "fr": "gâcher, gâter",
+     "forms": [
+      "spoilt",
+      "spoilt"
+     ],
+     "variants": [
+      [
+       "spoiled"
+      ],
+      [
+       "spoiled"
+      ]
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "en-v-ought",
+   "title": "La famille -ought et -aught",
+   "hint": "Tous riment : bought, brought, thought, taught.",
+   "verbs": [
+    {
+     "name": "buy",
+     "fr": "acheter",
+     "forms": [
+      "bought",
+      "bought"
+     ],
+     "rare": false
+    },
+    {
+     "name": "bring",
+     "fr": "apporter",
+     "forms": [
+      "brought",
+      "brought"
+     ],
+     "rare": false
+    },
+    {
+     "name": "think",
+     "fr": "penser",
+     "forms": [
+      "thought",
+      "thought"
+     ],
+     "rare": false
+    },
+    {
+     "name": "fight",
+     "fr": "se battre",
+     "forms": [
+      "fought",
+      "fought"
+     ],
+     "rare": false
+    },
+    {
+     "name": "seek",
+     "fr": "chercher",
+     "forms": [
+      "sought",
+      "sought"
+     ],
+     "rare": false
+    },
+    {
+     "name": "teach",
+     "fr": "enseigner",
+     "forms": [
+      "taught",
+      "taught"
+     ],
+     "rare": false
+    },
+    {
+     "name": "catch",
+     "fr": "attraper",
+     "forms": [
+      "caught",
+      "caught"
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "en-v-two",
+   "title": "Deux formes identiques",
+   "hint": "Le prétérit et le participe sont pareils, seule la base change.",
+   "verbs": [
+    {
+     "name": "make",
+     "fr": "fabriquer",
+     "forms": [
+      "made",
+      "made"
+     ],
+     "rare": false
+    },
+    {
+     "name": "hear",
+     "fr": "entendre",
+     "forms": [
+      "heard",
+      "heard"
+     ],
+     "rare": false
+    },
+    {
+     "name": "pay",
+     "fr": "payer",
+     "forms": [
+      "paid",
+      "paid"
+     ],
+     "rare": false
+    },
+    {
+     "name": "say",
+     "fr": "dire",
+     "forms": [
+      "said",
+      "said"
+     ],
+     "rare": false
+    },
+    {
+     "name": "sell",
+     "fr": "vendre",
+     "forms": [
+      "sold",
+      "sold"
+     ],
+     "rare": false
+    },
+    {
+     "name": "tell",
+     "fr": "raconter",
+     "forms": [
+      "told",
+      "told"
+     ],
+     "rare": false
+    },
+    {
+     "name": "find",
+     "fr": "trouver",
+     "forms": [
+      "found",
+      "found"
+     ],
+     "rare": false
+    },
+    {
+     "name": "stand",
+     "fr": "être debout",
+     "forms": [
+      "stood",
+      "stood"
+     ],
+     "rare": false
+    },
+    {
+     "name": "understand",
+     "fr": "comprendre",
+     "forms": [
+      "understood",
+      "understood"
+     ],
+     "rare": false
+    },
+    {
+     "name": "sit",
+     "fr": "être assis",
+     "forms": [
+      "sat",
+      "sat"
+     ],
+     "rare": false
+    },
+    {
+     "name": "win",
+     "fr": "gagner",
+     "forms": [
+      "won",
+      "won"
+     ],
+     "rare": false
+    },
+    {
+     "name": "get",
+     "fr": "obtenir",
+     "forms": [
+      "got",
+      "got"
+     ],
+     "variants": [
+      [],
+      [
+       "gotten"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "shoot",
+     "fr": "tirer",
+     "forms": [
+      "shot",
+      "shot"
+     ],
+     "rare": false
+    },
+    {
+     "name": "hang",
+     "fr": "accrocher",
+     "forms": [
+      "hung",
+      "hung"
+     ],
+     "rare": false
+    },
+    {
+     "name": "dig",
+     "fr": "creuser",
+     "forms": [
+      "dug",
+      "dug"
+     ],
+     "rare": false
+    },
+    {
+     "name": "stick",
+     "fr": "coller",
+     "forms": [
+      "stuck",
+      "stuck"
+     ],
+     "rare": false
+    },
+    {
+     "name": "shine",
+     "fr": "briller",
+     "forms": [
+      "shone",
+      "shone"
+     ],
+     "rare": false
+    },
+    {
+     "name": "light",
+     "fr": "allumer",
+     "forms": [
+      "lit",
+      "lit"
+     ],
+     "variants": [
+      [
+       "lighted"
+      ],
+      [
+       "lighted"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "slide",
+     "fr": "glisser",
+     "forms": [
+      "slid",
+      "slid"
+     ],
+     "rare": false
+    },
+    {
+     "name": "swing",
+     "fr": "balancer",
+     "forms": [
+      "swung",
+      "swung"
+     ],
+     "rare": false
+    },
+    {
+     "name": "lay",
+     "fr": "poser",
+     "forms": [
+      "laid",
+      "laid"
+     ],
+     "rare": false
+    },
+    {
+     "name": "bind",
+     "fr": "lier, attacher",
+     "forms": [
+      "bound",
+      "bound"
+     ],
+     "rare": false
+    },
+    {
+     "name": "grind",
+     "fr": "moudre",
+     "forms": [
+      "ground",
+      "ground"
+     ],
+     "rare": false
+    },
+    {
+     "name": "wind",
+     "fr": "enrouler, serpenter",
+     "forms": [
+      "wound",
+      "wound"
+     ],
+     "rare": false
+    },
+    {
+     "name": "cling",
+     "fr": "s'accrocher",
+     "forms": [
+      "clung",
+      "clung"
+     ],
+     "rare": false
+    },
+    {
+     "name": "fling",
+     "fr": "lancer, jeter",
+     "forms": [
+      "flung",
+      "flung"
+     ],
+     "rare": false
+    },
+    {
+     "name": "sling",
+     "fr": "lancer",
+     "forms": [
+      "slung",
+      "slung"
+     ],
+     "rare": false
+    },
+    {
+     "name": "slink",
+     "fr": "s'esquiver",
+     "forms": [
+      "slunk",
+      "slunk"
+     ],
+     "rare": false
+    },
+    {
+     "name": "sting",
+     "fr": "piquer",
+     "forms": [
+      "stung",
+      "stung"
+     ],
+     "rare": false
+    },
+    {
+     "name": "string",
+     "fr": "enfiler",
+     "forms": [
+      "strung",
+      "strung"
+     ],
+     "rare": false
+    },
+    {
+     "name": "wring",
+     "fr": "tordre",
+     "forms": [
+      "wrung",
+      "wrung"
+     ],
+     "rare": false
+    },
+    {
+     "name": "spin",
+     "fr": "tourner, filer",
+     "forms": [
+      "spun",
+      "spun"
+     ],
+     "rare": false
+    },
+    {
+     "name": "spit",
+     "fr": "cracher",
+     "forms": [
+      "spat",
+      "spat"
+     ],
+     "rare": false
+    },
+    {
+     "name": "strike",
+     "fr": "frapper",
+     "forms": [
+      "struck",
+      "struck"
+     ],
+     "variants": [
+      [],
+      [
+       "stricken"
+      ]
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "en-v-iau",
+   "title": "Le groupe i, a, u",
+   "hint": "Comme sing, sang, sung : la voyelle suit toujours cet ordre.",
+   "verbs": [
+    {
+     "name": "begin",
+     "fr": "commencer",
+     "forms": [
+      "began",
+      "begun"
+     ],
+     "rare": false
+    },
+    {
+     "name": "drink",
+     "fr": "boire",
+     "forms": [
+      "drank",
+      "drunk"
+     ],
+     "rare": false
+    },
+    {
+     "name": "ring",
+     "fr": "sonner",
+     "forms": [
+      "rang",
+      "rung"
+     ],
+     "rare": false
+    },
+    {
+     "name": "sing",
+     "fr": "chanter",
+     "forms": [
+      "sang",
+      "sung"
+     ],
+     "rare": false
+    },
+    {
+     "name": "sink",
+     "fr": "couler",
+     "forms": [
+      "sank",
+      "sunk"
+     ],
+     "rare": false
+    },
+    {
+     "name": "swim",
+     "fr": "nager",
+     "forms": [
+      "swam",
+      "swum"
+     ],
+     "rare": false
+    },
+    {
+     "name": "shrink",
+     "fr": "rétrécir",
+     "forms": [
+      "shrank",
+      "shrunk"
+     ],
+     "rare": false
+    },
+    {
+     "name": "stink",
+     "fr": "puer",
+     "forms": [
+      "stank",
+      "stunk"
+     ],
+     "rare": false
+    },
+    {
+     "name": "spring",
+     "fr": "bondir",
+     "forms": [
+      "sprang",
+      "sprung"
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "en-v-ew",
+   "title": "Le groupe -ew, -own",
+   "hint": "Comme know, knew, known.",
+   "verbs": [
+    {
+     "name": "blow",
+     "fr": "souffler",
+     "forms": [
+      "blew",
+      "blown"
+     ],
+     "rare": false
+    },
+    {
+     "name": "fly",
+     "fr": "voler",
+     "forms": [
+      "flew",
+      "flown"
+     ],
+     "rare": false
+    },
+    {
+     "name": "grow",
+     "fr": "grandir",
+     "forms": [
+      "grew",
+      "grown"
+     ],
+     "rare": false
+    },
+    {
+     "name": "know",
+     "fr": "savoir",
+     "forms": [
+      "knew",
+      "known"
+     ],
+     "rare": false
+    },
+    {
+     "name": "throw",
+     "fr": "lancer",
+     "forms": [
+      "threw",
+      "thrown"
+     ],
+     "rare": false
+    },
+    {
+     "name": "draw",
+     "fr": "dessiner",
+     "forms": [
+      "drew",
+      "drawn"
+     ],
+     "rare": false
+    },
+    {
+     "name": "withdraw",
+     "fr": "retirer",
+     "forms": [
+      "withdrew",
+      "withdrawn"
+     ],
+     "rare": false
+    },
+    {
+     "name": "show",
+     "fr": "montrer",
+     "forms": [
+      "showed",
+      "shown"
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "en-v-oken",
+   "title": "Le groupe o, o + -en",
+   "hint": "Comme break, broke, broken.",
+   "verbs": [
+    {
+     "name": "break",
+     "fr": "casser",
+     "forms": [
+      "broke",
+      "broken"
+     ],
+     "rare": false
+    },
+    {
+     "name": "choose",
+     "fr": "choisir",
+     "forms": [
+      "chose",
+      "chosen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "freeze",
+     "fr": "geler",
+     "forms": [
+      "froze",
+      "frozen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "speak",
+     "fr": "parler",
+     "forms": [
+      "spoke",
+      "spoken"
+     ],
+     "rare": false
+    },
+    {
+     "name": "steal",
+     "fr": "voler (dérober)",
+     "forms": [
+      "stole",
+      "stolen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "wake",
+     "fr": "réveiller",
+     "forms": [
+      "woke",
+      "woken"
+     ],
+     "rare": false
+    },
+    {
+     "name": "forget",
+     "fr": "oublier",
+     "forms": [
+      "forgot",
+      "forgotten"
+     ],
+     "rare": false
+    },
+    {
+     "name": "tear",
+     "fr": "déchirer",
+     "forms": [
+      "tore",
+      "torn"
+     ],
+     "rare": false
+    },
+    {
+     "name": "wear",
+     "fr": "porter (vêtement)",
+     "forms": [
+      "wore",
+      "worn"
+     ],
+     "rare": false
+    },
+    {
+     "name": "swear",
+     "fr": "jurer",
+     "forms": [
+      "swore",
+      "sworn"
+     ],
+     "rare": false
+    },
+    {
+     "name": "bear",
+     "fr": "supporter",
+     "forms": [
+      "bore",
+      "borne"
+     ],
+     "rare": false
+    },
+    {
+     "name": "awake",
+     "fr": "se réveiller",
+     "forms": [
+      "awoke",
+      "awoken"
+     ],
+     "variants": [
+      [
+       "awaked"
+      ],
+      [
+       "awaked"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "weave",
+     "fr": "tisser",
+     "forms": [
+      "wove",
+      "woven"
+     ],
+     "variants": [
+      [
+       "weaved"
+      ],
+      [
+       "weaved"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "tread",
+     "fr": "marcher, fouler",
+     "forms": [
+      "trod",
+      "trodden"
+     ],
+     "variants": [
+      [],
+      [
+       "trod"
+      ]
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "en-v-en",
+   "title": "Participe en -en",
+   "hint": "Base, prétérit à voyelle changée, puis participe en -en.",
+   "verbs": [
+    {
+     "name": "drive",
+     "fr": "conduire",
+     "forms": [
+      "drove",
+      "driven"
+     ],
+     "rare": false
+    },
+    {
+     "name": "ride",
+     "fr": "monter (à vélo)",
+     "forms": [
+      "rode",
+      "ridden"
+     ],
+     "rare": false
+    },
+    {
+     "name": "rise",
+     "fr": "se lever",
+     "forms": [
+      "rose",
+      "risen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "write",
+     "fr": "écrire",
+     "forms": [
+      "wrote",
+      "written"
+     ],
+     "rare": false
+    },
+    {
+     "name": "bite",
+     "fr": "mordre",
+     "forms": [
+      "bit",
+      "bitten"
+     ],
+     "rare": false
+    },
+    {
+     "name": "hide",
+     "fr": "cacher",
+     "forms": [
+      "hid",
+      "hidden"
+     ],
+     "rare": false
+    },
+    {
+     "name": "give",
+     "fr": "donner",
+     "forms": [
+      "gave",
+      "given"
+     ],
+     "rare": false
+    },
+    {
+     "name": "forgive",
+     "fr": "pardonner",
+     "forms": [
+      "forgave",
+      "forgiven"
+     ],
+     "rare": false
+    },
+    {
+     "name": "shake",
+     "fr": "secouer",
+     "forms": [
+      "shook",
+      "shaken"
+     ],
+     "rare": false
+    },
+    {
+     "name": "take",
+     "fr": "prendre",
+     "forms": [
+      "took",
+      "taken"
+     ],
+     "rare": false
+    },
+    {
+     "name": "mistake",
+     "fr": "confondre",
+     "forms": [
+      "mistook",
+      "mistaken"
+     ],
+     "rare": false
+    },
+    {
+     "name": "beat",
+     "fr": "battre",
+     "forms": [
+      "beat",
+      "beaten"
+     ],
+     "rare": false
+    },
+    {
+     "name": "forbid",
+     "fr": "interdire",
+     "forms": [
+      "forbade",
+      "forbidden"
+     ],
+     "rare": false
+    },
+    {
+     "name": "strive",
+     "fr": "s'efforcer",
+     "forms": [
+      "strove",
+      "striven"
+     ],
+     "rare": false
+    },
+    {
+     "name": "arise",
+     "fr": "survenir",
+     "forms": [
+      "arose",
+      "arisen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "stride",
+     "fr": "marcher à grands pas",
+     "forms": [
+      "strode",
+      "stridden"
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "en-v-prefix",
+   "title": "Verbes composés",
+   "hint": "Ils se conjuguent comme le verbe de base.",
+   "verbs": [
+    {
+     "name": "undergo",
+     "fr": "subir",
+     "forms": [
+      "underwent",
+      "undergone"
+     ],
+     "rare": false
+    },
+    {
+     "name": "overcome",
+     "fr": "surmonter",
+     "forms": [
+      "overcame",
+      "overcome"
+     ],
+     "rare": false
+    },
+    {
+     "name": "overtake",
+     "fr": "dépasser",
+     "forms": [
+      "overtook",
+      "overtaken"
+     ],
+     "rare": false
+    },
+    {
+     "name": "undertake",
+     "fr": "entreprendre",
+     "forms": [
+      "undertook",
+      "undertaken"
+     ],
+     "rare": false
+    },
+    {
+     "name": "withstand",
+     "fr": "résister à",
+     "forms": [
+      "withstood",
+      "withstood"
+     ],
+     "rare": false
+    },
+    {
+     "name": "foresee",
+     "fr": "prévoir",
+     "forms": [
+      "foresaw",
+      "foreseen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "uphold",
+     "fr": "maintenir",
+     "forms": [
+      "upheld",
+      "upheld"
+     ],
+     "rare": false
+    },
+    {
+     "name": "mislead",
+     "fr": "induire en erreur",
+     "forms": [
+      "misled",
+      "misled"
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "en-v-ed-n",
+   "title": "Prétérit régulier, participe en -n",
+   "hint": "Le prétérit prend -ed, seul le participe change : sew, sewed, sewn.",
+   "verbs": [
+    {
+     "name": "sew",
+     "fr": "coudre",
+     "forms": [
+      "sewed",
+      "sewn"
+     ],
+     "variants": [
+      [],
+      [
+       "sewed"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "sow",
+     "fr": "semer",
+     "forms": [
+      "sowed",
+      "sown"
+     ],
+     "variants": [
+      [],
+      [
+       "sowed"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "mow",
+     "fr": "tondre",
+     "forms": [
+      "mowed",
+      "mown"
+     ],
+     "variants": [
+      [],
+      [
+       "mowed"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "saw",
+     "fr": "scier",
+     "forms": [
+      "sawed",
+      "sawn"
+     ],
+     "variants": [
+      [],
+      [
+       "sawed"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "swell",
+     "fr": "gonfler",
+     "forms": [
+      "swelled",
+      "swollen"
+     ],
+     "variants": [
+      [],
+      [
+       "swelled"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "prove",
+     "fr": "prouver",
+     "forms": [
+      "proved",
+      "proven"
+     ],
+     "variants": [
+      [],
+      [
+       "proved"
+      ]
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "en-v-rare",
+   "title": "Verbes rares ou littéraires",
+   "hint": "Archaïques, littéraires ou peu fréquents : à reconnaître plutôt qu'à employer.",
+   "verbs": [
+    {
+     "name": "abide",
+     "fr": "supporter, demeurer",
+     "forms": [
+      "abode",
+      "abode"
+     ],
+     "variants": [
+      [
+       "abided"
+      ],
+      [
+       "abided"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "beget",
+     "fr": "engendrer",
+     "forms": [
+      "begot",
+      "begotten"
+     ],
+     "variants": [
+      [
+       "begat"
+      ],
+      []
+     ],
+     "rare": true
+    },
+    {
+     "name": "behold",
+     "fr": "contempler",
+     "forms": [
+      "beheld",
+      "beheld"
+     ],
+     "rare": true
+    },
+    {
+     "name": "befall",
+     "fr": "arriver à (malheur)",
+     "forms": [
+      "befell",
+      "befallen"
+     ],
+     "rare": true
+    },
+    {
+     "name": "beseech",
+     "fr": "supplier",
+     "forms": [
+      "besought",
+      "besought"
+     ],
+     "variants": [
+      [
+       "beseeched"
+      ],
+      [
+       "beseeched"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "chide",
+     "fr": "gronder",
+     "forms": [
+      "chided",
+      "chided"
+     ],
+     "variants": [
+      [
+       "chid"
+      ],
+      [
+       "chid",
+       "chidden"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "cleave",
+     "fr": "fendre",
+     "forms": [
+      "cleft",
+      "cleft"
+     ],
+     "variants": [
+      [
+       "clove",
+       "cleaved"
+      ],
+      [
+       "cloven",
+       "cleaved"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "clothe",
+     "fr": "vêtir",
+     "forms": [
+      "clothed",
+      "clothed"
+     ],
+     "variants": [
+      [
+       "clad"
+      ],
+      [
+       "clad"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "forsake",
+     "fr": "abandonner",
+     "forms": [
+      "forsook",
+      "forsaken"
+     ],
+     "rare": true
+    },
+    {
+     "name": "gild",
+     "fr": "dorer",
+     "forms": [
+      "gilded",
+      "gilded"
+     ],
+     "variants": [
+      [
+       "gilt"
+      ],
+      [
+       "gilt"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "gird",
+     "fr": "ceindre",
+     "forms": [
+      "girded",
+      "girded"
+     ],
+     "variants": [
+      [
+       "girt"
+      ],
+      [
+       "girt"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "heave",
+     "fr": "soulever",
+     "forms": [
+      "heaved",
+      "heaved"
+     ],
+     "variants": [
+      [
+       "hove"
+      ],
+      [
+       "hove"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "hew",
+     "fr": "tailler (à la hache)",
+     "forms": [
+      "hewed",
+      "hewn"
+     ],
+     "variants": [
+      [],
+      [
+       "hewed"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "rend",
+     "fr": "déchirer",
+     "forms": [
+      "rent",
+      "rent"
+     ],
+     "rare": true
+    },
+    {
+     "name": "rive",
+     "fr": "fendre",
+     "forms": [
+      "rived",
+      "riven"
+     ],
+     "variants": [
+      [
+       "rove"
+      ],
+      [
+       "rived"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "shear",
+     "fr": "tondre (mouton)",
+     "forms": [
+      "sheared",
+      "shorn"
+     ],
+     "variants": [
+      [],
+      [
+       "sheared"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "shoe",
+     "fr": "ferrer (cheval)",
+     "forms": [
+      "shod",
+      "shod"
+     ],
+     "variants": [
+      [
+       "shoed"
+      ],
+      [
+       "shoed"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "shrive",
+     "fr": "confesser, absoudre",
+     "forms": [
+      "shrove",
+      "shriven"
+     ],
+     "variants": [
+      [
+       "shrived"
+      ],
+      [
+       "shrived"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "slay",
+     "fr": "tuer",
+     "forms": [
+      "slew",
+      "slain"
+     ],
+     "variants": [
+      [
+       "slayed"
+      ],
+      [
+       "slayed"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "smite",
+     "fr": "frapper",
+     "forms": [
+      "smote",
+      "smitten"
+     ],
+     "rare": true
+    },
+    {
+     "name": "strew",
+     "fr": "éparpiller",
+     "forms": [
+      "strewed",
+      "strewn"
+     ],
+     "variants": [
+      [],
+      [
+       "strewed"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "thrive",
+     "fr": "prospérer",
+     "forms": [
+      "thrived",
+      "thrived"
+     ],
+     "variants": [
+      [
+       "throve"
+      ],
+      [
+       "thriven"
+      ]
+     ],
+     "rare": true
+    }
+   ]
+  }
+ ]
+}

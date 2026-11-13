@@ -1,0 +1,2345 @@
+{
+ "families": [
+  {
+   "id": "de-v-essential",
+   "title": "Les indispensables",
+   "hint": "Les verbes les plus fréquents, à connaître par cœur.",
+   "verbs": [
+    {
+     "name": "sein",
+     "fr": "être",
+     "forms": [
+      "ist",
+      "war",
+      "ist gewesen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "haben",
+     "fr": "avoir",
+     "forms": [
+      "hat",
+      "hatte",
+      "hat gehabt"
+     ],
+     "rare": false
+    },
+    {
+     "name": "werden",
+     "fr": "devenir",
+     "forms": [
+      "wird",
+      "wurde",
+      "ist geworden"
+     ],
+     "rare": false
+    },
+    {
+     "name": "gehen",
+     "fr": "aller",
+     "forms": [
+      "geht",
+      "ging",
+      "ist gegangen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "kommen",
+     "fr": "venir",
+     "forms": [
+      "kommt",
+      "kam",
+      "ist gekommen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "stehen",
+     "fr": "être debout",
+     "forms": [
+      "steht",
+      "stand",
+      "hat gestanden"
+     ],
+     "rare": false
+    },
+    {
+     "name": "tun",
+     "fr": "faire",
+     "forms": [
+      "tut",
+      "tat",
+      "hat getan"
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "de-v-ei-ie",
+   "title": "Le groupe ei, ie, ie",
+   "hint": "Comme bleiben, blieb, geblieben.",
+   "verbs": [
+    {
+     "name": "bleiben",
+     "fr": "rester",
+     "forms": [
+      "bleibt",
+      "blieb",
+      "ist geblieben"
+     ],
+     "rare": false
+    },
+    {
+     "name": "schreiben",
+     "fr": "écrire",
+     "forms": [
+      "schreibt",
+      "schrieb",
+      "hat geschrieben"
+     ],
+     "rare": false
+    },
+    {
+     "name": "steigen",
+     "fr": "monter",
+     "forms": [
+      "steigt",
+      "stieg",
+      "ist gestiegen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "schweigen",
+     "fr": "se taire",
+     "forms": [
+      "schweigt",
+      "schwieg",
+      "hat geschwiegen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "leihen",
+     "fr": "prêter",
+     "forms": [
+      "leiht",
+      "lieh",
+      "hat geliehen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "scheinen",
+     "fr": "briller, sembler",
+     "forms": [
+      "scheint",
+      "schien",
+      "hat geschienen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "entscheiden",
+     "fr": "décider",
+     "forms": [
+      "entscheidet",
+      "entschied",
+      "hat entschieden"
+     ],
+     "rare": false
+    },
+    {
+     "name": "beweisen",
+     "fr": "prouver",
+     "forms": [
+      "beweist",
+      "bewies",
+      "hat bewiesen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "verzeihen",
+     "fr": "pardonner",
+     "forms": [
+      "verzeiht",
+      "verzieh",
+      "hat verziehen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "treiben",
+     "fr": "pousser",
+     "forms": [
+      "treibt",
+      "trieb",
+      "hat getrieben"
+     ],
+     "rare": false
+    },
+    {
+     "name": "gedeihen",
+     "fr": "prospérer, bien pousser",
+     "forms": [
+      "gedeiht",
+      "gedieh",
+      "ist gediehen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "meiden",
+     "fr": "éviter",
+     "forms": [
+      "meidet",
+      "mied",
+      "hat gemieden"
+     ],
+     "rare": false
+    },
+    {
+     "name": "preisen",
+     "fr": "louer, vanter",
+     "forms": [
+      "preist",
+      "pries",
+      "hat gepriesen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "reiben",
+     "fr": "frotter",
+     "forms": [
+      "reibt",
+      "rieb",
+      "hat gerieben"
+     ],
+     "rare": false
+    },
+    {
+     "name": "scheiden",
+     "fr": "séparer",
+     "forms": [
+      "scheidet",
+      "schied",
+      "hat geschieden"
+     ],
+     "variants": [
+      [],
+      [],
+      [
+       "ist geschieden"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "schreien",
+     "fr": "crier",
+     "forms": [
+      "schreit",
+      "schrie",
+      "hat geschrien"
+     ],
+     "rare": false
+    },
+    {
+     "name": "weisen",
+     "fr": "indiquer, montrer",
+     "forms": [
+      "weist",
+      "wies",
+      "hat gewiesen"
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "de-v-ei-i",
+   "title": "Le groupe ei, i, i",
+   "hint": "Comme schneiden, schnitt, geschnitten : la consonne double souvent.",
+   "verbs": [
+    {
+     "name": "beißen",
+     "fr": "mordre",
+     "forms": [
+      "beißt",
+      "biss",
+      "hat gebissen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "reiten",
+     "fr": "monter à cheval",
+     "forms": [
+      "reitet",
+      "ritt",
+      "ist geritten"
+     ],
+     "rare": false
+    },
+    {
+     "name": "schneiden",
+     "fr": "couper",
+     "forms": [
+      "schneidet",
+      "schnitt",
+      "hat geschnitten"
+     ],
+     "rare": false
+    },
+    {
+     "name": "streiten",
+     "fr": "se disputer",
+     "forms": [
+      "streitet",
+      "stritt",
+      "hat gestritten"
+     ],
+     "rare": false
+    },
+    {
+     "name": "leiden",
+     "fr": "souffrir",
+     "forms": [
+      "leidet",
+      "litt",
+      "hat gelitten"
+     ],
+     "rare": false
+    },
+    {
+     "name": "greifen",
+     "fr": "saisir",
+     "forms": [
+      "greift",
+      "griff",
+      "hat gegriffen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "pfeifen",
+     "fr": "siffler",
+     "forms": [
+      "pfeift",
+      "pfiff",
+      "hat gepfiffen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "gleichen",
+     "fr": "ressembler",
+     "forms": [
+      "gleicht",
+      "glich",
+      "hat geglichen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "gleiten",
+     "fr": "glisser",
+     "forms": [
+      "gleitet",
+      "glitt",
+      "ist geglitten"
+     ],
+     "rare": false
+    },
+    {
+     "name": "kneifen",
+     "fr": "pincer",
+     "forms": [
+      "kneift",
+      "kniff",
+      "hat gekniffen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "reißen",
+     "fr": "déchirer, arracher",
+     "forms": [
+      "reißt",
+      "riss",
+      "hat gerissen"
+     ],
+     "variants": [
+      [],
+      [],
+      [
+       "ist gerissen"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "schleichen",
+     "fr": "se faufiler",
+     "forms": [
+      "schleicht",
+      "schlich",
+      "ist geschlichen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "schleifen",
+     "fr": "aiguiser, polir",
+     "forms": [
+      "schleift",
+      "schliff",
+      "hat geschliffen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "schmeißen",
+     "fr": "balancer, jeter",
+     "forms": [
+      "schmeißt",
+      "schmiss",
+      "hat geschmissen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "schreiten",
+     "fr": "marcher à grands pas",
+     "forms": [
+      "schreitet",
+      "schritt",
+      "ist geschritten"
+     ],
+     "rare": false
+    },
+    {
+     "name": "streichen",
+     "fr": "peindre, rayer",
+     "forms": [
+      "streicht",
+      "strich",
+      "hat gestrichen"
+     ],
+     "variants": [
+      [],
+      [],
+      [
+       "ist gestrichen"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "weichen",
+     "fr": "céder, reculer",
+     "forms": [
+      "weicht",
+      "wich",
+      "ist gewichen"
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "de-v-ie-o",
+   "title": "Le groupe ie, o, o",
+   "hint": "Comme fliegen, flog, geflogen.",
+   "verbs": [
+    {
+     "name": "fliegen",
+     "fr": "voler",
+     "forms": [
+      "fliegt",
+      "flog",
+      "ist geflogen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "ziehen",
+     "fr": "tirer",
+     "forms": [
+      "zieht",
+      "zog",
+      "hat gezogen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "bieten",
+     "fr": "offrir",
+     "forms": [
+      "bietet",
+      "bot",
+      "hat geboten"
+     ],
+     "rare": false
+    },
+    {
+     "name": "verlieren",
+     "fr": "perdre",
+     "forms": [
+      "verliert",
+      "verlor",
+      "hat verloren"
+     ],
+     "rare": false
+    },
+    {
+     "name": "frieren",
+     "fr": "avoir froid",
+     "forms": [
+      "friert",
+      "fror",
+      "hat gefroren"
+     ],
+     "rare": false
+    },
+    {
+     "name": "schließen",
+     "fr": "fermer",
+     "forms": [
+      "schließt",
+      "schloss",
+      "hat geschlossen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "fließen",
+     "fr": "couler",
+     "forms": [
+      "fließt",
+      "floss",
+      "ist geflossen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "riechen",
+     "fr": "sentir",
+     "forms": [
+      "riecht",
+      "roch",
+      "hat gerochen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "schieben",
+     "fr": "pousser",
+     "forms": [
+      "schiebt",
+      "schob",
+      "hat geschoben"
+     ],
+     "rare": false
+    },
+    {
+     "name": "wiegen",
+     "fr": "peser",
+     "forms": [
+      "wiegt",
+      "wog",
+      "hat gewogen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "biegen",
+     "fr": "plier, tourner",
+     "forms": [
+      "biegt",
+      "bog",
+      "hat gebogen"
+     ],
+     "variants": [
+      [],
+      [],
+      [
+       "ist gebogen"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "fliehen",
+     "fr": "fuir",
+     "forms": [
+      "flieht",
+      "floh",
+      "ist geflohen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "genießen",
+     "fr": "savourer, profiter de",
+     "forms": [
+      "genießt",
+      "genoss",
+      "hat genossen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "gießen",
+     "fr": "verser, arroser",
+     "forms": [
+      "gießt",
+      "goss",
+      "hat gegossen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "kriechen",
+     "fr": "ramper",
+     "forms": [
+      "kriecht",
+      "kroch",
+      "ist gekrochen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "schießen",
+     "fr": "tirer (au fusil)",
+     "forms": [
+      "schießt",
+      "schoss",
+      "hat geschossen"
+     ],
+     "variants": [
+      [],
+      [],
+      [
+       "ist geschossen"
+      ]
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "de-v-i-a-u",
+   "title": "Le groupe i, a, u",
+   "hint": "Comme finden, fand, gefunden.",
+   "verbs": [
+    {
+     "name": "finden",
+     "fr": "trouver",
+     "forms": [
+      "findet",
+      "fand",
+      "hat gefunden"
+     ],
+     "rare": false
+    },
+    {
+     "name": "singen",
+     "fr": "chanter",
+     "forms": [
+      "singt",
+      "sang",
+      "hat gesungen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "trinken",
+     "fr": "boire",
+     "forms": [
+      "trinkt",
+      "trank",
+      "hat getrunken"
+     ],
+     "rare": false
+    },
+    {
+     "name": "springen",
+     "fr": "sauter",
+     "forms": [
+      "springt",
+      "sprang",
+      "ist gesprungen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "sinken",
+     "fr": "baisser",
+     "forms": [
+      "sinkt",
+      "sank",
+      "ist gesunken"
+     ],
+     "rare": false
+    },
+    {
+     "name": "binden",
+     "fr": "lier",
+     "forms": [
+      "bindet",
+      "band",
+      "hat gebunden"
+     ],
+     "rare": false
+    },
+    {
+     "name": "gelingen",
+     "fr": "réussir",
+     "forms": [
+      "gelingt",
+      "gelang",
+      "ist gelungen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "zwingen",
+     "fr": "forcer",
+     "forms": [
+      "zwingt",
+      "zwang",
+      "hat gezwungen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "verschwinden",
+     "fr": "disparaître",
+     "forms": [
+      "verschwindet",
+      "verschwand",
+      "ist verschwunden"
+     ],
+     "rare": false
+    },
+    {
+     "name": "dringen",
+     "fr": "pénétrer",
+     "forms": [
+      "dringt",
+      "drang",
+      "ist gedrungen"
+     ],
+     "variants": [
+      [],
+      [],
+      [
+       "hat gedrungen"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "klingen",
+     "fr": "sonner, avoir l'air",
+     "forms": [
+      "klingt",
+      "klang",
+      "hat geklungen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "ringen",
+     "fr": "lutter",
+     "forms": [
+      "ringt",
+      "rang",
+      "hat gerungen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "schlingen",
+     "fr": "nouer, enlacer",
+     "forms": [
+      "schlingt",
+      "schlang",
+      "hat geschlungen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "schwinden",
+     "fr": "diminuer, s'évanouir",
+     "forms": [
+      "schwindet",
+      "schwand",
+      "ist geschwunden"
+     ],
+     "rare": false
+    },
+    {
+     "name": "schwingen",
+     "fr": "balancer, brandir",
+     "forms": [
+      "schwingt",
+      "schwang",
+      "hat geschwungen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "stinken",
+     "fr": "puer",
+     "forms": [
+      "stinkt",
+      "stank",
+      "hat gestunken"
+     ],
+     "rare": false
+    },
+    {
+     "name": "winden",
+     "fr": "enrouler",
+     "forms": [
+      "windet",
+      "wand",
+      "hat gewunden"
+     ],
+     "rare": false
+    },
+    {
+     "name": "wringen",
+     "fr": "essorer, tordre",
+     "forms": [
+      "wringt",
+      "wrang",
+      "hat gewrungen"
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "de-v-i-a-o",
+   "title": "Le groupe i, a, o",
+   "hint": "Comme beginnen, begann, begonnen.",
+   "verbs": [
+    {
+     "name": "beginnen",
+     "fr": "commencer",
+     "forms": [
+      "beginnt",
+      "begann",
+      "hat begonnen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "gewinnen",
+     "fr": "gagner",
+     "forms": [
+      "gewinnt",
+      "gewann",
+      "hat gewonnen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "schwimmen",
+     "fr": "nager",
+     "forms": [
+      "schwimmt",
+      "schwamm",
+      "ist geschwommen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "rinnen",
+     "fr": "couler, ruisseler",
+     "forms": [
+      "rinnt",
+      "rann",
+      "ist geronnen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "spinnen",
+     "fr": "filer ; dérailler (fam.)",
+     "forms": [
+      "spinnt",
+      "spann",
+      "hat gesponnen"
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "de-v-e-a-o",
+   "title": "Le groupe e, a, o",
+   "hint": "Comme helfen, half, geholfen. Le e devient i ou ie à la 3e personne.",
+   "verbs": [
+    {
+     "name": "helfen",
+     "fr": "aider",
+     "forms": [
+      "hilft",
+      "half",
+      "hat geholfen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "nehmen",
+     "fr": "prendre",
+     "forms": [
+      "nimmt",
+      "nahm",
+      "hat genommen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "sprechen",
+     "fr": "parler",
+     "forms": [
+      "spricht",
+      "sprach",
+      "hat gesprochen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "treffen",
+     "fr": "rencontrer",
+     "forms": [
+      "trifft",
+      "traf",
+      "hat getroffen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "werfen",
+     "fr": "lancer",
+     "forms": [
+      "wirft",
+      "warf",
+      "hat geworfen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "sterben",
+     "fr": "mourir",
+     "forms": [
+      "stirbt",
+      "starb",
+      "ist gestorben"
+     ],
+     "rare": false
+    },
+    {
+     "name": "brechen",
+     "fr": "casser",
+     "forms": [
+      "bricht",
+      "brach",
+      "hat gebrochen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "stehlen",
+     "fr": "voler (dérober)",
+     "forms": [
+      "stiehlt",
+      "stahl",
+      "hat gestohlen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "empfehlen",
+     "fr": "recommander",
+     "forms": [
+      "empfiehlt",
+      "empfahl",
+      "hat empfohlen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "gelten",
+     "fr": "être valable",
+     "forms": [
+      "gilt",
+      "galt",
+      "hat gegolten"
+     ],
+     "rare": false
+    },
+    {
+     "name": "befehlen",
+     "fr": "ordonner",
+     "forms": [
+      "befiehlt",
+      "befahl",
+      "hat befohlen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "bergen",
+     "fr": "sauver, mettre à l'abri",
+     "forms": [
+      "birgt",
+      "barg",
+      "hat geborgen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "erschrecken",
+     "fr": "s'effrayer",
+     "forms": [
+      "erschrickt",
+      "erschrak",
+      "ist erschrocken"
+     ],
+     "rare": false
+    },
+    {
+     "name": "gebären",
+     "fr": "mettre au monde",
+     "forms": [
+      "gebiert",
+      "gebar",
+      "hat geboren"
+     ],
+     "variants": [
+      [
+       "gebärt"
+      ],
+      [],
+      []
+     ],
+     "rare": false
+    },
+    {
+     "name": "stechen",
+     "fr": "piquer",
+     "forms": [
+      "sticht",
+      "stach",
+      "hat gestochen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "verderben",
+     "fr": "gâcher, abîmer",
+     "forms": [
+      "verdirbt",
+      "verdarb",
+      "hat verdorben"
+     ],
+     "variants": [
+      [],
+      [],
+      [
+       "ist verdorben"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "werben",
+     "fr": "faire de la publicité, recruter",
+     "forms": [
+      "wirbt",
+      "warb",
+      "hat geworben"
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "de-v-e-a-e",
+   "title": "Le groupe e, a, e",
+   "hint": "Comme geben, gab, gegeben : le participe reprend la voyelle de l'infinitif.",
+   "verbs": [
+    {
+     "name": "essen",
+     "fr": "manger",
+     "forms": [
+      "isst",
+      "aß",
+      "hat gegessen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "geben",
+     "fr": "donner",
+     "forms": [
+      "gibt",
+      "gab",
+      "hat gegeben"
+     ],
+     "rare": false
+    },
+    {
+     "name": "lesen",
+     "fr": "lire",
+     "forms": [
+      "liest",
+      "las",
+      "hat gelesen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "sehen",
+     "fr": "voir",
+     "forms": [
+      "sieht",
+      "sah",
+      "hat gesehen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "treten",
+     "fr": "marcher sur",
+     "forms": [
+      "tritt",
+      "trat",
+      "ist getreten"
+     ],
+     "rare": false
+    },
+    {
+     "name": "vergessen",
+     "fr": "oublier",
+     "forms": [
+      "vergisst",
+      "vergaß",
+      "hat vergessen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "messen",
+     "fr": "mesurer",
+     "forms": [
+      "misst",
+      "maß",
+      "hat gemessen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "liegen",
+     "fr": "être allongé",
+     "forms": [
+      "liegt",
+      "lag",
+      "hat gelegen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "sitzen",
+     "fr": "être assis",
+     "forms": [
+      "sitzt",
+      "saß",
+      "hat gesessen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "bitten",
+     "fr": "demander",
+     "forms": [
+      "bittet",
+      "bat",
+      "hat gebeten"
+     ],
+     "rare": false
+    },
+    {
+     "name": "fressen",
+     "fr": "manger (animal), bouffer",
+     "forms": [
+      "frisst",
+      "fraß",
+      "hat gefressen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "geschehen",
+     "fr": "arriver, se passer",
+     "forms": [
+      "geschieht",
+      "geschah",
+      "ist geschehen"
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "de-v-a-u-a",
+   "title": "Le groupe a, u, a",
+   "hint": "Comme fahren, fuhr, gefahren. Le a devient ä à la 3e personne.",
+   "verbs": [
+    {
+     "name": "fahren",
+     "fr": "aller (en véhicule)",
+     "forms": [
+      "fährt",
+      "fuhr",
+      "ist gefahren"
+     ],
+     "rare": false
+    },
+    {
+     "name": "tragen",
+     "fr": "porter",
+     "forms": [
+      "trägt",
+      "trug",
+      "hat getragen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "schlagen",
+     "fr": "frapper",
+     "forms": [
+      "schlägt",
+      "schlug",
+      "hat geschlagen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "waschen",
+     "fr": "laver",
+     "forms": [
+      "wäscht",
+      "wusch",
+      "hat gewaschen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "laden",
+     "fr": "charger",
+     "forms": [
+      "lädt",
+      "lud",
+      "hat geladen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "wachsen",
+     "fr": "grandir",
+     "forms": [
+      "wächst",
+      "wuchs",
+      "ist gewachsen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "graben",
+     "fr": "creuser",
+     "forms": [
+      "gräbt",
+      "grub",
+      "hat gegraben"
+     ],
+     "rare": false
+    },
+    {
+     "name": "schaffen",
+     "fr": "créer",
+     "forms": [
+      "schafft",
+      "schuf",
+      "hat geschaffen"
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "de-v-a-ie-a",
+   "title": "Le groupe a, ie, a",
+   "hint": "Comme schlafen, schlief, geschlafen : le participe reprend l'infinitif.",
+   "verbs": [
+    {
+     "name": "fallen",
+     "fr": "tomber",
+     "forms": [
+      "fällt",
+      "fiel",
+      "ist gefallen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "halten",
+     "fr": "tenir",
+     "forms": [
+      "hält",
+      "hielt",
+      "hat gehalten"
+     ],
+     "rare": false
+    },
+    {
+     "name": "lassen",
+     "fr": "laisser",
+     "forms": [
+      "lässt",
+      "ließ",
+      "hat gelassen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "schlafen",
+     "fr": "dormir",
+     "forms": [
+      "schläft",
+      "schlief",
+      "hat geschlafen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "raten",
+     "fr": "conseiller",
+     "forms": [
+      "rät",
+      "riet",
+      "hat geraten"
+     ],
+     "rare": false
+    },
+    {
+     "name": "laufen",
+     "fr": "courir",
+     "forms": [
+      "läuft",
+      "lief",
+      "ist gelaufen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "rufen",
+     "fr": "appeler",
+     "forms": [
+      "ruft",
+      "rief",
+      "hat gerufen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "heißen",
+     "fr": "s'appeler",
+     "forms": [
+      "heißt",
+      "hieß",
+      "hat geheißen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "blasen",
+     "fr": "souffler",
+     "forms": [
+      "bläst",
+      "blies",
+      "hat geblasen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "braten",
+     "fr": "rôtir, faire frire",
+     "forms": [
+      "brät",
+      "briet",
+      "hat gebraten"
+     ],
+     "rare": false
+    },
+    {
+     "name": "fangen",
+     "fr": "attraper",
+     "forms": [
+      "fängt",
+      "fing",
+      "hat gefangen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "hängen",
+     "fr": "être accroché, pendre",
+     "forms": [
+      "hängt",
+      "hing",
+      "hat gehangen"
+     ],
+     "variants": [
+      [],
+      [],
+      [
+       "ist gehangen"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "stoßen",
+     "fr": "pousser, heurter",
+     "forms": [
+      "stößt",
+      "stieß",
+      "hat gestoßen"
+     ],
+     "variants": [
+      [],
+      [],
+      [
+       "ist gestoßen"
+      ]
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "de-v-mixed",
+   "title": "Les verbes mixtes",
+   "hint": "Voyelle changée comme les forts, terminaison -te et -t comme les faibles.",
+   "verbs": [
+    {
+     "name": "bringen",
+     "fr": "apporter",
+     "forms": [
+      "bringt",
+      "brachte",
+      "hat gebracht"
+     ],
+     "rare": false
+    },
+    {
+     "name": "denken",
+     "fr": "penser",
+     "forms": [
+      "denkt",
+      "dachte",
+      "hat gedacht"
+     ],
+     "rare": false
+    },
+    {
+     "name": "kennen",
+     "fr": "connaître",
+     "forms": [
+      "kennt",
+      "kannte",
+      "hat gekannt"
+     ],
+     "rare": false
+    },
+    {
+     "name": "nennen",
+     "fr": "nommer",
+     "forms": [
+      "nennt",
+      "nannte",
+      "hat genannt"
+     ],
+     "rare": false
+    },
+    {
+     "name": "rennen",
+     "fr": "courir",
+     "forms": [
+      "rennt",
+      "rannte",
+      "ist gerannt"
+     ],
+     "rare": false
+    },
+    {
+     "name": "wissen",
+     "fr": "savoir",
+     "forms": [
+      "weiß",
+      "wusste",
+      "hat gewusst"
+     ],
+     "rare": false
+    },
+    {
+     "name": "brennen",
+     "fr": "brûler",
+     "forms": [
+      "brennt",
+      "brannte",
+      "hat gebrannt"
+     ],
+     "rare": false
+    },
+    {
+     "name": "senden",
+     "fr": "envoyer",
+     "forms": [
+      "sendet",
+      "sandte",
+      "hat gesandt"
+     ],
+     "variants": [
+      [],
+      [
+       "sendete"
+      ],
+      [
+       "hat gesendet"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "wenden",
+     "fr": "tourner, retourner",
+     "forms": [
+      "wendet",
+      "wandte",
+      "hat gewandt"
+     ],
+     "variants": [
+      [],
+      [
+       "wendete"
+      ],
+      [
+       "hat gewendet"
+      ]
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "de-v-prefix",
+   "title": "Verbes à préfixe",
+   "hint": "Ils se conjuguent comme le verbe de base. Les préfixes séparables partent à la fin, et ge se glisse au milieu.",
+   "verbs": [
+    {
+     "name": "aufstehen",
+     "fr": "se lever",
+     "forms": [
+      "steht auf",
+      "stand auf",
+      "ist aufgestanden"
+     ],
+     "rare": false
+    },
+    {
+     "name": "anrufen",
+     "fr": "téléphoner",
+     "forms": [
+      "ruft an",
+      "rief an",
+      "hat angerufen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "einladen",
+     "fr": "inviter",
+     "forms": [
+      "lädt ein",
+      "lud ein",
+      "hat eingeladen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "ankommen",
+     "fr": "arriver",
+     "forms": [
+      "kommt an",
+      "kam an",
+      "ist angekommen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "abfahren",
+     "fr": "partir",
+     "forms": [
+      "fährt ab",
+      "fuhr ab",
+      "ist abgefahren"
+     ],
+     "rare": false
+    },
+    {
+     "name": "verstehen",
+     "fr": "comprendre",
+     "forms": [
+      "versteht",
+      "verstand",
+      "hat verstanden"
+     ],
+     "rare": false
+    },
+    {
+     "name": "bekommen",
+     "fr": "recevoir",
+     "forms": [
+      "bekommt",
+      "bekam",
+      "hat bekommen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "beschreiben",
+     "fr": "décrire",
+     "forms": [
+      "beschreibt",
+      "beschrieb",
+      "hat beschrieben"
+     ],
+     "rare": false
+    },
+    {
+     "name": "gefallen",
+     "fr": "plaire",
+     "forms": [
+      "gefällt",
+      "gefiel",
+      "hat gefallen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "verlassen",
+     "fr": "quitter",
+     "forms": [
+      "verlässt",
+      "verließ",
+      "hat verlassen"
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "de-v-modal",
+   "title": "Les verbes de modalité",
+   "hint": "Ils perdent leur tréma au Präteritum.",
+   "verbs": [
+    {
+     "name": "können",
+     "fr": "pouvoir",
+     "forms": [
+      "kann",
+      "konnte",
+      "hat gekonnt"
+     ],
+     "rare": false
+    },
+    {
+     "name": "müssen",
+     "fr": "devoir",
+     "forms": [
+      "muss",
+      "musste",
+      "hat gemusst"
+     ],
+     "rare": false
+    },
+    {
+     "name": "dürfen",
+     "fr": "avoir le droit",
+     "forms": [
+      "darf",
+      "durfte",
+      "hat gedurft"
+     ],
+     "rare": false
+    },
+    {
+     "name": "wollen",
+     "fr": "vouloir",
+     "forms": [
+      "will",
+      "wollte",
+      "hat gewollt"
+     ],
+     "rare": false
+    },
+    {
+     "name": "sollen",
+     "fr": "être censé",
+     "forms": [
+      "soll",
+      "sollte",
+      "hat gesollt"
+     ],
+     "rare": false
+    },
+    {
+     "name": "mögen",
+     "fr": "aimer",
+     "forms": [
+      "mag",
+      "mochte",
+      "hat gemocht"
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "de-v-e-o-o",
+   "title": "Le groupe e, o, o",
+   "hint": "Comme heben, hob, gehoben : o au Präteritum et au participe. L'infinitif peut avoir e, ö, ü ou au, et e devient souvent i à la 3e personne (schmilzt).",
+   "verbs": [
+    {
+     "name": "heben",
+     "fr": "soulever",
+     "forms": [
+      "hebt",
+      "hob",
+      "hat gehoben"
+     ],
+     "rare": false
+    },
+    {
+     "name": "dreschen",
+     "fr": "battre (le blé)",
+     "forms": [
+      "drischt",
+      "drosch",
+      "hat gedroschen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "fechten",
+     "fr": "faire de l'escrime",
+     "forms": [
+      "ficht",
+      "focht",
+      "hat gefochten"
+     ],
+     "rare": false
+    },
+    {
+     "name": "flechten",
+     "fr": "tresser",
+     "forms": [
+      "flicht",
+      "flocht",
+      "hat geflochten"
+     ],
+     "rare": false
+    },
+    {
+     "name": "quellen",
+     "fr": "jaillir, gonfler",
+     "forms": [
+      "quillt",
+      "quoll",
+      "ist gequollen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "scheren",
+     "fr": "tondre",
+     "forms": [
+      "schert",
+      "schor",
+      "hat geschoren"
+     ],
+     "rare": false
+    },
+    {
+     "name": "schmelzen",
+     "fr": "fondre",
+     "forms": [
+      "schmilzt",
+      "schmolz",
+      "ist geschmolzen"
+     ],
+     "variants": [
+      [],
+      [],
+      [
+       "hat geschmolzen"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "schwellen",
+     "fr": "enfler",
+     "forms": [
+      "schwillt",
+      "schwoll",
+      "ist geschwollen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "erlöschen",
+     "fr": "s'éteindre",
+     "forms": [
+      "erlischt",
+      "erlosch",
+      "ist erloschen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "schwören",
+     "fr": "jurer",
+     "forms": [
+      "schwört",
+      "schwor",
+      "hat geschworen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "lügen",
+     "fr": "mentir",
+     "forms": [
+      "lügt",
+      "log",
+      "hat gelogen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "saufen",
+     "fr": "boire (animal), picoler",
+     "forms": [
+      "säuft",
+      "soff",
+      "hat gesoffen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "saugen",
+     "fr": "sucer, aspirer",
+     "forms": [
+      "saugt",
+      "sog",
+      "hat gesogen"
+     ],
+     "variants": [
+      [],
+      [
+       "saugte"
+      ],
+      [
+       "hat gesaugt"
+      ]
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "de-v-te-en",
+   "title": "Le groupe -te, -en",
+   "hint": "Comme backen, backte, gebacken : Präteritum faible en -te, mais participe fort en -en.",
+   "verbs": [
+    {
+     "name": "backen",
+     "fr": "faire cuire au four",
+     "forms": [
+      "backt",
+      "backte",
+      "hat gebacken"
+     ],
+     "variants": [
+      [
+       "bäckt"
+      ],
+      [
+       "buk"
+      ],
+      []
+     ],
+     "rare": false
+    },
+    {
+     "name": "hauen",
+     "fr": "frapper, taper",
+     "forms": [
+      "haut",
+      "haute",
+      "hat gehauen"
+     ],
+     "variants": [
+      [],
+      [
+       "hieb"
+      ],
+      []
+     ],
+     "rare": false
+    },
+    {
+     "name": "mahlen",
+     "fr": "moudre",
+     "forms": [
+      "mahlt",
+      "mahlte",
+      "hat gemahlen"
+     ],
+     "rare": false
+    },
+    {
+     "name": "melken",
+     "fr": "traire",
+     "forms": [
+      "melkt",
+      "melkte",
+      "hat gemolken"
+     ],
+     "variants": [
+      [
+       "milkt"
+      ],
+      [
+       "molk"
+      ],
+      [
+       "hat gemelkt"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "salzen",
+     "fr": "saler",
+     "forms": [
+      "salzt",
+      "salzte",
+      "hat gesalzen"
+     ],
+     "variants": [
+      [],
+      [],
+      [
+       "hat gesalzt"
+      ]
+     ],
+     "rare": false
+    },
+    {
+     "name": "spalten",
+     "fr": "fendre",
+     "forms": [
+      "spaltet",
+      "spaltete",
+      "hat gespalten"
+     ],
+     "variants": [
+      [],
+      [],
+      [
+       "hat gespaltet"
+      ]
+     ],
+     "rare": false
+    }
+   ]
+  },
+  {
+   "id": "de-v-rare",
+   "title": "Verbes rares ou littéraires",
+   "hint": "Peu fréquents ou de style soutenu : à reconnaître plutôt qu'à employer.",
+   "verbs": [
+    {
+     "name": "bersten",
+     "fr": "éclater",
+     "forms": [
+      "birst",
+      "barst",
+      "ist geborsten"
+     ],
+     "rare": true
+    },
+    {
+     "name": "bewegen",
+     "fr": "inciter, décider (à)",
+     "forms": [
+      "bewegt",
+      "bewog",
+      "hat bewogen"
+     ],
+     "rare": true
+    },
+    {
+     "name": "dingen",
+     "fr": "engager, soudoyer",
+     "forms": [
+      "dingt",
+      "dingte",
+      "hat gedungen"
+     ],
+     "variants": [
+      [],
+      [
+       "dang"
+      ],
+      []
+     ],
+     "rare": true
+    },
+    {
+     "name": "dünken",
+     "fr": "sembler",
+     "forms": [
+      "dünkt",
+      "dünkte",
+      "hat gedünkt"
+     ],
+     "variants": [
+      [
+       "deucht"
+      ],
+      [
+       "deuchte"
+      ],
+      [
+       "hat gedeucht"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "gären",
+     "fr": "fermenter",
+     "forms": [
+      "gärt",
+      "gor",
+      "hat gegoren"
+     ],
+     "variants": [
+      [],
+      [
+       "gärte"
+      ],
+      [
+       "ist gegoren"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "genesen",
+     "fr": "guérir, se rétablir",
+     "forms": [
+      "genest",
+      "genas",
+      "ist genesen"
+     ],
+     "rare": true
+    },
+    {
+     "name": "glimmen",
+     "fr": "rougeoyer",
+     "forms": [
+      "glimmt",
+      "glomm",
+      "hat geglommen"
+     ],
+     "variants": [
+      [],
+      [
+       "glimmte"
+      ],
+      [
+       "hat geglimmt"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "kiesen",
+     "fr": "choisir, élire",
+     "forms": [
+      "kiest",
+      "kor",
+      "hat gekoren"
+     ],
+     "rare": true
+    },
+    {
+     "name": "klimmen",
+     "fr": "grimper",
+     "forms": [
+      "klimmt",
+      "klomm",
+      "ist geklommen"
+     ],
+     "variants": [
+      [],
+      [
+       "klimmte"
+      ],
+      [
+       "ist geklimmt"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "schelten",
+     "fr": "gronder, réprimander",
+     "forms": [
+      "schilt",
+      "schalt",
+      "hat gescholten"
+     ],
+     "rare": true
+    },
+    {
+     "name": "schinden",
+     "fr": "maltraiter, exploiter",
+     "forms": [
+      "schindet",
+      "schindete",
+      "hat geschunden"
+     ],
+     "variants": [
+      [],
+      [
+       "schund"
+      ],
+      []
+     ],
+     "rare": true
+    },
+    {
+     "name": "sieden",
+     "fr": "bouillir",
+     "forms": [
+      "siedet",
+      "sott",
+      "hat gesotten"
+     ],
+     "variants": [
+      [],
+      [
+       "siedete"
+      ],
+      [
+       "hat gesiedet"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "sinnen",
+     "fr": "méditer, songer à",
+     "forms": [
+      "sinnt",
+      "sann",
+      "hat gesonnen"
+     ],
+     "rare": true
+    },
+    {
+     "name": "speien",
+     "fr": "cracher",
+     "forms": [
+      "speit",
+      "spie",
+      "hat gespien"
+     ],
+     "rare": true
+    },
+    {
+     "name": "spleißen",
+     "fr": "épisser, fendre",
+     "forms": [
+      "spleißt",
+      "spliss",
+      "hat gesplissen"
+     ],
+     "rare": true
+    },
+    {
+     "name": "sprießen",
+     "fr": "germer, pousser",
+     "forms": [
+      "sprießt",
+      "spross",
+      "ist gesprossen"
+     ],
+     "rare": true
+    },
+    {
+     "name": "stieben",
+     "fr": "jaillir en poussière, se disperser",
+     "forms": [
+      "stiebt",
+      "stob",
+      "ist gestoben"
+     ],
+     "variants": [
+      [],
+      [
+       "stiebte"
+      ],
+      [
+       "hat gestoben"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "triefen",
+     "fr": "dégoutter, ruisseler",
+     "forms": [
+      "trieft",
+      "triefte",
+      "hat getrieft"
+     ],
+     "variants": [
+      [],
+      [
+       "troff"
+      ],
+      [
+       "ist getrieft"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "trügen",
+     "fr": "tromper (apparences)",
+     "forms": [
+      "trügt",
+      "trog",
+      "hat getrogen"
+     ],
+     "rare": true
+    },
+    {
+     "name": "verdrießen",
+     "fr": "contrarier",
+     "forms": [
+      "verdrießt",
+      "verdross",
+      "hat verdrossen"
+     ],
+     "rare": true
+    },
+    {
+     "name": "verschleißen",
+     "fr": "user",
+     "forms": [
+      "verschleißt",
+      "verschliss",
+      "hat verschlissen"
+     ],
+     "variants": [
+      [],
+      [],
+      [
+       "ist verschlissen"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "wägen",
+     "fr": "peser, soupeser",
+     "forms": [
+      "wägt",
+      "wog",
+      "hat gewogen"
+     ],
+     "variants": [
+      [],
+      [
+       "wägte"
+      ],
+      [
+       "hat gewägt"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "weben",
+     "fr": "tisser",
+     "forms": [
+      "webt",
+      "webte",
+      "hat gewebt"
+     ],
+     "variants": [
+      [],
+      [
+       "wob"
+      ],
+      [
+       "hat gewoben"
+      ]
+     ],
+     "rare": true
+    },
+    {
+     "name": "zeihen",
+     "fr": "accuser (de)",
+     "forms": [
+      "zeiht",
+      "zieh",
+      "hat geziehen"
+     ],
+     "rare": true
+    }
+   ]
+  }
+ ]
+}

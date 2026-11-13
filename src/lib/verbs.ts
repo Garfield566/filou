@@ -76,7 +76,7 @@ function typeForm(course: Course, item: Item, index: number): Exercise {
     shown: `${verb.name} (${verb.fr})`,
     audio: item.target,
     autoplay: false,
-    answers: [verb.forms[index]],
+    answers: [verb.forms[index], ...(verb.variants?.[index] ?? [])],
     why: item.target,
     strict: true,
   };
@@ -91,10 +91,33 @@ function typeAllForms(course: Course, item: Item): Exercise {
     shown: `${verb.name} (${verb.fr})`,
     audio: item.target,
     autoplay: false,
-    answers: [verb.forms.join(' ')],
+    answers: allFormsAnswers(verb),
     why: item.target,
     strict: true,
   };
+}
+
+/** Every accepted way of writing all the forms: the usual ones, or one form in another standard spelling. */
+function allFormsAnswers(verb: IrregularVerb): string[] {
+  const answers = [verb.forms.join(' ')];
+  verb.forms.forEach((_, index) => {
+    for (const variant of verb.variants?.[index] ?? []) {
+      answers.push(verb.forms.map((form, position) => (position === index ? variant : form)).join(' '));
+    }
+  });
+  return answers;
+}
+
+/**
+ * The practice of a lesson of the verbs path: each verb chosen then written, and, to close, all the forms of the
+ * first two verbs. The lesson's table comes before it.
+ */
+export function verbLessonPractice(course: Course, items: Item[], pool: Item[], rng: Rng = Math.random): Exercise[] {
+  const practice = items.flatMap((item) => {
+    const last = item.verb!.forms.length - 1;
+    return [chooseForm(course, item, Math.floor(rng() * item.verb!.forms.length), pool, rng), typeForm(course, item, last)];
+  });
+  return [...practice, ...items.slice(0, 2).map((item) => typeAllForms(course, item))];
 }
 
 /** Difficulty rises with memory: pick one form, then type one, then type them all. */

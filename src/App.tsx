@@ -21,6 +21,7 @@ import { withReadingWords } from './lib/library';
 import { buildLesson, buildReview } from './lib/session';
 import { buildVerbReview, buildVerbSession } from './lib/verbs';
 import { buildUsageSession } from './lib/usages';
+import { buildVerbLesson } from './lib/verbPath';
 import { buildBankSession } from './lib/wordBank';
 import type { Exercise } from './types';
 
@@ -69,6 +70,10 @@ export function App() {
 
   const startUsages = () => {
     setSession({ id: Date.now(), lessonId: null, steps: buildUsageSession(course, progress.memory, Date.now()) });
+  };
+
+  const startVerbLesson = (lessonId: string) => {
+    setSession({ id: Date.now(), lessonId, steps: buildVerbLesson(course, lessonId) });
   };
 
   const startDrill = (tenseId: string) => {
@@ -141,6 +146,8 @@ export function App() {
       onReview={startReview}
       onBank={startBank}
       onUsages={startUsages}
+      onStartVerbLesson={startVerbLesson}
+      onReviewVerbs={startVerbReview}
       onOpenReference={() => setShowReference(true)}
       onOpenTables={() => setShowTables(true)}
       onOpenLibrary={() => setShowLibrary(true)}

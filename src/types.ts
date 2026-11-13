@@ -108,6 +108,10 @@ export interface IrregularVerb {
   fr: string;
   /** English: past, participle. German: third person, Präteritum, Perfekt. */
   forms: string[];
+  /** Other standard spellings of each form, accepted when typed (burned for burnt, ist geschwommen). */
+  variants?: string[][];
+  /** Archaic, literary or very infrequent: taught at the end of the verbs path. */
+  rare?: boolean;
 }
 
 export interface VerbFamily {

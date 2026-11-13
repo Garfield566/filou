@@ -1222,3 +1222,26 @@ textarea:focus-visible {
 .file-button input {
   display: none;
 }
+
+/* Course / verbs path tabs */
+.path-tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0.8rem 0;
+}
+.path-tabs button {
+  flex: 1;
+  padding: 0.7rem;
+  border-radius: 0.9rem;
+  border: 2px solid var(--line, #e5d9cc);
+  background: transparent;
+  font-weight: 700;
+  cursor: pointer;
+}
+.path-tabs button.active {
+  border-color: var(--accent, #f4632e);
+  background: var(--accent-soft, #fff0e6);
+}
+.unit.rare h2 span {
+  opacity: 0.8;
+}

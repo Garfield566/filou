@@ -12,6 +12,8 @@ import { learnedUsages, usageItems } from '../lib/usages';
 import { learnedBankWords } from '../lib/wordBank';
 import type { Course } from '../types';
 import { Mascot } from './Mascot';
+import { VerbPathTab } from './VerbPathTab';
+import { useState } from 'react';
 import { TipContent } from './ExerciseView';
 
 interface Props {
@@ -20,6 +22,8 @@ interface Props {
   onStart: (lessonId: string) => void;
   onReview: () => void;
   onBank: () => void;
+  onStartVerbLesson: (lessonId: string) => void;
+  onReviewVerbs: () => void;
   onUsages: () => void;
   onOpenReference: () => void;
   onOpenTables: () => void;
@@ -36,6 +40,8 @@ export function Home({
   onStart,
   onReview,
   onBank,
+  onStartVerbLesson,
+  onReviewVerbs,
   onUsages,
   onOpenReference,
   onOpenTables,
@@ -45,6 +51,7 @@ export function Home({
   onReset,
   onSwitchCourse,
 }: Props) {
+  const [tab, setTab] = useState<'course' | 'verbs'>('course');
   const now = Date.now();
   const allLessons = lessonsOf(course);
   const done = new Set(progress.completedLessons);
@@ -85,6 +92,19 @@ export function Home({
         })}
       </div>
 
+      <div className="path-tabs" role="tablist" aria-label="Parcours">
+        <button role="tab" aria-selected={tab === 'course'} className={tab === 'course' ? 'active' : ''} onClick={() => setTab('course')}>
+          Cours
+        </button>
+        <button role="tab" aria-selected={tab === 'verbs'} className={tab === 'verbs' ? 'active' : ''} onClick={() => setTab('verbs')}>
+          Verbes {course.id === 'de' ? 'forts' : 'irréguliers'}
+        </button>
+      </div>
+
+      {tab === 'verbs' ? (
+        <VerbPathTab course={course} progress={progress} noHearts={noHearts} onStartLesson={onStartVerbLesson} onReview={onReviewVerbs} />
+      ) : (
+      <>
       <section className="hero">
         <Mascot size={92} />
         <div className="hero-text">
@@ -201,6 +221,8 @@ export function Home({
           </div>
         </section>
       ))}
+      </>
+      )}
 
       {course.id === 'de' && (
         <p className="credits">

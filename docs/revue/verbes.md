@@ -1,0 +1,2068 @@
+# Verbes irréguliers : listes complètes
+
+Listes tirées du Wiktionnaire, triées et complétées par des agents IA, à relire. Les verbes déjà appris
+dans Filou sont gardés à l'identique ; « rare » marque les verbes archaïques, littéraires ou peu fréquents.
+
+## Anglais : 193 verbes (171 courants, 22 rares)
+
+### Les indispensables (11)
+
+_Les verbes les plus fréquents, chacun avec sa forme propre._
+
+- **be**, was, been : être
+- **have**, had, had : avoir
+- **do**, did, done : faire
+- **go**, went, gone : aller
+- **come**, came, come : venir
+- **become**, became, become : devenir
+- **run**, ran, run : courir
+- **lie**, lay, lain : être allongé
+- **see**, saw, seen : voir
+- **eat**, ate, eaten : manger
+- **fall**, fell, fallen : tomber
+
+### Trois formes identiques (24)
+
+_Le verbe ne change jamais, seul le contexte indique le temps._
+
+- **cut**, cut, cut : couper
+- **put**, put, put : mettre
+- **let**, let, let : laisser
+- **set**, set, set : fixer
+- **hit**, hit, hit : frapper
+- **hurt**, hurt, hurt : blesser
+- **shut**, shut, shut : fermer
+- **cost**, cost, cost : coûter
+- **read**, read, read : lire
+- **spread**, spread, spread : répandre
+- **quit**, quit, quit : quitter (aussi : quitted ; quitted)
+- **bet**, bet, bet : parier
+- **burst**, burst, burst : éclater
+- **cast**, cast, cast : jeter, lancer
+- **broadcast**, broadcast, broadcast : diffuser (aussi : broadcasted ; broadcasted)
+- **bid**, bid, bid : faire une offre
+- **rid**, rid, rid : débarrasser
+- **shed**, shed, shed : perdre, verser
+- **slit**, slit, slit : fendre
+- **split**, split, split : diviser, fendre
+- **thrust**, thrust, thrust : pousser violemment
+- **wed**, wed, wed : épouser (aussi : wedded ; wedded)
+- **wet**, wet, wet : mouiller (aussi : wetted ; wetted)
+- **knit**, knit, knit : tricoter (aussi : knitted ; knitted)
+
+### Finale en -t ou -d (34)
+
+_Le prétérit et le participe sont identiques, et la voyelle raccourcit souvent._
+
+- **keep**, kept, kept : garder
+- **sleep**, slept, slept : dormir
+- **feel**, felt, felt : ressentir
+- **leave**, left, left : partir
+- **meet**, met, met : rencontrer
+- **lose**, lost, lost : perdre
+- **mean**, meant, meant : signifier
+- **send**, sent, sent : envoyer
+- **spend**, spent, spent : dépenser
+- **build**, built, built : construire
+- **lend**, lent, lent : prêter
+- **bend**, bent, bent : plier
+- **deal**, dealt, dealt : traiter
+- **lead**, led, led : mener
+- **hold**, held, held : tenir
+- **feed**, fed, fed : nourrir
+- **flee**, fled, fled : fuir
+- **breed**, bred, bred : élever (animaux)
+- **bleed**, bled, bled : saigner
+- **speed**, sped, sped : aller vite (aussi : speeded ; speeded)
+- **creep**, crept, crept : ramper
+- **sweep**, swept, swept : balayer
+- **weep**, wept, wept : pleurer
+- **kneel**, knelt, knelt : s'agenouiller (aussi : kneeled ; kneeled)
+- **dwell**, dwelt, dwelt : demeurer (aussi : dwelled ; dwelled)
+- **burn**, burnt, burnt : brûler (aussi : burned ; burned)
+- **dream**, dreamt, dreamt : rêver (aussi : dreamed ; dreamed)
+- **lean**, leant, leant : se pencher (aussi : leaned ; leaned)
+- **leap**, leapt, leapt : sauter, bondir (aussi : leaped ; leaped)
+- **learn**, learnt, learnt : apprendre (aussi : learned ; learned)
+- **smell**, smelt, smelt : sentir (odeur) (aussi : smelled ; smelled)
+- **spell**, spelt, spelt : épeler (aussi : spelled ; spelled)
+- **spill**, spilt, spilt : renverser (liquide) (aussi : spilled ; spilled)
+- **spoil**, spoilt, spoilt : gâcher, gâter (aussi : spoiled ; spoiled)
+
+### La famille -ought et -aught (7)
+
+_Tous riment : bought, brought, thought, taught._
+
+- **buy**, bought, bought : acheter
+- **bring**, brought, brought : apporter
+- **think**, thought, thought : penser
+- **fight**, fought, fought : se battre
+- **seek**, sought, sought : chercher
+- **teach**, taught, taught : enseigner
+- **catch**, caught, caught : attraper
+
+### Deux formes identiques (34)
+
+_Le prétérit et le participe sont pareils, seule la base change._
+
+- **make**, made, made : fabriquer
+- **hear**, heard, heard : entendre
+- **pay**, paid, paid : payer
+- **say**, said, said : dire
+- **sell**, sold, sold : vendre
+- **tell**, told, told : raconter
+- **find**, found, found : trouver
+- **stand**, stood, stood : être debout
+- **understand**, understood, understood : comprendre
+- **sit**, sat, sat : être assis
+- **win**, won, won : gagner
+- **get**, got, got : obtenir (aussi : gotten)
+- **shoot**, shot, shot : tirer
+- **hang**, hung, hung : accrocher
+- **dig**, dug, dug : creuser
+- **stick**, stuck, stuck : coller
+- **shine**, shone, shone : briller
+- **light**, lit, lit : allumer (aussi : lighted ; lighted)
+- **slide**, slid, slid : glisser
+- **swing**, swung, swung : balancer
+- **lay**, laid, laid : poser
+- **bind**, bound, bound : lier, attacher
+- **grind**, ground, ground : moudre
+- **wind**, wound, wound : enrouler, serpenter
+- **cling**, clung, clung : s'accrocher
+- **fling**, flung, flung : lancer, jeter
+- **sling**, slung, slung : lancer
+- **slink**, slunk, slunk : s'esquiver
+- **sting**, stung, stung : piquer
+- **string**, strung, strung : enfiler
+- **wring**, wrung, wrung : tordre
+- **spin**, spun, spun : tourner, filer
+- **spit**, spat, spat : cracher
+- **strike**, struck, struck : frapper (aussi : stricken)
+
+### Le groupe i, a, u (9)
+
+_Comme sing, sang, sung : la voyelle suit toujours cet ordre._
+
+- **begin**, began, begun : commencer
+- **drink**, drank, drunk : boire
+- **ring**, rang, rung : sonner
+- **sing**, sang, sung : chanter
+- **sink**, sank, sunk : couler
+- **swim**, swam, swum : nager
+- **shrink**, shrank, shrunk : rétrécir
+- **stink**, stank, stunk : puer
+- **spring**, sprang, sprung : bondir
+
+### Le groupe -ew, -own (8)
+
+_Comme know, knew, known._
+
+- **blow**, blew, blown : souffler
+- **fly**, flew, flown : voler
+- **grow**, grew, grown : grandir
+- **know**, knew, known : savoir
+- **throw**, threw, thrown : lancer
+- **draw**, drew, drawn : dessiner
+- **withdraw**, withdrew, withdrawn : retirer
+- **show**, showed, shown : montrer
+
+### Le groupe o, o + -en (14)
+
+_Comme break, broke, broken._
+
+- **break**, broke, broken : casser
+- **choose**, chose, chosen : choisir
+- **freeze**, froze, frozen : geler
+- **speak**, spoke, spoken : parler
+- **steal**, stole, stolen : voler (dérober)
+- **wake**, woke, woken : réveiller
+- **forget**, forgot, forgotten : oublier
+- **tear**, tore, torn : déchirer
+- **wear**, wore, worn : porter (vêtement)
+- **swear**, swore, sworn : jurer
+- **bear**, bore, borne : supporter
+- **awake**, awoke, awoken : se réveiller (aussi : awaked ; awaked)
+- **weave**, wove, woven : tisser (aussi : weaved ; weaved)
+- **tread**, trod, trodden : marcher, fouler (aussi : trod)
+
+### Participe en -en (16)
+
+_Base, prétérit à voyelle changée, puis participe en -en._
+
+- **drive**, drove, driven : conduire
+- **ride**, rode, ridden : monter (à vélo)
+- **rise**, rose, risen : se lever
+- **write**, wrote, written : écrire
+- **bite**, bit, bitten : mordre
+- **hide**, hid, hidden : cacher
+- **give**, gave, given : donner
+- **forgive**, forgave, forgiven : pardonner
+- **shake**, shook, shaken : secouer
+- **take**, took, taken : prendre
+- **mistake**, mistook, mistaken : confondre
+- **beat**, beat, beaten : battre
+- **forbid**, forbade, forbidden : interdire
+- **strive**, strove, striven : s'efforcer
+- **arise**, arose, arisen : survenir
+- **stride**, strode, stridden : marcher à grands pas
+
+### Verbes composés (8)
+
+_Ils se conjuguent comme le verbe de base._
+
+- **undergo**, underwent, undergone : subir
+- **overcome**, overcame, overcome : surmonter
+- **overtake**, overtook, overtaken : dépasser
+- **undertake**, undertook, undertaken : entreprendre
+- **withstand**, withstood, withstood : résister à
+- **foresee**, foresaw, foreseen : prévoir
+- **uphold**, upheld, upheld : maintenir
+- **mislead**, misled, misled : induire en erreur
+
+### Prétérit régulier, participe en -n (6)
+
+_Le prétérit prend -ed, seul le participe change : sew, sewed, sewn._
+
+- **sew**, sewed, sewn : coudre (aussi : sewed)
+- **sow**, sowed, sown : semer (aussi : sowed)
+- **mow**, mowed, mown : tondre (aussi : mowed)
+- **saw**, sawed, sawn : scier (aussi : sawed)
+- **swell**, swelled, swollen : gonfler (aussi : swelled)
+- **prove**, proved, proven : prouver (aussi : proved)
+
+### Verbes rares ou littéraires (22)
+
+_Archaïques, littéraires ou peu fréquents : à reconnaître plutôt qu'à employer._
+
+- **abide**, abode, abode : supporter, demeurer (aussi : abided ; abided) · rare
+- **beget**, begot, begotten : engendrer (aussi : begat) · rare
+- **behold**, beheld, beheld : contempler · rare
+- **befall**, befell, befallen : arriver à (malheur) · rare
+- **beseech**, besought, besought : supplier (aussi : beseeched ; beseeched) · rare
+- **chide**, chided, chided : gronder (aussi : chid ; chid, chidden) · rare
+- **cleave**, cleft, cleft : fendre (aussi : clove, cleaved ; cloven, cleaved) · rare
+- **clothe**, clothed, clothed : vêtir (aussi : clad ; clad) · rare
+- **forsake**, forsook, forsaken : abandonner · rare
+- **gild**, gilded, gilded : dorer (aussi : gilt ; gilt) · rare
+- **gird**, girded, girded : ceindre (aussi : girt ; girt) · rare
+- **heave**, heaved, heaved : soulever (aussi : hove ; hove) · rare
+- **hew**, hewed, hewn : tailler (à la hache) (aussi : hewed) · rare
+- **rend**, rent, rent : déchirer · rare
+- **rive**, rived, riven : fendre (aussi : rove ; rived) · rare
+- **shear**, sheared, shorn : tondre (mouton) (aussi : sheared) · rare
+- **shoe**, shod, shod : ferrer (cheval) (aussi : shoed ; shoed) · rare
+- **shrive**, shrove, shriven : confesser, absoudre (aussi : shrived ; shrived) · rare
+- **slay**, slew, slain : tuer (aussi : slayed ; slayed) · rare
+- **smite**, smote, smitten : frapper · rare
+- **strew**, strewed, strewn : éparpiller (aussi : strewed) · rare
+- **thrive**, thrived, thrived : prospérer (aussi : throve ; thriven) · rare
+
+### Écartés (109)
+
+- shit : Vulgaire ou argotique, hors des listes usuelles.
+- cum : Vulgaire ou argotique, hors des listes usuelles.
+- yeet : Vulgaire ou argotique, hors des listes usuelles.
+- bust : Vulgaire ou argotique, hors des listes usuelles.
+- luv : Variante graphique familière de love, régulier.
+- wuv : Variante graphique familière de love, régulier.
+- cc : Bruit d'extraction : abréviation ou acronyme.
+- casevac : Bruit d'extraction : abréviation ou acronyme.
+- de : Bruit d'extraction : forme dialectale de do, pas un verbe distinct.
+- develop : Régulier ; seule forme irrégulière obsolète ou dialectale.
+- yield : Régulier ; seule forme irrégulière obsolète ou dialectale.
+- sneeze : Régulier ; seule forme irrégulière obsolète ou dialectale.
+- hoist : Régulier ; seule forme irrégulière obsolète ou dialectale.
+- carve : Régulier ; seule forme irrégulière obsolète ou dialectale.
+- crow : Régulier ; seule forme irrégulière obsolète ou dialectale.
+- writhe : Régulier ; seule forme irrégulière obsolète ou dialectale.
+- geld : Régulier ; seule forme irrégulière obsolète ou dialectale.
+- eep : Régulier ; seule forme irrégulière obsolète ou dialectale.
+- belay : Régulier ; seule forme irrégulière obsolète ou dialectale.
+- wreak : Régulier ; seule forme irrégulière obsolète ou dialectale.
+- stave : Régulier ; seule forme irrégulière obsolète ou dialectale.
+- bide : Régulier ; seule forme irrégulière obsolète ou dialectale.
+- stockpile : Régulier (stockpiled, stymied) ; participe mal extrait.
+- stymie : Régulier (stockpiled, stymied) ; participe mal extrait.
+- input : Composé de put, régulier en usage (inputted, outputted).
+- output : Composé de put, régulier en usage (inputted, outputted).
+- dive : Régulier en anglais britannique ; la forme irrégulière (dove, snuck, sweat) est américaine ou familière.
+- sneak : Régulier en anglais britannique ; la forme irrégulière (dove, snuck, sweat) est américaine ou familière.
+- sweat : Régulier en anglais britannique ; la forme irrégulière (dove, snuck, sweat) est américaine ou familière.
+- shave : Participe shaven seulement adjectival ; verbe régulier.
+- shew : Variante archaïque de show.
+- aby : Verbe obsolète, hors des listes usuelles.
+- bede : Verbe obsolète, hors des listes usuelles.
+- bego : Verbe obsolète, hors des listes usuelles.
+- dow : Verbe obsolète, hors des listes usuelles.
+- ken : Verbe obsolète, hors des listes usuelles.
+- nim : Verbe obsolète, hors des listes usuelles.
+- reave : Verbe obsolète, hors des listes usuelles.
+- ween : Verbe obsolète, hors des listes usuelles.
+- bespeak : Dérivé à préfixe, se conjugue comme le verbe de base.
+- betake : Dérivé à préfixe, se conjugue comme le verbe de base.
+- bethink : Dérivé à préfixe, se conjugue comme le verbe de base.
+- forego : Dérivé à préfixe, se conjugue comme le verbe de base.
+- forgo : Dérivé à préfixe, se conjugue comme le verbe de base.
+- foretell : Dérivé à préfixe, se conjugue comme le verbe de base.
+- forswear : Dérivé à préfixe, se conjugue comme le verbe de base.
+- gainsay : Dérivé à préfixe, se conjugue comme le verbe de base.
+- misdeal : Dérivé à préfixe, se conjugue comme le verbe de base.
+- mishear : Dérivé à préfixe, se conjugue comme le verbe de base.
+- mislay : Dérivé à préfixe, se conjugue comme le verbe de base.
+- misspeak : Dérivé à préfixe, se conjugue comme le verbe de base.
+- misunderstand : Dérivé à préfixe, se conjugue comme le verbe de base.
+- outdo : Dérivé à préfixe, se conjugue comme le verbe de base.
+- overdo : Dérivé à préfixe, se conjugue comme le verbe de base.
+- overdraw : Dérivé à préfixe, se conjugue comme le verbe de base.
+- overdrive : Dérivé à préfixe, se conjugue comme le verbe de base.
+- overhear : Dérivé à préfixe, se conjugue comme le verbe de base.
+- overlay : Dérivé à préfixe, se conjugue comme le verbe de base.
+- overpay : Dérivé à préfixe, se conjugue comme le verbe de base.
+- override : Dérivé à préfixe, se conjugue comme le verbe de base.
+- oversee : Dérivé à préfixe, se conjugue comme le verbe de base.
+- overshoot : Dérivé à préfixe, se conjugue comme le verbe de base.
+- oversleep : Dérivé à préfixe, se conjugue comme le verbe de base.
+- overthink : Dérivé à préfixe, se conjugue comme le verbe de base.
+- overthrow : Dérivé à préfixe, se conjugue comme le verbe de base.
+- overwrite : Dérivé à préfixe, se conjugue comme le verbe de base.
+- partake : Dérivé à préfixe, se conjugue comme le verbe de base.
+- prepay : Dérivé à préfixe, se conjugue comme le verbe de base.
+- rebuild : Dérivé à préfixe, se conjugue comme le verbe de base.
+- rebuy : Dérivé à préfixe, se conjugue comme le verbe de base.
+- redo : Dérivé à préfixe, se conjugue comme le verbe de base.
+- rehear : Dérivé à préfixe, se conjugue comme le verbe de base.
+- remake : Dérivé à préfixe, se conjugue comme le verbe de base.
+- repay : Dérivé à préfixe, se conjugue comme le verbe de base.
+- resell : Dérivé à préfixe, se conjugue comme le verbe de base.
+- resend : Dérivé à préfixe, se conjugue comme le verbe de base.
+- resit : Dérivé à préfixe, se conjugue comme le verbe de base.
+- reteach : Dérivé à préfixe, se conjugue comme le verbe de base.
+- rethink : Dérivé à préfixe, se conjugue comme le verbe de base.
+- retread : Dérivé à préfixe, se conjugue comme le verbe de base.
+- rewrite : Dérivé à préfixe, se conjugue comme le verbe de base.
+- unbreak : Dérivé à préfixe, se conjugue comme le verbe de base.
+- undo : Dérivé à préfixe, se conjugue comme le verbe de base.
+- underlie : Dérivé à préfixe, se conjugue comme le verbe de base.
+- underpay : Dérivé à préfixe, se conjugue comme le verbe de base.
+- undersell : Dérivé à préfixe, se conjugue comme le verbe de base.
+- underwrite : Dérivé à préfixe, se conjugue comme le verbe de base.
+- unmake : Dérivé à préfixe, se conjugue comme le verbe de base.
+- unsee : Dérivé à préfixe, se conjugue comme le verbe de base.
+- unstick : Dérivé à préfixe, se conjugue comme le verbe de base.
+- unwind : Dérivé à préfixe, se conjugue comme le verbe de base.
+- upkeep : Dérivé à préfixe, se conjugue comme le verbe de base.
+- uprise : Dérivé à préfixe, se conjugue comme le verbe de base.
+- waylay : Dérivé à préfixe, se conjugue comme le verbe de base.
+- withhold : Dérivé à préfixe, se conjugue comme le verbe de base.
+- countersink : Dérivé à préfixe, se conjugue comme le verbe de base.
+- counterstrike : Dérivé à préfixe, se conjugue comme le verbe de base.
+- babysit : Mot composé conjugué comme son verbe de base.
+- catfight : Mot composé conjugué comme son verbe de base.
+- daylight : Mot composé conjugué comme son verbe de base.
+- doublethink : Mot composé conjugué comme son verbe de base.
+- ghostwrite : Mot composé conjugué comme son verbe de base.
+- handwrite : Mot composé conjugué comme son verbe de base.
+- hamstring : Mot composé conjugué comme son verbe de base.
+- jigsaw : Mot composé conjugué comme son verbe de base.
+- joyride : Mot composé conjugué comme son verbe de base.
+- landslide : Mot composé conjugué comme son verbe de base.
+- troubleshoot : Mot composé conjugué comme son verbe de base.
+- twilight : Mot composé conjugué comme son verbe de base.
+
+## Allemand : 198 verbes (174 courants, 24 rares)
+
+### Les indispensables (7)
+
+_Les verbes les plus fréquents, à connaître par cœur._
+
+- **sein**, ist, war, ist gewesen : être
+- **haben**, hat, hatte, hat gehabt : avoir
+- **werden**, wird, wurde, ist geworden : devenir
+- **gehen**, geht, ging, ist gegangen : aller
+- **kommen**, kommt, kam, ist gekommen : venir
+- **stehen**, steht, stand, hat gestanden : être debout
+- **tun**, tut, tat, hat getan : faire
+
+### Le groupe ei, ie, ie (17)
+
+_Comme bleiben, blieb, geblieben._
+
+- **bleiben**, bleibt, blieb, ist geblieben : rester
+- **schreiben**, schreibt, schrieb, hat geschrieben : écrire
+- **steigen**, steigt, stieg, ist gestiegen : monter
+- **schweigen**, schweigt, schwieg, hat geschwiegen : se taire
+- **leihen**, leiht, lieh, hat geliehen : prêter
+- **scheinen**, scheint, schien, hat geschienen : briller, sembler
+- **entscheiden**, entscheidet, entschied, hat entschieden : décider
+- **beweisen**, beweist, bewies, hat bewiesen : prouver
+- **verzeihen**, verzeiht, verzieh, hat verziehen : pardonner
+- **treiben**, treibt, trieb, hat getrieben : pousser
+- **gedeihen**, gedeiht, gedieh, ist gediehen : prospérer, bien pousser
+- **meiden**, meidet, mied, hat gemieden : éviter
+- **preisen**, preist, pries, hat gepriesen : louer, vanter
+- **reiben**, reibt, rieb, hat gerieben : frotter
+- **scheiden**, scheidet, schied, hat geschieden : séparer (aussi : ist geschieden)
+- **schreien**, schreit, schrie, hat geschrien : crier
+- **weisen**, weist, wies, hat gewiesen : indiquer, montrer
+
+### Le groupe ei, i, i (17)
+
+_Comme schneiden, schnitt, geschnitten : la consonne double souvent._
+
+- **beißen**, beißt, biss, hat gebissen : mordre
+- **reiten**, reitet, ritt, ist geritten : monter à cheval
+- **schneiden**, schneidet, schnitt, hat geschnitten : couper
+- **streiten**, streitet, stritt, hat gestritten : se disputer
+- **leiden**, leidet, litt, hat gelitten : souffrir
+- **greifen**, greift, griff, hat gegriffen : saisir
+- **pfeifen**, pfeift, pfiff, hat gepfiffen : siffler
+- **gleichen**, gleicht, glich, hat geglichen : ressembler
+- **gleiten**, gleitet, glitt, ist geglitten : glisser
+- **kneifen**, kneift, kniff, hat gekniffen : pincer
+- **reißen**, reißt, riss, hat gerissen : déchirer, arracher (aussi : ist gerissen)
+- **schleichen**, schleicht, schlich, ist geschlichen : se faufiler
+- **schleifen**, schleift, schliff, hat geschliffen : aiguiser, polir
+- **schmeißen**, schmeißt, schmiss, hat geschmissen : balancer, jeter
+- **schreiten**, schreitet, schritt, ist geschritten : marcher à grands pas
+- **streichen**, streicht, strich, hat gestrichen : peindre, rayer (aussi : ist gestrichen)
+- **weichen**, weicht, wich, ist gewichen : céder, reculer
+
+### Le groupe ie, o, o (16)
+
+_Comme fliegen, flog, geflogen._
+
+- **fliegen**, fliegt, flog, ist geflogen : voler
+- **ziehen**, zieht, zog, hat gezogen : tirer
+- **bieten**, bietet, bot, hat geboten : offrir
+- **verlieren**, verliert, verlor, hat verloren : perdre
+- **frieren**, friert, fror, hat gefroren : avoir froid
+- **schließen**, schließt, schloss, hat geschlossen : fermer
+- **fließen**, fließt, floss, ist geflossen : couler
+- **riechen**, riecht, roch, hat gerochen : sentir
+- **schieben**, schiebt, schob, hat geschoben : pousser
+- **wiegen**, wiegt, wog, hat gewogen : peser
+- **biegen**, biegt, bog, hat gebogen : plier, tourner (aussi : ist gebogen)
+- **fliehen**, flieht, floh, ist geflohen : fuir
+- **genießen**, genießt, genoss, hat genossen : savourer, profiter de
+- **gießen**, gießt, goss, hat gegossen : verser, arroser
+- **kriechen**, kriecht, kroch, ist gekrochen : ramper
+- **schießen**, schießt, schoss, hat geschossen : tirer (au fusil) (aussi : ist geschossen)
+
+### Le groupe i, a, u (18)
+
+_Comme finden, fand, gefunden._
+
+- **finden**, findet, fand, hat gefunden : trouver
+- **singen**, singt, sang, hat gesungen : chanter
+- **trinken**, trinkt, trank, hat getrunken : boire
+- **springen**, springt, sprang, ist gesprungen : sauter
+- **sinken**, sinkt, sank, ist gesunken : baisser
+- **binden**, bindet, band, hat gebunden : lier
+- **gelingen**, gelingt, gelang, ist gelungen : réussir
+- **zwingen**, zwingt, zwang, hat gezwungen : forcer
+- **verschwinden**, verschwindet, verschwand, ist verschwunden : disparaître
+- **dringen**, dringt, drang, ist gedrungen : pénétrer (aussi : hat gedrungen)
+- **klingen**, klingt, klang, hat geklungen : sonner, avoir l'air
+- **ringen**, ringt, rang, hat gerungen : lutter
+- **schlingen**, schlingt, schlang, hat geschlungen : nouer, enlacer
+- **schwinden**, schwindet, schwand, ist geschwunden : diminuer, s'évanouir
+- **schwingen**, schwingt, schwang, hat geschwungen : balancer, brandir
+- **stinken**, stinkt, stank, hat gestunken : puer
+- **winden**, windet, wand, hat gewunden : enrouler
+- **wringen**, wringt, wrang, hat gewrungen : essorer, tordre
+
+### Le groupe i, a, o (5)
+
+_Comme beginnen, begann, begonnen._
+
+- **beginnen**, beginnt, begann, hat begonnen : commencer
+- **gewinnen**, gewinnt, gewann, hat gewonnen : gagner
+- **schwimmen**, schwimmt, schwamm, ist geschwommen : nager
+- **rinnen**, rinnt, rann, ist geronnen : couler, ruisseler
+- **spinnen**, spinnt, spann, hat gesponnen : filer ; dérailler (fam.)
+
+### Le groupe e, a, o (17)
+
+_Comme helfen, half, geholfen. Le e devient i ou ie à la 3e personne._
+
+- **helfen**, hilft, half, hat geholfen : aider
+- **nehmen**, nimmt, nahm, hat genommen : prendre
+- **sprechen**, spricht, sprach, hat gesprochen : parler
+- **treffen**, trifft, traf, hat getroffen : rencontrer
+- **werfen**, wirft, warf, hat geworfen : lancer
+- **sterben**, stirbt, starb, ist gestorben : mourir
+- **brechen**, bricht, brach, hat gebrochen : casser
+- **stehlen**, stiehlt, stahl, hat gestohlen : voler (dérober)
+- **empfehlen**, empfiehlt, empfahl, hat empfohlen : recommander
+- **gelten**, gilt, galt, hat gegolten : être valable
+- **befehlen**, befiehlt, befahl, hat befohlen : ordonner
+- **bergen**, birgt, barg, hat geborgen : sauver, mettre à l'abri
+- **erschrecken**, erschrickt, erschrak, ist erschrocken : s'effrayer
+- **gebären**, gebiert, gebar, hat geboren : mettre au monde (aussi : gebärt)
+- **stechen**, sticht, stach, hat gestochen : piquer
+- **verderben**, verdirbt, verdarb, hat verdorben : gâcher, abîmer (aussi : ist verdorben)
+- **werben**, wirbt, warb, hat geworben : faire de la publicité, recruter
+
+### Le groupe e, a, e (12)
+
+_Comme geben, gab, gegeben : le participe reprend la voyelle de l'infinitif._
+
+- **essen**, isst, aß, hat gegessen : manger
+- **geben**, gibt, gab, hat gegeben : donner
+- **lesen**, liest, las, hat gelesen : lire
+- **sehen**, sieht, sah, hat gesehen : voir
+- **treten**, tritt, trat, ist getreten : marcher sur
+- **vergessen**, vergisst, vergaß, hat vergessen : oublier
+- **messen**, misst, maß, hat gemessen : mesurer
+- **liegen**, liegt, lag, hat gelegen : être allongé
+- **sitzen**, sitzt, saß, hat gesessen : être assis
+- **bitten**, bittet, bat, hat gebeten : demander
+- **fressen**, frisst, fraß, hat gefressen : manger (animal), bouffer
+- **geschehen**, geschieht, geschah, ist geschehen : arriver, se passer
+
+### Le groupe a, u, a (8)
+
+_Comme fahren, fuhr, gefahren. Le a devient ä à la 3e personne._
+
+- **fahren**, fährt, fuhr, ist gefahren : aller (en véhicule)
+- **tragen**, trägt, trug, hat getragen : porter
+- **schlagen**, schlägt, schlug, hat geschlagen : frapper
+- **waschen**, wäscht, wusch, hat gewaschen : laver
+- **laden**, lädt, lud, hat geladen : charger
+- **wachsen**, wächst, wuchs, ist gewachsen : grandir
+- **graben**, gräbt, grub, hat gegraben : creuser
+- **schaffen**, schafft, schuf, hat geschaffen : créer
+
+### Le groupe a, ie, a (13)
+
+_Comme schlafen, schlief, geschlafen : le participe reprend l'infinitif._
+
+- **fallen**, fällt, fiel, ist gefallen : tomber
+- **halten**, hält, hielt, hat gehalten : tenir
+- **lassen**, lässt, ließ, hat gelassen : laisser
+- **schlafen**, schläft, schlief, hat geschlafen : dormir
+- **raten**, rät, riet, hat geraten : conseiller
+- **laufen**, läuft, lief, ist gelaufen : courir
+- **rufen**, ruft, rief, hat gerufen : appeler
+- **heißen**, heißt, hieß, hat geheißen : s'appeler
+- **blasen**, bläst, blies, hat geblasen : souffler
+- **braten**, brät, briet, hat gebraten : rôtir, faire frire
+- **fangen**, fängt, fing, hat gefangen : attraper
+- **hängen**, hängt, hing, hat gehangen : être accroché, pendre (aussi : ist gehangen)
+- **stoßen**, stößt, stieß, hat gestoßen : pousser, heurter (aussi : ist gestoßen)
+
+### Les verbes mixtes (9)
+
+_Voyelle changée comme les forts, terminaison -te et -t comme les faibles._
+
+- **bringen**, bringt, brachte, hat gebracht : apporter
+- **denken**, denkt, dachte, hat gedacht : penser
+- **kennen**, kennt, kannte, hat gekannt : connaître
+- **nennen**, nennt, nannte, hat genannt : nommer
+- **rennen**, rennt, rannte, ist gerannt : courir
+- **wissen**, weiß, wusste, hat gewusst : savoir
+- **brennen**, brennt, brannte, hat gebrannt : brûler
+- **senden**, sendet, sandte, hat gesandt : envoyer (aussi : sendete ; hat gesendet)
+- **wenden**, wendet, wandte, hat gewandt : tourner, retourner (aussi : wendete ; hat gewendet)
+
+### Verbes à préfixe (10)
+
+_Ils se conjuguent comme le verbe de base. Les préfixes séparables partent à la fin, et ge se glisse au milieu._
+
+- **aufstehen**, steht auf, stand auf, ist aufgestanden : se lever
+- **anrufen**, ruft an, rief an, hat angerufen : téléphoner
+- **einladen**, lädt ein, lud ein, hat eingeladen : inviter
+- **ankommen**, kommt an, kam an, ist angekommen : arriver
+- **abfahren**, fährt ab, fuhr ab, ist abgefahren : partir
+- **verstehen**, versteht, verstand, hat verstanden : comprendre
+- **bekommen**, bekommt, bekam, hat bekommen : recevoir
+- **beschreiben**, beschreibt, beschrieb, hat beschrieben : décrire
+- **gefallen**, gefällt, gefiel, hat gefallen : plaire
+- **verlassen**, verlässt, verließ, hat verlassen : quitter
+
+### Les verbes de modalité (6)
+
+_Ils perdent leur tréma au Präteritum._
+
+- **können**, kann, konnte, hat gekonnt : pouvoir
+- **müssen**, muss, musste, hat gemusst : devoir
+- **dürfen**, darf, durfte, hat gedurft : avoir le droit
+- **wollen**, will, wollte, hat gewollt : vouloir
+- **sollen**, soll, sollte, hat gesollt : être censé
+- **mögen**, mag, mochte, hat gemocht : aimer
+
+### Le groupe e, o, o (13)
+
+_Comme heben, hob, gehoben : o au Präteritum et au participe. L'infinitif peut avoir e, ö, ü ou au, et e devient souvent i à la 3e personne (schmilzt)._
+
+- **heben**, hebt, hob, hat gehoben : soulever
+- **dreschen**, drischt, drosch, hat gedroschen : battre (le blé)
+- **fechten**, ficht, focht, hat gefochten : faire de l'escrime
+- **flechten**, flicht, flocht, hat geflochten : tresser
+- **quellen**, quillt, quoll, ist gequollen : jaillir, gonfler
+- **scheren**, schert, schor, hat geschoren : tondre
+- **schmelzen**, schmilzt, schmolz, ist geschmolzen : fondre (aussi : hat geschmolzen)
+- **schwellen**, schwillt, schwoll, ist geschwollen : enfler
+- **erlöschen**, erlischt, erlosch, ist erloschen : s'éteindre
+- **schwören**, schwört, schwor, hat geschworen : jurer
+- **lügen**, lügt, log, hat gelogen : mentir
+- **saufen**, säuft, soff, hat gesoffen : boire (animal), picoler
+- **saugen**, saugt, sog, hat gesogen : sucer, aspirer (aussi : saugte ; hat gesaugt)
+
+### Le groupe -te, -en (6)
+
+_Comme backen, backte, gebacken : Präteritum faible en -te, mais participe fort en -en._
+
+- **backen**, backt, backte, hat gebacken : faire cuire au four (aussi : bäckt ; buk)
+- **hauen**, haut, haute, hat gehauen : frapper, taper (aussi : hieb)
+- **mahlen**, mahlt, mahlte, hat gemahlen : moudre
+- **melken**, melkt, melkte, hat gemolken : traire (aussi : milkt ; molk ; hat gemelkt)
+- **salzen**, salzt, salzte, hat gesalzen : saler (aussi : hat gesalzt)
+- **spalten**, spaltet, spaltete, hat gespalten : fendre (aussi : hat gespaltet)
+
+### Verbes rares ou littéraires (24)
+
+_Peu fréquents ou de style soutenu : à reconnaître plutôt qu'à employer._
+
+- **bersten**, birst, barst, ist geborsten : éclater · rare
+- **bewegen**, bewegt, bewog, hat bewogen : inciter, décider (à) · rare
+- **dingen**, dingt, dingte, hat gedungen : engager, soudoyer (aussi : dang) · rare
+- **dünken**, dünkt, dünkte, hat gedünkt : sembler (aussi : deucht ; deuchte ; hat gedeucht) · rare
+- **gären**, gärt, gor, hat gegoren : fermenter (aussi : gärte ; ist gegoren) · rare
+- **genesen**, genest, genas, ist genesen : guérir, se rétablir · rare
+- **glimmen**, glimmt, glomm, hat geglommen : rougeoyer (aussi : glimmte ; hat geglimmt) · rare
+- **kiesen**, kiest, kor, hat gekoren : choisir, élire · rare
+- **klimmen**, klimmt, klomm, ist geklommen : grimper (aussi : klimmte ; ist geklimmt) · rare
+- **schelten**, schilt, schalt, hat gescholten : gronder, réprimander · rare
+- **schinden**, schindet, schindete, hat geschunden : maltraiter, exploiter (aussi : schund) · rare
+- **sieden**, siedet, sott, hat gesotten : bouillir (aussi : siedete ; hat gesiedet) · rare
+- **sinnen**, sinnt, sann, hat gesonnen : méditer, songer à · rare
+- **speien**, speit, spie, hat gespien : cracher · rare
+- **spleißen**, spleißt, spliss, hat gesplissen : épisser, fendre · rare
+- **sprießen**, sprießt, spross, ist gesprossen : germer, pousser · rare
+- **stieben**, stiebt, stob, ist gestoben : jaillir en poussière, se disperser (aussi : stiebte ; hat gestoben) · rare
+- **triefen**, trieft, triefte, hat getrieft : dégoutter, ruisseler (aussi : troff ; ist getrieft) · rare
+- **trügen**, trügt, trog, hat getrogen : tromper (apparences) · rare
+- **verdrießen**, verdrießt, verdross, hat verdrossen : contrarier · rare
+- **verschleißen**, verschleißt, verschliss, hat verschlissen : user (aussi : ist verschlissen) · rare
+- **wägen**, wägt, wog, hat gewogen : peser, soupeser (aussi : wägte ; hat gewägt) · rare
+- **weben**, webt, webte, hat gewebt : tisser (aussi : wob ; hat gewoben) · rare
+- **zeihen**, zeiht, zieh, hat geziehen : accuser (de) · rare
+
+### Écartés (1413)
+
+- abbeißen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abbiegen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abbitten : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abbrechen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abbrennen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abbringen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abendessen : verbe à préfixe ou particule « abend- » : hors liste des verbes de base
+- abfallen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abfangen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abfinden : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abfliegen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abfließen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abgeben : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abgehen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abgewinnen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abgießen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abgleichen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abgleiten : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abgreifen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abhalten : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abhandenkommen : verbe à préfixe ou particule « abhanden- » : hors liste des verbes de base
+- abhauen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abheben : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abhelfen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abhängen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abklingen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abkommen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abladen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- ablassen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- ablaufen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abmessen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abnehmen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abpfeifen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abpressen : verbe à préfixe ou particule « abpr- » : hors liste des verbes de base
+- abraten : verbe à préfixe ou particule « a- » : hors liste des verbes de base
+- abreißen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abrufen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- absaufen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abscheiden : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abschieben : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abschießen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abschlagen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abschließen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abschneiden : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abschreiben : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abschreiten : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abschwellen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- absehen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- absinken : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- absitzen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abspalten : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abspeisen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- absprechen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abstehen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- absterben : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abstoßen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abstreiten : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abtragen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abtreiben : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abtreten : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abtun : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abwaschen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abweisen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abwenden : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abwerfen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- abwägen : verbe à préfixe ou particule (se conjugue comme le verbe de base)
+- abziehen : verbe à préfixe ou particule « ab- » : hors liste des verbes de base
+- achtgeben : verbe à préfixe ou particule « acht- » : hors liste des verbes de base
+- alleinlassen : verbe à préfixe ou particule « all- » : hors liste des verbes de base
+- anbeißen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anbieten : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anbraten : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anbrechen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anbrennen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anbringen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- andenken : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anerkennen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anfahren : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anfallen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anfangen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anfassen : verbe faible
+- anfinden : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anfliegen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- angeben : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- angehen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- angleichen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- angrapschen : verbe à préfixe ou particule (verbe de base faible)
+- angreifen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anhaben : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anhalten : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anhauen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anheben : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anhängen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anlassen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anlaufen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anliegen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anlügen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anmessen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- annehmen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anpfeifen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anpreisen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- ansaufen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- ansaugen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anschieben : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anschlagen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anschleichen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anschließen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anschneiden : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anschreiben : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anschwellen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- ansehen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- ansprechen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anspringen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anstehen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- ansteigen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anstoßen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anstreichen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- antragen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- antreffen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- antreiben : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- antreten : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- antrinken : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- antun : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anwachsen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anweisen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anwenden : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anwerben : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anwerfen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- anziehen : verbe à préfixe ou particule « an- » : hors liste des verbes de base
+- aufbeißen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufbieten : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufblasen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufbleiben : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufbrechen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufbringen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- auferstehen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufessen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- auffahren : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- auffallen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- auffangen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- auffinden : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- auffliegen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- auffressen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufgeben : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufgehen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufgießen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufgraben : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufgreifen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufhaben : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufhalten : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufheben : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufhelfen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufkommen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufladen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- auflassen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- auflaufen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- auflesen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufnehmen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufquellen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufreißen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufrufen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufsaugen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufschieben : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufschießen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufschlagen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufschließen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufschneiden : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufschrecken : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufschreiben : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufschreien : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufschwimmen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufschwingen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufsehen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufsitzen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufspalten : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufsteigen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufstoßen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- auftragen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- auftreffen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- auftreiben : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- auftreten : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- auftun : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufwachsen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufweisen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufwenden : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufwerfen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufziehen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- aufzwingen : verbe à préfixe ou particule « auf- » : hors liste des verbes de base
+- ausbacken : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausbeißen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausblasen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausbleiben : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausbrechen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausbrennen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausbringen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausdenken : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- auseinanderbrechen : verbe à préfixe ou particule « auseinand- » : hors liste des verbes de base
+- auseinanderfallen : verbe à préfixe ou particule « auseinander- » : hors liste des verbes de base
+- auseinandergehen : verbe à préfixe ou particule « auseinander- » : hors liste des verbes de base
+- auseinanderhalten : verbe à préfixe ou particule « auseinander- » : hors liste des verbes de base
+- auseinanderlaufen : verbe à préfixe ou particule « auseinander- » : hors liste des verbes de base
+- auseinandernehmen : verbe à préfixe ou particule « auseinander- » : hors liste des verbes de base
+- auseinanderreißen : verbe à préfixe ou particule « auseinander- » : hors liste des verbes de base
+- auseinanderschneiden : verbe à préfixe ou particule « auseinander- » : hors liste des verbes de base
+- auseinandertreiben : verbe à préfixe ou particule « auseinander- » : hors liste des verbes de base
+- auseinanderziehen : verbe à préfixe ou particule « auseinand- » : hors liste des verbes de base
+- ausfahren : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausfallen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausfechten : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausfliegen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausgeben : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausgehen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausgießen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausgleichen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausgleiten : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausgraben : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausgreifen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- aushalten : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausheben : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- aushelfen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- aushängen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- auskennen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- auskommen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausladen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- auslassen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- auslaufen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausleihen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- auslesen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausliegen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausmessen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausnehmen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- auspfeifen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausreißen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausrufen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- aussaugen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausscheiden : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausschlafen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausschlagen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausschließen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausschneiden : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausschreiben : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausschweigen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- aussehen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- aussenden : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausspeien : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- aussprechen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausstechen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausstehen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- aussteigen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- aussterben : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausstossen : orthographe suisse sans ß et verbe à particule (ausstoßen, voir stoßen)
+- ausstoßen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- austragen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- austreiben : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- austreten : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- austrinken : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- auswachsen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- auswaschen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausweichen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- ausweisen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- auswringen : verbe à préfixe ou particule « ausw- » : hors liste des verbes de base
+- ausziehen : verbe à préfixe ou particule « aus- » : hors liste des verbes de base
+- bankrottgehen : verbe à préfixe ou particule « bankrott- » : hors liste des verbes de base
+- bauchreden : composé
+- beauftragen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- bedenken : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- bedürfen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- befinden : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- begehen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- begießen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- begleichen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- begreifen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- beheben : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- behelfen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- beibringen : verbe à préfixe ou particule « bei- » : hors liste des verbes de base
+- beieinanderliegen : verbe à préfixe ou particule « beieinand- » : hors liste des verbes de base
+- beieinanderstehen : verbe à préfixe ou particule « beieinand- » : hors liste des verbes de base
+- beigen : verbe faible
+- beikommen : verbe à préfixe ou particule « bei- » : hors liste des verbes de base
+- beiseiteschieben : verbe à préfixe ou particule « beiseite- » : hors liste des verbes de base
+- beispringen : verbe à préfixe ou particule « bei- » : hors liste des verbes de base
+- beistehen : verbe à préfixe ou particule « bei- » : hors liste des verbes de base
+- beitragen : verbe à préfixe ou particule « bei- » : hors liste des verbes de base
+- beitreten : verbe à préfixe ou particule « bei- » : hors liste des verbes de base
+- bekanntgeben : verbe à préfixe ou particule « bekannt- » : hors liste des verbes de base
+- bekanntwerden : verbe à préfixe ou particule « bekannt- » : hors liste des verbes de base
+- belügen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- benehmen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- beneiden : verbe faible
+- benennen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- bereiten : verbe faible (bereitete ; beritten relève de bereiten « dresser un cheval », dérivé de reiten)
+- bereithalten : verbe à préfixe ou particule « bereit- » : hors liste des verbes de base
+- bereitstehen : verbe à préfixe ou particule « bereit- » : hors liste des verbes de base
+- besaufen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- beschießen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- beschleichen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- beschließen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- beschneiden : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- beschwören : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- besingen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- besinnen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- besitzen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- besprechen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- bessergehen : verbe à préfixe ou particule « besser- » : hors liste des verbes de base
+- bestechen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- bestehen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- bestehenbleiben : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- bestehlen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- besteigen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- bestreichen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- bestreiten : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- besänftigen : verbe faible
+- betreffen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- betreiben : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- betrinken : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- betrügen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- bevorstehen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- bewerben : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- bewerfen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- beziehen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- bezwingen : verbe à préfixe ou particule « be- » : hors liste des verbes de base
+- bleichen : verbe faible (formes fortes archaïques ; les formes faibles sont la norme)
+- brachliegen : verbe à préfixe ou particule « brach- » : hors liste des verbes de base
+- dabeihaben : verbe à préfixe ou particule « dabei- » : hors liste des verbes de base
+- dabeistehen : verbe à préfixe ou particule « da- » : hors liste des verbes de base
+- dafürhalten : verbe à préfixe ou particule « dafür- » : hors liste des verbes de base
+- dagegenhalten : verbe à préfixe ou particule « da- » : hors liste des verbes de base
+- dagegensprechen : verbe à préfixe ou particule « da- » : hors liste des verbes de base
+- dahaben : verbe à préfixe ou particule « da- » : hors liste des verbes de base
+- daheimbleiben : verbe à préfixe ou particule « daheim- » : hors liste des verbes de base
+- daherkommen : verbe à préfixe ou particule « da- » : hors liste des verbes de base
+- dahingehen : verbe à préfixe ou particule « da- » : hors liste des verbes de base
+- dahinleben : composé
+- dahinschwinden : verbe à préfixe ou particule « dahin- » : hors liste des verbes de base
+- dahinterkommen : verbe à préfixe ou particule « dahinter- » : hors liste des verbes de base
+- dahinterstehen : verbe à préfixe ou particule « dahint- » : hors liste des verbes de base
+- dalassen : verbe à préfixe ou particule « da- » : hors liste des verbes de base
+- daliegen : verbe à préfixe ou particule « da- » : hors liste des verbes de base
+- dampfgaren : composé
+- danebengehen : verbe à préfixe ou particule « daneben- » : hors liste des verbes de base
+- darbieten : verbe à préfixe ou particule « dar- » : hors liste des verbes de base
+- dasitzen : verbe à préfixe ou particule « da- » : hors liste des verbes de base
+- dastehen : verbe à préfixe ou particule « da- » : hors liste des verbes de base
+- davonfahren : verbe à préfixe ou particule « davon- » : hors liste des verbes de base
+- davonfliegen : verbe à préfixe ou particule « davon- » : hors liste des verbes de base
+- davongehen : verbe à préfixe ou particule « davon- » : hors liste des verbes de base
+- davonkommen : verbe à préfixe ou particule « davon- » : hors liste des verbes de base
+- davonlaufen : verbe à préfixe ou particule « davon- » : hors liste des verbes de base
+- davonrennen : verbe à préfixe ou particule « davon- » : hors liste des verbes de base
+- davontragen : verbe à préfixe ou particule « davon- » : hors liste des verbes de base
+- davonziehen : verbe à préfixe ou particule « davon- » : hors liste des verbes de base
+- dazugeben : verbe à préfixe ou particule « da- » : hors liste des verbes de base
+- dazukommen : verbe à préfixe ou particule « da- » : hors liste des verbes de base
+- dazustoßen : verbe à préfixe ou particule « da- » : hors liste des verbes de base
+- dazwischengehen : verbe à préfixe ou particule « dazwischen- » : hors liste des verbes de base
+- dazwischenkommen : verbe à préfixe ou particule « dazwischen- » : hors liste des verbes de base
+- dortbleiben : verbe à préfixe ou particule « dort- » : hors liste des verbes de base
+- downloaden : emprunt anglais faible
+- drankommen : verbe à préfixe ou particule « dr- » : hors liste des verbes de base
+- draufhaben : verbe à préfixe ou particule « dr- » : hors liste des verbes de base
+- draufkommen : verbe à préfixe ou particule « dr- » : hors liste des verbes de base
+- dreiteilen : composé
+- drinstehen : verbe à préfixe ou particule « drin- » : hors liste des verbes de base
+- durchbeißen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchbiegen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchblasen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchbluten : verbe à préfixe ou particule (verbe de base faible)
+- durchbohren : verbe à préfixe ou particule (verbe de base faible)
+- durchbrechen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchbringen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchdenken : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchdringen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durcheinanderbringen : verbe à préfixe ou particule « durcheinand- » : hors liste des verbes de base
+- durcheinanderkommen : verbe à préfixe ou particule « durcheinander- » : hors liste des verbes de base
+- durchfahren : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchfallen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchfrieren : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchgeben : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchgehen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchgreifen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchhalten : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchhängen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchklingen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchkommen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchkämmen : verbe à préfixe ou particule (verbe de base faible)
+- durchlassen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchlaufen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchlesen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchnehmen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchpflügen : verbe à préfixe ou particule « durchpf- » : hors liste des verbes de base
+- durchreisen : verbe à préfixe ou particule (verbe de base faible)
+- durchringen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchrütteln : verbe à préfixe ou particule (verbe de base faible)
+- durchschauen : verbe à préfixe ou particule « durchsc- » : hors liste des verbes de base
+- durchscheinen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchschlafen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchschlagen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchschneiden : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchsehen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchsprechen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchstechen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchstehen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchstoßen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchstreichen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchwinken : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- durchwursteln : verbe à préfixe ou particule (verbe de base faible)
+- durchziehen : verbe à préfixe ou particule « durch- » : hors liste des verbes de base
+- ehebrechen : verbe à préfixe ou particule « ehe- » : hors liste des verbes de base
+- einbeziehen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einbiegen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einbinden : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einblasen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einbrechen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einbrennen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einbringen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- eindringen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einfahren : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einfallen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einfangen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einfinden : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einfließen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einfrieren : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- eingeben : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- eingehen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- eingestehen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- eingießen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- eingraben : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- eingreifen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einhalten : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einheben : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einhergehen : verbe à préfixe ou particule « einher- » : hors liste des verbes de base
+- einkommen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einlassen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einlaufen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einnehmen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einreiben : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einrennen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einschieben : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einschlafen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einschlagen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einschleichen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einschließen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einschneiden : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einschreiben : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einschreiten : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einschwimmen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einsehen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einsinken : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einsitzen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einsprechen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einspringen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einstechen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einstehen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einsteigen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einstreichen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- eintragen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- eintreffen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- eintreiben : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- eintreten : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einweisen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einwenden : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einwerfen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einwiegen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- einziehen : verbe à préfixe ou particule « ein- » : hors liste des verbes de base
+- eislaufen : verbe à préfixe ou particule « eis- » : hors liste des verbes de base
+- empfinden : verbe à préfixe ou particule « emp- » : hors liste des verbes de base
+- emporkommen : verbe à préfixe ou particule « empor- » : hors liste des verbes de base
+- emporsteigen : verbe à préfixe ou particule « empor- » : hors liste des verbes de base
+- emporwachsen : verbe à préfixe ou particule « empor- » : hors liste des verbes de base
+- entbinden : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- entbrechen : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- entbrennen : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- entfliegen : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- entfliehen : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- entgegenbringen : verbe à préfixe ou particule « entgegen- » : hors liste des verbes de base
+- entgegenhalten : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- entgegenkommen : verbe à préfixe ou particule « entgegen- » : hors liste des verbes de base
+- entgegenlaufen : verbe à préfixe ou particule « entgegen- » : hors liste des verbes de base
+- entgegennehmen : verbe à préfixe ou particule « entgegen- » : hors liste des verbes de base
+- entgegenschlagen : verbe à préfixe ou particule « entgegen- » : hors liste des verbes de base
+- entgegensehen : verbe à préfixe ou particule « entgegen- » : hors liste des verbes de base
+- entgegenstehen : verbe à préfixe ou particule « entgegen- » : hors liste des verbes de base
+- entgegentreten : verbe à préfixe ou particule « entgegen- » : hors liste des verbes de base
+- entgehen : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- entgleiten : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- entheben : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- entlangfahren : verbe à préfixe ou particule « entlang- » : hors liste des verbes de base
+- entlangkommen : verbe à préfixe ou particule « entlang- » : hors liste des verbes de base
+- entlanglaufen : verbe à préfixe ou particule « entlang- » : hors liste des verbes de base
+- entleihen : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- entnehmen : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- entreißen : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- entrinnen : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- entschließen : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- entsenden : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- entsprechen : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- entspringen : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- entstehen : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- entweichen : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- entwerfen : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- entziehen : verbe à préfixe ou particule « ent- » : hors liste des verbes de base
+- erbieten : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erbitten : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erbleichen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erbrechen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erbringen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erdenken : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erfinden : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erfliegen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erfrieren : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- ergießen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- ergreifen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erheben : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erkennen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erkiesen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erklimmen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erklingen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erleiden : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erliegen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- ernennen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erringen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- ersaufen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erschallen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erscheinen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erschießen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erschleichen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erschließen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erschmelzen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- ersinnen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erstechen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erstehen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- ersterben : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erstreiten : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- ertrinken : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erweisen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erwerben : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erwägen : verbe à préfixe ou particule (se conjugue comme le verbe de base)
+- erziehen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- erzwingen : verbe à préfixe ou particule « er- » : hors liste des verbes de base
+- faken : emprunt anglais faible
+- fallenlassen : verbe à préfixe ou particule « fallen- » : hors liste des verbes de base
+- falten : verbe faible
+- fehlschlagen : verbe à préfixe ou particule « fehl- » : hors liste des verbes de base
+- feilbieten : verbe à préfixe ou particule « feil- » : hors liste des verbes de base
+- feilhalten : verbe à préfixe ou particule « feil- » : hors liste des verbes de base
+- fernbleiben : verbe à préfixe ou particule « fern- » : hors liste des verbes de base
+- fernhalten : verbe à préfixe ou particule « fern- » : hors liste des verbes de base
+- fernsehen : verbe à préfixe ou particule « fern- » : hors liste des verbes de base
+- fertigbringen : verbe à préfixe ou particule « fertig- » : hors liste des verbes de base
+- festbeißen : verbe à préfixe ou particule « fest- » : hors liste des verbes de base
+- festfahren : verbe à préfixe ou particule « fest- » : hors liste des verbes de base
+- festhalten : verbe à préfixe ou particule « fest- » : hors liste des verbes de base
+- festnehmen : verbe à préfixe ou particule « fest- » : hors liste des verbes de base
+- festschreiben : verbe à préfixe ou particule « fest- » : hors liste des verbes de base
+- festsitzen : verbe à préfixe ou particule « fest- » : hors liste des verbes de base
+- feststehen : verbe à préfixe ou particule « fest- » : hors liste des verbes de base
+- festziehen : verbe à préfixe ou particule « fest- » : hors liste des verbes de base
+- fortbestehen : verbe à préfixe ou particule « fort- » : hors liste des verbes de base
+- fortbleiben : verbe à préfixe ou particule « fort- » : hors liste des verbes de base
+- fortbringen : verbe à préfixe ou particule « fort- » : hors liste des verbes de base
+- fortfahren : verbe à préfixe ou particule « fort- » : hors liste des verbes de base
+- fortgeben : verbe à préfixe ou particule « fort- » : hors liste des verbes de base
+- fortgehen : verbe à préfixe ou particule « fort- » : hors liste des verbes de base
+- fortkommen : verbe à préfixe ou particule « fort- » : hors liste des verbes de base
+- fortlaufen : verbe à préfixe ou particule « fort- » : hors liste des verbes de base
+- fortnehmen : verbe à préfixe ou particule « fort- » : hors liste des verbes de base
+- fortreiten : verbe à préfixe ou particule (se conjugue comme le verbe de base)
+- fortreißen : verbe à préfixe ou particule « fort- » : hors liste des verbes de base
+- fortschreiten : verbe à préfixe ou particule « fort- » : hors liste des verbes de base
+- forttragen : verbe à préfixe ou particule « fort- » : hors liste des verbes de base
+- fragen : verbe faible
+- freigeben : verbe à préfixe ou particule « frei- » : hors liste des verbes de base
+- freihalten : verbe à préfixe ou particule « frei- » : hors liste des verbes de base
+- freikommen : verbe à préfixe ou particule « frei- » : hors liste des verbes de base
+- freilassen : verbe à préfixe ou particule « frei- » : hors liste des verbes de base
+- freilaufen : verbe à préfixe ou particule « frei- » : hors liste des verbes de base
+- freinehmen : verbe à préfixe ou particule « frei- » : hors liste des verbes de base
+- freipressen : verbe à préfixe ou particule « freipr- » : hors liste des verbes de base
+- freisprechen : verbe à préfixe ou particule « frei- » : hors liste des verbes de base
+- fremdgehen : verbe à préfixe ou particule « fremd- » : hors liste des verbes de base
+- gebieten : verbe à préfixe ou particule « ge- » : hors liste des verbes de base
+- gebrechen : verbe à préfixe ou particule « ge- » : hors liste des verbes de base
+- gedenken : verbe à préfixe ou particule « ge- » : hors liste des verbes de base
+- gefangenhalten : verbe à préfixe ou particule « gefangen- » : hors liste des verbes de base
+- gegenhalten : verbe à préfixe ou particule « gegen- » : hors liste des verbes de base
+- gegenlesen : verbe à préfixe ou particule « gegen- » : hors liste des verbes de base
+- gegensprechen : verbe à préfixe ou particule « gegen- » : hors liste des verbes de base
+- gegenüberliegen : verbe à préfixe ou particule « gegenüb- » : hors liste des verbes de base
+- gegenübersehen : verbe à préfixe ou particule « gegen- » : hors liste des verbes de base
+- gegenübersitzen : verbe à préfixe ou particule « gegenüber- » : hors liste des verbes de base
+- gegenüberstehen : verbe à préfixe ou particule « gegen- » : hors liste des verbes de base
+- geradestehen : verbe à préfixe ou particule « gerade- » : hors liste des verbes de base
+- gerinnen : verbe à préfixe ou particule « ge- » : hors liste des verbes de base
+- gernhaben : verbe à préfixe ou particule « gern- » : hors liste des verbes de base
+- gestehen : verbe à préfixe ou particule « ge- » : hors liste des verbes de base
+- gleichkommen : verbe à préfixe ou particule « gleich- » : hors liste des verbes de base
+- gleichstehen : verbe à préfixe ou particule « gleich- » : hors liste des verbes de base
+- gleichtun : verbe à préfixe ou particule « gleich- » : hors liste des verbes de base
+- gleichziehen : verbe à préfixe ou particule « gleich- » : hors liste des verbes de base
+- großschreiben : verbe à préfixe ou particule « groß- » : hors liste des verbes de base
+- großziehen : verbe à préfixe ou particule « groß- » : hors liste des verbes de base
+- gutgehen : verbe à préfixe ou particule « gut- » : hors liste des verbes de base
+- guthaben : verbe à préfixe ou particule « gut- » : hors liste des verbes de base
+- gutheißen : verbe à préfixe ou particule « gut- » : hors liste des verbes de base
+- gutschreiben : verbe à préfixe ou particule « gut- » : hors liste des verbes de base
+- guttun : verbe à préfixe ou particule « gut- » : hors liste des verbes de base
+- heiligsprechen : verbe à préfixe ou particule « heilig- » : hors liste des verbes de base
+- heimbringen : verbe à préfixe ou particule « heim- » : hors liste des verbes de base
+- heimfahren : verbe à préfixe ou particule « heim- » : hors liste des verbes de base
+- heimgehen : verbe à préfixe ou particule « heim- » : hors liste des verbes de base
+- heimkommen : verbe à préfixe ou particule « heim- » : hors liste des verbes de base
+- heimlaufen : verbe à préfixe ou particule « heim- » : hors liste des verbes de base
+- heimwerken : composé
+- herabfallen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herabkommen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herablassen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herabziehen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- heranfahren : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herankommen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- heranlassen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herantragen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- heranwachsen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- heranziehen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- heraufbeschwören : verbe à préfixe ou particule « herauf- » : hors liste des verbes de base
+- heraufkommen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- heraufziehen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herausbrechen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herausfahren : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herausfallen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herausfinden : verbe à préfixe ou particule « heraus- » : hors liste des verbes de base
+- herausfliegen : verbe à préfixe ou particule « he- » : hors liste des verbes de base
+- herausgeben : verbe à préfixe ou particule « he- » : hors liste des verbes de base
+- herausgehen : verbe à préfixe ou particule « he- » : hors liste des verbes de base
+- heraushalten : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herausheben : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herauskommen : verbe à préfixe ou particule « he- » : hors liste des verbes de base
+- herauslassen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herauslaufen : verbe à préfixe ou particule « he- » : hors liste des verbes de base
+- herausnehmen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herausquellen : verbe à préfixe ou particule « heraus- » : hors liste des verbes de base
+- herausreißen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herausschreien : verbe à préfixe ou particule « heraus- » : hors liste des verbes de base
+- herausstehen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- heraustragen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- heraustreten : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herauswachsen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herauswerfen : verbe à préfixe ou particule « he- » : hors liste des verbes de base
+- herauswinden : verbe à préfixe ou particule « heraus- » : hors liste des verbes de base
+- herausziehen : verbe à préfixe ou particule « he- » : hors liste des verbes de base
+- herbeirufen : verbe à préfixe ou particule « herbei- » : hors liste des verbes de base
+- herbringen : verbe à préfixe ou particule « h- » : hors liste des verbes de base
+- hereinbitten : verbe à préfixe ou particule « herein- » : hors liste des verbes de base
+- hereinbrechen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- hereingehen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- hereinkommen : verbe à préfixe ou particule « he- » : hors liste des verbes de base
+- hereinlassen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- hereintragen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herfallen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- hergeben : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herhaben : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herhalten : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herkommen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herlaufen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herrufen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herschieben : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herumfahren : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herumgehen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herumhängen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herumkommen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herumkriechen : verbe à préfixe ou particule « herum- » : hors liste des verbes de base
+- herumlaufen : verbe à préfixe ou particule « he- » : hors liste des verbes de base
+- herumliegen : verbe à préfixe ou particule « herum- » : hors liste des verbes de base
+- herumrennen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herumschlagen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herumschwimmen : verbe à préfixe ou particule « herum- » : hors liste des verbes de base
+- herumsitzen : verbe à préfixe ou particule « he- » : hors liste des verbes de base
+- herumsprechen : verbe à préfixe ou particule « herum- » : hors liste des verbes de base
+- herumspringen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herumstehen : verbe à préfixe ou particule « he- » : hors liste des verbes de base
+- herumstreiten : verbe à préfixe ou particule « herum- » : hors liste des verbes de base
+- herumtragen : verbe à préfixe ou particule « herum- » : hors liste des verbes de base
+- herumtreiben : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herumwerfen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herumziehen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herunterbrechen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herunterfahren : verbe à préfixe ou particule « he- » : hors liste des verbes de base
+- herunterfallen : verbe à préfixe ou particule « he- » : hors liste des verbes de base
+- heruntergehen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herunterkommen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herunterladen : verbe à préfixe ou particule « herunter- » : hors liste des verbes de base
+- herunterlassen : verbe à préfixe ou particule « herunter- » : hors liste des verbes de base
+- herunterlaufen : verbe à préfixe ou particule « herunter- » : hors liste des verbes de base
+- herunternehmen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herunterreißen : verbe à préfixe ou particule « herunter- » : hors liste des verbes de base
+- herunterspringen : verbe à préfixe ou particule « herunter- » : hors liste des verbes de base
+- heruntersteigen : verbe à préfixe ou particule « herunter- » : hors liste des verbes de base
+- herunterwerfen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- hervorbrechen : verbe à préfixe ou particule « hervor- » : hors liste des verbes de base
+- hervorbringen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- hervorgehen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- hervorheben : verbe à préfixe ou particule « hervor- » : hors liste des verbes de base
+- hervorkommen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- hervorquellen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- hervorrufen : verbe à préfixe ou particule « hervor- » : hors liste des verbes de base
+- hervorspringen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- hervortreten : verbe à préfixe ou particule « hervor- » : hors liste des verbes de base
+- hervortun : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- hervorziehen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herzukommen : verbe à préfixe ou particule « her- » : hors liste des verbes de base
+- herüberkommen : verbe à préfixe ou particule « he- » : hors liste des verbes de base
+- hierbleiben : verbe à préfixe ou particule « hier- » : hors liste des verbes de base
+- hierherkommen : verbe à préfixe ou particule « hier- » : hors liste des verbes de base
+- hinabfallen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinablassen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinabsteigen : verbe à préfixe ou particule « hinab- » : hors liste des verbes de base
+- hinabziehen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinaufbringen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinaufgehen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinauflaufen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinaufsteigen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinausbringen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinausgehen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinauslassen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinauslaufen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinausschieben : verbe à préfixe ou particule « hinaus- » : hors liste des verbes de base
+- hinaustragen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinauswachsen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinauswerfen : verbe à préfixe ou particule « hinaus- » : hors liste des verbes de base
+- hinbiegen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hindurchfließen : verbe à préfixe ou particule « hindurch- » : hors liste des verbes de base
+- hindurchgehen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hineinbeißen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hineinbringen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hineindenken : verbe à préfixe ou particule « hinein- » : hors liste des verbes de base
+- hineinfallen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hineinfinden : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hineingehen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hineingleiten : verbe à préfixe ou particule « hinein- » : hors liste des verbes de base
+- hineinkriechen : verbe à préfixe ou particule « hinein- » : hors liste des verbes de base
+- hineinlassen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hineinlaufen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hineinpressen : verbe à préfixe ou particule « hineinpr- » : hors liste des verbes de base
+- hineinschreiben : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hineinsteigen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hineintragen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hineintun : verbe à préfixe ou particule « hinein- » : hors liste des verbes de base
+- hineinwerfen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hineinziehen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinfahren : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinfallen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinfinden : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinfliegen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hingeben : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hingehen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinhalten : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinkommen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinkönnen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinlaufen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinnehmen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinreiten : verbe à préfixe ou particule (se conjugue comme le verbe de base)
+- hinreißen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinrennen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinsehen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hintanhalten : verbe à préfixe ou particule « hint- » : hors liste des verbes de base
+- hinterherkommen : verbe à préfixe ou particule « hinter- » : hors liste des verbes de base
+- hinterherlaufen : verbe à préfixe ou particule « hinter- » : hors liste des verbes de base
+- hinterherpfeifen : verbe à préfixe ou particule « hinterher- » : hors liste des verbes de base
+- hinterherrennen : verbe à préfixe ou particule « hinterher- » : hors liste des verbes de base
+- hinterlassen : verbe à préfixe ou particule « hinter- » : hors liste des verbes de base
+- hintertreiben : verbe à préfixe ou particule « hinter- » : hors liste des verbes de base
+- hinterziehen : verbe à préfixe ou particule « hint- » : hors liste des verbes de base
+- hintragen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hintreten : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinunterfallen : verbe à préfixe ou particule « hinunter- » : hors liste des verbes de base
+- hinuntergehen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinunterkommen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinunterlaufen : verbe à préfixe ou particule « hinunter- » : hors liste des verbes de base
+- hinuntersteigen : verbe à préfixe ou particule « hinunter- » : hors liste des verbes de base
+- hinunterstoßen : verbe à préfixe ou particule « hinunter- » : hors liste des verbes de base
+- hinunterwerfen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinwegfliegen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinweggehen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinwegsehen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinwegziehen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinweisen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinziehen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinzudenken : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinzugeben : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinzukommen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinzuziehen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinüberfahren : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hinübergehen : verbe à préfixe ou particule « hin- » : hors liste des verbes de base
+- hochbringen : verbe à préfixe ou particule « hoch- » : hors liste des verbes de base
+- hochfahren : verbe à préfixe ou particule « hoch- » : hors liste des verbes de base
+- hochgehen : verbe à préfixe ou particule « hoch- » : hors liste des verbes de base
+- hochhalten : verbe à préfixe ou particule « hoch- » : hors liste des verbes de base
+- hochheben : verbe à préfixe ou particule « hoch- » : hors liste des verbes de base
+- hochladen : verbe à préfixe ou particule « hoch- » : hors liste des verbes de base
+- hochlaufen : verbe à préfixe ou particule « hoch- » : hors liste des verbes de base
+- hochschieben : verbe à préfixe ou particule « hoch- » : hors liste des verbes de base
+- hochschlafen : verbe à préfixe ou particule « hoch- » : hors liste des verbes de base
+- hochschrecken : verbe à préfixe ou particule « hoch- » : hors liste des verbes de base
+- hochspringen : verbe à préfixe ou particule « hoch- » : hors liste des verbes de base
+- hochstehen : verbe à préfixe ou particule « hoch- » : hors liste des verbes de base
+- hochsteigen : verbe à préfixe ou particule « hoch- » : hors liste des verbes de base
+- hochtragen : verbe à préfixe ou particule « hoch- » : hors liste des verbes de base
+- hochtreiben : verbe à préfixe ou particule « hoch- » : hors liste des verbes de base
+- hochwachsen : verbe à préfixe ou particule « hoch- » : hors liste des verbes de base
+- hochziehen : verbe à préfixe ou particule « hoch- » : hors liste des verbes de base
+- hängenbleiben : verbe à préfixe ou particule « hängen- » : hors liste des verbes de base
+- ineinanderfließen : verbe à préfixe ou particule « ineinander- » : hors liste des verbes de base
+- innehaben : verbe à préfixe ou particule « inne- » : hors liste des verbes de base
+- innehalten : verbe à préfixe ou particule « inne- » : hors liste des verbes de base
+- kaltlassen : verbe à préfixe ou particule « kalt- » : hors liste des verbes de base
+- kaputtgehen : verbe à préfixe ou particule « kaputt- » : hors liste des verbes de base
+- klarkommen : verbe à préfixe ou particule « klar- » : hors liste des verbes de base
+- klarwerden : verbe à préfixe ou particule « klar- » : hors liste des verbes de base
+- kleinschneiden : verbe à préfixe ou particule « kl- » : hors liste des verbes de base
+- kopfrechnen : composé
+- kopfstehen : verbe à préfixe ou particule « kopf- » : hors liste des verbes de base
+- kreischen : verbe faible
+- kundgeben : verbe à préfixe ou particule « kund- » : hors liste des verbes de base
+- kundtun : verbe à préfixe ou particule « kund- » : hors liste des verbes de base
+- küren : verbe faible (formes fortes archaïques ; les formes faibles sont la norme)
+- leerlaufen : verbe à préfixe ou particule « leer- » : hors liste des verbes de base
+- leerstehen : verbe à préfixe ou particule « le- » : hors liste des verbes de base
+- leichtfallen : verbe à préfixe ou particule « leicht- » : hors liste des verbes de base
+- leidtun : verbe à préfixe ou particule « leid- » : hors liste des verbes de base
+- liebhaben : verbe à préfixe ou particule « lieb- » : hors liste des verbes de base
+- liegenbleiben : verbe à préfixe ou particule « liegen- » : hors liste des verbes de base
+- linden : verbe faible
+- lobpreisen : verbe à préfixe ou particule « lob- » : hors liste des verbes de base
+- losbrechen : verbe à préfixe ou particule « los- » : hors liste des verbes de base
+- losfahren : verbe à préfixe ou particule « los- » : hors liste des verbes de base
+- losfliegen : verbe à préfixe ou particule « los- » : hors liste des verbes de base
+- losgehen : verbe à préfixe ou particule « los- » : hors liste des verbes de base
+- loslassen : verbe à préfixe ou particule « los- » : hors liste des verbes de base
+- loslaufen : verbe à préfixe ou particule « los- » : hors liste des verbes de base
+- losreißen : verbe à préfixe ou particule « los- » : hors liste des verbes de base
+- losschießen : verbe à préfixe ou particule « los- » : hors liste des verbes de base
+- losschlagen : verbe à préfixe ou particule « los- » : hors liste des verbes de base
+- lossprechen : verbe à préfixe ou particule « los- » : hors liste des verbes de base
+- loswerden : verbe à préfixe ou particule « los- » : hors liste des verbes de base
+- losziehen : verbe à préfixe ou particule « los- » : hors liste des verbes de base
+- misslingen : verbe à préfixe ou particule (se conjugue comme le verbe de base)
+- missverstehen : verbe à préfixe ou particule « miss- » : hors liste des verbes de base
+- mitansehen : verbe à préfixe ou particule « mit- » : hors liste des verbes de base
+- mitbraten : verbe à préfixe ou particule « mit- » : hors liste des verbes de base
+- mitbringen : verbe à préfixe ou particule « mit- » : hors liste des verbes de base
+- mitdenken : verbe à préfixe ou particule « mit- » : hors liste des verbes de base
+- mitessen : verbe à préfixe ou particule « mit- » : hors liste des verbes de base
+- mitfahren : verbe à préfixe ou particule « mit- » : hors liste des verbes de base
+- mithaben : verbe à préfixe ou particule « mit- » : hors liste des verbes de base
+- mithalten : verbe à préfixe ou particule « mit- » : hors liste des verbes de base
+- mithelfen : verbe à préfixe ou particule « mit- » : hors liste des verbes de base
+- mitkommen : verbe à préfixe ou particule « mit- » : hors liste des verbes de base
+- mitlaufen : verbe à préfixe ou particule « mit- » : hors liste des verbes de base
+- mitnehmen : verbe à préfixe ou particule « mit- » : hors liste des verbes de base
+- mitreißen : verbe à préfixe ou particule « mit- » : hors liste des verbes de base
+- mitschreiben : verbe à préfixe ou particule « mit- » : hors liste des verbes de base
+- mitschwimmen : verbe à préfixe ou particule « mit- » : hors liste des verbes de base
+- mitsingen : verbe à préfixe ou particule « mit- » : hors liste des verbes de base
+- mitsprechen : verbe à préfixe ou particule « mit- » : hors liste des verbes de base
+- mittagessen : verbe à préfixe ou particule « mittag- » : hors liste des verbes de base
+- mittragen : verbe à préfixe ou particule « mit- » : hors liste des verbes de base
+- mitziehen : verbe à préfixe ou particule « mit- » : hors liste des verbes de base
+- nachdenken : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachempfinden : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachfahren : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachgeben : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachgehen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachhalten : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachklingen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachkommen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachladen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachlassen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachlaufen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachlesen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachrennen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachrufen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachsalzen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachschieben : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachschlagen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachschreiben : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachsehen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachsinnen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachsprechen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachstehen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachsteigen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachtragen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachtun : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachvollziehen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachwachsen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachweisen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- nachziehen : verbe à préfixe ou particule « nach- » : hors liste des verbes de base
+- naheliegen : verbe à préfixe ou particule « nahe- » : hors liste des verbes de base
+- nahestehen : verbe à préfixe ou particule « nahe- » : hors liste des verbes de base
+- nebeneinanderstehen : verbe à préfixe ou particule « nebeneinand- » : hors liste des verbes de base
+- niederbrechen : verbe à préfixe ou particule « nied- » : hors liste des verbes de base
+- niederbrennen : verbe à préfixe ou particule « nieder- » : hors liste des verbes de base
+- niedergehen : verbe à préfixe ou particule « nieder- » : hors liste des verbes de base
+- niederhalten : verbe à préfixe ou particule « nieder- » : hors liste des verbes de base
+- niederlassen : verbe à préfixe ou particule « nieder- » : hors liste des verbes de base
+- niederreißen : verbe à préfixe ou particule « nieder- » : hors liste des verbes de base
+- niederschießen : verbe à préfixe ou particule « nied- » : hors liste des verbes de base
+- niederschlagen : verbe à préfixe ou particule « nieder- » : hors liste des verbes de base
+- niederschreiben : verbe à préfixe ou particule « nieder- » : hors liste des verbes de base
+- niederstechen : verbe à préfixe ou particule « nied- » : hors liste des verbes de base
+- notlanden : composé
+- notschlachten : composé
+- notwassern : composé
+- näherkommen : verbe à préfixe ou particule « nä- » : hors liste des verbes de base
+- offenbleiben : verbe à préfixe ou particule « offen- » : hors liste des verbes de base
+- offenstehen : verbe à préfixe ou particule « offen- » : hors liste des verbes de base
+- outsourcen : emprunt anglais faible
+- pflegen : verbe faible
+- pleitegehen : verbe à préfixe ou particule « pleite- » : hors liste des verbes de base
+- preisgeben : verbe à préfixe ou particule « preis- » : hors liste des verbes de base
+- rangehen : verbe à préfixe ou particule « r- » : hors liste des verbes de base
+- rausfliegen : verbe à préfixe ou particule « r- » : hors liste des verbes de base
+- rausgeben : verbe à préfixe ou particule « r- » : hors liste des verbes de base
+- rausgehen : verbe à préfixe ou particule « r- » : hors liste des verbes de base
+- raushauen : verbe à préfixe ou particule « raus- » : hors liste des verbes de base
+- rauskommen : verbe à préfixe ou particule « r- » : hors liste des verbes de base
+- rauslaufen : verbe à préfixe ou particule « r- » : hors liste des verbes de base
+- rausschmeißen : verbe à préfixe ou particule « raus- » : hors liste des verbes de base
+- rauswerfen : verbe à préfixe ou particule « raus- » : hors liste des verbes de base
+- rausziehen : verbe à préfixe ou particule « r- » : hors liste des verbes de base
+- rechtschreiben : verbe à préfixe ou particule « recht- » : hors liste des verbes de base
+- reinfallen : verbe à préfixe ou particule « r- » : hors liste des verbes de base
+- reinhauen : verbe à préfixe ou particule « rein- » : hors liste des verbes de base
+- reinkommen : verbe à préfixe ou particule « r- » : hors liste des verbes de base
+- reinnehmen : verbe à préfixe ou particule « r- » : hors liste des verbes de base
+- reinschreiben : verbe à préfixe ou particule « r- » : hors liste des verbes de base
+- reinwaschen : verbe à préfixe ou particule « rein- » : hors liste des verbes de base
+- rumlaufen : verbe à préfixe ou particule « r- » : hors liste des verbes de base
+- rumsitzen : verbe à préfixe ou particule « rum- » : hors liste des verbes de base
+- rumstehen : verbe à préfixe ou particule « r- » : hors liste des verbes de base
+- runterfahren : verbe à préfixe ou particule « runter- » : hors liste des verbes de base
+- runterfallen : verbe à préfixe ou particule « runter- » : hors liste des verbes de base
+- rüberkommen : verbe à préfixe ou particule « rüber- » : hors liste des verbes de base
+- sandstrahlen : composé
+- satthaben : verbe à préfixe ou particule « satt- » : hors liste des verbes de base
+- sattsehen : verbe à préfixe ou particule « satt- » : hors liste des verbes de base
+- schallen : verbe faible (formes fortes archaïques ; les formes faibles sont la norme)
+- schieflaufen : verbe à préfixe ou particule « schief- » : hors liste des verbes de base
+- schliefen : homographe de schliefen (prétérit de schlafen) ; verbe régional autrichien rare « se glisser »
+- schnauben : verbe faible (formes fortes archaïques ; les formes faibles sont la norme)
+- schrecken : verbe faible (formes fortes archaïques ; les formes faibles sont la norme)
+- schwertun : verbe à préfixe ou particule « schwer- » : hors liste des verbes de base
+- schöntrinken : verbe à préfixe ou particule « schön- » : hors liste des verbes de base
+- seilspringen : verbe à préfixe ou particule « seil- » : hors liste des verbes de base
+- servieren : verbe faible
+- sonnenbaden : composé
+- speisen : verbe faible
+- standhalten : verbe à préfixe ou particule « stand- » : hors liste des verbes de base
+- stattfinden : verbe à préfixe ou particule « statt- » : hors liste des verbes de base
+- stecken : verbe faible
+- steckenbleiben : verbe à préfixe ou particule « stecken- » : hors liste des verbes de base
+- stehenbleiben : verbe à préfixe ou particule « stehen- » : hors liste des verbes de base
+- stehenlassen : verbe à préfixe ou particule « stehen- » : hors liste des verbes de base
+- stillstehen : verbe à préfixe ou particule « still- » : hors liste des verbes de base
+- stoßlüften : composé
+- strafversetzen : composé
+- strammstehen : verbe à préfixe ou particule « stramm- » : hors liste des verbes de base
+- tagträumen : composé
+- teilhaben : verbe à préfixe ou particule « teil- » : hors liste des verbes de base
+- teilnehmen : verbe à préfixe ou particule « teil- » : hors liste des verbes de base
+- tiefkühlen : composé
+- totlaufen : verbe à préfixe ou particule « tot- » : hors liste des verbes de base
+- totschlagen : verbe à préfixe ou particule « tot- » : hors liste des verbes de base
+- totschweigen : verbe à préfixe ou particule « tot- » : hors liste des verbes de base
+- umbauen : verbe à préfixe ou particule (verbe de base faible)
+- umbenennen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umbrechen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umbringen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umdenken : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umfahren : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umfallen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umfassen : verbe à préfixe ou particule (verbe de base faible)
+- umfliegen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umfragen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umgeben : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umgehen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umgraben : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umhauen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umherfahren : verbe à préfixe ou particule « umher- » : hors liste des verbes de base
+- umhergehen : verbe à préfixe ou particule « umher- » : hors liste des verbes de base
+- umherlaufen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umherspringen : verbe à préfixe ou particule « umher- » : hors liste des verbes de base
+- umhertragen : verbe à préfixe ou particule « umher- » : hors liste des verbes de base
+- umhertreiben : verbe à préfixe ou particule « umher- » : hors liste des verbes de base
+- umherziehen : verbe à préfixe ou particule « umh- » : hors liste des verbes de base
+- umhängen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umkommen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umlaufen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umnähen : verbe à préfixe ou particule (verbe de base faible)
+- umreißen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umrennen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umschlagen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umschleichen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umschließen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umschlingen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umschmeißen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umschreiben : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umsegeln : verbe à préfixe ou particule (verbe de base faible)
+- umsehen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umspannen : verbe à préfixe ou particule (verbe de base faible)
+- umspringen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umstehen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umsteigen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umstellen : verbe à préfixe ou particule (verbe de base faible)
+- umstoßen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umstricken : verbe à préfixe ou particule (verbe de base faible)
+- umtreiben : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umwandeln : verbe à préfixe ou particule (verbe de base faible)
+- umwehen : verbe à préfixe ou particule (verbe de base faible)
+- umwerben : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umwerfen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umwinden : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- umziehen : verbe à préfixe ou particule « um- » : hors liste des verbes de base
+- unterbieten : verbe à préfixe ou particule « unt- » : hors liste des verbes de base
+- unterbinden : verbe à préfixe ou particule « unter- » : hors liste des verbes de base
+- unterbleiben : verbe à préfixe ou particule « unter- » : hors liste des verbes de base
+- unterbrechen : verbe à préfixe ou particule « unt- » : hors liste des verbes de base
+- unterbringen : verbe à préfixe ou particule « unt- » : hors liste des verbes de base
+- untergehen : verbe à préfixe ou particule « unter- » : hors liste des verbes de base
+- untergraben : verbe à préfixe ou particule « unter- » : hors liste des verbes de base
+- unterhalten : verbe à préfixe ou particule « unter- » : hors liste des verbes de base
+- unterheben : verbe à préfixe ou particule « unt- » : hors liste des verbes de base
+- unterkommen : verbe à préfixe ou particule « unter- » : hors liste des verbes de base
+- unterkriechen : verbe à préfixe ou particule « unter- » : hors liste des verbes de base
+- unterliegen : verbe à préfixe ou particule « unt- » : hors liste des verbes de base
+- untermengen : verbe à préfixe ou particule (verbe de base faible)
+- untermischen : verbe à préfixe ou particule (verbe de base faible)
+- unternehmen : verbe à préfixe ou particule « unter- » : hors liste des verbes de base
+- unterscheiden : verbe à préfixe ou particule « unter- » : hors liste des verbes de base
+- unterschlagen : verbe à préfixe ou particule « unter- » : hors liste des verbes de base
+- unterschreiben : verbe à préfixe ou particule « unter- » : hors liste des verbes de base
+- unterschreiten : verbe à préfixe ou particule « unter- » : hors liste des verbes de base
+- untersetzen : verbe à préfixe ou particule (verbe de base faible)
+- unterstehen : verbe à préfixe ou particule « unt- » : hors liste des verbes de base
+- unterstellen : verbe à préfixe ou particule (verbe de base faible)
+- unterstreichen : verbe à préfixe ou particule « unter- » : hors liste des verbes de base
+- untertreiben : verbe à préfixe ou particule « unter- » : hors liste des verbes de base
+- unterwerfen : verbe à préfixe ou particule « unter- » : hors liste des verbes de base
+- unterziehen : verbe à préfixe ou particule « unt- » : hors liste des verbes de base
+- uploaden : emprunt anglais faible
+- uraufführen : composé
+- verbeißen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verbergen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verbiegen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verbieten : verbe à préfixe ou particule « v- » : hors liste des verbes de base
+- verbinden : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verbrechen : verbe à préfixe ou particule « v- » : hors liste des verbes de base
+- verbrennen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verbringen : verbe à préfixe ou particule « v- » : hors liste des verbes de base
+- verfliegen : verbe à préfixe ou particule « v- » : hors liste des verbes de base
+- verfließen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- vergehen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- vergießen : verbe à préfixe ou particule « v- » : hors liste des verbes de base
+- vergleichen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- vergreifen : verbe à préfixe ou particule « v- » : hors liste des verbes de base
+- verhelfen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verkennen : verbe à préfixe ou particule « v- » : hors liste des verbes de base
+- verklingen : verbe à préfixe ou particule « v- » : hors liste des verbes de base
+- verkneifen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verkriechen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verladen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verleihen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verlorengehen : verbe à préfixe ou particule « verloren- » : hors liste des verbes de base
+- vermeiden : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- vermögen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- vernehmen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verrennen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- versalzen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- versaufen : verbe à préfixe ou particule « v- » : hors liste des verbes de base
+- verscheiden : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verschieben : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verschießen : verbe à préfixe ou particule « v- » : hors liste des verbes de base
+- verschliefen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verschließen : verbe à préfixe ou particule « v- » : hors liste des verbes de base
+- verschlingen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verschmelzen : verbe à préfixe ou particule « v- » : hors liste des verbes de base
+- verschreiben : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verschreien : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verschweigen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verschwimmen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verschwören : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- versenden : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- versinken : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- versprechen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- versteigen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- versterben : verbe à préfixe ou particule « v- » : hors liste des verbes de base
+- verstreichen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- vertreiben : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- vertrinken : verbe à préfixe ou particule « v- » : hors liste des verbes de base
+- vertun : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verwachsen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verweben : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verweisen : verbe à préfixe ou particule « v- » : hors liste des verbes de base
+- verwenden : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verwerfen : verbe à préfixe ou particule « ver- » : hors liste des verbes de base
+- verziehen : verbe à préfixe ou particule « v- » : hors liste des verbes de base
+- vierteilen : composé
+- vollbringen : verbe à préfixe ou particule « voll- » : hors liste des verbes de base
+- volllaufen : verbe à préfixe ou particule « voll- » : hors liste des verbes de base
+- vollziehen : verbe à préfixe ou particule « voll- » : hors liste des verbes de base
+- vonstattengehen : verbe à préfixe ou particule « vonstatten- » : hors liste des verbes de base
+- voranbringen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorangehen : verbe à préfixe ou particule « vo- » : hors liste des verbes de base
+- vorankommen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- voranschreiten : verbe à préfixe ou particule « voran- » : hors liste des verbes de base
+- vorantreiben : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorausfahren : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorausgehen : verbe à préfixe ou particule « vo- » : hors liste des verbes de base
+- voraushaben : verbe à préfixe ou particule « voraus- » : hors liste des verbes de base
+- voraussehen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorbeifahren : verbe à préfixe ou particule « vorbei- » : hors liste des verbes de base
+- vorbeigehen : verbe à préfixe ou particule « vorbei- » : hors liste des verbes de base
+- vorbeikommen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorbeilassen : verbe à préfixe ou particule « vorbei- » : hors liste des verbes de base
+- vorbeilaufen : verbe à préfixe ou particule « vorbei- » : hors liste des verbes de base
+- vorbeischwimmen : verbe à préfixe ou particule « vorbei- » : hors liste des verbes de base
+- vorbringen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vordringen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorfallen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorfinden : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorgeben : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorgehen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorgreifen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorhaben : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorhalten : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorhergehen : verbe à préfixe ou particule « vorher- » : hors liste des verbes de base
+- vorhersehen : verbe à préfixe ou particule « vorher- » : hors liste des verbes de base
+- vorhängen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorkommen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorladen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorlaufen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorlesen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorliebnehmen : verbe à préfixe ou particule « vorlieb- » : hors liste des verbes de base
+- vorliegen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vornehmen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorquellen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorschieben : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorschießen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorschlagen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorschreiben : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorsehen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorsitzen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorsprechen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorspringen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorstehen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vortragen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorwegnehmen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorweisen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorwerfen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorwärtskommen : verbe à préfixe ou particule « vorwärts- » : hors liste des verbes de base
+- vorziehen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- vorübergehen : verbe à préfixe ou particule « vor- » : hors liste des verbes de base
+- wachhalten : verbe à préfixe ou particule « wach- » : hors liste des verbes de base
+- wachrufen : verbe à préfixe ou particule « wach- » : hors liste des verbes de base
+- wahrnehmen : verbe à préfixe ou particule « wahr- » : hors liste des verbes de base
+- wahrsagen : composé
+- warmhalten : verbe à préfixe ou particule « warm- » : hors liste des verbes de base
+- warmlaufen : verbe à préfixe ou particule « warm- » : hors liste des verbes de base
+- wegblasen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegbleiben : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegbrechen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegbrennen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegbringen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegdenken : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegfahren : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegfallen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegfliegen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegfressen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- weggeben : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- weggehen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- weghaben : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegkommen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- weglassen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- weglaufen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegmüssen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegnehmen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegreiten : verbe à préfixe ou particule (se conjugue comme le verbe de base)
+- wegreißen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegrennen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegsaufen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegschieben : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegschließen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegschmeißen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegschneiden : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegschwimmen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegsehen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegstoßen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegtragen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegtreiben : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegtreten : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegtrinken : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegtun : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegwaschen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegwerfen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wegziehen : verbe à préfixe ou particule « weg- » : hors liste des verbes de base
+- wehtun : verbe à préfixe ou particule « weh- » : hors liste des verbes de base
+- weichzeichnen : composé
+- weiterbestehen : verbe à préfixe ou particule « weiter- » : hors liste des verbes de base
+- weiteressen : verbe à préfixe ou particule « weiter- » : hors liste des verbes de base
+- weiterfahren : verbe à préfixe ou particule « weiter- » : hors liste des verbes de base
+- weitergeben : verbe à préfixe ou particule « weiter- » : hors liste des verbes de base
+- weitergehen : verbe à préfixe ou particule « weiter- » : hors liste des verbes de base
+- weiterhelfen : verbe à préfixe ou particule « weiter- » : hors liste des verbes de base
+- weiterkommen : verbe à préfixe ou particule « weiter- » : hors liste des verbes de base
+- weiterlaufen : verbe à préfixe ou particule « weiter- » : hors liste des verbes de base
+- weiterlesen : verbe à préfixe ou particule « weiter- » : hors liste des verbes de base
+- weiterrennen : verbe à préfixe ou particule « weiter- » : hors liste des verbes de base
+- weiterschlafen : verbe à préfixe ou particule « weiter- » : hors liste des verbes de base
+- weiterschwimmen : verbe à préfixe ou particule « weiter- » : hors liste des verbes de base
+- weitersenden : verbe à préfixe ou particule « weiter- » : hors liste des verbes de base
+- weitersprechen : verbe à préfixe ou particule « weiter- » : hors liste des verbes de base
+- weitertragen : verbe à préfixe ou particule « weiter- » : hors liste des verbes de base
+- weitertrinken : verbe à préfixe ou particule « weit- » : hors liste des verbes de base
+- weiterwissen : verbe à préfixe ou particule « weiter- » : hors liste des verbes de base
+- wertschätzen : composé
+- widersprechen : verbe à préfixe ou particule « wider- » : hors liste des verbes de base
+- widerstehen : verbe à préfixe ou particule « wid- » : hors liste des verbes de base
+- wiederauferstehen : verbe à préfixe ou particule « wieder- » : hors liste des verbes de base
+- wiederaufnehmen : verbe à préfixe ou particule « wieder- » : hors liste des verbes de base
+- wiedererkennen : verbe à préfixe ou particule « wieder- » : hors liste des verbes de base
+- wiederfinden : verbe à préfixe ou particule « wied- » : hors liste des verbes de base
+- wiedergeben : verbe à préfixe ou particule « wieder- » : hors liste des verbes de base
+- wiederholen : verbe à préfixe ou particule (verbe de base faible)
+- wiederkommen : verbe à préfixe ou particule « wieder- » : hors liste des verbes de base
+- wiederlesen : verbe à préfixe ou particule « wieder- » : hors liste des verbes de base
+- wiedersehen : verbe à préfixe ou particule « wieder- » : hors liste des verbes de base
+- wiederverwenden : verbe à préfixe ou particule « wieder- » : hors liste des verbes de base
+- windsurfen : emprunt anglais faible
+- winken : verbe faible
+- wohltun : verbe à préfixe ou particule « wohl- » : hors liste des verbes de base
+- zerbeißen : verbe à préfixe ou particule « zer- » : hors liste des verbes de base
+- zerbersten : verbe à préfixe ou particule « zer- » : hors liste des verbes de base
+- zerbrechen : verbe à préfixe ou particule « z- » : hors liste des verbes de base
+- zerfließen : verbe à préfixe ou particule « zer- » : hors liste des verbes de base
+- zerreiben : verbe à préfixe ou particule « zer- » : hors liste des verbes de base
+- zerreißen : verbe à préfixe ou particule « zer- » : hors liste des verbes de base
+- zerschneiden : verbe à préfixe ou particule « zer- » : hors liste des verbes de base
+- zerspringen : verbe à préfixe ou particule « zer- » : hors liste des verbes de base
+- zerstreiten : verbe à préfixe ou particule « z- » : hors liste des verbes de base
+- zubeißen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zubinden : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zubringen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zudenken : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zueinanderfinden : verbe à préfixe ou particule « zueinand- » : hors liste des verbes de base
+- zueinanderstehen : verbe à préfixe ou particule « zueinand- » : hors liste des verbes de base
+- zuerkennen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zufahren : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zufallen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zufriedengeben : verbe à préfixe ou particule « zufrieden- » : hors liste des verbes de base
+- zufrieren : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zugeben : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zugehen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zugießen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zugreifen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zugutehalten : verbe à préfixe ou particule « zugute- » : hors liste des verbes de base
+- zugutekommen : verbe à préfixe ou particule « zugute- » : hors liste des verbes de base
+- zuhaben : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zuhalten : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zukommen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zuladen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zulassen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zulaufen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zumessen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zunehmen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zurechtfinden : verbe à préfixe ou particule « zurecht- » : hors liste des verbes de base
+- zurechtkommen : verbe à préfixe ou particule « zurecht- » : hors liste des verbes de base
+- zurechtschneiden : verbe à préfixe ou particule « zurecht- » : hors liste des verbes de base
+- zurechtweisen : verbe à préfixe ou particule « zurecht- » : hors liste des verbes de base
+- zureiten : verbe à préfixe ou particule (se conjugue comme le verbe de base)
+- zurennen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zurufen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zurückbleiben : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückbringen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückdenken : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückfahren : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückfinden : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückgeben : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückgehen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückgewinnen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückgreifen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückhalten : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückkommen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurücklassen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurücklaufen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückliegen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückmüssen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurücknehmen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückreiten : verbe à préfixe ou particule (se conjugue comme le verbe de base)
+- zurückrennen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückrufen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückschieben : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückschneiden : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückschrecken : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückschwimmen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurücksehen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückstehen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückstoßen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurücktragen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurücktreten : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückweichen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückweisen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückwerfen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zurückziehen : verbe à préfixe ou particule « zurück- » : hors liste des verbes de base
+- zusammenbeißen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenbinden : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenbleiben : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenbrechen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenbringen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenfahren : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenfallen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenfinden : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammengehen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenhaben : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenhalten : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenhelfen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenhängen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenkneifen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenkommen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenlaufen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenliegen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammennehmen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenreißen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenrufen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenscheißen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenschießen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenschlagen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenschließen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenschmelzen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenstecken : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenstehen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenstoßen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenstreichen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammentragen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammentreffen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammentun : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenwerfen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zusammenziehen : verbe à préfixe ou particule « zusammen- » : hors liste des verbes de base
+- zuschieben : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zuschießen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zuschlagen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zuschließen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zuschneiden : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zuschreiben : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zusehen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zusenden : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zusprechen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zustechen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zustehen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zustoßen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zuteilwerden : verbe à préfixe ou particule « zuteil- » : hors liste des verbes de base
+- zutragen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zutreffen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zutrinken : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zuvorkommen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zuwachsen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zuweisen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zuwenden : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zuwerfen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zuwiderlaufen : verbe à préfixe ou particule « zuwider- » : hors liste des verbes de base
+- zuwinken : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zuziehen : verbe à préfixe ou particule « zu- » : hors liste des verbes de base
+- zwangsräumen : composé
+- zwangsversteigern : composé
+- zweiteilen : composé
+- übelnehmen : verbe à préfixe ou particule « übel- » : hors liste des verbes de base
+- überbleiben : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- überdecken : verbe à préfixe ou particule (verbe de base faible)
+- überdenken : verbe à préfixe ou particule « üb- » : hors liste des verbes de base
+- übereinanderliegen : verbe à préfixe ou particule « übereinand- » : hors liste des verbes de base
+- übereinanderschlagen : verbe à préfixe ou particule « übereinander- » : hors liste des verbes de base
+- überessen : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- überfahren : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- überfliegen : verbe à préfixe ou particule « üb- » : hors liste des verbes de base
+- übergehen : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- übergießen : verbe à préfixe ou particule « üb- » : hors liste des verbes de base
+- übergreifen : verbe à préfixe ou particule « üb- » : hors liste des verbes de base
+- überhandnehmen : verbe à préfixe ou particule « überhand- » : hors liste des verbes de base
+- überheben : verbe à préfixe ou particule « üb- » : hors liste des verbes de base
+- überholen : verbe à préfixe ou particule (verbe de base faible)
+- überhängen : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- überhören : verbe à préfixe ou particule (verbe de base faible)
+- überlegen : verbe à préfixe ou particule (verbe de base faible)
+- übernehmen : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- überquellen : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- überrennen : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- überschneiden : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- überschreiben : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- überschreiten : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- übersehen : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- übersenden : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- übersetzen : verbe à préfixe ou particule (verbe de base faible)
+- übersprechen : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- überspringen : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- überstehen : verbe à préfixe ou particule « üb- » : hors liste des verbes de base
+- übersteigen : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- übertreffen : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- übertreiben : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- übertreten : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- überweisen : verbe à préfixe ou particule « üb- » : hors liste des verbes de base
+- überwerfen : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- überwinden : verbe à préfixe ou particule « über- » : hors liste des verbes de base
+- überziehen : verbe à préfixe ou particule « üb- » : hors liste des verbes de base
+- übrigbleiben : verbe à préfixe ou particule « übrig- » : hors liste des verbes de base
+- übriglassen : verbe à préfixe ou particule « übrig- » : hors liste des verbes de base
+- scheißen : vulgaire : écarté comme les phrases vulgaires des exemples
+
