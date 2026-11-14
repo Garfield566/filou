@@ -23,6 +23,7 @@ interface Props {
   onReview: () => void;
   onBank: () => void;
   onStartVerbLesson: (lessonId: string) => void;
+  onStartVerbChallenge: (challengeId: string) => void;
   onReviewVerbs: () => void;
   onUsages: () => void;
   onOpenReference: () => void;
@@ -41,6 +42,7 @@ export function Home({
   onReview,
   onBank,
   onStartVerbLesson,
+  onStartVerbChallenge,
   onReviewVerbs,
   onUsages,
   onOpenReference,
@@ -102,7 +104,7 @@ export function Home({
       </div>
 
       {tab === 'verbs' ? (
-        <VerbPathTab course={course} progress={progress} noHearts={noHearts} onStartLesson={onStartVerbLesson} onReview={onReviewVerbs} />
+        <VerbPathTab course={course} progress={progress} noHearts={noHearts} onStartLesson={onStartVerbLesson} onStartChallenge={onStartVerbChallenge} onReview={onReviewVerbs} />
       ) : (
       <>
       <section className="hero">

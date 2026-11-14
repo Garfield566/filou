@@ -1245,3 +1245,12 @@ textarea:focus-visible {
 .unit.rare h2 span {
   opacity: 0.8;
 }
+.path-tabs.sub button {
+  padding: 0.45rem;
+  font-size: 0.9rem;
+}
+.tile-note {
+  display: block;
+  font-weight: 400;
+  opacity: 0.7;
+}

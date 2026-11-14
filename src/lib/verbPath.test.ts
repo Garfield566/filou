@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { courseById } from '../data/courses';
 import { grade } from './grade';
-import { buildVerbLesson, nextVerbLesson, verbLessons, verbPath } from './verbPath';
+import { buildVerbChallenge, buildVerbLesson, challengeOpen, nextVerbLesson, verbChallenges, verbLessons, verbPath } from './verbPath';
 import { verbFamilies, verbItem, verbItems } from './verbs';
 
 /** A seeded generator, so that every run builds the same lesson. */
@@ -53,6 +53,58 @@ describe.each(['en', 'de'])('verbs path %s', (courseId) => {
     const ids = verbItems(course).map((item) => item.id);
     expect(new Set(ids).size).toBe(ids.length);
     for (const id of ids) expect(id).toMatch(new RegExp(`^${courseId}:v:[a-zäöüß]+$`));
+  });
+});
+
+describe.each(['en', 'de'])('verbs challenges %s', (courseId) => {
+  const course = courseById(courseId);
+  const lessons = verbLessons(course);
+  const challenges = verbChallenges(course);
+
+  it('comes every two lessons and holds more verbs each time, up to all of them', () => {
+    expect(challenges.length).toBe(Math.ceil(lessons.length / 2));
+    for (let index = 1; index < challenges.length; index++) {
+      expect(challenges[index].verbs.length).toBeGreaterThan(challenges[index - 1].verbs.length);
+      expect(challenges[index].size).toBeGreaterThanOrEqual(challenges[index - 1].size);
+    }
+    expect(challenges.at(-1)!.verbs.length).toBe(lessons.flatMap((lesson) => lesson.verbs).length);
+    expect(new Set(challenges.map((challenge) => challenge.id)).size).toBe(challenges.length);
+    for (const challenge of challenges) expect(lessons.some((lesson) => lesson.id === challenge.id)).toBe(false);
+  });
+
+  it('opens once its lessons are finished', () => {
+    expect(challengeOpen(challenges[0], new Set())).toBe(false);
+    expect(challengeOpen(challenges[0], new Set([lessons[0].id]))).toBe(false);
+    expect(challengeOpen(challenges[0], new Set([lessons[0].id, lessons[1].id]))).toBe(true);
+    expect(challengeOpen(challenges[1], new Set([lessons[0].id, lessons[1].id]))).toBe(false);
+  });
+
+  it('mixes the newest verbs with older ones, without asking a verb twice', () => {
+    const challenge = challenges[4];
+    const steps = buildVerbChallenge(course, challenge.id, {}, Date.now(), seeded(3));
+    const ids = steps.map((step) => ('itemIds' in step ? step.itemIds[0] : ''));
+    expect(steps).toHaveLength(challenge.size);
+    expect(new Set(ids).size).toBe(ids.length);
+    const fresh = new Set(challenge.newVerbs.map((verb) => verbItem(course, verb).id));
+    const allowed = new Set(challenge.verbs.map((verb) => verbItem(course, verb).id));
+    const newCount = ids.filter((id) => fresh.has(id)).length;
+    expect(ids.every((id) => allowed.has(id))).toBe(true);
+    expect(newCount).toBeGreaterThanOrEqual(Math.ceil(challenge.size / 2));
+    expect(newCount).toBeLessThan(challenge.size);
+    expect(buildVerbChallenge(course, 'nothing', {}, Date.now())).toEqual([]);
+  });
+
+  it('starts with the verbs one has forgotten among the older ones', () => {
+    const challenge = challenges[6];
+    const now = Date.now();
+    const fresh = new Set(challenge.newVerbs);
+    const older = challenge.verbs.filter((verb) => !fresh.has(verb));
+    const forgotten = verbItem(course, older[0]).id;
+    const memory = Object.fromEntries(
+      older.map((verb) => [verbItem(course, verb).id, { halfLifeDays: verbItem(course, verb).id === forgotten ? 0.01 : 30, lastSeen: now - 86400000 }]),
+    );
+    const steps = buildVerbChallenge(course, challenge.id, memory, now, seeded(5));
+    expect(steps.some((step) => 'itemIds' in step && step.itemIds[0] === forgotten)).toBe(true);
   });
 });
 
