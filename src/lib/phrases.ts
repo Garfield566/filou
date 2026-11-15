@@ -1,4 +1,5 @@
 import dePhrases from '../data/phrases/de.json';
+import enPhrases from '../data/phrases/en.json';
 import type { Course, Exercise, GrammarLesson, GrammarTable, Item, Level } from '../types';
 import { normalize } from './grade';
 import { recall, type Memory } from './memory';
@@ -89,7 +90,8 @@ export interface PhraseRef {
 }
 
 const DATA: Record<string, PhraseTrack[]> = {
-  de: (dePhrases as { tracks: PhraseTrack[] }).tracks,
+  de: (dePhrases as unknown as { tracks: PhraseTrack[] }).tracks,
+  en: (enPhrases as unknown as { tracks: PhraseTrack[] }).tracks,
 };
 
 export const phraseTracks = (course: Course): PhraseTrack[] => DATA[course.id] ?? [];
@@ -267,6 +269,20 @@ function combineExercise(course: Course, lesson: PhraseLesson, sentence: PhraseS
   };
 }
 
+/**
+ * The same answers with « has » and « had » contracted: the grader reads « she's » as « she is » and « I'd » as
+ * « I would », so « She's already left » or « I'd forgotten » must be listed to be accepted.
+ */
+export function withContractions(answers: string[]): string[] {
+  const contracted = answers.flatMap((answer) => {
+    const variant = answer
+      .replace(/\b(he|she|it|there|that|who|what|someone|everyone|nobody) has\b/gi, "$1's")
+      .replace(/\b(I|you|he|she|it|we|they|there) had\b/gi, "$1'd");
+    return variant === answer ? [] : [variant];
+  });
+  return [...answers, ...contracted];
+}
+
 function translateExercise(course: Course, lesson: PhraseLesson, sentence: PhraseSentence): Exercise {
   return {
     kind: 'type',
@@ -275,7 +291,7 @@ function translateExercise(course: Course, lesson: PhraseLesson, sentence: Phras
     shown: sentence.fr,
     audio: sentence.text,
     autoplay: false,
-    answers: [...allOrders(sentence), ...(sentence.alt ?? [])],
+    answers: withContractions([...allOrders(sentence), ...(sentence.alt ?? [])]),
     why: sentence.text,
   };
 }

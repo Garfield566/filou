@@ -13,6 +13,7 @@ import {
   phraseItems,
   phraseLessons,
   phraseTracks,
+  withContractions,
 } from './phrases';
 import { itemsOfCourse } from './session';
 import { verbLessons } from './verbPath';
@@ -34,6 +35,10 @@ const course = courseById('de');
 const tracks = phraseTracks(course);
 const lessons = tracks.flatMap(phraseLessons);
 const sentences = lessons.flatMap((lesson) => lesson.sentences.map((sentence) => ({ lesson, sentence })));
+const english = courseById('en');
+/** Every lesson of every language, with its course. */
+const everyLesson = [course, english].flatMap((each) => phraseTracks(each).flatMap(phraseLessons).map((lesson) => ({ course: each, lesson })));
+const everySentence = everyLesson.flatMap(({ lesson }) => lesson.sentences.map((sentence) => ({ lesson, sentence })));
 
 describe('phrases data', () => {
   it('has the German cases track, with ids that never collide', () => {
@@ -44,7 +49,7 @@ describe('phrases data', () => {
     expect(new Set(sentenceIds).size).toBe(sentenceIds.length);
   });
 
-  it.each(sentences.map(({ lesson, sentence }) => [sentence.id, lesson, sentence] as const))('%s is well formed', (_, lesson, sentence) => {
+  it.each(everySentence.map(({ lesson, sentence }) => [sentence.id, lesson, sentence] as const))('%s is well formed', (_, lesson, sentence) => {
     expect(normalize(sentence.chunks.join(' '))).toBe(normalize(sentence.text));
     const possible = new Set(permutations(sentence.chunks).map((order) => normalize(order.join(' '))));
     for (const order of sentence.orders ?? []) {
@@ -83,14 +88,14 @@ describe('phrases data', () => {
 });
 
 describe('phrase lessons', () => {
-  it.each(lessons.map((lesson) => [lesson.id] as const))('%s opens with its rule, then goes from recognising to producing', (lessonId) => {
-    const steps = buildPhraseLesson(course, lessonId, seeded(7));
+  it.each(everyLesson.map(({ course: each, lesson }) => [lesson.id, each] as const))('%s opens with its rule, then goes from recognising to producing', (lessonId, each) => {
+    const steps = buildPhraseLesson(each, lessonId, seeded(7));
     expect(steps[0].kind).toBe('rule');
     expect(steps.length).toBeGreaterThanOrEqual(9);
     const kinds = steps.map((step) => step.kind);
     expect(kinds.lastIndexOf('choice')).toBeLessThan(kinds.lastIndexOf('type'));
     for (const step of steps.slice(1)) {
-      expect('itemIds' in step && step.itemIds).toEqual([phraseItemId(course, lessonId)]);
+      expect('itemIds' in step && step.itemIds).toEqual([phraseItemId(each, lessonId)]);
       if (step.kind === 'choice') {
         expect(step.options).toContain(step.answer);
         if (step.shown?.includes('___')) expect(normalize(step.shown)).not.toContain(` ${normalize(step.answer)} `);
@@ -148,13 +153,24 @@ describe('understanding and joining', () => {
   });
 });
 
+describe('English contractions', () => {
+  it('accepts the contracted « has » and « had » when translating', () => {
+    const answers = withContractions(['She has already left.', 'I had forgotten.', 'He is tired.']);
+    expect(grade(answers, "She's already left.")).toBe('correct');
+    expect(grade(answers, "I'd forgotten.")).toBe('correct');
+    expect(grade(answers, "He's tired.")).toBe('correct');
+    expect(grade(answers, 'I would forgotten.')).toBe('correct'); // how the grader reads « I'd »: harmless
+  });
+});
+
 describe('phrase reviews', () => {
   it('gives every notion an item reviewed with the others', () => {
     const items = phraseItems(course);
     expect(items).toHaveLength(lessons.length);
     const all = new Set(itemsOfCourse(course).map((item) => item.id));
     for (const item of items) expect(all.has(item.id)).toBe(true);
-    expect(phraseItems(courseById('en'))).toEqual([]);
+    expect(phraseItems(english).length).toBe(phraseTracks(english).flatMap(phraseLessons).length);
+    expect(phraseItems(english).every((item) => item.id.startsWith('en:p:'))).toBe(true);
   });
 
   it('asks harder questions about a notion once it is better known', () => {
