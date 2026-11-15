@@ -37,6 +37,8 @@ export interface PhraseSentence {
   orderWhy?: string;
   focus?: PhraseFocus;
   blank?: PhraseBlank;
+  /** Other correct sentences not made of the same groups (another tense, « dass » kept…), accepted when translating. */
+  alt?: string[];
 }
 
 export interface PhraseRule {
@@ -160,7 +162,8 @@ function blankChoice(course: Course, lesson: PhraseLesson, sentence: PhraseSente
   return {
     kind: 'choice',
     itemIds: [phraseItemId(course, lesson.id)],
-    prompt: 'Choisis la bonne forme',
+    // The French gives the tense: without it, another tense could be right too.
+    prompt: `Choisis la bonne forme : « ${sentence.fr} »`,
     shown: withBlank(sentence),
     shownIsTarget: false,
     options: shuffle([blank.chunk, ...blank.wrong], rng),
@@ -174,7 +177,7 @@ function blankType(course: Course, lesson: PhraseLesson, sentence: PhraseSentenc
   return {
     kind: 'type',
     itemIds: [phraseItemId(course, lesson.id)],
-    prompt: 'Écris la forme qui manque',
+    prompt: `Écris la forme qui manque : « ${sentence.fr} »`,
     shown: withBlank(sentence),
     audio: sentence.text,
     autoplay: false,
@@ -229,7 +232,7 @@ function translateExercise(course: Course, lesson: PhraseLesson, sentence: Phras
     shown: sentence.fr,
     audio: sentence.text,
     autoplay: false,
-    answers: allOrders(sentence),
+    answers: [...allOrders(sentence), ...(sentence.alt ?? [])],
     why: sentence.text,
   };
 }

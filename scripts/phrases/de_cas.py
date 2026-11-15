@@ -1,41 +1,5 @@
-"""Writes src/data/phrases/de.json: units 1 to 3 of the German cases track (demo of step 1)."""
-import json
-import sys
-from pathlib import Path
-
-OUT = Path(sys.argv[1])
-
-
-def S(text, fr, chunks, orders=None, focus=None, blank=None, why_order=None):
-    sentence = {"text": text, "fr": fr, "chunks": chunks}
-    if orders:
-        sentence["orders"] = orders
-    if why_order:
-        sentence["orderWhy"] = why_order
-    if focus:
-        sentence["focus"] = {"chunk": focus[0], "answer": focus[1], "why": focus[2]}
-    if blank:
-        sentence["blank"] = {"chunk": blank[0], "base": blank[1], "wrong": blank[2]}
-    return sentence
-
-
-def L(title, rule, sentences, ask=None):
-    lesson = {"title": title, "rule": rule, "sentences": sentences}
-    if ask:
-        lesson["ask"] = ask
-    return lesson
-
-
-def R(intro, points, examples, tables=()):
-    return {"intro": intro, "points": points, "tables": list(tables), "examples": examples}
-
-
-def T(headers, rows, title=None):
-    table = {"headers": headers, "rows": rows}
-    if title:
-        table["title"] = title
-    return table
-
+"""The German cases track (units 1 to 3 so far)."""
+from phrase_kit import L, R, S, T, make_track  # noqa: F401
 
 SUJ = "sujet : qui fait l'action"
 VERBE = "l'action (le verbe)"
@@ -52,6 +16,7 @@ VERB_SECOND = "Ces ordres sont tous corrects : le verbe conjugué reste toujours
 units = [
     {
         "title": "Qui fait quoi ?",
+        "level": "A1",
         "hint": "Avant les terminaisons, le rôle de chaque groupe : celui qui agit, ce qui subit l'action, à qui elle s'adresse.",
         "lessons": [
             L(
@@ -152,6 +117,7 @@ units = [
     },
     {
         "title": "Le nominatif",
+        "level": "A1",
         "hint": "La forme du sujet, celle du dictionnaire : der, die, das, ein, kein, et les pronoms ich, du, er…",
         "lessons": [
             L(
@@ -234,6 +200,7 @@ units = [
     },
     {
         "title": "L'accusatif",
+        "level": "A1",
         "hint": "Le complément direct : seul le masculin change (der → den, ein → einen), et les pronoms (mich, dich, ihn…).",
         "lessons": [
             L(
@@ -359,21 +326,9 @@ units = [
     },
 ]
 
-track = {
-    "id": "de-cas",
-    "title": "Les cas",
-    "hint": "Nominatif, accusatif, datif, génitif : qui fait quoi dans la phrase, et comment l'allemand le montre.",
-    "units": [],
-}
-for unit_index, unit in enumerate(units, 1):
-    unit_id = f"de-cas-{unit_index}"
-    lessons = []
-    for lesson_index, lesson in enumerate(unit["lessons"], 1):
-        lesson_id = f"{unit_id}:{lesson_index}"
-        for sentence_index, sentence in enumerate(lesson["sentences"], 1):
-            sentence["id"] = f"{unit_id}-{lesson_index}-{sentence_index:02d}"
-        lessons.append({"id": lesson_id, **lesson})
-    track["units"].append({"id": unit_id, "title": unit["title"], "hint": unit["hint"], "level": "A1", "lessons": lessons})
-
-OUT.write_text(json.dumps({"tracks": [track]}, ensure_ascii=False, indent=1), encoding="utf-8")
-print(sum(len(l["sentences"]) for u in track["units"] for l in u["lessons"]), "phrases")
+TRACK = make_track(
+    "de-cas",
+    "Les cas",
+    "Nominatif, accusatif, datif, génitif : qui fait quoi dans la phrase, et comment l'allemand le montre.",
+    units,
+)

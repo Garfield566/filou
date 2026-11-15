@@ -155,5 +155,21 @@ describe('phrase challenges', () => {
 
   it('accepts every way of writing a sentence it asks to translate', () => {
     for (const { sentence } of sentences) expect(allOrders(sentence)[0]).toBe(sentence.text);
+    // Another tense that says the same thing (Perfekt for a Präteritum) is accepted too.
+    const item = phraseItems(course).find((candidate) => candidate.id === phraseItemId(course, 'de-temps-4:1'))!;
+    const sentence = item.phrase!.lesson.sentences.find((candidate) => candidate.alt?.length)!;
+    const only = { ...item, phrase: { ...item.phrase!, lesson: { ...item.phrase!.lesson, sentences: [sentence] } } };
+    const known = { [item.id]: { halfLifeDays: 30, lastSeen: Date.now() } };
+    const translations = Array.from({ length: 40 }, (_, seed) => phraseExercise(course, only, known, seeded(seed + 1))).filter(
+      (step) => step.kind === 'type' && step.prompt.startsWith('Écris en'),
+    );
+    expect(translations.length).toBeGreaterThan(0);
+    for (const step of translations) if (step.kind === 'type') expect(grade(step.answers, sentence.alt![0])).toBe('correct');
+  });
+
+  it('gives every track its own challenges', () => {
+    expect(tracks.map((track) => track.id)).toEqual(['de-cas', 'de-temps']);
+    const ids = tracks.flatMap(phraseChallenges).map((challenge) => challenge.id);
+    expect(new Set(ids).size).toBe(ids.length);
   });
 });
