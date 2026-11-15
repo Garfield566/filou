@@ -8550,6 +8550,5110 @@
      ]
     }
    ]
+  },
+  {
+   "id": "en-phrase",
+   "title": "Phrases complexes",
+   "hint": "De la phrase simple aux longues phrases : l'ordre des mots, les questions, la négation, puis relier et emboîter les propositions. Construire et comprendre.",
+   "units": [
+    {
+     "id": "en-phrase-1",
+     "title": "L'ordre des mots",
+     "hint": "L'anglais tient à son ordre : sujet, verbe, complément, sans rien entre le verbe et le complément. Les petits mots (always, never) et les adjectifs ont leur place fixe.",
+     "level": "A1",
+     "lessons": [
+      {
+       "id": "en-phrase-1:1",
+       "title": "Sujet, verbe, complément : collés",
+       "rule": {
+        "intro": "L'ordre de base est sujet, verbe, complément. Le complément colle au verbe : rien ne se glisse entre eux.",
+        "points": [
+         "Le français dit « Je parle très bien anglais » ; l'anglais dit I speak English very well.",
+         "Faux : I like very much chocolate. Juste : I like chocolate very much.",
+         "Les mots de manière et de degré vont en général après le complément. Slowly ou carefully peuvent aussi venir avant le verbe ; well et very much restent à la fin. Jamais entre le verbe et le complément."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "I speak English very well.",
+          "Je parle très bien anglais."
+         ],
+         [
+          "She likes chocolate very much.",
+          "Elle aime beaucoup le chocolat."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "I speak English very well.",
+         "fr": "Je parle très bien anglais.",
+         "chunks": [
+          "I",
+          "speak",
+          "English",
+          "very well"
+         ],
+         "focus": {
+          "chunk": "English",
+          "answer": "le complément (ce qu'on voit, aime, achète…)",
+          "why": "English colle au verbe : rien ne s'intercale."
+         },
+         "blank": {
+          "chunk": "very well",
+          "base": "très bien",
+          "wrong": [
+           "very good",
+           "well very"
+          ]
+         },
+         "alt": [
+          "I speak very good English.",
+          "I speak English really well."
+         ],
+         "wrongMeanings": [
+          "Je parle très peu anglais.",
+          "Il parle très bien anglais."
+         ],
+         "id": "en-phrase-1-1-01"
+        },
+        {
+         "text": "She likes chocolate very much.",
+         "fr": "Elle aime beaucoup le chocolat.",
+         "chunks": [
+          "she",
+          "likes",
+          "chocolate",
+          "very much"
+         ],
+         "focus": {
+          "chunk": "very much",
+          "answer": "la manière ou le degré (comment ? combien ?)",
+          "why": "Very much vient après le complément, jamais entre le verbe et lui."
+         },
+         "blank": {
+          "chunk": "likes",
+          "base": "like",
+          "wrong": [
+           "like",
+           "is liking"
+          ]
+         },
+         "alt": [
+          "She really likes chocolate.",
+          "She likes chocolate a lot."
+         ],
+         "id": "en-phrase-1-1-02"
+        },
+        {
+         "text": "We watched the match on TV.",
+         "fr": "Nous avons regardé le match à la télé.",
+         "chunks": [
+          "we",
+          "watched",
+          "the match",
+          "on TV"
+         ],
+         "focus": {
+          "chunk": "the match",
+          "answer": "le complément (ce qu'on voit, aime, achète…)",
+          "why": "Ce qu'on regarde : le complément, juste après le verbe."
+         },
+         "alt": [
+          "We watched the game on TV."
+         ],
+         "id": "en-phrase-1-1-03"
+        },
+        {
+         "text": "My parents bought a new car.",
+         "fr": "Mes parents ont acheté une nouvelle voiture.",
+         "chunks": [
+          "my parents",
+          "bought",
+          "a new car"
+         ],
+         "focus": {
+          "chunk": "my parents",
+          "answer": "le sujet",
+          "why": "Ceux qui achètent : le sujet, en tête."
+         },
+         "blank": {
+          "chunk": "bought",
+          "base": "buy",
+          "wrong": [
+           "buyed",
+           "buy"
+          ]
+         },
+         "wrongMeanings": [
+          "Mes parents ont vendu leur vieille voiture.",
+          "J'ai acheté une nouvelle voiture à mes parents."
+         ],
+         "id": "en-phrase-1-1-04"
+        },
+        {
+         "text": "He drinks his coffee slowly.",
+         "fr": "Il boit son café lentement.",
+         "chunks": [
+          "he",
+          "drinks",
+          "his coffee",
+          "slowly"
+         ],
+         "orders": [
+          "He slowly drinks his coffee."
+         ],
+         "orderWhy": "Les deux sont corrects : slowly peut aussi venir avant le verbe, mais jamais entre le verbe et le complément.",
+         "focus": {
+          "chunk": "slowly",
+          "answer": "la manière ou le degré (comment ? combien ?)",
+          "why": "La manière vient après le complément."
+         },
+         "wrongMeanings": [
+          "Il boit son café rapidement.",
+          "Il prépare son café lentement."
+         ],
+         "id": "en-phrase-1-1-05"
+        },
+        {
+         "text": "The children love this game.",
+         "fr": "Les enfants adorent ce jeu.",
+         "chunks": [
+          "the children",
+          "love",
+          "this game"
+         ],
+         "focus": {
+          "chunk": "love",
+          "answer": "le verbe",
+          "why": "Love : le verbe, entre le sujet et le complément."
+         },
+         "blank": {
+          "chunk": "love",
+          "base": "love",
+          "wrong": [
+           "loves",
+           "is loving"
+          ]
+         },
+         "id": "en-phrase-1-1-06"
+        },
+        {
+         "text": "I read the letter carefully.",
+         "fr": "J'ai lu la lettre attentivement.",
+         "chunks": [
+          "I",
+          "read",
+          "the letter",
+          "carefully"
+         ],
+         "orders": [
+          "I carefully read the letter."
+         ],
+         "orderWhy": "Les deux sont corrects : carefully peut aussi venir avant le verbe, mais jamais entre read et the letter.",
+         "focus": {
+          "chunk": "carefully",
+          "answer": "la manière ou le degré (comment ? combien ?)",
+          "why": "La manière, après le complément."
+         },
+         "id": "en-phrase-1-1-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel est le rôle du groupe surligné ?",
+        "options": [
+         "le sujet",
+         "le verbe",
+         "le complément (ce qu'on voit, aime, achète…)",
+         "la manière ou le degré (comment ? combien ?)"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-1:2",
+       "title": "always, often, never : avant le verbe",
+       "rule": {
+        "intro": "Les mots de fréquence (always, usually, often, sometimes, never) se placent avant le verbe.",
+        "points": [
+         "I always drink tea. Le français dit « je bois toujours » : l'anglais met always devant.",
+         "Avec be, ils viennent après : She is often late.",
+         "Avec un auxiliaire (can, have, don't…), ils se glissent juste après lui : I can never remember. I have never seen snow.",
+         "sometimes et usually peuvent aussi ouvrir la phrase : Sometimes he works at the weekend."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "I always drink tea in the morning.",
+          "Je bois toujours du thé le matin."
+         ],
+         [
+          "She is often late.",
+          "Elle est souvent en retard."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "I always drink tea in the morning.",
+         "fr": "Je bois toujours du thé le matin.",
+         "chunks": [
+          "I",
+          "always",
+          "drink",
+          "tea",
+          "in the morning"
+         ],
+         "orders": [
+          "In the morning I always drink tea."
+         ],
+         "orderWhy": "Les deux ordres sont corrects.",
+         "focus": {
+          "chunk": "always",
+          "answer": "avant le verbe",
+          "why": "Always se place avant drink."
+         },
+         "blank": {
+          "chunk": "always",
+          "base": "toujours",
+          "wrong": [
+           "never",
+           "sometimes"
+          ]
+         },
+         "wrongMeanings": [
+          "Je bois parfois du thé le matin.",
+          "Le matin, je ne bois jamais de thé."
+         ],
+         "id": "en-phrase-1-2-01"
+        },
+        {
+         "text": "She is often late.",
+         "fr": "Elle est souvent en retard.",
+         "chunks": [
+          "she",
+          "is",
+          "often",
+          "late"
+         ],
+         "focus": {
+          "chunk": "often",
+          "answer": "après be (am, is, are, was…)",
+          "why": "Avec be, often vient après is."
+         },
+         "blank": {
+          "chunk": "often",
+          "base": "souvent",
+          "wrong": [
+           "always",
+           "never"
+          ]
+         },
+         "wrongMeanings": [
+          "Elle n'est jamais en retard.",
+          "Elle est en retard aujourd'hui."
+         ],
+         "id": "en-phrase-1-2-02"
+        },
+        {
+         "text": "We never eat meat.",
+         "fr": "Nous ne mangeons jamais de viande.",
+         "chunks": [
+          "we",
+          "never",
+          "eat",
+          "meat"
+         ],
+         "focus": {
+          "chunk": "never",
+          "answer": "avant le verbe",
+          "why": "Never se place avant eat."
+         },
+         "blank": {
+          "chunk": "never",
+          "base": "jamais",
+          "wrong": [
+           "ever",
+           "always"
+          ]
+         },
+         "wrongMeanings": [
+          "Nous mangeons rarement de la viande.",
+          "Nous ne mangeons plus de viande."
+         ],
+         "id": "en-phrase-1-2-03"
+        },
+        {
+         "text": "They are usually at home on Sundays.",
+         "fr": "Ils sont généralement à la maison le dimanche.",
+         "chunks": [
+          "they",
+          "are",
+          "usually",
+          "at home",
+          "on Sundays"
+         ],
+         "orders": [
+          "On Sundays they are usually at home."
+         ],
+         "orderWhy": "Les deux ordres sont corrects.",
+         "focus": {
+          "chunk": "usually",
+          "answer": "après be (am, is, are, was…)",
+          "why": "Avec be, usually vient après are."
+         },
+         "blank": {
+          "chunk": "are",
+          "base": "be",
+          "wrong": [
+           "is",
+           "do"
+          ]
+         },
+         "alt": [
+          "They are usually home on Sundays."
+         ],
+         "id": "en-phrase-1-2-04"
+        },
+        {
+         "text": "I can never remember his name.",
+         "fr": "Je n'arrive jamais à me souvenir de son nom.",
+         "chunks": [
+          "I",
+          "can",
+          "never",
+          "remember",
+          "his name"
+         ],
+         "focus": {
+          "chunk": "never",
+          "answer": "après l'auxiliaire (can, have, don't…)",
+          "why": "Avec un auxiliaire, never vient juste après lui."
+         },
+         "blank": {
+          "chunk": "remember",
+          "base": "remember",
+          "wrong": [
+           "to remember",
+           "remembering"
+          ]
+         },
+         "alt": [
+          "I can never remember her name."
+         ],
+         "wrongMeanings": [
+          "J'ai oublié son nom pour toujours.",
+          "Il ne se souvient jamais de mon nom."
+         ],
+         "id": "en-phrase-1-2-05"
+        },
+        {
+         "text": "He sometimes works at the weekend.",
+         "fr": "Il travaille parfois le week-end.",
+         "chunks": [
+          "he",
+          "sometimes",
+          "works",
+          "at the weekend"
+         ],
+         "focus": {
+          "chunk": "sometimes",
+          "answer": "avant le verbe",
+          "why": "Sometimes se place avant works."
+         },
+         "blank": {
+          "chunk": "works",
+          "base": "work",
+          "wrong": [
+           "work",
+           "is working"
+          ]
+         },
+         "alt": [
+          "He sometimes works at weekends.",
+          "He sometimes works on the weekend.",
+          "He sometimes works on weekends."
+         ],
+         "orders": [
+          "Sometimes he works at the weekend."
+         ],
+         "id": "en-phrase-1-2-06"
+        },
+        {
+         "text": "I have never seen snow.",
+         "fr": "Je n'ai jamais vu de neige.",
+         "chunks": [
+          "I",
+          "have",
+          "never",
+          "seen",
+          "snow"
+         ],
+         "focus": {
+          "chunk": "never",
+          "answer": "après l'auxiliaire (can, have, don't…)",
+          "why": "Never se glisse entre have et seen."
+         },
+         "blank": {
+          "chunk": "seen",
+          "base": "see",
+          "wrong": [
+           "saw",
+           "seeing"
+          ]
+         },
+         "wrongMeanings": [
+          "Je n'ai pas vu la neige cette année.",
+          "Je n'aime pas la neige."
+         ],
+         "id": "en-phrase-1-2-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Où se place le mot surligné ?",
+        "options": [
+         "avant le verbe",
+         "après be (am, is, are, was…)",
+         "après l'auxiliaire (can, have, don't…)"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-1:3",
+       "title": "L'adjectif et le nom, devant le nom",
+       "rule": {
+        "intro": "L'adjectif, et le nom qui en précise un autre, se placent devant le nom : a red car (une voiture rouge).",
+        "points": [
+         "L'adjectif ne prend jamais de -s : two new computers.",
+         "Un nom peut en préciser un autre, devant lui : a bus stop (un arrêt de bus), a tennis player (une joueuse de tennis).",
+         "Pour comprendre, lis le groupe en partant de la fin : le dernier nom est le nom principal.",
+         "interesting (intéressant) ≠ interested (intéressé) : an interesting book."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "She has a red car.",
+          "Elle a une voiture rouge."
+         ],
+         [
+          "I'm waiting at the bus stop.",
+          "J'attends à l'arrêt de bus."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "She has a red car.",
+         "fr": "Elle a une voiture rouge.",
+         "chunks": [
+          "she",
+          "has",
+          "a",
+          "red",
+          "car"
+         ],
+         "focus": {
+          "chunk": "red",
+          "answer": "il décrit le nom : un adjectif",
+          "why": "Red décrit car : il se place devant."
+         },
+         "blank": {
+          "chunk": "red",
+          "base": "rouge",
+          "wrong": [
+           "reds",
+           "read"
+          ]
+         },
+         "id": "en-phrase-1-3-01"
+        },
+        {
+         "text": "We live in a big old house.",
+         "fr": "Nous habitons une grande vieille maison.",
+         "chunks": [
+          "we",
+          "live",
+          "in",
+          "a",
+          "big",
+          "old",
+          "house"
+         ],
+         "focus": {
+          "chunk": "house",
+          "answer": "le nom principal, en dernier",
+          "why": "Le nom principal vient en dernier."
+         },
+         "alt": [
+          "We live in a large old house."
+         ],
+         "wrongMeanings": [
+          "Nous habitons une petite maison neuve.",
+          "Nous habitons à côté d'une grande vieille maison."
+         ],
+         "id": "en-phrase-1-3-02"
+        },
+        {
+         "text": "I'm waiting at the bus stop.",
+         "fr": "J'attends à l'arrêt de bus.",
+         "chunks": [
+          "I'm waiting",
+          "at",
+          "the",
+          "bus",
+          "stop"
+         ],
+         "focus": {
+          "chunk": "bus",
+          "answer": "un nom qui précise le nom suivant",
+          "why": "Bus précise stop : un arrêt de bus."
+         },
+         "wrongMeanings": [
+          "J'attends dans le bus.",
+          "J'attends le bus à la gare."
+         ],
+         "id": "en-phrase-1-3-03"
+        },
+        {
+         "text": "They bought two new computers.",
+         "fr": "Ils ont acheté deux nouveaux ordinateurs.",
+         "chunks": [
+          "they",
+          "bought",
+          "two",
+          "new",
+          "computers"
+         ],
+         "focus": {
+          "chunk": "new",
+          "answer": "il décrit le nom : un adjectif",
+          "why": "L'adjectif ne prend jamais de -s."
+         },
+         "blank": {
+          "chunk": "new",
+          "base": "nouveau",
+          "wrong": [
+           "news",
+           "newly"
+          ]
+         },
+         "id": "en-phrase-1-3-04"
+        },
+        {
+         "text": "Where is the train station?",
+         "fr": "Où est la gare ?",
+         "chunks": [
+          "where",
+          "is",
+          "the",
+          "train",
+          "station"
+         ],
+         "focus": {
+          "chunk": "station",
+          "answer": "le nom principal, en dernier",
+          "why": "Station, le nom principal ; train le précise : la gare."
+         },
+         "alt": [
+          "Where is the railway station?",
+          "Where is the station?"
+         ],
+         "id": "en-phrase-1-3-05"
+        },
+        {
+         "text": "It's a very interesting book.",
+         "fr": "C'est un livre très intéressant.",
+         "chunks": [
+          "it's",
+          "a",
+          "very",
+          "interesting",
+          "book"
+         ],
+         "focus": {
+          "chunk": "interesting",
+          "answer": "il décrit le nom : un adjectif",
+          "why": "Interesting décrit book : il se place devant."
+         },
+         "blank": {
+          "chunk": "interesting",
+          "base": "intéressant",
+          "wrong": [
+           "interested",
+           "interestings"
+          ]
+         },
+         "id": "en-phrase-1-3-06"
+        },
+        {
+         "text": "She's a good tennis player.",
+         "fr": "C'est une bonne joueuse de tennis.",
+         "chunks": [
+          "she's",
+          "a",
+          "good",
+          "tennis",
+          "player"
+         ],
+         "focus": {
+          "chunk": "tennis",
+          "answer": "un nom qui précise le nom suivant",
+          "why": "Tennis précise player : une joueuse de tennis."
+         },
+         "wrongMeanings": [
+          "C'est une bonne entraîneuse de tennis.",
+          "Elle regarde souvent le tennis."
+         ],
+         "id": "en-phrase-1-3-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que fait le mot surligné ?",
+        "options": [
+         "il décrit le nom : un adjectif",
+         "un nom qui précise le nom suivant",
+         "le nom principal, en dernier"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-1:4",
+       "title": "Le lieu, puis le moment",
+       "rule": {
+        "intro": "En fin de phrase, le moment vient en dernier. En général : comment, où, quand (We played quietly in the garden all afternoon).",
+        "points": [
+         "Avec un verbe de mouvement (go, come, arrive…), le lieu passe d'abord : She goes to work by bike every day.",
+         "Le moment vient en dernier : I went to London last week.",
+         "On peut aussi ouvrir la phrase par le moment : Last week, I went to London.",
+         "Ne coupe jamais le verbe et son complément : I met my friends at the station (pas I met at the station my friends)."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "I went to London last week.",
+          "Je suis allé à Londres la semaine dernière."
+         ],
+         [
+          "She goes to work by bike every day.",
+          "Elle va au travail à vélo tous les jours."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "I went to London last week.",
+         "fr": "Je suis allé à Londres la semaine dernière.",
+         "chunks": [
+          "I",
+          "went",
+          "to London",
+          "last week"
+         ],
+         "orders": [
+          "Last week I went to London."
+         ],
+         "orderWhy": "Les deux ordres sont corrects.",
+         "focus": {
+          "chunk": "last week",
+          "answer": "le moment (quand ?)",
+          "why": "Le moment, en dernier ou en tête."
+         },
+         "blank": {
+          "chunk": "went",
+          "base": "go",
+          "wrong": [
+           "go",
+           "have gone"
+          ]
+         },
+         "wrongMeanings": [
+          "J'irai à Londres la semaine prochaine.",
+          "Je suis rentré de Londres la semaine dernière."
+         ],
+         "id": "en-phrase-1-4-01"
+        },
+        {
+         "text": "We met at the station at six.",
+         "fr": "Nous nous sommes retrouvés à la gare à six heures.",
+         "chunks": [
+          "we",
+          "met",
+          "at the station",
+          "at six"
+         ],
+         "focus": {
+          "chunk": "at the station",
+          "answer": "le lieu (où ?)",
+          "why": "Le lieu d'abord, puis le moment."
+         },
+         "alt": [
+          "We met at the station at six o'clock."
+         ],
+         "id": "en-phrase-1-4-02"
+        },
+        {
+         "text": "She goes to work by bike every day.",
+         "fr": "Elle va au travail à vélo tous les jours.",
+         "chunks": [
+          "she",
+          "goes",
+          "to work",
+          "by bike",
+          "every day"
+         ],
+         "orders": [
+          "Every day she goes to work by bike."
+         ],
+         "orderWhy": "Les deux ordres sont corrects.",
+         "focus": {
+          "chunk": "by bike",
+          "answer": "la manière (comment ?)",
+          "why": "Comment ? À vélo."
+         },
+         "blank": {
+          "chunk": "goes",
+          "base": "go",
+          "wrong": [
+           "go",
+           "is going"
+          ]
+         },
+         "wrongMeanings": [
+          "Elle va au travail en bus tous les jours.",
+          "Aujourd'hui, elle va au travail à vélo."
+         ],
+         "id": "en-phrase-1-4-03"
+        },
+        {
+         "text": "They arrived at the hotel late at night.",
+         "fr": "Ils sont arrivés à l'hôtel tard dans la nuit.",
+         "chunks": [
+          "they",
+          "arrived",
+          "at the hotel",
+          "late at night"
+         ],
+         "focus": {
+          "chunk": "late at night",
+          "answer": "le moment (quand ?)",
+          "why": "Le moment ferme la phrase."
+         },
+         "blank": {
+          "chunk": "at the hotel",
+          "base": "à l'hôtel",
+          "wrong": [
+           "to the hotel",
+           "at hotel"
+          ]
+         },
+         "id": "en-phrase-1-4-04"
+        },
+        {
+         "text": "I'll see you at the café tomorrow.",
+         "fr": "On se voit demain au café.",
+         "chunks": [
+          "I'll see",
+          "you",
+          "at the café",
+          "tomorrow"
+         ],
+         "orders": [
+          "Tomorrow I'll see you at the café."
+         ],
+         "orderWhy": "Les deux ordres sont corrects.",
+         "focus": {
+          "chunk": "at the café",
+          "answer": "le lieu (où ?)",
+          "why": "Le lieu, puis le moment."
+         },
+         "alt": [
+          "See you at the café tomorrow."
+         ],
+         "id": "en-phrase-1-4-05"
+        },
+        {
+         "text": "He was born in Italy in 1990.",
+         "fr": "Il est né en Italie en 1990.",
+         "chunks": [
+          "he",
+          "was born",
+          "in Italy",
+          "in 1990"
+         ],
+         "focus": {
+          "chunk": "in 1990",
+          "answer": "le moment (quand ?)",
+          "why": "Le moment vient après le lieu."
+         },
+         "blank": {
+          "chunk": "was born",
+          "base": "naître",
+          "wrong": [
+           "is born",
+           "born"
+          ]
+         },
+         "id": "en-phrase-1-4-06"
+        },
+        {
+         "text": "We played quietly in the garden all afternoon.",
+         "fr": "Nous avons joué tranquillement dans le jardin tout l'après-midi.",
+         "chunks": [
+          "we",
+          "played",
+          "quietly",
+          "in the garden",
+          "all afternoon"
+         ],
+         "focus": {
+          "chunk": "quietly",
+          "answer": "la manière (comment ?)",
+          "why": "Comment ? Tranquillement : la manière avant le lieu."
+         },
+         "wrongMeanings": [
+          "Nous avons travaillé dans le jardin tout l'après-midi.",
+          "Nous avons joué bruyamment dans le jardin tout l'après-midi."
+         ],
+         "id": "en-phrase-1-4-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que dit le groupe surligné ?",
+        "options": [
+         "le lieu (où ?)",
+         "le moment (quand ?)",
+         "la manière (comment ?)"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "en-phrase-2",
+     "title": "Les questions",
+     "hint": "Pas de « est-ce que » : pour poser une question, l'anglais met un auxiliaire devant le sujet. Do, does, did servent quand il n'y en a pas.",
+     "level": "A1",
+     "lessons": [
+      {
+       "id": "en-phrase-2:1",
+       "title": "do, does, did : l'auxiliaire en tête",
+       "rule": {
+        "intro": "Pour une question fermée (réponse oui ou non) : auxiliaire, sujet, verbe nu. Do you like jazz?",
+        "points": [
+         "do au présent, does avec he, she, it, did au passé.",
+         "Après do, does, did, le verbe reste nu : Does she live…? (pas lives). Did you see…? (pas saw).",
+         "Avec be, can et have auxiliaire (Have you seen…?), pas de do : on inverse. Are you ready? Can you swim? Mais have de possession prend do : Do you have a car?"
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Do you like jazz?",
+          "Tu aimes le jazz ?"
+         ],
+         [
+          "Did you see the news?",
+          "Tu as vu les infos ?"
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Do you like jazz?",
+         "fr": "Tu aimes le jazz ?",
+         "chunks": [
+          "do",
+          "you",
+          "like",
+          "jazz"
+         ],
+         "focus": {
+          "chunk": "do",
+          "answer": "l'auxiliaire (do, does, did, is, can…)",
+          "why": "Do ouvre la question ; like reste nu."
+         },
+         "blank": {
+          "chunk": "do",
+          "base": "do",
+          "wrong": [
+           "does",
+           "are"
+          ]
+         },
+         "id": "en-phrase-2-1-01"
+        },
+        {
+         "text": "Does your brother live in Paris?",
+         "fr": "Ton frère habite à Paris ?",
+         "chunks": [
+          "does",
+          "your brother",
+          "live",
+          "in Paris"
+         ],
+         "focus": {
+          "chunk": "live",
+          "answer": "le verbe principal",
+          "why": "Après does, le verbe reste nu : live, sans -s."
+         },
+         "blank": {
+          "chunk": "live",
+          "base": "live",
+          "wrong": [
+           "lives",
+           "living"
+          ]
+         },
+         "wrongMeanings": [
+          "Ton frère a habité à Paris ?",
+          "Ton frère part pour Paris ?"
+         ],
+         "id": "en-phrase-2-1-02"
+        },
+        {
+         "text": "Did you see the news?",
+         "fr": "Tu as vu les infos ?",
+         "chunks": [
+          "did",
+          "you",
+          "see",
+          "the news"
+         ],
+         "focus": {
+          "chunk": "did",
+          "answer": "l'auxiliaire (do, does, did, is, can…)",
+          "why": "Did : une question au passé."
+         },
+         "blank": {
+          "chunk": "see",
+          "base": "see",
+          "wrong": [
+           "saw",
+           "seen"
+          ]
+         },
+         "alt": [
+          "Have you seen the news?"
+         ],
+         "wrongMeanings": [
+          "Tu vas regarder les infos ?",
+          "Tu as lu les infos ?"
+         ],
+         "id": "en-phrase-2-1-03"
+        },
+        {
+         "text": "Are you ready?",
+         "fr": "Tu es prêt ?",
+         "chunks": [
+          "are",
+          "you",
+          "ready"
+         ],
+         "focus": {
+          "chunk": "are",
+          "answer": "l'auxiliaire (do, does, did, is, can…)",
+          "why": "Avec be, pas de do : on inverse."
+         },
+         "blank": {
+          "chunk": "are",
+          "base": "be",
+          "wrong": [
+           "do",
+           "is"
+          ]
+         },
+         "id": "en-phrase-2-1-04"
+        },
+        {
+         "text": "Can your sister drive?",
+         "fr": "Ta sœur sait conduire ?",
+         "chunks": [
+          "can",
+          "your sister",
+          "drive"
+         ],
+         "focus": {
+          "chunk": "your sister",
+          "answer": "le sujet",
+          "why": "Le sujet, juste après can."
+         },
+         "blank": {
+          "chunk": "drive",
+          "base": "drive",
+          "wrong": [
+           "to drive",
+           "drives"
+          ]
+         },
+         "id": "en-phrase-2-1-05"
+        },
+        {
+         "text": "Did they enjoy the concert?",
+         "fr": "Ils ont aimé le concert ?",
+         "chunks": [
+          "did",
+          "they",
+          "enjoy",
+          "the concert"
+         ],
+         "focus": {
+          "chunk": "they",
+          "answer": "le sujet",
+          "why": "They, le sujet, suit did."
+         },
+         "blank": {
+          "chunk": "enjoy",
+          "base": "enjoy",
+          "wrong": [
+           "enjoyed",
+           "enjoying"
+          ]
+         },
+         "alt": [
+          "Did they like the concert?"
+         ],
+         "wrongMeanings": [
+          "Ils vont aimer le concert ?",
+          "Ils ont donné le concert ?"
+         ],
+         "id": "en-phrase-2-1-06"
+        },
+        {
+         "text": "Does this bus go to the airport?",
+         "fr": "Ce bus va à l'aéroport ?",
+         "chunks": [
+          "does",
+          "this bus",
+          "go",
+          "to the airport"
+         ],
+         "focus": {
+          "chunk": "go",
+          "answer": "le verbe principal",
+          "why": "Après does, go reste nu."
+         },
+         "blank": {
+          "chunk": "does",
+          "base": "do",
+          "wrong": [
+           "do",
+           "is"
+          ]
+         },
+         "id": "en-phrase-2-1-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel est le rôle du groupe surligné ?",
+        "options": [
+         "le mot interrogatif",
+         "l'auxiliaire (do, does, did, is, can…)",
+         "le sujet",
+         "le verbe principal"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-2:2",
+       "title": "Avec un mot interrogatif : where, when, why…",
+       "rule": {
+        "intro": "Mot interrogatif, puis auxiliaire, sujet, verbe : Where do you live?",
+        "points": [
+         "what time, how often, how long, which… : le groupe entier ouvre la question. What time does the film start?",
+         "Avec be, toujours sans do : Where are you going?",
+         "Le français peut dire « Tu habites où ? » ; l'anglais met toujours le mot interrogatif en tête."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Where do you live?",
+          "Où habites-tu ?"
+         ],
+         [
+          "What time does the film start?",
+          "À quelle heure commence le film ?"
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Where do you live?",
+         "fr": "Où habites-tu ?",
+         "chunks": [
+          "where",
+          "do",
+          "you",
+          "live"
+         ],
+         "focus": {
+          "chunk": "where",
+          "answer": "le mot interrogatif",
+          "why": "Where ouvre la question."
+         },
+         "blank": {
+          "chunk": "do",
+          "base": "do",
+          "wrong": [
+           "does",
+           "are"
+          ]
+         },
+         "id": "en-phrase-2-2-01"
+        },
+        {
+         "text": "What time does the film start?",
+         "fr": "À quelle heure commence le film ?",
+         "chunks": [
+          "what time",
+          "does",
+          "the film",
+          "start"
+         ],
+         "focus": {
+          "chunk": "what time",
+          "answer": "le mot interrogatif",
+          "why": "Le groupe entier ouvre la question."
+         },
+         "blank": {
+          "chunk": "start",
+          "base": "start",
+          "wrong": [
+           "starts",
+           "starting"
+          ]
+         },
+         "alt": [
+          "What time does the movie start?"
+         ],
+         "wrongMeanings": [
+          "À quelle heure finit le film ?",
+          "Combien de temps dure le film ?"
+         ],
+         "id": "en-phrase-2-2-02"
+        },
+        {
+         "text": "Why did you leave so early?",
+         "fr": "Pourquoi es-tu parti si tôt ?",
+         "chunks": [
+          "why",
+          "did",
+          "you",
+          "leave",
+          "so early"
+         ],
+         "focus": {
+          "chunk": "did",
+          "answer": "l'auxiliaire (do, does, did, is, can…)",
+          "why": "Did : une question au passé."
+         },
+         "blank": {
+          "chunk": "leave",
+          "base": "leave",
+          "wrong": [
+           "left",
+           "leaving"
+          ]
+         },
+         "wrongMeanings": [
+          "Pourquoi pars-tu si tôt ?",
+          "Pourquoi es-tu arrivé si tôt ?"
+         ],
+         "id": "en-phrase-2-2-03"
+        },
+        {
+         "text": "How often do you go swimming?",
+         "fr": "À quelle fréquence vas-tu nager ?",
+         "chunks": [
+          "how often",
+          "do",
+          "you",
+          "go swimming"
+         ],
+         "focus": {
+          "chunk": "how often",
+          "answer": "le mot interrogatif",
+          "why": "How often : à quelle fréquence."
+         },
+         "blank": {
+          "chunk": "go swimming",
+          "base": "aller nager",
+          "wrong": [
+           "go to swim",
+           "going swimming"
+          ]
+         },
+         "alt": [
+          "How often do you swim?"
+         ],
+         "id": "en-phrase-2-2-04"
+        },
+        {
+         "text": "Where are you going?",
+         "fr": "Où vas-tu ?",
+         "chunks": [
+          "where",
+          "are",
+          "you",
+          "going"
+         ],
+         "focus": {
+          "chunk": "you",
+          "answer": "le sujet",
+          "why": "You, le sujet, suit are."
+         },
+         "blank": {
+          "chunk": "are",
+          "base": "be",
+          "wrong": [
+           "do",
+           "is"
+          ]
+         },
+         "id": "en-phrase-2-2-05"
+        },
+        {
+         "text": "How long did you stay in Rome?",
+         "fr": "Combien de temps es-tu resté à Rome ?",
+         "chunks": [
+          "how long",
+          "did",
+          "you",
+          "stay",
+          "in Rome"
+         ],
+         "focus": {
+          "chunk": "stay",
+          "answer": "le verbe principal",
+          "why": "Après did, le verbe reste nu."
+         },
+         "blank": {
+          "chunk": "stay",
+          "base": "stay",
+          "wrong": [
+           "stayed",
+           "staying"
+          ]
+         },
+         "wrongMeanings": [
+          "Quand es-tu allé à Rome ?",
+          "Combien de temps vas-tu rester à Rome ?"
+         ],
+         "id": "en-phrase-2-2-06"
+        },
+        {
+         "text": "What does this word mean?",
+         "fr": "Que veut dire ce mot ?",
+         "chunks": [
+          "what",
+          "does",
+          "this word",
+          "mean"
+         ],
+         "focus": {
+          "chunk": "this word",
+          "answer": "le sujet",
+          "why": "This word, le sujet, entre does et mean."
+         },
+         "blank": {
+          "chunk": "mean",
+          "base": "mean",
+          "wrong": [
+           "means",
+           "meaning"
+          ]
+         },
+         "id": "en-phrase-2-2-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel est le rôle du groupe surligné ?",
+        "options": [
+         "le mot interrogatif",
+         "l'auxiliaire (do, does, did, is, can…)",
+         "le sujet",
+         "le verbe principal"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-2:3",
+       "title": "Who called you? : quand on demande le sujet",
+       "rule": {
+        "intro": "Quand who, what ou which demande le sujet (qui a fait ?), pas de do : Who called you? (qui t'a appelé ?).",
+        "points": [
+         "Quand il demande le complément (qui as-tu… ?), do revient : Who did you call? (qui as-tu appelé ?).",
+         "Pour savoir lequel : remplace who par une réponse. « Tom called you » : Tom est sujet → Who called you?",
+         "Même chose avec what : What happened? (qu'est-ce qui s'est passé ?) / What did she say?"
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Who called you?",
+          "Qui t'a appelé ?"
+         ],
+         [
+          "Who did you call?",
+          "Qui as-tu appelé ?"
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Who called you?",
+         "fr": "Qui t'a appelé ?",
+         "chunks": [
+          "who",
+          "called",
+          "you"
+         ],
+         "focus": {
+          "chunk": "who",
+          "answer": "on demande le sujet : pas de do",
+          "why": "Qui a appelé ? Who est le sujet : pas de did."
+         },
+         "blank": {
+          "chunk": "called",
+          "base": "call",
+          "wrong": [
+           "did call",
+           "call"
+          ]
+         },
+         "wrongMeanings": [
+          "Qui as-tu appelé ?",
+          "Qui va t'appeler ?"
+         ],
+         "id": "en-phrase-2-3-01"
+        },
+        {
+         "text": "Who did you call?",
+         "fr": "Qui as-tu appelé ?",
+         "chunks": [
+          "who",
+          "did",
+          "you",
+          "call"
+         ],
+         "focus": {
+          "chunk": "who",
+          "answer": "on demande le complément : avec do / did",
+          "why": "Tu as appelé quelqu'un : who est le complément, avec did."
+         },
+         "blank": {
+          "chunk": "call",
+          "base": "call",
+          "wrong": [
+           "called",
+           "calls"
+          ]
+         },
+         "wrongMeanings": [
+          "Qui t'a appelé ?",
+          "Qui vas-tu appeler ?"
+         ],
+         "id": "en-phrase-2-3-02"
+        },
+        {
+         "text": "What happened?",
+         "fr": "Que s'est-il passé ?",
+         "chunks": [
+          "what",
+          "happened"
+         ],
+         "focus": {
+          "chunk": "what",
+          "answer": "on demande le sujet : pas de do",
+          "why": "Qu'est-ce qui s'est passé ? What est le sujet."
+         },
+         "blank": {
+          "chunk": "happened",
+          "base": "happen",
+          "wrong": [
+           "did happen",
+           "happens"
+          ]
+         },
+         "id": "en-phrase-2-3-03"
+        },
+        {
+         "text": "Who lives in this house?",
+         "fr": "Qui habite dans cette maison ?",
+         "chunks": [
+          "who",
+          "lives",
+          "in this house"
+         ],
+         "focus": {
+          "chunk": "who",
+          "answer": "on demande le sujet : pas de do",
+          "why": "Qui habite ? Who est le sujet : lives, sans does."
+         },
+         "blank": {
+          "chunk": "lives",
+          "base": "live",
+          "wrong": [
+           "does live",
+           "live"
+          ]
+         },
+         "id": "en-phrase-2-3-04"
+        },
+        {
+         "text": "What did she say?",
+         "fr": "Qu'est-ce qu'elle a dit ?",
+         "chunks": [
+          "what",
+          "did",
+          "she",
+          "say"
+         ],
+         "focus": {
+          "chunk": "what",
+          "answer": "on demande le complément : avec do / did",
+          "why": "Elle a dit quelque chose : what est le complément."
+         },
+         "blank": {
+          "chunk": "say",
+          "base": "say",
+          "wrong": [
+           "said",
+           "says"
+          ]
+         },
+         "id": "en-phrase-2-3-05"
+        },
+        {
+         "text": "Which team won the match?",
+         "fr": "Quelle équipe a gagné le match ?",
+         "chunks": [
+          "which team",
+          "won",
+          "the match"
+         ],
+         "focus": {
+          "chunk": "which team",
+          "answer": "on demande le sujet : pas de do",
+          "why": "Quelle équipe a gagné ? Le sujet : pas de did."
+         },
+         "blank": {
+          "chunk": "won",
+          "base": "win",
+          "wrong": [
+           "did win",
+           "win"
+          ]
+         },
+         "alt": [
+          "Which team won the game?"
+         ],
+         "id": "en-phrase-2-3-06"
+        },
+        {
+         "text": "Who did you meet at the party?",
+         "fr": "Qui as-tu rencontré à la fête ?",
+         "chunks": [
+          "who",
+          "did",
+          "you",
+          "meet",
+          "at the party"
+         ],
+         "focus": {
+          "chunk": "who",
+          "answer": "on demande le complément : avec do / did",
+          "why": "Tu as rencontré quelqu'un : who est le complément."
+         },
+         "blank": {
+          "chunk": "meet",
+          "base": "meet",
+          "wrong": [
+           "met",
+           "meeting"
+          ]
+         },
+         "wrongMeanings": [
+          "Qui t'a invité à la fête ?",
+          "Qui vas-tu rencontrer à la fête ?"
+         ],
+         "id": "en-phrase-2-3-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que demande la question ?",
+        "options": [
+         "on demande le sujet : pas de do",
+         "on demande le complément : avec do / did"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-2:4",
+       "title": "Where are you from? : la préposition à la fin",
+       "rule": {
+        "intro": "Le français met la préposition devant (à qui, avec qui, d'où) ; l'anglais la laisse à la fin de la question.",
+        "points": [
+         "Who are you talking to? (à qui parles-tu ?)",
+         "Where are you from? (d'où viens-tu ?)",
+         "What are you thinking about? (à quoi penses-tu ?)",
+         "C'est la forme normale à l'oral comme à l'écrit courant."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Where are you from?",
+          "D'où viens-tu ?"
+         ],
+         [
+          "Who are you talking to?",
+          "À qui parles-tu ?"
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Where are you from?",
+         "fr": "D'où viens-tu ?",
+         "chunks": [
+          "where",
+          "are",
+          "you",
+          "from"
+         ],
+         "focus": {
+          "chunk": "from",
+          "answer": "la préposition, renvoyée à la fin",
+          "why": "D'où → where… from : from à la fin."
+         },
+         "blank": {
+          "chunk": "from",
+          "base": "de",
+          "wrong": [
+           "of",
+           "to"
+          ]
+         },
+         "alt": [
+          "Where do you come from?"
+         ],
+         "id": "en-phrase-2-4-01"
+        },
+        {
+         "text": "Who are you talking to?",
+         "fr": "À qui parles-tu ?",
+         "chunks": [
+          "who",
+          "are",
+          "you",
+          "talking",
+          "to"
+         ],
+         "focus": {
+          "chunk": "to",
+          "answer": "la préposition, renvoyée à la fin",
+          "why": "À qui → who… to."
+         },
+         "blank": {
+          "chunk": "talking",
+          "base": "talk",
+          "wrong": [
+           "talk",
+           "talks"
+          ]
+         },
+         "alt": [
+          "Who are you speaking to?"
+         ],
+         "wrongMeanings": [
+          "De qui parles-tu ?",
+          "Qui te parle ?"
+         ],
+         "id": "en-phrase-2-4-02"
+        },
+        {
+         "text": "What are you looking at?",
+         "fr": "Qu'est-ce que tu regardes ?",
+         "chunks": [
+          "what",
+          "are",
+          "you",
+          "looking",
+          "at"
+         ],
+         "focus": {
+          "chunk": "at",
+          "answer": "la préposition, renvoyée à la fin",
+          "why": "Look at : at reste à la fin."
+         },
+         "blank": {
+          "chunk": "at",
+          "base": "regarder",
+          "wrong": [
+           "for",
+           "after"
+          ]
+         },
+         "wrongMeanings": [
+          "Qu'est-ce que tu cherches ?",
+          "Qu'est-ce que tu as vu ?"
+         ],
+         "id": "en-phrase-2-4-03"
+        },
+        {
+         "text": "What is this box for?",
+         "fr": "À quoi sert cette boîte ?",
+         "chunks": [
+          "what",
+          "is",
+          "this box",
+          "for"
+         ],
+         "focus": {
+          "chunk": "for",
+          "answer": "la préposition, renvoyée à la fin",
+          "why": "What… for : à quoi ça sert."
+         },
+         "blank": {
+          "chunk": "for",
+          "base": "pour",
+          "wrong": [
+           "of",
+           "to"
+          ]
+         },
+         "id": "en-phrase-2-4-04"
+        },
+        {
+         "text": "Who did you go with?",
+         "fr": "Avec qui y es-tu allé ?",
+         "chunks": [
+          "who",
+          "did",
+          "you",
+          "go",
+          "with"
+         ],
+         "focus": {
+          "chunk": "did",
+          "answer": "l'auxiliaire (do, does, did, is, can…)",
+          "why": "Did : une question au passé."
+         },
+         "blank": {
+          "chunk": "with",
+          "base": "avec",
+          "wrong": [
+           "by",
+           "to"
+          ]
+         },
+         "alt": [
+          "Who did you go there with?"
+         ],
+         "wrongMeanings": [
+          "Où es-tu allé ?",
+          "Avec qui vas-tu y aller ?"
+         ],
+         "id": "en-phrase-2-4-05"
+        },
+        {
+         "text": "What are you thinking about?",
+         "fr": "À quoi penses-tu ?",
+         "chunks": [
+          "what",
+          "are",
+          "you",
+          "thinking",
+          "about"
+         ],
+         "focus": {
+          "chunk": "about",
+          "answer": "la préposition, renvoyée à la fin",
+          "why": "Think about : about à la fin."
+         },
+         "blank": {
+          "chunk": "about",
+          "base": "à",
+          "wrong": [
+           "to",
+           "at"
+          ]
+         },
+         "alt": [
+          "What are you thinking of?"
+         ],
+         "id": "en-phrase-2-4-06"
+        },
+        {
+         "text": "Which hotel are you staying at?",
+         "fr": "Dans quel hôtel loges-tu ?",
+         "chunks": [
+          "which hotel",
+          "are",
+          "you",
+          "staying",
+          "at"
+         ],
+         "focus": {
+          "chunk": "which hotel",
+          "answer": "le mot interrogatif",
+          "why": "Le groupe entier ouvre la question."
+         },
+         "blank": {
+          "chunk": "staying",
+          "base": "stay",
+          "wrong": [
+           "stay",
+           "stayed"
+          ]
+         },
+         "alt": [
+          "Which hotel are you staying in?"
+         ],
+         "id": "en-phrase-2-4-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel est le rôle du mot surligné ?",
+        "options": [
+         "le mot interrogatif",
+         "l'auxiliaire (do, does, did, is, can…)",
+         "la préposition, renvoyée à la fin"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "en-phrase-3",
+     "title": "La négation",
+     "hint": "Le français dit « ne… pas », « ne… personne » ; l'anglais n'a qu'un seul mot négatif par proposition.",
+     "level": "A1",
+     "lessons": [
+      {
+       "id": "en-phrase-3:1",
+       "title": "don't, doesn't, didn't + le verbe nu",
+       "rule": {
+        "intro": "Pour nier, l'anglais ajoute do, does ou did + not, et le verbe reste nu : I don't like… She doesn't speak… We didn't go…",
+        "points": [
+         "doesn't avec he, she, it ; didn't au passé, pour toutes les personnes.",
+         "Après doesn't et didn't, plus de -s ni de -ed : She doesn't speak. It didn't rain.",
+         "Avec be, can, have (auxiliaire), not vient directement : He isn't at home. I can't find it.",
+         "have pour la possession prend do : They don't have a car."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "She doesn't speak German.",
+          "Elle ne parle pas allemand."
+         ],
+         [
+          "I can't find my phone.",
+          "Je ne trouve pas mon téléphone."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "I don't like horror films.",
+         "fr": "Je n'aime pas les films d'horreur.",
+         "chunks": [
+          "I",
+          "don't",
+          "like",
+          "horror films"
+         ],
+         "focus": {
+          "chunk": "don't",
+          "answer": "avec do / does / did",
+          "why": "Like n'est pas un auxiliaire : don't."
+         },
+         "blank": {
+          "chunk": "like",
+          "base": "like",
+          "wrong": [
+           "likes",
+           "liking"
+          ]
+         },
+         "alt": [
+          "I don't like horror movies."
+         ],
+         "id": "en-phrase-3-1-01"
+        },
+        {
+         "text": "She doesn't speak German.",
+         "fr": "Elle ne parle pas allemand.",
+         "chunks": [
+          "she",
+          "doesn't",
+          "speak",
+          "German"
+         ],
+         "focus": {
+          "chunk": "doesn't",
+          "answer": "avec do / does / did",
+          "why": "Avec she : doesn't, et speak reste nu."
+         },
+         "blank": {
+          "chunk": "speak",
+          "base": "speak",
+          "wrong": [
+           "speaks",
+           "speaking"
+          ]
+         },
+         "wrongMeanings": [
+          "Elle parle un peu allemand.",
+          "Elle n'apprend pas l'allemand."
+         ],
+         "id": "en-phrase-3-1-02"
+        },
+        {
+         "text": "We didn't go out last night.",
+         "fr": "Nous ne sommes pas sortis hier soir.",
+         "chunks": [
+          "we",
+          "didn't",
+          "go out",
+          "last night"
+         ],
+         "orders": [
+          "Last night we didn't go out."
+         ],
+         "orderWhy": "Les deux ordres sont corrects.",
+         "focus": {
+          "chunk": "didn't",
+          "answer": "avec do / does / did",
+          "why": "Au passé : didn't, et go reste nu."
+         },
+         "blank": {
+          "chunk": "go out",
+          "base": "go out",
+          "wrong": [
+           "went out",
+           "going out"
+          ]
+         },
+         "id": "en-phrase-3-1-03"
+        },
+        {
+         "text": "He isn't at home.",
+         "fr": "Il n'est pas à la maison.",
+         "chunks": [
+          "he",
+          "isn't",
+          "at home"
+         ],
+         "focus": {
+          "chunk": "isn't",
+          "answer": "not directement après be, can, have…",
+          "why": "Avec be, pas de do : isn't."
+         },
+         "blank": {
+          "chunk": "isn't",
+          "base": "be",
+          "wrong": [
+           "doesn't",
+           "aren't"
+          ]
+         },
+         "alt": [
+          "He isn't home."
+         ],
+         "id": "en-phrase-3-1-04"
+        },
+        {
+         "text": "I can't find my phone.",
+         "fr": "Je ne trouve pas mon téléphone.",
+         "chunks": [
+          "I",
+          "can't",
+          "find",
+          "my phone"
+         ],
+         "focus": {
+          "chunk": "can't",
+          "answer": "not directement après be, can, have…",
+          "why": "Can est un auxiliaire : can't."
+         },
+         "blank": {
+          "chunk": "find",
+          "base": "find",
+          "wrong": [
+           "to find",
+           "found"
+          ]
+         },
+         "wrongMeanings": [
+          "J'ai perdu mon téléphone hier.",
+          "Je ne peux pas utiliser mon téléphone."
+         ],
+         "id": "en-phrase-3-1-05"
+        },
+        {
+         "text": "My parents don't have a car.",
+         "fr": "Mes parents n'ont pas de voiture.",
+         "chunks": [
+          "my parents",
+          "don't",
+          "have",
+          "a car"
+         ],
+         "focus": {
+          "chunk": "don't",
+          "answer": "avec do / does / did",
+          "why": "Have, verbe de possession : avec do."
+         },
+         "blank": {
+          "chunk": "don't",
+          "base": "do",
+          "wrong": [
+           "doesn't",
+           "aren't"
+          ]
+         },
+         "alt": [
+          "My parents haven't got a car."
+         ],
+         "id": "en-phrase-3-1-06"
+        },
+        {
+         "text": "It didn't rain yesterday.",
+         "fr": "Il n'a pas plu hier.",
+         "chunks": [
+          "it",
+          "didn't",
+          "rain",
+          "yesterday"
+         ],
+         "orders": [
+          "Yesterday it didn't rain."
+         ],
+         "orderWhy": "Les deux ordres sont corrects.",
+         "focus": {
+          "chunk": "didn't",
+          "answer": "avec do / does / did",
+          "why": "Au passé : didn't, et rain reste nu."
+         },
+         "blank": {
+          "chunk": "rain",
+          "base": "rain",
+          "wrong": [
+           "rained",
+           "rains"
+          ]
+         },
+         "wrongMeanings": [
+          "Il a beaucoup plu hier.",
+          "Il ne va pas pleuvoir demain."
+         ],
+         "id": "en-phrase-3-1-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Comment se fait la négation ici ?",
+        "options": [
+         "avec do / does / did",
+         "not directement après be, can, have…"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-3:2",
+       "title": "Une seule négation : nobody ou not… anybody",
+       "rule": {
+        "intro": "« Je n'ai vu personne » a deux mots négatifs en français. En anglais, un seul : I saw nobody, ou I didn't see anybody.",
+        "points": [
+         "Faux : I didn't see nobody. Après not ou never, on prend anybody, anything, ever.",
+         "nobody, nothing, never portent déjà la négation : le verbe reste affirmatif. Nobody knows. Nothing happened.",
+         "anyone = anybody, no one = nobody."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "I didn't see anybody.",
+          "Je n'ai vu personne."
+         ],
+         [
+          "Nobody knows the answer.",
+          "Personne ne connaît la réponse."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "I didn't see anybody.",
+         "fr": "Je n'ai vu personne.",
+         "chunks": [
+          "I",
+          "didn't",
+          "see",
+          "anybody"
+         ],
+         "focus": {
+          "chunk": "anybody",
+          "answer": "any- après une négation (not, never)",
+          "why": "Après didn't, anybody : une seule négation."
+         },
+         "blank": {
+          "chunk": "anybody",
+          "base": "personne",
+          "wrong": [
+           "nobody",
+           "somebody"
+          ]
+         },
+         "alt": [
+          "I saw nobody.",
+          "I didn't see anyone.",
+          "I saw no one."
+         ],
+         "wrongMeanings": [
+          "Personne ne m'a vu.",
+          "Je n'ai vu personne d'autre que lui."
+         ],
+         "id": "en-phrase-3-2-01"
+        },
+        {
+         "text": "Nobody knows the answer.",
+         "fr": "Personne ne connaît la réponse.",
+         "chunks": [
+          "nobody",
+          "knows",
+          "the answer"
+         ],
+         "focus": {
+          "chunk": "nobody",
+          "answer": "le mot négatif lui-même (nobody, nothing, never)",
+          "why": "Nobody en sujet : le verbe reste affirmatif."
+         },
+         "blank": {
+          "chunk": "knows",
+          "base": "know",
+          "wrong": [
+           "doesn't know",
+           "know"
+          ]
+         },
+         "alt": [
+          "No one knows the answer."
+         ],
+         "id": "en-phrase-3-2-02"
+        },
+        {
+         "text": "She never says anything.",
+         "fr": "Elle ne dit jamais rien.",
+         "chunks": [
+          "she",
+          "never",
+          "says",
+          "anything"
+         ],
+         "focus": {
+          "chunk": "anything",
+          "answer": "any- après une négation (not, never)",
+          "why": "Never porte déjà la négation : anything, pas nothing."
+         },
+         "blank": {
+          "chunk": "anything",
+          "base": "rien",
+          "wrong": [
+           "nothing",
+           "something"
+          ]
+         },
+         "wrongMeanings": [
+          "Elle dit toujours tout.",
+          "Elle ne dit rien aujourd'hui."
+         ],
+         "id": "en-phrase-3-2-03"
+        },
+        {
+         "text": "There's nothing in the fridge.",
+         "fr": "Il n'y a rien dans le frigo.",
+         "chunks": [
+          "there's",
+          "nothing",
+          "in the fridge"
+         ],
+         "focus": {
+          "chunk": "nothing",
+          "answer": "le mot négatif lui-même (nobody, nothing, never)",
+          "why": "Nothing porte la négation : there's reste affirmatif."
+         },
+         "alt": [
+          "There isn't anything in the fridge."
+         ],
+         "id": "en-phrase-3-2-04"
+        },
+        {
+         "text": "I don't know anyone here.",
+         "fr": "Je ne connais personne ici.",
+         "chunks": [
+          "I",
+          "don't",
+          "know",
+          "anyone",
+          "here"
+         ],
+         "focus": {
+          "chunk": "anyone",
+          "answer": "any- après une négation (not, never)",
+          "why": "Après don't, anyone."
+         },
+         "blank": {
+          "chunk": "anyone",
+          "base": "personne",
+          "wrong": [
+           "no one",
+           "someone"
+          ]
+         },
+         "alt": [
+          "I know nobody here.",
+          "I don't know anybody here.",
+          "I know no one here."
+         ],
+         "id": "en-phrase-3-2-05"
+        },
+        {
+         "text": "We have never been to Asia.",
+         "fr": "Nous ne sommes jamais allés en Asie.",
+         "chunks": [
+          "we",
+          "have",
+          "never",
+          "been",
+          "to Asia"
+         ],
+         "focus": {
+          "chunk": "never",
+          "answer": "le mot négatif lui-même (nobody, nothing, never)",
+          "why": "Never suffit : pas de not."
+         },
+         "blank": {
+          "chunk": "never",
+          "base": "jamais",
+          "wrong": [
+           "ever",
+           "not never"
+          ]
+         },
+         "id": "en-phrase-3-2-06"
+        },
+        {
+         "text": "Nothing happened.",
+         "fr": "Il ne s'est rien passé.",
+         "chunks": [
+          "nothing",
+          "happened"
+         ],
+         "focus": {
+          "chunk": "nothing",
+          "answer": "le mot négatif lui-même (nobody, nothing, never)",
+          "why": "Nothing en sujet : happened reste affirmatif."
+         },
+         "blank": {
+          "chunk": "happened",
+          "base": "happen",
+          "wrong": [
+           "didn't happen",
+           "happens"
+          ]
+         },
+         "wrongMeanings": [
+          "Tout s'est bien passé.",
+          "Quelque chose s'est passé."
+         ],
+         "id": "en-phrase-3-2-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel est le mot surligné ?",
+        "options": [
+         "le mot négatif lui-même (nobody, nothing, never)",
+         "any- après une négation (not, never)"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "en-phrase-4",
+     "title": "Relier deux phrases",
+     "hint": "and, but, or, so, because relient deux idées ; l'ordre des mots ne change pas après eux.",
+     "level": "A2",
+     "lessons": [
+      {
+       "id": "en-phrase-4:1",
+       "title": "and, but, or",
+       "rule": {
+        "intro": "and ajoute, but oppose, or donne un choix. Après eux, l'ordre reste normal.",
+        "points": [
+         "Une virgule avant but quand deux phrases complètes se suivent : I called him, but he didn't answer.",
+         "Avec le même sujet, on peut ne pas le répéter : She opened the door and went in. Avec le même verbe aussi : The hotel was old but very clean.",
+         "We can take the bus or walk : or relie deux choix."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "I called him, but he didn't answer.",
+          "Je l'ai appelé, mais il n'a pas répondu."
+         ],
+         [
+          "She opened the door and went in.",
+          "Elle a ouvert la porte et elle est entrée."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "I called him, but he didn't answer.",
+         "fr": "Je l'ai appelé, mais il n'a pas répondu.",
+         "chunks": [
+          "I",
+          "called",
+          "him",
+          "but",
+          "he",
+          "didn't",
+          "answer"
+         ],
+         "focus": {
+          "chunk": "but",
+          "answer": "but : on oppose",
+          "why": "Une opposition : but."
+         },
+         "blank": {
+          "chunk": "but",
+          "base": "mais",
+          "wrong": [
+           "and",
+           "or"
+          ]
+         },
+         "alt": [
+          "I phoned him, but he didn't answer."
+         ],
+         "wrongMeanings": [
+          "Il m'a appelé, mais je n'ai pas répondu.",
+          "Je l'ai appelé, et il a répondu."
+         ],
+         "combine": {
+          "sentences": [
+           "I called him.",
+           "He didn't answer."
+          ],
+          "link": "but"
+         },
+         "id": "en-phrase-4-1-01"
+        },
+        {
+         "text": "We can take the bus or walk.",
+         "fr": "Nous pouvons prendre le bus ou marcher.",
+         "chunks": [
+          "we",
+          "can",
+          "take",
+          "the bus",
+          "or",
+          "walk"
+         ],
+         "focus": {
+          "chunk": "or",
+          "answer": "or : on choisit",
+          "why": "Un choix : or."
+         },
+         "blank": {
+          "chunk": "or",
+          "base": "ou",
+          "wrong": [
+           "and",
+           "but"
+          ]
+         },
+         "combine": {
+          "sentences": [
+           "We can take the bus.",
+           "We can walk."
+          ],
+          "link": "or"
+         },
+         "id": "en-phrase-4-1-02"
+        },
+        {
+         "text": "She opened the door and went in.",
+         "fr": "Elle a ouvert la porte et elle est entrée.",
+         "chunks": [
+          "she",
+          "opened",
+          "the door",
+          "and",
+          "went in"
+         ],
+         "focus": {
+          "chunk": "and",
+          "answer": "and : on ajoute",
+          "why": "Une action de plus : and."
+         },
+         "blank": {
+          "chunk": "went in",
+          "base": "go in",
+          "wrong": [
+           "go in",
+           "goes in"
+          ]
+         },
+         "alt": [
+          "She opened the door and went inside."
+         ],
+         "wrongMeanings": [
+          "Elle a ouvert la porte et elle est sortie.",
+          "Elle est entrée sans ouvrir la porte."
+         ],
+         "combine": {
+          "sentences": [
+           "She opened the door.",
+           "She went in."
+          ],
+          "link": "and"
+         },
+         "id": "en-phrase-4-1-03"
+        },
+        {
+         "text": "The hotel was old but very clean.",
+         "fr": "L'hôtel était vieux mais très propre.",
+         "chunks": [
+          "the hotel",
+          "was",
+          "old",
+          "but",
+          "very clean"
+         ],
+         "focus": {
+          "chunk": "but",
+          "answer": "but : on oppose",
+          "why": "Une opposition : but."
+         },
+         "blank": {
+          "chunk": "but",
+          "base": "mais",
+          "wrong": [
+           "or",
+           "so"
+          ]
+         },
+         "combine": {
+          "sentences": [
+           "The hotel was old.",
+           "It was very clean."
+          ],
+          "link": "but"
+         },
+         "id": "en-phrase-4-1-04"
+        },
+        {
+         "text": "Do you want tea or coffee?",
+         "fr": "Tu veux du thé ou du café ?",
+         "chunks": [
+          "do",
+          "you",
+          "want",
+          "tea",
+          "or",
+          "coffee"
+         ],
+         "orders": [
+          "Do you want coffee or tea?"
+         ],
+         "orderWhy": "Les deux ordres sont corrects.",
+         "focus": {
+          "chunk": "or",
+          "answer": "or : on choisit",
+          "why": "Un choix : or."
+         },
+         "blank": {
+          "chunk": "or",
+          "base": "ou",
+          "wrong": [
+           "and",
+           "but"
+          ]
+         },
+         "alt": [
+          "Would you like tea or coffee?"
+         ],
+         "id": "en-phrase-4-1-05"
+        },
+        {
+         "text": "I like the city, but I prefer the country.",
+         "fr": "J'aime la ville, mais je préfère la campagne.",
+         "chunks": [
+          "I",
+          "like",
+          "the city",
+          "but",
+          "I",
+          "prefer",
+          "the country"
+         ],
+         "focus": {
+          "chunk": "but",
+          "answer": "but : on oppose",
+          "why": "Une opposition : but."
+         },
+         "blank": {
+          "chunk": "prefer",
+          "base": "prefer",
+          "wrong": [
+           "am preferring",
+           "prefers"
+          ]
+         },
+         "alt": [
+          "I like the city, but I prefer the countryside."
+         ],
+         "wrongMeanings": [
+          "J'aime la campagne, mais je préfère la ville.",
+          "Je n'aime ni la ville ni la campagne."
+         ],
+         "combine": {
+          "sentences": [
+           "I like the city.",
+           "I prefer the country."
+          ],
+          "link": "but"
+         },
+         "id": "en-phrase-4-1-06"
+        },
+        {
+         "text": "He cooked dinner and I washed the dishes.",
+         "fr": "Il a préparé le dîner et j'ai fait la vaisselle.",
+         "chunks": [
+          "he",
+          "cooked",
+          "dinner",
+          "and",
+          "I",
+          "washed",
+          "the dishes"
+         ],
+         "focus": {
+          "chunk": "and",
+          "answer": "and : on ajoute",
+          "why": "On ajoute une action : and."
+         },
+         "blank": {
+          "chunk": "washed",
+          "base": "wash",
+          "wrong": [
+           "wash",
+           "washes"
+          ]
+         },
+         "alt": [
+          "He made dinner and I did the dishes.",
+          "He made dinner and I did the washing-up.",
+          "He cooked dinner and I did the dishes.",
+          "He made dinner and I washed the dishes."
+         ],
+         "combine": {
+          "sentences": [
+           "He cooked dinner.",
+           "I washed the dishes."
+          ],
+          "link": "and"
+         },
+         "id": "en-phrase-4-1-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que fait le mot surligné ?",
+        "options": [
+         "and : on ajoute",
+         "but : on oppose",
+         "or : on choisit"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-4:2",
+       "title": "so et because : la conséquence et la cause",
+       "rule": {
+        "intro": "because donne la cause (parce que) ; so donne la conséquence (alors, donc).",
+        "points": [
+         "It was raining, so we stayed at home = We stayed at home because it was raining.",
+         "Une virgule avant so.",
+         "because peut ouvrir la phrase, avec une virgule : Because it was raining, we stayed at home.",
+         "Faux : Because it was raining, so we stayed. On garde un seul des deux."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "It was raining, so we stayed at home.",
+          "Il pleuvait, alors nous sommes restés à la maison."
+         ],
+         [
+          "I'm learning English because I want to travel.",
+          "J'apprends l'anglais parce que je veux voyager."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "It was raining, so we stayed at home.",
+         "fr": "Il pleuvait, alors nous sommes restés à la maison.",
+         "chunks": [
+          "it",
+          "was raining",
+          "so",
+          "we",
+          "stayed",
+          "at home"
+         ],
+         "focus": {
+          "chunk": "so",
+          "answer": "so : la conséquence (alors, donc)",
+          "why": "Rester à la maison, c'est la conséquence : so."
+         },
+         "blank": {
+          "chunk": "so",
+          "base": "alors",
+          "wrong": [
+           "because",
+           "but"
+          ]
+         },
+         "alt": [
+          "It was raining, so we stayed home.",
+          "We stayed at home because it was raining.",
+          "Because it was raining, we stayed at home."
+         ],
+         "wrongMeanings": [
+          "Il pleuvait, mais nous sommes sortis.",
+          "Nous sommes restés à la maison jusqu'à ce qu'il pleuve."
+         ],
+         "combine": {
+          "sentences": [
+           "It was raining.",
+           "We stayed at home."
+          ],
+          "link": "so"
+         },
+         "id": "en-phrase-4-2-01"
+        },
+        {
+         "text": "I'm hungry because I didn't eat lunch.",
+         "fr": "J'ai faim parce que je n'ai pas déjeuné.",
+         "chunks": [
+          "I'm",
+          "hungry",
+          "because",
+          "I",
+          "didn't eat",
+          "lunch"
+         ],
+         "focus": {
+          "chunk": "because",
+          "answer": "because : la cause (parce que)",
+          "why": "Ne pas avoir déjeuné, c'est la cause : because."
+         },
+         "blank": {
+          "chunk": "because",
+          "base": "parce que",
+          "wrong": [
+           "so",
+           "and"
+          ]
+         },
+         "alt": [
+          "I'm hungry because I haven't had lunch.",
+          "I'm hungry because I haven't eaten lunch.",
+          "I didn't eat lunch, so I'm hungry.",
+          "I'm hungry because I didn't have lunch."
+         ],
+         "combine": {
+          "sentences": [
+           "I'm hungry.",
+           "I didn't eat lunch."
+          ],
+          "link": "because"
+         },
+         "orders": [
+          "Because I didn't eat lunch, I'm hungry."
+         ],
+         "id": "en-phrase-4-2-02"
+        },
+        {
+         "text": "She was tired, so she went to bed early.",
+         "fr": "Elle était fatiguée, alors elle s'est couchée tôt.",
+         "chunks": [
+          "she",
+          "was",
+          "tired",
+          "so",
+          "she",
+          "went to bed",
+          "early"
+         ],
+         "focus": {
+          "chunk": "so",
+          "answer": "so : la conséquence (alors, donc)",
+          "why": "Se coucher tôt, c'est la conséquence : so."
+         },
+         "blank": {
+          "chunk": "went to bed",
+          "base": "go to bed",
+          "wrong": [
+           "goes to bed",
+           "go to bed"
+          ]
+         },
+         "alt": [
+          "She went to bed early because she was tired."
+         ],
+         "wrongMeanings": [
+          "Elle s'est couchée tôt, alors elle n'était pas fatiguée.",
+          "Elle était fatiguée, mais elle s'est couchée tard."
+         ],
+         "combine": {
+          "sentences": [
+           "She was tired.",
+           "She went to bed early."
+          ],
+          "link": "so"
+         },
+         "id": "en-phrase-4-2-03"
+        },
+        {
+         "text": "I'm learning English because I want to travel.",
+         "fr": "J'apprends l'anglais parce que je veux voyager.",
+         "chunks": [
+          "I'm learning",
+          "English",
+          "because",
+          "I",
+          "want",
+          "to travel"
+         ],
+         "focus": {
+          "chunk": "because",
+          "answer": "because : la cause (parce que)",
+          "why": "Vouloir voyager, c'est la cause : because."
+         },
+         "blank": {
+          "chunk": "to travel",
+          "base": "travel",
+          "wrong": [
+           "travel",
+           "travelling"
+          ]
+         },
+         "alt": [
+          "I want to travel, so I'm learning English."
+         ],
+         "combine": {
+          "sentences": [
+           "I'm learning English.",
+           "I want to travel."
+          ],
+          "link": "because"
+         },
+         "orders": [
+          "Because I want to travel, I'm learning English."
+         ],
+         "id": "en-phrase-4-2-04"
+        },
+        {
+         "text": "The shop was closed, so I went home.",
+         "fr": "Le magasin était fermé, alors je suis rentré.",
+         "chunks": [
+          "the shop",
+          "was",
+          "closed",
+          "so",
+          "I",
+          "went",
+          "home"
+         ],
+         "focus": {
+          "chunk": "so",
+          "answer": "so : la conséquence (alors, donc)",
+          "why": "Rentrer, c'est la conséquence : so."
+         },
+         "blank": {
+          "chunk": "so",
+          "base": "alors",
+          "wrong": [
+           "because",
+           "or"
+          ]
+         },
+         "alt": [
+          "I went home because the shop was closed.",
+          "The store was closed, so I went home."
+         ],
+         "wrongMeanings": [
+          "Le magasin était fermé parce que je suis rentré.",
+          "Le magasin était ouvert, alors je suis entré."
+         ],
+         "combine": {
+          "sentences": [
+           "The shop was closed.",
+           "I went home."
+          ],
+          "link": "so"
+         },
+         "id": "en-phrase-4-2-05"
+        },
+        {
+         "text": "He didn't come because he was ill.",
+         "fr": "Il n'est pas venu parce qu'il était malade.",
+         "chunks": [
+          "he",
+          "didn't",
+          "come",
+          "because",
+          "he",
+          "was",
+          "ill"
+         ],
+         "focus": {
+          "chunk": "because",
+          "answer": "because : la cause (parce que)",
+          "why": "La maladie est la cause : because."
+         },
+         "blank": {
+          "chunk": "come",
+          "base": "come",
+          "wrong": [
+           "came",
+           "coming"
+          ]
+         },
+         "alt": [
+          "He didn't come because he was sick.",
+          "He was ill, so he didn't come."
+         ],
+         "combine": {
+          "sentences": [
+           "He didn't come.",
+           "He was ill."
+          ],
+          "link": "because"
+         },
+         "orders": [
+          "Because he was ill, he didn't come."
+         ],
+         "id": "en-phrase-4-2-06"
+        },
+        {
+         "text": "I lost my keys, so I couldn't get in.",
+         "fr": "J'ai perdu mes clés, alors je n'ai pas pu entrer.",
+         "chunks": [
+          "I",
+          "lost",
+          "my keys",
+          "so",
+          "I",
+          "couldn't",
+          "get in"
+         ],
+         "focus": {
+          "chunk": "so",
+          "answer": "so : la conséquence (alors, donc)",
+          "why": "Ne pas pouvoir entrer, c'est la conséquence : so."
+         },
+         "blank": {
+          "chunk": "couldn't",
+          "base": "can",
+          "wrong": [
+           "can't",
+           "didn't can"
+          ]
+         },
+         "alt": [
+          "I couldn't get in because I lost my keys.",
+          "I couldn't get in because I had lost my keys."
+         ],
+         "combine": {
+          "sentences": [
+           "I lost my keys.",
+           "I couldn't get in."
+          ],
+          "link": "so"
+         },
+         "id": "en-phrase-4-2-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que donne le mot surligné ?",
+        "options": [
+         "because : la cause (parce que)",
+         "so : la conséquence (alors, donc)"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-4:3",
+       "title": "Tout ensemble : and, but, or, so, because",
+       "rule": {
+        "intro": "Pour bien relier, demande-toi ce que la 2e idée apporte : un ajout (and), une opposition (but), un choix (or), une conséquence (so) ou une cause (because).",
+        "points": [
+         "I wanted to go out, but it was too cold : une opposition.",
+         "The film was boring, so we left early : une conséquence.",
+         "We missed the train because we woke up late : une cause."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "I wanted to go out, but it was too cold.",
+          "Je voulais sortir, mais il faisait trop froid."
+         ],
+         [
+          "We missed the train because we woke up late.",
+          "Nous avons raté le train parce que nous nous sommes réveillés tard."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "I wanted to go out, but it was too cold.",
+         "fr": "Je voulais sortir, mais il faisait trop froid.",
+         "chunks": [
+          "I",
+          "wanted",
+          "to go out",
+          "but",
+          "it",
+          "was",
+          "too cold"
+         ],
+         "focus": {
+          "chunk": "but",
+          "answer": "but : on oppose",
+          "why": "Une opposition : but."
+         },
+         "blank": {
+          "chunk": "but",
+          "base": "mais",
+          "wrong": [
+           "so",
+           "because"
+          ]
+         },
+         "wrongMeanings": [
+          "Je suis sorti parce qu'il faisait froid.",
+          "Je ne voulais pas sortir, car il faisait froid."
+         ],
+         "combine": {
+          "sentences": [
+           "I wanted to go out.",
+           "It was too cold."
+          ],
+          "link": "but"
+         },
+         "id": "en-phrase-4-3-01"
+        },
+        {
+         "text": "The film was boring, so we left early.",
+         "fr": "Le film était ennuyeux, alors nous sommes partis tôt.",
+         "chunks": [
+          "the film",
+          "was",
+          "boring",
+          "so",
+          "we",
+          "left",
+          "early"
+         ],
+         "focus": {
+          "chunk": "so",
+          "answer": "so : la conséquence (alors, donc)",
+          "why": "Partir tôt, c'est la conséquence : so."
+         },
+         "blank": {
+          "chunk": "boring",
+          "base": "ennuyeux",
+          "wrong": [
+           "bored",
+           "bores"
+          ]
+         },
+         "alt": [
+          "The movie was boring, so we left early.",
+          "We left early because the film was boring."
+         ],
+         "combine": {
+          "sentences": [
+           "The film was boring.",
+           "We left early."
+          ],
+          "link": "so"
+         },
+         "id": "en-phrase-4-3-02"
+        },
+        {
+         "text": "You can stay here or come with us.",
+         "fr": "Tu peux rester ici ou venir avec nous.",
+         "chunks": [
+          "you",
+          "can",
+          "stay",
+          "here",
+          "or",
+          "come",
+          "with us"
+         ],
+         "focus": {
+          "chunk": "or",
+          "answer": "or : on choisit",
+          "why": "Un choix : or."
+         },
+         "blank": {
+          "chunk": "or",
+          "base": "ou",
+          "wrong": [
+           "and",
+           "but"
+          ]
+         },
+         "combine": {
+          "sentences": [
+           "You can stay here.",
+           "You can come with us."
+          ],
+          "link": "or"
+         },
+         "id": "en-phrase-4-3-03"
+        },
+        {
+         "text": "She smiled because she was happy.",
+         "fr": "Elle a souri parce qu'elle était contente.",
+         "chunks": [
+          "she",
+          "smiled",
+          "because",
+          "she",
+          "was",
+          "happy"
+         ],
+         "focus": {
+          "chunk": "because",
+          "answer": "because : la cause (parce que)",
+          "why": "Être contente, c'est la cause : because."
+         },
+         "blank": {
+          "chunk": "because",
+          "base": "parce que",
+          "wrong": [
+           "so",
+           "but"
+          ]
+         },
+         "alt": [
+          "She was happy, so she smiled."
+         ],
+         "wrongMeanings": [
+          "Elle était contente parce qu'elle avait souri.",
+          "Elle a souri, mais elle était triste."
+         ],
+         "combine": {
+          "sentences": [
+           "She smiled.",
+           "She was happy."
+          ],
+          "link": "because"
+         },
+         "orders": [
+          "Because she was happy, she smiled."
+         ],
+         "id": "en-phrase-4-3-04"
+        },
+        {
+         "text": "He ate quickly and ran to the station.",
+         "fr": "Il a mangé vite et il a couru jusqu'à la gare.",
+         "chunks": [
+          "he",
+          "ate",
+          "quickly",
+          "and",
+          "ran",
+          "to the station"
+         ],
+         "focus": {
+          "chunk": "and",
+          "answer": "and : on ajoute",
+          "why": "Une action de plus : and."
+         },
+         "blank": {
+          "chunk": "ran",
+          "base": "run",
+          "wrong": [
+           "run",
+           "runned"
+          ]
+         },
+         "alt": [
+          "He ate fast and ran to the station."
+         ],
+         "combine": {
+          "sentences": [
+           "He ate quickly.",
+           "He ran to the station."
+          ],
+          "link": "and"
+         },
+         "id": "en-phrase-4-3-05"
+        },
+        {
+         "text": "I don't like coffee, but I drink it every morning.",
+         "fr": "Je n'aime pas le café, mais j'en bois tous les matins.",
+         "chunks": [
+          "I",
+          "don't",
+          "like",
+          "coffee",
+          "but",
+          "I",
+          "drink",
+          "it",
+          "every morning"
+         ],
+         "focus": {
+          "chunk": "but",
+          "answer": "but : on oppose",
+          "why": "Une opposition : but."
+         },
+         "blank": {
+          "chunk": "drink",
+          "base": "drink",
+          "wrong": [
+           "drinks",
+           "am drinking"
+          ]
+         },
+         "combine": {
+          "sentences": [
+           "I don't like coffee.",
+           "I drink it every morning."
+          ],
+          "link": "but"
+         },
+         "id": "en-phrase-4-3-06"
+        },
+        {
+         "text": "We missed the train because we woke up late.",
+         "fr": "Nous avons raté le train parce que nous nous sommes réveillés tard.",
+         "chunks": [
+          "we",
+          "missed",
+          "the train",
+          "because",
+          "we",
+          "woke up",
+          "late"
+         ],
+         "focus": {
+          "chunk": "because",
+          "answer": "because : la cause (parce que)",
+          "why": "Se réveiller tard, c'est la cause : because."
+         },
+         "blank": {
+          "chunk": "woke up",
+          "base": "wake up",
+          "wrong": [
+           "woken up",
+           "wakes up"
+          ]
+         },
+         "alt": [
+          "We woke up late, so we missed the train."
+         ],
+         "wrongMeanings": [
+          "Nous nous sommes réveillés tard, mais nous avons eu le train.",
+          "Nous avons raté le train, alors nous sommes rentrés tard."
+         ],
+         "combine": {
+          "sentences": [
+           "We missed the train.",
+           "We woke up late."
+          ],
+          "link": "because"
+         },
+         "orders": [
+          "Because we woke up late, we missed the train."
+         ],
+         "id": "en-phrase-4-3-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que fait le mot surligné ?",
+        "options": [
+         "and : on ajoute",
+         "but : on oppose",
+         "or : on choisit",
+         "because : la cause (parce que)",
+         "so : la conséquence (alors, donc)"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "en-phrase-5",
+     "title": "La subordonnée",
+     "hint": "when, if, because, although, while… ouvrent une subordonnée. En anglais, l'ordre des mots ne change pas ; mais quand when et if disent un moment ou une condition, le futur se dit au présent.",
+     "level": "A2",
+     "lessons": [
+      {
+       "id": "en-phrase-5:1",
+       "title": "when et if : le présent pour le futur",
+       "rule": {
+        "intro": "« Quand j'arriverai » se dit When I arrive : quand when, if, as soon as, before, after, until disent un moment ou une condition, pas de will, même pour le futur.",
+        "points": [
+         "I'll call you when I arrive. If it rains, we'll stay at home.",
+         "will reste dans l'autre partie de la phrase, la principale.",
+         "La subordonnée peut venir en premier : on met alors une virgule. When I arrive, I'll call you.",
+         "Faux : When I will arrive. C'est l'erreur la plus fréquente des francophones."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "I'll call you when I arrive.",
+          "Je t'appellerai quand j'arriverai."
+         ],
+         [
+          "If it rains, we'll stay at home.",
+          "S'il pleut, nous resterons à la maison."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "I'll call you when I arrive.",
+         "fr": "Je t'appellerai quand j'arriverai.",
+         "chunks": [
+          "I'll call",
+          "you",
+          "when",
+          "I",
+          "arrive"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "arrive",
+          "answer": "le présent : après when, if, as soon as",
+          "why": "Après when, le présent, même pour le futur."
+         },
+         "blank": {
+          "chunk": "arrive",
+          "base": "arrive",
+          "wrong": [
+           "will arrive",
+           "arrived"
+          ]
+         },
+         "alt": [
+          "I'll call you when I get there."
+         ],
+         "wrongMeanings": [
+          "Je t'ai appelé quand je suis arrivé.",
+          "Appelle-moi quand tu arriveras."
+         ],
+         "combine": {
+          "sentences": [
+           "I'll arrive.",
+           "I'll call you."
+          ],
+          "link": "when"
+         },
+         "orders": [
+          "When I arrive, I'll call you."
+         ],
+         "id": "en-phrase-5-1-01"
+        },
+        {
+         "text": "If it rains, we'll stay at home.",
+         "fr": "S'il pleut, nous resterons à la maison.",
+         "chunks": [
+          "if",
+          "it",
+          "rains",
+          "we'll stay",
+          "at home"
+         ],
+         "orders": [
+          "We'll stay at home if it rains."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "rains",
+          "answer": "le présent : après when, if, as soon as",
+          "why": "Après if, le présent : rains."
+         },
+         "blank": {
+          "chunk": "rains",
+          "base": "rain",
+          "wrong": [
+           "will rain",
+           "rained"
+          ]
+         },
+         "alt": [
+          "If it rains, we'll stay home."
+         ],
+         "wrongMeanings": [
+          "S'il pleuvait, nous resterions à la maison.",
+          "Quand il pleut, nous restons à la maison."
+         ],
+         "id": "en-phrase-5-1-02"
+        },
+        {
+         "text": "When she gets home, she'll be tired.",
+         "fr": "Quand elle rentrera, elle sera fatiguée.",
+         "chunks": [
+          "when",
+          "she",
+          "gets",
+          "home",
+          "she'll be",
+          "tired"
+         ],
+         "orders": [
+          "She'll be tired when she gets home."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "she'll be",
+          "answer": "will : dans la principale",
+          "why": "Dans la principale, will."
+         },
+         "blank": {
+          "chunk": "gets",
+          "base": "get",
+          "wrong": [
+           "will get",
+           "got"
+          ]
+         },
+         "id": "en-phrase-5-1-03"
+        },
+        {
+         "text": "If you need help, call me.",
+         "fr": "Si tu as besoin d'aide, appelle-moi.",
+         "chunks": [
+          "if",
+          "you",
+          "need",
+          "help",
+          "call",
+          "me"
+         ],
+         "orders": [
+          "Call me if you need help."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "need",
+          "answer": "le présent : après when, if, as soon as",
+          "why": "Après if, le présent."
+         },
+         "blank": {
+          "chunk": "need",
+          "base": "need",
+          "wrong": [
+           "will need",
+           "needs"
+          ]
+         },
+         "id": "en-phrase-5-1-04"
+        },
+        {
+         "text": "We'll start as soon as everyone is here.",
+         "fr": "Nous commencerons dès que tout le monde sera là.",
+         "chunks": [
+          "we'll start",
+          "as soon as",
+          "everyone",
+          "is",
+          "here"
+         ],
+         "orders": [
+          "As soon as everyone is here, we'll start."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "is",
+          "answer": "le présent : après when, if, as soon as",
+          "why": "Après as soon as, le présent : is, pas will be."
+         },
+         "blank": {
+          "chunk": "is",
+          "base": "be",
+          "wrong": [
+           "will be",
+           "are"
+          ]
+         },
+         "wrongMeanings": [
+          "Nous avons commencé dès que tout le monde était là.",
+          "Nous commencerons même si tout le monde n'est pas là."
+         ],
+         "id": "en-phrase-5-1-05"
+        },
+        {
+         "text": "If I see Tom, I'll tell him.",
+         "fr": "Si je vois Tom, je le lui dirai.",
+         "chunks": [
+          "if",
+          "I",
+          "see",
+          "Tom",
+          "I'll tell",
+          "him"
+         ],
+         "orders": [
+          "I'll tell him if I see Tom."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "I'll tell",
+          "answer": "will : dans la principale",
+          "why": "Dans la principale, will."
+         },
+         "blank": {
+          "chunk": "see",
+          "base": "see",
+          "wrong": [
+           "will see",
+           "saw"
+          ]
+         },
+         "id": "en-phrase-5-1-06"
+        },
+        {
+         "text": "When I'm older, I'll travel around the world.",
+         "fr": "Quand je serai plus grand, je ferai le tour du monde.",
+         "chunks": [
+          "when",
+          "I'm",
+          "older",
+          "I'll travel",
+          "around the world"
+         ],
+         "orders": [
+          "I'll travel around the world when I'm older."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "I'm",
+          "answer": "le présent : après when, if, as soon as",
+          "why": "Quand je serai → when I am."
+         },
+         "blank": {
+          "chunk": "I'm",
+          "base": "be",
+          "wrong": [
+           "I'll be",
+           "I was"
+          ]
+         },
+         "alt": [
+          "When I grow up, I'll travel around the world."
+         ],
+         "wrongMeanings": [
+          "Quand j'étais petit, je voyageais beaucoup.",
+          "Si j'étais plus grand, je ferais le tour du monde."
+         ],
+         "id": "en-phrase-5-1-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quelle forme a le groupe surligné ?",
+        "options": [
+         "le présent : après when, if, as soon as",
+         "will : dans la principale"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-5:2",
+       "title": "although : même si, bien que",
+       "rule": {
+        "intro": "although veut dire « bien que, même si ». Pas de subjonctif en anglais : l'ordre et le temps restent normaux.",
+        "points": [
+         "Although it was cold, we went swimming.",
+         "Faux : Although it was cold, but we went swimming. Avec although, pas de but.",
+         "even though dit la même chose, en plus fort : Even though he is rich, he isn't happy.",
+         "because (parce que) donne une cause ; although, une chose qui aurait dû empêcher."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Although it was cold, we went swimming.",
+          "Même s'il faisait froid, nous sommes allés nager."
+         ],
+         [
+          "She went to work although she was ill.",
+          "Elle est allée travailler même si elle était malade."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Although it was cold, we went swimming.",
+         "fr": "Même s'il faisait froid, nous sommes allés nager.",
+         "chunks": [
+          "although",
+          "it",
+          "was",
+          "cold",
+          "we",
+          "went",
+          "swimming"
+         ],
+         "orders": [
+          "We went swimming although it was cold."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "although",
+          "answer": "although : malgré cela",
+          "why": "Le froid aurait dû empêcher : although."
+         },
+         "blank": {
+          "chunk": "went",
+          "base": "go",
+          "wrong": [
+           "have gone",
+           "go"
+          ]
+         },
+         "alt": [
+          "Even though it was cold, we went swimming."
+         ],
+         "wrongMeanings": [
+          "Comme il faisait froid, nous ne sommes pas allés nager.",
+          "Il faisait froid, alors nous sommes allés nager."
+         ],
+         "combine": {
+          "sentences": [
+           "It was cold.",
+           "We went swimming."
+          ],
+          "link": "although"
+         },
+         "id": "en-phrase-5-2-01"
+        },
+        {
+         "text": "She went to work although she was ill.",
+         "fr": "Elle est allée travailler même si elle était malade.",
+         "chunks": [
+          "she",
+          "went",
+          "to work",
+          "although",
+          "she",
+          "was",
+          "ill"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "although",
+          "answer": "although : malgré cela",
+          "why": "Malade, et pourtant elle travaille : although."
+         },
+         "blank": {
+          "chunk": "was",
+          "base": "be",
+          "wrong": [
+           "is",
+           "were"
+          ]
+         },
+         "alt": [
+          "She went to work even though she was ill.",
+          "She went to work although she was sick."
+         ],
+         "combine": {
+          "sentences": [
+           "She went to work.",
+           "She was ill."
+          ],
+          "link": "although"
+         },
+         "orders": [
+          "Although she was ill, she went to work."
+         ],
+         "id": "en-phrase-5-2-02"
+        },
+        {
+         "text": "He failed the exam because he didn't study.",
+         "fr": "Il a raté l'examen parce qu'il n'avait pas révisé.",
+         "chunks": [
+          "he",
+          "failed",
+          "the exam",
+          "because",
+          "he",
+          "didn't",
+          "study"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "because",
+          "answer": "because : la cause",
+          "why": "Ne pas réviser, c'est la cause : because."
+         },
+         "blank": {
+          "chunk": "because",
+          "base": "parce que",
+          "wrong": [
+           "although",
+           "so"
+          ]
+         },
+         "alt": [
+          "He failed the exam because he hadn't studied."
+         ],
+         "wrongMeanings": [
+          "Il a réussi l'examen même s'il n'avait pas révisé.",
+          "Il n'a pas révisé parce qu'il avait raté l'examen."
+         ],
+         "combine": {
+          "sentences": [
+           "He failed the exam.",
+           "He didn't study."
+          ],
+          "link": "because"
+         },
+         "orders": [
+          "Because he didn't study, he failed the exam."
+         ],
+         "id": "en-phrase-5-2-03"
+        },
+        {
+         "text": "Even though he is rich, he isn't happy.",
+         "fr": "Bien qu'il soit riche, il n'est pas heureux.",
+         "chunks": [
+          "even though",
+          "he",
+          "is",
+          "rich",
+          "he",
+          "isn't",
+          "happy"
+         ],
+         "orders": [
+          "He isn't happy even though he is rich."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "even though",
+          "answer": "although : malgré cela",
+          "why": "Riche, et pourtant malheureux : even though."
+         },
+         "blank": {
+          "chunk": "isn't",
+          "base": "be",
+          "wrong": [
+           "doesn't",
+           "aren't"
+          ]
+         },
+         "alt": [
+          "Though he is rich, he isn't happy.",
+          "Although he is rich, he isn't happy.",
+          "Even though he's rich, he isn't happy."
+         ],
+         "wrongMeanings": [
+          "Il est heureux parce qu'il est riche.",
+          "Il n'est pas riche, mais il est heureux."
+         ],
+         "id": "en-phrase-5-2-04"
+        },
+        {
+         "text": "I like him, although he talks too much.",
+         "fr": "Je l'aime bien, même s'il parle trop.",
+         "chunks": [
+          "I",
+          "like",
+          "him",
+          "although",
+          "he",
+          "talks",
+          "too much"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "although",
+          "answer": "although : malgré cela",
+          "why": "Il parle trop, et pourtant je l'aime bien : although."
+         },
+         "blank": {
+          "chunk": "talks",
+          "base": "talk",
+          "wrong": [
+           "talk",
+           "is talking"
+          ]
+         },
+         "alt": [
+          "I like him even though he talks too much."
+         ],
+         "combine": {
+          "sentences": [
+           "I like him.",
+           "He talks too much."
+          ],
+          "link": "although"
+         },
+         "orders": [
+          "Although he talks too much, I like him."
+         ],
+         "id": "en-phrase-5-2-05"
+        },
+        {
+         "text": "We stayed inside because it was too hot.",
+         "fr": "Nous sommes restés à l'intérieur parce qu'il faisait trop chaud.",
+         "chunks": [
+          "we",
+          "stayed",
+          "inside",
+          "because",
+          "it",
+          "was",
+          "too hot"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "because",
+          "answer": "because : la cause",
+          "why": "La chaleur est la cause : because."
+         },
+         "blank": {
+          "chunk": "because",
+          "base": "parce que",
+          "wrong": [
+           "although",
+           "but"
+          ]
+         },
+         "combine": {
+          "sentences": [
+           "We stayed inside.",
+           "It was too hot."
+          ],
+          "link": "because"
+         },
+         "orders": [
+          "Because it was too hot, we stayed inside."
+         ],
+         "id": "en-phrase-5-2-06"
+        },
+        {
+         "text": "Although the food was good, the service was slow.",
+         "fr": "Même si la cuisine était bonne, le service était lent.",
+         "chunks": [
+          "although",
+          "the food",
+          "was",
+          "good",
+          "the service",
+          "was",
+          "slow"
+         ],
+         "orders": [
+          "The service was slow although the food was good."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "although",
+          "answer": "although : malgré cela",
+          "why": "Une chose bonne, une autre non : although."
+         },
+         "blank": {
+          "chunk": "slow",
+          "base": "lent",
+          "wrong": [
+           "slowly",
+           "slows"
+          ]
+         },
+         "alt": [
+          "Even though the food was good, the service was slow."
+         ],
+         "wrongMeanings": [
+          "La cuisine était bonne parce que le service était lent.",
+          "La cuisine et le service étaient lents."
+         ],
+         "combine": {
+          "sentences": [
+           "The food was good.",
+           "The service was slow."
+          ],
+          "link": "although"
+         },
+         "id": "en-phrase-5-2-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que dit le mot surligné ?",
+        "options": [
+         "because : la cause",
+         "although : malgré cela"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-5:3",
+       "title": "before, after, until, while",
+       "rule": {
+        "intro": "before (avant que), after (après que), until (jusqu'à ce que), while (pendant que) ouvrent une subordonnée de temps.",
+        "points": [
+         "Pas de subjonctif : Wait here until I come back (jusqu'à ce que je revienne).",
+         "Pour le futur, le présent, comme après when : We'll leave after we have lunch.",
+         "while + une action en cours : He fell asleep while he was watching TV.",
+         "Avec le même sujet, on peut aussi dire before eating, while watching…"
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Wash your hands before you eat.",
+          "Lave-toi les mains avant de manger."
+         ],
+         [
+          "Someone called while you were out.",
+          "Quelqu'un a appelé pendant que tu étais sorti."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Wash your hands before you eat.",
+         "fr": "Lave-toi les mains avant de manger.",
+         "chunks": [
+          "wash",
+          "your hands",
+          "before",
+          "you",
+          "eat"
+         ],
+         "orders": [
+          "Before you eat, wash your hands."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "before",
+          "answer": "before : avant",
+          "why": "D'abord les mains, puis manger : before."
+         },
+         "blank": {
+          "chunk": "before",
+          "base": "avant",
+          "wrong": [
+           "after",
+           "until"
+          ]
+         },
+         "alt": [
+          "Wash your hands before eating."
+         ],
+         "id": "en-phrase-5-3-01"
+        },
+        {
+         "text": "After the film ended, we went home.",
+         "fr": "Après la fin du film, nous sommes rentrés.",
+         "chunks": [
+          "after",
+          "the film",
+          "ended",
+          "we",
+          "went",
+          "home"
+         ],
+         "orders": [
+          "We went home after the film ended."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "after",
+          "answer": "after : après",
+          "why": "D'abord la fin du film, puis rentrer : after."
+         },
+         "blank": {
+          "chunk": "after",
+          "base": "après",
+          "wrong": [
+           "before",
+           "while"
+          ]
+         },
+         "alt": [
+          "After the movie ended, we went home.",
+          "We went home after the movie ended."
+         ],
+         "wrongMeanings": [
+          "Nous sommes rentrés avant la fin du film.",
+          "Après être rentrés, nous avons regardé un film."
+         ],
+         "combine": {
+          "sentences": [
+           "The film ended.",
+           "We went home."
+          ],
+          "link": "after"
+         },
+         "id": "en-phrase-5-3-02"
+        },
+        {
+         "text": "Wait here until I come back.",
+         "fr": "Attends ici jusqu'à ce que je revienne.",
+         "chunks": [
+          "wait",
+          "here",
+          "until",
+          "I",
+          "come back"
+         ],
+         "focus": {
+          "chunk": "until",
+          "answer": "until : jusqu'à ce que",
+          "why": "Jusqu'à mon retour : until."
+         },
+         "blank": {
+          "chunk": "come back",
+          "base": "come back",
+          "wrong": [
+           "will come back",
+           "came back"
+          ]
+         },
+         "alt": [
+          "Wait here until I get back.",
+          "Wait here till I come back."
+         ],
+         "wrongMeanings": [
+          "Attends ici jusqu'à ce que tu reviennes.",
+          "Reviens ici dès que tu peux."
+         ],
+         "id": "en-phrase-5-3-03"
+        },
+        {
+         "text": "Someone called while you were out.",
+         "fr": "Quelqu'un a appelé pendant que tu étais sorti.",
+         "chunks": [
+          "someone",
+          "called",
+          "while",
+          "you",
+          "were",
+          "out"
+         ],
+         "orders": [
+          "While you were out, someone called."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "while",
+          "answer": "while : pendant que",
+          "why": "Pendant ton absence : while."
+         },
+         "blank": {
+          "chunk": "while",
+          "base": "pendant que",
+          "wrong": [
+           "until",
+           "before"
+          ]
+         },
+         "alt": [
+          "Someone phoned while you were out."
+         ],
+         "combine": {
+          "sentences": [
+           "Someone called.",
+           "You were out."
+          ],
+          "link": "while"
+         },
+         "id": "en-phrase-5-3-04"
+        },
+        {
+         "text": "She lived in Rome until she was twenty.",
+         "fr": "Elle a vécu à Rome jusqu'à ses vingt ans.",
+         "chunks": [
+          "she",
+          "lived",
+          "in Rome",
+          "until",
+          "she",
+          "was",
+          "twenty"
+         ],
+         "focus": {
+          "chunk": "until",
+          "answer": "until : jusqu'à ce que",
+          "why": "Jusqu'à ses vingt ans : until."
+         },
+         "blank": {
+          "chunk": "lived",
+          "base": "live",
+          "wrong": [
+           "has lived",
+           "lives"
+          ]
+         },
+         "wrongMeanings": [
+          "Elle s'est installée à Rome à vingt ans.",
+          "Elle a vécu à Rome pendant vingt ans."
+         ],
+         "id": "en-phrase-5-3-05"
+        },
+        {
+         "text": "We'll leave after we have lunch.",
+         "fr": "Nous partirons après avoir déjeuné.",
+         "chunks": [
+          "we'll leave",
+          "after",
+          "we",
+          "have",
+          "lunch"
+         ],
+         "orders": [
+          "After we have lunch, we'll leave."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "after",
+          "answer": "after : après",
+          "why": "Après, et le présent derrière : after we have lunch."
+         },
+         "blank": {
+          "chunk": "have",
+          "base": "have",
+          "wrong": [
+           "will have",
+           "had"
+          ]
+         },
+         "alt": [
+          "We'll leave after lunch.",
+          "We'll leave after we've had lunch.",
+          "We'll leave after having lunch."
+         ],
+         "id": "en-phrase-5-3-06"
+        },
+        {
+         "text": "He fell asleep while he was watching TV.",
+         "fr": "Il s'est endormi pendant qu'il regardait la télé.",
+         "chunks": [
+          "he",
+          "fell asleep",
+          "while",
+          "he",
+          "was watching",
+          "TV"
+         ],
+         "orders": [
+          "While he was watching TV, he fell asleep."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "while",
+          "answer": "while : pendant que",
+          "why": "Pendant qu'il regardait : while."
+         },
+         "blank": {
+          "chunk": "was watching",
+          "base": "watch",
+          "wrong": [
+           "is watching",
+           "watches"
+          ]
+         },
+         "alt": [
+          "He fell asleep watching TV.",
+          "He fell asleep while watching TV."
+         ],
+         "combine": {
+          "sentences": [
+           "He was watching TV.",
+           "He fell asleep."
+          ],
+          "link": "while"
+         },
+         "id": "en-phrase-5-3-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que dit le mot surligné ?",
+        "options": [
+         "before : avant",
+         "after : après",
+         "until : jusqu'à ce que",
+         "while : pendant que"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-5:4",
+       "title": "that : rapporter ce qu'on dit ou pense",
+       "rule": {
+        "intro": "Après think, know, hope, say, tell…, that veut dire « que ». Et on l'enlève très souvent : I think he is right.",
+        "points": [
+         "Pas de subjonctif : It's a pity that you can't come (que tu ne puisses pas venir).",
+         "say + ce qu'on dit : She said that she was tired.",
+         "tell + la personne : He told me that he was leaving. Faux : He said me.",
+         "Pour traduire, avec ou sans that, les deux sont justes."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "I think that he is right.",
+          "Je pense qu'il a raison."
+         ],
+         [
+          "He told me that he was leaving.",
+          "Il m'a dit qu'il partait."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "I think that he is right.",
+         "fr": "Je pense qu'il a raison.",
+         "chunks": [
+          "I",
+          "think",
+          "that",
+          "he",
+          "is",
+          "right"
+         ],
+         "focus": {
+          "chunk": "that",
+          "answer": "that (que), qu'on peut enlever",
+          "why": "Que → that, et on peut l'enlever : I think he is right."
+         },
+         "blank": {
+          "chunk": "is",
+          "base": "be",
+          "wrong": [
+           "has",
+           "are"
+          ]
+         },
+         "alt": [
+          "I think he is right.",
+          "I think he's right."
+         ],
+         "wrongMeanings": [
+          "Je pense qu'il a tort.",
+          "Il pense que j'ai raison."
+         ],
+         "id": "en-phrase-5-4-01"
+        },
+        {
+         "text": "She said that she was tired.",
+         "fr": "Elle a dit qu'elle était fatiguée.",
+         "chunks": [
+          "she",
+          "said",
+          "that",
+          "she",
+          "was",
+          "tired"
+         ],
+         "focus": {
+          "chunk": "she said",
+          "answer": "la principale",
+          "why": "Avant that : la principale."
+         },
+         "blank": {
+          "chunk": "said",
+          "base": "say",
+          "wrong": [
+           "told",
+           "says"
+          ]
+         },
+         "alt": [
+          "She said she was tired."
+         ],
+         "id": "en-phrase-5-4-02"
+        },
+        {
+         "text": "He told me that he was leaving.",
+         "fr": "Il m'a dit qu'il partait.",
+         "chunks": [
+          "he",
+          "told",
+          "me",
+          "that",
+          "he",
+          "was leaving"
+         ],
+         "focus": {
+          "chunk": "he told me",
+          "answer": "la principale",
+          "why": "Avant that : la principale (tell + la personne : told me)."
+         },
+         "blank": {
+          "chunk": "told",
+          "base": "tell",
+          "wrong": [
+           "said",
+           "says"
+          ]
+         },
+         "alt": [
+          "He told me he was leaving."
+         ],
+         "wrongMeanings": [
+          "Je lui ai dit que je partais.",
+          "Il m'a demandé si je partais."
+         ],
+         "id": "en-phrase-5-4-03"
+        },
+        {
+         "text": "I hope that you feel better soon.",
+         "fr": "J'espère que tu iras vite mieux.",
+         "chunks": [
+          "I",
+          "hope",
+          "that",
+          "you",
+          "feel",
+          "better",
+          "soon"
+         ],
+         "focus": {
+          "chunk": "that you feel better soon",
+          "answer": "la subordonnée",
+          "why": "De that jusqu'à la fin : la subordonnée."
+         },
+         "blank": {
+          "chunk": "feel",
+          "base": "feel",
+          "wrong": [
+           "feels",
+           "felt"
+          ]
+         },
+         "alt": [
+          "I hope you feel better soon.",
+          "I hope you get better soon.",
+          "I hope you will feel better soon."
+         ],
+         "id": "en-phrase-5-4-04"
+        },
+        {
+         "text": "We know that it isn't easy.",
+         "fr": "Nous savons que ce n'est pas facile.",
+         "chunks": [
+          "we",
+          "know",
+          "that",
+          "it",
+          "isn't",
+          "easy"
+         ],
+         "focus": {
+          "chunk": "that",
+          "answer": "that (que), qu'on peut enlever",
+          "why": "Que → that, qu'on peut enlever."
+         },
+         "blank": {
+          "chunk": "know",
+          "base": "know",
+          "wrong": [
+           "knows",
+           "are knowing"
+          ]
+         },
+         "alt": [
+          "We know it isn't easy.",
+          "We know it's not easy."
+         ],
+         "id": "en-phrase-5-4-05"
+        },
+        {
+         "text": "Are you sure that the shop is open?",
+         "fr": "Tu es sûr que le magasin est ouvert ?",
+         "chunks": [
+          "are",
+          "you",
+          "sure",
+          "that",
+          "the shop",
+          "is",
+          "open"
+         ],
+         "focus": {
+          "chunk": "that the shop is open",
+          "answer": "la subordonnée",
+          "why": "De that jusqu'à la fin : la subordonnée."
+         },
+         "blank": {
+          "chunk": "open",
+          "base": "ouvert",
+          "wrong": [
+           "opened",
+           "opening"
+          ]
+         },
+         "alt": [
+          "Are you sure the shop is open?",
+          "Are you sure the store is open?"
+         ],
+         "wrongMeanings": [
+          "Tu es sûr que le magasin est fermé ?",
+          "Tu sais à quelle heure ouvre le magasin ?"
+         ],
+         "id": "en-phrase-5-4-06"
+        },
+        {
+         "text": "It's a pity that you can't come.",
+         "fr": "C'est dommage que tu ne puisses pas venir.",
+         "chunks": [
+          "it's",
+          "a pity",
+          "that",
+          "you",
+          "can't",
+          "come"
+         ],
+         "focus": {
+          "chunk": "that",
+          "answer": "that (que), qu'on peut enlever",
+          "why": "Que → that, qu'on peut enlever (It's a pity you can't come) ; et pas de subjonctif."
+         },
+         "blank": {
+          "chunk": "can't",
+          "base": "can",
+          "wrong": [
+           "don't can",
+           "can't to"
+          ]
+         },
+         "alt": [
+          "It's a pity you can't come.",
+          "It's a shame that you can't come.",
+          "It's a shame you can't come.",
+          "It's too bad you can't come."
+         ],
+         "id": "en-phrase-5-4-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel est le groupe surligné ?",
+        "options": [
+         "la principale",
+         "that (que), qu'on peut enlever",
+         "la subordonnée"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-5:5",
+       "title": "Tout ensemble : relier et emboîter",
+       "rule": {
+        "intro": "Pour bien relier, demande-toi ce que dit la subordonnée : une condition (if), un moment (when, while, before…), une cause (because) ou un obstacle (although).",
+        "points": [
+         "If you're tired, go to bed : une condition.",
+         "Although I was tired, I finished my work : un obstacle.",
+         "Quand if, when, before… disent une condition ou un moment, le futur se dit au présent."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "If you're tired, go to bed.",
+          "Si tu es fatigué, va te coucher."
+         ],
+         [
+          "Although I was tired, I finished my work.",
+          "Même si j'étais fatigué, j'ai fini mon travail."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "If you're tired, go to bed.",
+         "fr": "Si tu es fatigué, va te coucher.",
+         "chunks": [
+          "if",
+          "you're",
+          "tired",
+          "go to bed"
+         ],
+         "orders": [
+          "Go to bed if you're tired."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "if",
+          "answer": "if : une condition",
+          "why": "Une condition : if."
+         },
+         "blank": {
+          "chunk": "if",
+          "base": "si",
+          "wrong": [
+           "although",
+           "because"
+          ]
+         },
+         "id": "en-phrase-5-5-01"
+        },
+        {
+         "text": "When I was a child, I was afraid of the dark.",
+         "fr": "Quand j'étais enfant, j'avais peur du noir.",
+         "chunks": [
+          "when",
+          "I",
+          "was",
+          "a child",
+          "I",
+          "was",
+          "afraid of the dark"
+         ],
+         "orders": [
+          "I was afraid of the dark when I was a child."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "when",
+          "answer": "when, while, before… : un moment",
+          "why": "Un moment du passé : when."
+         },
+         "blank": {
+          "chunk": "afraid of the dark",
+          "base": "peur du noir",
+          "wrong": [
+           "afraid from the dark",
+           "afraid at the dark"
+          ]
+         },
+         "alt": [
+          "When I was little, I was afraid of the dark."
+         ],
+         "wrongMeanings": [
+          "Quand j'étais enfant, j'aimais le noir.",
+          "Mon enfant a peur du noir."
+         ],
+         "combine": {
+          "sentences": [
+           "I was a child.",
+           "I was afraid of the dark."
+          ],
+          "link": "when"
+         },
+         "id": "en-phrase-5-5-02"
+        },
+        {
+         "text": "Although I was tired, I finished my work.",
+         "fr": "Même si j'étais fatigué, j'ai fini mon travail.",
+         "chunks": [
+          "although",
+          "I",
+          "was",
+          "tired",
+          "I",
+          "finished",
+          "my work"
+         ],
+         "orders": [
+          "I finished my work although I was tired."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "although",
+          "answer": "although : malgré cela",
+          "why": "La fatigue aurait dû empêcher : although."
+         },
+         "blank": {
+          "chunk": "finished",
+          "base": "finish",
+          "wrong": [
+           "finishing",
+           "finishes"
+          ]
+         },
+         "alt": [
+          "Even though I was tired, I finished my work."
+         ],
+         "wrongMeanings": [
+          "J'étais fatigué parce que j'avais fini mon travail.",
+          "J'étais fatigué, alors je n'ai pas fini mon travail."
+         ],
+         "combine": {
+          "sentences": [
+           "I was tired.",
+           "I finished my work."
+          ],
+          "link": "although"
+         },
+         "id": "en-phrase-5-5-03"
+        },
+        {
+         "text": "We stopped the car because we were lost.",
+         "fr": "Nous nous sommes arrêtés parce que nous étions perdus.",
+         "chunks": [
+          "we",
+          "stopped",
+          "the car",
+          "because",
+          "we",
+          "were",
+          "lost"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "because",
+          "answer": "because : la cause",
+          "why": "Être perdus, c'est la cause : because."
+         },
+         "blank": {
+          "chunk": "were",
+          "base": "be",
+          "wrong": [
+           "was",
+           "are"
+          ]
+         },
+         "alt": [
+          "We stopped because we were lost."
+         ],
+         "combine": {
+          "sentences": [
+           "We stopped the car.",
+           "We were lost."
+          ],
+          "link": "because"
+         },
+         "orders": [
+          "Because we were lost, we stopped the car."
+         ],
+         "id": "en-phrase-5-5-04"
+        },
+        {
+         "text": "Turn off the lights before you leave.",
+         "fr": "Éteins la lumière avant de partir.",
+         "chunks": [
+          "turn off",
+          "the lights",
+          "before",
+          "you",
+          "leave"
+         ],
+         "orders": [
+          "Before you leave, turn off the lights."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "before",
+          "answer": "when, while, before… : un moment",
+          "why": "Un moment : avant de partir."
+         },
+         "blank": {
+          "chunk": "leave",
+          "base": "leave",
+          "wrong": [
+           "will leave",
+           "left"
+          ]
+         },
+         "alt": [
+          "Turn off the light before you leave.",
+          "Turn the lights off before you leave.",
+          "Switch off the lights before you leave.",
+          "Turn off the lights before leaving."
+         ],
+         "id": "en-phrase-5-5-05"
+        },
+        {
+         "text": "If we leave now, we'll catch the train.",
+         "fr": "Si nous partons maintenant, nous aurons le train.",
+         "chunks": [
+          "if",
+          "we",
+          "leave",
+          "now",
+          "we'll catch",
+          "the train"
+         ],
+         "orders": [
+          "We'll catch the train if we leave now."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "if",
+          "answer": "if : une condition",
+          "why": "Une condition : if."
+         },
+         "blank": {
+          "chunk": "leave",
+          "base": "leave",
+          "wrong": [
+           "will leave",
+           "left"
+          ]
+         },
+         "wrongMeanings": [
+          "Si nous étions partis plus tôt, nous aurions eu le train.",
+          "Nous partons maintenant, mais nous allons rater le train."
+         ],
+         "id": "en-phrase-5-5-06"
+        },
+        {
+         "text": "She was singing while she was cooking.",
+         "fr": "Elle chantait pendant qu'elle faisait la cuisine.",
+         "chunks": [
+          "she",
+          "was singing",
+          "while",
+          "she",
+          "was cooking"
+         ],
+         "orders": [
+          "While she was cooking, she was singing."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "while",
+          "answer": "when, while, before… : un moment",
+          "why": "Deux actions en même temps : while."
+         },
+         "blank": {
+          "chunk": "was cooking",
+          "base": "cook",
+          "wrong": [
+           "is cooking",
+           "cooks"
+          ]
+         },
+         "alt": [
+          "She was singing while cooking.",
+          "She sang while she was cooking."
+         ],
+         "combine": {
+          "sentences": [
+           "She was singing.",
+           "She was cooking."
+          ],
+          "link": "while"
+         },
+         "id": "en-phrase-5-5-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que dit la subordonnée ?",
+        "options": [
+         "if : une condition",
+         "when, while, before… : un moment",
+         "because : la cause",
+         "although : malgré cela"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "en-phrase-6",
+     "title": "Les questions indirectes",
+     "hint": "Une question glissée dans une phrase (Do you know where…?) perd son inversion et son do : on revient à l'ordre sujet, verbe.",
+     "level": "B1",
+     "lessons": [
+      {
+       "id": "en-phrase-6:1",
+       "title": "Do you know where…? : pas d'inversion",
+       "rule": {
+        "intro": "Dans une question indirecte, l'ordre redevient sujet, verbe : Where is the station? → Can you tell me where the station is?",
+        "points": [
+         "Plus de do, does, did : Where does he live? → Do you know where he lives?",
+         "Faux : Can you tell me where is the station? C'est l'erreur à éviter.",
+         "Les questions indirectes sont plus polies : Could you tell me…? Do you know…? I wonder…"
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Can you tell me where the station is?",
+          "Pouvez-vous me dire où est la gare ?"
+         ],
+         [
+          "Do you know where he lives?",
+          "Tu sais où il habite ?"
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Can you tell me where the station is?",
+         "fr": "Pouvez-vous me dire où est la gare ?",
+         "chunks": [
+          "can you tell me",
+          "where",
+          "the station",
+          "is"
+         ],
+         "focus": {
+          "chunk": "the station is",
+          "answer": "une question indirecte : le sujet, puis le verbe",
+          "why": "Question indirecte : the station, puis is."
+         },
+         "alt": [
+          "Could you tell me where the station is?"
+         ],
+         "wrongMeanings": [
+          "Pouvez-vous me montrer la gare sur le plan ?",
+          "Pouvez-vous me dire quand part le train ?"
+         ],
+         "id": "en-phrase-6-1-01"
+        },
+        {
+         "text": "Do you know where he lives?",
+         "fr": "Tu sais où il habite ?",
+         "chunks": [
+          "do you know",
+          "where",
+          "he",
+          "lives"
+         ],
+         "focus": {
+          "chunk": "he lives",
+          "answer": "une question indirecte : le sujet, puis le verbe",
+          "why": "Pas de does dans la question indirecte : he lives."
+         },
+         "blank": {
+          "chunk": "lives",
+          "base": "live",
+          "wrong": [
+           "does live",
+           "live"
+          ]
+         },
+         "id": "en-phrase-6-1-02"
+        },
+        {
+         "text": "Where does he live?",
+         "fr": "Où habite-t-il ?",
+         "chunks": [
+          "where",
+          "does",
+          "he",
+          "live"
+         ],
+         "focus": {
+          "chunk": "does",
+          "answer": "une question directe : l'auxiliaire avant le sujet",
+          "why": "Question directe : does avant he."
+         },
+         "blank": {
+          "chunk": "live",
+          "base": "live",
+          "wrong": [
+           "lives",
+           "living"
+          ]
+         },
+         "id": "en-phrase-6-1-03"
+        },
+        {
+         "text": "I don't know what time it is.",
+         "fr": "Je ne sais pas quelle heure il est.",
+         "chunks": [
+          "I",
+          "don't",
+          "know",
+          "what time",
+          "it",
+          "is"
+         ],
+         "focus": {
+          "chunk": "it is",
+          "answer": "une question indirecte : le sujet, puis le verbe",
+          "why": "Question indirecte : it, puis is."
+         },
+         "wrongMeanings": [
+          "Je ne sais pas à quelle heure il arrive.",
+          "Je sais quelle heure il est."
+         ],
+         "id": "en-phrase-6-1-04"
+        },
+        {
+         "text": "Could you tell me how much this costs?",
+         "fr": "Pourriez-vous me dire combien ça coûte ?",
+         "chunks": [
+          "could you tell me",
+          "how much",
+          "this",
+          "costs"
+         ],
+         "focus": {
+          "chunk": "this costs",
+          "answer": "une question indirecte : le sujet, puis le verbe",
+          "why": "Pas de does : this costs."
+         },
+         "blank": {
+          "chunk": "costs",
+          "base": "cost",
+          "wrong": [
+           "does cost",
+           "cost"
+          ]
+         },
+         "alt": [
+          "Can you tell me how much this costs?",
+          "Could you tell me how much it costs?"
+         ],
+         "id": "en-phrase-6-1-05"
+        },
+        {
+         "text": "I wonder what she bought.",
+         "fr": "Je me demande ce qu'elle a acheté.",
+         "chunks": [
+          "I wonder",
+          "what",
+          "she",
+          "bought"
+         ],
+         "focus": {
+          "chunk": "she bought",
+          "answer": "une question indirecte : le sujet, puis le verbe",
+          "why": "Pas de did : she bought."
+         },
+         "blank": {
+          "chunk": "bought",
+          "base": "buy",
+          "wrong": [
+           "did buy",
+           "buyed"
+          ]
+         },
+         "wrongMeanings": [
+          "Je me demande où elle l'a acheté.",
+          "Je sais ce qu'elle a acheté."
+         ],
+         "id": "en-phrase-6-1-06"
+        },
+        {
+         "text": "Do you remember where I put my keys?",
+         "fr": "Tu te rappelles où j'ai mis mes clés ?",
+         "chunks": [
+          "do you remember",
+          "where",
+          "I",
+          "put",
+          "my keys"
+         ],
+         "focus": {
+          "chunk": "I put",
+          "answer": "une question indirecte : le sujet, puis le verbe",
+          "why": "Pas de did : I put."
+         },
+         "blank": {
+          "chunk": "put",
+          "base": "put",
+          "wrong": [
+           "did put",
+           "putted"
+          ]
+         },
+         "id": "en-phrase-6-1-07"
+        },
+        {
+         "text": "Where are my keys?",
+         "fr": "Où sont mes clés ?",
+         "chunks": [
+          "where",
+          "are",
+          "my keys"
+         ],
+         "focus": {
+          "chunk": "are",
+          "answer": "une question directe : l'auxiliaire avant le sujet",
+          "why": "Question directe : are avant my keys."
+         },
+         "blank": {
+          "chunk": "are",
+          "base": "be",
+          "wrong": [
+           "is",
+           "do"
+          ]
+         },
+         "id": "en-phrase-6-1-08"
+        }
+       ],
+       "ask": {
+        "prompt": "Quelle sorte de question ?",
+        "options": [
+         "une question directe : l'auxiliaire avant le sujet",
+         "une question indirecte : le sujet, puis le verbe"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-6:2",
+       "title": "if et whether : je ne sais pas si…",
+       "rule": {
+        "intro": "Pour une question oui / non glissée dans une phrase, on emploie if ou whether (si) : I don't know if he will come.",
+        "points": [
+         "Ce if-là pose une question : will y est permis. I don't know if he will come (s'il viendra).",
+         "L'autre if pose une condition : en général, pas de will. If he comes, I'll be happy (s'il vient).",
+         "whether = if dans une question, un peu plus soutenu : I wonder whether they're still together.",
+         "Toujours sans inversion : She asked me if I was hungry."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "I don't know if he will come.",
+          "Je ne sais pas s'il viendra."
+         ],
+         [
+          "If he comes, I'll be happy.",
+          "S'il vient, je serai content."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "I don't know if he will come.",
+         "fr": "Je ne sais pas s'il viendra.",
+         "chunks": [
+          "I",
+          "don't",
+          "know",
+          "if",
+          "he",
+          "will",
+          "come"
+         ],
+         "focus": {
+          "chunk": "if",
+          "answer": "if / whether : une question (est-ce que…)",
+          "why": "Je ne sais pas si… : une question, will est permis."
+         },
+         "blank": {
+          "chunk": "will",
+          "base": "will",
+          "wrong": [
+           "would",
+           "does"
+          ]
+         },
+         "alt": [
+          "I don't know whether he will come.",
+          "I don't know if he is coming.",
+          "I don't know whether he is coming."
+         ],
+         "wrongMeanings": [
+          "S'il vient, je ne le saurai pas.",
+          "Je ne sais pas s'il est venu."
+         ],
+         "id": "en-phrase-6-2-01"
+        },
+        {
+         "text": "If he comes, I'll be happy.",
+         "fr": "S'il vient, je serai content.",
+         "chunks": [
+          "if",
+          "he",
+          "comes",
+          "I'll be",
+          "happy"
+         ],
+         "orders": [
+          "I'll be happy if he comes."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "if",
+          "answer": "if : une condition",
+          "why": "Une condition : présent après if."
+         },
+         "blank": {
+          "chunk": "comes",
+          "base": "come",
+          "wrong": [
+           "will come",
+           "came"
+          ]
+         },
+         "wrongMeanings": [
+          "Je ne sais pas s'il viendra.",
+          "S'il venait, je serais content."
+         ],
+         "id": "en-phrase-6-2-02"
+        },
+        {
+         "text": "Can you ask her if she needs anything?",
+         "fr": "Tu peux lui demander si elle a besoin de quelque chose ?",
+         "chunks": [
+          "can you ask her",
+          "if",
+          "she",
+          "needs",
+          "anything"
+         ],
+         "focus": {
+          "chunk": "if",
+          "answer": "if / whether : une question (est-ce que…)",
+          "why": "Demander si… : une question."
+         },
+         "blank": {
+          "chunk": "needs",
+          "base": "need",
+          "wrong": [
+           "does need",
+           "need"
+          ]
+         },
+         "alt": [
+          "Could you ask her if she needs anything?",
+          "Can you ask her whether she needs anything?"
+         ],
+         "id": "en-phrase-6-2-03"
+        },
+        {
+         "text": "I wonder whether they're still together.",
+         "fr": "Je me demande s'ils sont toujours ensemble.",
+         "chunks": [
+          "I wonder",
+          "whether",
+          "they're",
+          "still",
+          "together"
+         ],
+         "focus": {
+          "chunk": "whether",
+          "answer": "if / whether : une question (est-ce que…)",
+          "why": "Je me demande si… : whether."
+         },
+         "blank": {
+          "chunk": "still",
+          "base": "toujours",
+          "wrong": [
+           "always",
+           "yet"
+          ]
+         },
+         "alt": [
+          "I wonder if they're still together."
+         ],
+         "wrongMeanings": [
+          "Je sais qu'ils sont toujours ensemble.",
+          "Je me demande s'ils se sont mariés."
+         ],
+         "id": "en-phrase-6-2-04"
+        },
+        {
+         "text": "If you don't hurry, you'll be late.",
+         "fr": "Si tu ne te dépêches pas, tu seras en retard.",
+         "chunks": [
+          "if",
+          "you",
+          "don't",
+          "hurry",
+          "you'll be",
+          "late"
+         ],
+         "orders": [
+          "You'll be late if you don't hurry."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "if",
+          "answer": "if : une condition",
+          "why": "Une condition : présent après if."
+         },
+         "blank": {
+          "chunk": "hurry",
+          "base": "hurry",
+          "wrong": [
+           "will hurry",
+           "hurries"
+          ]
+         },
+         "alt": [
+          "Unless you hurry, you'll be late."
+         ],
+         "id": "en-phrase-6-2-05"
+        },
+        {
+         "text": "Do you know if the museum is open on Mondays?",
+         "fr": "Tu sais si le musée est ouvert le lundi ?",
+         "chunks": [
+          "do you know",
+          "if",
+          "the museum",
+          "is",
+          "open",
+          "on Mondays"
+         ],
+         "focus": {
+          "chunk": "if",
+          "answer": "if / whether : une question (est-ce que…)",
+          "why": "Tu sais si… : une question."
+         },
+         "blank": {
+          "chunk": "is",
+          "base": "be",
+          "wrong": [
+           "are",
+           "does"
+          ]
+         },
+         "alt": [
+          "Do you know whether the museum is open on Mondays?"
+         ],
+         "id": "en-phrase-6-2-06"
+        },
+        {
+         "text": "She asked me if I was hungry.",
+         "fr": "Elle m'a demandé si j'avais faim.",
+         "chunks": [
+          "she",
+          "asked",
+          "me",
+          "if",
+          "I",
+          "was",
+          "hungry"
+         ],
+         "focus": {
+          "chunk": "if",
+          "answer": "if / whether : une question (est-ce que…)",
+          "why": "Demander si… : une question, sans inversion."
+         },
+         "blank": {
+          "chunk": "was",
+          "base": "be",
+          "wrong": [
+           "am",
+           "had"
+          ]
+         },
+         "alt": [
+          "She asked me whether I was hungry."
+         ],
+         "wrongMeanings": [
+          "Elle m'a dit qu'elle avait faim.",
+          "Je lui ai demandé si elle avait faim."
+         ],
+         "id": "en-phrase-6-2-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que fait if / whether ici ?",
+        "options": [
+         "if : une condition",
+         "if / whether : une question (est-ce que…)"
+        ]
+       }
+      }
+     ]
+    }
+   ]
   }
  ]
 }

@@ -225,7 +225,8 @@ describe('phrase challenges', () => {
 
   it('gives every track its own challenges', () => {
     expect(tracks.map((track) => track.id)).toEqual(['de-cas', 'de-temps', 'de-phrase']);
-    const ids = tracks.flatMap(phraseChallenges).map((challenge) => challenge.id);
+    expect(phraseTracks(english).map((track) => track.id)).toEqual(['en-temps', 'en-phrase']);
+    const ids = [...tracks, ...phraseTracks(english)].flatMap(phraseChallenges).map((challenge) => challenge.id);
     expect(new Set(ids).size).toBe(ids.length);
   });
 });

@@ -7,9 +7,10 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+import en_phrase  # noqa: E402
 import en_temps  # noqa: E402
 
-tracks = [en_temps.TRACK]
+tracks = [en_temps.TRACK, en_phrase.TRACK]
 Path(sys.argv[1]).write_text(json.dumps({"tracks": tracks}, ensure_ascii=False, indent=1), encoding="utf-8")
 for track in tracks:
     lessons = [lesson for unit in track["units"] for lesson in unit["lessons"]]
