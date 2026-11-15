@@ -1254,3 +1254,10 @@ textarea:focus-visible {
   font-weight: 400;
   opacity: 0.7;
 }
+mark.focus {
+  background: var(--accent-soft, #fff0e6);
+  color: inherit;
+  border-bottom: 3px solid var(--accent, #f4632e);
+  border-radius: 0.2rem;
+  padding: 0 0.15rem;
+}

@@ -14,6 +14,7 @@ import { normalize, tokenize } from './grade';
 import { isDue, recall, type Memory } from './memory';
 import { shuffle, type Rng } from './random';
 import { verbExercise, verbItems } from './verbs';
+import { phraseExercise, phraseItems } from './phrases';
 import { usageExercise, usageItems } from './usages';
 import { bankExercise, bankItems } from './wordBank';
 
@@ -168,6 +169,7 @@ export function itemsOfCourse(course: Course): Item[] {
     ...verbItems(course),
     ...bankItems(course),
     ...usageItems(course),
+    ...phraseItems(course),
   ];
 }
 
@@ -304,6 +306,7 @@ function reviewExercise(
   if (item.type === 'verb') return verbExercise(course, item, memory, rng);
   if (item.type === 'bank') return bankExercise(course, item, memory, hidden, rng);
   if (item.type === 'usage') return usageExercise(course, item, memory, rng);
+  if (item.type === 'phrase') return phraseExercise(course, item, memory, rng);
   if (item.type === 'word') {
     if (halfLife < WEAK_HALF_LIFE) return recognize(item, pool, rng);
     if (halfLife < STRONG_HALF_LIFE) return produceChoice(item, pool, rng);

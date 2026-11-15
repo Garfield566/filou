@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { play, playSequence } from '../lib/audio';
 import { glossOf } from '../lib/gloss';
+import { findGroup } from '../lib/phrases';
 import { tokenize } from '../lib/grade';
 import { shuffle } from '../lib/random';
 import { creditOf } from '../lib/usages';
@@ -321,7 +322,9 @@ function Choice({
       {step.shown && (
         <div className="sentence with-speaker">
           {step.shownIsTarget && step.audio && <Speaker course={course} text={step.audio} />}
-          <span lang={course.languageTag}>{step.shown}</span>
+          <span lang={step.shownIsTarget ? course.languageTag : undefined}>
+            <Highlighted text={step.shown} part={step.highlight} />
+          </span>
         </div>
       )}
       <div className="options">
@@ -396,6 +399,19 @@ function Arrange({
           </button>
         ))}
       </div>
+    </>
+  );
+}
+
+/** A text with one of its groups marked: the group a question is about. */
+function Highlighted({ text, part }: { text: string; part?: string }) {
+  const index = part ? findGroup(text, part) : -1;
+  if (!part || index < 0) return <>{text}</>;
+  return (
+    <>
+      {text.slice(0, index)}
+      <mark className="focus">{text.slice(index, index + part.length)}</mark>
+      {text.slice(index + part.length)}
     </>
   );
 }

@@ -1,3 +1,4 @@
+import type { PhraseRef } from './lib/phrases';
 import type { UsageDef, UsageExample, UsageRef } from './lib/usages';
 export interface Word {
   target: string;
@@ -152,7 +153,7 @@ export interface BankWord {
 /** A word, sentence, grammar point or verb the learner memorises and reviews. */
 export interface Item {
   id: string;
-  type: 'word' | 'sentence' | 'grammar' | 'verb' | 'bank' | 'usage';
+  type: 'word' | 'sentence' | 'grammar' | 'verb' | 'bank' | 'usage' | 'phrase';
   target: string;
   fr: string;
   alt: string[];
@@ -161,6 +162,8 @@ export interface Item {
   word?: BankWord;
   /** A function word in one of its usages (as: « au moment où »). */
   usage?: UsageRef;
+  /** A lesson of the « Phrases » tab: the notion it teaches. */
+  phrase?: PhraseRef;
 }
 
 export type Exercise =
@@ -176,6 +179,8 @@ export type Exercise =
       prompt: string;
       /** Shown above the options. */
       shown?: string;
+      /** A group of `shown` to highlight: the one the question is about. */
+      highlight?: string;
       shownIsTarget: boolean;
       audio?: string;
       options: string[];

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRemembered } from '../lib/remembered';
 import type { Progress } from '../lib/progress';
 import { challengeOpen, nextVerbLesson, verbChallenges, verbLessons, verbPath } from '../lib/verbPath';
 import { familyProgress } from '../lib/verbs';
@@ -15,7 +15,7 @@ interface Props {
 
 /** The irregular verbs as a path: one unit per family, lessons unlocked one after the other as in the course. */
 export function VerbPathTab({ course, progress, noHearts, onStartLesson, onStartChallenge, onReview }: Props) {
-  const [mode, setMode] = useState<'learn' | 'practise'>('learn');
+  const [mode, setMode] = useRemembered<'learn' | 'practise'>('verbs.mode', 'learn');
   const now = Date.now();
   const done = new Set(progress.completedLessons);
   const lessons = verbLessons(course);

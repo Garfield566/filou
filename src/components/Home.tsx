@@ -12,8 +12,9 @@ import { learnedUsages, usageItems } from '../lib/usages';
 import { learnedBankWords } from '../lib/wordBank';
 import type { Course } from '../types';
 import { Mascot } from './Mascot';
+import { PhrasePathTab } from './PhrasePathTab';
 import { VerbPathTab } from './VerbPathTab';
-import { useState } from 'react';
+import { useRemembered } from '../lib/remembered';
 import { TipContent } from './ExerciseView';
 
 interface Props {
@@ -24,6 +25,8 @@ interface Props {
   onBank: () => void;
   onStartVerbLesson: (lessonId: string) => void;
   onStartVerbChallenge: (challengeId: string) => void;
+  onStartPhraseLesson: (lessonId: string) => void;
+  onStartPhraseChallenge: (challengeId: string) => void;
   onReviewVerbs: () => void;
   onUsages: () => void;
   onOpenReference: () => void;
@@ -43,6 +46,8 @@ export function Home({
   onBank,
   onStartVerbLesson,
   onStartVerbChallenge,
+  onStartPhraseLesson,
+  onStartPhraseChallenge,
   onReviewVerbs,
   onUsages,
   onOpenReference,
@@ -53,7 +58,7 @@ export function Home({
   onReset,
   onSwitchCourse,
 }: Props) {
-  const [tab, setTab] = useState<'course' | 'verbs'>('course');
+  const [tab, setTab] = useRemembered<'course' | 'verbs' | 'phrases'>('home.tab', 'course');
   const now = Date.now();
   const allLessons = lessonsOf(course);
   const done = new Set(progress.completedLessons);
@@ -101,9 +106,20 @@ export function Home({
         <button role="tab" aria-selected={tab === 'verbs'} className={tab === 'verbs' ? 'active' : ''} onClick={() => setTab('verbs')}>
           Verbes {course.id === 'de' ? 'forts' : 'irréguliers'}
         </button>
+        <button role="tab" aria-selected={tab === 'phrases'} className={tab === 'phrases' ? 'active' : ''} onClick={() => setTab('phrases')}>
+          Phrases
+        </button>
       </div>
 
-      {tab === 'verbs' ? (
+      {tab === 'phrases' ? (
+        <PhrasePathTab
+          course={course}
+          progress={progress}
+          noHearts={noHearts}
+          onStartLesson={onStartPhraseLesson}
+          onStartChallenge={onStartPhraseChallenge}
+        />
+      ) : tab === 'verbs' ? (
         <VerbPathTab course={course} progress={progress} noHearts={noHearts} onStartLesson={onStartVerbLesson} onStartChallenge={onStartVerbChallenge} onReview={onReviewVerbs} />
       ) : (
       <>

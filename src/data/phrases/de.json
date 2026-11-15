@@ -1,0 +1,2713 @@
+{
+ "tracks": [
+  {
+   "id": "de-cas",
+   "title": "Les cas",
+   "hint": "Nominatif, accusatif, datif, génitif : qui fait quoi dans la phrase, et comment l'allemand le montre.",
+   "units": [
+    {
+     "id": "de-cas-1",
+     "title": "Qui fait quoi ?",
+     "hint": "Avant les terminaisons, le rôle de chaque groupe : celui qui agit, ce qui subit l'action, à qui elle s'adresse.",
+     "level": "A1",
+     "lessons": [
+      {
+       "id": "de-cas-1:1",
+       "title": "Le sujet : qui fait l'action",
+       "rule": {
+        "intro": "Dans une phrase, chaque groupe a un rôle. Le sujet est celui qui fait l'action.",
+        "points": [
+         "On le trouve en demandant « qui est-ce qui… ? » : qui est-ce qui lit ? Die Frau.",
+         "Le verbe s'accorde avec lui : ich lese, die Frau liest.",
+         "Il n'est pas toujours en premier : « Heute liest die Frau ». Le verbe, lui, reste en 2e position.",
+         "En allemand, le sujet est au nominatif : la forme du dictionnaire (der, die, das, ein)."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Die Frau liest ein Buch.",
+          "La femme lit un livre."
+         ],
+         [
+          "Heute kocht mein Vater.",
+          "Aujourd'hui, mon père cuisine."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Die Frau liest ein Buch.",
+         "fr": "La femme lit un livre.",
+         "chunks": [
+          "die Frau",
+          "liest",
+          "ein Buch"
+         ],
+         "focus": {
+          "chunk": "die Frau",
+          "answer": "sujet : qui fait l'action",
+          "why": "Qui est-ce qui lit ? Die Frau : c'est le sujet."
+         },
+         "id": "de-cas-1-1-01"
+        },
+        {
+         "text": "Das Kind trinkt Milch.",
+         "fr": "L'enfant boit du lait.",
+         "chunks": [
+          "das Kind",
+          "trinkt",
+          "Milch"
+         ],
+         "focus": {
+          "chunk": "das Kind",
+          "answer": "sujet : qui fait l'action",
+          "why": "Qui est-ce qui boit ? Das Kind."
+         },
+         "id": "de-cas-1-1-02"
+        },
+        {
+         "text": "Heute kocht mein Vater.",
+         "fr": "Aujourd'hui, mon père cuisine.",
+         "chunks": [
+          "heute",
+          "kocht",
+          "mein Vater"
+         ],
+         "orders": [
+          "Mein Vater kocht heute."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "mein Vater",
+          "answer": "sujet : qui fait l'action",
+          "why": "Qui est-ce qui cuisine ? Mein Vater, même s'il vient après le verbe."
+         },
+         "id": "de-cas-1-1-03"
+        },
+        {
+         "text": "Die Kinder spielen im Garten.",
+         "fr": "Les enfants jouent dans le jardin.",
+         "chunks": [
+          "die Kinder",
+          "spielen",
+          "im Garten"
+         ],
+         "orders": [
+          "Im Garten spielen die Kinder."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "im Garten",
+          "answer": "autre chose : quand, où…",
+          "why": "Im Garten dit où : ce n'est ni le sujet ni l'action."
+         },
+         "id": "de-cas-1-1-04"
+        },
+        {
+         "text": "Morgen kommt meine Schwester.",
+         "fr": "Demain, ma sœur arrive.",
+         "chunks": [
+          "morgen",
+          "kommt",
+          "meine Schwester"
+         ],
+         "orders": [
+          "Meine Schwester kommt morgen."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "meine Schwester",
+          "answer": "sujet : qui fait l'action",
+          "why": "Qui est-ce qui vient ? Meine Schwester."
+         },
+         "id": "de-cas-1-1-05"
+        },
+        {
+         "text": "Anna schreibt eine E-Mail.",
+         "fr": "Anna écrit un e-mail.",
+         "chunks": [
+          "Anna",
+          "schreibt",
+          "eine E-Mail"
+         ],
+         "focus": {
+          "chunk": "schreibt",
+          "answer": "l'action (le verbe)",
+          "why": "Schreibt est le verbe : l'action d'écrire."
+         },
+         "id": "de-cas-1-1-06"
+        },
+        {
+         "text": "Der Zug fährt um acht Uhr.",
+         "fr": "Le train part à huit heures.",
+         "chunks": [
+          "der Zug",
+          "fährt",
+          "um acht Uhr"
+         ],
+         "orders": [
+          "Um acht Uhr fährt der Zug."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "um acht Uhr",
+          "answer": "autre chose : quand, où…",
+          "why": "Um acht Uhr dit quand."
+         },
+         "id": "de-cas-1-1-07"
+        },
+        {
+         "text": "Jetzt schläft das Baby.",
+         "fr": "Maintenant, le bébé dort.",
+         "chunks": [
+          "jetzt",
+          "schläft",
+          "das Baby"
+         ],
+         "orders": [
+          "Das Baby schläft jetzt."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "das Baby",
+          "answer": "sujet : qui fait l'action",
+          "why": "Qui est-ce qui dort ? Das Baby."
+         },
+         "id": "de-cas-1-1-08"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel rôle joue le groupe surligné ?",
+        "options": [
+         "sujet : qui fait l'action",
+         "l'action (le verbe)",
+         "autre chose : quand, où…"
+        ]
+       }
+      },
+      {
+       "id": "de-cas-1:2",
+       "title": "Le complément direct : ce qui subit l'action",
+       "rule": {
+        "intro": "Le complément direct répond à « qui ? » ou « quoi ? » posé après le verbe : die Frau liest… quoi ? Eine Zeitung.",
+        "points": [
+         "En allemand, il se met à l'accusatif. Avec die, das et le pluriel, la forme ne change pas ; seul le masculin change (unité 3).",
+         "Certains verbes n'en ont pas : schlafen, kommen, gehen.",
+         "Parfois le français dit « à » mais pas l'allemand : « rendre visite à mamie » se dit « die Oma besuchen », sans préposition.",
+         "Quand le sujet et le complément ont la même forme (die… die…), on comprend en général le premier groupe comme sujet ; l'accord du verbe peut aussi aider."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Die Frau liest eine Zeitung.",
+          "La femme lit un journal."
+         ],
+         [
+          "Wir besuchen die Oma.",
+          "Nous rendons visite à mamie."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Die Frau liest eine Zeitung.",
+         "fr": "La femme lit un journal.",
+         "chunks": [
+          "die Frau",
+          "liest",
+          "eine Zeitung"
+         ],
+         "focus": {
+          "chunk": "eine Zeitung",
+          "answer": "complément direct : ce qui subit l'action",
+          "why": "Die Frau liest… quoi ? Eine Zeitung : complément direct."
+         },
+         "id": "de-cas-1-2-01"
+        },
+        {
+         "text": "Das Kind isst eine Banane.",
+         "fr": "L'enfant mange une banane.",
+         "chunks": [
+          "das Kind",
+          "isst",
+          "eine Banane"
+         ],
+         "focus": {
+          "chunk": "das Kind",
+          "answer": "sujet : qui fait l'action",
+          "why": "Qui est-ce qui mange ? Das Kind : le sujet."
+         },
+         "id": "de-cas-1-2-02"
+        },
+        {
+         "text": "Mein Bruder kauft ein Auto.",
+         "fr": "Mon frère achète une voiture.",
+         "chunks": [
+          "mein Bruder",
+          "kauft",
+          "ein Auto"
+         ],
+         "focus": {
+          "chunk": "ein Auto",
+          "answer": "complément direct : ce qui subit l'action",
+          "why": "Mein Bruder kauft… quoi ? Ein Auto."
+         },
+         "id": "de-cas-1-2-03"
+        },
+        {
+         "text": "Wir sehen die Berge.",
+         "fr": "Nous voyons les montagnes.",
+         "chunks": [
+          "wir",
+          "sehen",
+          "die Berge"
+         ],
+         "focus": {
+          "chunk": "die Berge",
+          "answer": "complément direct : ce qui subit l'action",
+          "why": "Wir sehen… quoi ? Die Berge."
+         },
+         "id": "de-cas-1-2-04"
+        },
+        {
+         "text": "Die Lehrerin fragt die Kinder.",
+         "fr": "L'institutrice interroge les enfants.",
+         "chunks": [
+          "die Lehrerin",
+          "fragt",
+          "die Kinder"
+         ],
+         "focus": {
+          "chunk": "die Kinder",
+          "answer": "complément direct : ce qui subit l'action",
+          "why": "Die… die… : même forme. Ici, c'est l'ordre qui dit que l'institutrice interroge les enfants."
+         },
+         "id": "de-cas-1-2-05"
+        },
+        {
+         "text": "Am Abend hört Lisa Musik.",
+         "fr": "Le soir, Lisa écoute de la musique.",
+         "chunks": [
+          "am Abend",
+          "hört",
+          "Lisa",
+          "Musik"
+         ],
+         "orders": [
+          "Lisa hört am Abend Musik."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "Musik",
+          "answer": "complément direct : ce qui subit l'action",
+          "why": "Lisa hört… quoi ? Musik."
+         },
+         "id": "de-cas-1-2-06"
+        },
+        {
+         "text": "Die Katze trinkt das Wasser.",
+         "fr": "Le chat boit l'eau.",
+         "chunks": [
+          "die Katze",
+          "trinkt",
+          "das Wasser"
+         ],
+         "focus": {
+          "chunk": "die Katze",
+          "answer": "sujet : qui fait l'action",
+          "why": "Qui est-ce qui boit ? Die Katze."
+         },
+         "id": "de-cas-1-2-07"
+        },
+        {
+         "text": "Heute besuchen wir die Oma.",
+         "fr": "Aujourd'hui, nous rendons visite à mamie.",
+         "chunks": [
+          "heute",
+          "besuchen",
+          "wir",
+          "die Oma"
+         ],
+         "orders": [
+          "Wir besuchen heute die Oma."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "die Oma",
+          "answer": "complément direct : ce qui subit l'action",
+          "why": "Besuchen prend un complément direct : pas de « à » en allemand."
+         },
+         "id": "de-cas-1-2-08"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel rôle joue le groupe surligné ?",
+        "options": [
+         "sujet : qui fait l'action",
+         "complément direct : ce qui subit l'action"
+        ]
+       }
+      },
+      {
+       "id": "de-cas-1:3",
+       "title": "À qui ? Le complément indirect",
+       "rule": {
+        "intro": "Avec donner, montrer, offrir, expliquer…, il y a souvent un 3e rôle : la personne à qui l'on donne.",
+        "points": [
+         "On le trouve avec « à qui ? » : Ich gebe dem Kind ein Buch. À qui ? Dem Kind.",
+         "En allemand, il est au datif : on le reconnaît à dem, der, den…-n, mir, dir. Les formes viendront à l'unité 5 ; ici, retiens le rôle.",
+         "Avec deux noms, la personne vient d'habitude avant la chose : dem Kind ein Buch."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Ich gebe dem Kind ein Buch.",
+          "Je donne un livre à l'enfant."
+         ],
+         [
+          "Paul schenkt seiner Freundin eine Uhr.",
+          "Paul offre une montre à son amie."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich gebe dem Kind ein Buch.",
+         "fr": "Je donne un livre à l'enfant.",
+         "chunks": [
+          "ich",
+          "gebe",
+          "dem Kind",
+          "ein Buch"
+         ],
+         "focus": {
+          "chunk": "dem Kind",
+          "answer": "complément indirect : à qui ?",
+          "why": "Je donne un livre à qui ? Dem Kind."
+         },
+         "id": "de-cas-1-3-01"
+        },
+        {
+         "text": "Die Mutter zeigt der Tochter ein Foto.",
+         "fr": "La mère montre une photo à sa fille.",
+         "chunks": [
+          "die Mutter",
+          "zeigt",
+          "der Tochter",
+          "ein Foto"
+         ],
+         "focus": {
+          "chunk": "ein Foto",
+          "answer": "complément direct : ce qui subit l'action",
+          "why": "Die Mutter zeigt… quoi ? Ein Foto."
+         },
+         "id": "de-cas-1-3-02"
+        },
+        {
+         "text": "Paul schenkt seiner Freundin eine Uhr.",
+         "fr": "Paul offre une montre à son amie.",
+         "chunks": [
+          "Paul",
+          "schenkt",
+          "seiner Freundin",
+          "eine Uhr"
+         ],
+         "focus": {
+          "chunk": "seiner Freundin",
+          "answer": "complément indirect : à qui ?",
+          "why": "Paul offre une montre à qui ? Seiner Freundin."
+         },
+         "id": "de-cas-1-3-03"
+        },
+        {
+         "text": "Der Lehrer erklärt den Schülern die Regel.",
+         "fr": "Le professeur explique la règle aux élèves.",
+         "chunks": [
+          "der Lehrer",
+          "erklärt",
+          "den Schülern",
+          "die Regel"
+         ],
+         "focus": {
+          "chunk": "der Lehrer",
+          "answer": "sujet : qui fait l'action",
+          "why": "Qui est-ce qui explique ? Der Lehrer."
+         },
+         "id": "de-cas-1-3-04"
+        },
+        {
+         "text": "Morgen bringe ich meiner Mutter Blumen.",
+         "fr": "Demain, j'apporte des fleurs à ma mère.",
+         "chunks": [
+          "morgen",
+          "bringe",
+          "ich",
+          "meiner Mutter",
+          "Blumen"
+         ],
+         "orders": [
+          "Ich bringe meiner Mutter morgen Blumen.",
+          "Ich bringe morgen meiner Mutter Blumen."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "meiner Mutter",
+          "answer": "complément indirect : à qui ?",
+          "why": "J'apporte des fleurs à qui ? Meiner Mutter."
+         },
+         "id": "de-cas-1-3-05"
+        },
+        {
+         "text": "Wir schicken der Familie eine Karte.",
+         "fr": "Nous envoyons une carte à la famille.",
+         "chunks": [
+          "wir",
+          "schicken",
+          "der Familie",
+          "eine Karte"
+         ],
+         "focus": {
+          "chunk": "eine Karte",
+          "answer": "complément direct : ce qui subit l'action",
+          "why": "Wir schicken… quoi ? Eine Karte."
+         },
+         "id": "de-cas-1-3-06"
+        },
+        {
+         "text": "Das Kind gibt dem Hund Wasser.",
+         "fr": "L'enfant donne de l'eau au chien.",
+         "chunks": [
+          "das Kind",
+          "gibt",
+          "dem Hund",
+          "Wasser"
+         ],
+         "focus": {
+          "chunk": "dem Hund",
+          "answer": "complément indirect : à qui ?",
+          "why": "L'enfant donne de l'eau à qui ? Dem Hund."
+         },
+         "id": "de-cas-1-3-07"
+        },
+        {
+         "text": "Die Kellnerin bringt dem Gast die Rechnung.",
+         "fr": "La serveuse apporte l'addition au client.",
+         "chunks": [
+          "die Kellnerin",
+          "bringt",
+          "dem Gast",
+          "die Rechnung"
+         ],
+         "focus": {
+          "chunk": "die Kellnerin",
+          "answer": "sujet : qui fait l'action",
+          "why": "Qui est-ce qui apporte ? Die Kellnerin."
+         },
+         "id": "de-cas-1-3-08"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel rôle joue le groupe surligné ?",
+        "options": [
+         "sujet : qui fait l'action",
+         "complément direct : ce qui subit l'action",
+         "complément indirect : à qui ?"
+        ]
+       }
+      },
+      {
+       "id": "de-cas-1:4",
+       "title": "Les trois rôles ensemble",
+       "rule": {
+        "intro": "En français, c'est surtout la place qui dit qui fait quoi. En allemand, ce sont surtout les articles : der, den, dem…",
+        "points": [
+         "On peut donc déplacer les groupes sans changer qui fait quoi : « Heute gibt die Oma den Kindern Schokolade ». Seule l'insistance change, pas qui fait quoi.",
+         "Le verbe conjugué, lui, reste toujours en 2e position.",
+         "Le plus naturel : commencer par le sujet, ou par le moment (heute, morgen, am Sonntag)."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Heute gibt die Oma den Kindern Schokolade.",
+          "Aujourd'hui, mamie donne du chocolat aux enfants."
+         ],
+         [
+          "Ich zeige dir die Stadt.",
+          "Je te montre la ville."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Heute gibt die Oma den Kindern Schokolade.",
+         "fr": "Aujourd'hui, mamie donne du chocolat aux enfants.",
+         "chunks": [
+          "heute",
+          "gibt",
+          "die Oma",
+          "den Kindern",
+          "Schokolade"
+         ],
+         "orders": [
+          "Die Oma gibt den Kindern heute Schokolade.",
+          "Die Oma gibt heute den Kindern Schokolade."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "den Kindern",
+          "answer": "complément indirect : à qui ?",
+          "why": "Mamie donne du chocolat à qui ? Den Kindern."
+         },
+         "id": "de-cas-1-4-01"
+        },
+        {
+         "text": "Der Vater kauft der Tochter ein Fahrrad.",
+         "fr": "Le père achète un vélo à sa fille.",
+         "chunks": [
+          "der Vater",
+          "kauft",
+          "der Tochter",
+          "ein Fahrrad"
+         ],
+         "focus": {
+          "chunk": "ein Fahrrad",
+          "answer": "complément direct : ce qui subit l'action",
+          "why": "Der Vater kauft… quoi ? Ein Fahrrad."
+         },
+         "id": "de-cas-1-4-02"
+        },
+        {
+         "text": "Ich zeige dir die Stadt.",
+         "fr": "Je te montre la ville.",
+         "chunks": [
+          "ich",
+          "zeige",
+          "dir",
+          "die Stadt"
+         ],
+         "focus": {
+          "chunk": "dir",
+          "answer": "complément indirect : à qui ?",
+          "why": "Je montre la ville à qui ? À toi : dir."
+         },
+         "id": "de-cas-1-4-03"
+        },
+        {
+         "text": "Am Sonntag schreibt Tom seiner Oma eine Postkarte.",
+         "fr": "Dimanche, Tom écrit une carte postale à sa grand-mère.",
+         "chunks": [
+          "am Sonntag",
+          "schreibt",
+          "Tom",
+          "seiner Oma",
+          "eine Postkarte"
+         ],
+         "orders": [
+          "Tom schreibt seiner Oma am Sonntag eine Postkarte.",
+          "Tom schreibt am Sonntag seiner Oma eine Postkarte."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "Tom",
+          "answer": "sujet : qui fait l'action",
+          "why": "Qui est-ce qui écrit ? Tom."
+         },
+         "id": "de-cas-1-4-04"
+        },
+        {
+         "text": "Die Ärztin gibt dem Patienten ein Medikament.",
+         "fr": "La médecin donne un médicament au patient.",
+         "chunks": [
+          "die Ärztin",
+          "gibt",
+          "dem Patienten",
+          "ein Medikament"
+         ],
+         "focus": {
+          "chunk": "ein Medikament",
+          "answer": "complément direct : ce qui subit l'action",
+          "why": "Die Ärztin gibt… quoi ? Ein Medikament."
+         },
+         "id": "de-cas-1-4-05"
+        },
+        {
+         "text": "Wir erzählen den Kindern eine Geschichte.",
+         "fr": "Nous racontons une histoire aux enfants.",
+         "chunks": [
+          "wir",
+          "erzählen",
+          "den Kindern",
+          "eine Geschichte"
+         ],
+         "focus": {
+          "chunk": "den Kindern",
+          "answer": "complément indirect : à qui ?",
+          "why": "Nous racontons une histoire à qui ? Den Kindern."
+         },
+         "id": "de-cas-1-4-06"
+        },
+        {
+         "text": "Die Kinder malen ein Bild.",
+         "fr": "Les enfants font un dessin.",
+         "chunks": [
+          "die Kinder",
+          "malen",
+          "ein Bild"
+         ],
+         "focus": {
+          "chunk": "die Kinder",
+          "answer": "sujet : qui fait l'action",
+          "why": "Qui est-ce qui dessine ? Die Kinder."
+         },
+         "id": "de-cas-1-4-07"
+        },
+        {
+         "text": "Jetzt erklärt die Lehrerin der Klasse die Aufgabe.",
+         "fr": "Maintenant, l'institutrice explique l'exercice à la classe.",
+         "chunks": [
+          "jetzt",
+          "erklärt",
+          "die Lehrerin",
+          "der Klasse",
+          "die Aufgabe"
+         ],
+         "orders": [
+          "Die Lehrerin erklärt der Klasse jetzt die Aufgabe.",
+          "Die Lehrerin erklärt jetzt der Klasse die Aufgabe."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "der Klasse",
+          "answer": "complément indirect : à qui ?",
+          "why": "À qui ? À la classe : « der » devant un nom féminin : ici, c'est le datif."
+         },
+         "id": "de-cas-1-4-08"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel rôle joue le groupe surligné ?",
+        "options": [
+         "sujet : qui fait l'action",
+         "complément direct : ce qui subit l'action",
+         "complément indirect : à qui ?"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "de-cas-2",
+     "title": "Le nominatif",
+     "hint": "La forme du sujet, celle du dictionnaire : der, die, das, ein, kein, et les pronoms ich, du, er…",
+     "level": "A1",
+     "lessons": [
+      {
+       "id": "de-cas-2:1",
+       "title": "der, die, das",
+       "rule": {
+        "intro": "Le sujet est au nominatif : c'est la forme qu'on trouve dans le dictionnaire.",
+        "points": [
+         "Apprends chaque nom avec son article : der Tisch, die Lampe, das Bett.",
+         "Le genre allemand ne suit pas le français : das Mädchen (la fille) est neutre, der Mond (la lune) masculin, die Sonne (le soleil) féminin.",
+         "Les diminutifs en -chen et -lein sont neutres : das Mädchen, das Brötchen. Attention, der Kuchen n'est pas un diminutif.",
+         "Les noms formés avec -ung, -heit, -keit sont féminins : die Zeitung, die Freiheit.",
+         "Au pluriel, toujours die."
+        ],
+        "tables": [
+         {
+          "headers": [
+           "",
+           "masculin",
+           "féminin",
+           "neutre",
+           "pluriel"
+          ],
+          "rows": [
+           [
+            "le, la, les",
+            "der",
+            "die",
+            "das",
+            "die"
+           ]
+          ],
+          "title": "Nominatif"
+         }
+        ],
+        "examples": [
+         [
+          "Der Tisch ist neu.",
+          "La table est neuve."
+         ],
+         [
+          "Das Mädchen heißt Lea.",
+          "La fille s'appelle Lea."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Der Tisch ist neu.",
+         "fr": "La table est neuve.",
+         "chunks": [
+          "der Tisch",
+          "ist",
+          "neu"
+         ],
+         "focus": {
+          "chunk": "der Tisch",
+          "answer": "masculin (der)",
+          "why": "Der Tisch est masculin, alors que « la table » est féminin."
+         },
+         "blank": {
+          "chunk": "der Tisch",
+          "base": "Tisch",
+          "wrong": [
+           "die Tisch",
+           "das Tisch"
+          ]
+         },
+         "id": "de-cas-2-1-01"
+        },
+        {
+         "text": "Die Lampe ist kaputt.",
+         "fr": "La lampe est cassée.",
+         "chunks": [
+          "die Lampe",
+          "ist",
+          "kaputt"
+         ],
+         "focus": {
+          "chunk": "die Lampe",
+          "answer": "féminin (die)",
+          "why": "Die Lampe : féminin, comme en français."
+         },
+         "blank": {
+          "chunk": "die Lampe",
+          "base": "Lampe",
+          "wrong": [
+           "der Lampe",
+           "das Lampe"
+          ]
+         },
+         "id": "de-cas-2-1-02"
+        },
+        {
+         "text": "Das Mädchen heißt Lea.",
+         "fr": "La fille s'appelle Lea.",
+         "chunks": [
+          "das Mädchen",
+          "heißt",
+          "Lea"
+         ],
+         "focus": {
+          "chunk": "das Mädchen",
+          "answer": "neutre (das)",
+          "why": "Les diminutifs en -chen sont neutres : das Mädchen."
+         },
+         "blank": {
+          "chunk": "das Mädchen",
+          "base": "Mädchen",
+          "wrong": [
+           "die Mädchen",
+           "der Mädchen"
+          ]
+         },
+         "id": "de-cas-2-1-03"
+        },
+        {
+         "text": "Heute Nacht scheint der Mond.",
+         "fr": "Cette nuit, la lune brille.",
+         "chunks": [
+          "heute Nacht",
+          "scheint",
+          "der Mond"
+         ],
+         "orders": [
+          "Der Mond scheint heute Nacht."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "der Mond",
+          "answer": "masculin (der)",
+          "why": "Der Mond est masculin, « la lune » féminin."
+         },
+         "blank": {
+          "chunk": "der Mond",
+          "base": "Mond",
+          "wrong": [
+           "die Mond",
+           "das Mond"
+          ]
+         },
+         "id": "de-cas-2-1-04"
+        },
+        {
+         "text": "Die Kinder sind müde.",
+         "fr": "Les enfants sont fatigués.",
+         "chunks": [
+          "die Kinder",
+          "sind",
+          "müde"
+         ],
+         "focus": {
+          "chunk": "die Kinder",
+          "answer": "pluriel (die)",
+          "why": "Au pluriel, toujours die."
+         },
+         "blank": {
+          "chunk": "die Kinder",
+          "base": "Kinder",
+          "wrong": [
+           "der Kinder",
+           "das Kinder"
+          ]
+         },
+         "id": "de-cas-2-1-05"
+        },
+        {
+         "text": "Das Wetter ist schön.",
+         "fr": "Il fait beau.",
+         "chunks": [
+          "das Wetter",
+          "ist",
+          "schön"
+         ],
+         "focus": {
+          "chunk": "das Wetter",
+          "answer": "neutre (das)",
+          "why": "Das Wetter (le temps qu'il fait) est neutre."
+         },
+         "blank": {
+          "chunk": "das Wetter",
+          "base": "Wetter",
+          "wrong": [
+           "der Wetter",
+           "die Wetter"
+          ]
+         },
+         "id": "de-cas-2-1-06"
+        },
+        {
+         "text": "Die Sonne ist warm.",
+         "fr": "Le soleil est chaud.",
+         "chunks": [
+          "die Sonne",
+          "ist",
+          "warm"
+         ],
+         "focus": {
+          "chunk": "die Sonne",
+          "answer": "féminin (die)",
+          "why": "Die Sonne est féminin, « le soleil » masculin."
+         },
+         "blank": {
+          "chunk": "die Sonne",
+          "base": "Sonne",
+          "wrong": [
+           "der Sonne",
+           "das Sonne"
+          ]
+         },
+         "id": "de-cas-2-1-07"
+        },
+        {
+         "text": "Jetzt kommt der Bus.",
+         "fr": "Le bus arrive maintenant.",
+         "chunks": [
+          "jetzt",
+          "kommt",
+          "der Bus"
+         ],
+         "orders": [
+          "Der Bus kommt jetzt."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "der Bus",
+          "answer": "masculin (der)",
+          "why": "Der Bus : masculin."
+         },
+         "blank": {
+          "chunk": "der Bus",
+          "base": "Bus",
+          "wrong": [
+           "die Bus",
+           "das Bus"
+          ]
+         },
+         "id": "de-cas-2-1-08"
+        }
+       ],
+       "ask": {
+        "prompt": "Masculin, féminin, neutre ou pluriel ?",
+        "options": [
+         "masculin (der)",
+         "féminin (die)",
+         "neutre (das)",
+         "pluriel (die)"
+        ]
+       }
+      },
+      {
+       "id": "de-cas-2:2",
+       "title": "ein, eine, kein",
+       "rule": {
+        "intro": "Ein veut dire « un, une » ; kein veut dire « pas de, aucun ». Ils suivent le genre du nom.",
+        "points": [
+         "Masculin et neutre : ein, kein. Féminin : eine, keine.",
+         "Ein n'a pas de pluriel : « Das sind Äpfel » (ce sont des pommes). Au pluriel négatif : keine.",
+         "Après sein (être), le nom reste au nominatif : Das ist kein Problem. Comparer avec « es gibt », suivi de l'accusatif (unité 3).",
+         "Avec « ein », on présente souvent une information nouvelle, plutôt en fin de phrase : « Im Park spielt ein Kind »."
+        ],
+        "tables": [
+         {
+          "headers": [
+           "",
+           "masculin",
+           "féminin",
+           "neutre",
+           "pluriel"
+          ],
+          "rows": [
+           [
+            "un, une",
+            "ein",
+            "eine",
+            "ein",
+            "—"
+           ],
+           [
+            "pas de",
+            "kein",
+            "keine",
+            "kein",
+            "keine"
+           ]
+          ],
+          "title": "Nominatif"
+         }
+        ],
+        "examples": [
+         [
+          "Im Park spielt ein Kind.",
+          "Un enfant joue dans le parc."
+         ],
+         [
+          "Das ist kein Problem.",
+          "Ce n'est pas un problème."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Hier ist ein Supermarkt.",
+         "fr": "Ici, il y a un supermarché.",
+         "chunks": [
+          "hier",
+          "ist",
+          "ein Supermarkt"
+         ],
+         "focus": {
+          "chunk": "ein Supermarkt",
+          "answer": "masculin (der)",
+          "why": "Der Supermarkt : masculin, donc ein."
+         },
+         "blank": {
+          "chunk": "ein Supermarkt",
+          "base": "un Supermarkt",
+          "wrong": [
+           "eine Supermarkt",
+           "einen Supermarkt"
+          ]
+         },
+         "id": "de-cas-2-2-01"
+        },
+        {
+         "text": "Da ist eine Apotheke.",
+         "fr": "Là, il y a une pharmacie.",
+         "chunks": [
+          "da",
+          "ist",
+          "eine Apotheke"
+         ],
+         "focus": {
+          "chunk": "eine Apotheke",
+          "answer": "féminin (die)",
+          "why": "Die Apotheke : féminin, donc eine."
+         },
+         "blank": {
+          "chunk": "eine Apotheke",
+          "base": "une Apotheke",
+          "wrong": [
+           "ein Apotheke",
+           "einen Apotheke"
+          ]
+         },
+         "id": "de-cas-2-2-02"
+        },
+        {
+         "text": "Im Park spielt ein Kind.",
+         "fr": "Un enfant joue dans le parc.",
+         "chunks": [
+          "im Park",
+          "spielt",
+          "ein Kind"
+         ],
+         "orders": [
+          "Ein Kind spielt im Park."
+         ],
+         "orderWhy": "Les deux sont corrects, mais une information nouvelle (« un enfant ») va volontiers à la fin : Im Park spielt ein Kind.",
+         "focus": {
+          "chunk": "ein Kind",
+          "answer": "neutre (das)",
+          "why": "Das Kind : neutre, donc ein."
+         },
+         "blank": {
+          "chunk": "ein Kind",
+          "base": "un Kind",
+          "wrong": [
+           "eine Kind",
+           "einen Kind"
+          ]
+         },
+         "id": "de-cas-2-2-03"
+        },
+        {
+         "text": "Das ist kein Problem.",
+         "fr": "Ce n'est pas un problème.",
+         "chunks": [
+          "das",
+          "ist",
+          "kein Problem"
+         ],
+         "focus": {
+          "chunk": "kein Problem",
+          "answer": "neutre (das)",
+          "why": "Das Problem : neutre, donc kein."
+         },
+         "blank": {
+          "chunk": "kein Problem",
+          "base": "pas de Problem",
+          "wrong": [
+           "keine Problem",
+           "keinen Problem"
+          ]
+         },
+         "id": "de-cas-2-2-04"
+        },
+        {
+         "text": "Heute ist keine Schule.",
+         "fr": "Aujourd'hui, il n'y a pas école.",
+         "chunks": [
+          "heute",
+          "ist",
+          "keine Schule"
+         ],
+         "focus": {
+          "chunk": "keine Schule",
+          "answer": "féminin (die)",
+          "why": "Die Schule : féminin, donc keine."
+         },
+         "blank": {
+          "chunk": "keine Schule",
+          "base": "pas de Schule",
+          "wrong": [
+           "kein Schule",
+           "keinen Schule"
+          ]
+         },
+         "id": "de-cas-2-2-05"
+        },
+        {
+         "text": "Ein Hund bellt.",
+         "fr": "Un chien aboie.",
+         "chunks": [
+          "ein Hund",
+          "bellt"
+         ],
+         "focus": {
+          "chunk": "ein Hund",
+          "answer": "masculin (der)",
+          "why": "Der Hund : masculin, donc ein."
+         },
+         "blank": {
+          "chunk": "ein Hund",
+          "base": "un Hund",
+          "wrong": [
+           "eine Hund",
+           "einen Hund"
+          ]
+         },
+         "id": "de-cas-2-2-06"
+        },
+        {
+         "text": "Das sind keine Äpfel.",
+         "fr": "Ce ne sont pas des pommes.",
+         "chunks": [
+          "das",
+          "sind",
+          "keine Äpfel"
+         ],
+         "focus": {
+          "chunk": "keine Äpfel",
+          "answer": "pluriel (die)",
+          "why": "Au pluriel : keine."
+         },
+         "blank": {
+          "chunk": "keine Äpfel",
+          "base": "pas de Äpfel",
+          "wrong": [
+           "kein Äpfel",
+           "keinen Äpfel"
+          ]
+         },
+         "id": "de-cas-2-2-07"
+        },
+        {
+         "text": "Jetzt kommt ein Taxi.",
+         "fr": "Voilà un taxi qui arrive.",
+         "chunks": [
+          "jetzt",
+          "kommt",
+          "ein Taxi"
+         ],
+         "orders": [
+          "Ein Taxi kommt jetzt."
+         ],
+         "orderWhy": "Les deux sont corrects ; l'information nouvelle, « ein Taxi », sonne plus naturelle à la fin.",
+         "focus": {
+          "chunk": "ein Taxi",
+          "answer": "neutre (das)",
+          "why": "Das Taxi : neutre, donc ein."
+         },
+         "blank": {
+          "chunk": "ein Taxi",
+          "base": "un Taxi",
+          "wrong": [
+           "eine Taxi",
+           "einen Taxi"
+          ]
+         },
+         "id": "de-cas-2-2-08"
+        }
+       ],
+       "ask": {
+        "prompt": "Masculin, féminin, neutre ou pluriel ?",
+        "options": [
+         "masculin (der)",
+         "féminin (die)",
+         "neutre (das)",
+         "pluriel (die)"
+        ]
+       }
+      },
+      {
+       "id": "de-cas-2:3",
+       "title": "Les pronoms sujets",
+       "rule": {
+        "intro": "Les pronoms sujets : ich, du, er, sie, es, wir, ihr, sie, et Sie (vouvoiement).",
+        "points": [
+         "Er, sie et es remplacent aussi les choses, selon leur genre allemand : der Tisch → er, die Lampe → sie, das Auto → es.",
+         "Attention : die Zeitung (le journal) se remplace par sie, der Löffel (la cuillère) par er.",
+         "Le verbe s'accorde : ich komme, du kommst, er kommt, wir kommen, ihr kommt, sie kommen."
+        ],
+        "tables": [
+         {
+          "headers": [
+           "je",
+           "tu",
+           "il",
+           "elle",
+           "(neutre)",
+           "nous",
+           "vous",
+           "ils, elles",
+           "vous (poli)"
+          ],
+          "rows": [
+           [
+            "ich",
+            "du",
+            "er",
+            "sie",
+            "es",
+            "wir",
+            "ihr",
+            "sie",
+            "Sie"
+           ]
+          ],
+          "title": "Nominatif"
+         }
+        ],
+        "examples": [
+         [
+          "Der Tisch ist neu. Er ist schön.",
+          "La table est neuve. Elle est belle."
+         ],
+         [
+          "Wo ist die Zeitung? Sie liegt hier.",
+          "Où est le journal ? Il est ici."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Der Tisch ist neu.",
+         "fr": "La table est neuve.",
+         "chunks": [
+          "der Tisch",
+          "ist",
+          "neu"
+         ],
+         "focus": {
+          "chunk": "der Tisch",
+          "answer": "er",
+          "why": "Der Tisch est masculin : on le remplace par er, même si c'est une chose."
+         },
+         "id": "de-cas-2-3-01"
+        },
+        {
+         "text": "Die Lampe ist kaputt.",
+         "fr": "La lampe est cassée.",
+         "chunks": [
+          "die Lampe",
+          "ist",
+          "kaputt"
+         ],
+         "focus": {
+          "chunk": "die Lampe",
+          "answer": "sie",
+          "why": "Die Lampe est féminin : sie."
+         },
+         "id": "de-cas-2-3-02"
+        },
+        {
+         "text": "Das Auto ist schnell.",
+         "fr": "La voiture est rapide.",
+         "chunks": [
+          "das Auto",
+          "ist",
+          "schnell"
+         ],
+         "focus": {
+          "chunk": "das Auto",
+          "answer": "es",
+          "why": "Das Auto est neutre : es, alors que « la voiture » est féminin."
+         },
+         "id": "de-cas-2-3-03"
+        },
+        {
+         "text": "Die Tür ist offen.",
+         "fr": "La porte est ouverte.",
+         "chunks": [
+          "die Tür",
+          "ist",
+          "offen"
+         ],
+         "focus": {
+          "chunk": "die Tür",
+          "answer": "sie",
+          "why": "Die Tür est féminin : sie."
+         },
+         "id": "de-cas-2-3-04"
+        },
+        {
+         "text": "Er ist sehr alt.",
+         "fr": "Il est très vieux (l'arbre).",
+         "chunks": [
+          "er",
+          "ist",
+          "sehr alt"
+         ],
+         "blank": {
+          "chunk": "er",
+          "base": "der Baum",
+          "wrong": [
+           "sie",
+           "es"
+          ]
+         },
+         "id": "de-cas-2-3-05"
+        },
+        {
+         "text": "Sie liegt auf dem Tisch.",
+         "fr": "Il est sur la table (le journal).",
+         "chunks": [
+          "sie",
+          "liegt",
+          "auf dem Tisch"
+         ],
+         "blank": {
+          "chunk": "sie",
+          "base": "die Zeitung",
+          "wrong": [
+           "er",
+           "es"
+          ]
+         },
+         "id": "de-cas-2-3-06"
+        },
+        {
+         "text": "Heute kommen wir spät.",
+         "fr": "Aujourd'hui, nous arrivons tard.",
+         "chunks": [
+          "heute",
+          "kommen",
+          "wir",
+          "spät"
+         ],
+         "orders": [
+          "Wir kommen heute spät."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "blank": {
+          "chunk": "wir",
+          "base": "nous",
+          "wrong": [
+           "ihr",
+           "sie"
+          ]
+         },
+         "id": "de-cas-2-3-07"
+        },
+        {
+         "text": "Ihr seid sehr nett.",
+         "fr": "Vous êtes très gentils.",
+         "chunks": [
+          "ihr",
+          "seid",
+          "sehr nett"
+         ],
+         "blank": {
+          "chunk": "ihr",
+          "base": "vous, des amis",
+          "wrong": [
+           "Sie",
+           "wir"
+          ]
+         },
+         "id": "de-cas-2-3-08"
+        },
+        {
+         "text": "Morgen fährt sie nach Berlin.",
+         "fr": "Demain, elle part à Berlin (ma sœur).",
+         "chunks": [
+          "morgen",
+          "fährt",
+          "sie",
+          "nach Berlin"
+         ],
+         "orders": [
+          "Sie fährt morgen nach Berlin."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "blank": {
+          "chunk": "sie",
+          "base": "meine Schwester",
+          "wrong": [
+           "er",
+           "es"
+          ]
+         },
+         "id": "de-cas-2-3-09"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel pronom remplace le groupe surligné ?",
+        "options": [
+         "er",
+         "sie",
+         "es"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "de-cas-3",
+     "title": "L'accusatif",
+     "hint": "Le complément direct : seul le masculin change (der → den, ein → einen), et les pronoms (mich, dich, ihn…).",
+     "level": "A1",
+     "lessons": [
+      {
+       "id": "de-cas-3:1",
+       "title": "der devient den",
+       "rule": {
+        "intro": "Le complément direct se met à l'accusatif. Bonne nouvelle : seul le masculin change.",
+        "points": [
+         "der Hund → Ich sehe den Hund.",
+         "die, das et le pluriel ne changent pas : Ich sehe die Katze, das Haus, die Kinder.",
+         "Grâce à « den », on sait qui fait quoi même si l'ordre change : « Den Briefträger beißt der Hund » veut dire que le chien mord le facteur."
+        ],
+        "tables": [
+         {
+          "headers": [
+           "",
+           "masculin",
+           "féminin",
+           "neutre",
+           "pluriel"
+          ],
+          "rows": [
+           [
+            "nominatif",
+            "der",
+            "die",
+            "das",
+            "die"
+           ],
+           [
+            "accusatif",
+            "den",
+            "die",
+            "das",
+            "die"
+           ]
+          ]
+         }
+        ],
+        "examples": [
+         [
+          "Ich sehe den Hund.",
+          "Je vois le chien."
+         ],
+         [
+          "Der Hund beißt den Briefträger.",
+          "Le chien mord le facteur."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich sehe den Hund.",
+         "fr": "Je vois le chien.",
+         "chunks": [
+          "ich",
+          "sehe",
+          "den Hund"
+         ],
+         "focus": {
+          "chunk": "den Hund",
+          "answer": "accusatif : le complément direct",
+          "why": "Ich sehe… quoi ? Den Hund : complément direct masculin, donc den."
+         },
+         "blank": {
+          "chunk": "den Hund",
+          "base": "der Hund",
+          "wrong": [
+           "der Hund",
+           "dem Hund"
+          ]
+         },
+         "id": "de-cas-3-1-01"
+        },
+        {
+         "text": "Der Mann trinkt den Kaffee.",
+         "fr": "L'homme boit le café.",
+         "chunks": [
+          "der Mann",
+          "trinkt",
+          "den Kaffee"
+         ],
+         "orders": [
+          "Den Kaffee trinkt der Mann."
+         ],
+         "orderWhy": "Les deux sont corrects : « den Kaffee » reste le complément. Le plus naturel commence par le sujet.",
+         "focus": {
+          "chunk": "der Mann",
+          "answer": "nominatif : le sujet",
+          "why": "Der Mann fait l'action : nominatif."
+         },
+         "blank": {
+          "chunk": "den Kaffee",
+          "base": "der Kaffee",
+          "wrong": [
+           "der Kaffee",
+           "dem Kaffee"
+          ]
+         },
+         "id": "de-cas-3-1-02"
+        },
+        {
+         "text": "Wir besuchen den Zoo.",
+         "fr": "Nous visitons le zoo.",
+         "chunks": [
+          "wir",
+          "besuchen",
+          "den Zoo"
+         ],
+         "focus": {
+          "chunk": "wir",
+          "answer": "nominatif : le sujet",
+          "why": "Wir fait l'action : nominatif."
+         },
+         "blank": {
+          "chunk": "den Zoo",
+          "base": "der Zoo",
+          "wrong": [
+           "der Zoo",
+           "dem Zoo"
+          ]
+         },
+         "id": "de-cas-3-1-03"
+        },
+        {
+         "text": "Die Frau sucht den Schlüssel.",
+         "fr": "La femme cherche la clé.",
+         "chunks": [
+          "die Frau",
+          "sucht",
+          "den Schlüssel"
+         ],
+         "focus": {
+          "chunk": "den Schlüssel",
+          "answer": "accusatif : le complément direct",
+          "why": "Der Schlüssel est masculin (« la clé » est féminin) : à l'accusatif, den Schlüssel."
+         },
+         "blank": {
+          "chunk": "den Schlüssel",
+          "base": "der Schlüssel",
+          "wrong": [
+           "der Schlüssel",
+           "dem Schlüssel"
+          ]
+         },
+         "id": "de-cas-3-1-04"
+        },
+        {
+         "text": "Heute kaufe ich den Tisch.",
+         "fr": "Aujourd'hui, j'achète la table.",
+         "chunks": [
+          "heute",
+          "kaufe",
+          "ich",
+          "den Tisch"
+         ],
+         "orders": [
+          "Ich kaufe heute den Tisch.",
+          "Den Tisch kaufe ich heute."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "ich",
+          "answer": "nominatif : le sujet",
+          "why": "Ich fait l'action : nominatif."
+         },
+         "blank": {
+          "chunk": "den Tisch",
+          "base": "der Tisch",
+          "wrong": [
+           "der Tisch",
+           "dem Tisch"
+          ]
+         },
+         "id": "de-cas-3-1-05"
+        },
+        {
+         "text": "Die Katze sieht die Maus.",
+         "fr": "Le chat voit la souris.",
+         "chunks": [
+          "die Katze",
+          "sieht",
+          "die Maus"
+         ],
+         "focus": {
+          "chunk": "die Maus",
+          "answer": "accusatif : le complément direct",
+          "why": "Die Maus est féminin : l'accusatif ne change rien, mais c'est bien le complément."
+         },
+         "blank": {
+          "chunk": "die Maus",
+          "base": "die Maus",
+          "wrong": [
+           "den Maus",
+           "der Maus"
+          ]
+         },
+         "id": "de-cas-3-1-06"
+        },
+        {
+         "text": "Das Kind liest das Buch.",
+         "fr": "L'enfant lit le livre.",
+         "chunks": [
+          "das Kind",
+          "liest",
+          "das Buch"
+         ],
+         "focus": {
+          "chunk": "das Buch",
+          "answer": "accusatif : le complément direct",
+          "why": "Das Buch est neutre : pas de changement à l'accusatif."
+         },
+         "blank": {
+          "chunk": "das Buch",
+          "base": "das Buch",
+          "wrong": [
+           "den Buch",
+           "dem Buch"
+          ]
+         },
+         "id": "de-cas-3-1-07"
+        },
+        {
+         "text": "Ich finde den Film super.",
+         "fr": "Je trouve le film super.",
+         "chunks": [
+          "ich",
+          "finde",
+          "den Film",
+          "super"
+         ],
+         "orders": [
+          "Den Film finde ich super."
+         ],
+         "orderWhy": "Les deux sont naturels : à l'oral, on commence souvent par ce dont on parle déjà, « Den Film finde ich super ».",
+         "focus": {
+          "chunk": "den Film",
+          "answer": "accusatif : le complément direct",
+          "why": "Ich finde… quoi ? Den Film."
+         },
+         "blank": {
+          "chunk": "den Film",
+          "base": "der Film",
+          "wrong": [
+           "der Film",
+           "dem Film"
+          ]
+         },
+         "id": "de-cas-3-1-08"
+        },
+        {
+         "text": "Der Hund beißt den Briefträger.",
+         "fr": "Le chien mord le facteur.",
+         "chunks": [
+          "der Hund",
+          "beißt",
+          "den Briefträger"
+         ],
+         "orders": [
+          "Den Briefträger beißt der Hund."
+         ],
+         "orderWhy": "« Den Briefträger beißt der Hund » veut toujours dire que le chien mord : « den » marque le complément, où qu'il soit.",
+         "focus": {
+          "chunk": "den Briefträger",
+          "answer": "accusatif : le complément direct",
+          "why": "Den Briefträger : c'est lui qui est mordu."
+         },
+         "blank": {
+          "chunk": "den Briefträger",
+          "base": "der Briefträger",
+          "wrong": [
+           "der Briefträger",
+           "dem Briefträger"
+          ]
+         },
+         "id": "de-cas-3-1-09"
+        }
+       ],
+       "ask": {
+        "prompt": "Nominatif ou accusatif ?",
+        "options": [
+         "nominatif : le sujet",
+         "accusatif : le complément direct"
+        ]
+       }
+      },
+      {
+       "id": "de-cas-3:2",
+       "title": "einen, keinen, meinen",
+       "rule": {
+        "intro": "Même règle pour ein, kein et les possessifs : seul le masculin change, il prend -en.",
+        "points": [
+         "ein Bruder → Ich habe einen Bruder.",
+         "Les possessifs suivent kein : mein, dein, sein, ihr, unser, euer → meinen, deinen, seinen, ihren, unseren, euren (euer perd son e).",
+         "« Es gibt » (il y a) est toujours suivi de l'accusatif : Es gibt einen Park."
+        ],
+        "tables": [
+         {
+          "headers": [
+           "",
+           "masculin",
+           "féminin",
+           "neutre",
+           "pluriel"
+          ],
+          "rows": [
+           [
+            "nominatif",
+            "ein / kein / mein",
+            "eine / keine / meine",
+            "ein / kein / mein",
+            "— / keine / meine"
+           ],
+           [
+            "accusatif",
+            "einen / keinen / meinen",
+            "eine / keine / meine",
+            "ein / kein / mein",
+            "— / keine / meine"
+           ]
+          ]
+         }
+        ],
+        "examples": [
+         [
+          "Ich habe einen Bruder.",
+          "J'ai un frère."
+         ],
+         [
+          "Hier gibt es keinen Supermarkt.",
+          "Ici, il n'y a pas de supermarché."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich habe einen Bruder.",
+         "fr": "J'ai un frère.",
+         "chunks": [
+          "ich",
+          "habe",
+          "einen Bruder"
+         ],
+         "focus": {
+          "chunk": "einen Bruder",
+          "answer": "accusatif : le complément direct",
+          "why": "Ich habe… qui ? Einen Bruder : masculin, donc -en."
+         },
+         "blank": {
+          "chunk": "einen Bruder",
+          "base": "ein Bruder",
+          "wrong": [
+           "ein Bruder",
+           "einem Bruder"
+          ]
+         },
+         "id": "de-cas-3-2-01"
+        },
+        {
+         "text": "Wir brauchen einen Tisch.",
+         "fr": "Nous avons besoin d'une table.",
+         "chunks": [
+          "wir",
+          "brauchen",
+          "einen Tisch"
+         ],
+         "focus": {
+          "chunk": "einen Tisch",
+          "answer": "accusatif : le complément direct",
+          "why": "Brauchen + accusatif : einen Tisch."
+         },
+         "blank": {
+          "chunk": "einen Tisch",
+          "base": "ein Tisch",
+          "wrong": [
+           "ein Tisch",
+           "einem Tisch"
+          ]
+         },
+         "id": "de-cas-3-2-02"
+        },
+        {
+         "text": "Hier gibt es keinen Supermarkt.",
+         "fr": "Ici, il n'y a pas de supermarché.",
+         "chunks": [
+          "hier",
+          "gibt",
+          "es",
+          "keinen Supermarkt"
+         ],
+         "orders": [
+          "Es gibt hier keinen Supermarkt."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "keinen Supermarkt",
+          "answer": "accusatif : le complément direct",
+          "why": "Es gibt est toujours suivi de l'accusatif : keinen Supermarkt."
+         },
+         "blank": {
+          "chunk": "keinen Supermarkt",
+          "base": "kein Supermarkt",
+          "wrong": [
+           "kein Supermarkt",
+           "keine Supermarkt"
+          ]
+         },
+         "id": "de-cas-3-2-03"
+        },
+        {
+         "text": "Sie hat eine Katze.",
+         "fr": "Elle a un chat.",
+         "chunks": [
+          "sie",
+          "hat",
+          "eine Katze"
+         ],
+         "focus": {
+          "chunk": "eine Katze",
+          "answer": "accusatif : le complément direct",
+          "why": "Die Katze est féminin : eine ne change pas."
+         },
+         "blank": {
+          "chunk": "eine Katze",
+          "base": "eine Katze",
+          "wrong": [
+           "einen Katze",
+           "ein Katze"
+          ]
+         },
+         "id": "de-cas-3-2-04"
+        },
+        {
+         "text": "Paul sucht seinen Hund.",
+         "fr": "Paul cherche son chien.",
+         "chunks": [
+          "Paul",
+          "sucht",
+          "seinen Hund"
+         ],
+         "focus": {
+          "chunk": "Paul",
+          "answer": "nominatif : le sujet",
+          "why": "Paul fait l'action : nominatif."
+         },
+         "blank": {
+          "chunk": "seinen Hund",
+          "base": "sein Hund",
+          "wrong": [
+           "sein Hund",
+           "seine Hund"
+          ]
+         },
+         "id": "de-cas-3-2-05"
+        },
+        {
+         "text": "Morgen kaufe ich ein Fahrrad.",
+         "fr": "Demain, j'achète un vélo.",
+         "chunks": [
+          "morgen",
+          "kaufe",
+          "ich",
+          "ein Fahrrad"
+         ],
+         "orders": [
+          "Ich kaufe morgen ein Fahrrad."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "ein Fahrrad",
+          "answer": "accusatif : le complément direct",
+          "why": "Das Fahrrad est neutre : ein ne change pas."
+         },
+         "blank": {
+          "chunk": "ein Fahrrad",
+          "base": "ein Fahrrad",
+          "wrong": [
+           "einen Fahrrad",
+           "eine Fahrrad"
+          ]
+         },
+         "id": "de-cas-3-2-06"
+        },
+        {
+         "text": "Ich trinke keinen Kaffee.",
+         "fr": "Je ne bois pas de café.",
+         "chunks": [
+          "ich",
+          "trinke",
+          "keinen Kaffee"
+         ],
+         "focus": {
+          "chunk": "ich",
+          "answer": "nominatif : le sujet",
+          "why": "Ich fait l'action : nominatif."
+         },
+         "blank": {
+          "chunk": "keinen Kaffee",
+          "base": "kein Kaffee",
+          "wrong": [
+           "kein Kaffee",
+           "keine Kaffee"
+          ]
+         },
+         "id": "de-cas-3-2-07"
+        },
+        {
+         "text": "Mein Freund kennt deinen Bruder.",
+         "fr": "Mon ami connaît ton frère.",
+         "chunks": [
+          "mein Freund",
+          "kennt",
+          "deinen Bruder"
+         ],
+         "focus": {
+          "chunk": "mein Freund",
+          "answer": "nominatif : le sujet",
+          "why": "Mein Freund fait l'action : nominatif, sans -en."
+         },
+         "blank": {
+          "chunk": "deinen Bruder",
+          "base": "dein Bruder",
+          "wrong": [
+           "dein Bruder",
+           "deine Bruder"
+          ]
+         },
+         "id": "de-cas-3-2-08"
+        }
+       ],
+       "ask": {
+        "prompt": "Nominatif ou accusatif ?",
+        "options": [
+         "nominatif : le sujet",
+         "accusatif : le complément direct"
+        ]
+       }
+      },
+      {
+       "id": "de-cas-3:3",
+       "title": "mich, dich, ihn",
+       "rule": {
+        "intro": "Les pronoms aussi ont une forme d'accusatif.",
+        "points": [
+         "Ceux qui changent : ich → mich, du → dich, er → ihn, wir → uns, ihr → euch. Sie, es et sie restent pareils.",
+         "Ihn remplace aussi une chose masculine : der Kuchen → Ich finde ihn lecker.",
+         "Le pronom complément se place tôt : juste après le verbe (ou après le sujet s'il est pronom), avant le moment : Ich sehe dich morgen. Morgen besucht uns der Opa."
+        ],
+        "tables": [
+         {
+          "headers": [
+           "",
+           "je",
+           "tu",
+           "il",
+           "elle",
+           "(neutre)",
+           "nous",
+           "vous",
+           "ils",
+           "vous (poli)"
+          ],
+          "rows": [
+           [
+            "nominatif",
+            "ich",
+            "du",
+            "er",
+            "sie",
+            "es",
+            "wir",
+            "ihr",
+            "sie",
+            "Sie"
+           ],
+           [
+            "accusatif",
+            "mich",
+            "dich",
+            "ihn",
+            "sie",
+            "es",
+            "uns",
+            "euch",
+            "sie",
+            "Sie"
+           ]
+          ]
+         }
+        ],
+        "examples": [
+         [
+          "Ich liebe dich.",
+          "Je t'aime."
+         ],
+         [
+          "Der Kuchen? Ich finde ihn lecker.",
+          "Le gâteau ? Je le trouve délicieux."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich liebe dich.",
+         "fr": "Je t'aime.",
+         "chunks": [
+          "ich",
+          "liebe",
+          "dich"
+         ],
+         "focus": {
+          "chunk": "dich",
+          "answer": "accusatif : le complément direct",
+          "why": "Ich liebe… qui ? Dich : du à l'accusatif."
+         },
+         "blank": {
+          "chunk": "dich",
+          "base": "du",
+          "wrong": [
+           "du",
+           "dir"
+          ]
+         },
+         "id": "de-cas-3-3-01"
+        },
+        {
+         "text": "Er besucht uns morgen.",
+         "fr": "Il nous rend visite demain.",
+         "chunks": [
+          "er",
+          "besucht",
+          "uns",
+          "morgen"
+         ],
+         "orders": [
+          "Morgen besucht er uns."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "er",
+          "answer": "nominatif : le sujet",
+          "why": "Er fait l'action : nominatif."
+         },
+         "blank": {
+          "chunk": "uns",
+          "base": "wir",
+          "wrong": [
+           "wir",
+           "unser"
+          ]
+         },
+         "id": "de-cas-3-3-02"
+        },
+        {
+         "text": "Ich finde ihn lecker.",
+         "fr": "Je le trouve délicieux (le gâteau).",
+         "chunks": [
+          "ich",
+          "finde",
+          "ihn",
+          "lecker"
+         ],
+         "focus": {
+          "chunk": "ihn",
+          "answer": "accusatif : le complément direct",
+          "why": "Der Kuchen → ihn : masculin à l'accusatif."
+         },
+         "blank": {
+          "chunk": "ihn",
+          "base": "er, der Kuchen",
+          "wrong": [
+           "er",
+           "es"
+          ]
+         },
+         "id": "de-cas-3-3-03"
+        },
+        {
+         "text": "Die Lehrerin fragt euch.",
+         "fr": "L'institutrice vous interroge.",
+         "chunks": [
+          "die Lehrerin",
+          "fragt",
+          "euch"
+         ],
+         "focus": {
+          "chunk": "die Lehrerin",
+          "answer": "nominatif : le sujet",
+          "why": "Die Lehrerin fait l'action : nominatif."
+         },
+         "blank": {
+          "chunk": "euch",
+          "base": "ihr",
+          "wrong": [
+           "ihr",
+           "eure"
+          ]
+         },
+         "id": "de-cas-3-3-04"
+        },
+        {
+         "text": "Wir sehen sie heute Abend.",
+         "fr": "Nous la voyons ce soir (mamie).",
+         "chunks": [
+          "wir",
+          "sehen",
+          "sie",
+          "heute Abend"
+         ],
+         "orders": [
+          "Heute Abend sehen wir sie."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "sie",
+          "answer": "accusatif : le complément direct",
+          "why": "Wir sehen… qui ? Sie : au féminin, la forme ne change pas."
+         },
+         "blank": {
+          "chunk": "sie",
+          "base": "sie, die Oma",
+          "wrong": [
+           "ihr",
+           "ihn"
+          ]
+         },
+         "id": "de-cas-3-3-05"
+        },
+        {
+         "text": "Ich kaufe es heute.",
+         "fr": "Je l'achète aujourd'hui (le livre).",
+         "chunks": [
+          "ich",
+          "kaufe",
+          "es",
+          "heute"
+         ],
+         "blank": {
+          "chunk": "es",
+          "base": "es, das Buch",
+          "wrong": [
+           "ihn",
+           "sie"
+          ]
+         },
+         "id": "de-cas-3-3-06"
+        },
+        {
+         "text": "Mein Vater versteht mich.",
+         "fr": "Mon père me comprend.",
+         "chunks": [
+          "mein Vater",
+          "versteht",
+          "mich"
+         ],
+         "focus": {
+          "chunk": "mich",
+          "answer": "accusatif : le complément direct",
+          "why": "Mein Vater versteht… qui ? Mich."
+         },
+         "blank": {
+          "chunk": "mich",
+          "base": "ich",
+          "wrong": [
+           "ich",
+           "mir"
+          ]
+         },
+         "id": "de-cas-3-3-07"
+        },
+        {
+         "text": "Morgen treffen wir ihn.",
+         "fr": "Demain, nous le retrouvons.",
+         "chunks": [
+          "morgen",
+          "treffen",
+          "wir",
+          "ihn"
+         ],
+         "orders": [
+          "Wir treffen ihn morgen."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "wir",
+          "answer": "nominatif : le sujet",
+          "why": "Wir fait l'action : nominatif."
+         },
+         "blank": {
+          "chunk": "ihn",
+          "base": "er",
+          "wrong": [
+           "er",
+           "ihm"
+          ]
+         },
+         "id": "de-cas-3-3-08"
+        }
+       ],
+       "ask": {
+        "prompt": "Nominatif ou accusatif ?",
+        "options": [
+         "nominatif : le sujet",
+         "accusatif : le complément direct"
+        ]
+       }
+      },
+      {
+       "id": "de-cas-3:4",
+       "title": "Les verbes qui veulent l'accusatif",
+       "rule": {
+        "intro": "La plupart des verbes avec un complément direct : haben, brauchen, kaufen, sehen, suchen, finden, lieben, nehmen, essen, trinken, lesen, möchten.",
+        "points": [
+         "Attention, le français dit « à » mais pas l'allemand : besuchen (rendre visite à), fragen (demander à), anrufen (téléphoner à) veulent l'accusatif.",
+         "Es gibt (il y a) aussi : Es gibt einen Bahnhof.",
+         "Avec un verbe séparable, la particule part à la fin : Sie ruft den Arzt an."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Ich frage den Lehrer.",
+          "Je demande au professeur."
+         ],
+         [
+          "Sie ruft den Arzt an.",
+          "Elle appelle le médecin."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich frage den Lehrer.",
+         "fr": "Je demande au professeur.",
+         "chunks": [
+          "ich",
+          "frage",
+          "den Lehrer"
+         ],
+         "focus": {
+          "chunk": "den Lehrer",
+          "answer": "accusatif : le complément direct",
+          "why": "Fragen + accusatif : en français « demander à quelqu'un », en allemand pas de « à »."
+         },
+         "blank": {
+          "chunk": "den Lehrer",
+          "base": "der Lehrer",
+          "wrong": [
+           "dem Lehrer",
+           "der Lehrer"
+          ]
+         },
+         "id": "de-cas-3-4-01"
+        },
+        {
+         "text": "Wir besuchen unseren Opa.",
+         "fr": "Nous rendons visite à notre grand-père.",
+         "chunks": [
+          "wir",
+          "besuchen",
+          "unseren Opa"
+         ],
+         "focus": {
+          "chunk": "unseren Opa",
+          "answer": "accusatif : le complément direct",
+          "why": "Besuchen + accusatif : unseren Opa."
+         },
+         "blank": {
+          "chunk": "unseren Opa",
+          "base": "unser Opa",
+          "wrong": [
+           "unserem Opa",
+           "unser Opa"
+          ]
+         },
+         "id": "de-cas-3-4-02"
+        },
+        {
+         "text": "Ich nehme den Bus.",
+         "fr": "Je prends le bus.",
+         "chunks": [
+          "ich",
+          "nehme",
+          "den Bus"
+         ],
+         "focus": {
+          "chunk": "ich",
+          "answer": "nominatif : le sujet",
+          "why": "Ich fait l'action : nominatif."
+         },
+         "blank": {
+          "chunk": "den Bus",
+          "base": "der Bus",
+          "wrong": [
+           "der Bus",
+           "dem Bus"
+          ]
+         },
+         "id": "de-cas-3-4-03"
+        },
+        {
+         "text": "Ich möchte einen Tee.",
+         "fr": "Je voudrais un thé.",
+         "chunks": [
+          "ich",
+          "möchte",
+          "einen Tee"
+         ],
+         "focus": {
+          "chunk": "einen Tee",
+          "answer": "accusatif : le complément direct",
+          "why": "Möchten + accusatif : einen Tee."
+         },
+         "blank": {
+          "chunk": "einen Tee",
+          "base": "ein Tee",
+          "wrong": [
+           "ein Tee",
+           "einem Tee"
+          ]
+         },
+         "id": "de-cas-3-4-04"
+        },
+        {
+         "text": "In der Stadt gibt es einen Bahnhof.",
+         "fr": "En ville, il y a une gare.",
+         "chunks": [
+          "in der Stadt",
+          "gibt",
+          "es",
+          "einen Bahnhof"
+         ],
+         "orders": [
+          "Es gibt in der Stadt einen Bahnhof."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "einen Bahnhof",
+          "answer": "accusatif : le complément direct",
+          "why": "Es gibt + accusatif : einen Bahnhof."
+         },
+         "blank": {
+          "chunk": "einen Bahnhof",
+          "base": "ein Bahnhof",
+          "wrong": [
+           "ein Bahnhof",
+           "einem Bahnhof"
+          ]
+         },
+         "id": "de-cas-3-4-05"
+        },
+        {
+         "text": "Am Montag ruft sie den Arzt an.",
+         "fr": "Lundi, elle appelle le médecin.",
+         "chunks": [
+          "am Montag",
+          "ruft",
+          "sie",
+          "den Arzt",
+          "an"
+         ],
+         "orders": [
+          "Sie ruft am Montag den Arzt an."
+         ],
+         "orderWhy": "Les deux sont corrects ; la particule « an » reste à la fin.",
+         "focus": {
+          "chunk": "den Arzt",
+          "answer": "accusatif : le complément direct",
+          "why": "Anrufen + accusatif : on appelle quelqu'un."
+         },
+         "blank": {
+          "chunk": "den Arzt",
+          "base": "der Arzt",
+          "wrong": [
+           "dem Arzt",
+           "der Arzt"
+          ]
+         },
+         "id": "de-cas-3-4-06"
+        },
+        {
+         "text": "Das Kind isst einen Apfel.",
+         "fr": "L'enfant mange une pomme.",
+         "chunks": [
+          "das Kind",
+          "isst",
+          "einen Apfel"
+         ],
+         "focus": {
+          "chunk": "das Kind",
+          "answer": "nominatif : le sujet",
+          "why": "Das Kind fait l'action : nominatif."
+         },
+         "blank": {
+          "chunk": "einen Apfel",
+          "base": "ein Apfel",
+          "wrong": [
+           "ein Apfel",
+           "einem Apfel"
+          ]
+         },
+         "id": "de-cas-3-4-07"
+        },
+        {
+         "text": "Er liest den Brief.",
+         "fr": "Il lit la lettre.",
+         "chunks": [
+          "er",
+          "liest",
+          "den Brief"
+         ],
+         "focus": {
+          "chunk": "den Brief",
+          "answer": "accusatif : le complément direct",
+          "why": "Der Brief est masculin (« la lettre » est féminin) : den Brief."
+         },
+         "blank": {
+          "chunk": "den Brief",
+          "base": "der Brief",
+          "wrong": [
+           "der Brief",
+           "dem Brief"
+          ]
+         },
+         "id": "de-cas-3-4-08"
+        }
+       ],
+       "ask": {
+        "prompt": "Nominatif ou accusatif ?",
+        "options": [
+         "nominatif : le sujet",
+         "accusatif : le complément direct"
+        ]
+       }
+      },
+      {
+       "id": "de-cas-3:5",
+       "title": "Déplacer les groupes grâce à l'accusatif",
+       "rule": {
+        "intro": "Comme « den » montre le complément, on peut le mettre en tête : pour insister, ou parce qu'on parle déjà de lui.",
+        "points": [
+         "Le verbe reste en 2e position ; le sujet passe juste après le verbe : Den Film kenne ich schon.",
+         "Le plus naturel reste de commencer par le sujet ou par le moment.",
+         "Avec deux groupes de même forme (die Frau, die Katze), on comprend en général le premier comme sujet : on le garde donc en premier."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Den Film kenne ich schon.",
+          "Ce film, je le connais déjà."
+         ],
+         [
+          "Den Mann fragt die Frau.",
+          "C'est l'homme que la femme interroge."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich trinke den Kaffee ohne Zucker.",
+         "fr": "Je prends le café sans sucre.",
+         "chunks": [
+          "ich",
+          "trinke",
+          "den Kaffee",
+          "ohne Zucker"
+         ],
+         "orders": [
+          "Den Kaffee trinke ich ohne Zucker.",
+          "Ohne Zucker trinke ich den Kaffee."
+         ],
+         "orderWhy": "Les trois ordres sont corrects ; on commence par « den Kaffee » quand on parle déjà du café.",
+         "focus": {
+          "chunk": "den Kaffee",
+          "answer": "accusatif : le complément direct",
+          "why": "Ich trinke… quoi ? Den Kaffee."
+         },
+         "blank": {
+          "chunk": "den Kaffee",
+          "base": "der Kaffee",
+          "wrong": [
+           "der Kaffee",
+           "dem Kaffee"
+          ]
+         },
+         "id": "de-cas-3-5-01"
+        },
+        {
+         "text": "Der Lehrer lobt den Schüler.",
+         "fr": "Le professeur félicite l'élève.",
+         "chunks": [
+          "der Lehrer",
+          "lobt",
+          "den Schüler"
+         ],
+         "orders": [
+          "Den Schüler lobt der Lehrer."
+         ],
+         "orderWhy": "Même sens dans les deux ordres : c'est le professeur qui félicite. Seuls « der » et « den » le disent.",
+         "focus": {
+          "chunk": "den Schüler",
+          "answer": "accusatif : le complément direct",
+          "why": "Den Schüler : c'est lui qui est félicité."
+         },
+         "blank": {
+          "chunk": "den Schüler",
+          "base": "der Schüler",
+          "wrong": [
+           "der Schüler",
+           "dem Schüler"
+          ]
+         },
+         "id": "de-cas-3-5-02"
+        },
+        {
+         "text": "Ich kenne den Film schon.",
+         "fr": "Je connais déjà le film.",
+         "chunks": [
+          "ich",
+          "kenne",
+          "den Film",
+          "schon"
+         ],
+         "orders": [
+          "Den Film kenne ich schon."
+         ],
+         "orderWhy": "Les deux sont naturels : « Den Film kenne ich schon » répond à quelqu'un qui vient de parler du film.",
+         "focus": {
+          "chunk": "den Film",
+          "answer": "accusatif : le complément direct",
+          "why": "Ich kenne… quoi ? Den Film."
+         },
+         "blank": {
+          "chunk": "den Film",
+          "base": "der Film",
+          "wrong": [
+           "der Film",
+           "dem Film"
+          ]
+         },
+         "id": "de-cas-3-5-03"
+        },
+        {
+         "text": "Morgen besucht der Vater den Sohn.",
+         "fr": "Demain, le père rend visite à son fils.",
+         "chunks": [
+          "morgen",
+          "besucht",
+          "der Vater",
+          "den Sohn"
+         ],
+         "orders": [
+          "Der Vater besucht morgen den Sohn."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "der Vater",
+          "answer": "nominatif : le sujet",
+          "why": "Der Vater fait l'action : nominatif."
+         },
+         "blank": {
+          "chunk": "den Sohn",
+          "base": "der Sohn",
+          "wrong": [
+           "der Sohn",
+           "dem Sohn"
+          ]
+         },
+         "id": "de-cas-3-5-04"
+        },
+        {
+         "text": "Die Frau fragt den Mann.",
+         "fr": "La femme interroge l'homme.",
+         "chunks": [
+          "die Frau",
+          "fragt",
+          "den Mann"
+         ],
+         "orders": [
+          "Den Mann fragt die Frau."
+         ],
+         "orderWhy": "C'est toujours la femme qui pose la question : « den Mann » est le complément, où qu'il soit.",
+         "focus": {
+          "chunk": "die Frau",
+          "answer": "nominatif : le sujet",
+          "why": "Die Frau fait l'action : nominatif."
+         },
+         "blank": {
+          "chunk": "den Mann",
+          "base": "der Mann",
+          "wrong": [
+           "der Mann",
+           "dem Mann"
+          ]
+         },
+         "id": "de-cas-3-5-05"
+        },
+        {
+         "text": "Der Mann fragt die Frau.",
+         "fr": "L'homme interroge la femme.",
+         "chunks": [
+          "der Mann",
+          "fragt",
+          "die Frau"
+         ],
+         "focus": {
+          "chunk": "die Frau",
+          "answer": "accusatif : le complément direct",
+          "why": "Ici, die Frau ne change pas de forme ; c'est « der Mann », au nominatif et en premier, qui montre qui pose la question."
+         },
+         "id": "de-cas-3-5-06"
+        },
+        {
+         "text": "Wir haben auch einen Garten.",
+         "fr": "Nous avons aussi un jardin.",
+         "chunks": [
+          "wir",
+          "haben",
+          "auch",
+          "einen Garten"
+         ],
+         "orders": [
+          "Einen Garten haben wir auch."
+         ],
+         "orderWhy": "Les deux sont corrects ; « Einen Garten haben wir auch » répond à « Ihr habt ja einen Balkon! » : « Ja, und einen Garten haben wir auch. »",
+         "focus": {
+          "chunk": "einen Garten",
+          "answer": "accusatif : le complément direct",
+          "why": "Wir haben… quoi ? Einen Garten."
+         },
+         "blank": {
+          "chunk": "einen Garten",
+          "base": "ein Garten",
+          "wrong": [
+           "ein Garten",
+           "einem Garten"
+          ]
+         },
+         "id": "de-cas-3-5-07"
+        },
+        {
+         "text": "Heute kauft meine Mutter einen Fernseher.",
+         "fr": "Aujourd'hui, ma mère achète une télé.",
+         "chunks": [
+          "heute",
+          "kauft",
+          "meine Mutter",
+          "einen Fernseher"
+         ],
+         "orders": [
+          "Meine Mutter kauft heute einen Fernseher."
+         ],
+         "orderWhy": "Ces ordres sont tous corrects : le verbe conjugué reste toujours en 2e position.",
+         "focus": {
+          "chunk": "meine Mutter",
+          "answer": "nominatif : le sujet",
+          "why": "Meine Mutter fait l'action : nominatif."
+         },
+         "blank": {
+          "chunk": "einen Fernseher",
+          "base": "ein Fernseher",
+          "wrong": [
+           "ein Fernseher",
+           "einem Fernseher"
+          ]
+         },
+         "id": "de-cas-3-5-08"
+        }
+       ],
+       "ask": {
+        "prompt": "Nominatif ou accusatif ?",
+        "options": [
+         "nominatif : le sujet",
+         "accusatif : le complément direct"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

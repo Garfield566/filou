@@ -2,6 +2,7 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { courses, lessonsOf } from '../src/data/courses';
 import { audioFile } from '../src/lib/audioFile';
 import { conjugate, spokenForm, tensesOf, verbNames } from '../src/lib/conjugation';
+import { phraseLessons, phraseTracks } from '../src/lib/phrases';
 import { grammarTarget } from '../src/lib/session';
 import { spokenVerb, verbFamilies } from '../src/lib/verbs';
 
@@ -27,6 +28,10 @@ const entries = courses.flatMap((course) => {
   }
   for (const family of verbFamilies(course)) {
     for (const verb of family.verbs) texts.add(spokenVerb(verb));
+  }
+  for (const lesson of phraseTracks(course).flatMap(phraseLessons)) {
+    for (const [target] of lesson.rule.examples) texts.add(target);
+    for (const sentence of lesson.sentences) texts.add(sentence.text);
   }
   for (const tense of tensesOf(course)) {
     for (const verb of verbNames(course)) {
