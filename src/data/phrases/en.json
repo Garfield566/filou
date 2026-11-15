@@ -13652,6 +13652,4083 @@
        }
       }
      ]
+    },
+    {
+     "id": "en-phrase-7",
+     "title": "Les relatives",
+     "hint": "Le « qui » et le « que » français deviennent who, which ou that ; le « que » disparaît souvent. La préposition, elle, part à la fin.",
+     "level": "B1",
+     "lessons": [
+      {
+       "id": "en-phrase-7:1",
+       "title": "who pour une personne, which pour une chose",
+       "rule": {
+        "intro": "who renvoie à une personne, which à une chose. that peut remplacer les deux, surtout à l'oral.",
+        "points": [
+         "The woman who lives next door… (la femme qui…). The book which you gave me… (le livre que…).",
+         "Qui et que se disent pareil : who, which ou that, qu'ils soient sujet ou complément.",
+         "Pas de pronom en plus : the book which you gave me (pas which you gave it to me)."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "The woman who lives next door is a doctor.",
+          "La femme qui habite à côté est médecin."
+         ],
+         [
+          "I lost the book which you gave me.",
+          "J'ai perdu le livre que tu m'as donné."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "The woman who lives next door is a doctor.",
+         "fr": "La femme qui habite à côté est médecin.",
+         "chunks": [
+          "the woman",
+          "who",
+          "lives",
+          "next door",
+          "is",
+          "a doctor"
+         ],
+         "focus": {
+          "chunk": "who",
+          "answer": "à une personne : who (ou that)",
+          "why": "Who renvoie à the woman."
+         },
+         "blank": {
+          "chunk": "lives",
+          "base": "live",
+          "wrong": [
+           "live",
+           "living"
+          ]
+         },
+         "alt": [
+          "The woman that lives next door is a doctor."
+         ],
+         "wrongMeanings": [
+          "La femme du médecin habite à côté.",
+          "Le médecin habite à côté de chez cette femme."
+         ],
+         "combine": {
+          "sentences": [
+           "The woman lives next door.",
+           "She is a doctor."
+          ],
+          "link": "who"
+         },
+         "id": "en-phrase-7-1-01"
+        },
+        {
+         "text": "I lost the book which you gave me.",
+         "fr": "J'ai perdu le livre que tu m'as donné.",
+         "chunks": [
+          "I",
+          "lost",
+          "the book",
+          "which",
+          "you",
+          "gave",
+          "me"
+         ],
+         "focus": {
+          "chunk": "which",
+          "answer": "à une chose : which (ou that)",
+          "why": "Which renvoie à the book."
+         },
+         "blank": {
+          "chunk": "gave",
+          "base": "give",
+          "wrong": [
+           "give",
+           "gived"
+          ]
+         },
+         "alt": [
+          "I lost the book that you gave me.",
+          "I lost the book you gave me.",
+          "I've lost the book you gave me.",
+          "I've lost the book that you gave me.",
+          "I've lost the book which you gave me."
+         ],
+         "wrongMeanings": [
+          "Tu as perdu le livre que je t'ai donné.",
+          "J'ai retrouvé le livre que tu m'as donné."
+         ],
+         "combine": {
+          "sentences": [
+           "I lost the book.",
+           "You gave it to me."
+          ],
+          "link": "which"
+         },
+         "id": "en-phrase-7-1-02"
+        },
+        {
+         "text": "Do you know the man who is talking to Anna over there?",
+         "fr": "Tu connais l'homme qui parle à Anna, là-bas ?",
+         "chunks": [
+          "do you know",
+          "the man",
+          "who",
+          "is talking",
+          "to Anna",
+          "over there"
+         ],
+         "focus": {
+          "chunk": "who",
+          "answer": "à une personne : who (ou that)",
+          "why": "Who renvoie à the man."
+         },
+         "blank": {
+          "chunk": "is talking",
+          "base": "talk",
+          "wrong": [
+           "talks",
+           "is talk"
+          ]
+         },
+         "alt": [
+          "Do you know the man that is talking to Anna over there?"
+         ],
+         "wrongMeanings": [
+          "Tu connais l'homme dont Anna parle, là-bas ?",
+          "Anna connaît l'homme qui te parle, là-bas ?"
+         ],
+         "id": "en-phrase-7-1-03"
+        },
+        {
+         "text": "This is the train which goes to Oxford.",
+         "fr": "C'est le train qui va à Oxford.",
+         "chunks": [
+          "this is",
+          "the train",
+          "which",
+          "goes",
+          "to Oxford"
+         ],
+         "focus": {
+          "chunk": "which",
+          "answer": "à une chose : which (ou that)",
+          "why": "Which renvoie à the train."
+         },
+         "blank": {
+          "chunk": "goes",
+          "base": "go",
+          "wrong": [
+           "go",
+           "going"
+          ]
+         },
+         "alt": [
+          "This is the train that goes to Oxford."
+         ],
+         "id": "en-phrase-7-1-04"
+        },
+        {
+         "text": "The people who work here are very friendly.",
+         "fr": "Les gens qui travaillent ici sont très sympathiques.",
+         "chunks": [
+          "the people",
+          "who",
+          "work",
+          "here",
+          "are",
+          "very friendly"
+         ],
+         "focus": {
+          "chunk": "who",
+          "answer": "à une personne : who (ou that)",
+          "why": "Who renvoie à the people."
+         },
+         "blank": {
+          "chunk": "work",
+          "base": "work",
+          "wrong": [
+           "works",
+           "working"
+          ]
+         },
+         "alt": [
+          "The people that work here are very friendly.",
+          "The people who work here are very nice."
+         ],
+         "wrongMeanings": [
+          "Les gens sont très sympathiques, mais ils ne travaillent pas ici.",
+          "Les gens qui travaillent ici ne sont pas aimables."
+         ],
+         "combine": {
+          "sentences": [
+           "The people work here.",
+           "They are very friendly."
+          ],
+          "link": "who"
+         },
+         "id": "en-phrase-7-1-05"
+        },
+        {
+         "text": "I need a bag which is big enough for my laptop.",
+         "fr": "J'ai besoin d'un sac assez grand pour mon ordinateur.",
+         "chunks": [
+          "I",
+          "need",
+          "a bag",
+          "which",
+          "is",
+          "big enough",
+          "for my laptop"
+         ],
+         "focus": {
+          "chunk": "which",
+          "answer": "à une chose : which (ou that)",
+          "why": "Which renvoie à a bag."
+         },
+         "blank": {
+          "chunk": "big enough",
+          "base": "assez grand",
+          "wrong": [
+           "enough big",
+           "big enought"
+          ]
+         },
+         "alt": [
+          "I need a bag that is big enough for my laptop.",
+          "I need a bag big enough for my laptop."
+         ],
+         "id": "en-phrase-7-1-06"
+        },
+        {
+         "text": "She was the teacher who helped me the most.",
+         "fr": "C'était la professeure qui m'a le plus aidé.",
+         "chunks": [
+          "she was",
+          "the teacher",
+          "who",
+          "helped",
+          "me",
+          "the most"
+         ],
+         "focus": {
+          "chunk": "who",
+          "answer": "à une personne : who (ou that)",
+          "why": "Who renvoie à the teacher."
+         },
+         "blank": {
+          "chunk": "helped",
+          "base": "help",
+          "wrong": [
+           "helping",
+           "helps"
+          ]
+         },
+         "alt": [
+          "She was the teacher that helped me the most.",
+          "She was the teacher who helped me most."
+         ],
+         "id": "en-phrase-7-1-07"
+        }
+       ],
+       "ask": {
+        "prompt": "À quoi renvoie le mot surligné ?",
+        "options": [
+         "à une personne : who (ou that)",
+         "à une chose : which (ou that)"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-7:2",
+       "title": "The film we saw : sans that",
+       "rule": {
+        "intro": "Quand who, which ou that est complément (un sujet le suit), on peut l'enlever : the film (that) we saw.",
+        "points": [
+         "C'est très courant à l'oral : the pizza we ordered, everything you said.",
+         "Quand il est sujet (le verbe le suit), on le garde : the man who called you.",
+         "Pour savoir : regarde le mot d'après. Un sujet (we, you, my sister…) ? On peut l'enlever. Un verbe ? On le garde."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "The film that we saw was great.",
+          "Le film que nous avons vu était génial."
+         ],
+         [
+          "The man who called you is here.",
+          "L'homme qui t'a appelé est là."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "The film that we saw was great.",
+         "fr": "Le film que nous avons vu était génial.",
+         "chunks": [
+          "the film",
+          "that",
+          "we",
+          "saw",
+          "was",
+          "great"
+         ],
+         "focus": {
+          "chunk": "that",
+          "answer": "oui : il est complément (un sujet le suit)",
+          "why": "We le suit : on peut l'enlever."
+         },
+         "blank": {
+          "chunk": "saw",
+          "base": "see",
+          "wrong": [
+           "seen",
+           "have seen"
+          ]
+         },
+         "alt": [
+          "The film we saw was great.",
+          "The movie we saw was great.",
+          "The film which we saw was great.",
+          "The movie that we saw was great."
+         ],
+         "wrongMeanings": [
+          "Le film que nous allons voir a l'air génial.",
+          "Nous avons vu un film qui n'était pas génial."
+         ],
+         "id": "en-phrase-7-2-01"
+        },
+        {
+         "text": "The man who called you is here.",
+         "fr": "L'homme qui t'a appelé est là.",
+         "chunks": [
+          "the man",
+          "who",
+          "called",
+          "you",
+          "is",
+          "here"
+         ],
+         "focus": {
+          "chunk": "who",
+          "answer": "non : il est sujet (le verbe le suit)",
+          "why": "Called le suit : il est sujet, on le garde."
+         },
+         "blank": {
+          "chunk": "called",
+          "base": "call",
+          "wrong": [
+           "call",
+           "calling"
+          ]
+         },
+         "alt": [
+          "The man that called you is here."
+         ],
+         "wrongMeanings": [
+          "L'homme que tu as appelé est là.",
+          "L'homme qui t'appelle n'est pas là."
+         ],
+         "id": "en-phrase-7-2-02"
+        },
+        {
+         "text": "Is this the key you were looking for?",
+         "fr": "C'est la clé que tu cherchais ?",
+         "chunks": [
+          "is this",
+          "the key",
+          "you",
+          "were looking",
+          "for"
+         ],
+         "focus": {
+          "chunk": "you were looking for",
+          "answer": "oui : il est complément (un sujet le suit)",
+          "why": "You suit the key : le that a déjà été enlevé."
+         },
+         "blank": {
+          "chunk": "were looking",
+          "base": "look",
+          "wrong": [
+           "was looking",
+           "are looking"
+          ]
+         },
+         "alt": [
+          "Is this the key that you were looking for?",
+          "Is this the key which you were looking for?"
+         ],
+         "id": "en-phrase-7-2-03"
+        },
+        {
+         "text": "The girl who won the race is my cousin.",
+         "fr": "La fille qui a gagné la course est ma cousine.",
+         "chunks": [
+          "the girl",
+          "who",
+          "won",
+          "the race",
+          "is",
+          "my cousin"
+         ],
+         "focus": {
+          "chunk": "who",
+          "answer": "non : il est sujet (le verbe le suit)",
+          "why": "Won le suit : il est sujet, on le garde."
+         },
+         "blank": {
+          "chunk": "won",
+          "base": "win",
+          "wrong": [
+           "winned",
+           "wins"
+          ]
+         },
+         "alt": [
+          "The girl that won the race is my cousin."
+         ],
+         "combine": {
+          "sentences": [
+           "The girl won the race.",
+           "She is my cousin."
+          ],
+          "link": "who"
+         },
+         "id": "en-phrase-7-2-04"
+        },
+        {
+         "text": "Everything you said is true.",
+         "fr": "Tout ce que tu as dit est vrai.",
+         "chunks": [
+          "everything",
+          "you",
+          "said",
+          "is",
+          "true"
+         ],
+         "focus": {
+          "chunk": "you said",
+          "answer": "oui : il est complément (un sujet le suit)",
+          "why": "You suit everything : le that a été enlevé."
+         },
+         "blank": {
+          "chunk": "is",
+          "base": "be",
+          "wrong": [
+           "are",
+           "be"
+          ]
+         },
+         "alt": [
+          "Everything you've said is true.",
+          "Everything that you said is true.",
+          "All you said is true."
+         ],
+         "wrongMeanings": [
+          "Tout ce qu'on t'a dit est vrai.",
+          "Rien de ce que tu as dit n'est vrai."
+         ],
+         "id": "en-phrase-7-2-05"
+        },
+        {
+         "text": "I met someone who knows your brother.",
+         "fr": "J'ai rencontré quelqu'un qui connaît ton frère.",
+         "chunks": [
+          "I",
+          "met",
+          "someone",
+          "who",
+          "knows",
+          "your brother"
+         ],
+         "focus": {
+          "chunk": "who",
+          "answer": "non : il est sujet (le verbe le suit)",
+          "why": "Knows le suit : il est sujet, on le garde."
+         },
+         "blank": {
+          "chunk": "knows",
+          "base": "know",
+          "wrong": [
+           "know",
+           "is knowing"
+          ]
+         },
+         "alt": [
+          "I met someone that knows your brother."
+         ],
+         "wrongMeanings": [
+          "J'ai rencontré quelqu'un que ton frère connaît.",
+          "Ton frère m'a présenté quelqu'un."
+         ],
+         "id": "en-phrase-7-2-06"
+        },
+        {
+         "text": "The pizza we ordered was cold.",
+         "fr": "La pizza que nous avons commandée était froide.",
+         "chunks": [
+          "the pizza",
+          "we",
+          "ordered",
+          "was",
+          "cold"
+         ],
+         "focus": {
+          "chunk": "we ordered",
+          "answer": "oui : il est complément (un sujet le suit)",
+          "why": "We suit the pizza : le that a été enlevé."
+         },
+         "blank": {
+          "chunk": "ordered",
+          "base": "order",
+          "wrong": [
+           "have ordered",
+           "order"
+          ]
+         },
+         "alt": [
+          "The pizza that we ordered was cold.",
+          "The pizza which we ordered was cold."
+         ],
+         "id": "en-phrase-7-2-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Peut-on enlever who / that ici ?",
+        "options": [
+         "oui : il est complément (un sujet le suit)",
+         "non : il est sujet (le verbe le suit)"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-7:3",
+       "title": "The man I talked to, where, whose",
+       "rule": {
+        "intro": "« L'homme à qui j'ai parlé » : la préposition part à la fin. The man (that) I talked to.",
+        "points": [
+         "where pour un lieu : the town where I was born (= the town I was born in).",
+         "whose = dont, pour ce qui appartient à quelqu'un : the woman whose car was stolen.",
+         "whose (dont) ≠ who's (who is / who has)."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "That's the man I talked to.",
+          "C'est l'homme à qui j'ai parlé."
+         ],
+         [
+          "I have a friend whose father is a pilot.",
+          "J'ai un ami dont le père est pilote."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "That's the man I talked to.",
+         "fr": "C'est l'homme à qui j'ai parlé.",
+         "chunks": [
+          "that's",
+          "the man",
+          "I",
+          "talked",
+          "to"
+         ],
+         "focus": {
+          "chunk": "to",
+          "answer": "la préposition, renvoyée à la fin",
+          "why": "À qui → … to, à la fin."
+         },
+         "blank": {
+          "chunk": "to",
+          "base": "à",
+          "wrong": [
+           "at",
+           "for"
+          ]
+         },
+         "alt": [
+          "That's the man that I talked to.",
+          "That's the man who I talked to.",
+          "That's the man I spoke to.",
+          "That's the man I was talking to."
+         ],
+         "wrongMeanings": [
+          "C'est l'homme qui m'a parlé.",
+          "C'est l'homme dont je t'ai parlé."
+         ],
+         "id": "en-phrase-7-3-01"
+        },
+        {
+         "text": "This is the town where I was born.",
+         "fr": "C'est la ville où je suis né.",
+         "chunks": [
+          "this is",
+          "the town",
+          "where",
+          "I",
+          "was born"
+         ],
+         "focus": {
+          "chunk": "where",
+          "answer": "where : un lieu (où)",
+          "why": "Un lieu : where."
+         },
+         "blank": {
+          "chunk": "was born",
+          "base": "naître",
+          "wrong": [
+           "am born",
+           "born"
+          ]
+         },
+         "alt": [
+          "This is the town that I was born in.",
+          "This is the town I was born in.",
+          "This is the city where I was born."
+         ],
+         "wrongMeanings": [
+          "C'est la ville où je vis.",
+          "C'est la ville où ma mère est née."
+         ],
+         "id": "en-phrase-7-3-02"
+        },
+        {
+         "text": "I have a friend whose father is a pilot.",
+         "fr": "J'ai un ami dont le père est pilote.",
+         "chunks": [
+          "I",
+          "have",
+          "a friend",
+          "whose",
+          "father",
+          "is",
+          "a pilot"
+         ],
+         "focus": {
+          "chunk": "whose",
+          "answer": "whose : dont (à qui appartient…)",
+          "why": "Le père de mon ami : whose."
+         },
+         "blank": {
+          "chunk": "whose",
+          "base": "dont",
+          "wrong": [
+           "who's",
+           "which"
+          ]
+         },
+         "wrongMeanings": [
+          "Mon père a un ami pilote.",
+          "J'ai un ami qui veut devenir pilote."
+         ],
+         "id": "en-phrase-7-3-03"
+        },
+        {
+         "text": "The hotel we stayed at was near the beach.",
+         "fr": "L'hôtel où nous avons logé était près de la plage.",
+         "chunks": [
+          "the hotel",
+          "we",
+          "stayed",
+          "at",
+          "was",
+          "near the beach"
+         ],
+         "focus": {
+          "chunk": "at",
+          "answer": "la préposition, renvoyée à la fin",
+          "why": "Stay at : at reste à la fin."
+         },
+         "blank": {
+          "chunk": "stayed",
+          "base": "stay",
+          "wrong": [
+           "have stayed",
+           "stay"
+          ]
+         },
+         "alt": [
+          "The hotel where we stayed was near the beach.",
+          "The hotel that we stayed at was near the beach.",
+          "The hotel we stayed in was near the beach."
+         ],
+         "id": "en-phrase-7-3-04"
+        },
+        {
+         "text": "Do you remember the café where we first met?",
+         "fr": "Tu te rappelles le café où on s'est rencontrés ?",
+         "chunks": [
+          "do you remember",
+          "the café",
+          "where",
+          "we",
+          "first",
+          "met"
+         ],
+         "focus": {
+          "chunk": "where",
+          "answer": "where : un lieu (où)",
+          "why": "Un lieu : where."
+         },
+         "blank": {
+          "chunk": "met",
+          "base": "meet",
+          "wrong": [
+           "have met",
+           "meet"
+          ]
+         },
+         "alt": [
+          "Do you remember the café where we met for the first time?",
+          "Do you remember the café where we met?"
+         ],
+         "id": "en-phrase-7-3-05"
+        },
+        {
+         "text": "She's the woman whose car was stolen last night.",
+         "fr": "C'est la femme dont la voiture a été volée hier soir.",
+         "chunks": [
+          "she's",
+          "the woman",
+          "whose",
+          "car",
+          "was stolen",
+          "last night"
+         ],
+         "focus": {
+          "chunk": "whose",
+          "answer": "whose : dont (à qui appartient…)",
+          "why": "La voiture de cette femme : whose."
+         },
+         "blank": {
+          "chunk": "was stolen",
+          "base": "steal",
+          "wrong": [
+           "was stealing",
+           "stole"
+          ]
+         },
+         "wrongMeanings": [
+          "C'est la femme qui a volé la voiture hier soir.",
+          "C'est la femme dont la voiture est tombée en panne hier soir."
+         ],
+         "id": "en-phrase-7-3-06"
+        },
+        {
+         "text": "Is that the music you were listening to?",
+         "fr": "C'est la musique que tu écoutais ?",
+         "chunks": [
+          "is that",
+          "the music",
+          "you",
+          "were listening",
+          "to"
+         ],
+         "focus": {
+          "chunk": "to",
+          "answer": "la préposition, renvoyée à la fin",
+          "why": "Listen to : to reste à la fin."
+         },
+         "blank": {
+          "chunk": "were listening",
+          "base": "listen",
+          "wrong": [
+           "was listening",
+           "are listening"
+          ]
+         },
+         "alt": [
+          "Is that the music that you were listening to?"
+         ],
+         "id": "en-phrase-7-3-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que fait le mot surligné ?",
+        "options": [
+         "la préposition, renvoyée à la fin",
+         "where : un lieu (où)",
+         "whose : dont (à qui appartient…)"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-7:4",
+       "title": "Entre virgules : une information en plus",
+       "rule": {
+        "intro": "Sans virgules, la relative dit de qui on parle : the students who passed (seulement ceux-là). Entre virgules, elle ajoute une information : My brother, who lives in Paris, is a cook.",
+        "points": [
+         "Entre virgules, pas de that et on ne peut pas enlever who ou which.",
+         "which peut reprendre toute la phrase, comme « ce qui » : He didn't call me, which is strange.",
+         "where marche aussi entre virgules : We visited Oxford, where my sister studies."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "My brother, who lives in Paris, is a cook.",
+          "Mon frère, qui habite à Paris, est cuisinier."
+         ],
+         [
+          "He didn't call me, which is strange.",
+          "Il ne m'a pas appelé, ce qui est bizarre."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "My brother, who lives in Paris, is a cook.",
+         "fr": "Mon frère, qui habite à Paris, est cuisinier.",
+         "chunks": [
+          "my brother",
+          "who",
+          "lives",
+          "in Paris",
+          "is",
+          "a cook"
+         ],
+         "focus": {
+          "chunk": "who",
+          "answer": "entre virgules : une information en plus",
+          "why": "Une information en plus sur mon frère."
+         },
+         "blank": {
+          "chunk": "lives",
+          "base": "live",
+          "wrong": [
+           "live",
+           "living"
+          ]
+         },
+         "wrongMeanings": [
+          "Mon frère habite à Paris chez un cuisinier.",
+          "Mon frère cuisine pour des gens qui habitent à Paris."
+         ],
+         "combine": {
+          "sentences": [
+           "My brother lives in Paris.",
+           "He is a cook."
+          ],
+          "link": "who"
+         },
+         "id": "en-phrase-7-4-01"
+        },
+        {
+         "text": "He didn't call me, which is strange.",
+         "fr": "Il ne m'a pas appelé, ce qui est bizarre.",
+         "chunks": [
+          "he",
+          "didn't",
+          "call",
+          "me",
+          "which",
+          "is",
+          "strange"
+         ],
+         "focus": {
+          "chunk": "which",
+          "answer": "which : reprend toute la phrase (ce qui)",
+          "why": "Which reprend toute la phrase : ce qui."
+         },
+         "blank": {
+          "chunk": "which",
+          "base": "ce qui",
+          "wrong": [
+           "what",
+           "that"
+          ]
+         },
+         "alt": [
+          "He didn't call me, which is weird."
+         ],
+         "wrongMeanings": [
+          "Il ne m'a pas appelé, c'est normal.",
+          "C'est bizarre qu'il m'ait appelé."
+         ],
+         "id": "en-phrase-7-4-02"
+        },
+        {
+         "text": "The Eiffel Tower, which was built in 1889, is in Paris.",
+         "fr": "La tour Eiffel, qui a été construite en 1889, est à Paris.",
+         "chunks": [
+          "the Eiffel Tower",
+          "which",
+          "was built",
+          "in 1889",
+          "is",
+          "in Paris"
+         ],
+         "focus": {
+          "chunk": "which",
+          "answer": "entre virgules : une information en plus",
+          "why": "Une information en plus sur la tour Eiffel."
+         },
+         "blank": {
+          "chunk": "was built",
+          "base": "build",
+          "wrong": [
+           "was build",
+           "built"
+          ]
+         },
+         "alt": [
+          "The Eiffel Tower, built in 1889, is in Paris."
+         ],
+         "id": "en-phrase-7-4-03"
+        },
+        {
+         "text": "The students who passed the exam can go home.",
+         "fr": "Les élèves qui ont réussi l'examen peuvent rentrer.",
+         "chunks": [
+          "the students",
+          "who",
+          "passed",
+          "the exam",
+          "can",
+          "go home"
+         ],
+         "focus": {
+          "chunk": "who",
+          "answer": "sans virgules : elle dit de qui ou de quoi on parle",
+          "why": "Sans virgules : seulement ceux qui ont réussi."
+         },
+         "blank": {
+          "chunk": "can",
+          "base": "pouvoir",
+          "wrong": [
+           "cans",
+           "can to"
+          ]
+         },
+         "alt": [
+          "The students who have passed the exam can go home.",
+          "The students that passed the exam can go home."
+         ],
+         "wrongMeanings": [
+          "Tous les élèves ont réussi l'examen et peuvent rentrer.",
+          "Les élèves peuvent rentrer avant l'examen."
+         ],
+         "id": "en-phrase-7-4-04"
+        },
+        {
+         "text": "We visited Oxford, where my sister studies.",
+         "fr": "Nous avons visité Oxford, où ma sœur fait ses études.",
+         "chunks": [
+          "we",
+          "visited",
+          "Oxford",
+          "where",
+          "my sister",
+          "studies"
+         ],
+         "focus": {
+          "chunk": "where",
+          "answer": "entre virgules : une information en plus",
+          "why": "Une information en plus sur Oxford."
+         },
+         "blank": {
+          "chunk": "where",
+          "base": "où",
+          "wrong": [
+           "which",
+           "that"
+          ]
+         },
+         "alt": [
+          "We visited Oxford, where my sister is studying."
+         ],
+         "id": "en-phrase-7-4-05"
+        },
+        {
+         "text": "It rained all week, which ruined our holiday.",
+         "fr": "Il a plu toute la semaine, ce qui a gâché nos vacances.",
+         "chunks": [
+          "it",
+          "rained",
+          "all week",
+          "which",
+          "ruined",
+          "our holiday"
+         ],
+         "focus": {
+          "chunk": "which",
+          "answer": "which : reprend toute la phrase (ce qui)",
+          "why": "Which reprend toute la phrase : ce qui."
+         },
+         "blank": {
+          "chunk": "ruined",
+          "base": "ruin",
+          "wrong": [
+           "ruins",
+           "ruin"
+          ]
+         },
+         "alt": [
+          "It rained all week, which ruined our vacation.",
+          "It rained all week, which spoiled our holiday."
+         ],
+         "wrongMeanings": [
+          "Il a plu toute la semaine, mais nos vacances étaient réussies.",
+          "Nos vacances ont été gâchées par une semaine de travail."
+         ],
+         "combine": {
+          "sentences": [
+           "It rained all week.",
+           "That ruined our holiday."
+          ],
+          "link": "which"
+         },
+         "id": "en-phrase-7-4-06"
+        },
+        {
+         "text": "The people who live upstairs are very noisy.",
+         "fr": "Les gens qui habitent au-dessus sont très bruyants.",
+         "chunks": [
+          "the people",
+          "who",
+          "live",
+          "upstairs",
+          "are",
+          "very noisy"
+         ],
+         "focus": {
+          "chunk": "who",
+          "answer": "sans virgules : elle dit de qui ou de quoi on parle",
+          "why": "Sans virgules : on dit de quels gens on parle."
+         },
+         "blank": {
+          "chunk": "live",
+          "base": "live",
+          "wrong": [
+           "lives",
+           "living"
+          ]
+         },
+         "alt": [
+          "The people that live upstairs are very noisy."
+         ],
+         "id": "en-phrase-7-4-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que fait la relative ?",
+        "options": [
+         "sans virgules : elle dit de qui ou de quoi on parle",
+         "entre virgules : une information en plus",
+         "which : reprend toute la phrase (ce qui)"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "en-phrase-8",
+     "title": "Les conditions",
+     "hint": "Le temps après if dit si la chose est possible, imaginaire ou déjà ratée. Pas de would juste après if pour imaginer.",
+     "level": "B1",
+     "lessons": [
+      {
+       "id": "en-phrase-8:1",
+       "title": "if + présent : toujours vrai, ou possible",
+       "rule": {
+        "intro": "if + présent, puis présent : ce qui arrive à chaque fois. If you heat ice, it melts.",
+        "points": [
+         "if + présent, puis will : une chose possible, dans l'avenir. If it's sunny tomorrow, we'll go to the beach.",
+         "Jamais will juste après if (quand if pose une condition).",
+         "Le français fait pareil : si + présent, puis présent ou futur."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "If you heat ice, it melts.",
+          "Si on chauffe de la glace, elle fond."
+         ],
+         [
+          "If it's sunny tomorrow, we'll go to the beach.",
+          "S'il fait beau demain, nous irons à la plage."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "If you heat ice, it melts.",
+         "fr": "Si on chauffe de la glace, elle fond.",
+         "chunks": [
+          "if",
+          "you",
+          "heat",
+          "ice",
+          "it",
+          "melts"
+         ],
+         "focus": {
+          "chunk": "melts",
+          "answer": "toujours vrai : if + présent, présent",
+          "why": "Ça arrive à chaque fois : présent des deux côtés."
+         },
+         "blank": {
+          "chunk": "heat",
+          "base": "heat",
+          "wrong": [
+           "will heat",
+           "heated"
+          ]
+         },
+         "alt": [
+          "If you heat ice, it will melt."
+         ],
+         "orders": [
+          "Ice melts if you heat it."
+         ],
+         "id": "en-phrase-8-1-01"
+        },
+        {
+         "text": "If you press this button, the door opens.",
+         "fr": "Si on appuie sur ce bouton, la porte s'ouvre.",
+         "chunks": [
+          "if",
+          "you",
+          "press",
+          "this button",
+          "the door",
+          "opens"
+         ],
+         "orders": [
+          "The door opens if you press this button."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "opens",
+          "answer": "toujours vrai : if + présent, présent",
+          "why": "À chaque fois : présent des deux côtés."
+         },
+         "blank": {
+          "chunk": "press",
+          "base": "press",
+          "wrong": [
+           "will press",
+           "pressed"
+          ]
+         },
+         "alt": [
+          "If you press this button, the door will open."
+         ],
+         "id": "en-phrase-8-1-02"
+        },
+        {
+         "text": "If it's sunny tomorrow, we'll go to the beach.",
+         "fr": "S'il fait beau demain, nous irons à la plage.",
+         "chunks": [
+          "if",
+          "it's",
+          "sunny",
+          "tomorrow",
+          "we'll go",
+          "to the beach"
+         ],
+         "orders": [
+          "We'll go to the beach if it's sunny tomorrow."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "we'll go",
+          "answer": "possible : if + présent, will",
+          "why": "Une chose possible demain : will."
+         },
+         "blank": {
+          "chunk": "it's",
+          "base": "be",
+          "wrong": [
+           "it will be",
+           "it was"
+          ]
+         },
+         "alt": [
+          "If the weather is nice tomorrow, we'll go to the beach.",
+          "If it's sunny tomorrow, we're going to go to the beach."
+         ],
+         "wrongMeanings": [
+          "S'il faisait beau demain, nous irions à la plage.",
+          "Il fait beau, alors nous allons à la plage."
+         ],
+         "id": "en-phrase-8-1-03"
+        },
+        {
+         "text": "If you mix blue and yellow, you get green.",
+         "fr": "Si on mélange du bleu et du jaune, on obtient du vert.",
+         "chunks": [
+          "if",
+          "you",
+          "mix",
+          "blue and yellow",
+          "you",
+          "get",
+          "green"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "get",
+          "answer": "toujours vrai : if + présent, présent",
+          "why": "Toujours vrai : présent des deux côtés."
+         },
+         "blank": {
+          "chunk": "mix",
+          "base": "mix",
+          "wrong": [
+           "will mix",
+           "mixed"
+          ]
+         },
+         "wrongMeanings": [
+          "Si on mélange du bleu et du vert, on obtient du jaune.",
+          "Pour obtenir du bleu, on mélange du jaune et du vert."
+         ],
+         "orders": [
+          "You get green if you mix blue and yellow."
+         ],
+         "id": "en-phrase-8-1-04"
+        },
+        {
+         "text": "If you don't eat, you'll be hungry later.",
+         "fr": "Si tu ne manges pas, tu auras faim plus tard.",
+         "chunks": [
+          "if",
+          "you",
+          "don't",
+          "eat",
+          "you'll be",
+          "hungry",
+          "later"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "you'll be",
+          "answer": "possible : if + présent, will",
+          "why": "Une chose possible plus tard : will."
+         },
+         "blank": {
+          "chunk": "eat",
+          "base": "eat",
+          "wrong": [
+           "will eat",
+           "ate"
+          ]
+         },
+         "orders": [
+          "You'll be hungry later if you don't eat."
+         ],
+         "id": "en-phrase-8-1-05"
+        },
+        {
+         "text": "If I miss the bus, I walk to work.",
+         "fr": "Si je rate le bus, je vais au travail à pied.",
+         "chunks": [
+          "if",
+          "I",
+          "miss",
+          "the bus",
+          "I",
+          "walk",
+          "to work"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "walk",
+          "answer": "toujours vrai : if + présent, présent",
+          "why": "Chaque fois que ça arrive : présent des deux côtés."
+         },
+         "blank": {
+          "chunk": "miss",
+          "base": "miss",
+          "wrong": [
+           "will miss",
+           "missed"
+          ]
+         },
+         "alt": [
+          "When I miss the bus, I walk to work."
+         ],
+         "wrongMeanings": [
+          "Si je ratais le bus, j'irais au travail à pied.",
+          "J'ai raté le bus, alors je suis allé au travail à pied."
+         ],
+         "orders": [
+          "I walk to work if I miss the bus."
+         ],
+         "id": "en-phrase-8-1-06"
+        },
+        {
+         "text": "If he calls, I'll tell you.",
+         "fr": "S'il appelle, je te le dirai.",
+         "chunks": [
+          "if",
+          "he",
+          "calls",
+          "I'll tell",
+          "you"
+         ],
+         "orders": [
+          "I'll tell you if he calls."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "I'll tell",
+          "answer": "possible : if + présent, will",
+          "why": "Une chose possible : will."
+         },
+         "blank": {
+          "chunk": "calls",
+          "base": "call",
+          "wrong": [
+           "will call",
+           "called"
+          ]
+         },
+         "id": "en-phrase-8-1-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que dit la phrase ?",
+        "options": [
+         "toujours vrai : if + présent, présent",
+         "possible : if + présent, will"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-8:2",
+       "title": "if + prétérit, would : imaginer",
+       "rule": {
+        "intro": "Pour imaginer : if + prétérit, puis would + verbe. If I had more time, I would learn Japanese.",
+        "points": [
+         "Le français dit « si j'avais… j'apprendrais » ; l'anglais met le prétérit après if, pas would (would après if ne sert que par politesse : if you would like…).",
+         "If I were you : si j'étais toi, pour donner un conseil (If I was you se dit aussi à l'oral).",
+         "would se contracte en 'd : I'd call her."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "If I had more time, I would learn Japanese.",
+          "Si j'avais plus de temps, j'apprendrais le japonais."
+         ],
+         [
+          "If I were you, I would call her.",
+          "Si j'étais toi, je l'appellerais."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "If I had more time, I would learn Japanese.",
+         "fr": "Si j'avais plus de temps, j'apprendrais le japonais.",
+         "chunks": [
+          "if",
+          "I",
+          "had",
+          "more time",
+          "I",
+          "would learn",
+          "Japanese"
+         ],
+         "orders": [
+          "I would learn Japanese if I had more time."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "would learn",
+          "answer": "imaginaire : if + prétérit, would",
+          "why": "On imagine : would."
+         },
+         "blank": {
+          "chunk": "had",
+          "base": "have",
+          "wrong": [
+           "would have",
+           "have"
+          ]
+         },
+         "wrongMeanings": [
+          "Si j'ai plus de temps, j'apprendrai le japonais.",
+          "Si j'avais eu plus de temps, j'aurais appris le japonais."
+         ],
+         "id": "en-phrase-8-2-01"
+        },
+        {
+         "text": "If I were you, I would call her.",
+         "fr": "Si j'étais toi, je l'appellerais.",
+         "chunks": [
+          "if",
+          "I",
+          "were",
+          "you",
+          "I",
+          "would call",
+          "her"
+         ],
+         "orders": [
+          "I would call her if I were you."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "would call",
+          "answer": "imaginaire : if + prétérit, would",
+          "why": "Un conseil, en imaginant : would."
+         },
+         "blank": {
+          "chunk": "would call",
+          "base": "call",
+          "wrong": [
+           "will call",
+           "called"
+          ]
+         },
+         "alt": [
+          "If I was you, I would call her."
+         ],
+         "id": "en-phrase-8-2-02"
+        },
+        {
+         "text": "If we lived by the sea, we would go swimming every day.",
+         "fr": "Si nous habitions au bord de la mer, nous irions nager tous les jours.",
+         "chunks": [
+          "if",
+          "we",
+          "lived",
+          "by the sea",
+          "we",
+          "would go",
+          "swimming",
+          "every day"
+         ],
+         "focus": {
+          "chunk": "lived",
+          "answer": "imaginaire : if + prétérit, would",
+          "why": "Nous n'y habitons pas : on imagine, prétérit après if."
+         },
+         "blank": {
+          "chunk": "lived",
+          "base": "live",
+          "wrong": [
+           "would live",
+           "live"
+          ]
+         },
+         "alt": [
+          "If we lived near the sea, we would go swimming every day."
+         ],
+         "wrongMeanings": [
+          "Nous habitons au bord de la mer, alors nous nageons tous les jours.",
+          "Si nous habitons au bord de la mer, nous irons nager tous les jours."
+         ],
+         "orders": [
+          "We would go swimming every day if we lived by the sea."
+         ],
+         "id": "en-phrase-8-2-03"
+        },
+        {
+         "text": "If you need money, I'll lend you some.",
+         "fr": "Si tu as besoin d'argent, je t'en prêterai.",
+         "chunks": [
+          "if",
+          "you",
+          "need",
+          "money",
+          "I'll lend",
+          "you",
+          "some"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "I'll lend",
+          "answer": "possible : if + présent, will",
+          "why": "Une chose possible : will."
+         },
+         "blank": {
+          "chunk": "need",
+          "base": "need",
+          "wrong": [
+           "needed",
+           "will need"
+          ]
+         },
+         "orders": [
+          "I'll lend you some if you need money."
+         ],
+         "id": "en-phrase-8-2-04"
+        },
+        {
+         "text": "What would you do if you won the lottery?",
+         "fr": "Que ferais-tu si tu gagnais au loto ?",
+         "chunks": [
+          "what",
+          "would",
+          "you",
+          "do",
+          "if",
+          "you",
+          "won",
+          "the lottery"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "won",
+          "answer": "imaginaire : if + prétérit, would",
+          "why": "On imagine : prétérit après if."
+         },
+         "blank": {
+          "chunk": "won",
+          "base": "win",
+          "wrong": [
+           "would win",
+           "win"
+          ]
+         },
+         "wrongMeanings": [
+          "Qu'as-tu fait quand tu as gagné au loto ?",
+          "Que feras-tu si tu gagnes au loto ?"
+         ],
+         "orders": [
+          "If you won the lottery, what would you do?"
+         ],
+         "id": "en-phrase-8-2-05"
+        },
+        {
+         "text": "If it stops raining, we'll go out.",
+         "fr": "S'il arrête de pleuvoir, nous sortirons.",
+         "chunks": [
+          "if",
+          "it",
+          "stops",
+          "raining",
+          "we'll go out"
+         ],
+         "orders": [
+          "We'll go out if it stops raining."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "we'll go out",
+          "answer": "possible : if + présent, will",
+          "why": "Une chose possible : will."
+         },
+         "blank": {
+          "chunk": "stops",
+          "base": "stop",
+          "wrong": [
+           "will stop",
+           "stopped"
+          ]
+         },
+         "id": "en-phrase-8-2-06"
+        },
+        {
+         "text": "She would be happier if she had a dog.",
+         "fr": "Elle serait plus heureuse si elle avait un chien.",
+         "chunks": [
+          "she",
+          "would be",
+          "happier",
+          "if",
+          "she",
+          "had",
+          "a dog"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "would be",
+          "answer": "imaginaire : if + prétérit, would",
+          "why": "Elle n'a pas de chien : on imagine, would."
+         },
+         "blank": {
+          "chunk": "had",
+          "base": "have",
+          "wrong": [
+           "would have",
+           "has"
+          ]
+         },
+         "wrongMeanings": [
+          "Elle est plus heureuse depuis qu'elle a un chien.",
+          "Elle serait plus heureuse sans son chien."
+         ],
+         "orders": [
+          "If she had a dog, she would be happier."
+         ],
+         "id": "en-phrase-8-2-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que dit la phrase ?",
+        "options": [
+         "possible : if + présent, will",
+         "imaginaire : if + prétérit, would"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-8:3",
+       "title": "if + had + participe : le passé qui n'a pas eu lieu",
+       "rule": {
+        "intro": "Pour un passé qu'on imagine autrement : if + had + participe, puis would have + participe. If I had known, I would have come.",
+        "points": [
+         "Le français dit « si j'avais su, je serais venu » : même logique, avec had et would have.",
+         "On s'en sert pour regretter ou reprocher : If you had told me, I would have helped you.",
+         "'d peut vouloir dire had ou would : If I'd known, I'd have come."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "If I had known, I would have come.",
+          "Si j'avais su, je serais venu."
+         ],
+         [
+          "She would have passed if she had studied.",
+          "Elle aurait réussi si elle avait révisé."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "If I had known, I would have come.",
+         "fr": "Si j'avais su, je serais venu.",
+         "chunks": [
+          "if",
+          "I",
+          "had known",
+          "I",
+          "would have come"
+         ],
+         "orders": [
+          "I would have come if I had known."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "would have come",
+          "answer": "le passé qui n'a pas eu lieu : if + had + participe, would have",
+          "why": "Je ne suis pas venu : would have."
+         },
+         "blank": {
+          "chunk": "had known",
+          "base": "know",
+          "wrong": [
+           "would have known",
+           "knew"
+          ]
+         },
+         "wrongMeanings": [
+          "Si je savais, je viendrais.",
+          "Je savais, mais je ne suis pas venu."
+         ],
+         "id": "en-phrase-8-3-01"
+        },
+        {
+         "text": "If we had left earlier, we wouldn't have missed the train.",
+         "fr": "Si nous étions partis plus tôt, nous n'aurions pas raté le train.",
+         "chunks": [
+          "if",
+          "we",
+          "had left",
+          "earlier",
+          "we",
+          "wouldn't have missed",
+          "the train"
+         ],
+         "orders": [
+          "We wouldn't have missed the train if we had left earlier."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "had left",
+          "answer": "le passé qui n'a pas eu lieu : if + had + participe, would have",
+          "why": "Nous ne sommes pas partis tôt : had left."
+         },
+         "blank": {
+          "chunk": "had left",
+          "base": "leave",
+          "wrong": [
+           "left",
+           "would have left"
+          ]
+         },
+         "wrongMeanings": [
+          "Nous sommes partis tôt, mais nous avons raté le train.",
+          "Si nous partons plus tôt, nous ne raterons pas le train."
+         ],
+         "id": "en-phrase-8-3-02"
+        },
+        {
+         "text": "If I had more money, I would buy a bigger flat.",
+         "fr": "Si j'avais plus d'argent, j'achèterais un appartement plus grand.",
+         "chunks": [
+          "if",
+          "I",
+          "had",
+          "more money",
+          "I",
+          "would buy",
+          "a bigger flat"
+         ],
+         "orders": [
+          "I would buy a bigger flat if I had more money."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "would buy",
+          "answer": "imaginaire : if + prétérit, would",
+          "why": "Aujourd'hui, en imaginant : would."
+         },
+         "blank": {
+          "chunk": "would buy",
+          "base": "buy",
+          "wrong": [
+           "will buy",
+           "would bought"
+          ]
+         },
+         "alt": [
+          "If I had more money, I would buy a bigger apartment."
+         ],
+         "id": "en-phrase-8-3-03"
+        },
+        {
+         "text": "She would have passed if she had studied.",
+         "fr": "Elle aurait réussi si elle avait révisé.",
+         "chunks": [
+          "she",
+          "would have passed",
+          "if",
+          "she",
+          "had studied"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "had studied",
+          "answer": "le passé qui n'a pas eu lieu : if + had + participe, would have",
+          "why": "Elle n'a pas révisé : had studied."
+         },
+         "blank": {
+          "chunk": "would have passed",
+          "base": "pass",
+          "wrong": [
+           "will have passed",
+           "would have pass"
+          ]
+         },
+         "alt": [
+          "She would have passed if she had revised."
+         ],
+         "wrongMeanings": [
+          "Elle a réussi parce qu'elle avait révisé.",
+          "Elle réussira si elle révise."
+         ],
+         "orders": [
+          "If she had studied, she would have passed."
+         ],
+         "id": "en-phrase-8-3-04"
+        },
+        {
+         "text": "It would have been easier if you had helped me.",
+         "fr": "Ça aurait été plus facile si tu m'avais aidé.",
+         "chunks": [
+          "it",
+          "would have been",
+          "easier",
+          "if",
+          "you",
+          "had helped",
+          "me"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "would have been",
+          "answer": "le passé qui n'a pas eu lieu : if + had + participe, would have",
+          "why": "Tu ne m'as pas aidé : would have been."
+         },
+         "blank": {
+          "chunk": "had helped",
+          "base": "help",
+          "wrong": [
+           "helped",
+           "would help"
+          ]
+         },
+         "orders": [
+          "If you had helped me, it would have been easier."
+         ],
+         "id": "en-phrase-8-3-05"
+        },
+        {
+         "text": "If I had seen you, I would have said hello.",
+         "fr": "Si je t'avais vu, je t'aurais dit bonjour.",
+         "chunks": [
+          "if",
+          "I",
+          "had seen",
+          "you",
+          "I",
+          "would have said",
+          "hello"
+         ],
+         "orders": [
+          "I would have said hello if I had seen you."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "had seen",
+          "answer": "le passé qui n'a pas eu lieu : if + had + participe, would have",
+          "why": "Je ne t'ai pas vu : had seen."
+         },
+         "blank": {
+          "chunk": "had seen",
+          "base": "see",
+          "wrong": [
+           "saw",
+           "would have seen"
+          ]
+         },
+         "id": "en-phrase-8-3-06"
+        },
+        {
+         "text": "If she spoke English, she would get the job.",
+         "fr": "Si elle parlait anglais, elle aurait le poste.",
+         "chunks": [
+          "if",
+          "she",
+          "spoke",
+          "English",
+          "she",
+          "would get",
+          "the job"
+         ],
+         "orders": [
+          "She would get the job if she spoke English."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "spoke",
+          "answer": "imaginaire : if + prétérit, would",
+          "why": "Aujourd'hui, en imaginant : prétérit après if."
+         },
+         "blank": {
+          "chunk": "spoke",
+          "base": "speak",
+          "wrong": [
+           "would speak",
+           "speaks"
+          ]
+         },
+         "wrongMeanings": [
+          "Si elle avait parlé anglais, elle aurait eu le poste.",
+          "Elle parle anglais, alors elle a eu le poste."
+         ],
+         "id": "en-phrase-8-3-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que dit la phrase ?",
+        "options": [
+         "imaginaire : if + prétérit, would",
+         "le passé qui n'a pas eu lieu : if + had + participe, would have"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-8:4",
+       "title": "unless, as long as, in case",
+       "rule": {
+        "intro": "D'autres mots posent une condition, toujours avec le présent pour le futur.",
+        "points": [
+         "unless = sauf si, si… ne… pas : We'll miss the bus unless we hurry (si nous ne nous dépêchons pas).",
+         "unless contient déjà la négation : unless we hurry = if we don't hurry (on ne dit pas unless we don't hurry dans ce sens).",
+         "as long as = à condition que : You can borrow my car as long as you're careful.",
+         "in case = au cas où, par précaution : Take an umbrella in case it rains. Ce n'est pas if : on le prend même s'il ne pleut pas."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "We'll miss the bus unless we hurry.",
+          "Nous allons rater le bus si nous ne nous dépêchons pas."
+         ],
+         [
+          "Take an umbrella in case it rains.",
+          "Prends un parapluie au cas où il pleuvrait."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "We'll miss the bus unless we hurry.",
+         "fr": "Nous allons rater le bus si nous ne nous dépêchons pas.",
+         "chunks": [
+          "we'll miss",
+          "the bus",
+          "unless",
+          "we",
+          "hurry"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "unless",
+          "answer": "unless : sauf si (si… ne… pas)",
+          "why": "Si nous ne nous dépêchons pas : unless."
+         },
+         "blank": {
+          "chunk": "hurry",
+          "base": "hurry",
+          "wrong": [
+           "will hurry",
+           "don't hurry"
+          ]
+         },
+         "alt": [
+          "We'll miss the bus if we don't hurry."
+         ],
+         "wrongMeanings": [
+          "Nous allons rater le bus même si nous nous dépêchons.",
+          "Nous avons raté le bus parce que nous ne nous sommes pas dépêchés."
+         ],
+         "orders": [
+          "Unless we hurry, we'll miss the bus."
+         ],
+         "id": "en-phrase-8-4-01"
+        },
+        {
+         "text": "You can borrow my car as long as you're careful.",
+         "fr": "Tu peux emprunter ma voiture à condition de faire attention.",
+         "chunks": [
+          "you",
+          "can borrow",
+          "my car",
+          "as long as",
+          "you're",
+          "careful"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "as long as",
+          "answer": "as long as : à condition que",
+          "why": "À condition de : as long as."
+         },
+         "blank": {
+          "chunk": "can borrow",
+          "base": "borrow",
+          "wrong": [
+           "can to borrow",
+           "can borrowing"
+          ]
+         },
+         "alt": [
+          "You can borrow my car if you're careful.",
+          "You can borrow my car provided you're careful."
+         ],
+         "wrongMeanings": [
+          "Tu peux emprunter ma voiture aussi longtemps que tu veux.",
+          "Fais attention, ma voiture est empruntée."
+         ],
+         "orders": [
+          "As long as you're careful, you can borrow my car."
+         ],
+         "id": "en-phrase-8-4-02"
+        },
+        {
+         "text": "Take an umbrella in case it rains.",
+         "fr": "Prends un parapluie au cas où il pleuvrait.",
+         "chunks": [
+          "take",
+          "an umbrella",
+          "in case",
+          "it",
+          "rains"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "in case",
+          "answer": "in case : au cas où",
+          "why": "Par précaution : in case."
+         },
+         "blank": {
+          "chunk": "rains",
+          "base": "rain",
+          "wrong": [
+           "will rain",
+           "would rain"
+          ]
+         },
+         "wrongMeanings": [
+          "Prends un parapluie s'il pleut.",
+          "Il pleut : prends un parapluie."
+         ],
+         "orders": [
+          "In case it rains, take an umbrella."
+         ],
+         "id": "en-phrase-8-4-03"
+        },
+        {
+         "text": "I won't go unless you come with me.",
+         "fr": "Je n'irai pas si tu ne viens pas avec moi.",
+         "chunks": [
+          "I",
+          "won't go",
+          "unless",
+          "you",
+          "come",
+          "with me"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "unless",
+          "answer": "unless : sauf si (si… ne… pas)",
+          "why": "Si tu ne viens pas : unless."
+         },
+         "blank": {
+          "chunk": "come",
+          "base": "come",
+          "wrong": [
+           "will come",
+           "don't come"
+          ]
+         },
+         "alt": [
+          "I won't go if you don't come with me."
+         ],
+         "orders": [
+          "Unless you come with me, I won't go."
+         ],
+         "id": "en-phrase-8-4-04"
+        },
+        {
+         "text": "Write down my number in case you need help.",
+         "fr": "Note mon numéro au cas où tu aurais besoin d'aide.",
+         "chunks": [
+          "write down",
+          "my number",
+          "in case",
+          "you",
+          "need",
+          "help"
+         ],
+         "focus": {
+          "chunk": "in case",
+          "answer": "in case : au cas où",
+          "why": "Par précaution : in case."
+         },
+         "blank": {
+          "chunk": "need",
+          "base": "need",
+          "wrong": [
+           "will need",
+           "would need"
+          ]
+         },
+         "alt": [
+          "Write my number down in case you need help.",
+          "Take my number in case you need help."
+         ],
+         "id": "en-phrase-8-4-05"
+        },
+        {
+         "text": "I'll help you as long as you help me too.",
+         "fr": "Je t'aiderai à condition que tu m'aides aussi.",
+         "chunks": [
+          "I'll help",
+          "you",
+          "as long as",
+          "you",
+          "help",
+          "me",
+          "too"
+         ],
+         "focus": {
+          "chunk": "as long as",
+          "answer": "as long as : à condition que",
+          "why": "À condition que : as long as."
+         },
+         "blank": {
+          "chunk": "I'll help",
+          "base": "help",
+          "wrong": [
+           "I help",
+           "I'd help"
+          ]
+         },
+         "alt": [
+          "I'll help you if you help me too."
+         ],
+         "id": "en-phrase-8-4-06"
+        },
+        {
+         "text": "Don't call me unless it's urgent.",
+         "fr": "Ne m'appelle pas sauf si c'est urgent.",
+         "chunks": [
+          "don't call",
+          "me",
+          "unless",
+          "it's",
+          "urgent"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "unless",
+          "answer": "unless : sauf si (si… ne… pas)",
+          "why": "Sauf si : unless."
+         },
+         "blank": {
+          "chunk": "it's",
+          "base": "be",
+          "wrong": [
+           "it isn't",
+           "it will be"
+          ]
+         },
+         "alt": [
+          "Don't call me if it isn't urgent.",
+          "Only call me if it's urgent."
+         ],
+         "wrongMeanings": [
+          "Appelle-moi seulement si ce n'est pas urgent.",
+          "Ne m'appelle pas, c'est urgent."
+         ],
+         "orders": [
+          "Unless it's urgent, don't call me."
+         ],
+         "id": "en-phrase-8-4-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que dit le groupe surligné ?",
+        "options": [
+         "unless : sauf si (si… ne… pas)",
+         "as long as : à condition que",
+         "in case : au cas où"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-8:5",
+       "title": "Tout ensemble : possible, imaginaire ou passé",
+       "rule": {
+        "intro": "Trois façons de poser une condition, selon ce qu'on pense de la situation.",
+        "points": [
+         "Possible : If I find your keys, I'll call you.",
+         "Imaginaire : If I found a wallet, I would take it to the police.",
+         "Passé raté : If you had told me, I would have helped you."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "If I find your keys, I'll call you.",
+          "Si je trouve tes clés, je t'appellerai."
+         ],
+         [
+          "If you had told me, I would have helped you.",
+          "Si tu me l'avais dit, je t'aurais aidé."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "If I find your keys, I'll call you.",
+         "fr": "Si je trouve tes clés, je t'appellerai.",
+         "chunks": [
+          "if",
+          "I",
+          "find",
+          "your keys",
+          "I'll call",
+          "you"
+         ],
+         "orders": [
+          "I'll call you if I find your keys."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "I'll call",
+          "answer": "possible : if + présent, will",
+          "why": "Une chose possible : will."
+         },
+         "blank": {
+          "chunk": "find",
+          "base": "find",
+          "wrong": [
+           "will find",
+           "found"
+          ]
+         },
+         "id": "en-phrase-8-5-01"
+        },
+        {
+         "text": "If I found a wallet in the street, I would take it to the police.",
+         "fr": "Si je trouvais un portefeuille dans la rue, je l'apporterais à la police.",
+         "chunks": [
+          "if",
+          "I",
+          "found",
+          "a wallet",
+          "in the street",
+          "I",
+          "would take",
+          "it",
+          "to the police"
+         ],
+         "focus": {
+          "chunk": "found",
+          "answer": "imaginaire : if + prétérit, would",
+          "why": "On imagine : prétérit après if."
+         },
+         "blank": {
+          "chunk": "would take",
+          "base": "take",
+          "wrong": [
+           "will take",
+           "would took"
+          ]
+         },
+         "wrongMeanings": [
+          "J'ai trouvé un portefeuille et je l'ai apporté à la police.",
+          "Si j'avais trouvé un portefeuille, je l'aurais apporté à la police."
+         ],
+         "id": "en-phrase-8-5-02"
+        },
+        {
+         "text": "If you had told me, I would have helped you.",
+         "fr": "Si tu me l'avais dit, je t'aurais aidé.",
+         "chunks": [
+          "if",
+          "you",
+          "had told",
+          "me",
+          "I",
+          "would have helped",
+          "you"
+         ],
+         "orders": [
+          "I would have helped you if you had told me."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "had told",
+          "answer": "le passé qui n'a pas eu lieu : if + had + participe, would have",
+          "why": "Tu ne me l'as pas dit : had told."
+         },
+         "blank": {
+          "chunk": "had told",
+          "base": "tell",
+          "wrong": [
+           "told",
+           "would tell"
+          ]
+         },
+         "wrongMeanings": [
+          "Si tu me le dis, je t'aiderai.",
+          "Tu me l'as dit, mais je ne t'ai pas aidé."
+         ],
+         "id": "en-phrase-8-5-03"
+        },
+        {
+         "text": "If I were rich, I wouldn't work.",
+         "fr": "Si j'étais riche, je ne travaillerais pas.",
+         "chunks": [
+          "if",
+          "I",
+          "were",
+          "rich",
+          "I",
+          "wouldn't work"
+         ],
+         "orders": [
+          "I wouldn't work if I were rich."
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "wouldn't work",
+          "answer": "imaginaire : if + prétérit, would",
+          "why": "On imagine : would."
+         },
+         "blank": {
+          "chunk": "wouldn't work",
+          "base": "work",
+          "wrong": [
+           "won't work",
+           "wouldn't worked"
+          ]
+         },
+         "alt": [
+          "If I was rich, I wouldn't work."
+         ],
+         "id": "en-phrase-8-5-04"
+        },
+        {
+         "text": "We would have won if our goalkeeper hadn't been injured.",
+         "fr": "Nous aurions gagné si notre gardien n'avait pas été blessé.",
+         "chunks": [
+          "we",
+          "would have won",
+          "if",
+          "our goalkeeper",
+          "hadn't been",
+          "injured"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "hadn't been",
+          "answer": "le passé qui n'a pas eu lieu : if + had + participe, would have",
+          "why": "Il a été blessé : hadn't been."
+         },
+         "blank": {
+          "chunk": "would have won",
+          "base": "win",
+          "wrong": [
+           "will have won",
+           "would have win"
+          ]
+         },
+         "orders": [
+          "If our goalkeeper hadn't been injured, we would have won."
+         ],
+         "id": "en-phrase-8-5-05"
+        },
+        {
+         "text": "If the weather is bad, the match will be cancelled.",
+         "fr": "S'il fait mauvais, le match sera annulé.",
+         "chunks": [
+          "if",
+          "the weather",
+          "is",
+          "bad",
+          "the match",
+          "will be cancelled"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "will be cancelled",
+          "answer": "possible : if + présent, will",
+          "why": "Une chose possible : will."
+         },
+         "blank": {
+          "chunk": "is",
+          "base": "be",
+          "wrong": [
+           "will be",
+           "was"
+          ]
+         },
+         "alt": [
+          "If the weather is bad, the game will be canceled."
+         ],
+         "orders": [
+          "The match will be cancelled if the weather is bad."
+         ],
+         "id": "en-phrase-8-5-06"
+        },
+        {
+         "text": "I would have called you if I hadn't lost my phone.",
+         "fr": "Je t'aurais appelé si je n'avais pas perdu mon téléphone.",
+         "chunks": [
+          "I",
+          "would have called",
+          "you",
+          "if",
+          "I",
+          "hadn't lost",
+          "my phone"
+         ],
+         "orderWhy": "Les deux ordres sont corrects ; quand la subordonnée vient en premier, on met une virgule.",
+         "focus": {
+          "chunk": "hadn't lost",
+          "answer": "le passé qui n'a pas eu lieu : if + had + participe, would have",
+          "why": "J'ai perdu mon téléphone : hadn't lost."
+         },
+         "blank": {
+          "chunk": "hadn't lost",
+          "base": "lose",
+          "wrong": [
+           "didn't lose",
+           "wouldn't have lost"
+          ]
+         },
+         "wrongMeanings": [
+          "Je t'ai appelé, mais j'ai perdu mon téléphone.",
+          "Je t'appellerai si je retrouve mon téléphone."
+         ],
+         "orders": [
+          "If I hadn't lost my phone, I would have called you."
+         ],
+         "id": "en-phrase-8-5-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que dit la phrase ?",
+        "options": [
+         "possible : if + présent, will",
+         "imaginaire : if + prétérit, would",
+         "le passé qui n'a pas eu lieu : if + had + participe, would have"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "en-phrase-9",
+     "title": "To ou -ing",
+     "hint": "Quand un verbe en suit un autre, l'anglais choisit entre to + verbe et -ing. Et « pour + verbe » se dit to + verbe, jamais for + verbe (for + -ing dit seulement à quoi sert un objet).",
+     "level": "B1",
+     "lessons": [
+      {
+       "id": "en-phrase-9:1",
+       "title": "to : pour dire le but",
+       "rule": {
+        "intro": "« Pour acheter » se dit to buy : I went to the bakery to buy bread.",
+        "points": [
+         "Faux : for buy, for to buy. Juste : to buy.",
+         "to + un lieu dit où on va ; to + un verbe dit pourquoi.",
+         "in order to (afin de) est plus soutenu : in order to learn.",
+         "for + -ing dit à quoi sert un objet : This knife is for cutting bread."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "I went to the bakery to buy bread.",
+          "Je suis allé à la boulangerie pour acheter du pain."
+         ],
+         [
+          "He's going to Spain to learn Spanish.",
+          "Il va en Espagne pour apprendre l'espagnol."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "I went to the bakery to buy bread.",
+         "fr": "Je suis allé à la boulangerie pour acheter du pain.",
+         "chunks": [
+          "I",
+          "went",
+          "to the bakery",
+          "to buy",
+          "bread"
+         ],
+         "focus": {
+          "chunk": "to buy",
+          "answer": "to + verbe : le but (pour)",
+          "why": "Pour acheter : to buy."
+         },
+         "blank": {
+          "chunk": "to buy",
+          "base": "acheter",
+          "wrong": [
+           "for buy",
+           "for buying"
+          ]
+         },
+         "alt": [
+          "I went to the baker's to buy bread.",
+          "I went to the bakery to get bread."
+         ],
+         "wrongMeanings": [
+          "Je suis allé à la boulangerie, mais je n'ai pas acheté de pain.",
+          "J'ai acheté du pain en allant au travail."
+         ],
+         "id": "en-phrase-9-1-01"
+        },
+        {
+         "text": "She's saving money to buy a car.",
+         "fr": "Elle économise pour acheter une voiture.",
+         "chunks": [
+          "she's saving",
+          "money",
+          "to buy",
+          "a car"
+         ],
+         "focus": {
+          "chunk": "to buy",
+          "answer": "to + verbe : le but (pour)",
+          "why": "Pour acheter : to buy."
+         },
+         "blank": {
+          "chunk": "to buy",
+          "base": "acheter",
+          "wrong": [
+           "for to buy",
+           "for buying"
+          ]
+         },
+         "alt": [
+          "She's saving up to buy a car.",
+          "She's saving to buy a car."
+         ],
+         "id": "en-phrase-9-1-02"
+        },
+        {
+         "text": "We went to the station to pick up my aunt.",
+         "fr": "Nous sommes allés à la gare chercher ma tante.",
+         "chunks": [
+          "we",
+          "went",
+          "to the station",
+          "to pick up",
+          "my aunt"
+         ],
+         "focus": {
+          "chunk": "to the station",
+          "answer": "to + lieu : la destination (où ?)",
+          "why": "Où ? À la gare."
+         },
+         "blank": {
+          "chunk": "to pick up",
+          "base": "pick up",
+          "wrong": [
+           "for pick up",
+           "for picking up"
+          ]
+         },
+         "alt": [
+          "We went to the station to meet my aunt.",
+          "We went to the station to get my aunt."
+         ],
+         "wrongMeanings": [
+          "Ma tante est venue nous chercher à la gare.",
+          "Nous avons accompagné ma tante à la gare."
+         ],
+         "id": "en-phrase-9-1-03"
+        },
+        {
+         "text": "I called him to say thank you.",
+         "fr": "Je l'ai appelé pour lui dire merci.",
+         "chunks": [
+          "I",
+          "called",
+          "him",
+          "to say",
+          "thank you"
+         ],
+         "focus": {
+          "chunk": "to say",
+          "answer": "to + verbe : le but (pour)",
+          "why": "Pour dire : to say."
+         },
+         "blank": {
+          "chunk": "to say",
+          "base": "dire",
+          "wrong": [
+           "for say",
+           "for saying"
+          ]
+         },
+         "alt": [
+          "I called him to thank him.",
+          "I phoned him to say thank you."
+         ],
+         "id": "en-phrase-9-1-04"
+        },
+        {
+         "text": "He's going to Spain to learn Spanish.",
+         "fr": "Il va en Espagne pour apprendre l'espagnol.",
+         "chunks": [
+          "he's going",
+          "to Spain",
+          "to learn",
+          "Spanish"
+         ],
+         "focus": {
+          "chunk": "to Spain",
+          "answer": "to + lieu : la destination (où ?)",
+          "why": "Où ? En Espagne."
+         },
+         "blank": {
+          "chunk": "to learn",
+          "base": "apprendre",
+          "wrong": [
+           "for learn",
+           "for learning"
+          ]
+         },
+         "wrongMeanings": [
+          "Il apprend l'espagnol pour aller en Espagne.",
+          "Il revient d'Espagne, où il a appris l'espagnol."
+         ],
+         "id": "en-phrase-9-1-05"
+        },
+        {
+         "text": "I use this knife to cut bread.",
+         "fr": "J'utilise ce couteau pour couper le pain.",
+         "chunks": [
+          "I",
+          "use",
+          "this knife",
+          "to cut",
+          "bread"
+         ],
+         "focus": {
+          "chunk": "to cut",
+          "answer": "to + verbe : le but (pour)",
+          "why": "Pour couper : to cut."
+         },
+         "blank": {
+          "chunk": "to cut",
+          "base": "couper",
+          "wrong": [
+           "for cut",
+           "cut"
+          ]
+         },
+         "alt": [
+          "I use this knife for cutting bread.",
+          "I use this knife to cut the bread."
+         ],
+         "id": "en-phrase-9-1-06"
+        },
+        {
+         "text": "They came to Paris to see the museums.",
+         "fr": "Ils sont venus à Paris pour voir les musées.",
+         "chunks": [
+          "they",
+          "came",
+          "to Paris",
+          "to see",
+          "the museums"
+         ],
+         "focus": {
+          "chunk": "to Paris",
+          "answer": "to + lieu : la destination (où ?)",
+          "why": "Où ? À Paris."
+         },
+         "blank": {
+          "chunk": "to see",
+          "base": "voir",
+          "wrong": [
+           "for see",
+           "for seeing"
+          ]
+         },
+         "wrongMeanings": [
+          "Ils sont partis de Paris pour voir les musées.",
+          "Ils ont vu les musées avant de venir à Paris."
+         ],
+         "id": "en-phrase-9-1-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que dit le groupe surligné ?",
+        "options": [
+         "to + verbe : le but (pour)",
+         "to + lieu : la destination (où ?)"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-9:2",
+       "title": "I want you to come : vouloir que…",
+       "rule": {
+        "intro": "« Je veux que tu viennes » se dit I want you to come : want + la personne + to + verbe.",
+        "points": [
+         "Faux : I want that you come. L'anglais n'a pas de « que » ici.",
+         "Même tournure avec would like, ask, tell, expect : She asked me to help her.",
+         "Pour une interdiction : not to (plutôt que to not). The doctor told him not to smoke.",
+         "Sans personne, c'est le sujet qui fait l'action : I want to come (je veux venir)."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "I want you to come.",
+          "Je veux que tu viennes."
+         ],
+         [
+          "She asked me to help her.",
+          "Elle m'a demandé de l'aider."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "I want you to come.",
+         "fr": "Je veux que tu viennes.",
+         "chunks": [
+          "I",
+          "want",
+          "you",
+          "to come"
+         ],
+         "focus": {
+          "chunk": "to come",
+          "answer": "la personne juste avant to",
+          "why": "C'est toi qui viens : you, juste avant to."
+         },
+         "blank": {
+          "chunk": "to come",
+          "base": "venir",
+          "wrong": [
+           "coming",
+           "come"
+          ]
+         },
+         "wrongMeanings": [
+          "Je veux venir.",
+          "Tu veux que je vienne."
+         ],
+         "id": "en-phrase-9-2-01"
+        },
+        {
+         "text": "I want to come.",
+         "fr": "Je veux venir.",
+         "chunks": [
+          "I",
+          "want",
+          "to come"
+         ],
+         "focus": {
+          "chunk": "to come",
+          "answer": "le sujet de la phrase",
+          "why": "C'est moi qui viens : le sujet."
+         },
+         "blank": {
+          "chunk": "to come",
+          "base": "venir",
+          "wrong": [
+           "coming",
+           "come"
+          ]
+         },
+         "wrongMeanings": [
+          "Je veux que tu viennes.",
+          "Je ne veux pas venir."
+         ],
+         "id": "en-phrase-9-2-02"
+        },
+        {
+         "text": "My parents want me to study medicine.",
+         "fr": "Mes parents veulent que je fasse médecine.",
+         "chunks": [
+          "my parents",
+          "want",
+          "me",
+          "to study",
+          "medicine"
+         ],
+         "focus": {
+          "chunk": "to study",
+          "answer": "la personne juste avant to",
+          "why": "C'est moi qui étudie : me, juste avant to."
+         },
+         "blank": {
+          "chunk": "me",
+          "base": "moi",
+          "wrong": [
+           "I",
+           "that I"
+          ]
+         },
+         "wrongMeanings": [
+          "Je veux que mes parents fassent médecine.",
+          "Mes parents ont fait médecine."
+         ],
+         "id": "en-phrase-9-2-03"
+        },
+        {
+         "text": "She asked me to help her.",
+         "fr": "Elle m'a demandé de l'aider.",
+         "chunks": [
+          "she",
+          "asked",
+          "me",
+          "to help",
+          "her"
+         ],
+         "focus": {
+          "chunk": "to help",
+          "answer": "la personne juste avant to",
+          "why": "C'est moi qui aide : me, juste avant to."
+         },
+         "blank": {
+          "chunk": "to help",
+          "base": "aider",
+          "wrong": [
+           "helping",
+           "help"
+          ]
+         },
+         "wrongMeanings": [
+          "Je lui ai demandé de m'aider.",
+          "Elle m'a aidé sans que je le demande."
+         ],
+         "id": "en-phrase-9-2-04"
+        },
+        {
+         "text": "The doctor told him not to smoke.",
+         "fr": "Le médecin lui a dit de ne pas fumer.",
+         "chunks": [
+          "the doctor",
+          "told",
+          "him",
+          "not to smoke"
+         ],
+         "focus": {
+          "chunk": "not to smoke",
+          "answer": "la personne juste avant to",
+          "why": "C'est lui qui ne doit pas fumer : him, juste avant."
+         },
+         "blank": {
+          "chunk": "not to smoke",
+          "base": "ne pas fumer",
+          "wrong": [
+           "don't smoke",
+           "not smoke"
+          ]
+         },
+         "wrongMeanings": [
+          "Le médecin lui a dit qu'il ne fumait pas.",
+          "Il a dit au médecin de ne pas fumer."
+         ],
+         "id": "en-phrase-9-2-05"
+        },
+        {
+         "text": "Would you like me to open the window?",
+         "fr": "Tu veux que j'ouvre la fenêtre ?",
+         "chunks": [
+          "would you like",
+          "me",
+          "to open",
+          "the window"
+         ],
+         "focus": {
+          "chunk": "to open",
+          "answer": "la personne juste avant to",
+          "why": "C'est moi qui ouvre : me, juste avant to."
+         },
+         "blank": {
+          "chunk": "me",
+          "base": "moi",
+          "wrong": [
+           "I",
+           "that I"
+          ]
+         },
+         "alt": [
+          "Do you want me to open the window?",
+          "Shall I open the window?"
+         ],
+         "id": "en-phrase-9-2-06"
+        },
+        {
+         "text": "We decided to stay at home.",
+         "fr": "Nous avons décidé de rester à la maison.",
+         "chunks": [
+          "we",
+          "decided",
+          "to stay",
+          "at home"
+         ],
+         "focus": {
+          "chunk": "to stay",
+          "answer": "le sujet de la phrase",
+          "why": "C'est nous qui restons : le sujet."
+         },
+         "blank": {
+          "chunk": "to stay",
+          "base": "rester",
+          "wrong": [
+           "staying",
+           "stay"
+          ]
+         },
+         "alt": [
+          "We decided to stay home."
+         ],
+         "id": "en-phrase-9-2-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Qui fait l'action du verbe surligné ?",
+        "options": [
+         "le sujet de la phrase",
+         "la personne juste avant to"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-9:3",
+       "title": "-ing après enjoy, finish, avoid… et après une préposition",
+       "rule": {
+        "intro": "Certains verbes sont suivis de -ing : enjoy, finish, avoid, mind, keep, suggest. I enjoy cooking.",
+        "points": [
+         "Après une préposition (without, before, after, in, at, for…), toujours -ing : She left without saying goodbye.",
+         "Le français met l'infinitif (sans dire) ; l'anglais met -ing.",
+         "D'autres verbes prennent to : want, decide, hope, need, plan, forget. He hopes to find a job."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "I enjoy cooking for my friends.",
+          "J'aime cuisiner pour mes amis."
+         ],
+         [
+          "She left without saying goodbye.",
+          "Elle est partie sans dire au revoir."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "I enjoy cooking for my friends.",
+         "fr": "J'aime cuisiner pour mes amis.",
+         "chunks": [
+          "I",
+          "enjoy",
+          "cooking",
+          "for my friends"
+         ],
+         "focus": {
+          "chunk": "cooking",
+          "answer": "-ing : après enjoy, finish, avoid, mind…",
+          "why": "Après enjoy : -ing."
+         },
+         "blank": {
+          "chunk": "cooking",
+          "base": "cook",
+          "wrong": [
+           "to cook",
+           "cook"
+          ]
+         },
+         "alt": [
+          "I like cooking for my friends.",
+          "I love cooking for my friends.",
+          "I like to cook for my friends.",
+          "I love to cook for my friends."
+         ],
+         "id": "en-phrase-9-3-01"
+        },
+        {
+         "text": "Have you finished eating?",
+         "fr": "Tu as fini de manger ?",
+         "chunks": [
+          "have",
+          "you",
+          "finished",
+          "eating"
+         ],
+         "focus": {
+          "chunk": "eating",
+          "answer": "-ing : après enjoy, finish, avoid, mind…",
+          "why": "Après finish : -ing."
+         },
+         "blank": {
+          "chunk": "eating",
+          "base": "eat",
+          "wrong": [
+           "to eat",
+           "eat"
+          ]
+         },
+         "alt": [
+          "Are you done eating?",
+          "Did you finish eating?"
+         ],
+         "id": "en-phrase-9-3-02"
+        },
+        {
+         "text": "She left without saying goodbye.",
+         "fr": "Elle est partie sans dire au revoir.",
+         "chunks": [
+          "she",
+          "left",
+          "without",
+          "saying",
+          "goodbye"
+         ],
+         "focus": {
+          "chunk": "saying",
+          "answer": "-ing : après une préposition (without, before, in…)",
+          "why": "Après without : -ing."
+         },
+         "blank": {
+          "chunk": "saying",
+          "base": "say",
+          "wrong": [
+           "say",
+           "to say"
+          ]
+         },
+         "wrongMeanings": [
+          "Elle est partie après avoir dit au revoir.",
+          "Elle a dit au revoir sans partir."
+         ],
+         "id": "en-phrase-9-3-03"
+        },
+        {
+         "text": "I'm interested in learning Chinese.",
+         "fr": "Ça m'intéresse d'apprendre le chinois.",
+         "chunks": [
+          "I'm",
+          "interested",
+          "in",
+          "learning",
+          "Chinese"
+         ],
+         "focus": {
+          "chunk": "learning",
+          "answer": "-ing : après une préposition (without, before, in…)",
+          "why": "Après in : -ing."
+         },
+         "blank": {
+          "chunk": "learning",
+          "base": "learn",
+          "wrong": [
+           "learn",
+           "to learn"
+          ]
+         },
+         "alt": [
+          "I'm interested in studying Chinese."
+         ],
+         "id": "en-phrase-9-3-04"
+        },
+        {
+         "text": "Do you mind waiting a few minutes?",
+         "fr": "Ça te dérange d'attendre quelques minutes ?",
+         "chunks": [
+          "do you mind",
+          "waiting",
+          "a few minutes"
+         ],
+         "focus": {
+          "chunk": "waiting",
+          "answer": "-ing : après enjoy, finish, avoid, mind…",
+          "why": "Après mind : -ing."
+         },
+         "blank": {
+          "chunk": "waiting",
+          "base": "wait",
+          "wrong": [
+           "to wait",
+           "wait"
+          ]
+         },
+         "alt": [
+          "Would you mind waiting a few minutes?"
+         ],
+         "wrongMeanings": [
+          "Tu veux bien que je t'attende quelques minutes ?",
+          "Tu as attendu longtemps ?"
+         ],
+         "id": "en-phrase-9-3-05"
+        },
+        {
+         "text": "He hopes to find a job soon.",
+         "fr": "Il espère trouver un travail bientôt.",
+         "chunks": [
+          "he",
+          "hopes",
+          "to find",
+          "a job",
+          "soon"
+         ],
+         "focus": {
+          "chunk": "to find",
+          "answer": "to : après want, decide, hope, need…",
+          "why": "Après hope : to."
+         },
+         "blank": {
+          "chunk": "to find",
+          "base": "find",
+          "wrong": [
+           "finding",
+           "find"
+          ]
+         },
+         "alt": [
+          "He hopes he will find a job soon.",
+          "He hopes to find work soon."
+         ],
+         "id": "en-phrase-9-3-06"
+        },
+        {
+         "text": "Brush your teeth before going to bed.",
+         "fr": "Brosse-toi les dents avant d'aller te coucher.",
+         "chunks": [
+          "brush",
+          "your teeth",
+          "before",
+          "going",
+          "to bed"
+         ],
+         "focus": {
+          "chunk": "going",
+          "answer": "-ing : après une préposition (without, before, in…)",
+          "why": "Après before : -ing."
+         },
+         "blank": {
+          "chunk": "going",
+          "base": "go",
+          "wrong": [
+           "go",
+           "to go"
+          ]
+         },
+         "alt": [
+          "Brush your teeth before you go to bed."
+         ],
+         "wrongMeanings": [
+          "Brosse-toi les dents après le dîner.",
+          "Va te coucher avant de te brosser les dents."
+         ],
+         "id": "en-phrase-9-3-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Pourquoi cette forme ?",
+        "options": [
+         "-ing : après enjoy, finish, avoid, mind…",
+         "-ing : après une préposition (without, before, in…)",
+         "to : après want, decide, hope, need…"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-9:4",
+       "title": "to ou -ing : choisir",
+       "rule": {
+        "intro": "Il faut retenir avec chaque verbe la forme qui le suit.",
+        "points": [
+         "+ to : want, decide, hope, need, plan, forget, try. Don't forget to lock the door.",
+         "+ -ing : enjoy, finish, avoid, mind, keep. He kept talking.",
+         "try et forget existent aussi avec -ing, mais le sens change : I'll never forget meeting you (je n'oublierai jamais notre rencontre).",
+         "Après une préposition : -ing. Thank you for helping me."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Don't forget to lock the door.",
+          "N'oublie pas de fermer la porte à clé."
+         ],
+         [
+          "Thank you for helping me.",
+          "Merci de m'avoir aidé."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Try to avoid eating late.",
+         "fr": "Essaie d'éviter de manger tard.",
+         "chunks": [
+          "try",
+          "to avoid",
+          "eating",
+          "late"
+         ],
+         "focus": {
+          "chunk": "eating",
+          "answer": "-ing : après enjoy, finish, avoid, mind…",
+          "why": "Après avoid : -ing."
+         },
+         "blank": {
+          "chunk": "eating",
+          "base": "eat",
+          "wrong": [
+           "to eat",
+           "eat"
+          ]
+         },
+         "alt": [
+          "Try not to eat late."
+         ],
+         "id": "en-phrase-9-4-01"
+        },
+        {
+         "text": "We've decided to move next year.",
+         "fr": "Nous avons décidé de déménager l'année prochaine.",
+         "chunks": [
+          "we've decided",
+          "to move",
+          "next year"
+         ],
+         "focus": {
+          "chunk": "to move",
+          "answer": "to : après want, decide, hope, need…",
+          "why": "Après decide : to."
+         },
+         "blank": {
+          "chunk": "to move",
+          "base": "move",
+          "wrong": [
+           "moving",
+           "move"
+          ]
+         },
+         "alt": [
+          "We have decided to move next year.",
+          "We decided to move next year."
+         ],
+         "wrongMeanings": [
+          "Nous avons déménagé l'année dernière.",
+          "Nous avons décidé de ne pas déménager l'année prochaine."
+         ],
+         "id": "en-phrase-9-4-02"
+        },
+        {
+         "text": "Don't forget to lock the door.",
+         "fr": "N'oublie pas de fermer la porte à clé.",
+         "chunks": [
+          "don't forget",
+          "to lock",
+          "the door"
+         ],
+         "focus": {
+          "chunk": "to lock",
+          "answer": "to : après want, decide, hope, need…",
+          "why": "Après forget : to, pour une chose à faire."
+         },
+         "blank": {
+          "chunk": "to lock",
+          "base": "lock",
+          "wrong": [
+           "locking",
+           "lock"
+          ]
+         },
+         "id": "en-phrase-9-4-03"
+        },
+        {
+         "text": "She avoided answering my question.",
+         "fr": "Elle a évité de répondre à ma question.",
+         "chunks": [
+          "she",
+          "avoided",
+          "answering",
+          "my question"
+         ],
+         "focus": {
+          "chunk": "answering",
+          "answer": "-ing : après enjoy, finish, avoid, mind…",
+          "why": "Après avoid : -ing."
+         },
+         "blank": {
+          "chunk": "answering",
+          "base": "answer",
+          "wrong": [
+           "to answer",
+           "answer"
+          ]
+         },
+         "wrongMeanings": [
+          "Elle a répondu à ma question.",
+          "J'ai évité de répondre à sa question."
+         ],
+         "id": "en-phrase-9-4-04"
+        },
+        {
+         "text": "I need to buy some milk.",
+         "fr": "Je dois acheter du lait.",
+         "chunks": [
+          "I",
+          "need",
+          "to buy",
+          "some milk"
+         ],
+         "focus": {
+          "chunk": "to buy",
+          "answer": "to : après want, decide, hope, need…",
+          "why": "Après need : to."
+         },
+         "blank": {
+          "chunk": "to buy",
+          "base": "buy",
+          "wrong": [
+           "buying",
+           "buy"
+          ]
+         },
+         "alt": [
+          "I need to get some milk.",
+          "I have to buy some milk.",
+          "I must buy some milk."
+         ],
+         "id": "en-phrase-9-4-05"
+        },
+        {
+         "text": "Thank you for helping me.",
+         "fr": "Merci de m'avoir aidé.",
+         "chunks": [
+          "thank you",
+          "for",
+          "helping",
+          "me"
+         ],
+         "focus": {
+          "chunk": "helping",
+          "answer": "-ing : après une préposition (without, before, in…)",
+          "why": "Après for : -ing."
+         },
+         "blank": {
+          "chunk": "helping",
+          "base": "help",
+          "wrong": [
+           "help",
+           "to help"
+          ]
+         },
+         "alt": [
+          "Thanks for helping me.",
+          "Thank you for your help."
+         ],
+         "id": "en-phrase-9-4-06"
+        },
+        {
+         "text": "She's good at drawing.",
+         "fr": "Elle est douée en dessin.",
+         "chunks": [
+          "she's",
+          "good",
+          "at",
+          "drawing"
+         ],
+         "focus": {
+          "chunk": "drawing",
+          "answer": "-ing : après une préposition (without, before, in…)",
+          "why": "Après at : -ing."
+         },
+         "blank": {
+          "chunk": "drawing",
+          "base": "draw",
+          "wrong": [
+           "draw",
+           "to draw"
+          ]
+         },
+         "alt": [
+          "She draws well."
+         ],
+         "id": "en-phrase-9-4-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Pourquoi cette forme ?",
+        "options": [
+         "-ing : après enjoy, finish, avoid, mind…",
+         "-ing : après une préposition (without, before, in…)",
+         "to : après want, decide, hope, need…"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "en-phrase-10",
+     "title": "Le passif",
+     "hint": "be + participe : le sujet subit l'action. L'anglais s'en sert beaucoup, souvent là où le français dit « on ».",
+     "level": "B1",
+     "lessons": [
+      {
+       "id": "en-phrase-10:1",
+       "title": "be + participe : actif ou passif",
+       "rule": {
+        "intro": "Le passif se forme avec be + participe : English is spoken all over the world. This bridge was built in 1890.",
+        "points": [
+         "be se met au temps voulu (is, was…) ; le participe ne bouge pas.",
+         "Actif : My grandfather built this house (le grand-père fait l'action). Passif : This house was built (la maison subit l'action : elle a été construite).",
+         "Attention aux participes irréguliers : built, spoken, stolen, written."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "English is spoken all over the world.",
+          "L'anglais est parlé dans le monde entier."
+         ],
+         [
+          "This bridge was built in 1890.",
+          "Ce pont a été construit en 1890."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "English is spoken all over the world.",
+         "fr": "L'anglais est parlé dans le monde entier.",
+         "chunks": [
+          "English",
+          "is spoken",
+          "all over the world"
+         ],
+         "focus": {
+          "chunk": "is spoken",
+          "answer": "passif : le sujet subit l'action",
+          "why": "L'anglais ne parle pas : il est parlé."
+         },
+         "blank": {
+          "chunk": "is spoken",
+          "base": "speak",
+          "wrong": [
+           "is speaking",
+           "speaks"
+          ]
+         },
+         "alt": [
+          "English is spoken around the world.",
+          "People speak English all over the world."
+         ],
+         "wrongMeanings": [
+          "Le monde entier apprend l'anglais.",
+          "On parle anglais dans ce pays seulement."
+         ],
+         "id": "en-phrase-10-1-01"
+        },
+        {
+         "text": "This bridge was built in 1890.",
+         "fr": "Ce pont a été construit en 1890.",
+         "chunks": [
+          "this bridge",
+          "was built",
+          "in 1890"
+         ],
+         "focus": {
+          "chunk": "was built",
+          "answer": "passif : le sujet subit l'action",
+          "why": "Le pont est construit : passif."
+         },
+         "blank": {
+          "chunk": "was built",
+          "base": "build",
+          "wrong": [
+           "built",
+           "was build"
+          ]
+         },
+         "id": "en-phrase-10-1-02"
+        },
+        {
+         "text": "My grandfather built this house.",
+         "fr": "Mon grand-père a construit cette maison.",
+         "chunks": [
+          "my grandfather",
+          "built",
+          "this house"
+         ],
+         "focus": {
+          "chunk": "built",
+          "answer": "actif : le sujet fait l'action",
+          "why": "Le grand-père construit : actif."
+         },
+         "blank": {
+          "chunk": "built",
+          "base": "build",
+          "wrong": [
+           "was built",
+           "builded"
+          ]
+         },
+         "alt": [
+          "This house was built by my grandfather."
+         ],
+         "wrongMeanings": [
+          "Cette maison a été construite pour mon grand-père.",
+          "Mon grand-père habite cette maison."
+         ],
+         "id": "en-phrase-10-1-03"
+        },
+        {
+         "text": "The letters are delivered every morning.",
+         "fr": "Les lettres sont distribuées tous les matins.",
+         "chunks": [
+          "the letters",
+          "are delivered",
+          "every morning"
+         ],
+         "focus": {
+          "chunk": "are delivered",
+          "answer": "passif : le sujet subit l'action",
+          "why": "Les lettres sont distribuées : passif."
+         },
+         "blank": {
+          "chunk": "are delivered",
+          "base": "deliver",
+          "wrong": [
+           "are delivering",
+           "deliver"
+          ]
+         },
+         "id": "en-phrase-10-1-04"
+        },
+        {
+         "text": "Our car was stolen last night.",
+         "fr": "Notre voiture a été volée cette nuit.",
+         "chunks": [
+          "our car",
+          "was stolen",
+          "last night"
+         ],
+         "orders": [
+          "Last night our car was stolen."
+         ],
+         "orderWhy": "Les deux ordres sont corrects.",
+         "focus": {
+          "chunk": "was stolen",
+          "answer": "passif : le sujet subit l'action",
+          "why": "La voiture est volée : passif."
+         },
+         "blank": {
+          "chunk": "was stolen",
+          "base": "steal",
+          "wrong": [
+           "was stealed",
+           "stole"
+          ]
+         },
+         "alt": [
+          "Someone stole our car last night."
+         ],
+         "wrongMeanings": [
+          "Nous avons volé une voiture cette nuit.",
+          "Notre voiture a été retrouvée cette nuit."
+         ],
+         "id": "en-phrase-10-1-05"
+        },
+        {
+         "text": "Breakfast is served from seven to ten.",
+         "fr": "Le petit-déjeuner est servi de sept à dix heures.",
+         "chunks": [
+          "breakfast",
+          "is served",
+          "from seven to ten"
+         ],
+         "focus": {
+          "chunk": "is served",
+          "answer": "passif : le sujet subit l'action",
+          "why": "Le petit-déjeuner est servi : passif."
+         },
+         "blank": {
+          "chunk": "is served",
+          "base": "serve",
+          "wrong": [
+           "is serving",
+           "serves"
+          ]
+         },
+         "id": "en-phrase-10-1-06"
+        },
+        {
+         "text": "The children painted the walls.",
+         "fr": "Les enfants ont peint les murs.",
+         "chunks": [
+          "the children",
+          "painted",
+          "the walls"
+         ],
+         "focus": {
+          "chunk": "painted",
+          "answer": "actif : le sujet fait l'action",
+          "why": "Les enfants peignent : actif."
+         },
+         "blank": {
+          "chunk": "painted",
+          "base": "paint",
+          "wrong": [
+           "were painted",
+           "paint"
+          ]
+         },
+         "alt": [
+          "The walls were painted by the children."
+         ],
+         "wrongMeanings": [
+          "Les murs ont été peints pour les enfants.",
+          "Les enfants ont dessiné sur les murs."
+         ],
+         "id": "en-phrase-10-1-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Le verbe surligné est-il actif ou passif ?",
+        "options": [
+         "actif : le sujet fait l'action",
+         "passif : le sujet subit l'action"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-10:2",
+       "title": "« On » et by",
+       "rule": {
+        "intro": "Le français dit souvent « on » quand on ne sait pas qui fait l'action ; l'anglais met le passif. On m'a volé mon vélo → My bike was stolen.",
+        "points": [
+         "Pour dire qui a fait l'action, on ajoute by : This book was written by a teenager.",
+         "On m'a offert une montre → I was given a watch : la personne devient le sujet.",
+         "Ici, on parle français → French is spoken here."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "My bike was stolen.",
+          "On m'a volé mon vélo."
+         ],
+         [
+          "This book was written by a teenager.",
+          "Ce livre a été écrit par une adolescente."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "My bike was stolen yesterday.",
+         "fr": "On m'a volé mon vélo hier.",
+         "chunks": [
+          "my bike",
+          "was stolen",
+          "yesterday"
+         ],
+         "orders": [
+          "Yesterday my bike was stolen."
+         ],
+         "orderWhy": "Les deux ordres sont corrects.",
+         "focus": {
+          "chunk": "was stolen",
+          "answer": "le passif traduit « on » : on ne dit pas qui",
+          "why": "On ne dit pas qui l'a volé."
+         },
+         "blank": {
+          "chunk": "was stolen",
+          "base": "steal",
+          "wrong": [
+           "has stole",
+           "stole"
+          ]
+         },
+         "alt": [
+          "Someone stole my bike yesterday."
+         ],
+         "wrongMeanings": [
+          "J'ai volé un vélo hier.",
+          "On m'a prêté un vélo hier."
+         ],
+         "id": "en-phrase-10-2-01"
+        },
+        {
+         "text": "This book was written by a teenager.",
+         "fr": "Ce livre a été écrit par une adolescente.",
+         "chunks": [
+          "this book",
+          "was written",
+          "by a teenager"
+         ],
+         "focus": {
+          "chunk": "by a teenager",
+          "answer": "by : dit qui a fait l'action",
+          "why": "By dit qui l'a écrit."
+         },
+         "blank": {
+          "chunk": "was written",
+          "base": "write",
+          "wrong": [
+           "was wrote",
+           "wrote"
+          ]
+         },
+         "alt": [
+          "A teenager wrote this book."
+         ],
+         "wrongMeanings": [
+          "Ce livre a été écrit pour les adolescents.",
+          "Une adolescente lit ce livre."
+         ],
+         "id": "en-phrase-10-2-02"
+        },
+        {
+         "text": "French is spoken here.",
+         "fr": "Ici, on parle français.",
+         "chunks": [
+          "French",
+          "is spoken",
+          "here"
+         ],
+         "focus": {
+          "chunk": "is spoken",
+          "answer": "le passif traduit « on » : on ne dit pas qui",
+          "why": "On parle : le passif, sans dire qui."
+         },
+         "blank": {
+          "chunk": "is spoken",
+          "base": "speak",
+          "wrong": [
+           "is speak",
+           "speaks"
+          ]
+         },
+         "alt": [
+          "We speak French here.",
+          "They speak French here."
+         ],
+         "id": "en-phrase-10-2-03"
+        },
+        {
+         "text": "I was given a watch for my birthday.",
+         "fr": "On m'a offert une montre pour mon anniversaire.",
+         "chunks": [
+          "I",
+          "was given",
+          "a watch",
+          "for my birthday"
+         ],
+         "focus": {
+          "chunk": "was given",
+          "answer": "le passif traduit « on » : on ne dit pas qui",
+          "why": "On m'a offert : I was given."
+         },
+         "blank": {
+          "chunk": "was given",
+          "base": "give",
+          "wrong": [
+           "was gave",
+           "gave"
+          ]
+         },
+         "alt": [
+          "Someone gave me a watch for my birthday.",
+          "They gave me a watch for my birthday.",
+          "I got a watch for my birthday."
+         ],
+         "wrongMeanings": [
+          "J'ai offert une montre pour son anniversaire.",
+          "On m'a volé ma montre le jour de mon anniversaire."
+         ],
+         "id": "en-phrase-10-2-04"
+        },
+        {
+         "text": "The window was broken by the wind.",
+         "fr": "La fenêtre a été cassée par le vent.",
+         "chunks": [
+          "the window",
+          "was broken",
+          "by the wind"
+         ],
+         "focus": {
+          "chunk": "by the wind",
+          "answer": "by : dit qui a fait l'action",
+          "why": "By dit ce qui l'a cassée."
+         },
+         "blank": {
+          "chunk": "was broken",
+          "base": "break",
+          "wrong": [
+           "was broke",
+           "broke"
+          ]
+         },
+         "alt": [
+          "The wind broke the window."
+         ],
+         "id": "en-phrase-10-2-05"
+        },
+        {
+         "text": "We were invited to their wedding last year.",
+         "fr": "On nous a invités à leur mariage l'année dernière.",
+         "chunks": [
+          "we",
+          "were invited",
+          "to their wedding",
+          "last year"
+         ],
+         "orders": [
+          "Last year we were invited to their wedding."
+         ],
+         "orderWhy": "Les deux ordres sont corrects.",
+         "focus": {
+          "chunk": "were invited",
+          "answer": "le passif traduit « on » : on ne dit pas qui",
+          "why": "On nous a invités : we were invited."
+         },
+         "blank": {
+          "chunk": "were invited",
+          "base": "invite",
+          "wrong": [
+           "was invited",
+           "invited"
+          ]
+         },
+         "alt": [
+          "They invited us to their wedding last year."
+         ],
+         "wrongMeanings": [
+          "Nous les avons invités à notre mariage l'année dernière.",
+          "Nous nous sommes mariés l'année dernière."
+         ],
+         "id": "en-phrase-10-2-06"
+        },
+        {
+         "text": "The song was written by John Lennon.",
+         "fr": "La chanson a été écrite par John Lennon.",
+         "chunks": [
+          "the song",
+          "was written",
+          "by John Lennon"
+         ],
+         "focus": {
+          "chunk": "by John Lennon",
+          "answer": "by : dit qui a fait l'action",
+          "why": "By dit qui l'a écrite."
+         },
+         "blank": {
+          "chunk": "was written",
+          "base": "write",
+          "wrong": [
+           "was wrote",
+           "wrote"
+          ]
+         },
+         "alt": [
+          "John Lennon wrote the song."
+         ],
+         "id": "en-phrase-10-2-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que fait le groupe surligné ?",
+        "options": [
+         "le passif traduit « on » : on ne dit pas qui",
+         "by : dit qui a fait l'action"
+        ]
+       }
+      },
+      {
+       "id": "en-phrase-10:3",
+       "title": "Le passif à tous les temps",
+       "rule": {
+        "intro": "be prend le temps voulu ; le participe reste le même.",
+        "points": [
+         "En ce moment : The road is being repaired.",
+         "Déjà fait : The house has been sold.",
+         "Au futur : The work will be finished tomorrow.",
+         "Avec can, must… : The castle can be seen from the road. Phones must be turned off."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "The road is being repaired.",
+          "On répare la route en ce moment."
+         ],
+         [
+          "The house has been sold.",
+          "La maison a été vendue."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "The road is being repaired.",
+         "fr": "On répare la route en ce moment.",
+         "chunks": [
+          "the road",
+          "is being repaired"
+         ],
+         "focus": {
+          "chunk": "is being repaired",
+          "answer": "en ce moment : is being + participe",
+          "why": "En ce moment : is being."
+         },
+         "blank": {
+          "chunk": "is being repaired",
+          "base": "repair",
+          "wrong": [
+           "is repairing",
+           "is been repaired"
+          ]
+         },
+         "alt": [
+          "They are repairing the road.",
+          "The road is being fixed."
+         ],
+         "wrongMeanings": [
+          "La route a été réparée.",
+          "La route va être réparée."
+         ],
+         "id": "en-phrase-10-3-01"
+        },
+        {
+         "text": "The house has just been sold.",
+         "fr": "La maison vient d'être vendue.",
+         "chunks": [
+          "the house",
+          "has",
+          "just",
+          "been sold"
+         ],
+         "focus": {
+          "chunk": "has just been sold",
+          "answer": "déjà fait : has been + participe",
+          "why": "C'est fait : has been."
+         },
+         "blank": {
+          "chunk": "been sold",
+          "base": "sell",
+          "wrong": [
+           "being sold",
+           "be sold"
+          ]
+         },
+         "alt": [
+          "The house was just sold."
+         ],
+         "wrongMeanings": [
+          "La maison est à vendre.",
+          "La maison va être vendue."
+         ],
+         "id": "en-phrase-10-3-02"
+        },
+        {
+         "text": "The work will be finished tomorrow.",
+         "fr": "Le travail sera terminé demain.",
+         "chunks": [
+          "the work",
+          "will be finished",
+          "tomorrow"
+         ],
+         "orders": [
+          "Tomorrow the work will be finished."
+         ],
+         "orderWhy": "Les deux ordres sont corrects.",
+         "focus": {
+          "chunk": "will be finished",
+          "answer": "futur : will be + participe",
+          "why": "Demain : will be."
+         },
+         "blank": {
+          "chunk": "will be finished",
+          "base": "finish",
+          "wrong": [
+           "will finished",
+           "will being finished"
+          ]
+         },
+         "alt": [
+          "The work will be done tomorrow."
+         ],
+         "id": "en-phrase-10-3-03"
+        },
+        {
+         "text": "The castle can be seen from the road.",
+         "fr": "On peut voir le château depuis la route.",
+         "chunks": [
+          "the castle",
+          "can be seen",
+          "from the road"
+         ],
+         "focus": {
+          "chunk": "can be seen",
+          "answer": "avec can, must… : be + participe",
+          "why": "Avec can : can be + participe."
+         },
+         "blank": {
+          "chunk": "can be seen",
+          "base": "see",
+          "wrong": [
+           "can see",
+           "can be saw"
+          ]
+         },
+         "alt": [
+          "You can see the castle from the road."
+         ],
+         "id": "en-phrase-10-3-04"
+        },
+        {
+         "text": "Your room is being cleaned.",
+         "fr": "On est en train de nettoyer ta chambre.",
+         "chunks": [
+          "your room",
+          "is being cleaned"
+         ],
+         "focus": {
+          "chunk": "is being cleaned",
+          "answer": "en ce moment : is being + participe",
+          "why": "En ce moment : is being."
+         },
+         "blank": {
+          "chunk": "is being cleaned",
+          "base": "clean",
+          "wrong": [
+           "is cleaning",
+           "is been cleaned"
+          ]
+         },
+         "alt": [
+          "They are cleaning your room."
+         ],
+         "id": "en-phrase-10-3-05"
+        },
+        {
+         "text": "The tickets have already been sold.",
+         "fr": "Les billets ont déjà été vendus.",
+         "chunks": [
+          "the tickets",
+          "have",
+          "already",
+          "been sold"
+         ],
+         "focus": {
+          "chunk": "have already been sold",
+          "answer": "déjà fait : has been + participe",
+          "why": "C'est fait : have been."
+         },
+         "blank": {
+          "chunk": "been sold",
+          "base": "sell",
+          "wrong": [
+           "being sold",
+           "be sold"
+          ]
+         },
+         "alt": [
+          "The tickets were already sold."
+         ],
+         "wrongMeanings": [
+          "Les billets sont encore en vente.",
+          "Nous avons déjà acheté les billets."
+         ],
+         "orders": [
+          "The tickets have been sold already."
+         ],
+         "id": "en-phrase-10-3-06"
+        },
+        {
+         "text": "Phones must be turned off.",
+         "fr": "Les téléphones doivent être éteints.",
+         "chunks": [
+          "phones",
+          "must be turned off"
+         ],
+         "focus": {
+          "chunk": "must be turned off",
+          "answer": "avec can, must… : be + participe",
+          "why": "Avec must : must be + participe."
+         },
+         "blank": {
+          "chunk": "must be turned off",
+          "base": "turn off",
+          "wrong": [
+           "must turn off",
+           "must be turn off"
+          ]
+         },
+         "alt": [
+          "Phones must be switched off.",
+          "Mobile phones must be turned off."
+         ],
+         "wrongMeanings": [
+          "Les téléphones doivent rester allumés.",
+          "Il faut éteindre la lumière."
+         ],
+         "id": "en-phrase-10-3-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel temps a le passif ?",
+        "options": [
+         "en ce moment : is being + participe",
+         "déjà fait : has been + participe",
+         "futur : will be + participe",
+         "avec can, must… : be + participe"
+        ]
+       }
+      }
+     ]
     }
    ]
   }
