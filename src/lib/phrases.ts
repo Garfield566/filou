@@ -39,6 +39,16 @@ export interface PhraseSentence {
   blank?: PhraseBlank;
   /** Other correct sentences not made of the same groups (another tense, « dass » kept…), accepted when translating. */
   alt?: string[];
+  /** Wrong French meanings, close to the right one (who does what, what comes first, cause or consequence): to understand the sentence. */
+  wrongMeanings?: string[];
+  /** Short sentences to join into this one with a linking word: to build a complex sentence. */
+  combine?: PhraseCombine;
+}
+
+/** « Ich bleibe zu Hause. Es regnet. » + weil gives « Ich bleibe zu Hause, weil es regnet. » */
+export interface PhraseCombine {
+  sentences: string[];
+  link: string;
 }
 
 export interface PhraseRule {
@@ -224,6 +234,39 @@ function restartExercise(course: Course, lesson: PhraseLesson, sentence: PhraseS
   };
 }
 
+/** Read a complex sentence and pick its meaning among close ones. */
+function understandExercise(course: Course, lesson: PhraseLesson, sentence: PhraseSentence, rng: Rng): Exercise {
+  return {
+    kind: 'choice',
+    itemIds: [phraseItemId(course, lesson.id)],
+    prompt: 'Que veut dire cette phrase ?',
+    shown: sentence.text,
+    shownIsTarget: true,
+    audio: sentence.text,
+    options: shuffle([sentence.fr, ...sentence.wrongMeanings!], rng),
+    answer: sentence.fr,
+    why: `${sentence.text} → ${sentence.fr}`,
+  };
+}
+
+/** Join short sentences into one with the given linking word; every correct order is accepted. */
+function combineExercise(course: Course, lesson: PhraseLesson, sentence: PhraseSentence, rng: Rng): Exercise {
+  const combine = sentence.combine!;
+  return {
+    kind: 'arrange',
+    itemIds: [phraseItemId(course, lesson.id)],
+    prompt: `Fais une seule phrase avec « ${combine.link} »`,
+    shown: combine.sentences.join(' '),
+    // Not marked as German: its speaker would read the joined sentence aloud, which is the answer.
+    shownIsTarget: false,
+    audio: sentence.text,
+    autoplay: false,
+    bank: shuffle(sentence.chunks, rng),
+    answers: allOrders(sentence),
+    why: sentence.orderWhy ?? sentence.text,
+  };
+}
+
 function translateExercise(course: Course, lesson: PhraseLesson, sentence: PhraseSentence): Exercise {
   return {
     kind: 'type',
@@ -243,14 +286,18 @@ export function ruleCard(lesson: PhraseLesson, unit: PhraseUnit): Exercise {
   return { kind: 'rule', lesson: card };
 }
 
-type Stage = 'recognise' | 'complete' | 'build' | 'restart' | 'write' | 'translate';
+type Stage = 'recognise' | 'understand' | 'complete' | 'combine' | 'build' | 'restart' | 'write' | 'translate';
 
 function exerciseAt(course: Course, lesson: PhraseLesson, sentence: PhraseSentence, stage: Stage, rng: Rng): Exercise | undefined {
   switch (stage) {
     case 'recognise':
       return sentence.focus && lesson.ask ? focusExercise(course, lesson, sentence, rng) : undefined;
+    case 'understand':
+      return sentence.wrongMeanings?.length ? understandExercise(course, lesson, sentence, rng) : undefined;
     case 'complete':
       return sentence.blank ? blankChoice(course, lesson, sentence, rng) : undefined;
+    case 'combine':
+      return sentence.combine ? combineExercise(course, lesson, sentence, rng) : undefined;
     case 'write':
       return sentence.blank ? blankType(course, lesson, sentence) : undefined;
     case 'build':
@@ -262,10 +309,15 @@ function exerciseAt(course: Course, lesson: PhraseLesson, sentence: PhraseSenten
   }
 }
 
-/** The five steps of a lesson, from recognising to producing, with how many sentences each takes. */
+/**
+ * The steps of a lesson, from recognising to producing, with how many sentences each takes; a step needing what a
+ * sentence lacks (a meaning to pick, sentences to join) is skipped for it.
+ */
 const LESSON_STAGES: [Stage, number][] = [
   ['recognise', 3],
+  ['understand', 2],
   ['complete', 3],
+  ['combine', 2],
   ['build', 3],
   ['restart', 2],
   ['write', 1],
@@ -304,7 +356,11 @@ export function phraseExercise(course: Course, item: Item, memory: Memory, rng: 
   const lesson = item.phrase!.lesson;
   const halfLife = memory[item.id]?.halfLifeDays ?? 0;
   const stages: Stage[] =
-    halfLife < WEAK_HALF_LIFE ? ['recognise', 'complete', 'build'] : halfLife < STRONG_HALF_LIFE ? ['build', 'restart', 'write'] : ['translate', 'restart', 'write'];
+    halfLife < WEAK_HALF_LIFE
+      ? ['recognise', 'understand', 'complete', 'build']
+      : halfLife < STRONG_HALF_LIFE
+        ? ['combine', 'build', 'restart', 'write']
+        : ['translate', 'restart', 'write', 'understand'];
   for (const sentence of shuffle(lesson.sentences, rng)) {
     for (const stage of shuffle(stages, rng)) {
       const exercise = exerciseAt(course, lesson, sentence, stage, rng);

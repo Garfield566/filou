@@ -63,6 +63,16 @@ describe('phrases data', () => {
       const chunks = new Set(sentence.chunks.map((chunk) => normalize(chunk)));
       expect(chunks.has(normalize(sentence.blank.wrong[0])), 'the decoy of the word bank must not be one of the groups').toBe(false);
     }
+    if (sentence.wrongMeanings) {
+      expect(sentence.wrongMeanings.length).toBeGreaterThanOrEqual(2);
+      expect(new Set([sentence.fr, ...sentence.wrongMeanings]).size, 'every meaning offered must differ').toBe(sentence.wrongMeanings.length + 1);
+    }
+    if (sentence.combine) {
+      // The short sentences hold the same words as the joined one, give or take the linking word and repeated subjects.
+      const words = new Set(normalize(sentence.text).split(' '));
+      expect(words.has(normalize(sentence.combine.link)), 'the linking word is in the sentence').toBe(true);
+      expect(sentence.combine.sentences.length).toBeGreaterThanOrEqual(2);
+    }
   });
 
   it('finds a group only as whole words', () => {
@@ -104,6 +114,36 @@ describe('phrase lessons', () => {
         for (const answer of step.answers) expect(normalize(answer).startsWith(start)).toBe(true);
         expect(grade(step.answers, step.answers.at(-1)!)).toBe('correct');
       }
+    }
+  });
+});
+
+describe('understanding and joining', () => {
+  const phraseTrack = tracks.find((track) => track.id === 'de-phrase')!;
+
+  it('asks to pick the meaning of a complex sentence and to join short ones', () => {
+    const kinds = new Set<string>();
+    for (const lesson of phraseLessons(phraseTrack)) {
+      for (const step of buildPhraseLesson(course, lesson.id, seeded(5))) {
+        if (step.kind === 'choice' && step.prompt === 'Que veut dire cette phrase ?') {
+          kinds.add('understand');
+          expect(step.options).toContain(step.answer);
+          expect(step.shownIsTarget).toBe(true);
+        }
+        if (step.kind === 'arrange' && step.prompt.startsWith('Fais une seule phrase')) {
+          kinds.add('combine');
+          // The joined sentence is never shown nor spoken before the answer.
+          expect(step.shownIsTarget).toBe(false);
+          for (const answer of step.answers) expect(normalize(step.shown!)).not.toBe(normalize(answer));
+        }
+      }
+    }
+    expect([...kinds].sort()).toEqual(['combine', 'understand']);
+  });
+
+  it('shows the French meaning when a form is to be filled in, so that only one tense fits', () => {
+    for (const step of buildPhraseLesson(course, 'de-temps-4:1', seeded(2))) {
+      if (step.kind === 'choice' && step.shown?.includes('___')) expect(step.prompt).toMatch(/« .+ »/);
     }
   });
 });
@@ -168,7 +208,7 @@ describe('phrase challenges', () => {
   });
 
   it('gives every track its own challenges', () => {
-    expect(tracks.map((track) => track.id)).toEqual(['de-cas', 'de-temps']);
+    expect(tracks.map((track) => track.id)).toEqual(['de-cas', 'de-temps', 'de-phrase']);
     const ids = tracks.flatMap(phraseChallenges).map((challenge) => challenge.id);
     expect(new Set(ids).size).toBe(ids.length);
   });

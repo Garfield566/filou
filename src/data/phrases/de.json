@@ -4328,9 +4328,11 @@
           ]
          },
          "alt": [
-          "Das habe ich nicht gewusst.",
           "Ich wusste das nicht.",
           "Das wusste ich nicht."
+         ],
+         "orders": [
+          "Das habe ich nicht gewusst."
          ],
          "id": "de-temps-2-2-09"
         },
@@ -11614,6 +11616,5416 @@
          "Präteritum",
          "plus-que-parfait",
          "Konjunktiv I : des paroles rapportées"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "de-phrase",
+   "title": "Phrases complexes",
+   "hint": "De la phrase simple aux longues phrases : la place du verbe, les questions, nicht, puis relier et emboîter les propositions. Construire et comprendre.",
+   "units": [
+    {
+     "id": "de-phrase-1",
+     "title": "Le verbe en 2e position",
+     "hint": "Une seule règle, partout : dans une phrase simple, le verbe conjugué est le 2e élément. Ce qui vient avant peut changer.",
+     "level": "A1",
+     "lessons": [
+      {
+       "id": "de-phrase-1:1",
+       "title": "Le sujet, puis le verbe",
+       "rule": {
+        "intro": "Dans une phrase simple, le verbe conjugué occupe toujours la 2e place.",
+        "points": [
+         "La 1re place est souvent le sujet : Ich wohne in Lyon.",
+         "« 2e place » veut dire 2e élément, pas 2e mot : Meine kleine Schwester spielt Klavier.",
+         "Tout le reste vient après le verbe."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Ich wohne in Lyon.",
+          "J'habite à Lyon."
+         ],
+         [
+          "Meine kleine Schwester spielt Klavier.",
+          "Ma petite sœur joue du piano."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich wohne in Lyon.",
+         "fr": "J'habite à Lyon.",
+         "chunks": [
+          "ich",
+          "wohne",
+          "in Lyon"
+         ],
+         "orders": [
+          "In Lyon wohne ich."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "wohne",
+          "answer": "2e place : le verbe conjugué",
+          "why": "Le verbe conjugué : 2e place."
+         },
+         "id": "de-phrase-1-1-01"
+        },
+        {
+         "text": "Meine kleine Schwester spielt Klavier.",
+         "fr": "Ma petite sœur joue du piano.",
+         "chunks": [
+          "meine kleine Schwester",
+          "spielt",
+          "Klavier"
+         ],
+         "focus": {
+          "chunk": "meine kleine Schwester",
+          "answer": "1re place",
+          "why": "Trois mots, mais un seul élément : la 1re place."
+         },
+         "id": "de-phrase-1-1-02"
+        },
+        {
+         "text": "Paul arbeitet heute im Garten.",
+         "fr": "Paul travaille dans le jardin aujourd'hui.",
+         "chunks": [
+          "Paul",
+          "arbeitet",
+          "heute",
+          "im Garten"
+         ],
+         "orders": [
+          "Heute arbeitet Paul im Garten.",
+          "Im Garten arbeitet Paul heute."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "arbeitet",
+          "answer": "2e place : le verbe conjugué",
+          "why": "Le verbe conjugué : 2e place."
+         },
+         "id": "de-phrase-1-1-03"
+        },
+        {
+         "text": "Wir trinken jeden Morgen Kaffee.",
+         "fr": "Nous buvons du café tous les matins.",
+         "chunks": [
+          "wir",
+          "trinken",
+          "jeden Morgen",
+          "Kaffee"
+         ],
+         "orders": [
+          "Jeden Morgen trinken wir Kaffee."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "jeden Morgen",
+          "answer": "après le verbe",
+          "why": "Ici, jeden Morgen vient après le verbe."
+         },
+         "id": "de-phrase-1-1-04"
+        },
+        {
+         "text": "Der Bus kommt um neun Uhr.",
+         "fr": "Le bus arrive à neuf heures.",
+         "chunks": [
+          "der Bus",
+          "kommt",
+          "um neun Uhr"
+         ],
+         "orders": [
+          "Um neun Uhr kommt der Bus."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "der Bus",
+          "answer": "1re place",
+          "why": "Le sujet ouvre la phrase."
+         },
+         "id": "de-phrase-1-1-05"
+        },
+        {
+         "text": "Die Kinder spielen im Park.",
+         "fr": "Les enfants jouent dans le parc.",
+         "chunks": [
+          "die Kinder",
+          "spielen",
+          "im Park"
+         ],
+         "orders": [
+          "Im Park spielen die Kinder."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "im Park",
+          "answer": "après le verbe",
+          "why": "Im Park vient ici après le verbe."
+         },
+         "id": "de-phrase-1-1-06"
+        },
+        {
+         "text": "Mein Freund aus Berlin heißt Jonas.",
+         "fr": "Mon ami de Berlin s'appelle Jonas.",
+         "chunks": [
+          "mein Freund aus Berlin",
+          "heißt",
+          "Jonas"
+         ],
+         "focus": {
+          "chunk": "mein Freund aus Berlin",
+          "answer": "1re place",
+          "why": "Un seul élément, même long : la 1re place."
+         },
+         "id": "de-phrase-1-1-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quelle place a le groupe surligné ?",
+        "options": [
+         "1re place",
+         "2e place : le verbe conjugué",
+         "après le verbe"
+        ]
+       }
+      },
+      {
+       "id": "de-phrase-1:2",
+       "title": "Le temps en tête : Heute gehe ich…",
+       "rule": {
+        "intro": "On peut ouvrir la phrase par un mot de temps. Le verbe reste 2e ; le sujet passe juste après lui.",
+        "points": [
+         "Ich gehe heute ins Kino → Heute gehe ich ins Kino.",
+         "Le français dit « Aujourd'hui, je vais… » ; en allemand, pas de virgule, et le sujet passe après le verbe.",
+         "Le sens ne change pas : on met juste le moment en avant."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Heute gehe ich ins Kino.",
+          "Aujourd'hui, je vais au cinéma."
+         ],
+         [
+          "Morgen besucht uns Anna.",
+          "Demain, Anna nous rend visite."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Heute gehe ich ins Kino.",
+         "fr": "Aujourd'hui, je vais au cinéma.",
+         "chunks": [
+          "heute",
+          "gehe",
+          "ich",
+          "ins Kino"
+         ],
+         "orders": [
+          "Ich gehe heute ins Kino."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "ich",
+          "answer": "après le verbe",
+          "why": "Heute prend la 1re place : le sujet passe après le verbe."
+         },
+         "wrongMeanings": [
+          "Hier, je suis allé au cinéma.",
+          "Aujourd'hui, le cinéma est fermé."
+         ],
+         "id": "de-phrase-1-2-01"
+        },
+        {
+         "text": "Morgen besucht uns Anna.",
+         "fr": "Demain, Anna nous rend visite.",
+         "chunks": [
+          "morgen",
+          "besucht",
+          "uns",
+          "Anna"
+         ],
+         "orders": [
+          "Anna besucht uns morgen.",
+          "Morgen besucht Anna uns."
+         ],
+         "orderWhy": "Les deux sont corrects. Avec morgen en tête, uns (un pronom) passe d'habitude devant Anna.",
+         "focus": {
+          "chunk": "Anna",
+          "answer": "après le verbe",
+          "why": "Anna est le sujet, mais elle vient après le verbe."
+         },
+         "wrongMeanings": [
+          "Demain, nous rendons visite à Anna.",
+          "Demain, nous allons chez Anna."
+         ],
+         "id": "de-phrase-1-2-02"
+        },
+        {
+         "text": "Am Sonntag schläft mein Vater lange.",
+         "fr": "Le dimanche, mon père fait la grasse matinée.",
+         "chunks": [
+          "am Sonntag",
+          "schläft",
+          "mein Vater",
+          "lange"
+         ],
+         "orders": [
+          "Mein Vater schläft am Sonntag lange."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "schläft",
+          "answer": "2e place : le verbe conjugué",
+          "why": "Le verbe reste 2e, même après am Sonntag."
+         },
+         "wrongMeanings": [
+          "Le dimanche, je dors chez mon père.",
+          "Le dimanche, mon père dort peu."
+         ],
+         "id": "de-phrase-1-2-03"
+        },
+        {
+         "text": "Jetzt regnet es.",
+         "fr": "Maintenant, il pleut.",
+         "chunks": [
+          "jetzt",
+          "regnet",
+          "es"
+         ],
+         "orders": [
+          "Es regnet jetzt."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "jetzt",
+          "answer": "1re place",
+          "why": "Jetzt ouvre la phrase."
+         },
+         "id": "de-phrase-1-2-04"
+        },
+        {
+         "text": "Nach dem Essen trinken wir einen Tee.",
+         "fr": "Après le repas, nous buvons un thé.",
+         "chunks": [
+          "nach dem Essen",
+          "trinken",
+          "wir",
+          "einen Tee"
+         ],
+         "orders": [
+          "Wir trinken nach dem Essen einen Tee."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "nach dem Essen",
+          "answer": "1re place",
+          "why": "Trois mots, un seul élément : la 1re place."
+         },
+         "wrongMeanings": [
+          "Avant le repas, nous buvons un thé.",
+          "Après le thé, nous mangeons."
+         ],
+         "id": "de-phrase-1-2-05"
+        },
+        {
+         "text": "Gestern hat mich meine Oma angerufen.",
+         "fr": "Hier, ma grand-mère m'a appelé.",
+         "chunks": [
+          "gestern",
+          "hat",
+          "mich",
+          "meine Oma",
+          "angerufen"
+         ],
+         "orders": [
+          "Meine Oma hat mich gestern angerufen.",
+          "Gestern hat meine Oma mich angerufen."
+         ],
+         "orderWhy": "Les deux sont corrects. Avec gestern en tête, mich (un pronom) passe d'habitude devant meine Oma.",
+         "focus": {
+          "chunk": "meine Oma",
+          "answer": "après le verbe",
+          "why": "Meine Oma est le sujet, après le verbe."
+         },
+         "wrongMeanings": [
+          "Hier, j'ai appelé ma grand-mère.",
+          "Hier, ma grand-mère m'a rendu visite."
+         ],
+         "id": "de-phrase-1-2-06"
+        },
+        {
+         "text": "Im Sommer fahren wir ans Meer.",
+         "fr": "L'été, nous allons à la mer.",
+         "chunks": [
+          "im Sommer",
+          "fahren",
+          "wir",
+          "ans Meer"
+         ],
+         "orders": [
+          "Wir fahren im Sommer ans Meer."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "fahren",
+          "answer": "2e place : le verbe conjugué",
+          "why": "Le verbe reste 2e."
+         },
+         "id": "de-phrase-1-2-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quelle place a le groupe surligné ?",
+        "options": [
+         "1re place",
+         "2e place : le verbe conjugué",
+         "après le verbe"
+        ]
+       }
+      },
+      {
+       "id": "de-phrase-1:3",
+       "title": "Un lieu ou un complément en tête",
+       "rule": {
+        "intro": "La 1re place peut aussi être un lieu, une manière, ou même le complément.",
+        "points": [
+         "In Berlin wohnt meine Tante.",
+         "Den Film kenne ich schon : on met en tête ce dont on parle déjà.",
+         "Le verbe reste 2e, le sujet passe après.",
+         "Pour savoir qui fait quoi, regarde la forme (der, den, ich, mich…), pas la place."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "In Berlin wohnt meine Tante.",
+          "Ma tante habite à Berlin."
+         ],
+         [
+          "Den Hund füttert mein Sohn.",
+          "C'est mon fils qui nourrit le chien."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "In Berlin wohnt meine Tante.",
+         "fr": "Ma tante habite à Berlin.",
+         "chunks": [
+          "in Berlin",
+          "wohnt",
+          "meine Tante"
+         ],
+         "orders": [
+          "Meine Tante wohnt in Berlin."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "in Berlin",
+          "answer": "1re place",
+          "why": "Le lieu ouvre la phrase."
+         },
+         "wrongMeanings": [
+          "J'habite chez ma tante, à Berlin.",
+          "Ma tante a quitté Berlin."
+         ],
+         "id": "de-phrase-1-3-01"
+        },
+        {
+         "text": "Mit dem Fahrrad fahre ich zur Arbeit.",
+         "fr": "Je vais au travail à vélo.",
+         "chunks": [
+          "mit dem Fahrrad",
+          "fahre",
+          "ich",
+          "zur Arbeit"
+         ],
+         "orders": [
+          "Ich fahre mit dem Fahrrad zur Arbeit.",
+          "Zur Arbeit fahre ich mit dem Fahrrad."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "ich",
+          "answer": "après le verbe",
+          "why": "Mit dem Fahrrad prend la 1re place : ich passe après le verbe."
+         },
+         "id": "de-phrase-1-3-02"
+        },
+        {
+         "text": "Den Film kenne ich schon.",
+         "fr": "Ce film, je le connais déjà.",
+         "chunks": [
+          "den Film",
+          "kenne",
+          "ich",
+          "schon"
+         ],
+         "orders": [
+          "Ich kenne den Film schon."
+         ],
+         "orderWhy": "Les deux sont corrects ; on commence par « den Film » quand on vient d'en parler.",
+         "focus": {
+          "chunk": "den Film",
+          "answer": "1re place",
+          "why": "Le complément peut ouvrir la phrase ; den montre que ce n'est pas le sujet."
+         },
+         "wrongMeanings": [
+          "Je vais voir ce film.",
+          "Je ne connais pas encore ce film."
+         ],
+         "id": "de-phrase-1-3-03"
+        },
+        {
+         "text": "Dieses Buch hat mir mein Bruder geschenkt.",
+         "fr": "C'est mon frère qui m'a offert ce livre.",
+         "chunks": [
+          "dieses Buch",
+          "hat",
+          "mir",
+          "mein Bruder",
+          "geschenkt"
+         ],
+         "orders": [
+          "Mein Bruder hat mir dieses Buch geschenkt."
+         ],
+         "orderWhy": "Les deux sont corrects ; « Dieses Buch… » met le livre en avant.",
+         "focus": {
+          "chunk": "mein Bruder",
+          "answer": "après le verbe",
+          "why": "Mein Bruder est le sujet : c'est lui qui offre."
+         },
+         "wrongMeanings": [
+          "J'ai offert ce livre à mon frère.",
+          "Mon frère m'a prêté ce livre."
+         ],
+         "id": "de-phrase-1-3-04"
+        },
+        {
+         "text": "Im Kühlschrank steht noch Milch.",
+         "fr": "Il reste du lait dans le frigo.",
+         "chunks": [
+          "im Kühlschrank",
+          "steht",
+          "noch",
+          "Milch"
+         ],
+         "focus": {
+          "chunk": "steht",
+          "answer": "2e place : le verbe conjugué",
+          "why": "Le verbe reste 2e."
+         },
+         "wrongMeanings": [
+          "Il n'y a plus de lait dans le frigo.",
+          "Le lait est sur le frigo."
+         ],
+         "id": "de-phrase-1-3-05"
+        },
+        {
+         "text": "Zum Glück hat der Arzt sofort Zeit.",
+         "fr": "Heureusement, le médecin a tout de suite du temps.",
+         "chunks": [
+          "zum Glück",
+          "hat",
+          "der Arzt",
+          "sofort",
+          "Zeit"
+         ],
+         "orders": [
+          "Der Arzt hat zum Glück sofort Zeit."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "zum Glück",
+          "answer": "1re place",
+          "why": "Zum Glück ouvre la phrase à lui seul."
+         },
+         "id": "de-phrase-1-3-06"
+        },
+        {
+         "text": "Den Hund füttert mein Sohn.",
+         "fr": "C'est mon fils qui nourrit le chien.",
+         "chunks": [
+          "den Hund",
+          "füttert",
+          "mein Sohn"
+         ],
+         "orders": [
+          "Mein Sohn füttert den Hund."
+         ],
+         "orderWhy": "Même sens dans les deux ordres : seuls den et mein le disent.",
+         "focus": {
+          "chunk": "mein Sohn",
+          "answer": "après le verbe",
+          "why": "Mein Sohn est le sujet : il fait l'action, même après le verbe."
+         },
+         "wrongMeanings": [
+          "Le chien nourrit mon fils.",
+          "Mon fils promène le chien."
+         ],
+         "id": "de-phrase-1-3-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quelle place a le groupe surligné ?",
+        "options": [
+         "1re place",
+         "2e place : le verbe conjugué",
+         "après le verbe"
+        ]
+       }
+      },
+      {
+       "id": "de-phrase-1:4",
+       "title": "Un seul élément avant le verbe",
+       "rule": {
+        "intro": "Avant le verbe, il n'y a qu'un seul élément. C'est le piège n° 1 des francophones.",
+        "points": [
+         "Le français dit « Demain, je pars » : deux éléments avant le verbe. L'allemand dit Morgen fahre ich.",
+         "Faux : Morgen ich fahre. Juste : Morgen fahre ich.",
+         "ja, nein, und, aber, oder ne comptent pas : Ja, ich komme. Aber heute bleibe ich zu Hause."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Morgen fahre ich nach Wien.",
+          "Demain, je vais à Vienne."
+         ],
+         [
+          "Leider habe ich keine Zeit.",
+          "Malheureusement, je n'ai pas le temps."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Morgen fahre ich nach Wien.",
+         "fr": "Demain, je vais à Vienne.",
+         "chunks": [
+          "morgen",
+          "fahre",
+          "ich",
+          "nach Wien"
+         ],
+         "orders": [
+          "Ich fahre morgen nach Wien."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "ich",
+          "answer": "après le verbe",
+          "why": "Morgen prend la 1re place : ich passe après le verbe."
+         },
+         "blank": {
+          "chunk": "fahre",
+          "base": "fahren",
+          "wrong": [
+           "fährt",
+           "fährst"
+          ]
+         },
+         "id": "de-phrase-1-4-01"
+        },
+        {
+         "text": "Ja, ich komme gern.",
+         "fr": "Oui, je viens volontiers.",
+         "chunks": [
+          "ja",
+          "ich",
+          "komme",
+          "gern"
+         ],
+         "focus": {
+          "chunk": "komme",
+          "answer": "2e place : le verbe conjugué",
+          "why": "Ja ne compte pas : ich est 1er, komme 2e."
+         },
+         "blank": {
+          "chunk": "komme",
+          "base": "kommen",
+          "wrong": [
+           "kommt",
+           "kommst"
+          ]
+         },
+         "id": "de-phrase-1-4-02"
+        },
+        {
+         "text": "Leider habe ich keine Zeit.",
+         "fr": "Malheureusement, je n'ai pas le temps.",
+         "chunks": [
+          "leider",
+          "habe",
+          "ich",
+          "keine Zeit"
+         ],
+         "orders": [
+          "Ich habe leider keine Zeit."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "leider",
+          "answer": "1re place",
+          "why": "Leider occupe la 1re place à lui seul."
+         },
+         "blank": {
+          "chunk": "habe",
+          "base": "haben",
+          "wrong": [
+           "hat",
+           "hast"
+          ]
+         },
+         "id": "de-phrase-1-4-03"
+        },
+        {
+         "text": "Aber heute bleibe ich zu Hause.",
+         "fr": "Mais aujourd'hui, je reste à la maison.",
+         "chunks": [
+          "aber",
+          "heute",
+          "bleibe",
+          "ich",
+          "zu Hause"
+         ],
+         "orders": [
+          "Aber ich bleibe heute zu Hause."
+         ],
+         "orderWhy": "Les deux sont corrects : aber ne compte pas, le verbe reste 2e.",
+         "focus": {
+          "chunk": "heute",
+          "answer": "1re place",
+          "why": "Aber ne compte pas : heute est 1er, bleibe 2e."
+         },
+         "blank": {
+          "chunk": "bleibe",
+          "base": "bleiben",
+          "wrong": [
+           "bleibt",
+           "bleibst"
+          ]
+         },
+         "id": "de-phrase-1-4-04"
+        },
+        {
+         "text": "Vielleicht kommt Tom auch.",
+         "fr": "Tom vient peut-être aussi.",
+         "chunks": [
+          "vielleicht",
+          "kommt",
+          "Tom",
+          "auch"
+         ],
+         "orders": [
+          "Tom kommt vielleicht auch."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "Tom",
+          "answer": "après le verbe",
+          "why": "Vielleicht prend la 1re place : Tom passe après le verbe."
+         },
+         "blank": {
+          "chunk": "kommt",
+          "base": "kommen",
+          "wrong": [
+           "kommst",
+           "komme"
+          ]
+         },
+         "id": "de-phrase-1-4-05"
+        },
+        {
+         "text": "Nach der Schule macht sie ihre Hausaufgaben.",
+         "fr": "Après l'école, elle fait ses devoirs.",
+         "chunks": [
+          "nach der Schule",
+          "macht",
+          "sie",
+          "ihre Hausaufgaben"
+         ],
+         "orders": [
+          "Sie macht nach der Schule ihre Hausaufgaben."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "macht",
+          "answer": "2e place : le verbe conjugué",
+          "why": "Le verbe reste 2e."
+         },
+         "blank": {
+          "chunk": "macht",
+          "base": "machen",
+          "wrong": [
+           "machst",
+           "mache"
+          ]
+         },
+         "wrongMeanings": [
+          "Après ses devoirs, elle va à l'école.",
+          "Avant l'école, elle fait ses devoirs."
+         ],
+         "id": "de-phrase-1-4-06"
+        },
+        {
+         "text": "Natürlich hilft dir dein Vater.",
+         "fr": "Bien sûr, ton père t'aide.",
+         "chunks": [
+          "natürlich",
+          "hilft",
+          "dir",
+          "dein Vater"
+         ],
+         "orders": [
+          "Dein Vater hilft dir natürlich.",
+          "Natürlich hilft dein Vater dir."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "dein Vater",
+          "answer": "après le verbe",
+          "why": "Dein Vater est le sujet, après le verbe."
+         },
+         "blank": {
+          "chunk": "hilft",
+          "base": "helfen",
+          "wrong": [
+           "helft",
+           "hilfst"
+          ]
+         },
+         "wrongMeanings": [
+          "Bien sûr, tu aides ton père.",
+          "Bien sûr, ton père t'appelle."
+         ],
+         "id": "de-phrase-1-4-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quelle place a le groupe surligné ?",
+        "options": [
+         "1re place",
+         "2e place : le verbe conjugué",
+         "après le verbe"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "de-phrase-2",
+     "title": "Les questions et l'impératif",
+     "hint": "Le mot interrogatif prend la 1re place ; sans lui, c'est le verbe qui passe devant.",
+     "level": "A1",
+     "lessons": [
+      {
+       "id": "de-phrase-2:1",
+       "title": "Avec un mot interrogatif : wo, wann, warum…",
+       "rule": {
+        "intro": "wer, was, wo, wann, wie, warum, woher, wohin occupent la 1re place ; le verbe reste 2e, le sujet suit.",
+        "points": [
+         "Wo wohnst du? Wann kommt der Zug?",
+         "wie lange, wie viele, welcher… : le groupe entier est en 1re place : Wie viele Geschwister hast du?",
+         "Pas de « est-ce que » en allemand."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Wo wohnst du?",
+          "Où habites-tu ?"
+         ],
+         [
+          "Wie viele Geschwister hast du?",
+          "Combien de frères et sœurs as-tu ?"
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Wo wohnst du?",
+         "fr": "Où habites-tu ?",
+         "chunks": [
+          "wo",
+          "wohnst",
+          "du"
+         ],
+         "focus": {
+          "chunk": "wo",
+          "answer": "le mot interrogatif",
+          "why": "Wo ouvre la question."
+         },
+         "blank": {
+          "chunk": "wohnst",
+          "base": "wohnen",
+          "wrong": [
+           "wohnt",
+           "wohne"
+          ]
+         },
+         "id": "de-phrase-2-1-01"
+        },
+        {
+         "text": "Wann kommt der Zug?",
+         "fr": "Quand le train arrive-t-il ?",
+         "chunks": [
+          "wann",
+          "kommt",
+          "der Zug"
+         ],
+         "focus": {
+          "chunk": "der Zug",
+          "answer": "le sujet",
+          "why": "Der Zug est le sujet, après le verbe."
+         },
+         "blank": {
+          "chunk": "kommt",
+          "base": "kommen",
+          "wrong": [
+           "kommen",
+           "kommst"
+          ]
+         },
+         "id": "de-phrase-2-1-02"
+        },
+        {
+         "text": "Warum lernst du Deutsch?",
+         "fr": "Pourquoi apprends-tu l'allemand ?",
+         "chunks": [
+          "warum",
+          "lernst",
+          "du",
+          "Deutsch"
+         ],
+         "focus": {
+          "chunk": "lernst",
+          "answer": "le verbe conjugué",
+          "why": "Le verbe reste 2e."
+         },
+         "blank": {
+          "chunk": "lernst",
+          "base": "lernen",
+          "wrong": [
+           "lernt",
+           "lerne"
+          ]
+         },
+         "id": "de-phrase-2-1-03"
+        },
+        {
+         "text": "Wie viele Geschwister hast du?",
+         "fr": "Combien de frères et sœurs as-tu ?",
+         "chunks": [
+          "wie viele Geschwister",
+          "hast",
+          "du"
+         ],
+         "focus": {
+          "chunk": "wie viele Geschwister",
+          "answer": "le mot interrogatif",
+          "why": "Le groupe entier occupe la 1re place."
+         },
+         "blank": {
+          "chunk": "hast",
+          "base": "haben",
+          "wrong": [
+           "hat",
+           "habt"
+          ]
+         },
+         "id": "de-phrase-2-1-04"
+        },
+        {
+         "text": "Was macht ihr am Wochenende?",
+         "fr": "Que faites-vous ce week-end ?",
+         "chunks": [
+          "was",
+          "macht",
+          "ihr",
+          "am Wochenende"
+         ],
+         "focus": {
+          "chunk": "am Wochenende",
+          "answer": "autre chose",
+          "why": "Am Wochenende dit quand : ni question, ni verbe, ni sujet."
+         },
+         "blank": {
+          "chunk": "macht",
+          "base": "machen",
+          "wrong": [
+           "machen",
+           "machst"
+          ]
+         },
+         "id": "de-phrase-2-1-05"
+        },
+        {
+         "text": "Wer hat das gesagt?",
+         "fr": "Qui a dit ça ?",
+         "chunks": [
+          "wer",
+          "hat",
+          "das",
+          "gesagt"
+         ],
+         "focus": {
+          "chunk": "wer",
+          "answer": "le mot interrogatif",
+          "why": "Wer est à la fois le mot interrogatif et le sujet."
+         },
+         "blank": {
+          "chunk": "hat",
+          "base": "haben",
+          "wrong": [
+           "habt",
+           "hast"
+          ]
+         },
+         "wrongMeanings": [
+          "Qu'est-ce qu'il a dit ?",
+          "À qui as-tu dit ça ?"
+         ],
+         "id": "de-phrase-2-1-06"
+        },
+        {
+         "text": "Woher kommt deine Freundin?",
+         "fr": "D'où vient ton amie ?",
+         "chunks": [
+          "woher",
+          "kommt",
+          "deine Freundin"
+         ],
+         "focus": {
+          "chunk": "deine Freundin",
+          "answer": "le sujet",
+          "why": "Deine Freundin est le sujet."
+         },
+         "blank": {
+          "chunk": "kommt",
+          "base": "kommen",
+          "wrong": [
+           "kommst",
+           "komme"
+          ]
+         },
+         "wrongMeanings": [
+          "Où va ton amie ?",
+          "Quand ton amie arrive-t-elle ?"
+         ],
+         "id": "de-phrase-2-1-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel est le rôle du groupe surligné ?",
+        "options": [
+         "le mot interrogatif",
+         "le verbe conjugué",
+         "le sujet",
+         "autre chose"
+        ]
+       }
+      },
+      {
+       "id": "de-phrase-2:2",
+       "title": "Les questions oui / non : le verbe en tête",
+       "rule": {
+        "intro": "Pour une question fermée (réponse oui ou non), le verbe conjugué passe en 1re place.",
+        "points": [
+         "Du hast Zeit. → Hast du Zeit?",
+         "Avec un verbe en deux morceaux, seule la partie conjuguée passe devant : Kannst du morgen kommen? Habt ihr gut geschlafen?",
+         "Pour dire oui à une question négative, on répond doch : Kommst du nicht? – Doch!"
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Hast du Zeit?",
+          "Tu as le temps ?"
+         ],
+         [
+          "Kommst du morgen mit?",
+          "Tu viens avec nous demain ?"
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Hast du Zeit?",
+         "fr": "Tu as le temps ?",
+         "chunks": [
+          "hast",
+          "du",
+          "Zeit"
+         ],
+         "focus": {
+          "chunk": "hast",
+          "answer": "le verbe conjugué",
+          "why": "Le verbe passe en 1re place : question fermée."
+         },
+         "blank": {
+          "chunk": "hast",
+          "base": "haben",
+          "wrong": [
+           "hat",
+           "habe"
+          ]
+         },
+         "id": "de-phrase-2-2-01"
+        },
+        {
+         "text": "Kommst du morgen mit?",
+         "fr": "Tu viens avec nous demain ?",
+         "chunks": [
+          "kommst",
+          "du",
+          "morgen",
+          "mit"
+         ],
+         "focus": {
+          "chunk": "mit",
+          "answer": "autre chose",
+          "why": "Mit, la particule de mitkommen, reste à la fin."
+         },
+         "blank": {
+          "chunk": "kommst",
+          "base": "mitkommen",
+          "wrong": [
+           "kommt",
+           "komme"
+          ]
+         },
+         "wrongMeanings": [
+          "Tu es venu avec nous hier ?",
+          "Tu viens nous chercher demain ?"
+         ],
+         "id": "de-phrase-2-2-02"
+        },
+        {
+         "text": "Kannst du mir helfen?",
+         "fr": "Tu peux m'aider ?",
+         "chunks": [
+          "kannst",
+          "du",
+          "mir",
+          "helfen"
+         ],
+         "focus": {
+          "chunk": "du",
+          "answer": "le sujet",
+          "why": "Du, le sujet, suit le verbe."
+         },
+         "blank": {
+          "chunk": "kannst",
+          "base": "können",
+          "wrong": [
+           "kann",
+           "könnt"
+          ]
+         },
+         "id": "de-phrase-2-2-03"
+        },
+        {
+         "text": "Ist das dein Auto?",
+         "fr": "C'est ta voiture ?",
+         "chunks": [
+          "ist",
+          "das",
+          "dein Auto"
+         ],
+         "focus": {
+          "chunk": "ist",
+          "answer": "le verbe conjugué",
+          "why": "Le verbe ouvre la question."
+         },
+         "blank": {
+          "chunk": "ist",
+          "base": "sein",
+          "wrong": [
+           "bist",
+           "sind"
+          ]
+         },
+         "wrongMeanings": [
+          "C'est ma voiture.",
+          "Où est ta voiture ?"
+         ],
+         "id": "de-phrase-2-2-04"
+        },
+        {
+         "text": "Habt ihr gut geschlafen?",
+         "fr": "Vous avez bien dormi ?",
+         "chunks": [
+          "habt",
+          "ihr",
+          "gut",
+          "geschlafen"
+         ],
+         "focus": {
+          "chunk": "geschlafen",
+          "answer": "autre chose",
+          "why": "Le participe reste à la fin, même dans une question."
+         },
+         "blank": {
+          "chunk": "habt",
+          "base": "haben",
+          "wrong": [
+           "hat",
+           "haben"
+          ]
+         },
+         "id": "de-phrase-2-2-05"
+        },
+        {
+         "text": "Wohnt deine Schwester noch in Paris?",
+         "fr": "Ta sœur habite encore à Paris ?",
+         "chunks": [
+          "wohnt",
+          "deine Schwester",
+          "noch",
+          "in Paris"
+         ],
+         "focus": {
+          "chunk": "deine Schwester",
+          "answer": "le sujet",
+          "why": "Deine Schwester, le sujet, suit le verbe."
+         },
+         "blank": {
+          "chunk": "wohnt",
+          "base": "wohnen",
+          "wrong": [
+           "wohnst",
+           "wohnen"
+          ]
+         },
+         "id": "de-phrase-2-2-06"
+        },
+        {
+         "text": "Wo ist der Bahnhof?",
+         "fr": "Où est la gare ?",
+         "chunks": [
+          "wo",
+          "ist",
+          "der Bahnhof"
+         ],
+         "focus": {
+          "chunk": "wo",
+          "answer": "le mot interrogatif",
+          "why": "Avec un mot interrogatif, c'est lui qui prend la 1re place."
+         },
+         "blank": {
+          "chunk": "ist",
+          "base": "sein",
+          "wrong": [
+           "sind",
+           "bist"
+          ]
+         },
+         "id": "de-phrase-2-2-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel est le rôle du groupe surligné ?",
+        "options": [
+         "le mot interrogatif",
+         "le verbe conjugué",
+         "le sujet",
+         "autre chose"
+        ]
+       }
+      },
+      {
+       "id": "de-phrase-2:3",
+       "title": "L'impératif : le verbe en tête aussi",
+       "rule": {
+        "intro": "Pour donner un ordre ou un conseil, le verbe prend la 1re place.",
+        "points": [
+         "du : Komm! Nimm den Bus! (sans -st, sans du).",
+         "ihr : Kommt! ; Sie : Kommen Sie bitte!",
+         "Les verbes où e devient i ou ie (du nimmst, du liest) gardent ce changement : Nimm! Gib! Iss! Lies!",
+         "La particule reste à la fin : Mach die Tür zu!"
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Nimm den Bus!",
+          "Prends le bus !"
+         ],
+         [
+          "Kommen Sie bitte herein!",
+          "Entrez, s'il vous plaît !"
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Komm bitte schnell!",
+         "fr": "Viens vite, s'il te plaît !",
+         "chunks": [
+          "komm",
+          "bitte",
+          "schnell"
+         ],
+         "focus": {
+          "chunk": "komm",
+          "answer": "à une personne qu'on tutoie (du)",
+          "why": "Komm, sans -st et sans du."
+         },
+         "blank": {
+          "chunk": "komm",
+          "base": "kommen",
+          "wrong": [
+           "kommst",
+           "kommt"
+          ]
+         },
+         "id": "de-phrase-2-3-01"
+        },
+        {
+         "text": "Nimm den Bus!",
+         "fr": "Prends le bus !",
+         "chunks": [
+          "nimm",
+          "den Bus"
+         ],
+         "focus": {
+          "chunk": "nimm",
+          "answer": "à une personne qu'on tutoie (du)",
+          "why": "Nehmen garde le i : nimm."
+         },
+         "blank": {
+          "chunk": "nimm",
+          "base": "nehmen",
+          "wrong": [
+           "nehm",
+           "nimmst"
+          ]
+         },
+         "id": "de-phrase-2-3-02"
+        },
+        {
+         "text": "Kommen Sie bitte herein!",
+         "fr": "Entrez, s'il vous plaît !",
+         "chunks": [
+          "kommen",
+          "Sie",
+          "bitte",
+          "herein"
+         ],
+         "focus": {
+          "chunk": "kommen",
+          "answer": "poliment (Sie)",
+          "why": "Kommen Sie : le verbe, puis Sie."
+         },
+         "blank": {
+          "chunk": "kommen",
+          "base": "hereinkommen",
+          "wrong": [
+           "kommt",
+           "komm"
+          ]
+         },
+         "id": "de-phrase-2-3-03"
+        },
+        {
+         "text": "Macht bitte die Tür zu!",
+         "fr": "Fermez la porte, s'il vous plaît, les enfants !",
+         "chunks": [
+          "macht",
+          "bitte",
+          "die Tür",
+          "zu"
+         ],
+         "focus": {
+          "chunk": "macht",
+          "answer": "à plusieurs personnes qu'on tutoie (ihr)",
+          "why": "Macht, sans ihr : on parle à plusieurs personnes qu'on tutoie."
+         },
+         "blank": {
+          "chunk": "macht",
+          "base": "zumachen",
+          "wrong": [
+           "machen",
+           "mach"
+          ]
+         },
+         "id": "de-phrase-2-3-04"
+        },
+        {
+         "text": "Iss nicht so schnell!",
+         "fr": "Ne mange pas si vite !",
+         "chunks": [
+          "iss",
+          "nicht",
+          "so schnell"
+         ],
+         "focus": {
+          "chunk": "iss",
+          "answer": "à une personne qu'on tutoie (du)",
+          "why": "Essen garde le i : iss."
+         },
+         "blank": {
+          "chunk": "iss",
+          "base": "essen",
+          "wrong": [
+           "ess",
+           "isst"
+          ]
+         },
+         "id": "de-phrase-2-3-05"
+        },
+        {
+         "text": "Rufen Sie mich morgen an!",
+         "fr": "Appelez-moi demain !",
+         "chunks": [
+          "rufen",
+          "Sie",
+          "mich",
+          "morgen",
+          "an"
+         ],
+         "focus": {
+          "chunk": "rufen",
+          "answer": "poliment (Sie)",
+          "why": "Rufen Sie : la forme polie."
+         },
+         "blank": {
+          "chunk": "rufen",
+          "base": "anrufen",
+          "wrong": [
+           "ruft",
+           "ruf"
+          ]
+         },
+         "id": "de-phrase-2-3-06"
+        },
+        {
+         "text": "Wartet hier auf mich!",
+         "fr": "Attendez-moi ici, vous deux !",
+         "chunks": [
+          "wartet",
+          "hier",
+          "auf mich"
+         ],
+         "focus": {
+          "chunk": "wartet",
+          "answer": "à plusieurs personnes qu'on tutoie (ihr)",
+          "why": "Wartet, sans ihr : à plusieurs personnes qu'on tutoie."
+         },
+         "blank": {
+          "chunk": "wartet",
+          "base": "warten",
+          "wrong": [
+           "wart",
+           "warten"
+          ]
+         },
+         "id": "de-phrase-2-3-07"
+        }
+       ],
+       "ask": {
+        "prompt": "À qui parle-t-on ?",
+        "options": [
+         "à une personne qu'on tutoie (du)",
+         "à plusieurs personnes qu'on tutoie (ihr)",
+         "poliment (Sie)"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "de-phrase-3",
+     "title": "La phrase en deux morceaux",
+     "hint": "Le verbe conjugué en 2e place, l'autre partie tout à la fin : la « parenthèse » allemande. Pour comprendre, il faut attendre la fin.",
+     "level": "A2",
+     "lessons": [
+      {
+       "id": "de-phrase-3:1",
+       "title": "Avec un verbe de modalité",
+       "rule": {
+        "intro": "können, müssen, wollen, dürfen, sollen, möchten sont conjugués en 2e place ; l'autre verbe va à l'infinitif tout à la fin.",
+        "points": [
+         "Ich muss heute lange arbeiten.",
+         "Tout le reste se met entre les deux : c'est la « parenthèse » allemande.",
+         "Le français garde les deux verbes ensemble (je dois travailler) ; l'allemand les écarte."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Ich muss heute lange arbeiten.",
+          "Aujourd'hui, je dois travailler longtemps."
+         ],
+         [
+          "Hier darf man nicht rauchen.",
+          "Ici, on n'a pas le droit de fumer."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich muss heute lange arbeiten.",
+         "fr": "Aujourd'hui, je dois travailler longtemps.",
+         "chunks": [
+          "ich",
+          "muss",
+          "heute",
+          "lange",
+          "arbeiten"
+         ],
+         "orders": [
+          "Heute muss ich lange arbeiten."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "arbeiten",
+          "answer": "la 2e partie du verbe, à la fin",
+          "why": "L'infinitif ferme la phrase."
+         },
+         "blank": {
+          "chunk": "muss",
+          "base": "müssen",
+          "wrong": [
+           "musst",
+           "müssen"
+          ]
+         },
+         "wrongMeanings": [
+          "Hier, j'ai dû travailler longtemps.",
+          "Aujourd'hui, je veux travailler longtemps."
+         ],
+         "id": "de-phrase-3-1-01"
+        },
+        {
+         "text": "Kannst du mir morgen dein Auto leihen?",
+         "fr": "Tu peux me prêter ta voiture demain ?",
+         "chunks": [
+          "kannst",
+          "du",
+          "mir",
+          "morgen",
+          "dein Auto",
+          "leihen"
+         ],
+         "orders": [
+          "Kannst du mir dein Auto morgen leihen?"
+         ],
+         "focus": {
+          "chunk": "leihen",
+          "answer": "la 2e partie du verbe, à la fin",
+          "why": "L'infinitif ferme la question."
+         },
+         "blank": {
+          "chunk": "kannst",
+          "base": "können",
+          "wrong": [
+           "kann",
+           "könnt"
+          ]
+         },
+         "wrongMeanings": [
+          "Je peux te prêter ma voiture demain ?",
+          "Tu peux me vendre ta voiture demain ?"
+         ],
+         "id": "de-phrase-3-1-02"
+        },
+        {
+         "text": "Wir wollen im Sommer nach Norwegen fahren.",
+         "fr": "Nous voulons aller en Norvège cet été.",
+         "chunks": [
+          "wir",
+          "wollen",
+          "im Sommer",
+          "nach Norwegen",
+          "fahren"
+         ],
+         "orders": [
+          "Im Sommer wollen wir nach Norwegen fahren."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "nach Norwegen",
+          "answer": "le milieu de la phrase",
+          "why": "Nach Norwegen est au milieu, entre les deux verbes."
+         },
+         "blank": {
+          "chunk": "wollen",
+          "base": "wollen",
+          "wrong": [
+           "will",
+           "wollt"
+          ]
+         },
+         "id": "de-phrase-3-1-03"
+        },
+        {
+         "text": "Hier darf man nicht rauchen.",
+         "fr": "Ici, on n'a pas le droit de fumer.",
+         "chunks": [
+          "hier",
+          "darf",
+          "man",
+          "nicht",
+          "rauchen"
+         ],
+         "orders": [
+          "Man darf hier nicht rauchen."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "darf",
+          "answer": "le verbe conjugué, en 2e place",
+          "why": "Darf, conjugué, reste 2e."
+         },
+         "blank": {
+          "chunk": "darf",
+          "base": "dürfen",
+          "wrong": [
+           "darfst",
+           "dürfen"
+          ]
+         },
+         "wrongMeanings": [
+          "Ici, on doit fumer dehors.",
+          "Ici, on peut fumer."
+         ],
+         "id": "de-phrase-3-1-04"
+        },
+        {
+         "text": "Du sollst deine Oma anrufen.",
+         "fr": "Tu dois appeler ta grand-mère (on te le demande).",
+         "chunks": [
+          "du",
+          "sollst",
+          "deine Oma",
+          "anrufen"
+         ],
+         "focus": {
+          "chunk": "anrufen",
+          "answer": "la 2e partie du verbe, à la fin",
+          "why": "Anrufen reste entier, à la fin."
+         },
+         "blank": {
+          "chunk": "sollst",
+          "base": "sollen",
+          "wrong": [
+           "soll",
+           "sollt"
+          ]
+         },
+         "id": "de-phrase-3-1-05"
+        },
+        {
+         "text": "Ich möchte gern einen Kaffee trinken.",
+         "fr": "Je voudrais bien boire un café.",
+         "chunks": [
+          "ich",
+          "möchte",
+          "gern",
+          "einen Kaffee",
+          "trinken"
+         ],
+         "focus": {
+          "chunk": "einen Kaffee",
+          "answer": "le milieu de la phrase",
+          "why": "Einen Kaffee est au milieu."
+         },
+         "blank": {
+          "chunk": "möchte",
+          "base": "möchten",
+          "wrong": [
+           "möchtest",
+           "mochte"
+          ]
+         },
+         "id": "de-phrase-3-1-06"
+        },
+        {
+         "text": "Am Montag kann meine Mutter die Kinder abholen.",
+         "fr": "Lundi, ma mère peut aller chercher les enfants.",
+         "chunks": [
+          "am Montag",
+          "kann",
+          "meine Mutter",
+          "die Kinder",
+          "abholen"
+         ],
+         "orders": [
+          "Meine Mutter kann am Montag die Kinder abholen."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "kann",
+          "answer": "le verbe conjugué, en 2e place",
+          "why": "Kann reste 2e, même après am Montag."
+         },
+         "blank": {
+          "chunk": "kann",
+          "base": "können",
+          "wrong": [
+           "kannst",
+           "können"
+          ]
+         },
+         "wrongMeanings": [
+          "Lundi, les enfants peuvent aller chercher ma mère.",
+          "Lundi, ma mère doit aller chercher les enfants."
+         ],
+         "id": "de-phrase-3-1-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel est le rôle du groupe surligné ?",
+        "options": [
+         "le verbe conjugué, en 2e place",
+         "la 2e partie du verbe, à la fin",
+         "le milieu de la phrase"
+        ]
+       }
+      },
+      {
+       "id": "de-phrase-3:2",
+       "title": "Avec le Perfekt",
+       "rule": {
+        "intro": "Au Perfekt, haben ou sein est en 2e place, le participe à la fin : la même parenthèse.",
+        "points": [
+         "Plus le milieu est long, plus le participe est loin : Ich habe gestern mit meinem Bruder Fußball gespielt.",
+         "Pour comprendre, attends la fin : c'est le participe qui dit ce qui s'est passé."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Ich habe gestern mit meinem Bruder Fußball gespielt.",
+          "Hier, j'ai joué au foot avec mon frère."
+         ],
+         [
+          "Habt ihr die Kinder schon abgeholt?",
+          "Vous êtes déjà allés chercher les enfants ?"
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich habe gestern mit meinem Bruder Fußball gespielt.",
+         "fr": "Hier, j'ai joué au foot avec mon frère.",
+         "chunks": [
+          "ich",
+          "habe",
+          "gestern",
+          "mit meinem Bruder",
+          "Fußball",
+          "gespielt"
+         ],
+         "orders": [
+          "Gestern habe ich mit meinem Bruder Fußball gespielt."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "gespielt",
+          "answer": "la 2e partie du verbe, à la fin",
+          "why": "Le participe attend la toute fin."
+         },
+         "blank": {
+          "chunk": "gespielt",
+          "base": "spielen",
+          "wrong": [
+           "spielt",
+           "gespielen"
+          ]
+         },
+         "wrongMeanings": [
+          "Hier, mon frère a joué au foot sans moi.",
+          "Hier, j'ai regardé le foot avec mon frère."
+         ],
+         "id": "de-phrase-3-2-01"
+        },
+        {
+         "text": "Sie ist letzte Woche mit dem Zug nach Rom gefahren.",
+         "fr": "La semaine dernière, elle est allée à Rome en train.",
+         "chunks": [
+          "sie",
+          "ist",
+          "letzte Woche",
+          "mit dem Zug",
+          "nach Rom",
+          "gefahren"
+         ],
+         "orders": [
+          "Letzte Woche ist sie mit dem Zug nach Rom gefahren."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "mit dem Zug",
+          "answer": "le milieu de la phrase",
+          "why": "Mit dem Zug est au milieu."
+         },
+         "blank": {
+          "chunk": "ist",
+          "base": "haben ou sein",
+          "wrong": [
+           "hat"
+          ]
+         },
+         "wrongMeanings": [
+          "La semaine prochaine, elle va à Rome en train.",
+          "La semaine dernière, elle est revenue de Rome en train."
+         ],
+         "id": "de-phrase-3-2-02"
+        },
+        {
+         "text": "Hast du den Brief schon gelesen?",
+         "fr": "Tu as déjà lu la lettre ?",
+         "chunks": [
+          "hast",
+          "du",
+          "den Brief",
+          "schon",
+          "gelesen"
+         ],
+         "orders": [
+          "Hast du schon den Brief gelesen?"
+         ],
+         "orderWhy": "Les deux sont corrects : schon peut venir avant ou après den Brief.",
+         "focus": {
+          "chunk": "gelesen",
+          "answer": "la 2e partie du verbe, à la fin",
+          "why": "Le participe ferme la question."
+         },
+         "blank": {
+          "chunk": "gelesen",
+          "base": "lesen",
+          "wrong": [
+           "gelest",
+           "las"
+          ]
+         },
+         "id": "de-phrase-3-2-03"
+        },
+        {
+         "text": "Wir haben im Urlaub sehr gut gegessen.",
+         "fr": "Pendant les vacances, nous avons très bien mangé.",
+         "chunks": [
+          "wir",
+          "haben",
+          "im Urlaub",
+          "sehr gut",
+          "gegessen"
+         ],
+         "orders": [
+          "Im Urlaub haben wir sehr gut gegessen."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "haben",
+          "answer": "le verbe conjugué, en 2e place",
+          "why": "Haben, conjugué, est en 2e place."
+         },
+         "blank": {
+          "chunk": "gegessen",
+          "base": "essen",
+          "wrong": [
+           "geesst",
+           "aßen"
+          ]
+         },
+         "id": "de-phrase-3-2-04"
+        },
+        {
+         "text": "Mein Bruder hat mir zum Geburtstag ein Fahrrad geschenkt.",
+         "fr": "Mon frère m'a offert un vélo pour mon anniversaire.",
+         "chunks": [
+          "mein Bruder",
+          "hat",
+          "mir",
+          "zum Geburtstag",
+          "ein Fahrrad",
+          "geschenkt"
+         ],
+         "orders": [
+          "Zum Geburtstag hat mir mein Bruder ein Fahrrad geschenkt.",
+          "Mein Bruder hat mir ein Fahrrad zum Geburtstag geschenkt."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "zum Geburtstag",
+          "answer": "le milieu de la phrase",
+          "why": "Zum Geburtstag est au milieu."
+         },
+         "blank": {
+          "chunk": "geschenkt",
+          "base": "schenken",
+          "wrong": [
+           "schenkt",
+           "geschenken"
+          ]
+         },
+         "wrongMeanings": [
+          "J'ai offert un vélo à mon frère pour son anniversaire.",
+          "Mon frère m'a prêté un vélo pour mon anniversaire."
+         ],
+         "id": "de-phrase-3-2-05"
+        },
+        {
+         "text": "Gestern Abend sind wir sehr spät nach Hause gekommen.",
+         "fr": "Hier soir, nous sommes rentrés très tard.",
+         "chunks": [
+          "gestern Abend",
+          "sind",
+          "wir",
+          "sehr spät",
+          "nach Hause",
+          "gekommen"
+         ],
+         "orders": [
+          "Wir sind gestern Abend sehr spät nach Hause gekommen."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "gekommen",
+          "answer": "la 2e partie du verbe, à la fin",
+          "why": "Le participe ferme la phrase."
+         },
+         "blank": {
+          "chunk": "sind",
+          "base": "haben ou sein",
+          "wrong": [
+           "haben"
+          ]
+         },
+         "id": "de-phrase-3-2-06"
+        },
+        {
+         "text": "Habt ihr die Kinder schon abgeholt?",
+         "fr": "Vous êtes déjà allés chercher les enfants ?",
+         "chunks": [
+          "habt",
+          "ihr",
+          "die Kinder",
+          "schon",
+          "abgeholt"
+         ],
+         "orders": [
+          "Habt ihr schon die Kinder abgeholt?"
+         ],
+         "orderWhy": "Les deux sont corrects : schon peut venir avant ou après die Kinder.",
+         "focus": {
+          "chunk": "abgeholt",
+          "answer": "la 2e partie du verbe, à la fin",
+          "why": "Le participe ferme la question."
+         },
+         "blank": {
+          "chunk": "abgeholt",
+          "base": "abholen",
+          "wrong": [
+           "geabholt",
+           "abgeholen"
+          ]
+         },
+         "id": "de-phrase-3-2-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel est le rôle du groupe surligné ?",
+        "options": [
+         "le verbe conjugué, en 2e place",
+         "la 2e partie du verbe, à la fin",
+         "le milieu de la phrase"
+        ]
+       }
+      },
+      {
+       "id": "de-phrase-3:3",
+       "title": "Avec un verbe séparable",
+       "rule": {
+        "intro": "Au présent, la particule d'un verbe séparable part à la fin : aufstehen → Ich stehe um sieben Uhr auf.",
+        "points": [
+         "Le verbe conjugué est en 2e place ; la particule ferme la parenthèse.",
+         "Pour comprendre, attends la particule : Ich stehe… auf (je me lève), Ich rufe… an (j'appelle).",
+         "Avec un verbe de modalité, le verbe reste entier à la fin : Ich muss früh aufstehen."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Ich stehe jeden Tag um sieben Uhr auf.",
+          "Je me lève tous les jours à sept heures."
+         ],
+         [
+          "Der Film fängt um acht Uhr an.",
+          "Le film commence à huit heures."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich stehe jeden Tag um sieben Uhr auf.",
+         "fr": "Je me lève tous les jours à sept heures.",
+         "chunks": [
+          "ich",
+          "stehe",
+          "jeden Tag",
+          "um sieben Uhr",
+          "auf"
+         ],
+         "orders": [
+          "Jeden Tag stehe ich um sieben Uhr auf."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "auf",
+          "answer": "la 2e partie du verbe, à la fin",
+          "why": "La particule de aufstehen ferme la phrase."
+         },
+         "blank": {
+          "chunk": "stehe",
+          "base": "aufstehen",
+          "wrong": [
+           "steht",
+           "stehst"
+          ]
+         },
+         "id": "de-phrase-3-3-01"
+        },
+        {
+         "text": "Der Film fängt um acht Uhr an.",
+         "fr": "Le film commence à huit heures.",
+         "chunks": [
+          "der Film",
+          "fängt",
+          "um acht Uhr",
+          "an"
+         ],
+         "orders": [
+          "Um acht Uhr fängt der Film an."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "an",
+          "answer": "la 2e partie du verbe, à la fin",
+          "why": "La particule de anfangen ferme la phrase."
+         },
+         "blank": {
+          "chunk": "fängt",
+          "base": "anfangen",
+          "wrong": [
+           "fängst",
+           "fangt"
+          ]
+         },
+         "id": "de-phrase-3-3-02"
+        },
+        {
+         "text": "Kaufst du heute für uns ein?",
+         "fr": "Tu fais les courses pour nous aujourd'hui ?",
+         "chunks": [
+          "kaufst",
+          "du",
+          "heute",
+          "für uns",
+          "ein"
+         ],
+         "focus": {
+          "chunk": "ein",
+          "answer": "la 2e partie du verbe, à la fin",
+          "why": "Ein, la particule de einkaufen, ferme la question."
+         },
+         "blank": {
+          "chunk": "kaufst",
+          "base": "einkaufen",
+          "wrong": [
+           "kauft",
+           "kaufe"
+          ]
+         },
+         "wrongMeanings": [
+          "Tu nous invites aujourd'hui ?",
+          "Tu as fait les courses pour nous aujourd'hui ?"
+         ],
+         "id": "de-phrase-3-3-03"
+        },
+        {
+         "text": "Am Wochenende räume ich mein Zimmer auf.",
+         "fr": "Ce week-end, je range ma chambre.",
+         "chunks": [
+          "am Wochenende",
+          "räume",
+          "ich",
+          "mein Zimmer",
+          "auf"
+         ],
+         "orders": [
+          "Ich räume am Wochenende mein Zimmer auf."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "mein Zimmer",
+          "answer": "le milieu de la phrase",
+          "why": "Mein Zimmer est au milieu."
+         },
+         "blank": {
+          "chunk": "räume",
+          "base": "aufräumen",
+          "wrong": [
+           "räumst",
+           "räumt"
+          ]
+         },
+         "id": "de-phrase-3-3-04"
+        },
+        {
+         "text": "Ich muss morgen sehr früh aufstehen.",
+         "fr": "Demain, je dois me lever très tôt.",
+         "chunks": [
+          "ich",
+          "muss",
+          "morgen",
+          "sehr früh",
+          "aufstehen"
+         ],
+         "orders": [
+          "Morgen muss ich sehr früh aufstehen."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "aufstehen",
+          "answer": "la 2e partie du verbe, à la fin",
+          "why": "Avec un verbe de modalité, le verbe séparable reste entier à la fin."
+         },
+         "id": "de-phrase-3-3-05"
+        },
+        {
+         "text": "Der Zug kommt pünktlich in Hamburg an.",
+         "fr": "Le train arrive à l'heure à Hambourg.",
+         "chunks": [
+          "der Zug",
+          "kommt",
+          "pünktlich",
+          "in Hamburg",
+          "an"
+         ],
+         "focus": {
+          "chunk": "kommt",
+          "answer": "le verbe conjugué, en 2e place",
+          "why": "Kommt est en 2e place ; an attend la fin."
+         },
+         "blank": {
+          "chunk": "kommt",
+          "base": "ankommen",
+          "wrong": [
+           "kommen",
+           "kommst"
+          ]
+         },
+         "wrongMeanings": [
+          "Le train part à l'heure de Hambourg.",
+          "Le train arrive en retard à Hambourg."
+         ],
+         "id": "de-phrase-3-3-06"
+        },
+        {
+         "text": "Mach bitte das Licht aus!",
+         "fr": "Éteins la lumière, s'il te plaît !",
+         "chunks": [
+          "mach",
+          "bitte",
+          "das Licht",
+          "aus"
+         ],
+         "focus": {
+          "chunk": "aus",
+          "answer": "la 2e partie du verbe, à la fin",
+          "why": "Aus ferme la phrase, même à l'impératif."
+         },
+         "blank": {
+          "chunk": "mach",
+          "base": "ausmachen",
+          "wrong": [
+           "machst",
+           "macht"
+          ]
+         },
+         "id": "de-phrase-3-3-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel est le rôle du groupe surligné ?",
+        "options": [
+         "le verbe conjugué, en 2e place",
+         "la 2e partie du verbe, à la fin",
+         "le milieu de la phrase"
+        ]
+       }
+      },
+      {
+       "id": "de-phrase-3:4",
+       "title": "Avec werden : le futur",
+       "rule": {
+        "intro": "Au futur, werden est en 2e place et l'infinitif à la fin : Ich werde dich anrufen.",
+        "points": [
+         "C'est la même parenthèse qu'avec un verbe de modalité.",
+         "werden seul veut dire « devenir » : Unsere Kinder werden schnell groß. Avec un infinitif à la fin, c'est le futur."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Ich werde dich morgen anrufen.",
+          "Je t'appellerai demain."
+         ],
+         [
+          "Wir werden nächstes Jahr ein Haus kaufen.",
+          "L'année prochaine, nous achèterons une maison."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich werde dich morgen anrufen.",
+         "fr": "Je t'appellerai demain.",
+         "chunks": [
+          "ich",
+          "werde",
+          "dich",
+          "morgen",
+          "anrufen"
+         ],
+         "orders": [
+          "Morgen werde ich dich anrufen."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "anrufen",
+          "answer": "la 2e partie du verbe, à la fin",
+          "why": "L'infinitif ferme la phrase."
+         },
+         "blank": {
+          "chunk": "werde",
+          "base": "werden",
+          "wrong": [
+           "wird",
+           "wirst"
+          ]
+         },
+         "alt": [
+          "Ich rufe dich morgen an.",
+          "Morgen rufe ich dich an."
+         ],
+         "id": "de-phrase-3-4-01"
+        },
+        {
+         "text": "Es wird heute Abend regnen.",
+         "fr": "Il va pleuvoir ce soir.",
+         "chunks": [
+          "es",
+          "wird",
+          "heute Abend",
+          "regnen"
+         ],
+         "orders": [
+          "Heute Abend wird es regnen."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "regnen",
+          "answer": "la 2e partie du verbe, à la fin",
+          "why": "L'infinitif ferme la phrase."
+         },
+         "blank": {
+          "chunk": "wird",
+          "base": "werden",
+          "wrong": [
+           "werdet",
+           "wirst"
+          ]
+         },
+         "alt": [
+          "Es regnet heute Abend.",
+          "Heute Abend regnet es."
+         ],
+         "id": "de-phrase-3-4-02"
+        },
+        {
+         "text": "Unsere Kinder werden schnell groß.",
+         "fr": "Nos enfants grandissent vite.",
+         "chunks": [
+          "unsere Kinder",
+          "werden",
+          "schnell",
+          "groß"
+         ],
+         "focus": {
+          "chunk": "werden",
+          "answer": "le verbe conjugué, en 2e place",
+          "why": "Werden seul veut dire « devenir » : il n'y a pas d'infinitif à la fin."
+         },
+         "blank": {
+          "chunk": "werden",
+          "base": "werden",
+          "wrong": [
+           "wird",
+           "werdet"
+          ]
+         },
+         "id": "de-phrase-3-4-03"
+        },
+        {
+         "text": "Wir werden nächstes Jahr ein Haus kaufen.",
+         "fr": "L'année prochaine, nous achèterons une maison.",
+         "chunks": [
+          "wir",
+          "werden",
+          "nächstes Jahr",
+          "ein Haus",
+          "kaufen"
+         ],
+         "orders": [
+          "Nächstes Jahr werden wir ein Haus kaufen."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "ein Haus",
+          "answer": "le milieu de la phrase",
+          "why": "Ein Haus est au milieu."
+         },
+         "blank": {
+          "chunk": "werden",
+          "base": "werden",
+          "wrong": [
+           "wird",
+           "werdet"
+          ]
+         },
+         "alt": [
+          "Wir kaufen nächstes Jahr ein Haus.",
+          "Nächstes Jahr kaufen wir ein Haus."
+         ],
+         "wrongMeanings": [
+          "L'année dernière, nous avons acheté une maison.",
+          "L'année prochaine, nous vendrons notre maison."
+         ],
+         "id": "de-phrase-3-4-04"
+        },
+        {
+         "text": "Wirst du mich vom Bahnhof abholen?",
+         "fr": "Tu viendras me chercher à la gare ?",
+         "chunks": [
+          "wirst",
+          "du",
+          "mich",
+          "vom Bahnhof",
+          "abholen"
+         ],
+         "focus": {
+          "chunk": "abholen",
+          "answer": "la 2e partie du verbe, à la fin",
+          "why": "L'infinitif ferme la question."
+         },
+         "blank": {
+          "chunk": "wirst",
+          "base": "werden",
+          "wrong": [
+           "wird",
+           "werdet"
+          ]
+         },
+         "alt": [
+          "Holst du mich vom Bahnhof ab?"
+         ],
+         "id": "de-phrase-3-4-05"
+        },
+        {
+         "text": "Der Arzt wird gleich kommen.",
+         "fr": "Le médecin va arriver tout de suite.",
+         "chunks": [
+          "der Arzt",
+          "wird",
+          "gleich",
+          "kommen"
+         ],
+         "focus": {
+          "chunk": "wird",
+          "answer": "le verbe conjugué, en 2e place",
+          "why": "Wird, conjugué, est en 2e place."
+         },
+         "blank": {
+          "chunk": "wird",
+          "base": "werden",
+          "wrong": [
+           "werdet",
+           "wirst"
+          ]
+         },
+         "alt": [
+          "Der Arzt kommt gleich."
+         ],
+         "id": "de-phrase-3-4-06"
+        },
+        {
+         "text": "Wann werdet ihr endlich eure Zimmer aufräumen?",
+         "fr": "Quand allez-vous enfin ranger vos chambres ?",
+         "chunks": [
+          "wann",
+          "werdet",
+          "ihr",
+          "endlich",
+          "eure Zimmer",
+          "aufräumen"
+         ],
+         "orders": [
+          "Wann werdet ihr eure Zimmer endlich aufräumen?"
+         ],
+         "focus": {
+          "chunk": "eure Zimmer",
+          "answer": "le milieu de la phrase",
+          "why": "Eure Zimmer est au milieu."
+         },
+         "blank": {
+          "chunk": "werdet",
+          "base": "werden",
+          "wrong": [
+           "werden",
+           "wird"
+          ]
+         },
+         "alt": [
+          "Wann räumt ihr endlich eure Zimmer auf?"
+         ],
+         "id": "de-phrase-3-4-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel est le rôle du groupe surligné ?",
+        "options": [
+         "le verbe conjugué, en 2e place",
+         "la 2e partie du verbe, à la fin",
+         "le milieu de la phrase"
+        ]
+       }
+      },
+      {
+       "id": "de-phrase-3:5",
+       "title": "Tout ensemble : attendre la fin de la phrase",
+       "rule": {
+        "intro": "Dans une longue phrase allemande, ce qui donne le sens arrive souvent à la fin : le participe, l'infinitif ou la particule.",
+        "points": [
+         "Pour comprendre, repère d'abord le verbe en 2e place, puis va chercher la fin.",
+         "Ich habe meinen Schlüssel gestern im Büro… vergessen ? gefunden ? Seul le dernier mot le dit.",
+         "Pour parler, construis la parenthèse : le verbe conjugué, le milieu, puis la fin."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Ich habe meinen Schlüssel gestern im Büro vergessen.",
+          "Hier, j'ai oublié ma clé au bureau."
+         ],
+         [
+          "Wir müssen vor der Reise noch unsere Pässe abholen.",
+          "Avant le voyage, nous devons encore aller chercher nos passeports."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich habe meinen Schlüssel gestern im Büro vergessen.",
+         "fr": "Hier, j'ai oublié ma clé au bureau.",
+         "chunks": [
+          "ich",
+          "habe",
+          "meinen Schlüssel",
+          "gestern",
+          "im Büro",
+          "vergessen"
+         ],
+         "orders": [
+          "Gestern habe ich meinen Schlüssel im Büro vergessen.",
+          "Ich habe gestern meinen Schlüssel im Büro vergessen."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "vergessen",
+          "answer": "la 2e partie du verbe, à la fin",
+          "why": "Le dernier mot donne le sens : oublier."
+         },
+         "blank": {
+          "chunk": "vergessen",
+          "base": "vergessen",
+          "wrong": [
+           "vergaß",
+           "gevergessen"
+          ]
+         },
+         "wrongMeanings": [
+          "Hier, j'ai retrouvé ma clé au bureau.",
+          "Hier, j'ai laissé ma clé à la maison."
+         ],
+         "id": "de-phrase-3-5-01"
+        },
+        {
+         "text": "Kannst du heute nach der Arbeit die Kinder von der Schule abholen?",
+         "fr": "Tu peux aller chercher les enfants à l'école aujourd'hui après le travail ?",
+         "chunks": [
+          "kannst",
+          "du",
+          "heute",
+          "nach der Arbeit",
+          "die Kinder",
+          "von der Schule",
+          "abholen"
+         ],
+         "focus": {
+          "chunk": "abholen",
+          "answer": "la 2e partie du verbe, à la fin",
+          "why": "Abholen ferme la question : aller chercher."
+         },
+         "blank": {
+          "chunk": "kannst",
+          "base": "können",
+          "wrong": [
+           "kann",
+           "könnt"
+          ]
+         },
+         "wrongMeanings": [
+          "Tu peux emmener les enfants à l'école aujourd'hui après le travail ?",
+          "Les enfants peuvent venir te chercher au travail aujourd'hui ?"
+         ],
+         "id": "de-phrase-3-5-02"
+        },
+        {
+         "text": "Meine Eltern sind am Freitag mit dem Auto zu meiner Tante gefahren.",
+         "fr": "Vendredi, mes parents sont allés chez ma tante en voiture.",
+         "chunks": [
+          "meine Eltern",
+          "sind",
+          "am Freitag",
+          "mit dem Auto",
+          "zu meiner Tante",
+          "gefahren"
+         ],
+         "orders": [
+          "Am Freitag sind meine Eltern mit dem Auto zu meiner Tante gefahren."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "zu meiner Tante",
+          "answer": "le milieu de la phrase",
+          "why": "Zu meiner Tante est au milieu."
+         },
+         "blank": {
+          "chunk": "sind",
+          "base": "haben ou sein",
+          "wrong": [
+           "haben"
+          ]
+         },
+         "wrongMeanings": [
+          "Vendredi, ma tante est venue chez mes parents en voiture.",
+          "Vendredi, mes parents vont aller chez ma tante en voiture."
+         ],
+         "id": "de-phrase-3-5-03"
+        },
+        {
+         "text": "Heute Abend sehe ich mir mit meinen Freunden das Spiel im Fernsehen an.",
+         "fr": "Ce soir, je regarde le match à la télé avec mes amis.",
+         "chunks": [
+          "heute Abend",
+          "sehe",
+          "ich",
+          "mir",
+          "mit meinen Freunden",
+          "das Spiel",
+          "im Fernsehen",
+          "an"
+         ],
+         "orders": [
+          "Ich sehe mir heute Abend mit meinen Freunden das Spiel im Fernsehen an."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "an",
+          "answer": "la 2e partie du verbe, à la fin",
+          "why": "An ferme la phrase : sich etwas ansehen, regarder."
+         },
+         "blank": {
+          "chunk": "sehe",
+          "base": "ansehen",
+          "wrong": [
+           "siehst",
+           "sieht"
+          ]
+         },
+         "wrongMeanings": [
+          "Ce soir, je joue au foot avec mes amis.",
+          "Ce soir, mes amis regardent le match sans moi."
+         ],
+         "id": "de-phrase-3-5-04"
+        },
+        {
+         "text": "Wir müssen vor der Reise noch unsere Pässe abholen.",
+         "fr": "Avant le voyage, nous devons encore aller chercher nos passeports.",
+         "chunks": [
+          "wir",
+          "müssen",
+          "vor der Reise",
+          "noch",
+          "unsere Pässe",
+          "abholen"
+         ],
+         "orders": [
+          "Vor der Reise müssen wir noch unsere Pässe abholen."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "müssen",
+          "answer": "le verbe conjugué, en 2e place",
+          "why": "Müssen, conjugué, est en 2e place."
+         },
+         "blank": {
+          "chunk": "müssen",
+          "base": "müssen",
+          "wrong": [
+           "muss",
+           "müsst"
+          ]
+         },
+         "wrongMeanings": [
+          "Avant le voyage, nous avons perdu nos passeports.",
+          "Après le voyage, nous devons rendre nos passeports."
+         ],
+         "id": "de-phrase-3-5-05"
+        },
+        {
+         "text": "Hat dir Paul gestern die Fotos vom Urlaub gezeigt?",
+         "fr": "Paul t'a montré les photos des vacances hier ?",
+         "chunks": [
+          "hat",
+          "dir",
+          "Paul",
+          "gestern",
+          "die Fotos vom Urlaub",
+          "gezeigt"
+         ],
+         "orders": [
+          "Hat Paul dir gestern die Fotos vom Urlaub gezeigt?"
+         ],
+         "orderWhy": "Les deux sont corrects : le pronom dir passe souvent devant Paul.",
+         "focus": {
+          "chunk": "gezeigt",
+          "answer": "la 2e partie du verbe, à la fin",
+          "why": "Le participe ferme la question : montrer."
+         },
+         "blank": {
+          "chunk": "gezeigt",
+          "base": "zeigen",
+          "wrong": [
+           "zeigte",
+           "gezeigen"
+          ]
+         },
+         "wrongMeanings": [
+          "Tu as montré les photos des vacances à Paul hier ?",
+          "Paul t'a envoyé les photos des vacances hier ?"
+         ],
+         "id": "de-phrase-3-5-06"
+        },
+        {
+         "text": "Ich werde dir morgen beim Umzug helfen.",
+         "fr": "Je t'aiderai demain pour le déménagement.",
+         "chunks": [
+          "ich",
+          "werde",
+          "dir",
+          "morgen",
+          "beim Umzug",
+          "helfen"
+         ],
+         "orders": [
+          "Morgen werde ich dir beim Umzug helfen."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "beim Umzug",
+          "answer": "le milieu de la phrase",
+          "why": "Beim Umzug est au milieu."
+         },
+         "blank": {
+          "chunk": "werde",
+          "base": "werden",
+          "wrong": [
+           "wird",
+           "wirst"
+          ]
+         },
+         "alt": [
+          "Ich helfe dir morgen beim Umzug.",
+          "Morgen helfe ich dir beim Umzug."
+         ],
+         "wrongMeanings": [
+          "Tu m'aideras demain pour le déménagement.",
+          "Je t'ai aidé hier pour le déménagement."
+         ],
+         "id": "de-phrase-3-5-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel est le rôle du groupe surligné ?",
+        "options": [
+         "le verbe conjugué, en 2e place",
+         "la 2e partie du verbe, à la fin",
+         "le milieu de la phrase"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "de-phrase-4",
+     "title": "La place de nicht",
+     "hint": "nicht va le plus loin possible pour nier toute la phrase ; juste devant un mot, il ne nie que lui.",
+     "level": "A2",
+     "lessons": [
+      {
+       "id": "de-phrase-4:1",
+       "title": "nicht à la fin, ou avant la 2e partie",
+       "rule": {
+        "intro": "Pour nier toute la phrase, nicht va le plus loin possible : à la fin, ou juste avant la 2e partie du verbe.",
+        "points": [
+         "Ich kenne den Mann nicht.",
+         "Ich kann heute nicht kommen. Ich habe ihn nicht gesehen. Sie ruft mich nicht an.",
+         "nicht vient aussi avant un adjectif ou un lieu lié au verbe : Das ist nicht teuer. Wir fahren nicht nach Spanien."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Ich kenne den Mann nicht.",
+          "Je ne connais pas cet homme."
+         ],
+         [
+          "Ich kann heute nicht kommen.",
+          "Je ne peux pas venir aujourd'hui."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich kenne den Mann nicht.",
+         "fr": "Je ne connais pas cet homme.",
+         "chunks": [
+          "ich",
+          "kenne",
+          "den Mann",
+          "nicht"
+         ],
+         "orders": [
+          "Den Mann kenne ich nicht."
+         ],
+         "focus": {
+          "chunk": "nicht",
+          "answer": "toute la phrase",
+          "why": "À la fin : nicht nie toute la phrase."
+         },
+         "wrongMeanings": [
+          "Je connais cet homme.",
+          "Cet homme ne me connaît pas."
+         ],
+         "id": "de-phrase-4-1-01"
+        },
+        {
+         "text": "Ich kann heute nicht kommen.",
+         "fr": "Je ne peux pas venir aujourd'hui.",
+         "chunks": [
+          "ich",
+          "kann",
+          "heute",
+          "nicht",
+          "kommen"
+         ],
+         "orders": [
+          "Heute kann ich nicht kommen."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "nicht",
+          "answer": "toute la phrase",
+          "why": "Nicht vient juste avant la 2e partie : kommen."
+         },
+         "id": "de-phrase-4-1-02"
+        },
+        {
+         "text": "Wir haben den Film nicht gesehen.",
+         "fr": "Nous n'avons pas vu le film.",
+         "chunks": [
+          "wir",
+          "haben",
+          "den Film",
+          "nicht",
+          "gesehen"
+         ],
+         "orders": [
+          "Den Film haben wir nicht gesehen."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe conjugué reste 2e, l'autre partie ferme la phrase.",
+         "focus": {
+          "chunk": "nicht",
+          "answer": "toute la phrase",
+          "why": "Nicht vient juste avant le participe."
+         },
+         "wrongMeanings": [
+          "Nous avons vu le film.",
+          "Le film ne nous a pas plu."
+         ],
+         "id": "de-phrase-4-1-03"
+        },
+        {
+         "text": "Sie ruft mich nicht an.",
+         "fr": "Elle ne m'appelle pas.",
+         "chunks": [
+          "sie",
+          "ruft",
+          "mich",
+          "nicht",
+          "an"
+         ],
+         "focus": {
+          "chunk": "nicht",
+          "answer": "toute la phrase",
+          "why": "Nicht se place avant la particule an."
+         },
+         "id": "de-phrase-4-1-04"
+        },
+        {
+         "text": "Das Essen ist nicht teuer.",
+         "fr": "Le repas n'est pas cher.",
+         "chunks": [
+          "das Essen",
+          "ist",
+          "nicht",
+          "teuer"
+         ],
+         "focus": {
+          "chunk": "nicht",
+          "answer": "toute la phrase",
+          "why": "Avant un adjectif lié à sein : nicht teuer."
+         },
+         "id": "de-phrase-4-1-05"
+        },
+        {
+         "text": "Wir fahren dieses Jahr nicht nach Spanien.",
+         "fr": "Cette année, nous n'allons pas en Espagne.",
+         "chunks": [
+          "wir",
+          "fahren",
+          "dieses Jahr",
+          "nicht",
+          "nach Spanien"
+         ],
+         "orders": [
+          "Dieses Jahr fahren wir nicht nach Spanien."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "nicht",
+          "answer": "toute la phrase",
+          "why": "Avant le lieu lié au verbe : nicht nach Spanien."
+         },
+         "id": "de-phrase-4-1-06"
+        },
+        {
+         "text": "Warum hast du mich nicht angerufen?",
+         "fr": "Pourquoi ne m'as-tu pas appelé ?",
+         "chunks": [
+          "warum",
+          "hast",
+          "du",
+          "mich",
+          "nicht",
+          "angerufen"
+         ],
+         "focus": {
+          "chunk": "nicht",
+          "answer": "toute la phrase",
+          "why": "Nicht vient juste avant le participe."
+         },
+         "id": "de-phrase-4-1-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que nie nicht ici ?",
+        "options": [
+         "toute la phrase",
+         "un seul mot ou groupe"
+        ]
+       }
+      },
+      {
+       "id": "de-phrase-4:2",
+       "title": "nicht devant un seul mot : nicht heute, sondern morgen",
+       "rule": {
+        "intro": "Placé juste devant un mot, nicht ne nie que lui. Souvent, sondern donne ensuite la bonne information.",
+        "points": [
+         "Ich komme nicht heute, sondern morgen.",
+         "Nicht ich habe das gesagt, sondern Paul.",
+         "Comparer : Ich komme heute nicht (je ne viens pas) et Ich komme nicht heute (je viens, mais pas aujourd'hui)."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Ich komme nicht heute, sondern morgen.",
+          "Je ne viens pas aujourd'hui, mais demain."
+         ],
+         [
+          "Ich komme heute nicht.",
+          "Aujourd'hui, je ne viens pas."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich komme nicht heute, sondern morgen.",
+         "fr": "Je ne viens pas aujourd'hui, mais demain.",
+         "chunks": [
+          "ich",
+          "komme",
+          "nicht heute",
+          "sondern morgen"
+         ],
+         "focus": {
+          "chunk": "nicht",
+          "answer": "un seul mot ou groupe",
+          "why": "Juste devant heute : nicht ne nie que le jour."
+         },
+         "wrongMeanings": [
+          "Je ne viens ni aujourd'hui ni demain.",
+          "Je viens aujourd'hui et demain."
+         ],
+         "id": "de-phrase-4-2-01"
+        },
+        {
+         "text": "Ich komme heute nicht.",
+         "fr": "Aujourd'hui, je ne viens pas.",
+         "chunks": [
+          "ich",
+          "komme",
+          "heute",
+          "nicht"
+         ],
+         "orders": [
+          "Heute komme ich nicht."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "nicht",
+          "answer": "toute la phrase",
+          "why": "À la fin : nicht nie toute la phrase."
+         },
+         "wrongMeanings": [
+          "Je ne viens pas aujourd'hui, mais demain.",
+          "Je viens aujourd'hui."
+         ],
+         "id": "de-phrase-4-2-02"
+        },
+        {
+         "text": "Nicht ich habe das gesagt, sondern Paul.",
+         "fr": "Ce n'est pas moi qui ai dit ça, c'est Paul.",
+         "chunks": [
+          "nicht ich",
+          "habe",
+          "das",
+          "gesagt",
+          "sondern Paul"
+         ],
+         "orders": [
+          "Das habe nicht ich gesagt, sondern Paul."
+         ],
+         "focus": {
+          "chunk": "nicht",
+          "answer": "un seul mot ou groupe",
+          "why": "Nicht ich : seul le sujet est nié."
+         },
+         "wrongMeanings": [
+          "Je n'ai pas dit ça à Paul.",
+          "Ni Paul ni moi n'avons dit ça."
+         ],
+         "id": "de-phrase-4-2-03"
+        },
+        {
+         "text": "Wir fahren nicht mit dem Auto, sondern mit dem Zug.",
+         "fr": "Nous n'y allons pas en voiture, mais en train.",
+         "chunks": [
+          "wir",
+          "fahren",
+          "nicht mit dem Auto",
+          "sondern mit dem Zug"
+         ],
+         "focus": {
+          "chunk": "nicht",
+          "answer": "un seul mot ou groupe",
+          "why": "Seul le moyen de transport est nié."
+         },
+         "wrongMeanings": [
+          "Nous n'y allons ni en voiture ni en train.",
+          "Nous y allons en voiture, pas en train."
+         ],
+         "id": "de-phrase-4-2-04"
+        },
+        {
+         "text": "Er hat nicht den roten, sondern den blauen Pullover gekauft.",
+         "fr": "Il n'a pas acheté le pull rouge, mais le bleu.",
+         "chunks": [
+          "er",
+          "hat",
+          "nicht den roten",
+          "sondern den blauen Pullover",
+          "gekauft"
+         ],
+         "focus": {
+          "chunk": "nicht",
+          "answer": "un seul mot ou groupe",
+          "why": "Seule la couleur est niée : il a bien acheté un pull."
+         },
+         "wrongMeanings": [
+          "Il a acheté le pull rouge et le bleu.",
+          "Il n'a acheté aucun pull."
+         ],
+         "id": "de-phrase-4-2-05"
+        },
+        {
+         "text": "Er hat den Pullover nicht gekauft.",
+         "fr": "Il n'a pas acheté le pull.",
+         "chunks": [
+          "er",
+          "hat",
+          "den Pullover",
+          "nicht",
+          "gekauft"
+         ],
+         "orders": [
+          "Den Pullover hat er nicht gekauft."
+         ],
+         "focus": {
+          "chunk": "nicht",
+          "answer": "toute la phrase",
+          "why": "Avant le participe : nicht nie l'achat lui-même."
+         },
+         "wrongMeanings": [
+          "Il a acheté le pull.",
+          "Il n'a pas acheté le pull rouge, mais le bleu."
+         ],
+         "id": "de-phrase-4-2-06"
+        },
+        {
+         "text": "Das Konzert ist nicht am Samstag, sondern am Sonntag.",
+         "fr": "Le concert n'est pas samedi, mais dimanche.",
+         "chunks": [
+          "das Konzert",
+          "ist",
+          "nicht am Samstag",
+          "sondern am Sonntag"
+         ],
+         "focus": {
+          "chunk": "nicht",
+          "answer": "un seul mot ou groupe",
+          "why": "Seul le jour est nié : le concert a bien lieu."
+         },
+         "id": "de-phrase-4-2-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que nie nicht ici ?",
+        "options": [
+         "toute la phrase",
+         "un seul mot ou groupe"
+        ]
+       }
+      },
+      {
+       "id": "de-phrase-4:3",
+       "title": "nicht ou kein ?",
+       "rule": {
+        "intro": "kein nie un nom sans article ou avec ein ; nicht nie tout le reste.",
+        "points": [
+         "kein : Ich habe kein Auto. Er trinkt keinen Kaffee.",
+         "nicht : un verbe, un adjectif, un nom avec der, die, das ou mein, dein… : Ich finde das Auto nicht. Das ist nicht mein Handy.",
+         "kein prend les terminaisons de ein : keinen Hunger, keine Zeit, kein Geld."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Ich habe kein Auto.",
+          "Je n'ai pas de voiture."
+         ],
+         [
+          "Ich finde das Auto nicht.",
+          "Je ne trouve pas la voiture."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich habe kein Auto.",
+         "fr": "Je n'ai pas de voiture.",
+         "chunks": [
+          "ich",
+          "habe",
+          "kein Auto"
+         ],
+         "focus": {
+          "chunk": "kein",
+          "answer": "kein : un nom sans article ou avec ein",
+          "why": "Ein Auto devient kein Auto."
+         },
+         "blank": {
+          "chunk": "kein Auto",
+          "base": "ein Auto",
+          "wrong": [
+           "keine Auto",
+           "keinen Auto"
+          ]
+         },
+         "id": "de-phrase-4-3-01"
+        },
+        {
+         "text": "Ich finde das Auto nicht.",
+         "fr": "Je ne trouve pas la voiture.",
+         "chunks": [
+          "ich",
+          "finde",
+          "das Auto",
+          "nicht"
+         ],
+         "focus": {
+          "chunk": "nicht",
+          "answer": "nicht : un verbe, un adjectif, un nom avec der, die, das, mein…",
+          "why": "Das Auto, avec das : nicht."
+         },
+         "id": "de-phrase-4-3-02"
+        },
+        {
+         "text": "Er trinkt keinen Kaffee.",
+         "fr": "Il ne boit pas de café.",
+         "chunks": [
+          "er",
+          "trinkt",
+          "keinen Kaffee"
+         ],
+         "focus": {
+          "chunk": "keinen",
+          "answer": "kein : un nom sans article ou avec ein",
+          "why": "Kaffee sans article : kein, ici keinen (masculin, accusatif)."
+         },
+         "blank": {
+          "chunk": "keinen Kaffee",
+          "base": "Kaffee",
+          "wrong": [
+           "nicht Kaffee",
+           "kein Kaffee"
+          ]
+         },
+         "id": "de-phrase-4-3-03"
+        },
+        {
+         "text": "Wir haben heute keine Zeit.",
+         "fr": "Aujourd'hui, nous n'avons pas le temps.",
+         "chunks": [
+          "wir",
+          "haben",
+          "heute",
+          "keine Zeit"
+         ],
+         "orders": [
+          "Heute haben wir keine Zeit."
+         ],
+         "orderWhy": "Les deux ordres sont corrects : le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "keine",
+          "answer": "kein : un nom sans article ou avec ein",
+          "why": "Zeit sans article : keine Zeit."
+         },
+         "blank": {
+          "chunk": "keine Zeit",
+          "base": "Zeit",
+          "wrong": [
+           "nicht Zeit",
+           "keinen Zeit"
+          ]
+         },
+         "id": "de-phrase-4-3-04"
+        },
+        {
+         "text": "Das ist nicht mein Handy.",
+         "fr": "Ce n'est pas mon portable.",
+         "chunks": [
+          "das",
+          "ist",
+          "nicht",
+          "mein Handy"
+         ],
+         "focus": {
+          "chunk": "nicht",
+          "answer": "nicht : un verbe, un adjectif, un nom avec der, die, das, mein…",
+          "why": "Mein Handy a un possessif : nicht."
+         },
+         "id": "de-phrase-4-3-05"
+        },
+        {
+         "text": "Sie hat keine Geschwister.",
+         "fr": "Elle n'a pas de frères et sœurs.",
+         "chunks": [
+          "sie",
+          "hat",
+          "keine Geschwister"
+         ],
+         "focus": {
+          "chunk": "keine",
+          "answer": "kein : un nom sans article ou avec ein",
+          "why": "Geschwister sans article : keine."
+         },
+         "blank": {
+          "chunk": "keine Geschwister",
+          "base": "Geschwister",
+          "wrong": [
+           "nicht Geschwister",
+           "keinen Geschwister"
+          ]
+         },
+         "id": "de-phrase-4-3-06"
+        },
+        {
+         "text": "Ich verstehe dich nicht.",
+         "fr": "Je ne te comprends pas.",
+         "chunks": [
+          "ich",
+          "verstehe",
+          "dich",
+          "nicht"
+         ],
+         "focus": {
+          "chunk": "nicht",
+          "answer": "nicht : un verbe, un adjectif, un nom avec der, die, das, mein…",
+          "why": "On nie un verbe : nicht."
+         },
+         "id": "de-phrase-4-3-07"
+        },
+        {
+         "text": "Hast du keinen Hunger?",
+         "fr": "Tu n'as pas faim ?",
+         "chunks": [
+          "hast",
+          "du",
+          "keinen Hunger"
+         ],
+         "focus": {
+          "chunk": "keinen",
+          "answer": "kein : un nom sans article ou avec ein",
+          "why": "Hunger sans article : keinen Hunger."
+         },
+         "blank": {
+          "chunk": "keinen Hunger",
+          "base": "Hunger",
+          "wrong": [
+           "nicht Hunger",
+           "kein Hunger"
+          ]
+         },
+         "id": "de-phrase-4-3-08"
+        }
+       ],
+       "ask": {
+        "prompt": "Pourquoi nicht ou kein ici ?",
+        "options": [
+         "kein : un nom sans article ou avec ein",
+         "nicht : un verbe, un adjectif, un nom avec der, die, das, mein…"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "de-phrase-5",
+     "title": "Relier deux phrases : und, aber, denn",
+     "hint": "und, oder, aber, sondern et denn relient deux phrases sans rien changer à leur ordre.",
+     "level": "A2",
+     "lessons": [
+      {
+       "id": "de-phrase-5:1",
+       "title": "und, oder : l'ordre ne change pas",
+       "rule": {
+        "intro": "und, oder, aber, denn et sondern relient deux phrases sans changer leur ordre : après eux, la phrase reste normale.",
+        "points": [
+         "Ich bin müde und gehe ins Bett.",
+         "Si le sujet est le même, on peut ne pas le répéter : Sie trinkt Tee und liest die Zeitung.",
+         "Ces mots ne comptent pas comme 1re place : …und morgen habe ich frei."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Ich bin müde und gehe ins Bett.",
+          "Je suis fatigué et je vais me coucher."
+         ],
+         [
+          "Heute arbeite ich und morgen habe ich frei.",
+          "Aujourd'hui je travaille, et demain je suis libre."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich bin müde und gehe ins Bett.",
+         "fr": "Je suis fatigué et je vais me coucher.",
+         "chunks": [
+          "ich",
+          "bin",
+          "müde",
+          "und",
+          "gehe",
+          "ins Bett"
+         ],
+         "focus": {
+          "chunk": "und",
+          "answer": "le mot qui relie",
+          "why": "Und relie les deux phrases."
+         },
+         "alt": [
+          "Ich bin müde, und ich gehe ins Bett.",
+          "Ich bin müde und ich gehe ins Bett."
+         ],
+         "combine": {
+          "sentences": [
+           "Ich bin müde.",
+           "Ich gehe ins Bett."
+          ],
+          "link": "und"
+         },
+         "id": "de-phrase-5-1-01"
+        },
+        {
+         "text": "Mein Bruder spielt Gitarre und meine Schwester singt.",
+         "fr": "Mon frère joue de la guitare et ma sœur chante.",
+         "chunks": [
+          "mein Bruder",
+          "spielt",
+          "Gitarre",
+          "und",
+          "meine Schwester",
+          "singt"
+         ],
+         "focus": {
+          "chunk": "meine Schwester singt",
+          "answer": "la 2e proposition",
+          "why": "Après und, une 2e phrase complète."
+         },
+         "wrongMeanings": [
+          "Mon frère joue de la guitare et chante avec ma sœur.",
+          "Ma sœur joue de la guitare et mon frère chante."
+         ],
+         "combine": {
+          "sentences": [
+           "Mein Bruder spielt Gitarre.",
+           "Meine Schwester singt."
+          ],
+          "link": "und"
+         },
+         "id": "de-phrase-5-1-02"
+        },
+        {
+         "text": "Kommst du mit oder bleibst du zu Hause?",
+         "fr": "Tu viens avec nous ou tu restes à la maison ?",
+         "chunks": [
+          "kommst",
+          "du",
+          "mit",
+          "oder",
+          "bleibst",
+          "du",
+          "zu Hause"
+         ],
+         "focus": {
+          "chunk": "oder",
+          "answer": "le mot qui relie",
+          "why": "Oder relie les deux questions."
+         },
+         "combine": {
+          "sentences": [
+           "Kommst du mit?",
+           "Bleibst du zu Hause?"
+          ],
+          "link": "oder"
+         },
+         "id": "de-phrase-5-1-03"
+        },
+        {
+         "text": "Wir essen zu Hause oder wir gehen ins Restaurant.",
+         "fr": "Nous mangeons à la maison ou nous allons au restaurant.",
+         "chunks": [
+          "wir",
+          "essen",
+          "zu Hause",
+          "oder",
+          "wir",
+          "gehen",
+          "ins Restaurant"
+         ],
+         "focus": {
+          "chunk": "wir essen zu Hause",
+          "answer": "la 1re proposition",
+          "why": "La 1re proposition, avant oder."
+         },
+         "alt": [
+          "Wir essen zu Hause oder gehen ins Restaurant."
+         ],
+         "combine": {
+          "sentences": [
+           "Wir essen zu Hause.",
+           "Wir gehen ins Restaurant."
+          ],
+          "link": "oder"
+         },
+         "id": "de-phrase-5-1-04"
+        },
+        {
+         "text": "Heute arbeite ich und morgen habe ich frei.",
+         "fr": "Aujourd'hui je travaille, et demain je suis libre.",
+         "chunks": [
+          "heute",
+          "arbeite",
+          "ich",
+          "und",
+          "morgen",
+          "habe",
+          "ich",
+          "frei"
+         ],
+         "orders": [
+          "Ich arbeite heute und morgen habe ich frei.",
+          "Heute arbeite ich und ich habe morgen frei.",
+          "Ich arbeite heute und ich habe morgen frei."
+         ],
+         "orderWhy": "Tous corrects : de chaque côté de und, le verbe reste en 2e position.",
+         "focus": {
+          "chunk": "morgen habe ich frei",
+          "answer": "la 2e proposition",
+          "why": "Après und, une phrase normale : morgen en 1re place, habe en 2e."
+         },
+         "wrongMeanings": [
+          "Aujourd'hui et demain, je travaille.",
+          "Aujourd'hui je suis libre, et demain je travaille."
+         ],
+         "combine": {
+          "sentences": [
+           "Heute arbeite ich.",
+           "Morgen habe ich frei."
+          ],
+          "link": "und"
+         },
+         "id": "de-phrase-5-1-05"
+        },
+        {
+         "text": "Sie trinkt Tee und liest die Zeitung.",
+         "fr": "Elle boit du thé et lit le journal.",
+         "chunks": [
+          "sie",
+          "trinkt",
+          "Tee",
+          "und",
+          "liest",
+          "die Zeitung"
+         ],
+         "focus": {
+          "chunk": "liest die Zeitung",
+          "answer": "la 2e proposition",
+          "why": "Même sujet : on ne répète pas sie."
+         },
+         "alt": [
+          "Sie trinkt Tee und sie liest die Zeitung."
+         ],
+         "combine": {
+          "sentences": [
+           "Sie trinkt Tee.",
+           "Sie liest die Zeitung."
+          ],
+          "link": "und"
+         },
+         "id": "de-phrase-5-1-06"
+        },
+        {
+         "text": "Ich nehme den Bus oder ich fahre mit dem Fahrrad.",
+         "fr": "Je prends le bus ou j'y vais à vélo.",
+         "chunks": [
+          "ich",
+          "nehme",
+          "den Bus",
+          "oder",
+          "ich",
+          "fahre",
+          "mit dem Fahrrad"
+         ],
+         "focus": {
+          "chunk": "oder",
+          "answer": "le mot qui relie",
+          "why": "Oder relie les deux possibilités."
+         },
+         "alt": [
+          "Ich nehme den Bus oder fahre mit dem Fahrrad."
+         ],
+         "combine": {
+          "sentences": [
+           "Ich nehme den Bus.",
+           "Ich fahre mit dem Fahrrad."
+          ],
+          "link": "oder"
+         },
+         "id": "de-phrase-5-1-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel est le rôle du groupe surligné ?",
+        "options": [
+         "la 1re proposition",
+         "le mot qui relie",
+         "la 2e proposition"
+        ]
+       }
+      },
+      {
+       "id": "de-phrase-5:2",
+       "title": "aber et sondern : mais",
+       "rule": {
+        "intro": "L'allemand a deux « mais ».",
+        "points": [
+         "aber : une opposition : Das Hotel ist alt, aber sehr schön.",
+         "sondern : « mais au contraire », seulement après une négation : Er ist nicht alt, sondern jung.",
+         "Après les deux, l'ordre reste normal : Ich möchte kommen, aber ich habe keine Zeit.",
+         "Une virgule avant aber et sondern."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Ich möchte kommen, aber ich habe keine Zeit.",
+          "J'aimerais venir, mais je n'ai pas le temps."
+         ],
+         [
+          "Er ist nicht alt, sondern jung.",
+          "Il n'est pas vieux, mais jeune."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich möchte kommen, aber ich habe keine Zeit.",
+         "fr": "J'aimerais venir, mais je n'ai pas le temps.",
+         "chunks": [
+          "ich",
+          "möchte",
+          "kommen",
+          "aber",
+          "ich",
+          "habe",
+          "keine Zeit"
+         ],
+         "focus": {
+          "chunk": "aber",
+          "answer": "aber : une opposition",
+          "why": "Une opposition : aber."
+         },
+         "blank": {
+          "chunk": "aber",
+          "base": "mais",
+          "wrong": [
+           "sondern",
+           "denn"
+          ]
+         },
+         "wrongMeanings": [
+          "Je viendrai quand j'aurai le temps.",
+          "J'aimerais venir parce que j'ai le temps."
+         ],
+         "combine": {
+          "sentences": [
+           "Ich möchte kommen.",
+           "Ich habe keine Zeit."
+          ],
+          "link": "aber"
+         },
+         "id": "de-phrase-5-2-01"
+        },
+        {
+         "text": "Er ist nicht alt, sondern jung.",
+         "fr": "Il n'est pas vieux, mais jeune.",
+         "chunks": [
+          "er",
+          "ist",
+          "nicht",
+          "alt",
+          "sondern",
+          "jung"
+         ],
+         "focus": {
+          "chunk": "sondern",
+          "answer": "sondern : on corrige, après une négation",
+          "why": "Après nicht, on corrige : sondern."
+         },
+         "blank": {
+          "chunk": "sondern",
+          "base": "mais",
+          "wrong": [
+           "aber",
+           "oder"
+          ]
+         },
+         "id": "de-phrase-5-2-02"
+        },
+        {
+         "text": "Das Hotel ist alt, aber sehr schön.",
+         "fr": "L'hôtel est vieux, mais très beau.",
+         "chunks": [
+          "das Hotel",
+          "ist",
+          "alt",
+          "aber",
+          "sehr schön"
+         ],
+         "focus": {
+          "chunk": "aber",
+          "answer": "aber : une opposition",
+          "why": "Pas de négation à corriger : aber."
+         },
+         "blank": {
+          "chunk": "aber",
+          "base": "mais",
+          "wrong": [
+           "sondern",
+           "und"
+          ]
+         },
+         "id": "de-phrase-5-2-03"
+        },
+        {
+         "text": "Wir fahren nicht nach Italien, sondern nach Spanien.",
+         "fr": "Nous n'allons pas en Italie, mais en Espagne.",
+         "chunks": [
+          "wir",
+          "fahren",
+          "nicht",
+          "nach Italien",
+          "sondern",
+          "nach Spanien"
+         ],
+         "focus": {
+          "chunk": "sondern",
+          "answer": "sondern : on corrige, après une négation",
+          "why": "Après nicht, on corrige : sondern."
+         },
+         "blank": {
+          "chunk": "sondern",
+          "base": "mais",
+          "wrong": [
+           "aber",
+           "denn"
+          ]
+         },
+         "wrongMeanings": [
+          "Nous allons en Italie, puis en Espagne.",
+          "Nous n'allons ni en Italie ni en Espagne."
+         ],
+         "id": "de-phrase-5-2-04"
+        },
+        {
+         "text": "Ich habe ihn angerufen, aber er war nicht zu Hause.",
+         "fr": "Je l'ai appelé, mais il n'était pas chez lui.",
+         "chunks": [
+          "ich",
+          "habe",
+          "ihn",
+          "angerufen",
+          "aber",
+          "er",
+          "war",
+          "nicht",
+          "zu Hause"
+         ],
+         "focus": {
+          "chunk": "aber",
+          "answer": "aber : une opposition",
+          "why": "Une opposition : aber."
+         },
+         "blank": {
+          "chunk": "aber",
+          "base": "mais",
+          "wrong": [
+           "sondern",
+           "oder"
+          ]
+         },
+         "wrongMeanings": [
+          "Il m'a appelé, mais je n'étais pas chez moi.",
+          "Je l'ai appelé parce qu'il n'était pas chez lui."
+         ],
+         "combine": {
+          "sentences": [
+           "Ich habe ihn angerufen.",
+           "Er war nicht zu Hause."
+          ],
+          "link": "aber"
+         },
+         "id": "de-phrase-5-2-05"
+        },
+        {
+         "text": "Sie trinkt keinen Kaffee, sondern Tee.",
+         "fr": "Elle ne boit pas de café, mais du thé.",
+         "chunks": [
+          "sie",
+          "trinkt",
+          "keinen Kaffee",
+          "sondern",
+          "Tee"
+         ],
+         "focus": {
+          "chunk": "sondern",
+          "answer": "sondern : on corrige, après une négation",
+          "why": "Après kein aussi, on corrige avec sondern."
+         },
+         "blank": {
+          "chunk": "sondern",
+          "base": "mais",
+          "wrong": [
+           "aber",
+           "und"
+          ]
+         },
+         "id": "de-phrase-5-2-06"
+        },
+        {
+         "text": "Das Essen war teuer, aber es hat gut geschmeckt.",
+         "fr": "Le repas était cher, mais il était bon.",
+         "chunks": [
+          "das Essen",
+          "war",
+          "teuer",
+          "aber",
+          "es",
+          "hat",
+          "gut",
+          "geschmeckt"
+         ],
+         "focus": {
+          "chunk": "aber",
+          "answer": "aber : une opposition",
+          "why": "Une opposition : aber."
+         },
+         "blank": {
+          "chunk": "aber",
+          "base": "mais",
+          "wrong": [
+           "sondern",
+           "denn"
+          ]
+         },
+         "combine": {
+          "sentences": [
+           "Das Essen war teuer.",
+           "Es hat gut geschmeckt."
+          ],
+          "link": "aber"
+         },
+         "id": "de-phrase-5-2-07"
+        }
+       ],
+       "ask": {
+        "prompt": "aber ou sondern : pourquoi ?",
+        "options": [
+         "aber : une opposition",
+         "sondern : on corrige, après une négation"
+        ]
+       }
+      },
+      {
+       "id": "de-phrase-5:3",
+       "title": "denn : car, sans changer l'ordre",
+       "rule": {
+        "intro": "denn veut dire « car ». Après denn, l'ordre reste normal : Ich bleibe zu Hause, denn ich bin krank.",
+        "points": [
+         "denn n'ouvre pas la phrase : la cause vient après.",
+         "Bientôt, weil dira la même chose, mais enverra le verbe à la fin : …, weil ich krank bin.",
+         "Une virgule avant denn."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Ich bleibe zu Hause, denn ich bin krank.",
+          "Je reste à la maison, car je suis malade."
+         ],
+         [
+          "Wir nehmen ein Taxi, denn es regnet.",
+          "Nous prenons un taxi, car il pleut."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich bleibe zu Hause, denn ich bin krank.",
+         "fr": "Je reste à la maison, car je suis malade.",
+         "chunks": [
+          "ich",
+          "bleibe",
+          "zu Hause",
+          "denn",
+          "ich",
+          "bin",
+          "krank"
+         ],
+         "focus": {
+          "chunk": "ich bin krank",
+          "answer": "la cause : pourquoi ?",
+          "why": "Après denn : la cause."
+         },
+         "blank": {
+          "chunk": "denn",
+          "base": "car",
+          "wrong": [
+           "weil",
+           "aber"
+          ]
+         },
+         "wrongMeanings": [
+          "Je suis malade parce que je reste à la maison.",
+          "Je reste à la maison, mais je ne suis pas malade."
+         ],
+         "combine": {
+          "sentences": [
+           "Ich bleibe zu Hause.",
+           "Ich bin krank."
+          ],
+          "link": "denn"
+         },
+         "id": "de-phrase-5-3-01"
+        },
+        {
+         "text": "Wir nehmen ein Taxi, denn es regnet.",
+         "fr": "Nous prenons un taxi, car il pleut.",
+         "chunks": [
+          "wir",
+          "nehmen",
+          "ein Taxi",
+          "denn",
+          "es",
+          "regnet"
+         ],
+         "focus": {
+          "chunk": "wir nehmen ein Taxi",
+          "answer": "ce qui se passe",
+          "why": "Avant denn : ce qui se passe."
+         },
+         "blank": {
+          "chunk": "denn",
+          "base": "car",
+          "wrong": [
+           "weil",
+           "oder"
+          ]
+         },
+         "wrongMeanings": [
+          "Il pleut parce que nous prenons un taxi.",
+          "Nous prenons un taxi chaque fois qu'il pleut."
+         ],
+         "combine": {
+          "sentences": [
+           "Wir nehmen ein Taxi.",
+           "Es regnet."
+          ],
+          "link": "denn"
+         },
+         "id": "de-phrase-5-3-02"
+        },
+        {
+         "text": "Sie lernt Deutsch, denn sie will in Berlin studieren.",
+         "fr": "Elle apprend l'allemand, car elle veut étudier à Berlin.",
+         "chunks": [
+          "sie",
+          "lernt",
+          "Deutsch",
+          "denn",
+          "sie",
+          "will",
+          "in Berlin",
+          "studieren"
+         ],
+         "focus": {
+          "chunk": "sie will in Berlin studieren",
+          "answer": "la cause : pourquoi ?",
+          "why": "Après denn : la cause, dans l'ordre normal."
+         },
+         "wrongMeanings": [
+          "Elle étudie à Berlin, donc elle apprend l'allemand.",
+          "Elle apprend l'allemand à Berlin."
+         ],
+         "combine": {
+          "sentences": [
+           "Sie lernt Deutsch.",
+           "Sie will in Berlin studieren."
+          ],
+          "link": "denn"
+         },
+         "id": "de-phrase-5-3-03"
+        },
+        {
+         "text": "Ich gehe früh schlafen, denn morgen muss ich früh aufstehen.",
+         "fr": "Je me couche tôt, car demain je dois me lever tôt.",
+         "chunks": [
+          "ich",
+          "gehe",
+          "früh",
+          "schlafen",
+          "denn",
+          "morgen",
+          "muss",
+          "ich",
+          "früh",
+          "aufstehen"
+         ],
+         "orders": [
+          "Ich gehe früh schlafen, denn ich muss morgen früh aufstehen."
+         ],
+         "focus": {
+          "chunk": "morgen muss ich früh aufstehen",
+          "answer": "la cause : pourquoi ?",
+          "why": "Après denn, une phrase normale : morgen 1er, muss 2e."
+         },
+         "combine": {
+          "sentences": [
+           "Ich gehe früh schlafen.",
+           "Morgen muss ich früh aufstehen."
+          ],
+          "link": "denn"
+         },
+         "id": "de-phrase-5-3-04"
+        },
+        {
+         "text": "Er ist glücklich, denn er hat eine neue Stelle gefunden.",
+         "fr": "Il est heureux, car il a trouvé un nouveau poste.",
+         "chunks": [
+          "er",
+          "ist",
+          "glücklich",
+          "denn",
+          "er",
+          "hat",
+          "eine neue Stelle",
+          "gefunden"
+         ],
+         "focus": {
+          "chunk": "er ist glücklich",
+          "answer": "ce qui se passe",
+          "why": "Avant denn : ce qui se passe."
+         },
+         "wrongMeanings": [
+          "Il a trouvé un nouveau poste parce qu'il est heureux.",
+          "Il est heureux, mais il cherche un nouveau poste."
+         ],
+         "combine": {
+          "sentences": [
+           "Er ist glücklich.",
+           "Er hat eine neue Stelle gefunden."
+          ],
+          "link": "denn"
+         },
+         "id": "de-phrase-5-3-05"
+        },
+        {
+         "text": "Nimm einen Schirm mit, denn es wird regnen.",
+         "fr": "Prends un parapluie, car il va pleuvoir.",
+         "chunks": [
+          "nimm",
+          "einen Schirm",
+          "mit",
+          "denn",
+          "es",
+          "wird",
+          "regnen"
+         ],
+         "focus": {
+          "chunk": "es wird regnen",
+          "answer": "la cause : pourquoi ?",
+          "why": "Après denn : la cause."
+         },
+         "combine": {
+          "sentences": [
+           "Nimm einen Schirm mit!",
+           "Es wird regnen."
+          ],
+          "link": "denn"
+         },
+         "id": "de-phrase-5-3-06"
+        },
+        {
+         "text": "Wir können nicht kommen, denn unser Auto ist kaputt.",
+         "fr": "Nous ne pouvons pas venir, car notre voiture est en panne.",
+         "chunks": [
+          "wir",
+          "können",
+          "nicht",
+          "kommen",
+          "denn",
+          "unser Auto",
+          "ist",
+          "kaputt"
+         ],
+         "focus": {
+          "chunk": "unser Auto ist kaputt",
+          "answer": "la cause : pourquoi ?",
+          "why": "Après denn : la cause."
+         },
+         "wrongMeanings": [
+          "Notre voiture est en panne parce que nous ne venons pas.",
+          "Nous venons, même si notre voiture est en panne."
+         ],
+         "combine": {
+          "sentences": [
+           "Wir können nicht kommen.",
+           "Unser Auto ist kaputt."
+          ],
+          "link": "denn"
+         },
+         "id": "de-phrase-5-3-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que dit le groupe surligné ?",
+        "options": [
+         "la cause : pourquoi ?",
+         "ce qui se passe"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "de-phrase-6",
+     "title": "La subordonnée : le verbe à la fin",
+     "hint": "weil, dass, wenn, ob, obwohl ouvrent une subordonnée : le verbe conjugué part tout à la fin.",
+     "level": "A2",
+     "lessons": [
+      {
+       "id": "de-phrase-6:1",
+       "title": "weil : le verbe part à la fin",
+       "rule": {
+        "intro": "weil veut dire « parce que ». Il ouvre une subordonnée, et le verbe conjugué part tout à la fin.",
+        "points": [
+         "Ich bleibe zu Hause, weil es regnet.",
+         "Comparer : …, denn es regnet (ordre normal) et …, weil es regnet (verbe à la fin).",
+         "Le sujet suit en général juste weil : weil ich, weil mein Bruder…",
+         "Avec deux verbes, le conjugué passe tout au bout : …, weil sie in Wien arbeiten will.",
+         "Toujours une virgule avant weil."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Ich bleibe zu Hause, weil es regnet.",
+          "Je reste à la maison parce qu'il pleut."
+         ],
+         [
+          "Sie lernt Deutsch, weil sie in Wien arbeiten will.",
+          "Elle apprend l'allemand parce qu'elle veut travailler à Vienne."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich bleibe zu Hause, weil es regnet.",
+         "fr": "Je reste à la maison parce qu'il pleut.",
+         "chunks": [
+          "ich",
+          "bleibe",
+          "zu Hause",
+          "weil",
+          "es",
+          "regnet"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "regnet",
+          "answer": "le verbe de la subordonnée, à la fin",
+          "why": "Après weil, le verbe part à la fin."
+         },
+         "blank": {
+          "chunk": "regnet",
+          "base": "regnen",
+          "wrong": [
+           "regnen",
+           "regnest"
+          ]
+         },
+         "wrongMeanings": [
+          "Il pleut parce que je reste à la maison.",
+          "Je reste à la maison, mais il ne pleut pas."
+         ],
+         "combine": {
+          "sentences": [
+           "Ich bleibe zu Hause.",
+           "Es regnet."
+          ],
+          "link": "weil"
+         },
+         "orders": [
+          "Weil es regnet, bleibe ich zu Hause."
+         ],
+         "id": "de-phrase-6-1-01"
+        },
+        {
+         "text": "Sie lernt Deutsch, weil sie in Wien arbeiten will.",
+         "fr": "Elle apprend l'allemand parce qu'elle veut travailler à Vienne.",
+         "chunks": [
+          "sie",
+          "lernt",
+          "Deutsch",
+          "weil",
+          "sie",
+          "in Wien",
+          "arbeiten",
+          "will"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "will",
+          "answer": "le verbe de la subordonnée, à la fin",
+          "why": "Le verbe de modalité conjugué passe tout à la fin, après l'infinitif."
+         },
+         "blank": {
+          "chunk": "will",
+          "base": "wollen",
+          "wrong": [
+           "willst",
+           "wollt"
+          ]
+         },
+         "combine": {
+          "sentences": [
+           "Sie lernt Deutsch.",
+           "Sie will in Wien arbeiten."
+          ],
+          "link": "weil"
+         },
+         "orders": [
+          "Weil sie in Wien arbeiten will, lernt sie Deutsch."
+         ],
+         "id": "de-phrase-6-1-02"
+        },
+        {
+         "text": "Wir nehmen ein Taxi, weil der Bus nicht kommt.",
+         "fr": "Nous prenons un taxi parce que le bus ne vient pas.",
+         "chunks": [
+          "wir",
+          "nehmen",
+          "ein Taxi",
+          "weil",
+          "der Bus",
+          "nicht",
+          "kommt"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "weil der Bus nicht kommt",
+          "answer": "la subordonnée",
+          "why": "De weil jusqu'au verbe : la subordonnée."
+         },
+         "blank": {
+          "chunk": "kommt",
+          "base": "kommen",
+          "wrong": [
+           "kommen",
+           "kommst"
+          ]
+         },
+         "wrongMeanings": [
+          "Le bus ne vient pas parce que nous prenons un taxi.",
+          "Nous prenons le bus parce qu'il n'y a pas de taxi."
+         ],
+         "combine": {
+          "sentences": [
+           "Wir nehmen ein Taxi.",
+           "Der Bus kommt nicht."
+          ],
+          "link": "weil"
+         },
+         "orders": [
+          "Weil der Bus nicht kommt, nehmen wir ein Taxi."
+         ],
+         "id": "de-phrase-6-1-03"
+        },
+        {
+         "text": "Er ist müde, weil er schlecht geschlafen hat.",
+         "fr": "Il est fatigué parce qu'il a mal dormi.",
+         "chunks": [
+          "er",
+          "ist",
+          "müde",
+          "weil",
+          "er",
+          "schlecht",
+          "geschlafen",
+          "hat"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "hat",
+          "answer": "le verbe de la subordonnée, à la fin",
+          "why": "Au Perfekt, hat passe après le participe, tout à la fin."
+         },
+         "blank": {
+          "chunk": "geschlafen",
+          "base": "schlafen",
+          "wrong": [
+           "geschlaft",
+           "schlief"
+          ]
+         },
+         "combine": {
+          "sentences": [
+           "Er ist müde.",
+           "Er hat schlecht geschlafen."
+          ],
+          "link": "weil"
+         },
+         "orders": [
+          "Weil er schlecht geschlafen hat, ist er müde."
+         ],
+         "id": "de-phrase-6-1-04"
+        },
+        {
+         "text": "Ich rufe dich an, weil ich eine Frage habe.",
+         "fr": "Je t'appelle parce que j'ai une question.",
+         "chunks": [
+          "ich",
+          "rufe",
+          "dich",
+          "an",
+          "weil",
+          "ich",
+          "eine Frage",
+          "habe"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "ich rufe dich an",
+          "answer": "la principale",
+          "why": "Avant weil : la principale, dans l'ordre normal."
+         },
+         "blank": {
+          "chunk": "habe",
+          "base": "haben",
+          "wrong": [
+           "hat",
+           "hast"
+          ]
+         },
+         "wrongMeanings": [
+          "Tu m'appelles parce que tu as une question.",
+          "Je t'appelle parce que tu as une question."
+         ],
+         "combine": {
+          "sentences": [
+           "Ich rufe dich an.",
+           "Ich habe eine Frage."
+          ],
+          "link": "weil"
+         },
+         "orders": [
+          "Weil ich eine Frage habe, rufe ich dich an."
+         ],
+         "id": "de-phrase-6-1-05"
+        },
+        {
+         "text": "Die Kinder sind glücklich, weil heute die Ferien beginnen.",
+         "fr": "Les enfants sont heureux parce que les vacances commencent aujourd'hui.",
+         "chunks": [
+          "die Kinder",
+          "sind",
+          "glücklich",
+          "weil",
+          "heute",
+          "die Ferien",
+          "beginnen"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "weil",
+          "answer": "le mot qui ouvre la subordonnée",
+          "why": "Weil ouvre la subordonnée."
+         },
+         "blank": {
+          "chunk": "weil",
+          "base": "parce que",
+          "wrong": [
+           "denn",
+           "obwohl"
+          ]
+         },
+         "combine": {
+          "sentences": [
+           "Die Kinder sind glücklich.",
+           "Heute beginnen die Ferien."
+          ],
+          "link": "weil"
+         },
+         "orders": [
+          "Weil heute die Ferien beginnen, sind die Kinder glücklich.",
+          "Die Kinder sind glücklich, weil die Ferien heute beginnen."
+         ],
+         "id": "de-phrase-6-1-06"
+        },
+        {
+         "text": "Ich kaufe kein Auto, weil es zu teuer ist.",
+         "fr": "Je n'achète pas de voiture parce que c'est trop cher.",
+         "chunks": [
+          "ich",
+          "kaufe",
+          "kein Auto",
+          "weil",
+          "es",
+          "zu teuer",
+          "ist"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "ist",
+          "answer": "le verbe de la subordonnée, à la fin",
+          "why": "Après weil, le verbe part à la fin."
+         },
+         "blank": {
+          "chunk": "ist",
+          "base": "sein",
+          "wrong": [
+           "sind",
+           "bist"
+          ]
+         },
+         "wrongMeanings": [
+          "J'achète une voiture parce qu'elle n'est pas chère.",
+          "La voiture est trop chère, mais je l'achète."
+         ],
+         "combine": {
+          "sentences": [
+           "Ich kaufe kein Auto.",
+           "Es ist zu teuer."
+          ],
+          "link": "weil"
+         },
+         "orders": [
+          "Weil es zu teuer ist, kaufe ich kein Auto."
+         ],
+         "id": "de-phrase-6-1-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel est le rôle du groupe surligné ?",
+        "options": [
+         "la principale",
+         "la subordonnée",
+         "le mot qui ouvre la subordonnée",
+         "le verbe de la subordonnée, à la fin"
+        ]
+       }
+      },
+      {
+       "id": "de-phrase-6:2",
+       "title": "dass : rapporter ce qu'on dit ou pense",
+       "rule": {
+        "intro": "dass veut dire « que ». Après ich glaube, ich weiß, er sagt, es ist schön…, il ouvre une subordonnée : verbe à la fin.",
+        "points": [
+         "Ich glaube, dass er recht hat.",
+         "das (le, ce) et dass (que) se prononcent pareil : dass prend deux s.",
+         "Après glauben, wissen, sagen, hoffen…, on peut aussi enlever dass ; l'ordre redevient normal : Ich glaube, er hat recht.",
+         "Un verbe séparable reste entier à la fin : …, dass Paul umzieht."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Ich glaube, dass er recht hat.",
+          "Je crois qu'il a raison."
+         ],
+         [
+          "Weißt du, dass Paul umzieht?",
+          "Tu sais que Paul déménage ?"
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich glaube, dass er recht hat.",
+         "fr": "Je crois qu'il a raison.",
+         "chunks": [
+          "ich",
+          "glaube",
+          "dass",
+          "er",
+          "recht",
+          "hat"
+         ],
+         "focus": {
+          "chunk": "dass",
+          "answer": "le mot qui ouvre la subordonnée",
+          "why": "Dass ouvre la subordonnée."
+         },
+         "blank": {
+          "chunk": "hat",
+          "base": "haben",
+          "wrong": [
+           "habe",
+           "hast"
+          ]
+         },
+         "alt": [
+          "Ich glaube, er hat recht."
+         ],
+         "combine": {
+          "sentences": [
+           "Ich glaube es.",
+           "Er hat recht."
+          ],
+          "link": "dass"
+         },
+         "id": "de-phrase-6-2-01"
+        },
+        {
+         "text": "Sie sagt, dass sie morgen kommt.",
+         "fr": "Elle dit qu'elle vient demain.",
+         "chunks": [
+          "sie",
+          "sagt",
+          "dass",
+          "sie",
+          "morgen",
+          "kommt"
+         ],
+         "focus": {
+          "chunk": "kommt",
+          "answer": "le verbe de la subordonnée, à la fin",
+          "why": "Après dass, le verbe part à la fin."
+         },
+         "blank": {
+          "chunk": "kommt",
+          "base": "kommen",
+          "wrong": [
+           "kommen",
+           "komme"
+          ]
+         },
+         "alt": [
+          "Sie sagt, sie kommt morgen."
+         ],
+         "wrongMeanings": [
+          "Elle dit qu'elle est venue hier.",
+          "Je dis qu'elle vient demain."
+         ],
+         "id": "de-phrase-6-2-02"
+        },
+        {
+         "text": "Weißt du, dass Paul umzieht?",
+         "fr": "Tu sais que Paul déménage ?",
+         "chunks": [
+          "weißt",
+          "du",
+          "dass",
+          "Paul",
+          "umzieht"
+         ],
+         "focus": {
+          "chunk": "umzieht",
+          "answer": "le verbe de la subordonnée, à la fin",
+          "why": "Dans la subordonnée, le verbe séparable reste entier à la fin : umzieht."
+         },
+         "blank": {
+          "chunk": "umzieht",
+          "base": "umziehen",
+          "wrong": [
+           "zieht um",
+           "umziehst"
+          ]
+         },
+         "wrongMeanings": [
+          "Tu sais où Paul habite ?",
+          "Tu sais que Paul a déménagé ?"
+         ],
+         "id": "de-phrase-6-2-03"
+        },
+        {
+         "text": "Es ist schön, dass du da bist.",
+         "fr": "C'est bien que tu sois là.",
+         "chunks": [
+          "es",
+          "ist",
+          "schön",
+          "dass",
+          "du",
+          "da",
+          "bist"
+         ],
+         "focus": {
+          "chunk": "dass du da bist",
+          "answer": "la subordonnée",
+          "why": "De dass jusqu'au verbe : la subordonnée."
+         },
+         "blank": {
+          "chunk": "bist",
+          "base": "sein",
+          "wrong": [
+           "seist",
+           "sind"
+          ]
+         },
+         "id": "de-phrase-6-2-04"
+        },
+        {
+         "text": "Ich hoffe, dass das Wetter morgen gut ist.",
+         "fr": "J'espère qu'il fera beau demain.",
+         "chunks": [
+          "ich",
+          "hoffe",
+          "dass",
+          "das Wetter",
+          "morgen",
+          "gut",
+          "ist"
+         ],
+         "focus": {
+          "chunk": "dass",
+          "answer": "le mot qui ouvre la subordonnée",
+          "why": "Dass (que) ouvre la subordonnée ; das Wetter, avec un seul s, c'est l'article."
+         },
+         "blank": {
+          "chunk": "dass",
+          "base": "que",
+          "wrong": [
+           "das",
+           "weil"
+          ]
+         },
+         "alt": [
+          "Ich hoffe, das Wetter ist morgen gut."
+         ],
+         "id": "de-phrase-6-2-05"
+        },
+        {
+         "text": "Er hat mir gesagt, dass er keine Zeit hat.",
+         "fr": "Il m'a dit qu'il n'avait pas le temps.",
+         "chunks": [
+          "er",
+          "hat",
+          "mir",
+          "gesagt",
+          "dass",
+          "er",
+          "keine Zeit",
+          "hat"
+         ],
+         "focus": {
+          "chunk": "er hat mir gesagt",
+          "answer": "la principale",
+          "why": "Avant dass : la principale."
+         },
+         "alt": [
+          "Er hat mir gesagt, er hat keine Zeit."
+         ],
+         "wrongMeanings": [
+          "Je lui ai dit qu'il n'avait pas le temps.",
+          "Il m'a dit qu'il aurait le temps."
+         ],
+         "id": "de-phrase-6-2-06"
+        },
+        {
+         "text": "Ich finde es gut, dass ihr zusammen lernt.",
+         "fr": "Je trouve bien que vous appreniez ensemble.",
+         "chunks": [
+          "ich",
+          "finde",
+          "es",
+          "gut",
+          "dass",
+          "ihr",
+          "zusammen",
+          "lernt"
+         ],
+         "focus": {
+          "chunk": "lernt",
+          "answer": "le verbe de la subordonnée, à la fin",
+          "why": "Après dass, le verbe part à la fin."
+         },
+         "blank": {
+          "chunk": "lernt",
+          "base": "lernen",
+          "wrong": [
+           "lernen",
+           "lernst"
+          ]
+         },
+         "id": "de-phrase-6-2-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel est le rôle du groupe surligné ?",
+        "options": [
+         "la principale",
+         "la subordonnée",
+         "le mot qui ouvre la subordonnée",
+         "le verbe de la subordonnée, à la fin"
+        ]
+       }
+      },
+      {
+       "id": "de-phrase-6:3",
+       "title": "wenn : si, quand",
+       "rule": {
+        "intro": "wenn veut dire « si » (une condition) ou « quand » (chaque fois que, ou dans le futur). Le verbe part à la fin.",
+        "points": [
+         "Ruf mich an, wenn du Zeit hast.",
+         "Pour une condition, c'est wenn, jamais ob.",
+         "wenn ouvre très souvent la phrase ; la principale commence alors par son verbe : Wenn du Zeit hast, ruf mich an. On s'y entraînera beaucoup dans l'unité suivante."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Ruf mich an, wenn du Zeit hast.",
+          "Appelle-moi si tu as le temps."
+         ],
+         [
+          "Der Hund bellt, wenn jemand klingelt.",
+          "Le chien aboie quand quelqu'un sonne."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ruf mich an, wenn du Zeit hast.",
+         "fr": "Appelle-moi si tu as le temps.",
+         "chunks": [
+          "ruf",
+          "mich",
+          "an",
+          "wenn",
+          "du",
+          "Zeit",
+          "hast"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "hast",
+          "answer": "le verbe de la subordonnée, à la fin",
+          "why": "Après wenn, le verbe part à la fin."
+         },
+         "blank": {
+          "chunk": "hast",
+          "base": "haben",
+          "wrong": [
+           "hat",
+           "habt"
+          ]
+         },
+         "wrongMeanings": [
+          "Appelle-moi quand tu auras fini.",
+          "Je t'appelle si j'ai le temps."
+         ],
+         "combine": {
+          "sentences": [
+           "Ruf mich an!",
+           "Du hast Zeit."
+          ],
+          "link": "wenn"
+         },
+         "orders": [
+          "Wenn du Zeit hast, ruf mich an."
+         ],
+         "id": "de-phrase-6-3-01"
+        },
+        {
+         "text": "Wir gehen spazieren, wenn die Sonne scheint.",
+         "fr": "Nous allons nous promener quand le soleil brille.",
+         "chunks": [
+          "wir",
+          "gehen",
+          "spazieren",
+          "wenn",
+          "die Sonne",
+          "scheint"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "wenn die Sonne scheint",
+          "answer": "la subordonnée",
+          "why": "De wenn jusqu'au verbe : la subordonnée."
+         },
+         "blank": {
+          "chunk": "scheint",
+          "base": "scheinen",
+          "wrong": [
+           "scheinen",
+           "scheinst"
+          ]
+         },
+         "combine": {
+          "sentences": [
+           "Wir gehen spazieren.",
+           "Die Sonne scheint."
+          ],
+          "link": "wenn"
+         },
+         "orders": [
+          "Wenn die Sonne scheint, gehen wir spazieren."
+         ],
+         "id": "de-phrase-6-3-02"
+        },
+        {
+         "text": "Ich trinke Kaffee, wenn ich müde bin.",
+         "fr": "Je bois du café quand je suis fatigué.",
+         "chunks": [
+          "ich",
+          "trinke",
+          "Kaffee",
+          "wenn",
+          "ich",
+          "müde",
+          "bin"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "ich trinke Kaffee",
+          "answer": "la principale",
+          "why": "Avant wenn : la principale."
+         },
+         "blank": {
+          "chunk": "bin",
+          "base": "sein",
+          "wrong": [
+           "ist",
+           "bist"
+          ]
+         },
+         "wrongMeanings": [
+          "Je suis fatigué quand je bois du café.",
+          "Je ne bois pas de café quand je suis fatigué."
+         ],
+         "combine": {
+          "sentences": [
+           "Ich trinke Kaffee.",
+           "Ich bin müde."
+          ],
+          "link": "wenn"
+         },
+         "orders": [
+          "Wenn ich müde bin, trinke ich Kaffee."
+         ],
+         "id": "de-phrase-6-3-03"
+        },
+        {
+         "text": "Du kannst bei uns schlafen, wenn du willst.",
+         "fr": "Tu peux dormir chez nous si tu veux.",
+         "chunks": [
+          "du",
+          "kannst",
+          "bei uns",
+          "schlafen",
+          "wenn",
+          "du",
+          "willst"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "willst",
+          "answer": "le verbe de la subordonnée, à la fin",
+          "why": "Après wenn, le verbe part à la fin."
+         },
+         "blank": {
+          "chunk": "willst",
+          "base": "wollen",
+          "wrong": [
+           "will",
+           "wollt"
+          ]
+         },
+         "orders": [
+          "Wenn du willst, kannst du bei uns schlafen."
+         ],
+         "id": "de-phrase-6-3-04"
+        },
+        {
+         "text": "Sag mir Bescheid, wenn du angekommen bist.",
+         "fr": "Préviens-moi quand tu seras arrivé.",
+         "chunks": [
+          "sag",
+          "mir",
+          "Bescheid",
+          "wenn",
+          "du",
+          "angekommen",
+          "bist"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "bist",
+          "answer": "le verbe de la subordonnée, à la fin",
+          "why": "Au Perfekt : le participe, puis bist tout à la fin."
+         },
+         "blank": {
+          "chunk": "bist",
+          "base": "haben ou sein",
+          "wrong": [
+           "hast"
+          ]
+         },
+         "wrongMeanings": [
+          "Préviens-moi avant de partir.",
+          "Je te préviens quand je serai arrivé."
+         ],
+         "orders": [
+          "Wenn du angekommen bist, sag mir Bescheid."
+         ],
+         "id": "de-phrase-6-3-05"
+        },
+        {
+         "text": "Der Hund bellt, wenn jemand klingelt.",
+         "fr": "Le chien aboie quand quelqu'un sonne.",
+         "chunks": [
+          "der Hund",
+          "bellt",
+          "wenn",
+          "jemand",
+          "klingelt"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "wenn",
+          "answer": "le mot qui ouvre la subordonnée",
+          "why": "Wenn ouvre la subordonnée."
+         },
+         "blank": {
+          "chunk": "klingelt",
+          "base": "klingeln",
+          "wrong": [
+           "klingeln",
+           "klingelst"
+          ]
+         },
+         "wrongMeanings": [
+          "Quelqu'un sonne quand le chien aboie.",
+          "Le chien aboie si personne ne sonne."
+         ],
+         "combine": {
+          "sentences": [
+           "Der Hund bellt.",
+           "Jemand klingelt."
+          ],
+          "link": "wenn"
+         },
+         "orders": [
+          "Wenn jemand klingelt, bellt der Hund."
+         ],
+         "id": "de-phrase-6-3-06"
+        },
+        {
+         "text": "Ich komme gern mit, wenn ich nicht arbeiten muss.",
+         "fr": "Je viens volontiers si je ne dois pas travailler.",
+         "chunks": [
+          "ich",
+          "komme",
+          "gern",
+          "mit",
+          "wenn",
+          "ich",
+          "nicht",
+          "arbeiten",
+          "muss"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "muss",
+          "answer": "le verbe de la subordonnée, à la fin",
+          "why": "Le verbe de modalité conjugué passe tout à la fin."
+         },
+         "blank": {
+          "chunk": "muss",
+          "base": "müssen",
+          "wrong": [
+           "musst",
+           "müssen"
+          ]
+         },
+         "combine": {
+          "sentences": [
+           "Ich komme gern mit.",
+           "Ich muss nicht arbeiten."
+          ],
+          "link": "wenn"
+         },
+         "orders": [
+          "Wenn ich nicht arbeiten muss, komme ich gern mit."
+         ],
+         "id": "de-phrase-6-3-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel est le rôle du groupe surligné ?",
+        "options": [
+         "la principale",
+         "la subordonnée",
+         "le mot qui ouvre la subordonnée",
+         "le verbe de la subordonnée, à la fin"
+        ]
+       }
+      },
+      {
+       "id": "de-phrase-6:4",
+       "title": "ob : si, dans une question indirecte",
+       "rule": {
+        "intro": "ob veut dire « si » dans une question indirecte : je ne sais pas si…, il demande si…",
+        "points": [
+         "Ich weiß nicht, ob er kommt.",
+         "wenn = si (une condition) ; ob = si (est-ce que ?). Le truc : si on peut dire « est-ce que », c'est ob.",
+         "Verbe à la fin, comme après dass et weil."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Ich weiß nicht, ob er kommt.",
+          "Je ne sais pas s'il vient."
+         ],
+         [
+          "Es gibt Brot, wenn du Hunger hast.",
+          "Il y a du pain si tu as faim."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Ich weiß nicht, ob er kommt.",
+         "fr": "Je ne sais pas s'il vient.",
+         "chunks": [
+          "ich",
+          "weiß",
+          "nicht",
+          "ob",
+          "er",
+          "kommt"
+         ],
+         "focus": {
+          "chunk": "ob",
+          "answer": "ob : est-ce que… ?",
+          "why": "Est-ce qu'il vient ? Je ne sais pas : ob."
+         },
+         "blank": {
+          "chunk": "ob",
+          "base": "si",
+          "wrong": [
+           "wenn",
+           "dass"
+          ]
+         },
+         "wrongMeanings": [
+          "Je sais qu'il ne vient pas.",
+          "Je ne sais pas quand il vient."
+         ],
+         "combine": {
+          "sentences": [
+           "Ich weiß es nicht.",
+           "Kommt er?"
+          ],
+          "link": "ob"
+         },
+         "id": "de-phrase-6-4-01"
+        },
+        {
+         "text": "Er fragt, ob wir Hunger haben.",
+         "fr": "Il demande si nous avons faim.",
+         "chunks": [
+          "er",
+          "fragt",
+          "ob",
+          "wir",
+          "Hunger",
+          "haben"
+         ],
+         "focus": {
+          "chunk": "ob",
+          "answer": "ob : est-ce que… ?",
+          "why": "Avez-vous faim ? : une question rapportée, donc ob."
+         },
+         "blank": {
+          "chunk": "ob",
+          "base": "si",
+          "wrong": [
+           "wenn",
+           "weil"
+          ]
+         },
+         "id": "de-phrase-6-4-02"
+        },
+        {
+         "text": "Es gibt Brot, wenn du Hunger hast.",
+         "fr": "Il y a du pain si tu as faim.",
+         "chunks": [
+          "es",
+          "gibt",
+          "Brot",
+          "wenn",
+          "du",
+          "Hunger",
+          "hast"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "wenn",
+          "answer": "wenn : à condition que",
+          "why": "Une condition : wenn."
+         },
+         "blank": {
+          "chunk": "wenn",
+          "base": "si",
+          "wrong": [
+           "ob",
+           "dass"
+          ]
+         },
+         "orders": [
+          "Wenn du Hunger hast, gibt es Brot."
+         ],
+         "id": "de-phrase-6-4-03"
+        },
+        {
+         "text": "Kannst du mir sagen, ob der Zug Verspätung hat?",
+         "fr": "Tu peux me dire si le train a du retard ?",
+         "chunks": [
+          "kannst",
+          "du",
+          "mir",
+          "sagen",
+          "ob",
+          "der Zug",
+          "Verspätung",
+          "hat"
+         ],
+         "focus": {
+          "chunk": "ob",
+          "answer": "ob : est-ce que… ?",
+          "why": "Est-ce que le train a du retard ? : ob."
+         },
+         "blank": {
+          "chunk": "ob",
+          "base": "si",
+          "wrong": [
+           "wenn",
+           "dass"
+          ]
+         },
+         "wrongMeanings": [
+          "Tu peux me dire quand le train arrive ?",
+          "Tu peux me dire pourquoi le train a du retard ?"
+         ],
+         "combine": {
+          "sentences": [
+           "Kannst du mir das sagen?",
+           "Hat der Zug Verspätung?"
+          ],
+          "link": "ob"
+         },
+         "id": "de-phrase-6-4-04"
+        },
+        {
+         "text": "Ich frage mich, ob sie mich noch kennt.",
+         "fr": "Je me demande si elle me connaît encore.",
+         "chunks": [
+          "ich",
+          "frage",
+          "mich",
+          "ob",
+          "sie",
+          "mich",
+          "noch",
+          "kennt"
+         ],
+         "focus": {
+          "chunk": "ob",
+          "answer": "ob : est-ce que… ?",
+          "why": "Je me demande : est-ce qu'elle me connaît ? ob."
+         },
+         "blank": {
+          "chunk": "ob",
+          "base": "si",
+          "wrong": [
+           "wenn",
+           "weil"
+          ]
+         },
+         "id": "de-phrase-6-4-05"
+        },
+        {
+         "text": "Wir fahren morgen ans Meer, wenn das Wetter schön ist.",
+         "fr": "Demain, nous allons à la mer s'il fait beau.",
+         "chunks": [
+          "wir",
+          "fahren",
+          "morgen",
+          "ans Meer",
+          "wenn",
+          "das Wetter",
+          "schön",
+          "ist"
+         ],
+         "orders": [
+          "Morgen fahren wir ans Meer, wenn das Wetter schön ist.",
+          "Wenn das Wetter schön ist, fahren wir morgen ans Meer."
+         ],
+         "orderWhy": "Les deux sont corrects : dans la principale, le verbe reste 2e.",
+         "focus": {
+          "chunk": "wenn",
+          "answer": "wenn : à condition que",
+          "why": "Une condition : wenn."
+         },
+         "blank": {
+          "chunk": "wenn",
+          "base": "si",
+          "wrong": [
+           "ob",
+           "dass"
+          ]
+         },
+         "id": "de-phrase-6-4-06"
+        },
+        {
+         "text": "Weißt du, ob das Museum heute geöffnet ist?",
+         "fr": "Tu sais si le musée est ouvert aujourd'hui ?",
+         "chunks": [
+          "weißt",
+          "du",
+          "ob",
+          "das Museum",
+          "heute",
+          "geöffnet",
+          "ist"
+         ],
+         "focus": {
+          "chunk": "ob",
+          "answer": "ob : est-ce que… ?",
+          "why": "Est-ce que le musée est ouvert ? : ob."
+         },
+         "blank": {
+          "chunk": "ob",
+          "base": "si",
+          "wrong": [
+           "wenn",
+           "dass"
+          ]
+         },
+         "combine": {
+          "sentences": [
+           "Weißt du es?",
+           "Ist das Museum heute geöffnet?"
+          ],
+          "link": "ob"
+         },
+         "id": "de-phrase-6-4-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Quel « si » ?",
+        "options": [
+         "ob : est-ce que… ?",
+         "wenn : à condition que"
+        ]
+       }
+      },
+      {
+       "id": "de-phrase-6:5",
+       "title": "obwohl : bien que",
+       "rule": {
+        "intro": "obwohl veut dire « bien que, même si » : une chose arrive malgré l'autre.",
+        "points": [
+         "Er geht spazieren, obwohl es regnet.",
+         "Pas de subjonctif comme en français : le verbe allemand reste normal, mais à la fin.",
+         "Comparer weil (la cause) et obwohl (malgré)."
+        ],
+        "tables": [],
+        "examples": [
+         [
+          "Er geht spazieren, obwohl es regnet.",
+          "Il va se promener bien qu'il pleuve."
+         ],
+         [
+          "Sie bleibt zu Hause, weil sie krank ist.",
+          "Elle reste à la maison parce qu'elle est malade."
+         ]
+        ]
+       },
+       "sentences": [
+        {
+         "text": "Er geht spazieren, obwohl es regnet.",
+         "fr": "Il va se promener bien qu'il pleuve.",
+         "chunks": [
+          "er",
+          "geht",
+          "spazieren",
+          "obwohl",
+          "es",
+          "regnet"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "obwohl",
+          "answer": "un obstacle, malgré lequel… (obwohl)",
+          "why": "La pluie ne l'arrête pas : obwohl."
+         },
+         "blank": {
+          "chunk": "obwohl",
+          "base": "parce que ? bien que ?",
+          "wrong": [
+           "weil",
+           "wenn"
+          ]
+         },
+         "wrongMeanings": [
+          "Il ne va pas se promener parce qu'il pleut.",
+          "Il va se promener parce qu'il pleut."
+         ],
+         "combine": {
+          "sentences": [
+           "Er geht spazieren.",
+           "Es regnet."
+          ],
+          "link": "obwohl"
+         },
+         "orders": [
+          "Obwohl es regnet, geht er spazieren."
+         ],
+         "id": "de-phrase-6-5-01"
+        },
+        {
+         "text": "Sie bleibt zu Hause, weil sie krank ist.",
+         "fr": "Elle reste à la maison parce qu'elle est malade.",
+         "chunks": [
+          "sie",
+          "bleibt",
+          "zu Hause",
+          "weil",
+          "sie",
+          "krank",
+          "ist"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "weil",
+          "answer": "la cause (weil)",
+          "why": "La maladie est la cause : weil."
+         },
+         "blank": {
+          "chunk": "weil",
+          "base": "parce que ? bien que ?",
+          "wrong": [
+           "obwohl",
+           "ob"
+          ]
+         },
+         "combine": {
+          "sentences": [
+           "Sie bleibt zu Hause.",
+           "Sie ist krank."
+          ],
+          "link": "weil"
+         },
+         "orders": [
+          "Weil sie krank ist, bleibt sie zu Hause."
+         ],
+         "id": "de-phrase-6-5-02"
+        },
+        {
+         "text": "Sie arbeitet, obwohl sie krank ist.",
+         "fr": "Elle travaille bien qu'elle soit malade.",
+         "chunks": [
+          "sie",
+          "arbeitet",
+          "obwohl",
+          "sie",
+          "krank",
+          "ist"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "obwohl",
+          "answer": "un obstacle, malgré lequel… (obwohl)",
+          "why": "Malade, et pourtant elle travaille : obwohl."
+         },
+         "blank": {
+          "chunk": "obwohl",
+          "base": "parce que ? bien que ?",
+          "wrong": [
+           "weil",
+           "ob"
+          ]
+         },
+         "wrongMeanings": [
+          "Elle travaille parce qu'elle est malade.",
+          "Elle ne travaille pas, car elle est malade."
+         ],
+         "combine": {
+          "sentences": [
+           "Sie arbeitet.",
+           "Sie ist krank."
+          ],
+          "link": "obwohl"
+         },
+         "orders": [
+          "Obwohl sie krank ist, arbeitet sie."
+         ],
+         "id": "de-phrase-6-5-03"
+        },
+        {
+         "text": "Wir sind glücklich, obwohl wir wenig Geld haben.",
+         "fr": "Nous sommes heureux bien que nous ayons peu d'argent.",
+         "chunks": [
+          "wir",
+          "sind",
+          "glücklich",
+          "obwohl",
+          "wir",
+          "wenig Geld",
+          "haben"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "obwohl",
+          "answer": "un obstacle, malgré lequel… (obwohl)",
+          "why": "Peu d'argent, et pourtant heureux : obwohl."
+         },
+         "blank": {
+          "chunk": "obwohl",
+          "base": "parce que ? bien que ?",
+          "wrong": [
+           "weil",
+           "dass"
+          ]
+         },
+         "combine": {
+          "sentences": [
+           "Wir sind glücklich.",
+           "Wir haben wenig Geld."
+          ],
+          "link": "obwohl"
+         },
+         "orders": [
+          "Obwohl wir wenig Geld haben, sind wir glücklich."
+         ],
+         "id": "de-phrase-6-5-04"
+        },
+        {
+         "text": "Ich esse den Kuchen, obwohl ich keinen Hunger habe.",
+         "fr": "Je mange le gâteau bien que je n'aie pas faim.",
+         "chunks": [
+          "ich",
+          "esse",
+          "den Kuchen",
+          "obwohl",
+          "ich",
+          "keinen Hunger",
+          "habe"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "obwohl",
+          "answer": "un obstacle, malgré lequel… (obwohl)",
+          "why": "Pas faim, et pourtant je mange : obwohl."
+         },
+         "blank": {
+          "chunk": "obwohl",
+          "base": "parce que ? bien que ?",
+          "wrong": [
+           "weil",
+           "ob"
+          ]
+         },
+         "wrongMeanings": [
+          "Je mange le gâteau parce que j'ai faim.",
+          "Je ne mange pas le gâteau, car je n'ai pas faim."
+         ],
+         "orders": [
+          "Obwohl ich keinen Hunger habe, esse ich den Kuchen."
+         ],
+         "id": "de-phrase-6-5-05"
+        },
+        {
+         "text": "Er kauft das Auto, weil es billig ist.",
+         "fr": "Il achète la voiture parce qu'elle n'est pas chère.",
+         "chunks": [
+          "er",
+          "kauft",
+          "das Auto",
+          "weil",
+          "es",
+          "billig",
+          "ist"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "weil",
+          "answer": "la cause (weil)",
+          "why": "Le prix est la cause : weil."
+         },
+         "blank": {
+          "chunk": "weil",
+          "base": "parce que ? bien que ?",
+          "wrong": [
+           "obwohl",
+           "ob"
+          ]
+         },
+         "wrongMeanings": [
+          "Il achète la voiture bien qu'elle soit chère.",
+          "Il n'achète pas la voiture, car elle est chère."
+         ],
+         "orders": [
+          "Weil es billig ist, kauft er das Auto."
+         ],
+         "id": "de-phrase-6-5-06"
+        },
+        {
+         "text": "Der Film war gut, obwohl er sehr lang war.",
+         "fr": "Le film était bien, même s'il était très long.",
+         "chunks": [
+          "der Film",
+          "war",
+          "gut",
+          "obwohl",
+          "er",
+          "sehr lang",
+          "war"
+         ],
+         "orderWhy": "Les deux ordres sont corrects : si la subordonnée ouvre la phrase, le verbe de la principale vient juste après la virgule.",
+         "focus": {
+          "chunk": "obwohl",
+          "answer": "un obstacle, malgré lequel… (obwohl)",
+          "why": "Long, et pourtant bien : obwohl."
+         },
+         "blank": {
+          "chunk": "obwohl",
+          "base": "parce que ? bien que ?",
+          "wrong": [
+           "weil",
+           "dass"
+          ]
+         },
+         "combine": {
+          "sentences": [
+           "Der Film war gut.",
+           "Er war sehr lang."
+          ],
+          "link": "obwohl"
+         },
+         "orders": [
+          "Obwohl er sehr lang war, war der Film gut."
+         ],
+         "id": "de-phrase-6-5-07"
+        }
+       ],
+       "ask": {
+        "prompt": "Que dit la subordonnée ?",
+        "options": [
+         "la cause (weil)",
+         "un obstacle, malgré lequel… (obwohl)"
         ]
        }
       }
